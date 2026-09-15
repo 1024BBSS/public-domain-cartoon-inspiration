@@ -1,0 +1,102 @@
+/* Agent efficiency tool tokens — single source. Do not hardcode colors elsewhere. */
+:root {
+  --bg: #000000;
+  --surface: #000000;
+  --surface-2: #16181c;  /* X elevated */
+  --border: #2f3336;
+  --border-strong: #536471;
+
+  --text: #e7e9ea;
+  --text-2: #71767b;
+  --text-3: #536471;
+
+  --accent: #ffffff;       /* X-like highlight */
+  --accent-muted: color-mix(in srgb, var(--accent) 12%, transparent);
+  --accent-fg: #000000;       /* text/icon on accent (white button) */
+
+  --ok: #22c55e;
+  --warn: #eab308;
+  --danger: #ef4444;
+
+  /* Chart series — max 4; never invent extra hues */
+  --series-1: #e7e9ea;  /* primary series near-white */
+  --series-2: #22c55e;
+  --series-3: #f59e0b;
+  --series-4: #a78bfa;
+  --grid: #2f3336;
+  --axis: #71767b;
+
+  --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-md: 14px;
+  --text-lg: 16px;
+  --text-xl: 20px;
+  --leading: 1.45;
+  --leading-tight: 1.25;
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+
+  --control-h: 32px;
+  --control-h-sm: 28px;
+  --icon: 16px;
+  --topbar-h: 48px;
+  --sidebar-w: 220px;
+  --main-max: 1120px;
+
+  --shadow: 0 0 0 1px var(--border), 0 8px 24px rgba(0, 0, 0, 0.35);
+  --ease: 150ms ease-out;
+}
+
+[data-theme="light"] {
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #f7f9f9;
+  --border: #eff3f4;
+  --border-strong: #cfd9de;
+  --text: #0f1419;
+  --text-2: #536471;
+  --text-3: #8b98a5;
+  --accent: #0f1419;
+  --accent-fg: #ffffff;
+  --accent-muted: color-mix(in srgb, var(--accent) 8%, transparent);
+  --series-1: #0f1419;
+  --grid: #eff3f4;
+  --axis: #8b98a5;
+  --shadow: 0 0 0 1px var(--border), 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: var(--text-sm);
+  line-height: var(--leading);
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select, textarea {
+  font: inherit;
+  color: inherit;
+}

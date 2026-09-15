@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="面向美国市场的公版卡通视觉灵感库：按类型检索，查看具体版本、画面和原始来源。">
+  <title>公版卡通灵感库</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12'/%3E%3Cpath fill='white' d='M14 18h36v7H21v8h24v7H21v13h-7z'/%3E%3C/svg%3E">
+  <link rel="alternate" type="application/json" href="data/catalog.json" title="公版卡通灵感数据">
+  <link rel="stylesheet" href="assets/tokens.css">
+  <link rel="stylesheet" href="assets/components.css">
+  <link rel="stylesheet" href="assets/app.css">
+  <script defer src="data/catalog.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="topbar__title">公版卡通灵感</div>
+      <span class="topbar__meta" id="top-meta">载入中</span>
+      <div class="topbar__spacer"></div>
+      <div class="topbar__actions">
+        <a class="btn btn--ghost btn--sm" href="data/catalog.json" target="_blank" rel="noreferrer">数据 JSON</a>
+        <button class="btn btn--primary btn--sm" id="copy-filter" type="button">复制当前页</button>
+      </div>
+    </header>
+
+    <div class="body">
+      <aside class="sidebar" aria-label="类型筛选">
+        <div class="sidebar__section">
+          <div class="sidebar__label">类型</div>
+          <nav class="facet-list" id="desktop-tags"></nav>
+        </div>
+        <div class="sidebar__section">
+          <div class="sidebar__label">内容</div>
+          <nav class="facet-list" id="desktop-kinds"></nav>
+        </div>
+        <div class="sidebar__section">
+          <div class="sidebar__label">版权路径</div>
+          <nav class="facet-list" id="desktop-rights"></nav>
+        </div>
+        <div class="sidebar__section sidebar__section--tail">
+          <p class="boundary-note">只展示已确认版本。制作前仍需核对具体画面、后期形象、商标和平台规则。</p>
+        </div>
+      </aside>
+
+      <main class="main catalog-main">
+        <section class="filterbar" aria-label="查找与排序">
+          <label class="search-field">
+            <span class="sr-only">搜索</span>
+            <input class="input" id="search" type="search" autocomplete="off" placeholder="搜角色、作品、场景、节日">
+          </label>
+          <select class="select compact-select" id="kind-select" aria-label="内容类型">
+            <option value="主档">主档</option>
+            <option value="全部">全部内容</option>
+            <option value="动画画面">动画画面</option>
+          </select>
+          <select class="select compact-select" id="rights-select" aria-label="版权路径">
+            <option value="全部">全部版权路径</option>
+          </select>
+          <select class="select compact-select" id="sort-select" aria-label="排序">
+            <option value="type">类型排序</option>
+            <option value="awareness">美国知名度</option>
+            <option value="year">年代</option>
+            <option value="title">名称</option>
+          </select>
+          <button class="btn btn--secondary" id="reset" type="button">重置</button>
+        </section>
+
+        <div class="mobile-tags" id="mobile-tags" aria-label="类型快捷筛选"></div>
+
+        <section class="result-head" aria-live="polite">
+          <div><strong id="result-count">0</strong><span class="dim"> 条结果</span></div>
+          <div class="dim" id="page-status"></div>
+        </section>
+
+        <section class="art-grid" id="art-grid" aria-label="公版卡通视觉"></section>
+
+        <div class="empty" id="empty-state" hidden>
+          <div class="empty__title">没有匹配项</div>
+          <div class="dim">换一个类型或缩短关键词。</div>
+          <button class="btn btn--secondary btn--sm" id="empty-reset" type="button">清空筛选</button>
+        </div>
+
+        <nav class="pager" aria-label="分页">
+          <button class="btn btn--secondary" id="prev-page" type="button">上一页</button>
+          <span class="pager__status" id="pager-status">1 / 1</span>
+          <button class="btn btn--secondary" id="next-page" type="button">下一页</button>
+        </nav>
+      </main>
+    </div>
+  </div>
+
+  <dialog class="detail-dialog" id="detail-dialog">
+    <form method="dialog" class="dialog-close-row">
+      <button class="btn btn--ghost btn--sm" aria-label="关闭详情">关闭</button>
+    </form>
+    <div class="detail-layout">
+      <div class="detail-media"><img id="detail-image" alt=""></div>
+      <article class="detail-copy">
+        <div class="eyebrow" id="detail-kind"></div>
+        <h1 id="detail-title"></h1>
+        <p class="detail-subtitle" id="detail-subtitle"></p>
+        <div class="badge-row" id="detail-badges"></div>
+        <dl class="detail-list">
+          <div><dt>可取</dt><dd id="detail-usage"></dd></div>
+          <div><dt>避开</dt><dd id="detail-avoid"></dd></div>
+          <div><dt>角色 / 场景</dt><dd id="detail-context"></dd></div>
+          <div><dt>证据</dt><dd id="detail-evidence"></dd></div>
+        </dl>
+        <div class="detail-actions">
+          <a class="btn btn--secondary" id="detail-source" target="_blank" rel="noreferrer">查看原始来源</a>
+          <button class="btn btn--primary" id="copy-item" type="button">复制这张</button>
+        </div>
+      </article>
+    </div>
+  </dialog>
+</body>
+</html>
