@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-the-little-mermaid-8e78c3db",
+    "title": "The Little Mermaid",
+    "subtitle": "Edmund Dulac 童话插图 · 1911",
+    "year": "1911",
+    "yearSort": 1911,
+    "coverImage": "images/354a5bceccad3857f869.webp",
+    "coverRecordId": "catalog-little-mermaid",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Little_Mermaid_-_mermaids_treasures_-_Edmund_Dulac_for_Andersen.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [
+      "海滨 / 水下"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-little-mermaid"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-little-mermaid"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 69,
+    "entityIds": [
+      "role-the-little-mermaid-3f2f02a8"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-the-little-mermaid-3f2f02a8",
+      "name": "The Little Mermaid",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/354a5bceccad3857f869.webp",
+      "coverRecordId": "catalog-little-mermaid",
+      "yearStart": 1911,
+      "yearEnd": 1911,
+      "workIds": [
+        "work-the-little-mermaid-8e78c3db"
+      ],
+      "recordIds": [
+        "catalog-little-mermaid"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "topScenes": [
+        {
+          "name": "海滨 / 水下",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 69,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-little-mermaid",
+      "kind": "主档",
+      "title": "The Little Mermaid",
+      "subtitle": "Edmund Dulac 童话插图 · 1911",
+      "year": "1911",
+      "yearSort": 1911,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Little_Mermaid_-_mermaids_treasures_-_Edmund_Dulac_for_Andersen.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "海滨 / 水下"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 69,
+      "awarenessLevel": "中",
+      "image": "images/354a5bceccad3857f869.webp"
+    }
+  ]
+}

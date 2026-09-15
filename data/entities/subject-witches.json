@@ -1,0 +1,979 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "subject-witches",
+    "name": "女巫与女术士",
+    "type": "文化题材",
+    "aliases": [
+      "女术士",
+      "女巫",
+      "Sorceress",
+      "Witch"
+    ],
+    "virtual": true,
+    "coverImage": "images/fc2775e50b6e69664504.webp",
+    "coverRecordId": "catalog-seasonal-mtky1ru82pjyt",
+    "yearStart": 1497,
+    "yearEnd": 1900,
+    "workIds": [
+      "work-the-four-witches-a767b69c",
+      "work-the-witch-215616f2",
+      "work-witch-riding-backwards-on-a-goat-e4eda6f2",
+      "work-lo-stregozzo-a-female-witch-riding-on-an-animal-skelet-74656e9a",
+      "work-witches-preparing-for-sabbath-4f7de925",
+      "work-a-witches-sabbath-a9fbb112",
+      "work-circe-with-companions-of-ulysses-changed-into-animals-dfb03999",
+      "work-ulysses-before-circe-mercury-behind-3a74d158",
+      "work-macbeth-and-the-witches-shakespeare-macbeth-act-1-scen-75c9ab56",
+      "work-saul-and-the-witch-of-endor-68d646a0",
+      "work-the-witches-appear-to-macbeth-and-banquo-c9b50116",
+      "work-macbeth-and-the-witches-d90c6d09",
+      "work-faust-and-mephistopheles-galloping-through-the-night-o-b7418299",
+      "work-cauldron-of-the-sorceress-9359f6c4",
+      "work-witches-d940d1a5"
+    ],
+    "recordIds": [
+      "catalog-seasonal-mtky1ru82pjyt",
+      "catalog-seasonal-mtkz0hgncntlv",
+      "catalog-seasonal-mtky15wbgtkv5",
+      "catalog-seasonal-mtkz0lvpsh3kg",
+      "catalog-seasonal-mtkz0kayo90yb",
+      "catalog-seasonal-mtky11zfbgei2",
+      "catalog-seasonal-mtkyvuinmf71p",
+      "catalog-seasonal-mtkyxyhozao4v",
+      "catalog-seasonal-mtkz0q3h51jj7",
+      "catalog-seasonal-mtky1l5yw2y3b",
+      "catalog-seasonal-mtky1m7uqux0h",
+      "catalog-seasonal-mtky1gf7ngbay",
+      "catalog-seasonal-mtky1f7eiic6m",
+      "catalog-seasonal-mtkyybenclz2u",
+      "catalog-seasonal-mtky1hilf70m1"
+    ],
+    "frameIds": [],
+    "workCount": 15,
+    "imageCount": 15,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 15
+    },
+    "copyrightRoutes": [
+      "AIC API is_public_domain=true",
+      "The Met API isPublicDomain=true / CC0"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "怪诞 / 魔法",
+      "宗教 / 神话",
+      "漫画 / 角色",
+      "童话 / 寓言",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "女巫、女术士与怪诞",
+        "count": 15
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "暗黑 / 怪诞",
+        "count": 15
+      },
+      {
+        "name": "神话 / 魔法",
+        "count": 15
+      },
+      {
+        "name": "版画",
+        "count": 12
+      },
+      {
+        "name": "绘画",
+        "count": 2
+      },
+      {
+        "name": "馆藏图像",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 15
+      }
+    ],
+    "usage": "拆解人物姿态、群体关系、飞行方向、烟雾和夜间照明，重组为不依赖尖帽的女巫视觉。",
+    "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+    "awarenessScore": 0,
+    "sourceCount": 15,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-the-four-witches-a767b69c",
+      "title": "The Four Witches",
+      "subtitle": "Israhel van Meckenem the Younger (German, c. 1440/45-1503) after Albrecht Dürer (German, 1471-1528) · after 1497 · Engraving in black on ivory laid paper",
+      "year": "after 1497",
+      "yearSort": 1497,
+      "coverImage": "images/fc2775e50b6e69664504.webp",
+      "coverRecordId": "catalog-seasonal-mtky1ru82pjyt",
+      "sourceUrl": "https://www.artic.edu/artworks/81489",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · AIC"
+      ],
+      "usage": "拆解人物姿态、群体关系、飞行方向、烟雾和夜间照明，重组为不依赖尖帽的女巫视觉。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "版画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtky1ru82pjyt"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtky1ru82pjyt"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-the-witch-215616f2",
+      "title": "The Witch",
+      "subtitle": "Albrecht Dürer · ca. 1500 · Engraving",
+      "year": "ca. 1500",
+      "yearSort": 1500,
+      "coverImage": "images/ab10dbbc58907db4ff05.webp",
+      "coverRecordId": "catalog-seasonal-mtkz0hgncntlv",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/391138",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true / CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "区分神话女术士、宗教恐惧和现代节庆角色；研究姿态、器具、运动方向与群体仪式的组合。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "版画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtkz0hgncntlv"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtkz0hgncntlv"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-witch-riding-backwards-on-a-goat-e4eda6f2",
+      "title": "Witch Riding Backwards on a Goat",
+      "subtitle": "Albrecht Dürer German, 1471-1528 · 1500/02 · Engraving in black on ivory laid paper",
+      "year": "1500/02",
+      "yearSort": 1500,
+      "coverImage": "images/a35b5cd547cb73abdfcf.webp",
+      "coverRecordId": "catalog-seasonal-mtky15wbgtkv5",
+      "sourceUrl": "https://www.artic.edu/artworks/28351",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · AIC"
+      ],
+      "usage": "拆解人物姿态、群体关系、飞行方向、烟雾和夜间照明，重组为不依赖尖帽的女巫视觉。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "版画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtky15wbgtkv5"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtky15wbgtkv5"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-lo-stregozzo-a-female-witch-riding-on-an-animal-skelet-74656e9a",
+      "title": "Lo Stregozzo: a female witch riding on an animal skeleton, preceded by two men and a boy on a goat blowing on a horn, another naked man behind carrying two bones",
+      "subtitle": "Agostino Veneziano (Agostino dei Musi) · ca. 1515–25 · Engraving, first state before the engraver's initials on the horn",
+      "year": "ca. 1515–25",
+      "yearSort": 1510,
+      "coverImage": "images/0d27d6f710e0e67be8d6.webp",
+      "coverRecordId": "catalog-seasonal-mtkz0lvpsh3kg",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/336574",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true / CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "区分神话女术士、宗教恐惧和现代节庆角色；研究姿态、器具、运动方向与群体仪式的组合。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "动物 / 自然",
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "版画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtkz0lvpsh3kg"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtkz0lvpsh3kg"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-witches-preparing-for-sabbath-4f7de925",
+      "title": "Witches Preparing for Sabbath",
+      "subtitle": "Andries Stock · ca. 1610 · Engraving",
+      "year": "ca. 1610",
+      "yearSort": 1605,
+      "coverImage": "images/16c082ffb1a89a850b3b.webp",
+      "coverRecordId": "catalog-seasonal-mtkz0kayo90yb",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/336411",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true / CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "区分神话女术士、宗教恐惧和现代节庆角色；研究姿态、器具、运动方向与群体仪式的组合。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "版画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtkz0kayo90yb"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtkz0kayo90yb"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-a-witches-sabbath-a9fbb112",
+      "title": "A Witches' Sabbath",
+      "subtitle": "Cornelis Saftleven (Dutch, 1607–1681) · c. 1650 · Oil on panel",
+      "year": "c. 1650",
+      "yearSort": 1640,
+      "coverImage": "images/32c38b4df664ef36d0f9.webp",
+      "coverRecordId": "catalog-seasonal-mtky11zfbgei2",
+      "sourceUrl": "https://www.artic.edu/artworks/53495",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · AIC"
+      ],
+      "usage": "拆解人物姿态、群体关系、飞行方向、烟雾和夜间照明，重组为不依赖尖帽的女巫视觉。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "绘画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtky11zfbgei2"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtky11zfbgei2"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-circe-with-companions-of-ulysses-changed-into-animals-dfb03999",
+      "title": "Circe with Companions of Ulysses Changed into Animals",
+      "subtitle": "Giovanni Benedetto Castiglione Italian, 1609-1664 · 1650–51 · Etching on ivory laid paper",
+      "year": "1650–51",
+      "yearSort": 1650,
+      "coverImage": "images/9bd5ab0afd60277ca15d.webp",
+      "coverRecordId": "catalog-seasonal-mtkyvuinmf71p",
+      "sourceUrl": "https://www.artic.edu/artworks/30481",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · AIC"
+      ],
+      "usage": "区分神话女术士、宗教恐惧和现代节庆角色；研究姿态、器具、运动方向与群体仪式的组合。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "动物 / 自然",
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "版画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtkyvuinmf71p"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtkyvuinmf71p"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-ulysses-before-circe-mercury-behind-3a74d158",
+      "title": "Ulysses Before Circe, Mercury Behind",
+      "subtitle": "Gaetano Gandolfi Italian, 1734–1802 · 1766 · Red chalk, with touches of wetted red chalk, on cream laid paper",
+      "year": "1766",
+      "yearSort": 1766,
+      "coverImage": "images/3aa238b594149f9b483e.webp",
+      "coverRecordId": "catalog-seasonal-mtkyxyhozao4v",
+      "sourceUrl": "https://www.artic.edu/artworks/202292",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · AIC"
+      ],
+      "usage": "区分神话女术士、宗教恐惧和现代节庆角色；研究姿态、器具、运动方向与群体仪式的组合。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "馆藏图像",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtkyxyhozao4v"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtkyxyhozao4v"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-macbeth-and-the-witches-shakespeare-macbeth-act-1-scen-75c9ab56",
+      "title": "Macbeth and the Witches (Shakespeare, Macbeth, Act 1, Scene 1)",
+      "subtitle": "William Woollett · 1770 · Etching and engraving; seventh state of seven",
+      "year": "1770",
+      "yearSort": 1770,
+      "coverImage": "images/e82496a5f66776a286ef.webp",
+      "coverRecordId": "catalog-seasonal-mtkz0q3h51jj7",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/707862",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true / CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "区分神话女术士、宗教恐惧和现代节庆角色；研究姿态、器具、运动方向与群体仪式的组合。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "版画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtkz0q3h51jj7"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtkz0q3h51jj7"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-saul-and-the-witch-of-endor-68d646a0",
+      "title": "Saul and the Witch of Endor",
+      "subtitle": "William Sharp (English, 1749-1824) after Benjamin West (American, 1738-1820) · 1788 · Etching and engraving on paper",
+      "year": "1788",
+      "yearSort": 1788,
+      "coverImage": "images/84445ffc8f91a4a3b0a7.webp",
+      "coverRecordId": "catalog-seasonal-mtky1l5yw2y3b",
+      "sourceUrl": "https://www.artic.edu/artworks/132515",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · AIC"
+      ],
+      "usage": "拆解人物姿态、群体关系、飞行方向、烟雾和夜间照明，重组为不依赖尖帽的女巫视觉。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "版画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtky1l5yw2y3b"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtky1l5yw2y3b"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-the-witches-appear-to-macbeth-and-banquo-c9b50116",
+      "title": "The Witches Appear to Macbeth and Banquo",
+      "subtitle": "James Caldwall (English, born 1739-after 1798) after Henry Fuseli (Swiss, active in England, 1741-1825) published by John Boydell (English, 1719-1804) authored by William Shakespeare (English, 1564-1616) · 1798 · Etching on ivory wove paper",
+      "year": "1798",
+      "yearSort": 1798,
+      "coverImage": "images/e75c1e8d9d814b1900d7.webp",
+      "coverRecordId": "catalog-seasonal-mtky1m7uqux0h",
+      "sourceUrl": "https://www.artic.edu/artworks/154520",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · AIC"
+      ],
+      "usage": "拆解人物姿态、群体关系、飞行方向、烟雾和夜间照明，重组为不依赖尖帽的女巫视觉。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "版画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtky1m7uqux0h"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtky1m7uqux0h"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-macbeth-and-the-witches-d90c6d09",
+      "title": "Macbeth and the Witches",
+      "subtitle": "Eugène Delacroix French, 1798-1863 · 1825 · Lithograph from two stones in black and ivory on white wove paper",
+      "year": "1825",
+      "yearSort": 1825,
+      "coverImage": "images/8969392a5076ae90f60d.webp",
+      "coverRecordId": "catalog-seasonal-mtky1gf7ngbay",
+      "sourceUrl": "https://www.artic.edu/artworks/9549",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · AIC"
+      ],
+      "usage": "拆解人物姿态、群体关系、飞行方向、烟雾和夜间照明，重组为不依赖尖帽的女巫视觉。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "版画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtky1gf7ngbay"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtky1gf7ngbay"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-faust-and-mephistopheles-galloping-through-the-night-o-b7418299",
+      "title": "Faust and Mephistopheles Galloping Through the Night of the Witches' Sabbath",
+      "subtitle": "Eugène Delacroix French, 1798-1863 · 1828 · Lithograph in black on ivory wove paper",
+      "year": "1828",
+      "yearSort": 1828,
+      "coverImage": "images/7dff6ba9ca87e20e2102.webp",
+      "coverRecordId": "catalog-seasonal-mtky1f7eiic6m",
+      "sourceUrl": "https://www.artic.edu/artworks/7422",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · AIC"
+      ],
+      "usage": "拆解人物姿态、群体关系、飞行方向、烟雾和夜间照明，重组为不依赖尖帽的女巫视觉。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "版画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtky1f7eiic6m"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtky1f7eiic6m"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-cauldron-of-the-sorceress-9359f6c4",
+      "title": "Cauldron of the Sorceress",
+      "subtitle": "Odilon Redon French, 1840-1916 · 1879 · Various charcoals, with stumping, erasing, and incising, on pale-pink wove paper with red and blue fibers altered to a golden tone",
+      "year": "1879",
+      "yearSort": 1879,
+      "coverImage": "images/76b045c897b63e6fb6ba.webp",
+      "coverRecordId": "catalog-seasonal-mtkyybenclz2u",
+      "sourceUrl": "https://www.artic.edu/artworks/90324",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · AIC"
+      ],
+      "usage": "区分神话女术士、宗教恐惧和现代节庆角色；研究姿态、器具、运动方向与群体仪式的组合。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "绘画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtkyybenclz2u"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtkyybenclz2u"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    },
+    {
+      "id": "work-witches-d940d1a5",
+      "title": "Witches",
+      "subtitle": "Jean Veber French, 1864-1928 · 1900 · Lithograph from three stones in black (lavis and crayon), orange-red, and yellow, with remarque, on cream wove paper, laid down on board",
+      "year": "1900",
+      "yearSort": 1900,
+      "coverImage": "images/0be0ac3b35920e2328eb.webp",
+      "coverRecordId": "catalog-seasonal-mtky1hilf70m1",
+      "sourceUrl": "https://www.artic.edu/artworks/41054",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · AIC"
+      ],
+      "usage": "拆解人物姿态、群体关系、飞行方向、烟雾和夜间照明，重组为不依赖尖帽的女巫视觉。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "版画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtky1hilf70m1"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtky1hilf70m1"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-witches"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

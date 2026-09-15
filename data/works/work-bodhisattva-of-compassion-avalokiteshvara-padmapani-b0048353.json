@@ -1,0 +1,222 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-bodhisattva-of-compassion-avalokiteshvara-padmapani-b0048353",
+    "title": "Bodhisattva of Compassion, Avalokiteshvara Padmapani",
+    "subtitle": "作者 / 工坊待复核 · 1674 · stone",
+    "year": "1674",
+    "yearSort": 1674,
+    "coverImage": "images/632f790ab9977406aff9.webp",
+    "coverRecordId": "catalog-belief-cma-149361",
+    "sourceUrl": "https://clevelandart.org/art/1978.24",
+    "sourceLabel": "clevelandart.org",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "CC0 · Cleveland Museum of Art"
+    ],
+    "usage": "比较持物、坐姿、冠饰、月水意象和多臂结构。",
+    "avoid": "观音、Kannon 等不是可随意互换的同一现代角色。",
+    "tags": [
+      "怪诞 / 魔法",
+      "宗教 / 神话"
+    ],
+    "styles": [
+      "Indian and Southeast Asian Art; Nepalese Art; Sculpture",
+      "宗教 / 仪式",
+      "神话 / 魔法"
+    ],
+    "scenes": [
+      "佛教传统",
+      "观音与诸菩萨",
+      "慈悲救度 → 莲花与水月 → 多臂、多面与地域变体"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-belief-cma-149361"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-belief-cma-149361"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "subject-guanyin-bodhisattvas"
+    ]
+  },
+  "entities": [
+    {
+      "id": "subject-guanyin-bodhisattvas",
+      "name": "观音与诸菩萨",
+      "type": "文化题材",
+      "aliases": [
+        "观音",
+        "菩萨",
+        "Avalokiteshvara",
+        "Guanyin"
+      ],
+      "virtual": true,
+      "coverImage": "images/913f7379478816a91e55.webp",
+      "coverRecordId": "catalog-belief-cma-152487",
+      "yearStart": 300,
+      "yearEnd": 1674,
+      "workIds": [
+        "work-head-of-bodhisattva-avalokiteshvara-bb3f804b",
+        "work-bodhisattva-avalokiteshvara-436b208d",
+        "work-eleven-headed-bodhisattva-of-compassion-avalokiteshvar-0088a800",
+        "work-bodhisattva-manjushri-with-two-forms-of-avalokiteshvar-5aeec7fd",
+        "work-folio-348-from-a-gandavyuha-sutra-scripture-of-the-sup-007522a1",
+        "work-bodhisattva-of-compassion-as-lokeshvara-the-sky-flyer--6a179c13",
+        "work-white-robed-guanyin-b88e06da",
+        "work-eleven-headed-thousand-armed-bodhisattva-of-compassion-a9404ca8",
+        "work-bodhisattva-guanyin-of-the-south-sea-7ae78b2d",
+        "work-bodhisattva-of-compassion-avalokiteshvara-0a548cb4",
+        "work-bodhisattva-of-compassion-avalokiteshvara-padmapani-b0048353"
+      ],
+      "recordIds": [
+        "catalog-belief-cma-152487",
+        "catalog-belief-cma-149036",
+        "catalog-belief-cma-148021",
+        "catalog-belief-cma-133088",
+        "catalog-belief-cma-133087",
+        "catalog-belief-cma-155851",
+        "catalog-belief-cma-149390",
+        "catalog-belief-cma-150723",
+        "catalog-belief-cma-127950",
+        "catalog-belief-cma-143894",
+        "catalog-belief-cma-149361"
+      ],
+      "frameIds": [],
+      "workCount": 11,
+      "imageCount": 11,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 11
+      },
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "慈悲救度 → 莲花与水月 → 多臂、多面与地域变体",
+          "count": 11
+        },
+        {
+          "name": "佛教传统",
+          "count": 11
+        },
+        {
+          "name": "观音与诸菩萨",
+          "count": 11
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "神话 / 魔法",
+          "count": 11
+        },
+        {
+          "name": "宗教 / 仪式",
+          "count": 11
+        },
+        {
+          "name": "Indian and Southeast Asian Art; Indian Art; Painting",
+          "count": 2
+        },
+        {
+          "name": "Chinese Art; ASIAN - Hanging scroll; Painting",
+          "count": 1
+        },
+        {
+          "name": "Chinese Art; China - Liao Dynasty; Ivory",
+          "count": 1
+        },
+        {
+          "name": "Chinese Art; China - Ming Dynasty; Ceramic",
+          "count": 1
+        },
+        {
+          "name": "Indian and Southeast Asian Art; Cambodian Art; Sculpture",
+          "count": 1
+        },
+        {
+          "name": "Indian and Southeast Asian Art; Indian Art - Kushan, Gandhara; Sculpture",
+          "count": 1
+        },
+        {
+          "name": "Indian and Southeast Asian Art; Indian Art; Sculpture",
+          "count": 1
+        },
+        {
+          "name": "Indian and Southeast Asian Art; Nepalese Art; Sculpture",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "比较持物、坐姿、冠饰、月水意象和多臂结构。",
+      "avoid": "观音、Kannon 等不是可随意互换的同一现代角色。",
+      "awarenessScore": 0,
+      "sourceCount": 11,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-belief-cma-149361",
+      "kind": "主档",
+      "title": "Bodhisattva of Compassion, Avalokiteshvara Padmapani",
+      "subtitle": "作者 / 工坊待复核 · 1674 · stone",
+      "year": "1674",
+      "yearSort": 1674,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+      "evidenceLevel": "A",
+      "imageRights": "CC0 · Cleveland Museum of Art",
+      "sourceUrl": "https://clevelandart.org/art/1978.24",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "usage": "比较持物、坐姿、冠饰、月水意象和多臂结构。",
+      "avoid": "观音、Kannon 等不是可随意互换的同一现代角色。",
+      "styles": [
+        "Indian and Southeast Asian Art; Nepalese Art; Sculpture",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "佛教传统",
+        "观音与诸菩萨",
+        "慈悲救度 → 莲花与水月 → 多臂、多面与地域变体"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/632f790ab9977406aff9.webp"
+    }
+  ]
+}

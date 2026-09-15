@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-peter-rabbit-337cde15",
+    "title": "Peter Rabbit",
+    "subtitle": "Beatrix Potter 1902 原版插图",
+    "year": "1902",
+    "yearSort": 1902,
+    "coverImage": "images/c95a9d2ae1641b72c76f.webp",
+    "coverRecordId": "catalog-peter-rabbit",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:An-Original-Illustration-Of-Peter-Rabbit-From-1902-Author-Beatrix-Potter.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "视觉适配强，但名称和形象长期商品化；先做美国服装类商标检索。",
+    "avoid": "现代电影造型、品牌 Logo、后续出版物新增版式和角色模型。",
+    "tags": [
+      "童话 / 寓言",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "文学插画"
+    ],
+    "scenes": [
+      "森林 / 自然",
+      "动物 / 宠物"
+    ],
+    "holidays": [
+      "春季 / 复活节"
+    ],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-peter-rabbit"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-peter-rabbit"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 49,
+    "entityIds": [
+      "role-peter-rabbit-5edd6cd2"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-peter-rabbit-5edd6cd2",
+      "name": "Peter Rabbit",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/c95a9d2ae1641b72c76f.webp",
+      "coverRecordId": "catalog-peter-rabbit",
+      "yearStart": 1902,
+      "yearEnd": 1902,
+      "workIds": [
+        "work-peter-rabbit-337cde15"
+      ],
+      "recordIds": [
+        "catalog-peter-rabbit"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物 / 宠物",
+          "count": 1
+        },
+        {
+          "name": "森林 / 自然",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "春季 / 复活节",
+          "count": 1
+        }
+      ],
+      "usage": "视觉适配强，但名称和形象长期商品化；先做美国服装类商标检索。",
+      "avoid": "现代电影造型、品牌 Logo、后续出版物新增版式和角色模型。",
+      "awarenessScore": 49,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-peter-rabbit",
+      "kind": "主档",
+      "title": "Peter Rabbit",
+      "subtitle": "Beatrix Potter 1902 原版插图",
+      "year": "1902",
+      "yearSort": 1902,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:An-Original-Illustration-Of-Peter-Rabbit-From-1902-Author-Beatrix-Potter.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "视觉适配强，但名称和形象长期商品化；先做美国服装类商标检索。",
+      "avoid": "现代电影造型、品牌 Logo、后续出版物新增版式和角色模型。",
+      "styles": [
+        "文学插画"
+      ],
+      "scenes": [
+        "森林 / 自然",
+        "动物 / 宠物"
+      ],
+      "holidays": [
+        "春季 / 复活节"
+      ],
+      "characters": [],
+      "tags": [
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 49,
+      "awarenessLevel": "中",
+      "image": "images/c95a9d2ae1641b72c76f.webp"
+    }
+  ]
+}

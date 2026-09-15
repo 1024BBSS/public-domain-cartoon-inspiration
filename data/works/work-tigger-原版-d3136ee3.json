@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-tigger-原版-d3136ee3",
+    "title": "Tigger 原版",
+    "subtitle": "《The House at Pooh Corner》· 1928",
+    "year": "1928",
+    "yearSort": 1928,
+    "coverImage": "images/c80e644182c75566778d.webp",
+    "coverRecordId": "catalog-tigger",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pooh_meets_Tigger,_illustration_by_EH_Shepard.gif",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "若内部探索，仅做无现代配色的原版线描转化。",
+    "avoid": "Disney 橙黑配色、具体动画面部、后续口号与授权字标。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [
+      "家庭 / 室内"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-tigger"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-tigger"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 42,
+    "entityIds": [
+      "role-tigger-49df5f6c"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-tigger-49df5f6c",
+      "name": "Tigger",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/c80e644182c75566778d.webp",
+      "coverRecordId": "catalog-tigger",
+      "yearStart": 1928,
+      "yearEnd": 1928,
+      "workIds": [
+        "work-tigger-原版-d3136ee3"
+      ],
+      "recordIds": [
+        "catalog-tigger"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "topScenes": [
+        {
+          "name": "家庭 / 室内",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "若内部探索，仅做无现代配色的原版线描转化。",
+      "avoid": "Disney 橙黑配色、具体动画面部、后续口号与授权字标。",
+      "awarenessScore": 42,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-tigger",
+      "kind": "主档",
+      "title": "Tigger 原版",
+      "subtitle": "《The House at Pooh Corner》· 1928",
+      "year": "1928",
+      "yearSort": 1928,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pooh_meets_Tigger,_illustration_by_EH_Shepard.gif",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "若内部探索，仅做无现代配色的原版线描转化。",
+      "avoid": "Disney 橙黑配色、具体动画面部、后续口号与授权字标。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "家庭 / 室内"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 42,
+      "awarenessLevel": "中",
+      "image": "images/c80e644182c75566778d.webp"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-cats-suggested-as-the-fifty-three-stations-f3a6474d",
+    "name": "Cats Suggested as the Fifty-three Stations",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/4ae4e2985296f875f8aa.webp",
+    "coverRecordId": "catalog-kuniyoshi-cats",
+    "yearStart": 1850,
+    "yearEnd": 1850,
+    "workIds": [
+      "work-cats-suggested-as-the-fifty-three-stations-a6ea544d"
+    ],
+    "recordIds": [
+      "catalog-kuniyoshi-cats"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "漫画 / 角色",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "动物 / 宠物",
+        "count": 1
+      },
+      {
+        "name": "音乐 / 舞蹈",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "版画 / 浮世绘",
+        "count": 1
+      },
+      {
+        "name": "版画 / 装饰纹样",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "抽取一至两个主符号并减少碎线；连续纹样须重新设计接版，避免原图整幅平铺。",
+    "avoid": "现代品牌的二次组合、后期上色、重绘字体与受保护的数字衍生版本。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-cats-suggested-as-the-fifty-three-stations-a6ea544d",
+      "title": "Cats Suggested as the Fifty-three Stations",
+      "subtitle": "歌川国芳猫主题浮世绘 · 1850",
+      "year": "1850",
+      "yearSort": 1850,
+      "coverImage": "images/4ae4e2985296f875f8aa.webp",
+      "coverRecordId": "catalog-kuniyoshi-cats",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cats_suggested_as_the_fifty-three_stations_of_the_Tokaido.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "抽取一至两个主符号并减少碎线；连续纹样须重新设计接版，避免原图整幅平铺。",
+      "avoid": "现代品牌的二次组合、后期上色、重绘字体与受保护的数字衍生版本。",
+      "tags": [
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "版画 / 装饰纹样",
+        "版画 / 浮世绘"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物 / 宠物"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-kuniyoshi-cats"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-kuniyoshi-cats"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-cats-suggested-as-the-fifty-three-stations-f3a6474d"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

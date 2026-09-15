@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-the-steadfast-tin-soldier-1d6e6405",
+    "name": "The Steadfast Tin Soldier",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/e7039b5c811eb869463a.webp",
+    "coverRecordId": "catalog-tin-soldier",
+    "yearStart": 1850,
+    "yearEnd": 1850,
+    "workIds": [
+      "work-the-steadfast-tin-soldier-60ca7e0c"
+    ],
+    "recordIds": [
+      "catalog-tin-soldier"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言",
+      "圣诞 / 冬季"
+    ],
+    "topScenes": [
+      {
+        "name": "舞台 / 表演",
+        "count": 1
+      },
+      {
+        "name": "音乐 / 舞蹈",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "圣诞 / 冬季",
+        "count": 1
+      }
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 25,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-the-steadfast-tin-soldier-60ca7e0c",
+      "title": "The Steadfast Tin Soldier",
+      "subtitle": "Vilhelm Pedersen 安徒生插图 · 1850",
+      "year": "1850",
+      "yearSort": 1850,
+      "coverImage": "images/e7039b5c811eb869463a.webp",
+      "coverRecordId": "catalog-tin-soldier",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vilhelm_Pedersen,_DK2-0006,_ubt.jpeg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言",
+        "圣诞 / 冬季"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "舞台 / 表演"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-tin-soldier"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-tin-soldier"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 25,
+      "entityIds": [
+        "role-the-steadfast-tin-soldier-1d6e6405"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

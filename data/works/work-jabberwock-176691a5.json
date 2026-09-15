@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-jabberwock-176691a5",
+    "title": "Jabberwock",
+    "subtitle": "John Tenniel《Through the Looking-Glass》插图 · 1871",
+    "year": "1871",
+    "yearSort": 1871,
+    "coverImage": "images/187a7d3ecfc11ced0a7e.webp",
+    "coverRecordId": "catalog-jabberwock",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jabberwocky.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言",
+      "怪诞 / 魔法"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画",
+      "哥特 / 怪诞"
+    ],
+    "scenes": [],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-jabberwock"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-jabberwock"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 69,
+    "entityIds": [
+      "role-jabberwock-f7bb26fa"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-jabberwock-f7bb26fa",
+      "name": "Jabberwock",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/187a7d3ecfc11ced0a7e.webp",
+      "coverRecordId": "catalog-jabberwock",
+      "yearStart": 1871,
+      "yearEnd": 1871,
+      "workIds": [
+        "work-jabberwock-176691a5"
+      ],
+      "recordIds": [
+        "catalog-jabberwock"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "哥特 / 怪诞",
+          "count": 1
+        },
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 69,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-jabberwock",
+      "kind": "主档",
+      "title": "Jabberwock",
+      "subtitle": "John Tenniel《Through the Looking-Glass》插图 · 1871",
+      "year": "1871",
+      "yearSort": 1871,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jabberwocky.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画",
+        "哥特 / 怪诞"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 69,
+      "awarenessLevel": "中",
+      "image": "images/187a7d3ecfc11ced0a7e.webp"
+    }
+  ]
+}

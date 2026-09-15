@@ -1,0 +1,219 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-pendant-triptych-with-an-onyx-cameo-of-the-nativity-84be0098",
+    "title": "Pendant Triptych with an Onyx Cameo of the Nativity",
+    "subtitle": "作者 / 工坊待复核 · c. 1460–1500; cameo: c. 1250–1300 · basse-taille enamel on gold; onyx cameo",
+    "year": "c. 1460–1500; cameo: c. 1250–1300",
+    "yearSort": 1250,
+    "coverImage": "images/9b951c28c1d420207f22.webp",
+    "coverRecordId": "catalog-belief-cma-125587",
+    "sourceUrl": "https://clevelandart.org/art/1947.508",
+    "sourceLabel": "clevelandart.org",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "CC0 · Cleveland Museum of Art"
+    ],
+    "usage": "提炼星光、围合人物、礼物与中心光源。",
+    "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+    "tags": [
+      "圣诞 / 冬季",
+      "怪诞 / 魔法",
+      "宗教 / 神话"
+    ],
+    "styles": [
+      "Medieval Art; MED - Gothic; Enamel",
+      "宗教 / 仪式",
+      "神话 / 魔法"
+    ],
+    "scenes": [
+      "基督教 · 耶稣与圣像",
+      "耶稣降生与朝拜",
+      "天使报喜 → 马槽 → 牧羊人与三博士"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-belief-cma-125587"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-belief-cma-125587"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "subject-jesus-christian-iconography"
+    ]
+  },
+  "entities": [
+    {
+      "id": "subject-jesus-christian-iconography",
+      "name": "耶稣与基督教圣像",
+      "type": "文化题材",
+      "aliases": [
+        "基督",
+        "耶稣",
+        "Christ",
+        "Jesus",
+        "Nativity"
+      ],
+      "virtual": true,
+      "coverImage": "images/9b951c28c1d420207f22.webp",
+      "coverRecordId": "catalog-belief-cma-125587",
+      "yearStart": 1250,
+      "yearEnd": 1547,
+      "workIds": [
+        "work-pendant-triptych-with-an-onyx-cameo-of-the-nativity-84be0098",
+        "work-bifolio-from-an-antiphonary-historiated-initial-o-with-67a1ff25",
+        "work-triptych-with-the-adoration-of-the-magi-e3c44618",
+        "work-leaf-from-a-book-of-hours-the-nativity-recto-and-text--8dfa42ac",
+        "work-the-annunciation-and-the-nativity-a1049fdc",
+        "work-book-of-hours-use-of-utrecht-9769ddc6",
+        "work-single-leaf-from-an-antiphonary-initial-h-odie-nobis-w-7966302e",
+        "work-the-life-of-christ-the-nativity-0312906d",
+        "work-the-nativity-56582779",
+        "work-nativity-and-passion-of-christ-37deca27",
+        "work-the-adoration-of-the-shepherds-4dfbf978"
+      ],
+      "recordIds": [
+        "catalog-belief-cma-125587",
+        "catalog-belief-cma-148397",
+        "catalog-belief-cma-120995",
+        "catalog-belief-cma-171423",
+        "catalog-belief-cma-130980",
+        "catalog-belief-cma-160212",
+        "catalog-belief-cma-129858",
+        "catalog-belief-cma-149440",
+        "catalog-belief-cma-135311",
+        "catalog-belief-cma-143785",
+        "catalog-belief-cma-300708"
+      ],
+      "frameIds": [],
+      "workCount": 11,
+      "imageCount": 11,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 11
+      },
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "基督教 · 耶稣与圣像",
+          "count": 11
+        },
+        {
+          "name": "天使报喜 → 马槽 → 牧羊人与三博士",
+          "count": 11
+        },
+        {
+          "name": "耶稣降生与朝拜",
+          "count": 11
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "神话 / 魔法",
+          "count": 11
+        },
+        {
+          "name": "宗教 / 仪式",
+          "count": 11
+        },
+        {
+          "name": "Medieval Art; MED - Manuscript Illuminations; Manuscript",
+          "count": 3
+        },
+        {
+          "name": "Medieval Art; MED - Medieval Art; Painting",
+          "count": 3
+        },
+        {
+          "name": "Prints; PR - Engraving; Print",
+          "count": 2
+        },
+        {
+          "name": "Medieval Art; MED - Gothic; Enamel",
+          "count": 1
+        },
+        {
+          "name": "Medieval Art; MED - Manuscript Illuminations; Bound Volume",
+          "count": 1
+        },
+        {
+          "name": "Prints; PR - Woodcut; Print",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "提炼星光、围合人物、礼物与中心光源。",
+      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+      "awarenessScore": 0,
+      "sourceCount": 11,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-belief-cma-125587",
+      "kind": "主档",
+      "title": "Pendant Triptych with an Onyx Cameo of the Nativity",
+      "subtitle": "作者 / 工坊待复核 · c. 1460–1500; cameo: c. 1250–1300 · basse-taille enamel on gold; onyx cameo",
+      "year": "c. 1460–1500; cameo: c. 1250–1300",
+      "yearSort": 1250,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+      "evidenceLevel": "A",
+      "imageRights": "CC0 · Cleveland Museum of Art",
+      "sourceUrl": "https://clevelandart.org/art/1947.508",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "usage": "提炼星光、围合人物、礼物与中心光源。",
+      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+      "styles": [
+        "Medieval Art; MED - Gothic; Enamel",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "基督教 · 耶稣与圣像",
+        "耶稣降生与朝拜",
+        "天使报喜 → 马槽 → 牧羊人与三博士"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/9b951c28c1d420207f22.webp"
+    }
+  ]
+}

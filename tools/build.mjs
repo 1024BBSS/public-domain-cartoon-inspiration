@@ -6,6 +6,7 @@ import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
+import { writeRelationData } from "./relations.mjs";
 
 const execFileAsync = promisify(execFile);
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
@@ -309,6 +310,8 @@ await fs.writeFile(
   "utf8",
 );
 
+const relationResult = await writeRelationData(projectRoot, dataset);
+
 const manifest = {
   schemaVersion: "1.0",
   generatedAt: dataset.generatedAt,
@@ -323,6 +326,8 @@ const manifest = {
     byTag: by("tags"),
   },
   catalogSha256: createHash("sha256").update(catalogJson).digest("hex"),
+  relationsSha256: relationResult.sha256,
+  relationCounts: relationResult.relations.counts,
   exclusions: ["未续期待复核", "公版线索 · 待复核", "仍受版权保护", "Eagle 本地路径", "内部证据附件"],
 };
 await fs.writeFile(path.join(projectRoot, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`, "utf8");

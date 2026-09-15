@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-bambi-9e80f682",
+    "name": "Bambi",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/8ac3d854c85e9151b973.webp",
+    "coverRecordId": "catalog-bambi",
+    "yearStart": 1923,
+    "yearEnd": 1923,
+    "workIds": [
+      "work-bambi-原著-48c3b853"
+    ],
+    "recordIds": [
+      "catalog-bambi"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "topScenes": [
+      {
+        "name": "森林 / 自然",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "Disney 幼鹿脸型、配色、角色群与影片场景；只限原著及已确认公版的早期图像版本。",
+    "awarenessScore": 35,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-bambi-原著-48c3b853",
+      "title": "Bambi（原著）",
+      "subtitle": "Felix Salten 小说早期版本 · 1923",
+      "year": "1923",
+      "yearSort": 1923,
+      "coverImage": "images/8ac3d854c85e9151b973.webp",
+      "coverRecordId": "catalog-bambi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bambi_book_cover.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "Disney 幼鹿脸型、配色、角色群与影片场景；只限原著及已确认公版的早期图像版本。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "森林 / 自然"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-bambi"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-bambi"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 35,
+      "entityIds": [
+        "role-bambi-9e80f682"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

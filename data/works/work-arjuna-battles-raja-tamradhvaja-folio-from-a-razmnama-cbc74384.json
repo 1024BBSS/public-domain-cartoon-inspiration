@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-arjuna-battles-raja-tamradhvaja-folio-from-a-razmnama-cbc74384",
+    "title": "\"Arjuna Battles Raja Tamradhvaja\", Folio from a Razmnama",
+    "subtitle": "'Abd al-Rahim ibn Muhammad Bairam Khan Khan-i Khanan · ca. 1616–17 · Ink, opaque watercolor, and gold on paper",
+    "year": "ca. 1616–17",
+    "yearSort": 1591,
+    "coverImage": "images/07d922b9d5194ef08513.webp",
+    "coverRecordId": "catalog-belief-met-451314",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/451314",
+    "sourceLabel": "The Met",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "CC0 · The Met"
+    ],
+    "usage": "研究战车、森林流放、桥梁、十首敌手与分场叙事。",
+    "avoid": "史诗角色版本众多；不沿用当代电视剧和漫画定型。",
+    "tags": [
+      "怪诞 / 魔法",
+      "宗教 / 神话"
+    ],
+    "styles": [
+      "Islamic Art; Codices; Folio from an illustrated manuscript",
+      "宗教 / 仪式",
+      "神话 / 魔法",
+      "书籍 / 海报"
+    ],
+    "scenes": [
+      "印度教传统",
+      "《罗摩衍那》《摩诃婆罗多》与薄伽梵歌",
+      "流放与救援 → 大战 → 战车上的伦理抉择"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-belief-met-451314"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-belief-met-451314"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "subject-hindu-epics"
+    ]
+  },
+  "entities": [
+    {
+      "id": "subject-hindu-epics",
+      "name": "印度史诗人物",
+      "type": "文化题材",
+      "aliases": [
+        "罗摩衍那",
+        "摩诃婆罗多",
+        "Arjuna",
+        "Mahabharata",
+        "Rama",
+        "Ramayana",
+        "Sita"
+      ],
+      "virtual": true,
+      "coverImage": "images/36353ec797483f58c577.webp",
+      "coverRecordId": "catalog-belief-met-454344",
+      "yearStart": 1580,
+      "yearEnd": 1800,
+      "workIds": [
+        "work-rama-receives-sugriva-and-jambavat-the-monkey-and-bear-fb7ed67e",
+        "work-the-awakening-of-kumbhakarna-in-the-golden-city-of-lan-8c941754",
+        "work-the-court-of-ravana-folio-from-a-ramayana-3ee36c0f",
+        "work-the-death-of-king-dasharatha-the-father-of-rama-folio--c4436524",
+        "work-arjuna-battles-raja-tamradhvaja-folio-from-a-razmnama-cbc74384",
+        "work-double-sided-folio-from-a-ramayana-series-30d4a1e6",
+        "work-folio-18-from-a-chandana-malayagiri-varta-story-of-kin-c0f0e3e1",
+        "work-page-from-ramayana-052a9abc",
+        "work-pages-from-ramayana-a5e61d21"
+      ],
+      "recordIds": [
+        "catalog-belief-met-454344",
+        "catalog-belief-met-454357",
+        "catalog-belief-met-454358",
+        "catalog-belief-met-454359",
+        "catalog-belief-met-451314",
+        "catalog-belief-met-781881",
+        "catalog-belief-cma-143653",
+        "catalog-belief-cma-114258",
+        "catalog-belief-cma-114251"
+      ],
+      "frameIds": [],
+      "workCount": 9,
+      "imageCount": 9,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 9
+      },
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "《罗摩衍那》《摩诃婆罗多》与薄伽梵歌",
+          "count": 9
+        },
+        {
+          "name": "流放与救援 → 大战 → 战车上的伦理抉择",
+          "count": 9
+        },
+        {
+          "name": "印度教传统",
+          "count": 9
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "神话 / 魔法",
+          "count": 9
+        },
+        {
+          "name": "书籍 / 海报",
+          "count": 9
+        },
+        {
+          "name": "宗教 / 仪式",
+          "count": 9
+        },
+        {
+          "name": "Islamic Art; Codices; Folio from an illustrated manuscript",
+          "count": 5
+        },
+        {
+          "name": "Indian and Southeast Asian Art; Javanese Art; Manuscript",
+          "count": 2
+        },
+        {
+          "name": "Asian Art; Manuscripts; Folio",
+          "count": 1
+        },
+        {
+          "name": "Indian and Southeast Asian Art; Indian Art; Painting",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "研究战车、森林流放、桥梁、十首敌手与分场叙事。",
+      "avoid": "史诗角色版本众多；不沿用当代电视剧和漫画定型。",
+      "awarenessScore": 0,
+      "sourceCount": 9,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-belief-met-451314",
+      "kind": "主档",
+      "title": "\"Arjuna Battles Raja Tamradhvaja\", Folio from a Razmnama",
+      "subtitle": "'Abd al-Rahim ibn Muhammad Bairam Khan Khan-i Khanan · ca. 1616–17 · Ink, opaque watercolor, and gold on paper",
+      "year": "ca. 1616–17",
+      "yearSort": 1591,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+      "evidenceLevel": "A",
+      "imageRights": "CC0 · The Met",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/451314",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "usage": "研究战车、森林流放、桥梁、十首敌手与分场叙事。",
+      "avoid": "史诗角色版本众多；不沿用当代电视剧和漫画定型。",
+      "styles": [
+        "Islamic Art; Codices; Folio from an illustrated manuscript",
+        "宗教 / 仪式",
+        "神话 / 魔法",
+        "书籍 / 海报"
+      ],
+      "scenes": [
+        "印度教传统",
+        "《罗摩衍那》《摩诃婆罗多》与薄伽梵歌",
+        "流放与救援 → 大战 → 战车上的伦理抉择"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/07d922b9d5194ef08513.webp"
+    }
+  ]
+}

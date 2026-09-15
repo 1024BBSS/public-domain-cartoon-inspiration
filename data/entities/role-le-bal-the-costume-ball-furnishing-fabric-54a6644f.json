@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-le-bal-the-costume-ball-furnishing-fabric-54a6644f",
+    "name": "Le Bal (The Costume Ball) (Furnishing Fabric)",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/01767ede328c2ba8a4dc.webp",
+    "coverRecordId": "catalog-seasonal-mtky9ujsxsgd6",
+    "yearStart": 1825,
+    "yearEnd": 1825,
+    "workIds": [
+      "work-le-bal-the-costume-ball-furnishing-fabric-196bb132"
+    ],
+    "recordIds": [
+      "catalog-seasonal-mtky9ujsxsgd6"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 1
+    },
+    "copyrightRoutes": [
+      "AIC API is_public_domain=true"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节"
+    ],
+    "topScenes": [
+      {
+        "name": "面具、伪装与公共节庆",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "版画",
+        "count": 1
+      },
+      {
+        "name": "人物 / 肖像",
+        "count": 1
+      },
+      {
+        "name": "生活 / 节庆",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "研究成对人物、入场姿态、扇子、面罩和服装层次，构建社交场景。",
+    "avoid": "嘉年华不是 Halloween；借机制，不挪用具体传统服饰。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-le-bal-the-costume-ball-furnishing-fabric-196bb132",
+      "title": "Le Bal (The Costume Ball) (Furnishing Fabric)",
+      "subtitle": "Designed by George Zipelius (French, 1808-1890) after Sulpice Guillaume Chevallier, called Gavarni (French, 1804-1866) France · 1827/40 · Cotton, plain weave; engraved-roller printed",
+      "year": "1827/40",
+      "yearSort": 1825,
+      "coverImage": "images/01767ede328c2ba8a4dc.webp",
+      "coverRecordId": "catalog-seasonal-mtky9ujsxsgd6",
+      "sourceUrl": "https://www.artic.edu/artworks/86597",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · AIC"
+      ],
+      "usage": "研究成对人物、入场姿态、扇子、面罩和服装层次，构建社交场景。",
+      "avoid": "嘉年华不是 Halloween；借机制，不挪用具体传统服饰。",
+      "tags": [
+        "万圣节"
+      ],
+      "styles": [
+        "版画",
+        "人物 / 肖像",
+        "生活 / 节庆"
+      ],
+      "scenes": [
+        "面具、伪装与公共节庆"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtky9ujsxsgd6"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtky9ujsxsgd6"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-le-bal-the-costume-ball-furnishing-fabric-54a6644f"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

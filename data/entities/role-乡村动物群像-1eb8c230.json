@@ -1,0 +1,950 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-乡村动物群像-1eb8c230",
+    "name": "乡村动物群像",
+    "type": "群像 / 生物",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/f8d45fef597cf8362595.webp",
+    "coverRecordId": "frame-the-shindig-1930-001",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "workIds": [
+      "work-the-shindig乡村舞会-a41d1b28"
+    ],
+    "recordIds": [
+      "frame-the-shindig-1930-001",
+      "frame-the-shindig-1930-002",
+      "frame-the-shindig-1930-003",
+      "frame-the-shindig-1930-004",
+      "frame-the-shindig-1930-005",
+      "frame-the-shindig-1930-006",
+      "frame-the-shindig-1930-007",
+      "frame-the-shindig-1930-008",
+      "frame-the-shindig-1930-009",
+      "frame-the-shindig-1930-010",
+      "frame-the-shindig-1930-011",
+      "frame-the-shindig-1930-012",
+      "frame-the-shindig-1930-013",
+      "frame-the-shindig-1930-014"
+    ],
+    "frameIds": [
+      "frame-the-shindig-1930-001",
+      "frame-the-shindig-1930-002",
+      "frame-the-shindig-1930-003",
+      "frame-the-shindig-1930-004",
+      "frame-the-shindig-1930-005",
+      "frame-the-shindig-1930-006",
+      "frame-the-shindig-1930-007",
+      "frame-the-shindig-1930-008",
+      "frame-the-shindig-1930-009",
+      "frame-the-shindig-1930-010",
+      "frame-the-shindig-1930-011",
+      "frame-the-shindig-1930-012",
+      "frame-the-shindig-1930-013",
+      "frame-the-shindig-1930-014"
+    ],
+    "workCount": 1,
+    "imageCount": 14,
+    "frameCount": 14,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "派对",
+        "count": 14
+      },
+      {
+        "name": "乡村",
+        "count": 14
+      },
+      {
+        "name": "音乐 / 舞蹈",
+        "count": 14
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "橡皮管动画",
+        "count": 14
+      },
+      {
+        "name": "早期 Disney",
+        "count": 14
+      }
+    ],
+    "topHolidays": [],
+    "usage": "橡皮管动画 · 早期 Disney · 派对 · 音乐 / 舞蹈",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-mickey-mouse-ac752a50",
+      "role-minnie-mouse-b07065a5"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-the-shindig乡村舞会-a41d1b28",
+      "title": "《The Shindig》乡村舞会",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/f8d45fef597cf8362595.webp",
+      "coverRecordId": "frame-the-shindig-1930-001",
+      "sourceUrl": "https://archive.org/details/the-shindig_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "橡皮管动画 · 早期 Disney · 派对 · 音乐 / 舞蹈",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "橡皮管动画",
+        "早期 Disney"
+      ],
+      "scenes": [
+        "派对",
+        "音乐 / 舞蹈",
+        "乡村"
+      ],
+      "holidays": [],
+      "characterNames": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "乡村动物群像"
+      ],
+      "characterAliases": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "乡村动物群像"
+      ],
+      "recordIds": [
+        "frame-the-shindig-1930-001",
+        "frame-the-shindig-1930-002",
+        "frame-the-shindig-1930-003",
+        "frame-the-shindig-1930-004",
+        "frame-the-shindig-1930-005",
+        "frame-the-shindig-1930-006",
+        "frame-the-shindig-1930-007",
+        "frame-the-shindig-1930-008",
+        "frame-the-shindig-1930-009",
+        "frame-the-shindig-1930-010",
+        "frame-the-shindig-1930-011",
+        "frame-the-shindig-1930-012",
+        "frame-the-shindig-1930-013",
+        "frame-the-shindig-1930-014"
+      ],
+      "frameIds": [
+        "frame-the-shindig-1930-001",
+        "frame-the-shindig-1930-002",
+        "frame-the-shindig-1930-003",
+        "frame-the-shindig-1930-004",
+        "frame-the-shindig-1930-005",
+        "frame-the-shindig-1930-006",
+        "frame-the-shindig-1930-007",
+        "frame-the-shindig-1930-008",
+        "frame-the-shindig-1930-009",
+        "frame-the-shindig-1930-010",
+        "frame-the-shindig-1930-011",
+        "frame-the-shindig-1930-012",
+        "frame-the-shindig-1930-013",
+        "frame-the-shindig-1930-014"
+      ],
+      "masterIds": [],
+      "imageCount": 14,
+      "frameCount": 14,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5",
+        "role-乡村动物群像-1eb8c230"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-mickey-mouse-ac752a50",
+      "name": "Mickey Mouse",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/f78b0219dda15335c363.webp",
+      "coverRecordId": "catalog-mickey",
+      "yearStart": 1928,
+      "yearEnd": 1934,
+      "workIds": [
+        "work-the-chain-gang追逐与越狱-9c106ad9",
+        "work-the-cactus-kid西部酒馆-f34d3ea1",
+        "work-the-gorilla-mystery猩猩谜案-023ad571",
+        "work-the-barnyard-concert农场音乐会-4f752d5c",
+        "work-the-shindig乡村舞会-a41d1b28",
+        "work-fiddling-around小提琴独奏-1a7a3686",
+        "work-the-picnic郊外野餐-0d17c756",
+        "work-pioneer-days拓荒旅途-ebdad9c4",
+        "work-the-fire-fighters城市救火-20e9a170",
+        "work-rumplewatt-the-giant未续期边界案例-927928fd",
+        "work-mickey-mouse-1-0-1795eca9"
+      ],
+      "recordIds": [
+        "frame-the-chain-gang-1930-001",
+        "frame-the-chain-gang-1930-002",
+        "frame-the-chain-gang-1930-003",
+        "frame-the-chain-gang-1930-004",
+        "frame-the-chain-gang-1930-005",
+        "frame-the-chain-gang-1930-006",
+        "frame-the-chain-gang-1930-007",
+        "frame-the-chain-gang-1930-008",
+        "frame-the-chain-gang-1930-009",
+        "frame-the-chain-gang-1930-010",
+        "frame-the-chain-gang-1930-011",
+        "frame-the-chain-gang-1930-012",
+        "frame-the-chain-gang-1930-013",
+        "frame-the-chain-gang-1930-014",
+        "frame-the-chain-gang-1930-015",
+        "frame-the-chain-gang-1930-016",
+        "frame-the-cactus-kid-1930-001",
+        "frame-the-cactus-kid-1930-002",
+        "frame-the-cactus-kid-1930-003",
+        "frame-the-cactus-kid-1930-004",
+        "frame-the-cactus-kid-1930-005",
+        "frame-the-cactus-kid-1930-006",
+        "frame-the-cactus-kid-1930-007",
+        "frame-the-cactus-kid-1930-008",
+        "frame-the-cactus-kid-1930-009",
+        "frame-the-cactus-kid-1930-010",
+        "frame-the-cactus-kid-1930-011",
+        "frame-the-cactus-kid-1930-012",
+        "frame-the-cactus-kid-1930-013",
+        "frame-the-cactus-kid-1930-014",
+        "frame-the-cactus-kid-1930-015",
+        "frame-the-gorilla-mystery-1930-001",
+        "frame-the-gorilla-mystery-1930-002",
+        "frame-the-gorilla-mystery-1930-003",
+        "frame-the-gorilla-mystery-1930-004",
+        "frame-the-gorilla-mystery-1930-005",
+        "frame-the-gorilla-mystery-1930-006",
+        "frame-the-gorilla-mystery-1930-007",
+        "frame-the-gorilla-mystery-1930-008",
+        "frame-the-gorilla-mystery-1930-009",
+        "frame-the-gorilla-mystery-1930-010",
+        "frame-the-gorilla-mystery-1930-011",
+        "frame-the-gorilla-mystery-1930-012",
+        "frame-the-gorilla-mystery-1930-013",
+        "frame-the-gorilla-mystery-1930-014",
+        "frame-the-gorilla-mystery-1930-015",
+        "frame-the-barnyard-concert-1930-001",
+        "frame-the-barnyard-concert-1930-002",
+        "frame-the-barnyard-concert-1930-003",
+        "frame-the-barnyard-concert-1930-004",
+        "frame-the-barnyard-concert-1930-005",
+        "frame-the-barnyard-concert-1930-006",
+        "frame-the-barnyard-concert-1930-007",
+        "frame-the-barnyard-concert-1930-008",
+        "frame-the-barnyard-concert-1930-009",
+        "frame-the-barnyard-concert-1930-010",
+        "frame-the-barnyard-concert-1930-011",
+        "frame-the-barnyard-concert-1930-012",
+        "frame-the-shindig-1930-001",
+        "frame-the-shindig-1930-002",
+        "frame-the-shindig-1930-003",
+        "frame-the-shindig-1930-004",
+        "frame-the-shindig-1930-005",
+        "frame-the-shindig-1930-006",
+        "frame-the-shindig-1930-007",
+        "frame-the-shindig-1930-008",
+        "frame-the-shindig-1930-009",
+        "frame-the-shindig-1930-010",
+        "frame-the-shindig-1930-011",
+        "frame-the-shindig-1930-012",
+        "frame-the-shindig-1930-013",
+        "frame-the-shindig-1930-014",
+        "frame-fiddling-around-1930-001",
+        "frame-fiddling-around-1930-002",
+        "frame-fiddling-around-1930-003",
+        "frame-fiddling-around-1930-004",
+        "frame-fiddling-around-1930-005",
+        "frame-fiddling-around-1930-006",
+        "frame-fiddling-around-1930-007",
+        "frame-fiddling-around-1930-008",
+        "frame-fiddling-around-1930-009",
+        "frame-fiddling-around-1930-010",
+        "frame-fiddling-around-1930-011",
+        "frame-fiddling-around-1930-012",
+        "frame-fiddling-around-1930-013",
+        "frame-fiddling-around-1930-014",
+        "frame-the-picnic-1930-001",
+        "frame-the-picnic-1930-002",
+        "frame-the-picnic-1930-003",
+        "frame-the-picnic-1930-004",
+        "frame-the-picnic-1930-005",
+        "frame-the-picnic-1930-006",
+        "frame-the-picnic-1930-007",
+        "frame-the-picnic-1930-008",
+        "frame-the-picnic-1930-009",
+        "frame-the-picnic-1930-010",
+        "frame-the-picnic-1930-011",
+        "frame-the-picnic-1930-012",
+        "frame-the-picnic-1930-013",
+        "frame-the-picnic-1930-014",
+        "frame-pioneer-days-1930-001",
+        "frame-pioneer-days-1930-002",
+        "frame-pioneer-days-1930-003",
+        "frame-pioneer-days-1930-004",
+        "frame-pioneer-days-1930-005",
+        "frame-pioneer-days-1930-006",
+        "frame-pioneer-days-1930-007",
+        "frame-pioneer-days-1930-008",
+        "frame-pioneer-days-1930-009",
+        "frame-pioneer-days-1930-010",
+        "frame-pioneer-days-1930-011",
+        "frame-pioneer-days-1930-012",
+        "frame-pioneer-days-1930-013",
+        "frame-pioneer-days-1930-014",
+        "frame-pioneer-days-1930-015",
+        "frame-pioneer-days-1930-016",
+        "frame-the-fire-fighters-1930-001",
+        "frame-the-fire-fighters-1930-002",
+        "frame-the-fire-fighters-1930-003",
+        "frame-the-fire-fighters-1930-004",
+        "frame-the-fire-fighters-1930-005",
+        "frame-the-fire-fighters-1930-006",
+        "frame-the-fire-fighters-1930-007",
+        "frame-the-fire-fighters-1930-008",
+        "frame-the-fire-fighters-1930-009",
+        "frame-the-fire-fighters-1930-010",
+        "frame-the-fire-fighters-1930-011",
+        "frame-the-fire-fighters-1930-012",
+        "frame-the-fire-fighters-1930-013",
+        "frame-the-fire-fighters-1930-014",
+        "frame-the-fire-fighters-1930-015",
+        "frame-rumplewatt-1934-001",
+        "frame-rumplewatt-1934-002",
+        "catalog-mickey-rumplewatt-1934",
+        "catalog-mickey"
+      ],
+      "frameIds": [
+        "frame-the-chain-gang-1930-001",
+        "frame-the-chain-gang-1930-002",
+        "frame-the-chain-gang-1930-003",
+        "frame-the-chain-gang-1930-004",
+        "frame-the-chain-gang-1930-005",
+        "frame-the-chain-gang-1930-006",
+        "frame-the-chain-gang-1930-007",
+        "frame-the-chain-gang-1930-008",
+        "frame-the-chain-gang-1930-009",
+        "frame-the-chain-gang-1930-010",
+        "frame-the-chain-gang-1930-011",
+        "frame-the-chain-gang-1930-012",
+        "frame-the-chain-gang-1930-013",
+        "frame-the-chain-gang-1930-014",
+        "frame-the-chain-gang-1930-015",
+        "frame-the-chain-gang-1930-016",
+        "frame-the-cactus-kid-1930-001",
+        "frame-the-cactus-kid-1930-002",
+        "frame-the-cactus-kid-1930-003",
+        "frame-the-cactus-kid-1930-004",
+        "frame-the-cactus-kid-1930-005",
+        "frame-the-cactus-kid-1930-006",
+        "frame-the-cactus-kid-1930-007",
+        "frame-the-cactus-kid-1930-008",
+        "frame-the-cactus-kid-1930-009",
+        "frame-the-cactus-kid-1930-010",
+        "frame-the-cactus-kid-1930-011",
+        "frame-the-cactus-kid-1930-012",
+        "frame-the-cactus-kid-1930-013",
+        "frame-the-cactus-kid-1930-014",
+        "frame-the-cactus-kid-1930-015",
+        "frame-the-gorilla-mystery-1930-001",
+        "frame-the-gorilla-mystery-1930-002",
+        "frame-the-gorilla-mystery-1930-003",
+        "frame-the-gorilla-mystery-1930-004",
+        "frame-the-gorilla-mystery-1930-005",
+        "frame-the-gorilla-mystery-1930-006",
+        "frame-the-gorilla-mystery-1930-007",
+        "frame-the-gorilla-mystery-1930-008",
+        "frame-the-gorilla-mystery-1930-009",
+        "frame-the-gorilla-mystery-1930-010",
+        "frame-the-gorilla-mystery-1930-011",
+        "frame-the-gorilla-mystery-1930-012",
+        "frame-the-gorilla-mystery-1930-013",
+        "frame-the-gorilla-mystery-1930-014",
+        "frame-the-gorilla-mystery-1930-015",
+        "frame-the-barnyard-concert-1930-001",
+        "frame-the-barnyard-concert-1930-002",
+        "frame-the-barnyard-concert-1930-003",
+        "frame-the-barnyard-concert-1930-004",
+        "frame-the-barnyard-concert-1930-005",
+        "frame-the-barnyard-concert-1930-006",
+        "frame-the-barnyard-concert-1930-007",
+        "frame-the-barnyard-concert-1930-008",
+        "frame-the-barnyard-concert-1930-009",
+        "frame-the-barnyard-concert-1930-010",
+        "frame-the-barnyard-concert-1930-011",
+        "frame-the-barnyard-concert-1930-012",
+        "frame-the-shindig-1930-001",
+        "frame-the-shindig-1930-002",
+        "frame-the-shindig-1930-003",
+        "frame-the-shindig-1930-004",
+        "frame-the-shindig-1930-005",
+        "frame-the-shindig-1930-006",
+        "frame-the-shindig-1930-007",
+        "frame-the-shindig-1930-008",
+        "frame-the-shindig-1930-009",
+        "frame-the-shindig-1930-010",
+        "frame-the-shindig-1930-011",
+        "frame-the-shindig-1930-012",
+        "frame-the-shindig-1930-013",
+        "frame-the-shindig-1930-014",
+        "frame-fiddling-around-1930-001",
+        "frame-fiddling-around-1930-002",
+        "frame-fiddling-around-1930-003",
+        "frame-fiddling-around-1930-004",
+        "frame-fiddling-around-1930-005",
+        "frame-fiddling-around-1930-006",
+        "frame-fiddling-around-1930-007",
+        "frame-fiddling-around-1930-008",
+        "frame-fiddling-around-1930-009",
+        "frame-fiddling-around-1930-010",
+        "frame-fiddling-around-1930-011",
+        "frame-fiddling-around-1930-012",
+        "frame-fiddling-around-1930-013",
+        "frame-fiddling-around-1930-014",
+        "frame-the-picnic-1930-001",
+        "frame-the-picnic-1930-002",
+        "frame-the-picnic-1930-003",
+        "frame-the-picnic-1930-004",
+        "frame-the-picnic-1930-005",
+        "frame-the-picnic-1930-006",
+        "frame-the-picnic-1930-007",
+        "frame-the-picnic-1930-008",
+        "frame-the-picnic-1930-009",
+        "frame-the-picnic-1930-010",
+        "frame-the-picnic-1930-011",
+        "frame-the-picnic-1930-012",
+        "frame-the-picnic-1930-013",
+        "frame-the-picnic-1930-014",
+        "frame-pioneer-days-1930-001",
+        "frame-pioneer-days-1930-002",
+        "frame-pioneer-days-1930-003",
+        "frame-pioneer-days-1930-004",
+        "frame-pioneer-days-1930-005",
+        "frame-pioneer-days-1930-006",
+        "frame-pioneer-days-1930-007",
+        "frame-pioneer-days-1930-008",
+        "frame-pioneer-days-1930-009",
+        "frame-pioneer-days-1930-010",
+        "frame-pioneer-days-1930-011",
+        "frame-pioneer-days-1930-012",
+        "frame-pioneer-days-1930-013",
+        "frame-pioneer-days-1930-014",
+        "frame-pioneer-days-1930-015",
+        "frame-pioneer-days-1930-016",
+        "frame-the-fire-fighters-1930-001",
+        "frame-the-fire-fighters-1930-002",
+        "frame-the-fire-fighters-1930-003",
+        "frame-the-fire-fighters-1930-004",
+        "frame-the-fire-fighters-1930-005",
+        "frame-the-fire-fighters-1930-006",
+        "frame-the-fire-fighters-1930-007",
+        "frame-the-fire-fighters-1930-008",
+        "frame-the-fire-fighters-1930-009",
+        "frame-the-fire-fighters-1930-010",
+        "frame-the-fire-fighters-1930-011",
+        "frame-the-fire-fighters-1930-012",
+        "frame-the-fire-fighters-1930-013",
+        "frame-the-fire-fighters-1930-014",
+        "frame-the-fire-fighters-1930-015",
+        "frame-rumplewatt-1934-001",
+        "frame-rumplewatt-1934-002"
+      ],
+      "workCount": 11,
+      "imageCount": 134,
+      "frameCount": 133,
+      "rightsBreakdown": {
+        "期限届满": 10,
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "美国旧法未续期",
+        "未续期",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然",
+        "万圣节",
+        "童话 / 寓言"
+      ],
+      "topScenes": [
+        {
+          "name": "动作",
+          "count": 46
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 40
+        },
+        {
+          "name": "爱情 / 约会",
+          "count": 32
+        },
+        {
+          "name": "西部",
+          "count": 31
+        },
+        {
+          "name": "追逐",
+          "count": 31
+        },
+        {
+          "name": "营救",
+          "count": 30
+        },
+        {
+          "name": "动物伙伴",
+          "count": 16
+        },
+        {
+          "name": "劳动",
+          "count": 16
+        },
+        {
+          "name": "旅行",
+          "count": 16
+        },
+        {
+          "name": "营地",
+          "count": 16
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 132
+        },
+        {
+          "name": "早期 Disney",
+          "count": 131
+        },
+        {
+          "name": "西部片",
+          "count": 31
+        },
+        {
+          "name": "报刊连环画",
+          "count": 3
+        },
+        {
+          "name": "童话冒险",
+          "count": 3
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "情人节",
+          "count": 17
+        },
+        {
+          "name": "万圣节",
+          "count": 15
+        },
+        {
+          "name": "春季 / 复活节",
+          "count": 14
+        }
+      ],
+      "usage": "版权公版不等于低摩擦；服装商品极易产生来源混淆。",
+      "avoid": "现代白手套、红短裤/黄鞋配色、后续脸型和 Disney 品牌化呈现。",
+      "awarenessScore": 86,
+      "sourceCount": 11,
+      "relatedEntityIds": [
+        "role-minnie-mouse-b07065a5",
+        "role-rover-pluto-8d61d09f",
+        "role-拓荒者群像-f36e70f4",
+        "role-peg-leg-pete-09b61c51",
+        "role-gorilla-ccbe2268",
+        "role-消防队-24a0e885",
+        "role-乡村动物群像-1eb8c230",
+        "role-农场动物乐队-f8e4cfc2",
+        "role-rumplewatt-e21e6a90",
+        "role-gnomes-91b12ba6"
+      ]
+    },
+    {
+      "id": "role-minnie-mouse-b07065a5",
+      "name": "Minnie Mouse",
+      "type": "角色",
+      "aliases": [
+        "Princess Minnie"
+      ],
+      "virtual": false,
+      "coverImage": "images/afea03ae1a78fa114b66.webp",
+      "coverRecordId": "catalog-minnie",
+      "yearStart": 1928,
+      "yearEnd": 1934,
+      "workIds": [
+        "work-the-cactus-kid西部酒馆-f34d3ea1",
+        "work-the-gorilla-mystery猩猩谜案-023ad571",
+        "work-the-shindig乡村舞会-a41d1b28",
+        "work-the-picnic郊外野餐-0d17c756",
+        "work-pioneer-days拓荒旅途-ebdad9c4",
+        "work-the-fire-fighters城市救火-20e9a170",
+        "work-rumplewatt-the-giant未续期边界案例-927928fd",
+        "work-minnie-mouse-1-0-0ed10699"
+      ],
+      "recordIds": [
+        "frame-the-cactus-kid-1930-001",
+        "frame-the-cactus-kid-1930-002",
+        "frame-the-cactus-kid-1930-003",
+        "frame-the-cactus-kid-1930-004",
+        "frame-the-cactus-kid-1930-005",
+        "frame-the-cactus-kid-1930-006",
+        "frame-the-cactus-kid-1930-007",
+        "frame-the-cactus-kid-1930-008",
+        "frame-the-cactus-kid-1930-009",
+        "frame-the-cactus-kid-1930-010",
+        "frame-the-cactus-kid-1930-011",
+        "frame-the-cactus-kid-1930-012",
+        "frame-the-cactus-kid-1930-013",
+        "frame-the-cactus-kid-1930-014",
+        "frame-the-cactus-kid-1930-015",
+        "frame-the-gorilla-mystery-1930-001",
+        "frame-the-gorilla-mystery-1930-002",
+        "frame-the-gorilla-mystery-1930-003",
+        "frame-the-gorilla-mystery-1930-004",
+        "frame-the-gorilla-mystery-1930-005",
+        "frame-the-gorilla-mystery-1930-006",
+        "frame-the-gorilla-mystery-1930-007",
+        "frame-the-gorilla-mystery-1930-008",
+        "frame-the-gorilla-mystery-1930-009",
+        "frame-the-gorilla-mystery-1930-010",
+        "frame-the-gorilla-mystery-1930-011",
+        "frame-the-gorilla-mystery-1930-012",
+        "frame-the-gorilla-mystery-1930-013",
+        "frame-the-gorilla-mystery-1930-014",
+        "frame-the-gorilla-mystery-1930-015",
+        "frame-the-shindig-1930-001",
+        "frame-the-shindig-1930-002",
+        "frame-the-shindig-1930-003",
+        "frame-the-shindig-1930-004",
+        "frame-the-shindig-1930-005",
+        "frame-the-shindig-1930-006",
+        "frame-the-shindig-1930-007",
+        "frame-the-shindig-1930-008",
+        "frame-the-shindig-1930-009",
+        "frame-the-shindig-1930-010",
+        "frame-the-shindig-1930-011",
+        "frame-the-shindig-1930-012",
+        "frame-the-shindig-1930-013",
+        "frame-the-shindig-1930-014",
+        "frame-the-picnic-1930-001",
+        "frame-the-picnic-1930-002",
+        "frame-the-picnic-1930-003",
+        "frame-the-picnic-1930-004",
+        "frame-the-picnic-1930-005",
+        "frame-the-picnic-1930-006",
+        "frame-the-picnic-1930-007",
+        "frame-the-picnic-1930-008",
+        "frame-the-picnic-1930-009",
+        "frame-the-picnic-1930-010",
+        "frame-the-picnic-1930-011",
+        "frame-the-picnic-1930-012",
+        "frame-the-picnic-1930-013",
+        "frame-the-picnic-1930-014",
+        "frame-pioneer-days-1930-001",
+        "frame-pioneer-days-1930-002",
+        "frame-pioneer-days-1930-003",
+        "frame-pioneer-days-1930-004",
+        "frame-pioneer-days-1930-005",
+        "frame-pioneer-days-1930-006",
+        "frame-pioneer-days-1930-007",
+        "frame-pioneer-days-1930-008",
+        "frame-pioneer-days-1930-009",
+        "frame-pioneer-days-1930-010",
+        "frame-pioneer-days-1930-011",
+        "frame-pioneer-days-1930-012",
+        "frame-pioneer-days-1930-013",
+        "frame-pioneer-days-1930-014",
+        "frame-pioneer-days-1930-015",
+        "frame-pioneer-days-1930-016",
+        "frame-the-fire-fighters-1930-001",
+        "frame-the-fire-fighters-1930-002",
+        "frame-the-fire-fighters-1930-003",
+        "frame-the-fire-fighters-1930-004",
+        "frame-the-fire-fighters-1930-005",
+        "frame-the-fire-fighters-1930-006",
+        "frame-the-fire-fighters-1930-007",
+        "frame-the-fire-fighters-1930-008",
+        "frame-the-fire-fighters-1930-009",
+        "frame-the-fire-fighters-1930-010",
+        "frame-the-fire-fighters-1930-011",
+        "frame-the-fire-fighters-1930-012",
+        "frame-the-fire-fighters-1930-013",
+        "frame-the-fire-fighters-1930-014",
+        "frame-the-fire-fighters-1930-015",
+        "frame-rumplewatt-1934-001",
+        "frame-rumplewatt-1934-002",
+        "catalog-mickey-rumplewatt-1934",
+        "catalog-minnie"
+      ],
+      "frameIds": [
+        "frame-the-cactus-kid-1930-001",
+        "frame-the-cactus-kid-1930-002",
+        "frame-the-cactus-kid-1930-003",
+        "frame-the-cactus-kid-1930-004",
+        "frame-the-cactus-kid-1930-005",
+        "frame-the-cactus-kid-1930-006",
+        "frame-the-cactus-kid-1930-007",
+        "frame-the-cactus-kid-1930-008",
+        "frame-the-cactus-kid-1930-009",
+        "frame-the-cactus-kid-1930-010",
+        "frame-the-cactus-kid-1930-011",
+        "frame-the-cactus-kid-1930-012",
+        "frame-the-cactus-kid-1930-013",
+        "frame-the-cactus-kid-1930-014",
+        "frame-the-cactus-kid-1930-015",
+        "frame-the-gorilla-mystery-1930-001",
+        "frame-the-gorilla-mystery-1930-002",
+        "frame-the-gorilla-mystery-1930-003",
+        "frame-the-gorilla-mystery-1930-004",
+        "frame-the-gorilla-mystery-1930-005",
+        "frame-the-gorilla-mystery-1930-006",
+        "frame-the-gorilla-mystery-1930-007",
+        "frame-the-gorilla-mystery-1930-008",
+        "frame-the-gorilla-mystery-1930-009",
+        "frame-the-gorilla-mystery-1930-010",
+        "frame-the-gorilla-mystery-1930-011",
+        "frame-the-gorilla-mystery-1930-012",
+        "frame-the-gorilla-mystery-1930-013",
+        "frame-the-gorilla-mystery-1930-014",
+        "frame-the-gorilla-mystery-1930-015",
+        "frame-the-shindig-1930-001",
+        "frame-the-shindig-1930-002",
+        "frame-the-shindig-1930-003",
+        "frame-the-shindig-1930-004",
+        "frame-the-shindig-1930-005",
+        "frame-the-shindig-1930-006",
+        "frame-the-shindig-1930-007",
+        "frame-the-shindig-1930-008",
+        "frame-the-shindig-1930-009",
+        "frame-the-shindig-1930-010",
+        "frame-the-shindig-1930-011",
+        "frame-the-shindig-1930-012",
+        "frame-the-shindig-1930-013",
+        "frame-the-shindig-1930-014",
+        "frame-the-picnic-1930-001",
+        "frame-the-picnic-1930-002",
+        "frame-the-picnic-1930-003",
+        "frame-the-picnic-1930-004",
+        "frame-the-picnic-1930-005",
+        "frame-the-picnic-1930-006",
+        "frame-the-picnic-1930-007",
+        "frame-the-picnic-1930-008",
+        "frame-the-picnic-1930-009",
+        "frame-the-picnic-1930-010",
+        "frame-the-picnic-1930-011",
+        "frame-the-picnic-1930-012",
+        "frame-the-picnic-1930-013",
+        "frame-the-picnic-1930-014",
+        "frame-pioneer-days-1930-001",
+        "frame-pioneer-days-1930-002",
+        "frame-pioneer-days-1930-003",
+        "frame-pioneer-days-1930-004",
+        "frame-pioneer-days-1930-005",
+        "frame-pioneer-days-1930-006",
+        "frame-pioneer-days-1930-007",
+        "frame-pioneer-days-1930-008",
+        "frame-pioneer-days-1930-009",
+        "frame-pioneer-days-1930-010",
+        "frame-pioneer-days-1930-011",
+        "frame-pioneer-days-1930-012",
+        "frame-pioneer-days-1930-013",
+        "frame-pioneer-days-1930-014",
+        "frame-pioneer-days-1930-015",
+        "frame-pioneer-days-1930-016",
+        "frame-the-fire-fighters-1930-001",
+        "frame-the-fire-fighters-1930-002",
+        "frame-the-fire-fighters-1930-003",
+        "frame-the-fire-fighters-1930-004",
+        "frame-the-fire-fighters-1930-005",
+        "frame-the-fire-fighters-1930-006",
+        "frame-the-fire-fighters-1930-007",
+        "frame-the-fire-fighters-1930-008",
+        "frame-the-fire-fighters-1930-009",
+        "frame-the-fire-fighters-1930-010",
+        "frame-the-fire-fighters-1930-011",
+        "frame-the-fire-fighters-1930-012",
+        "frame-the-fire-fighters-1930-013",
+        "frame-the-fire-fighters-1930-014",
+        "frame-the-fire-fighters-1930-015",
+        "frame-rumplewatt-1934-001",
+        "frame-rumplewatt-1934-002"
+      ],
+      "workCount": 8,
+      "imageCount": 92,
+      "frameCount": 91,
+      "rightsBreakdown": {
+        "期限届满": 7,
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "美国旧法未续期",
+        "未续期",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然",
+        "万圣节",
+        "童话 / 寓言"
+      ],
+      "topScenes": [
+        {
+          "name": "动作",
+          "count": 46
+        },
+        {
+          "name": "爱情 / 约会",
+          "count": 32
+        },
+        {
+          "name": "西部",
+          "count": 31
+        },
+        {
+          "name": "营救",
+          "count": 30
+        },
+        {
+          "name": "旅行",
+          "count": 16
+        },
+        {
+          "name": "营地",
+          "count": 16
+        },
+        {
+          "name": "城市",
+          "count": 15
+        },
+        {
+          "name": "怪兽",
+          "count": 15
+        },
+        {
+          "name": "家庭 / 室内",
+          "count": 15
+        },
+        {
+          "name": "酒馆",
+          "count": 15
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 90
+        },
+        {
+          "name": "早期 Disney",
+          "count": 89
+        },
+        {
+          "name": "西部片",
+          "count": 31
+        },
+        {
+          "name": "报刊连环画",
+          "count": 3
+        },
+        {
+          "name": "童话冒险",
+          "count": 3
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "情人节",
+          "count": 17
+        },
+        {
+          "name": "万圣节",
+          "count": 15
+        },
+        {
+          "name": "春季 / 复活节",
+          "count": 14
+        }
+      ],
+      "usage": "女性认知高但商品化摩擦极高，不建议作为无授权首批。",
+      "avoid": "现代大蝴蝶结、标准波点体系、后续动画配色和 Disney 标识。",
+      "awarenessScore": 48,
+      "sourceCount": 8,
+      "relatedEntityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-rover-pluto-8d61d09f",
+        "role-拓荒者群像-f36e70f4",
+        "role-peg-leg-pete-09b61c51",
+        "role-gorilla-ccbe2268",
+        "role-消防队-24a0e885",
+        "role-乡村动物群像-1eb8c230",
+        "role-rumplewatt-e21e6a90",
+        "role-gnomes-91b12ba6"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

@@ -1,0 +1,789 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-fiddlesticksflip-the-frog-首作-a4cc110e",
+    "title": "《Fiddlesticks》Flip the Frog 首作",
+    "subtitle": "",
+    "year": "1930",
+    "yearSort": 1930,
+    "coverImage": "images/8441d03b0331f1483ff3.webp",
+    "coverRecordId": "frame-fiddlesticks-1930-001",
+    "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "以来源页为准"
+    ],
+    "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "tags": [
+      "早期动画",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "早期彩色动画",
+      "橡皮管动画"
+    ],
+    "scenes": [
+      "音乐 / 舞蹈",
+      "动物群像",
+      "舞台 / 表演"
+    ],
+    "holidays": [],
+    "characterNames": [
+      "Flip the Frog",
+      "动物乐队"
+    ],
+    "characterAliases": [
+      "Flip the Frog",
+      "动物乐队"
+    ],
+    "recordIds": [
+      "frame-fiddlesticks-1930-001",
+      "frame-fiddlesticks-1930-002",
+      "frame-fiddlesticks-1930-003",
+      "frame-fiddlesticks-1930-004",
+      "frame-fiddlesticks-1930-005",
+      "frame-fiddlesticks-1930-006",
+      "frame-fiddlesticks-1930-007",
+      "frame-fiddlesticks-1930-008",
+      "frame-fiddlesticks-1930-009",
+      "frame-fiddlesticks-1930-010",
+      "frame-fiddlesticks-1930-011",
+      "frame-fiddlesticks-1930-012",
+      "frame-fiddlesticks-1930-013"
+    ],
+    "frameIds": [
+      "frame-fiddlesticks-1930-001",
+      "frame-fiddlesticks-1930-002",
+      "frame-fiddlesticks-1930-003",
+      "frame-fiddlesticks-1930-004",
+      "frame-fiddlesticks-1930-005",
+      "frame-fiddlesticks-1930-006",
+      "frame-fiddlesticks-1930-007",
+      "frame-fiddlesticks-1930-008",
+      "frame-fiddlesticks-1930-009",
+      "frame-fiddlesticks-1930-010",
+      "frame-fiddlesticks-1930-011",
+      "frame-fiddlesticks-1930-012",
+      "frame-fiddlesticks-1930-013"
+    ],
+    "masterIds": [],
+    "imageCount": 13,
+    "frameCount": 13,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-flip-the-frog-b18c0748",
+      "role-动物乐队-c16f3c43"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-flip-the-frog-b18c0748",
+      "name": "Flip the Frog",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/3486451e8c9950f7c6fd.webp",
+      "coverRecordId": "catalog-flip-frog",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-fiddlesticksflip-the-frog-首作-a4cc110e",
+        "work-flip-the-frog-1-0-c025a18a"
+      ],
+      "recordIds": [
+        "frame-fiddlesticks-1930-001",
+        "frame-fiddlesticks-1930-002",
+        "frame-fiddlesticks-1930-003",
+        "frame-fiddlesticks-1930-004",
+        "frame-fiddlesticks-1930-005",
+        "frame-fiddlesticks-1930-006",
+        "frame-fiddlesticks-1930-007",
+        "frame-fiddlesticks-1930-008",
+        "frame-fiddlesticks-1930-009",
+        "frame-fiddlesticks-1930-010",
+        "frame-fiddlesticks-1930-011",
+        "frame-fiddlesticks-1930-012",
+        "frame-fiddlesticks-1930-013",
+        "catalog-flip-frog"
+      ],
+      "frameIds": [
+        "frame-fiddlesticks-1930-001",
+        "frame-fiddlesticks-1930-002",
+        "frame-fiddlesticks-1930-003",
+        "frame-fiddlesticks-1930-004",
+        "frame-fiddlesticks-1930-005",
+        "frame-fiddlesticks-1930-006",
+        "frame-fiddlesticks-1930-007",
+        "frame-fiddlesticks-1930-008",
+        "frame-fiddlesticks-1930-009",
+        "frame-fiddlesticks-1930-010",
+        "frame-fiddlesticks-1930-011",
+        "frame-fiddlesticks-1930-012",
+        "frame-fiddlesticks-1930-013"
+      ],
+      "workCount": 2,
+      "imageCount": 14,
+      "frameCount": 13,
+      "rightsBreakdown": {
+        "期限届满": 2
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "漫画 / 角色"
+      ],
+      "topScenes": [
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 14
+        },
+        {
+          "name": "动物群像",
+          "count": 13
+        },
+        {
+          "name": "舞台 / 表演",
+          "count": 13
+        },
+        {
+          "name": "海滨 / 水下",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 14
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 13
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        },
+        {
+          "name": "Art Deco / 海报",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "可转成两到三色复古乐手蛙；上线前先查名称/图形商标。",
+      "avoid": "后续片集的造型变化、现代修复色和授权商品视觉。",
+      "awarenessScore": 19,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "role-动物乐队-c16f3c43"
+      ]
+    },
+    {
+      "id": "role-动物乐队-c16f3c43",
+      "name": "动物乐队",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/8441d03b0331f1483ff3.webp",
+      "coverRecordId": "frame-fiddlesticks-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-fiddlesticksflip-the-frog-首作-a4cc110e"
+      ],
+      "recordIds": [
+        "frame-fiddlesticks-1930-001",
+        "frame-fiddlesticks-1930-002",
+        "frame-fiddlesticks-1930-003",
+        "frame-fiddlesticks-1930-004",
+        "frame-fiddlesticks-1930-005",
+        "frame-fiddlesticks-1930-006",
+        "frame-fiddlesticks-1930-007",
+        "frame-fiddlesticks-1930-008",
+        "frame-fiddlesticks-1930-009",
+        "frame-fiddlesticks-1930-010",
+        "frame-fiddlesticks-1930-011",
+        "frame-fiddlesticks-1930-012",
+        "frame-fiddlesticks-1930-013"
+      ],
+      "frameIds": [
+        "frame-fiddlesticks-1930-001",
+        "frame-fiddlesticks-1930-002",
+        "frame-fiddlesticks-1930-003",
+        "frame-fiddlesticks-1930-004",
+        "frame-fiddlesticks-1930-005",
+        "frame-fiddlesticks-1930-006",
+        "frame-fiddlesticks-1930-007",
+        "frame-fiddlesticks-1930-008",
+        "frame-fiddlesticks-1930-009",
+        "frame-fiddlesticks-1930-010",
+        "frame-fiddlesticks-1930-011",
+        "frame-fiddlesticks-1930-012",
+        "frame-fiddlesticks-1930-013"
+      ],
+      "workCount": 1,
+      "imageCount": 13,
+      "frameCount": 13,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物群像",
+          "count": 13
+        },
+        {
+          "name": "舞台 / 表演",
+          "count": 13
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 13
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 13
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 13
+        }
+      ],
+      "topHolidays": [],
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-flip-the-frog-b18c0748"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "frame-fiddlesticks-1930-001",
+      "kind": "动画画面",
+      "title": "《Fiddlesticks》Flip the Frog 首作",
+      "subtitle": "画面 001",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "早期彩色动画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物群像",
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [
+        "Flip the Frog",
+        "动物乐队"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/8441d03b0331f1483ff3.webp"
+    },
+    {
+      "id": "frame-fiddlesticks-1930-002",
+      "kind": "动画画面",
+      "title": "《Fiddlesticks》Flip the Frog 首作",
+      "subtitle": "画面 002",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "早期彩色动画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物群像",
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [
+        "Flip the Frog",
+        "动物乐队"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/f3de484f8ba3afcdba19.webp"
+    },
+    {
+      "id": "frame-fiddlesticks-1930-003",
+      "kind": "动画画面",
+      "title": "《Fiddlesticks》Flip the Frog 首作",
+      "subtitle": "画面 003",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "早期彩色动画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物群像",
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [
+        "Flip the Frog",
+        "动物乐队"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/2208569052e5e68f0ae2.webp"
+    },
+    {
+      "id": "frame-fiddlesticks-1930-004",
+      "kind": "动画画面",
+      "title": "《Fiddlesticks》Flip the Frog 首作",
+      "subtitle": "画面 004",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "早期彩色动画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物群像",
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [
+        "Flip the Frog",
+        "动物乐队"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/ee95d32199d2f5c2d825.webp"
+    },
+    {
+      "id": "frame-fiddlesticks-1930-005",
+      "kind": "动画画面",
+      "title": "《Fiddlesticks》Flip the Frog 首作",
+      "subtitle": "画面 005",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "早期彩色动画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物群像",
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [
+        "Flip the Frog",
+        "动物乐队"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/f156a9a3d3fba4d6c486.webp"
+    },
+    {
+      "id": "frame-fiddlesticks-1930-006",
+      "kind": "动画画面",
+      "title": "《Fiddlesticks》Flip the Frog 首作",
+      "subtitle": "画面 006",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "早期彩色动画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物群像",
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [
+        "Flip the Frog",
+        "动物乐队"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/d8b1d7e033e4a38c2e94.webp"
+    },
+    {
+      "id": "frame-fiddlesticks-1930-007",
+      "kind": "动画画面",
+      "title": "《Fiddlesticks》Flip the Frog 首作",
+      "subtitle": "画面 007",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "早期彩色动画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物群像",
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [
+        "Flip the Frog",
+        "动物乐队"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/dc649b386d9ab2565341.webp"
+    },
+    {
+      "id": "frame-fiddlesticks-1930-008",
+      "kind": "动画画面",
+      "title": "《Fiddlesticks》Flip the Frog 首作",
+      "subtitle": "画面 008",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "早期彩色动画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物群像",
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [
+        "Flip the Frog",
+        "动物乐队"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/cd00a906d1c24d438c92.webp"
+    },
+    {
+      "id": "frame-fiddlesticks-1930-009",
+      "kind": "动画画面",
+      "title": "《Fiddlesticks》Flip the Frog 首作",
+      "subtitle": "画面 009",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "早期彩色动画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物群像",
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [
+        "Flip the Frog",
+        "动物乐队"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/d2026bbfdf604636d36e.webp"
+    },
+    {
+      "id": "frame-fiddlesticks-1930-010",
+      "kind": "动画画面",
+      "title": "《Fiddlesticks》Flip the Frog 首作",
+      "subtitle": "画面 010",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "早期彩色动画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物群像",
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [
+        "Flip the Frog",
+        "动物乐队"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/a430cb14d334312d08c4.webp"
+    },
+    {
+      "id": "frame-fiddlesticks-1930-011",
+      "kind": "动画画面",
+      "title": "《Fiddlesticks》Flip the Frog 首作",
+      "subtitle": "画面 011",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "早期彩色动画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物群像",
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [
+        "Flip the Frog",
+        "动物乐队"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/dd79597d50074604f48f.webp"
+    },
+    {
+      "id": "frame-fiddlesticks-1930-012",
+      "kind": "动画画面",
+      "title": "《Fiddlesticks》Flip the Frog 首作",
+      "subtitle": "画面 012",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "早期彩色动画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物群像",
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [
+        "Flip the Frog",
+        "动物乐队"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/edc9c8e3dd10084fece2.webp"
+    },
+    {
+      "id": "frame-fiddlesticks-1930-013",
+      "kind": "动画画面",
+      "title": "《Fiddlesticks》Flip the Frog 首作",
+      "subtitle": "画面 013",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/fiddlesticks_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "早期彩色动画 · 橡皮管动画 · 音乐 / 舞蹈 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "早期彩色动画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "动物群像",
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [
+        "Flip the Frog",
+        "动物乐队"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/5de3998ef403d1240458.webp"
+    }
+  ]
+}

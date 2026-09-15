@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-flip-the-frog-1-0-c025a18a",
+    "title": "Flip the Frog 1.0",
+    "subtitle": "Ub Iwerks《Fiddlesticks》· 1930",
+    "year": "1930",
+    "yearSort": 1930,
+    "coverImage": "images/3486451e8c9950f7c6fd.webp",
+    "coverRecordId": "catalog-flip-frog",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flip_the_Frog_-_Fiddlesticks_poster.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "可转成两到三色复古乐手蛙；上线前先查名称/图形商标。",
+    "avoid": "后续片集的造型变化、现代修复色和授权商品视觉。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "早期动画 / 漫画",
+      "橡皮管动画",
+      "Art Deco / 海报"
+    ],
+    "scenes": [
+      "音乐 / 舞蹈",
+      "海滨 / 水下"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-flip-frog"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-flip-frog"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 19,
+    "entityIds": [
+      "role-flip-the-frog-b18c0748"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-flip-the-frog-b18c0748",
+      "name": "Flip the Frog",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/3486451e8c9950f7c6fd.webp",
+      "coverRecordId": "catalog-flip-frog",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-fiddlesticksflip-the-frog-首作-a4cc110e",
+        "work-flip-the-frog-1-0-c025a18a"
+      ],
+      "recordIds": [
+        "frame-fiddlesticks-1930-001",
+        "frame-fiddlesticks-1930-002",
+        "frame-fiddlesticks-1930-003",
+        "frame-fiddlesticks-1930-004",
+        "frame-fiddlesticks-1930-005",
+        "frame-fiddlesticks-1930-006",
+        "frame-fiddlesticks-1930-007",
+        "frame-fiddlesticks-1930-008",
+        "frame-fiddlesticks-1930-009",
+        "frame-fiddlesticks-1930-010",
+        "frame-fiddlesticks-1930-011",
+        "frame-fiddlesticks-1930-012",
+        "frame-fiddlesticks-1930-013",
+        "catalog-flip-frog"
+      ],
+      "frameIds": [
+        "frame-fiddlesticks-1930-001",
+        "frame-fiddlesticks-1930-002",
+        "frame-fiddlesticks-1930-003",
+        "frame-fiddlesticks-1930-004",
+        "frame-fiddlesticks-1930-005",
+        "frame-fiddlesticks-1930-006",
+        "frame-fiddlesticks-1930-007",
+        "frame-fiddlesticks-1930-008",
+        "frame-fiddlesticks-1930-009",
+        "frame-fiddlesticks-1930-010",
+        "frame-fiddlesticks-1930-011",
+        "frame-fiddlesticks-1930-012",
+        "frame-fiddlesticks-1930-013"
+      ],
+      "workCount": 2,
+      "imageCount": 14,
+      "frameCount": 13,
+      "rightsBreakdown": {
+        "期限届满": 2
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "漫画 / 角色"
+      ],
+      "topScenes": [
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 14
+        },
+        {
+          "name": "动物群像",
+          "count": 13
+        },
+        {
+          "name": "舞台 / 表演",
+          "count": 13
+        },
+        {
+          "name": "海滨 / 水下",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 14
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 13
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        },
+        {
+          "name": "Art Deco / 海报",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "可转成两到三色复古乐手蛙；上线前先查名称/图形商标。",
+      "avoid": "后续片集的造型变化、现代修复色和授权商品视觉。",
+      "awarenessScore": 19,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "role-动物乐队-c16f3c43"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-flip-frog",
+      "kind": "主档",
+      "title": "Flip the Frog 1.0",
+      "subtitle": "Ub Iwerks《Fiddlesticks》· 1930",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flip_the_Frog_-_Fiddlesticks_poster.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "可转成两到三色复古乐手蛙；上线前先查名称/图形商标。",
+      "avoid": "后续片集的造型变化、现代修复色和授权商品视觉。",
+      "styles": [
+        "早期动画 / 漫画",
+        "橡皮管动画",
+        "Art Deco / 海报"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "海滨 / 水下"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 19,
+      "awarenessLevel": "较低",
+      "image": "images/3486451e8c9950f7c6fd.webp"
+    }
+  ]
+}

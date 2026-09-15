@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-the-masked-ball-905c7820",
+    "name": "The Masked Ball",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/f672f7bfc7aca891ac83.webp",
+    "coverRecordId": "catalog-seasonal-mtky9kwlvf1np",
+    "yearStart": 1834,
+    "yearEnd": 1834,
+    "workIds": [
+      "work-the-masked-ball-ea919c5e"
+    ],
+    "recordIds": [
+      "catalog-seasonal-mtky9kwlvf1np"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 1
+    },
+    "copyrightRoutes": [
+      "AIC API is_public_domain=true"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节"
+    ],
+    "topScenes": [
+      {
+        "name": "面具、伪装与公共节庆",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "版画",
+        "count": 1
+      },
+      {
+        "name": "人物 / 肖像",
+        "count": 1
+      },
+      {
+        "name": "生活 / 节庆",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "研究成对人物、入场姿态、扇子、面罩和服装层次，构建社交场景。",
+    "avoid": "嘉年华不是 Halloween；借机制，不挪用具体传统服饰。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-the-masked-ball-ea919c5e",
+      "title": "The Masked Ball",
+      "subtitle": "Paul Gavarni French, 1804-1866 · 1834 · Lithograph in black on ivory wove paper",
+      "year": "1834",
+      "yearSort": 1834,
+      "coverImage": "images/f672f7bfc7aca891ac83.webp",
+      "coverRecordId": "catalog-seasonal-mtky9kwlvf1np",
+      "sourceUrl": "https://www.artic.edu/artworks/13586",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · AIC"
+      ],
+      "usage": "研究成对人物、入场姿态、扇子、面罩和服装层次，构建社交场景。",
+      "avoid": "嘉年华不是 Halloween；借机制，不挪用具体传统服饰。",
+      "tags": [
+        "万圣节"
+      ],
+      "styles": [
+        "版画",
+        "人物 / 肖像",
+        "生活 / 节庆"
+      ],
+      "scenes": [
+        "面具、伪装与公共节庆"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtky9kwlvf1np"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtky9kwlvf1np"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-the-masked-ball-905c7820"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

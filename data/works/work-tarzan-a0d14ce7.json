@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-tarzan-a0d14ce7",
+    "title": "Tarzan",
+    "subtitle": "1912 故事；1914 初版视觉",
+    "year": "1912 / 1914",
+    "yearSort": 1914,
+    "coverImage": "images/00549a6cac3c6836f16e.webp",
+    "coverRecordId": "catalog-tarzan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tarzan_of_the_Apes_in_color.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "名称与角色长期商业化，当前不作为低风险女装首选；先做完整商标清查。",
+    "avoid": "演员肖像、Disney 动画、后续影视服饰与任何现行品牌标识。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [
+      "冒险 / 追逐"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-tarzan"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-tarzan"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 67,
+    "entityIds": [
+      "role-tarzan-bc02cbc2"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-tarzan-bc02cbc2",
+      "name": "Tarzan",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/00549a6cac3c6836f16e.webp",
+      "coverRecordId": "catalog-tarzan",
+      "yearStart": 1914,
+      "yearEnd": 1914,
+      "workIds": [
+        "work-tarzan-a0d14ce7"
+      ],
+      "recordIds": [
+        "catalog-tarzan"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "topScenes": [
+        {
+          "name": "冒险 / 追逐",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "名称与角色长期商业化，当前不作为低风险女装首选；先做完整商标清查。",
+      "avoid": "演员肖像、Disney 动画、后续影视服饰与任何现行品牌标识。",
+      "awarenessScore": 67,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-tarzan",
+      "kind": "主档",
+      "title": "Tarzan",
+      "subtitle": "1912 故事；1914 初版视觉",
+      "year": "1912 / 1914",
+      "yearSort": 1914,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tarzan_of_the_Apes_in_color.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "名称与角色长期商业化，当前不作为低风险女装首选；先做完整商标清查。",
+      "avoid": "演员肖像、Disney 动画、后续影视服饰与任何现行品牌标识。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "冒险 / 追逐"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 67,
+      "awarenessLevel": "中",
+      "image": "images/00549a6cac3c6836f16e.webp"
+    }
+  ]
+}

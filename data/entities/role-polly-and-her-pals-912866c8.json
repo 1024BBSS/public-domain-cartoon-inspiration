@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-polly-and-her-pals-912866c8",
+    "name": "Polly and Her Pals",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/0922961972848b0c0620.webp",
+    "coverRecordId": "catalog-polly-pals",
+    "yearStart": 1912,
+    "yearEnd": 1912,
+    "workIds": [
+      "work-polly-and-her-pals-88af8fc4"
+    ],
+    "recordIds": [
+      "catalog-polly-pals"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "topScenes": [
+      {
+        "name": "家庭 / 室内",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "报刊连环画",
+        "count": 1
+      },
+      {
+        "name": "早期动画 / 漫画",
+        "count": 1
+      },
+      {
+        "name": "Art Deco / 海报",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+    "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+    "awarenessScore": 6,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-polly-and-her-pals-88af8fc4",
+      "title": "Polly and Her Pals",
+      "subtitle": "Cliff Sterrett 报纸漫画 · 1912",
+      "year": "1912",
+      "yearSort": 1912,
+      "coverImage": "images/0922961972848b0c0620.webp",
+      "coverRecordId": "catalog-polly-pals",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polly_comic_1921.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "styles": [
+        "早期动画 / 漫画",
+        "Art Deco / 海报",
+        "报刊连环画"
+      ],
+      "scenes": [
+        "家庭 / 室内"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-polly-pals"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-polly-pals"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 6,
+      "entityIds": [
+        "role-polly-and-her-pals-912866c8"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

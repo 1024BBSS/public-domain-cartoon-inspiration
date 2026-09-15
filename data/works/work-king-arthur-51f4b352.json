@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-king-arthur-51f4b352",
+    "title": "King Arthur",
+    "subtitle": "Colin Nouailher · ca. 1541 · Painted and partly gilded enamel on copper",
+    "year": "ca. 1541",
+    "yearSort": 1536,
+    "coverImage": "images/645e97e27cb3ea8da9ae.webp",
+    "coverRecordId": "catalog-belief-met-208125",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/208125",
+    "sourceLabel": "The Met",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "The Met API isPublicDomain=true；图像权利与“可原创转化”分开判断。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "CC0 · The Met"
+    ],
+    "usage": "使用圆桌、湖面、剑的交付、骑士队列与雾化仙境。",
+    "avoid": "亚瑟母题古老，现代小说、电影角色造型仍受保护。",
+    "tags": [
+      "童话 / 寓言",
+      "怪诞 / 魔法",
+      "宗教 / 神话"
+    ],
+    "styles": [
+      "European Sculpture and Decorative Arts · Enamels · Medallion",
+      "宗教 / 仪式",
+      "神话 / 魔法"
+    ],
+    "scenes": [
+      "凯尔特与不列颠传说",
+      "亚瑟王、湖中仙女与近代凯尔特复兴",
+      "中世纪传奇 → 拉斐尔前派 → 童话插图"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-belief-met-208125"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-belief-met-208125"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "subject-arthurian-cycle"
+    ]
+  },
+  "entities": [
+    {
+      "id": "subject-arthurian-cycle",
+      "name": "亚瑟王传奇人物",
+      "type": "文化题材",
+      "aliases": [
+        "湖中仙女",
+        "亚瑟王",
+        "Arthurian",
+        "Guinevere",
+        "King Arthur",
+        "Lancelot"
+      ],
+      "virtual": true,
+      "coverImage": "images/374bb5738cb0d7460715.webp",
+      "coverRecordId": "catalog-belief-met-467528",
+      "yearStart": 1395,
+      "yearEnd": 1917,
+      "workIds": [
+        "work-king-arthur-from-the-heroes-tapestries-47106ec7",
+        "work-roundel-with-king-arthur-riding-on-a-camel-from-a-seri-ec542b0d",
+        "work-king-arthur-51f4b352",
+        "work-king-arthur-88db1357",
+        "work-the-passing-of-king-arthur-35619c05",
+        "work-queen-guinevere-56bdab2a",
+        "work-sir-lancelot-8e530726"
+      ],
+      "recordIds": [
+        "catalog-belief-met-467528",
+        "catalog-belief-met-471121",
+        "catalog-belief-met-208125",
+        "catalog-belief-met-282149",
+        "catalog-belief-met-282150",
+        "catalog-belief-commons-guinevere",
+        "catalog-belief-commons-lancelot"
+      ],
+      "frameIds": [],
+      "workCount": 7,
+      "imageCount": 7,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 5,
+        "公版文件": 2
+      },
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；图像权利与“可原创转化”分开判断。",
+        "Commons per-file metadata: Public domain；图像权利与“可原创转化”分开判断。"
+      ],
+      "evidenceLevels": [
+        "A",
+        "B"
+      ],
+      "tags": [
+        "童话 / 寓言",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "凯尔特与不列颠传说",
+          "count": 7
+        },
+        {
+          "name": "亚瑟王、湖中仙女与近代凯尔特复兴",
+          "count": 7
+        },
+        {
+          "name": "中世纪传奇 → 拉斐尔前派 → 童话插图",
+          "count": 7
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "神话 / 魔法",
+          "count": 7
+        },
+        {
+          "name": "宗教 / 仪式",
+          "count": 7
+        },
+        {
+          "name": "Historic mythology image",
+          "count": 2
+        },
+        {
+          "name": "Photographs · Photographs · Photograph",
+          "count": 2
+        },
+        {
+          "name": "European Sculpture and Decorative Arts · Enamels · Medallion",
+          "count": 1
+        },
+        {
+          "name": "The Cloisters · Glass-Stained · Roundel",
+          "count": 1
+        },
+        {
+          "name": "The Cloisters · Textiles-Tapestries · Tapestry",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "使用圆桌、湖面、剑的交付、骑士队列与雾化仙境。",
+      "avoid": "亚瑟母题古老，现代小说、电影角色造型仍受保护。",
+      "awarenessScore": 0,
+      "sourceCount": 7,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-belief-met-208125",
+      "kind": "主档",
+      "title": "King Arthur",
+      "subtitle": "Colin Nouailher · ca. 1541 · Painted and partly gilded enamel on copper",
+      "year": "ca. 1541",
+      "yearSort": 1536,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "The Met API isPublicDomain=true；图像权利与“可原创转化”分开判断。",
+      "evidenceLevel": "A",
+      "imageRights": "CC0 · The Met",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/208125",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "usage": "使用圆桌、湖面、剑的交付、骑士队列与雾化仙境。",
+      "avoid": "亚瑟母题古老，现代小说、电影角色造型仍受保护。",
+      "styles": [
+        "European Sculpture and Decorative Arts · Enamels · Medallion",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "凯尔特与不列颠传说",
+        "亚瑟王、湖中仙女与近代凯尔特复兴",
+        "中世纪传奇 → 拉斐尔前派 → 童话插图"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "童话 / 寓言",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/645e97e27cb3ea8da9ae.webp"
+    }
+  ]
+}

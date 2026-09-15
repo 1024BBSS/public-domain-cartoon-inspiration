@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-ali-baba-86f2b9cd",
+    "name": "Ali Baba",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/bba719c996e51a795285.webp",
+    "coverRecordId": "catalog-ali-baba",
+    "yearStart": 1907,
+    "yearEnd": 1907,
+    "workIds": [
+      "work-ali-baba-1cedb686"
+    ],
+    "recordIds": [
+      "catalog-ali-baba"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "topScenes": [],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 53,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-ali-baba-1cedb686",
+      "title": "Ali Baba",
+      "subtitle": "Edmund Dulac《Arabian Nights》插图 · 1907",
+      "year": "1907",
+      "yearSort": 1907,
+      "coverImage": "images/bba719c996e51a795285.webp",
+      "coverRecordId": "catalog-ali-baba",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%27Ali_Baba_departed_for_the_town_a_well_satisfied_man.%27_(18845357518).jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-ali-baba"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-ali-baba"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 53,
+      "entityIds": [
+        "role-ali-baba-86f2b9cd"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

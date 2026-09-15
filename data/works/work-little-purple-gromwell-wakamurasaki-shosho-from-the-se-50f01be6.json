@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
+    "title": "“‘Little Purple Gromwell’ (Wakamurasaki): Shōshō,” from the series Scenes amid Genji Clouds Matched with Ukiyo-e Pictures (Genji-gumo ukiyo e-awase)",
+    "subtitle": "Utagawa Kuniyoshi · ca. 1845–61 · Woodblock ōban print (nishiki-e); ink and color on paper",
+    "year": "ca. 1845–61",
+    "yearSort": 1845,
+    "coverImage": "images/881accbfe36c2ae508e2.webp",
+    "coverRecordId": "catalog-belief-met-789144",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/789144",
+    "sourceLabel": "The Met",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "CC0 · The Met"
+    ],
+    "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+    "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+    "tags": [
+      "万圣节",
+      "怪诞 / 魔法",
+      "宗教 / 神话"
+    ],
+    "styles": [
+      "Asian Art; Prints; Print",
+      "神话 / 魔法",
+      "暗黑 / 怪诞",
+      "宗教 / 仪式"
+    ],
+    "scenes": [
+      "东亚道教、神道与民间信仰",
+      "妖怪、幽灵与民间护佑神",
+      "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-belief-met-789144"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-belief-met-789144"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "subject-east-asian-ghosts"
+    ]
+  },
+  "entities": [
+    {
+      "id": "subject-east-asian-ghosts",
+      "name": "钟馗与东亚鬼神",
+      "type": "文化题材",
+      "aliases": [
+        "鬼神",
+        "妖怪",
+        "钟馗",
+        "Yokai",
+        "Zhong Kui"
+      ],
+      "virtual": true,
+      "coverImage": "images/9ed068056201863f947b.webp",
+      "coverRecordId": "catalog-belief-cma-163115",
+      "yearStart": 1200,
+      "yearEnd": 1865,
+      "workIds": [
+        "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
+        "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
+        "work-zhong-kui-supported-by-ghosts-8f0c0fce",
+        "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
+        "work-ghosts-of-the-taira-at-daimotsu-bay-4e6f02fe",
+        "work-a-boat-cast-adrift-ukifune-omatsu-and-akabori-mizuemon-0e3ed557",
+        "work-a-molted-cicada-shell-utsusemi-soga-goro-tokimune-from-9e43ce93",
+        "work-exile-to-suma-suma-tamaori-hime-from-the-series-scenes-606f10d3",
+        "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
+        "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35"
+      ],
+      "recordIds": [
+        "catalog-belief-cma-163115",
+        "catalog-belief-cma-136668",
+        "catalog-belief-cma-135655",
+        "catalog-belief-met-58892",
+        "catalog-belief-met-55743",
+        "catalog-belief-met-789147",
+        "catalog-belief-met-789145",
+        "catalog-belief-met-789148",
+        "catalog-belief-met-789144",
+        "catalog-belief-met-76582"
+      ],
+      "frameIds": [],
+      "workCount": 10,
+      "imageCount": 10,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 10
+      },
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "东亚道教、神道与民间信仰",
+          "count": 10
+        },
+        {
+          "name": "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神",
+          "count": 10
+        },
+        {
+          "name": "妖怪、幽灵与民间护佑神",
+          "count": 10
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "暗黑 / 怪诞",
+          "count": 10
+        },
+        {
+          "name": "神话 / 魔法",
+          "count": 10
+        },
+        {
+          "name": "宗教 / 仪式",
+          "count": 10
+        },
+        {
+          "name": "Asian Art; Prints; Print",
+          "count": 4
+        },
+        {
+          "name": "Asian Art; Prints; Woodblock print",
+          "count": 2
+        },
+        {
+          "name": "Asian Art; Inrō; Inrō",
+          "count": 1
+        },
+        {
+          "name": "Chinese Art; ASIAN - Album leaf; Painting",
+          "count": 1
+        },
+        {
+          "name": "Chinese Art; ASIAN - Handscroll; Painting",
+          "count": 1
+        },
+        {
+          "name": "Chinese Art; ASIAN - Hanging scroll; Painting",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+      "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+      "awarenessScore": 0,
+      "sourceCount": 10,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-belief-met-789144",
+      "kind": "主档",
+      "title": "“‘Little Purple Gromwell’ (Wakamurasaki): Shōshō,” from the series Scenes amid Genji Clouds Matched with Ukiyo-e Pictures (Genji-gumo ukiyo e-awase)",
+      "subtitle": "Utagawa Kuniyoshi · ca. 1845–61 · Woodblock ōban print (nishiki-e); ink and color on paper",
+      "year": "ca. 1845–61",
+      "yearSort": 1845,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+      "evidenceLevel": "A",
+      "imageRights": "CC0 · The Met",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/789144",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+      "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+      "styles": [
+        "Asian Art; Prints; Print",
+        "神话 / 魔法",
+        "暗黑 / 怪诞",
+        "宗教 / 仪式"
+      ],
+      "scenes": [
+        "东亚道教、神道与民间信仰",
+        "妖怪、幽灵与民间护佑神",
+        "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/881accbfe36c2ae508e2.webp"
+    }
+  ]
+}

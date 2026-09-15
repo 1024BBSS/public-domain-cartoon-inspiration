@@ -1,0 +1,286 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-猴群-9ece0a2f",
+    "name": "猴群",
+    "type": "群像 / 生物",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/9e76377b0f8aa7d9f977.webp",
+    "coverRecordId": "frame-monkey-melodies-1930-001",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "workIds": [
+      "work-monkey-melodies丛林动物歌舞-eb1bb4d1"
+    ],
+    "recordIds": [
+      "frame-monkey-melodies-1930-001",
+      "frame-monkey-melodies-1930-002",
+      "frame-monkey-melodies-1930-003",
+      "frame-monkey-melodies-1930-004",
+      "frame-monkey-melodies-1930-005",
+      "frame-monkey-melodies-1930-006",
+      "frame-monkey-melodies-1930-007",
+      "frame-monkey-melodies-1930-008",
+      "frame-monkey-melodies-1930-009",
+      "frame-monkey-melodies-1930-010",
+      "frame-monkey-melodies-1930-011",
+      "frame-monkey-melodies-1930-012",
+      "frame-monkey-melodies-1930-013",
+      "frame-monkey-melodies-1930-014"
+    ],
+    "frameIds": [
+      "frame-monkey-melodies-1930-001",
+      "frame-monkey-melodies-1930-002",
+      "frame-monkey-melodies-1930-003",
+      "frame-monkey-melodies-1930-004",
+      "frame-monkey-melodies-1930-005",
+      "frame-monkey-melodies-1930-006",
+      "frame-monkey-melodies-1930-007",
+      "frame-monkey-melodies-1930-008",
+      "frame-monkey-melodies-1930-009",
+      "frame-monkey-melodies-1930-010",
+      "frame-monkey-melodies-1930-011",
+      "frame-monkey-melodies-1930-012",
+      "frame-monkey-melodies-1930-013",
+      "frame-monkey-melodies-1930-014"
+    ],
+    "workCount": 1,
+    "imageCount": 14,
+    "frameCount": 14,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "丛林",
+        "count": 14
+      },
+      {
+        "name": "动物群像",
+        "count": 14
+      },
+      {
+        "name": "音乐 / 舞蹈",
+        "count": 14
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "橡皮管动画",
+        "count": 14
+      },
+      {
+        "name": "Silly Symphonies",
+        "count": 14
+      }
+    ],
+    "topHolidays": [],
+    "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-丛林动物-c038230c"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-monkey-melodies丛林动物歌舞-eb1bb4d1",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/9e76377b0f8aa7d9f977.webp",
+      "coverRecordId": "frame-monkey-melodies-1930-001",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characterNames": [
+        "猴群",
+        "丛林动物"
+      ],
+      "characterAliases": [
+        "猴群",
+        "丛林动物"
+      ],
+      "recordIds": [
+        "frame-monkey-melodies-1930-001",
+        "frame-monkey-melodies-1930-002",
+        "frame-monkey-melodies-1930-003",
+        "frame-monkey-melodies-1930-004",
+        "frame-monkey-melodies-1930-005",
+        "frame-monkey-melodies-1930-006",
+        "frame-monkey-melodies-1930-007",
+        "frame-monkey-melodies-1930-008",
+        "frame-monkey-melodies-1930-009",
+        "frame-monkey-melodies-1930-010",
+        "frame-monkey-melodies-1930-011",
+        "frame-monkey-melodies-1930-012",
+        "frame-monkey-melodies-1930-013",
+        "frame-monkey-melodies-1930-014"
+      ],
+      "frameIds": [
+        "frame-monkey-melodies-1930-001",
+        "frame-monkey-melodies-1930-002",
+        "frame-monkey-melodies-1930-003",
+        "frame-monkey-melodies-1930-004",
+        "frame-monkey-melodies-1930-005",
+        "frame-monkey-melodies-1930-006",
+        "frame-monkey-melodies-1930-007",
+        "frame-monkey-melodies-1930-008",
+        "frame-monkey-melodies-1930-009",
+        "frame-monkey-melodies-1930-010",
+        "frame-monkey-melodies-1930-011",
+        "frame-monkey-melodies-1930-012",
+        "frame-monkey-melodies-1930-013",
+        "frame-monkey-melodies-1930-014"
+      ],
+      "masterIds": [],
+      "imageCount": 14,
+      "frameCount": 14,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-猴群-9ece0a2f",
+        "role-丛林动物-c038230c"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-丛林动物-c038230c",
+      "name": "丛林动物",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/9e76377b0f8aa7d9f977.webp",
+      "coverRecordId": "frame-monkey-melodies-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-monkey-melodies丛林动物歌舞-eb1bb4d1"
+      ],
+      "recordIds": [
+        "frame-monkey-melodies-1930-001",
+        "frame-monkey-melodies-1930-002",
+        "frame-monkey-melodies-1930-003",
+        "frame-monkey-melodies-1930-004",
+        "frame-monkey-melodies-1930-005",
+        "frame-monkey-melodies-1930-006",
+        "frame-monkey-melodies-1930-007",
+        "frame-monkey-melodies-1930-008",
+        "frame-monkey-melodies-1930-009",
+        "frame-monkey-melodies-1930-010",
+        "frame-monkey-melodies-1930-011",
+        "frame-monkey-melodies-1930-012",
+        "frame-monkey-melodies-1930-013",
+        "frame-monkey-melodies-1930-014"
+      ],
+      "frameIds": [
+        "frame-monkey-melodies-1930-001",
+        "frame-monkey-melodies-1930-002",
+        "frame-monkey-melodies-1930-003",
+        "frame-monkey-melodies-1930-004",
+        "frame-monkey-melodies-1930-005",
+        "frame-monkey-melodies-1930-006",
+        "frame-monkey-melodies-1930-007",
+        "frame-monkey-melodies-1930-008",
+        "frame-monkey-melodies-1930-009",
+        "frame-monkey-melodies-1930-010",
+        "frame-monkey-melodies-1930-011",
+        "frame-monkey-melodies-1930-012",
+        "frame-monkey-melodies-1930-013",
+        "frame-monkey-melodies-1930-014"
+      ],
+      "workCount": 1,
+      "imageCount": 14,
+      "frameCount": 14,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "丛林",
+          "count": 14
+        },
+        {
+          "name": "动物群像",
+          "count": 14
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 14
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 14
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 14
+        }
+      ],
+      "topHolidays": [],
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-猴群-9ece0a2f"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-mad-hatter-e09867f3",
+    "title": "Mad Hatter",
+    "subtitle": "John Tenniel 原版插图 · 1865",
+    "year": "1865",
+    "yearSort": 1865,
+    "coverImage": "images/829190473dde1cc89fb7.webp",
+    "coverRecordId": "catalog-mad-hatter",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alice_par_John_Tenniel_25.png",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "可只取高帽与茶杯做原创人物，减少直接角色识别。",
+    "avoid": "Disney 配色、Tim Burton 电影妆发、演员脸及影片海报字样。",
+    "tags": [
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "Art Deco / 海报"
+    ],
+    "scenes": [
+      "海滨 / 水下"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-mad-hatter"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-mad-hatter"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 42,
+    "entityIds": [
+      "role-mad-hatter-5c28e6fa"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-mad-hatter-5c28e6fa",
+      "name": "Mad Hatter",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/829190473dde1cc89fb7.webp",
+      "coverRecordId": "catalog-mad-hatter",
+      "yearStart": 1865,
+      "yearEnd": 1865,
+      "workIds": [
+        "work-mad-hatter-e09867f3"
+      ],
+      "recordIds": [
+        "catalog-mad-hatter"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "童话 / 寓言"
+      ],
+      "topScenes": [
+        {
+          "name": "海滨 / 水下",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "Art Deco / 海报",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "可只取高帽与茶杯做原创人物，减少直接角色识别。",
+      "avoid": "Disney 配色、Tim Burton 电影妆发、演员脸及影片海报字样。",
+      "awarenessScore": 42,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-mad-hatter",
+      "kind": "主档",
+      "title": "Mad Hatter",
+      "subtitle": "John Tenniel 原版插图 · 1865",
+      "year": "1865",
+      "yearSort": 1865,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alice_par_John_Tenniel_25.png",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "可只取高帽与茶杯做原创人物，减少直接角色识别。",
+      "avoid": "Disney 配色、Tim Burton 电影妆发、演员脸及影片海报字样。",
+      "styles": [
+        "文学插画",
+        "Art Deco / 海报"
+      ],
+      "scenes": [
+        "海滨 / 水下"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 42,
+      "awarenessLevel": "中",
+      "image": "images/829190473dde1cc89fb7.webp"
+    }
+  ]
+}

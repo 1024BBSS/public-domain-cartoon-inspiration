@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-sleeping-beauty-aa08aca7",
+    "name": "Sleeping Beauty",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/a647739609ae9a839329.webp",
+    "coverRecordId": "catalog-sleeping-beauty",
+    "yearStart": 1876,
+    "yearEnd": 1876,
+    "workIds": [
+      "work-sleeping-beauty-d301128e"
+    ],
+    "recordIds": [
+      "catalog-sleeping-beauty"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "topScenes": [],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "春季 / 复活节",
+        "count": 1
+      }
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 55,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-sleeping-beauty-d301128e",
+      "title": "Sleeping Beauty",
+      "subtitle": "Walter Crane 童话插图 · 1876",
+      "year": "1876",
+      "yearSort": 1876,
+      "coverImage": "images/a647739609ae9a839329.webp",
+      "coverRecordId": "catalog-sleeping-beauty",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walter_Crane09.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [
+        "春季 / 复活节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-sleeping-beauty"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-sleeping-beauty"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 55,
+      "entityIds": [
+        "role-sleeping-beauty-aa08aca7"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

@@ -1,0 +1,750 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "subject-jesus-christian-iconography",
+    "name": "耶稣与基督教圣像",
+    "type": "文化题材",
+    "aliases": [
+      "基督",
+      "耶稣",
+      "Christ",
+      "Jesus",
+      "Nativity"
+    ],
+    "virtual": true,
+    "coverImage": "images/9b951c28c1d420207f22.webp",
+    "coverRecordId": "catalog-belief-cma-125587",
+    "yearStart": 1250,
+    "yearEnd": 1547,
+    "workIds": [
+      "work-pendant-triptych-with-an-onyx-cameo-of-the-nativity-84be0098",
+      "work-bifolio-from-an-antiphonary-historiated-initial-o-with-67a1ff25",
+      "work-triptych-with-the-adoration-of-the-magi-e3c44618",
+      "work-leaf-from-a-book-of-hours-the-nativity-recto-and-text--8dfa42ac",
+      "work-the-annunciation-and-the-nativity-a1049fdc",
+      "work-book-of-hours-use-of-utrecht-9769ddc6",
+      "work-single-leaf-from-an-antiphonary-initial-h-odie-nobis-w-7966302e",
+      "work-the-life-of-christ-the-nativity-0312906d",
+      "work-the-nativity-56582779",
+      "work-nativity-and-passion-of-christ-37deca27",
+      "work-the-adoration-of-the-shepherds-4dfbf978"
+    ],
+    "recordIds": [
+      "catalog-belief-cma-125587",
+      "catalog-belief-cma-148397",
+      "catalog-belief-cma-120995",
+      "catalog-belief-cma-171423",
+      "catalog-belief-cma-130980",
+      "catalog-belief-cma-160212",
+      "catalog-belief-cma-129858",
+      "catalog-belief-cma-149440",
+      "catalog-belief-cma-135311",
+      "catalog-belief-cma-143785",
+      "catalog-belief-cma-300708"
+    ],
+    "frameIds": [],
+    "workCount": 11,
+    "imageCount": 11,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 11
+    },
+    "copyrightRoutes": [
+      "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "圣诞 / 冬季",
+      "怪诞 / 魔法",
+      "宗教 / 神话",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "基督教 · 耶稣与圣像",
+        "count": 11
+      },
+      {
+        "name": "天使报喜 → 马槽 → 牧羊人与三博士",
+        "count": 11
+      },
+      {
+        "name": "耶稣降生与朝拜",
+        "count": 11
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "神话 / 魔法",
+        "count": 11
+      },
+      {
+        "name": "宗教 / 仪式",
+        "count": 11
+      },
+      {
+        "name": "Medieval Art; MED - Manuscript Illuminations; Manuscript",
+        "count": 3
+      },
+      {
+        "name": "Medieval Art; MED - Medieval Art; Painting",
+        "count": 3
+      },
+      {
+        "name": "Prints; PR - Engraving; Print",
+        "count": 2
+      },
+      {
+        "name": "Medieval Art; MED - Gothic; Enamel",
+        "count": 1
+      },
+      {
+        "name": "Medieval Art; MED - Manuscript Illuminations; Bound Volume",
+        "count": 1
+      },
+      {
+        "name": "Prints; PR - Woodcut; Print",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "提炼星光、围合人物、礼物与中心光源。",
+    "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+    "awarenessScore": 0,
+    "sourceCount": 11,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-pendant-triptych-with-an-onyx-cameo-of-the-nativity-84be0098",
+      "title": "Pendant Triptych with an Onyx Cameo of the Nativity",
+      "subtitle": "作者 / 工坊待复核 · c. 1460–1500; cameo: c. 1250–1300 · basse-taille enamel on gold; onyx cameo",
+      "year": "c. 1460–1500; cameo: c. 1250–1300",
+      "yearSort": 1250,
+      "coverImage": "images/9b951c28c1d420207f22.webp",
+      "coverRecordId": "catalog-belief-cma-125587",
+      "sourceUrl": "https://clevelandart.org/art/1947.508",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "提炼星光、围合人物、礼物与中心光源。",
+      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+      "tags": [
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Medieval Art; MED - Gothic; Enamel",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "基督教 · 耶稣与圣像",
+        "耶稣降生与朝拜",
+        "天使报喜 → 马槽 → 牧羊人与三博士"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-125587"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-125587"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-jesus-christian-iconography"
+      ]
+    },
+    {
+      "id": "work-bifolio-from-an-antiphonary-historiated-initial-o-with-67a1ff25",
+      "title": "Bifolio from an Antiphonary: Historiated Initial O with the Nativity",
+      "subtitle": "作者 / 工坊待复核 · early 1400s · ink, tempera, and gold on parchment",
+      "year": "early 1400s",
+      "yearSort": 1400,
+      "coverImage": "images/07973ce52c447097b18a.webp",
+      "coverRecordId": "catalog-belief-cma-148397",
+      "sourceUrl": "https://clevelandart.org/art/1976.100",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "提炼星光、围合人物、礼物与中心光源。",
+      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+      "tags": [
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Medieval Art; MED - Manuscript Illuminations; Manuscript",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "基督教 · 耶稣与圣像",
+        "耶稣降生与朝拜",
+        "天使报喜 → 马槽 → 牧羊人与三博士"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-148397"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-148397"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-jesus-christian-iconography"
+      ]
+    },
+    {
+      "id": "work-triptych-with-the-adoration-of-the-magi-e3c44618",
+      "title": "Triptych with the Adoration of the Magi",
+      "subtitle": "作者 / 工坊待复核 · c. 1424 · tempera and gold on wood (oak)",
+      "year": "c. 1424",
+      "yearSort": 1419,
+      "coverImage": "images/eca3f826d51dfbd215e6.webp",
+      "coverRecordId": "catalog-belief-cma-120995",
+      "sourceUrl": "https://clevelandart.org/art/1941.68",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "提炼星光、围合人物、礼物与中心光源。",
+      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Medieval Art; MED - Medieval Art; Painting",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "基督教 · 耶稣与圣像",
+        "耶稣降生与朝拜",
+        "天使报喜 → 马槽 → 牧羊人与三博士"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-120995"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-120995"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-jesus-christian-iconography"
+      ]
+    },
+    {
+      "id": "work-leaf-from-a-book-of-hours-the-nativity-recto-and-text--8dfa42ac",
+      "title": "Leaf from a Book of Hours: The Nativity (recto) and Text (verso)",
+      "subtitle": "作者 / 工坊待复核 · c. 1430 · ink, tempera, and gold on vellum",
+      "year": "c. 1430",
+      "yearSort": 1425,
+      "coverImage": "images/1911b1964356fe912d77.webp",
+      "coverRecordId": "catalog-belief-cma-171423",
+      "sourceUrl": "https://clevelandart.org/art/2014.23",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "提炼星光、围合人物、礼物与中心光源。",
+      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+      "tags": [
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Medieval Art; MED - Manuscript Illuminations; Manuscript",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "基督教 · 耶稣与圣像",
+        "耶稣降生与朝拜",
+        "天使报喜 → 马槽 → 牧羊人与三博士"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-171423"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-171423"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-jesus-christian-iconography"
+      ]
+    },
+    {
+      "id": "work-the-annunciation-and-the-nativity-a1049fdc",
+      "title": "The Annunciation and The Nativity",
+      "subtitle": "Jaume Ferrer the Younger (Spanish, Catalonia died c. 1460/70) · c. 1457 · oil, tempera, and gold on wood panel (fir)",
+      "year": "c. 1457",
+      "yearSort": 1452,
+      "coverImage": "images/c8b909ec25c2ff3594e3.webp",
+      "coverRecordId": "catalog-belief-cma-130980",
+      "sourceUrl": "https://clevelandart.org/art/1953.660",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "提炼星光、围合人物、礼物与中心光源。",
+      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+      "tags": [
+        "动物 / 自然",
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Medieval Art; MED - Medieval Art; Painting",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "基督教 · 耶稣与圣像",
+        "耶稣降生与朝拜",
+        "天使报喜 → 马槽 → 牧羊人与三博士"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-130980"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-130980"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-jesus-christian-iconography"
+      ]
+    },
+    {
+      "id": "work-book-of-hours-use-of-utrecht-9769ddc6",
+      "title": "Book of Hours (Use of Utrecht)",
+      "subtitle": "Master of Gijsbrecht van Brederode (Netherlandish); Master of the Boston City of God (Netherlandish) · c. 1460–1465 · ink, tempera, and gold on vellum; binding: brown Morocco over original wooden boards",
+      "year": "c. 1460–1465",
+      "yearSort": 1460,
+      "coverImage": "images/f9ac7d6713608ac4f159.webp",
+      "coverRecordId": "catalog-belief-cma-160212",
+      "sourceUrl": "https://clevelandart.org/art/1998.124",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "提炼星光、围合人物、礼物与中心光源。",
+      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Medieval Art; MED - Manuscript Illuminations; Bound Volume",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "基督教 · 耶稣与圣像",
+        "耶稣降生与朝拜",
+        "天使报喜 → 马槽 → 牧羊人与三博士"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-160212"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-160212"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-jesus-christian-iconography"
+      ]
+    },
+    {
+      "id": "work-single-leaf-from-an-antiphonary-initial-h-odie-nobis-w-7966302e",
+      "title": "Single Leaf from an Antiphonary: Initial H[odie nobis] with The Nativity",
+      "subtitle": "Benvenuto di Giovanni (Italian, 1436–1509/17) · 1471 · ink, tempera, and gold on parchment",
+      "year": "1471",
+      "yearSort": 1471,
+      "coverImage": "images/0e75ab718b966163adbc.webp",
+      "coverRecordId": "catalog-belief-cma-129858",
+      "sourceUrl": "https://clevelandart.org/art/1952.282",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "提炼星光、围合人物、礼物与中心光源。",
+      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+      "tags": [
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Medieval Art; MED - Manuscript Illuminations; Manuscript",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "基督教 · 耶稣与圣像",
+        "耶稣降生与朝拜",
+        "天使报喜 → 马槽 → 牧羊人与三博士"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-129858"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-129858"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-jesus-christian-iconography"
+      ]
+    },
+    {
+      "id": "work-the-life-of-christ-the-nativity-0312906d",
+      "title": "The Life of Christ: The Nativity",
+      "subtitle": "Martin Schongauer (German, c. 1450–1491) · c. 1480–90 · engraving",
+      "year": "c. 1480–90",
+      "yearSort": 1480,
+      "coverImage": "images/cdd8bf7e8c380d7ec119.webp",
+      "coverRecordId": "catalog-belief-cma-149440",
+      "sourceUrl": "https://clevelandart.org/art/1978.85",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "提炼星光、围合人物、礼物与中心光源。",
+      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+      "tags": [
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Prints; PR - Engraving; Print",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "基督教 · 耶稣与圣像",
+        "耶稣降生与朝拜",
+        "天使报喜 → 马槽 → 牧羊人与三博士"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-149440"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-149440"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-jesus-christian-iconography"
+      ]
+    },
+    {
+      "id": "work-the-nativity-56582779",
+      "title": "The Nativity",
+      "subtitle": "Gerard David (Netherlandish, 1450/60–1523) · c. 1485–90 · oil on wood panel",
+      "year": "c. 1485–90",
+      "yearSort": 1485,
+      "coverImage": "images/364472bec506982d0dbc.webp",
+      "coverRecordId": "catalog-belief-cma-135311",
+      "sourceUrl": "https://clevelandart.org/art/1958.320",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "提炼星光、围合人物、礼物与中心光源。",
+      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+      "tags": [
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Medieval Art; MED - Medieval Art; Painting",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "基督教 · 耶稣与圣像",
+        "耶稣降生与朝拜",
+        "天使报喜 → 马槽 → 牧羊人与三博士"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-135311"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-135311"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-jesus-christian-iconography"
+      ]
+    },
+    {
+      "id": "work-nativity-and-passion-of-christ-37deca27",
+      "title": "Nativity and Passion of Christ",
+      "subtitle": "Wolf Traut (German, c. 1486–1520) · 1511 · woodcut",
+      "year": "1511",
+      "yearSort": 1511,
+      "coverImage": "images/353ff0c8f21b39771d11.webp",
+      "coverRecordId": "catalog-belief-cma-143785",
+      "sourceUrl": "https://clevelandart.org/art/1968.220",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "提炼星光、围合人物、礼物与中心光源。",
+      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+      "tags": [
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Prints; PR - Woodcut; Print",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "基督教 · 耶稣与圣像",
+        "耶稣降生与朝拜",
+        "天使报喜 → 马槽 → 牧羊人与三博士"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-143785"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-143785"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-jesus-christian-iconography"
+      ]
+    },
+    {
+      "id": "work-the-adoration-of-the-shepherds-4dfbf978",
+      "title": "The Adoration of the Shepherds",
+      "subtitle": "Battista Franco (Italian, c. 1510–1561) · c. 1552 · Etching and engraving",
+      "year": "c. 1552",
+      "yearSort": 1547,
+      "coverImage": "images/61b5888febd7d543e322.webp",
+      "coverRecordId": "catalog-belief-cma-300708",
+      "sourceUrl": "https://clevelandart.org/art/2017.107",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "提炼星光、围合人物、礼物与中心光源。",
+      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Prints; PR - Engraving; Print",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "基督教 · 耶稣与圣像",
+        "耶稣降生与朝拜",
+        "天使报喜 → 马槽 → 牧羊人与三博士"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-300708"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-300708"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-jesus-christian-iconography"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

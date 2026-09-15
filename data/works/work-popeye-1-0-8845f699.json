@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-popeye-1-0-8845f699",
+    "title": "Popeye 1.0",
+    "subtitle": "《Thimble Theatre》首次登场 · 1929",
+    "year": "1929",
+    "yearSort": 1929,
+    "coverImage": "images/53c89c54fa29b9d16bc9.webp",
+    "coverRecordId": "catalog-popeye",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Popeye,_first_appearance,_Jan_17,_1929.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "版权边界可描述，但服装类品牌摩擦极高，不建议作为首批商品。",
+    "avoid": "1933 动画声音/模型和后续商品画稿；菠菜能力虽有不续展证据，保守标记待复核。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "styles": [
+      "早期动画 / 漫画",
+      "橡皮管动画"
+    ],
+    "scenes": [
+      "舞台 / 表演"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-popeye"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-popeye"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 78,
+    "entityIds": [
+      "role-popeye-f93ca91e"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-popeye-f93ca91e",
+      "name": "Popeye",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/53c89c54fa29b9d16bc9.webp",
+      "coverRecordId": "catalog-popeye",
+      "yearStart": 1929,
+      "yearEnd": 1931,
+      "workIds": [
+        "work-popeye-1-0-8845f699",
+        "work-popeye-首次菠菜力量段落-14745d0a"
+      ],
+      "recordIds": [
+        "catalog-popeye",
+        "catalog-nonrenewed-popeye-spinach-1931"
+      ],
+      "frameIds": [],
+      "workCount": 2,
+      "imageCount": 2,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1,
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满",
+        "未续期"
+      ],
+      "evidenceLevels": [
+        "A",
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "topScenes": [
+        {
+          "name": "菠菜 / 力量",
+          "count": 1
+        },
+        {
+          "name": "舞台 / 表演",
+          "count": 1
+        },
+        {
+          "name": "喜剧 / 动作",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "报刊连环画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        },
+        {
+          "name": "早期 Popeye",
+          "count": 1
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "版权边界可描述，但服装类品牌摩擦极高，不建议作为首批商品。",
+      "avoid": "1933 动画声音/模型和后续商品画稿；菠菜能力虽有不续展证据，保守标记待复核。",
+      "awarenessScore": 78,
+      "sourceCount": 2,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-popeye",
+      "kind": "主档",
+      "title": "Popeye 1.0",
+      "subtitle": "《Thimble Theatre》首次登场 · 1929",
+      "year": "1929",
+      "yearSort": 1929,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Popeye,_first_appearance,_Jan_17,_1929.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "版权边界可描述，但服装类品牌摩擦极高，不建议作为首批商品。",
+      "avoid": "1933 动画声音/模型和后续商品画稿；菠菜能力虽有不续展证据，保守标记待复核。",
+      "styles": [
+        "早期动画 / 漫画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 78,
+      "awarenessLevel": "高",
+      "image": "images/53c89c54fa29b9d16bc9.webp"
+    }
+  ]
+}

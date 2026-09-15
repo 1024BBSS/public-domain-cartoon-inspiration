@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-gertie-the-dinosaur-bbfc818a",
+    "name": "Gertie the Dinosaur",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/55f62c8f649d9a057766.webp",
+    "coverRecordId": "catalog-gertie",
+    "yearStart": 1914,
+    "yearEnd": 1914,
+    "workIds": [
+      "work-gertie-the-dinosaur-4b750585"
+    ],
+    "recordIds": [
+      "catalog-gertie"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "topScenes": [
+      {
+        "name": "舞台 / 表演",
+        "count": 1
+      },
+      {
+        "name": "音乐 / 舞蹈",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      },
+      {
+        "name": "早期动画 / 漫画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "春季 / 复活节",
+        "count": 1
+      }
+    ],
+    "usage": "可做一色复古恐龙和小星点，轮廓友好、印花细节可控。",
+    "avoid": "后续品牌化重绘、现代动画新增表情与未经核实的修复元素。",
+    "awarenessScore": 22,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-gertie-the-dinosaur-4b750585",
+      "title": "Gertie the Dinosaur",
+      "subtitle": "Winsor McCay 动画帧 · 1914",
+      "year": "1914",
+      "yearSort": 1914,
+      "coverImage": "images/55f62c8f649d9a057766.webp",
+      "coverRecordId": "catalog-gertie",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gertie_the_Dinosaur_(retouched_frame).jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "可做一色复古恐龙和小星点，轮廓友好、印花细节可控。",
+      "avoid": "后续品牌化重绘、现代动画新增表情与未经核实的修复元素。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "styles": [
+        "早期动画 / 漫画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "舞台 / 表演"
+      ],
+      "holidays": [
+        "春季 / 复活节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-gertie"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-gertie"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 22,
+      "entityIds": [
+        "role-gertie-the-dinosaur-bbfc818a"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

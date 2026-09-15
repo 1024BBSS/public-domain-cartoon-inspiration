@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-the-twelve-dancing-princesses-1a583273",
+    "name": "The Twelve Dancing Princesses",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/3b440a79b012f33e4801.webp",
+    "coverRecordId": "catalog-twelve-dancing-princesses",
+    "yearStart": 1909,
+    "yearEnd": 1909,
+    "workIds": [
+      "work-the-twelve-dancing-princesses-f2ddc9ee"
+    ],
+    "recordIds": [
+      "catalog-twelve-dancing-princesses"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "topScenes": [
+      {
+        "name": "音乐 / 舞蹈",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 31,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-the-twelve-dancing-princesses-f2ddc9ee",
+      "title": "The Twelve Dancing Princesses",
+      "subtitle": "Arthur Rackham 童话插图 · 1909",
+      "year": "1909",
+      "yearSort": 1909,
+      "coverImage": "images/3b440a79b012f33e4801.webp",
+      "coverRecordId": "catalog-twelve-dancing-princesses",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:12_dancing_princess_par_Anne_Anderson.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-twelve-dancing-princesses"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-twelve-dancing-princesses"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 31,
+      "entityIds": [
+        "role-the-twelve-dancing-princesses-1a583273"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

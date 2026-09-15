@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-queen-guinevere-e074564d",
+    "name": "Queen Guinevere",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/cd247212c9d326d97a6d.webp",
+    "coverRecordId": "catalog-guinevere",
+    "yearStart": 1917,
+    "yearEnd": 1917,
+    "workIds": [
+      "work-queen-guinevere-8216c650"
+    ],
+    "recordIds": [
+      "catalog-guinevere"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "topScenes": [],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 60,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-queen-guinevere-8216c650",
+      "title": "Queen Guinevere",
+      "subtitle": "Arthur Rackham 亚瑟王插图 · 1917",
+      "year": "1917",
+      "yearSort": 1917,
+      "coverImage": "images/cd247212c9d326d97a6d.webp",
+      "coverRecordId": "catalog-guinevere",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rackham_queen_guinivere.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-guinevere"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-guinevere"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 60,
+      "entityIds": [
+        "role-queen-guinevere-e074564d"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

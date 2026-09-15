@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-the-wonderful-wizard-of-oz-ee961daf",
+    "name": "The Wonderful Wizard of Oz",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/64fd272a35ec2cf32738.webp",
+    "coverRecordId": "catalog-oz",
+    "yearStart": 1900,
+    "yearEnd": 1900,
+    "workIds": [
+      "work-the-wonderful-wizard-of-oz-e5cb869b"
+    ],
+    "recordIds": [
+      "catalog-oz"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "漫画 / 角色",
+      "童话 / 寓言",
+      "怪诞 / 魔法"
+    ],
+    "topScenes": [
+      {
+        "name": "魔法 / 变形",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "优先抽取首版群像轮廓或单个角色，重做色块和边框。",
+    "avoid": "MGM 电影演员脸、红宝石鞋和电影服装；原著是银鞋。",
+    "awarenessScore": 75,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-the-wonderful-wizard-of-oz-e5cb869b",
+      "title": "The Wonderful Wizard of Oz",
+      "subtitle": "W. W. Denslow 1900 首版封面",
+      "year": "1900",
+      "yearSort": 1900,
+      "coverImage": "images/64fd272a35ec2cf32738.webp",
+      "coverRecordId": "catalog-oz",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Wonderful_Wizard_of_Oz_-_W.W._Denslow_cover.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "优先抽取首版群像轮廓或单个角色，重做色块和边框。",
+      "avoid": "MGM 电影演员脸、红宝石鞋和电影服装；原著是银鞋。",
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "文学插画"
+      ],
+      "scenes": [
+        "魔法 / 变形"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-oz"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-oz"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 75,
+      "entityIds": [
+        "role-the-wonderful-wizard-of-oz-ee961daf"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

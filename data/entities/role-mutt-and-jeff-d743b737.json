@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-mutt-and-jeff-d743b737",
+    "name": "Mutt and Jeff",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/2442cebe02e3befaf5b0.webp",
+    "coverRecordId": "catalog-mutt-jeff",
+    "yearStart": 1907,
+    "yearEnd": 1907,
+    "workIds": [
+      "work-mutt-and-jeff-ccbd2fcb"
+    ],
+    "recordIds": [
+      "catalog-mutt-jeff"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "海滨 / 水下",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "报刊连环画",
+        "count": 1
+      },
+      {
+        "name": "早期动画 / 漫画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+    "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+    "awarenessScore": 24,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-mutt-and-jeff-ccbd2fcb",
+      "title": "Mutt and Jeff",
+      "subtitle": "Bud Fisher 报纸漫画 · 1907",
+      "year": "1907",
+      "yearSort": 1907,
+      "coverImage": "images/2442cebe02e3befaf5b0.webp",
+      "coverRecordId": "catalog-mutt-jeff",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mutt_and_Jeff_1910s_Strip_02.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "早期动画 / 漫画",
+        "报刊连环画"
+      ],
+      "scenes": [
+        "海滨 / 水下"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-mutt-jeff"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-mutt-jeff"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 24,
+      "entityIds": [
+        "role-mutt-and-jeff-d743b737"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

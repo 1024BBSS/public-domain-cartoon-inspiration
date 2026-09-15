@@ -1,0 +1,878 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-frolicking-fish水下歌舞-82c1defa",
+    "title": "《Frolicking Fish》水下歌舞",
+    "subtitle": "",
+    "year": "1930",
+    "yearSort": 1930,
+    "coverImage": "images/0f92057512dfa009d965.webp",
+    "coverRecordId": "frame-frolicking-fish-1930-001",
+    "sourceUrl": "https://archive.org/details/frolicking-fish_1930",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "以来源页为准"
+    ],
+    "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "tags": [
+      "早期动画",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "Silly Symphonies",
+      "橡皮管动画"
+    ],
+    "scenes": [
+      "水下",
+      "动物群像",
+      "音乐 / 舞蹈"
+    ],
+    "holidays": [
+      "夏季"
+    ],
+    "characterNames": [
+      "鱼群",
+      "章鱼",
+      "海底动物"
+    ],
+    "characterAliases": [
+      "鱼群",
+      "章鱼",
+      "海底动物"
+    ],
+    "recordIds": [
+      "frame-frolicking-fish-1930-001",
+      "frame-frolicking-fish-1930-002",
+      "frame-frolicking-fish-1930-003",
+      "frame-frolicking-fish-1930-004",
+      "frame-frolicking-fish-1930-005",
+      "frame-frolicking-fish-1930-006",
+      "frame-frolicking-fish-1930-007",
+      "frame-frolicking-fish-1930-008",
+      "frame-frolicking-fish-1930-009",
+      "frame-frolicking-fish-1930-010",
+      "frame-frolicking-fish-1930-011",
+      "frame-frolicking-fish-1930-012"
+    ],
+    "frameIds": [
+      "frame-frolicking-fish-1930-001",
+      "frame-frolicking-fish-1930-002",
+      "frame-frolicking-fish-1930-003",
+      "frame-frolicking-fish-1930-004",
+      "frame-frolicking-fish-1930-005",
+      "frame-frolicking-fish-1930-006",
+      "frame-frolicking-fish-1930-007",
+      "frame-frolicking-fish-1930-008",
+      "frame-frolicking-fish-1930-009",
+      "frame-frolicking-fish-1930-010",
+      "frame-frolicking-fish-1930-011",
+      "frame-frolicking-fish-1930-012"
+    ],
+    "masterIds": [],
+    "imageCount": 12,
+    "frameCount": 12,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-鱼群-61510a87",
+      "role-章鱼-ae1d91f7",
+      "role-海底动物-ae00e704"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-鱼群-61510a87",
+      "name": "鱼群",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/0f92057512dfa009d965.webp",
+      "coverRecordId": "frame-frolicking-fish-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-frolicking-fish水下歌舞-82c1defa"
+      ],
+      "recordIds": [
+        "frame-frolicking-fish-1930-001",
+        "frame-frolicking-fish-1930-002",
+        "frame-frolicking-fish-1930-003",
+        "frame-frolicking-fish-1930-004",
+        "frame-frolicking-fish-1930-005",
+        "frame-frolicking-fish-1930-006",
+        "frame-frolicking-fish-1930-007",
+        "frame-frolicking-fish-1930-008",
+        "frame-frolicking-fish-1930-009",
+        "frame-frolicking-fish-1930-010",
+        "frame-frolicking-fish-1930-011",
+        "frame-frolicking-fish-1930-012"
+      ],
+      "frameIds": [
+        "frame-frolicking-fish-1930-001",
+        "frame-frolicking-fish-1930-002",
+        "frame-frolicking-fish-1930-003",
+        "frame-frolicking-fish-1930-004",
+        "frame-frolicking-fish-1930-005",
+        "frame-frolicking-fish-1930-006",
+        "frame-frolicking-fish-1930-007",
+        "frame-frolicking-fish-1930-008",
+        "frame-frolicking-fish-1930-009",
+        "frame-frolicking-fish-1930-010",
+        "frame-frolicking-fish-1930-011",
+        "frame-frolicking-fish-1930-012"
+      ],
+      "workCount": 1,
+      "imageCount": 12,
+      "frameCount": 12,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物群像",
+          "count": 12
+        },
+        {
+          "name": "水下",
+          "count": 12
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 12
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 12
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 12
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "夏季",
+          "count": 12
+        }
+      ],
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-章鱼-ae1d91f7",
+        "role-海底动物-ae00e704"
+      ]
+    },
+    {
+      "id": "role-章鱼-ae1d91f7",
+      "name": "章鱼",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/0f92057512dfa009d965.webp",
+      "coverRecordId": "frame-frolicking-fish-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-frolicking-fish水下歌舞-82c1defa"
+      ],
+      "recordIds": [
+        "frame-frolicking-fish-1930-001",
+        "frame-frolicking-fish-1930-002",
+        "frame-frolicking-fish-1930-003",
+        "frame-frolicking-fish-1930-004",
+        "frame-frolicking-fish-1930-005",
+        "frame-frolicking-fish-1930-006",
+        "frame-frolicking-fish-1930-007",
+        "frame-frolicking-fish-1930-008",
+        "frame-frolicking-fish-1930-009",
+        "frame-frolicking-fish-1930-010",
+        "frame-frolicking-fish-1930-011",
+        "frame-frolicking-fish-1930-012"
+      ],
+      "frameIds": [
+        "frame-frolicking-fish-1930-001",
+        "frame-frolicking-fish-1930-002",
+        "frame-frolicking-fish-1930-003",
+        "frame-frolicking-fish-1930-004",
+        "frame-frolicking-fish-1930-005",
+        "frame-frolicking-fish-1930-006",
+        "frame-frolicking-fish-1930-007",
+        "frame-frolicking-fish-1930-008",
+        "frame-frolicking-fish-1930-009",
+        "frame-frolicking-fish-1930-010",
+        "frame-frolicking-fish-1930-011",
+        "frame-frolicking-fish-1930-012"
+      ],
+      "workCount": 1,
+      "imageCount": 12,
+      "frameCount": 12,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物群像",
+          "count": 12
+        },
+        {
+          "name": "水下",
+          "count": 12
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 12
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 12
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 12
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "夏季",
+          "count": 12
+        }
+      ],
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-鱼群-61510a87",
+        "role-海底动物-ae00e704"
+      ]
+    },
+    {
+      "id": "role-海底动物-ae00e704",
+      "name": "海底动物",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/0f92057512dfa009d965.webp",
+      "coverRecordId": "frame-frolicking-fish-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-frolicking-fish水下歌舞-82c1defa"
+      ],
+      "recordIds": [
+        "frame-frolicking-fish-1930-001",
+        "frame-frolicking-fish-1930-002",
+        "frame-frolicking-fish-1930-003",
+        "frame-frolicking-fish-1930-004",
+        "frame-frolicking-fish-1930-005",
+        "frame-frolicking-fish-1930-006",
+        "frame-frolicking-fish-1930-007",
+        "frame-frolicking-fish-1930-008",
+        "frame-frolicking-fish-1930-009",
+        "frame-frolicking-fish-1930-010",
+        "frame-frolicking-fish-1930-011",
+        "frame-frolicking-fish-1930-012"
+      ],
+      "frameIds": [
+        "frame-frolicking-fish-1930-001",
+        "frame-frolicking-fish-1930-002",
+        "frame-frolicking-fish-1930-003",
+        "frame-frolicking-fish-1930-004",
+        "frame-frolicking-fish-1930-005",
+        "frame-frolicking-fish-1930-006",
+        "frame-frolicking-fish-1930-007",
+        "frame-frolicking-fish-1930-008",
+        "frame-frolicking-fish-1930-009",
+        "frame-frolicking-fish-1930-010",
+        "frame-frolicking-fish-1930-011",
+        "frame-frolicking-fish-1930-012"
+      ],
+      "workCount": 1,
+      "imageCount": 12,
+      "frameCount": 12,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物群像",
+          "count": 12
+        },
+        {
+          "name": "水下",
+          "count": 12
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 12
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 12
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 12
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "夏季",
+          "count": 12
+        }
+      ],
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-鱼群-61510a87",
+        "role-章鱼-ae1d91f7"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "frame-frolicking-fish-1930-001",
+      "kind": "动画画面",
+      "title": "《Frolicking Fish》水下歌舞",
+      "subtitle": "画面 001",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/frolicking-fish_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "水下",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "鱼群",
+        "章鱼",
+        "海底动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/0f92057512dfa009d965.webp"
+    },
+    {
+      "id": "frame-frolicking-fish-1930-002",
+      "kind": "动画画面",
+      "title": "《Frolicking Fish》水下歌舞",
+      "subtitle": "画面 002",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/frolicking-fish_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "水下",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "鱼群",
+        "章鱼",
+        "海底动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/82594cfc1ba783e25be7.webp"
+    },
+    {
+      "id": "frame-frolicking-fish-1930-003",
+      "kind": "动画画面",
+      "title": "《Frolicking Fish》水下歌舞",
+      "subtitle": "画面 003",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/frolicking-fish_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "水下",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "鱼群",
+        "章鱼",
+        "海底动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/1e2f73cac913312df770.webp"
+    },
+    {
+      "id": "frame-frolicking-fish-1930-004",
+      "kind": "动画画面",
+      "title": "《Frolicking Fish》水下歌舞",
+      "subtitle": "画面 004",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/frolicking-fish_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "水下",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "鱼群",
+        "章鱼",
+        "海底动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/e9aaca49a4396eff6c50.webp"
+    },
+    {
+      "id": "frame-frolicking-fish-1930-005",
+      "kind": "动画画面",
+      "title": "《Frolicking Fish》水下歌舞",
+      "subtitle": "画面 005",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/frolicking-fish_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "水下",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "鱼群",
+        "章鱼",
+        "海底动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/23dba2a4cc1902b41504.webp"
+    },
+    {
+      "id": "frame-frolicking-fish-1930-006",
+      "kind": "动画画面",
+      "title": "《Frolicking Fish》水下歌舞",
+      "subtitle": "画面 006",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/frolicking-fish_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "水下",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "鱼群",
+        "章鱼",
+        "海底动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/2990e3f20497dbcb098a.webp"
+    },
+    {
+      "id": "frame-frolicking-fish-1930-007",
+      "kind": "动画画面",
+      "title": "《Frolicking Fish》水下歌舞",
+      "subtitle": "画面 007",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/frolicking-fish_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "水下",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "鱼群",
+        "章鱼",
+        "海底动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/21948e10210b2d6abf5c.webp"
+    },
+    {
+      "id": "frame-frolicking-fish-1930-008",
+      "kind": "动画画面",
+      "title": "《Frolicking Fish》水下歌舞",
+      "subtitle": "画面 008",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/frolicking-fish_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "水下",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "鱼群",
+        "章鱼",
+        "海底动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/0699d3148004d78ea1c6.webp"
+    },
+    {
+      "id": "frame-frolicking-fish-1930-009",
+      "kind": "动画画面",
+      "title": "《Frolicking Fish》水下歌舞",
+      "subtitle": "画面 009",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/frolicking-fish_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "水下",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "鱼群",
+        "章鱼",
+        "海底动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/b0fbdaa6dd0445d9260a.webp"
+    },
+    {
+      "id": "frame-frolicking-fish-1930-010",
+      "kind": "动画画面",
+      "title": "《Frolicking Fish》水下歌舞",
+      "subtitle": "画面 010",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/frolicking-fish_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "水下",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "鱼群",
+        "章鱼",
+        "海底动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/026bb9a0a39a8ea45724.webp"
+    },
+    {
+      "id": "frame-frolicking-fish-1930-011",
+      "kind": "动画画面",
+      "title": "《Frolicking Fish》水下歌舞",
+      "subtitle": "画面 011",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/frolicking-fish_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "水下",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "鱼群",
+        "章鱼",
+        "海底动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/44b79f1b9bc5312fc377.webp"
+    },
+    {
+      "id": "frame-frolicking-fish-1930-012",
+      "kind": "动画画面",
+      "title": "《Frolicking Fish》水下歌舞",
+      "subtitle": "画面 012",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/frolicking-fish_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 水下 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "水下",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "鱼群",
+        "章鱼",
+        "海底动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/5518fb28b0f8c2bea7d5.webp"
+    }
+  ]
+}

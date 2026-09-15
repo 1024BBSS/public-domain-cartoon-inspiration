@@ -1,0 +1,707 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "subject-east-asian-ghosts",
+    "name": "钟馗与东亚鬼神",
+    "type": "文化题材",
+    "aliases": [
+      "鬼神",
+      "妖怪",
+      "钟馗",
+      "Yokai",
+      "Zhong Kui"
+    ],
+    "virtual": true,
+    "coverImage": "images/9ed068056201863f947b.webp",
+    "coverRecordId": "catalog-belief-cma-163115",
+    "yearStart": 1200,
+    "yearEnd": 1865,
+    "workIds": [
+      "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
+      "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
+      "work-zhong-kui-supported-by-ghosts-8f0c0fce",
+      "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
+      "work-ghosts-of-the-taira-at-daimotsu-bay-4e6f02fe",
+      "work-a-boat-cast-adrift-ukifune-omatsu-and-akabori-mizuemon-0e3ed557",
+      "work-a-molted-cicada-shell-utsusemi-soga-goro-tokimune-from-9e43ce93",
+      "work-exile-to-suma-suma-tamaori-hime-from-the-series-scenes-606f10d3",
+      "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
+      "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35"
+    ],
+    "recordIds": [
+      "catalog-belief-cma-163115",
+      "catalog-belief-cma-136668",
+      "catalog-belief-cma-135655",
+      "catalog-belief-met-58892",
+      "catalog-belief-met-55743",
+      "catalog-belief-met-789147",
+      "catalog-belief-met-789145",
+      "catalog-belief-met-789148",
+      "catalog-belief-met-789144",
+      "catalog-belief-met-76582"
+    ],
+    "frameIds": [],
+    "workCount": 10,
+    "imageCount": 10,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 10
+    },
+    "copyrightRoutes": [
+      "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+      "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "怪诞 / 魔法",
+      "宗教 / 神话"
+    ],
+    "topScenes": [
+      {
+        "name": "东亚道教、神道与民间信仰",
+        "count": 10
+      },
+      {
+        "name": "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神",
+        "count": 10
+      },
+      {
+        "name": "妖怪、幽灵与民间护佑神",
+        "count": 10
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "暗黑 / 怪诞",
+        "count": 10
+      },
+      {
+        "name": "神话 / 魔法",
+        "count": 10
+      },
+      {
+        "name": "宗教 / 仪式",
+        "count": 10
+      },
+      {
+        "name": "Asian Art; Prints; Print",
+        "count": 4
+      },
+      {
+        "name": "Asian Art; Prints; Woodblock print",
+        "count": 2
+      },
+      {
+        "name": "Asian Art; Inrō; Inrō",
+        "count": 1
+      },
+      {
+        "name": "Chinese Art; ASIAN - Album leaf; Painting",
+        "count": 1
+      },
+      {
+        "name": "Chinese Art; ASIAN - Handscroll; Painting",
+        "count": 1
+      },
+      {
+        "name": "Chinese Art; ASIAN - Hanging scroll; Painting",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+    "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+    "awarenessScore": 0,
+    "sourceCount": 10,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
+      "title": "Album of Daoist and Buddhist Themes: Procession of Daoist Deities: Leaf 18",
+      "subtitle": "作者 / 工坊待复核 · 1200s · Album; ink on paper",
+      "year": "1200s",
+      "yearSort": 1200,
+      "coverImage": "images/9ed068056201863f947b.webp",
+      "coverRecordId": "catalog-belief-cma-163115",
+      "sourceUrl": "https://clevelandart.org/art/2004.1.18",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+      "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Chinese Art; ASIAN - Album leaf; Painting",
+        "神话 / 魔法",
+        "暗黑 / 怪诞",
+        "宗教 / 仪式"
+      ],
+      "scenes": [
+        "东亚道教、神道与民间信仰",
+        "妖怪、幽灵与民间护佑神",
+        "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-163115"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-163115"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
+      "title": "The Lantern Night Excursion of Zhong Kui",
+      "subtitle": "Yan Hui (Chinese, active 1270–1310) · late 1200s–early 1300s · handscroll; ink and slight color on silk",
+      "year": "late 1200s–early 1300s",
+      "yearSort": 1250,
+      "coverImage": "images/c28fcc64895f5f4f8df9.webp",
+      "coverRecordId": "catalog-belief-cma-136668",
+      "sourceUrl": "https://clevelandart.org/art/1961.206",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+      "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Chinese Art; ASIAN - Handscroll; Painting",
+        "神话 / 魔法",
+        "暗黑 / 怪诞",
+        "宗教 / 仪式"
+      ],
+      "scenes": [
+        "东亚道教、神道与民间信仰",
+        "妖怪、幽灵与民间护佑神",
+        "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-136668"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-136668"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-zhong-kui-supported-by-ghosts-8f0c0fce",
+      "title": "Zhong Kui Supported by Ghosts",
+      "subtitle": "Luo Ping (Chinese, 1733–1799) · 1700s · hanging scroll; ink and light color on paper",
+      "year": "1700s",
+      "yearSort": 1750,
+      "coverImage": "images/b10764308bfc5a5dae32.webp",
+      "coverRecordId": "catalog-belief-cma-135655",
+      "sourceUrl": "https://clevelandart.org/art/1959.185",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+      "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Chinese Art; ASIAN - Hanging scroll; Painting",
+        "神话 / 魔法",
+        "暗黑 / 怪诞",
+        "宗教 / 仪式"
+      ],
+      "scenes": [
+        "东亚道教、神道与民间信仰",
+        "妖怪、幽灵与民间护佑神",
+        "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-135655"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-135655"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
+      "title": "Case (Inrō) with Design of Old Man and Woman (Jo and Uba) and Pine Trees (from Noh Play \"Takasago Spirits of the Pine\")",
+      "subtitle": "Minsetsusai Kyuho · 19th century · Ceramic and mother-of-pearl inlays and gold maki-e on black lacquer Ojime: porcelain with overglaze enamel design of maple leaves Netsuke: porcelain with overglaze enamel design of maple leaves imitating Kenzan design",
+      "year": "19th century",
+      "yearSort": 1800,
+      "coverImage": "images/101d38dc525bc34f45d8.webp",
+      "coverRecordId": "catalog-belief-met-58892",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/58892",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+      "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Asian Art; Inrō; Inrō",
+        "神话 / 魔法",
+        "暗黑 / 怪诞",
+        "宗教 / 仪式"
+      ],
+      "scenes": [
+        "东亚道教、神道与民间信仰",
+        "妖怪、幽灵与民间护佑神",
+        "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-58892"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-58892"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-ghosts-of-the-taira-at-daimotsu-bay-4e6f02fe",
+      "title": "Ghosts of the Taira at Daimotsu Bay",
+      "subtitle": "Utagawa Kuniyoshi · 1843–47 · Triptych of woodblock-printed books (nishiki-e); ink and color on paper",
+      "year": "1843–47",
+      "yearSort": 1843,
+      "coverImage": "images/435e733d0df9d05270c5.webp",
+      "coverRecordId": "catalog-belief-met-55743",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/55743",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+      "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Asian Art; Prints; Woodblock print",
+        "神话 / 魔法",
+        "暗黑 / 怪诞",
+        "宗教 / 仪式"
+      ],
+      "scenes": [
+        "东亚道教、神道与民间信仰",
+        "妖怪、幽灵与民间护佑神",
+        "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-55743"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-55743"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-a-boat-cast-adrift-ukifune-omatsu-and-akabori-mizuemon-0e3ed557",
+      "title": "“‘A Boat Cast Adrift’ (Ukifune): Omatsu and Akabori Mizuemon,” from the series Scenes amid Genji Clouds Matched with Ukiyo-e Pictures (Genji-gumo ukiyo e-awase)",
+      "subtitle": "Utagawa Kuniyoshi · 1845–46 · Woodblock ōban print (nishiki-e); ink and color on paper",
+      "year": "1845–46",
+      "yearSort": 1845,
+      "coverImage": "images/9981a55a48e3536aaaea.webp",
+      "coverRecordId": "catalog-belief-met-789147",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/789147",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+      "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Asian Art; Prints; Print",
+        "神话 / 魔法",
+        "暗黑 / 怪诞",
+        "宗教 / 仪式"
+      ],
+      "scenes": [
+        "东亚道教、神道与民间信仰",
+        "妖怪、幽灵与民间护佑神",
+        "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-789147"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-789147"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-a-molted-cicada-shell-utsusemi-soga-goro-tokimune-from-9e43ce93",
+      "title": "“‘A Molted Cicada Shell’ (Utsusemi): Soga Gorō Tokimune,” from the series Scenes amid Genji Clouds Matched with Ukiyo-e Pictures (Genji-gumo ukiyo e-awase)",
+      "subtitle": "Utagawa Kuniyoshi · ca. 1845–61 · Woodblock ōban print (nishiki-e); ink and color on paper",
+      "year": "ca. 1845–61",
+      "yearSort": 1845,
+      "coverImage": "images/a459d12c80f368bdc0c0.webp",
+      "coverRecordId": "catalog-belief-met-789145",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/789145",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+      "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Asian Art; Prints; Print",
+        "神话 / 魔法",
+        "暗黑 / 怪诞",
+        "宗教 / 仪式"
+      ],
+      "scenes": [
+        "东亚道教、神道与民间信仰",
+        "妖怪、幽灵与民间护佑神",
+        "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-789145"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-789145"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-exile-to-suma-suma-tamaori-hime-from-the-series-scenes-606f10d3",
+      "title": "“‘Exile to Suma’ (Suma): Tamaori-hime,” from the series Scenes amid Genji Clouds Matched with Ukiyo-e Pictures (Genji-gumo ukiyo e-awase)",
+      "subtitle": "Utagawa Kuniyoshi · ca. 1845–61 · Woodblock ōban print (nishiki-e); ink and color on paper",
+      "year": "ca. 1845–61",
+      "yearSort": 1845,
+      "coverImage": "images/59e960848983256755b9.webp",
+      "coverRecordId": "catalog-belief-met-789148",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/789148",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+      "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Asian Art; Prints; Print",
+        "神话 / 魔法",
+        "暗黑 / 怪诞",
+        "宗教 / 仪式"
+      ],
+      "scenes": [
+        "东亚道教、神道与民间信仰",
+        "妖怪、幽灵与民间护佑神",
+        "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-789148"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-789148"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
+      "title": "“‘Little Purple Gromwell’ (Wakamurasaki): Shōshō,” from the series Scenes amid Genji Clouds Matched with Ukiyo-e Pictures (Genji-gumo ukiyo e-awase)",
+      "subtitle": "Utagawa Kuniyoshi · ca. 1845–61 · Woodblock ōban print (nishiki-e); ink and color on paper",
+      "year": "ca. 1845–61",
+      "yearSort": 1845,
+      "coverImage": "images/881accbfe36c2ae508e2.webp",
+      "coverRecordId": "catalog-belief-met-789144",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/789144",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+      "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Asian Art; Prints; Print",
+        "神话 / 魔法",
+        "暗黑 / 怪诞",
+        "宗教 / 仪式"
+      ],
+      "scenes": [
+        "东亚道教、神道与民间信仰",
+        "妖怪、幽灵与民间护佑神",
+        "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-789144"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-789144"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35",
+      "title": "Ichikawa Yonezō as the Ghost of Oiwa",
+      "subtitle": "Enjaku 猿雀 · 1865 · Woodblock print (nishiki-e); ink and color on paper; vertical chūban",
+      "year": "1865",
+      "yearSort": 1865,
+      "coverImage": "images/b15734e01026d2e55ecf.webp",
+      "coverRecordId": "catalog-belief-met-76582",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/76582",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
+      "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Asian Art; Prints; Woodblock print",
+        "神话 / 魔法",
+        "暗黑 / 怪诞",
+        "宗教 / 仪式"
+      ],
+      "scenes": [
+        "东亚道教、神道与民间信仰",
+        "妖怪、幽灵与民间护佑神",
+        "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-76582"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-76582"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-east-asian-ghosts"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

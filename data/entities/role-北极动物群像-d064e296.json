@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-北极动物群像-d064e296",
+    "name": "北极动物群像",
+    "type": "群像 / 生物",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/3f8a2e96293fc046b2e8.webp",
+    "coverRecordId": "frame-arctic-antics-1930-001",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "workIds": [
+      "work-arctic-antics极地动物-e9f87d8d"
+    ],
+    "recordIds": [
+      "frame-arctic-antics-1930-001",
+      "frame-arctic-antics-1930-002",
+      "frame-arctic-antics-1930-003",
+      "frame-arctic-antics-1930-004",
+      "frame-arctic-antics-1930-005",
+      "frame-arctic-antics-1930-006",
+      "frame-arctic-antics-1930-007",
+      "frame-arctic-antics-1930-008",
+      "frame-arctic-antics-1930-009",
+      "frame-arctic-antics-1930-010",
+      "frame-arctic-antics-1930-011",
+      "frame-arctic-antics-1930-012",
+      "frame-arctic-antics-1930-013",
+      "frame-arctic-antics-1930-014"
+    ],
+    "frameIds": [
+      "frame-arctic-antics-1930-001",
+      "frame-arctic-antics-1930-002",
+      "frame-arctic-antics-1930-003",
+      "frame-arctic-antics-1930-004",
+      "frame-arctic-antics-1930-005",
+      "frame-arctic-antics-1930-006",
+      "frame-arctic-antics-1930-007",
+      "frame-arctic-antics-1930-008",
+      "frame-arctic-antics-1930-009",
+      "frame-arctic-antics-1930-010",
+      "frame-arctic-antics-1930-011",
+      "frame-arctic-antics-1930-012",
+      "frame-arctic-antics-1930-013",
+      "frame-arctic-antics-1930-014"
+    ],
+    "workCount": 1,
+    "imageCount": 14,
+    "frameCount": 14,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "动物 / 自然",
+      "圣诞 / 冬季"
+    ],
+    "topScenes": [
+      {
+        "name": "动物群像",
+        "count": 14
+      },
+      {
+        "name": "极地",
+        "count": 14
+      },
+      {
+        "name": "雪景",
+        "count": 14
+      },
+      {
+        "name": "音乐 / 舞蹈",
+        "count": 14
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "季节动画",
+        "count": 14
+      },
+      {
+        "name": "Silly Symphonies",
+        "count": 14
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "圣诞 / 冬季",
+        "count": 14
+      }
+    ],
+    "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-arctic-antics极地动物-e9f87d8d",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/3f8a2e96293fc046b2e8.webp",
+      "coverRecordId": "frame-arctic-antics-1930-001",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [
+        "北极动物群像"
+      ],
+      "characterAliases": [
+        "北极动物群像"
+      ],
+      "recordIds": [
+        "frame-arctic-antics-1930-001",
+        "frame-arctic-antics-1930-002",
+        "frame-arctic-antics-1930-003",
+        "frame-arctic-antics-1930-004",
+        "frame-arctic-antics-1930-005",
+        "frame-arctic-antics-1930-006",
+        "frame-arctic-antics-1930-007",
+        "frame-arctic-antics-1930-008",
+        "frame-arctic-antics-1930-009",
+        "frame-arctic-antics-1930-010",
+        "frame-arctic-antics-1930-011",
+        "frame-arctic-antics-1930-012",
+        "frame-arctic-antics-1930-013",
+        "frame-arctic-antics-1930-014"
+      ],
+      "frameIds": [
+        "frame-arctic-antics-1930-001",
+        "frame-arctic-antics-1930-002",
+        "frame-arctic-antics-1930-003",
+        "frame-arctic-antics-1930-004",
+        "frame-arctic-antics-1930-005",
+        "frame-arctic-antics-1930-006",
+        "frame-arctic-antics-1930-007",
+        "frame-arctic-antics-1930-008",
+        "frame-arctic-antics-1930-009",
+        "frame-arctic-antics-1930-010",
+        "frame-arctic-antics-1930-011",
+        "frame-arctic-antics-1930-012",
+        "frame-arctic-antics-1930-013",
+        "frame-arctic-antics-1930-014"
+      ],
+      "masterIds": [],
+      "imageCount": 14,
+      "frameCount": 14,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-北极动物群像-d064e296"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-beowulf-980f9100",
+    "title": "Beowulf",
+    "subtitle": "J. R. Skelton 英雄史诗插图 · 1908",
+    "year": "1908",
+    "yearSort": 1908,
+    "coverImage": "images/816783d4f4d8a5c1a953.webp",
+    "coverRecordId": "catalog-beowulf",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hero-myths_and_legends_of_the_British_race_(1910)_Beowulf_decapitates_Grendel.png",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [
+      "冒险 / 追逐"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-beowulf"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-beowulf"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 92,
+    "entityIds": [
+      "role-beowulf-3623923d"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-beowulf-3623923d",
+      "name": "Beowulf",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/816783d4f4d8a5c1a953.webp",
+      "coverRecordId": "catalog-beowulf",
+      "yearStart": 1908,
+      "yearEnd": 1908,
+      "workIds": [
+        "work-beowulf-980f9100"
+      ],
+      "recordIds": [
+        "catalog-beowulf"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "topScenes": [
+        {
+          "name": "冒险 / 追逐",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 92,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-beowulf",
+      "kind": "主档",
+      "title": "Beowulf",
+      "subtitle": "J. R. Skelton 英雄史诗插图 · 1908",
+      "year": "1908",
+      "yearSort": 1908,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hero-myths_and_legends_of_the_British_race_(1910)_Beowulf_decapitates_Grendel.png",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "冒险 / 追逐"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 92,
+      "awarenessLevel": "极高",
+      "image": "images/816783d4f4d8a5c1a953.webp"
+    }
+  ]
+}

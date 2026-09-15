@@ -1,0 +1,535 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-森林生物-ad5b625b",
+    "name": "森林生物",
+    "type": "群像 / 生物",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/04f8a4adaaf9f6935a86.webp",
+    "coverRecordId": "frame-playful-pan-1930-001",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "workIds": [
+      "work-playful-pan潘神与森林-e5729daf",
+      "work-night月夜森林-bf8f3b19"
+    ],
+    "recordIds": [
+      "frame-playful-pan-1930-001",
+      "frame-playful-pan-1930-002",
+      "frame-playful-pan-1930-003",
+      "frame-playful-pan-1930-004",
+      "frame-playful-pan-1930-005",
+      "frame-playful-pan-1930-006",
+      "frame-playful-pan-1930-007",
+      "frame-playful-pan-1930-008",
+      "frame-playful-pan-1930-009",
+      "frame-playful-pan-1930-010",
+      "frame-playful-pan-1930-011",
+      "frame-playful-pan-1930-012",
+      "frame-playful-pan-1930-013",
+      "frame-playful-pan-1930-014",
+      "frame-night-1930-001",
+      "frame-night-1930-002",
+      "frame-night-1930-003",
+      "frame-night-1930-004",
+      "frame-night-1930-005",
+      "frame-night-1930-006",
+      "frame-night-1930-007",
+      "frame-night-1930-008",
+      "frame-night-1930-009",
+      "frame-night-1930-010",
+      "frame-night-1930-011",
+      "frame-night-1930-012",
+      "frame-night-1930-013",
+      "frame-night-1930-014"
+    ],
+    "frameIds": [
+      "frame-playful-pan-1930-001",
+      "frame-playful-pan-1930-002",
+      "frame-playful-pan-1930-003",
+      "frame-playful-pan-1930-004",
+      "frame-playful-pan-1930-005",
+      "frame-playful-pan-1930-006",
+      "frame-playful-pan-1930-007",
+      "frame-playful-pan-1930-008",
+      "frame-playful-pan-1930-009",
+      "frame-playful-pan-1930-010",
+      "frame-playful-pan-1930-011",
+      "frame-playful-pan-1930-012",
+      "frame-playful-pan-1930-013",
+      "frame-playful-pan-1930-014",
+      "frame-night-1930-001",
+      "frame-night-1930-002",
+      "frame-night-1930-003",
+      "frame-night-1930-004",
+      "frame-night-1930-005",
+      "frame-night-1930-006",
+      "frame-night-1930-007",
+      "frame-night-1930-008",
+      "frame-night-1930-009",
+      "frame-night-1930-010",
+      "frame-night-1930-011",
+      "frame-night-1930-012",
+      "frame-night-1930-013",
+      "frame-night-1930-014"
+    ],
+    "workCount": 2,
+    "imageCount": 28,
+    "frameCount": 28,
+    "rightsBreakdown": {
+      "期限届满": 2
+    },
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "宗教 / 神话",
+      "动物 / 自然",
+      "万圣节"
+    ],
+    "topScenes": [
+      {
+        "name": "森林",
+        "count": 28
+      },
+      {
+        "name": "动物群像",
+        "count": 14
+      },
+      {
+        "name": "火灾",
+        "count": 14
+      },
+      {
+        "name": "神话",
+        "count": 14
+      },
+      {
+        "name": "夜晚",
+        "count": 14
+      },
+      {
+        "name": "音乐 / 舞蹈",
+        "count": 14
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "Silly Symphonies",
+        "count": 28
+      },
+      {
+        "name": "季节动画",
+        "count": 14
+      },
+      {
+        "name": "神话动画",
+        "count": 14
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 14
+      }
+    ],
+    "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "awarenessScore": 0,
+    "sourceCount": 2,
+    "relatedEntityIds": [
+      "role-pan-fd92d952",
+      "role-夜行动物-1bfa79de"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-playful-pan潘神与森林-e5729daf",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/04f8a4adaaf9f6935a86.webp",
+      "coverRecordId": "frame-playful-pan-1930-001",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characterNames": [
+        "Pan",
+        "森林生物"
+      ],
+      "characterAliases": [
+        "Pan",
+        "森林生物"
+      ],
+      "recordIds": [
+        "frame-playful-pan-1930-001",
+        "frame-playful-pan-1930-002",
+        "frame-playful-pan-1930-003",
+        "frame-playful-pan-1930-004",
+        "frame-playful-pan-1930-005",
+        "frame-playful-pan-1930-006",
+        "frame-playful-pan-1930-007",
+        "frame-playful-pan-1930-008",
+        "frame-playful-pan-1930-009",
+        "frame-playful-pan-1930-010",
+        "frame-playful-pan-1930-011",
+        "frame-playful-pan-1930-012",
+        "frame-playful-pan-1930-013",
+        "frame-playful-pan-1930-014"
+      ],
+      "frameIds": [
+        "frame-playful-pan-1930-001",
+        "frame-playful-pan-1930-002",
+        "frame-playful-pan-1930-003",
+        "frame-playful-pan-1930-004",
+        "frame-playful-pan-1930-005",
+        "frame-playful-pan-1930-006",
+        "frame-playful-pan-1930-007",
+        "frame-playful-pan-1930-008",
+        "frame-playful-pan-1930-009",
+        "frame-playful-pan-1930-010",
+        "frame-playful-pan-1930-011",
+        "frame-playful-pan-1930-012",
+        "frame-playful-pan-1930-013",
+        "frame-playful-pan-1930-014"
+      ],
+      "masterIds": [],
+      "imageCount": 14,
+      "frameCount": 14,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-pan-fd92d952",
+        "role-森林生物-ad5b625b"
+      ]
+    },
+    {
+      "id": "work-night月夜森林-bf8f3b19",
+      "title": "《Night》月夜森林",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/c4f96b78c1459b55d4aa.webp",
+      "coverRecordId": "frame-night-1930-001",
+      "sourceUrl": "https://archive.org/details/night_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "Silly Symphonies · 季节动画 · 夜晚 · 森林",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "万圣节"
+      ],
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "夜晚",
+        "森林",
+        "动物群像"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "夜行动物",
+        "森林生物"
+      ],
+      "characterAliases": [
+        "夜行动物",
+        "森林生物"
+      ],
+      "recordIds": [
+        "frame-night-1930-001",
+        "frame-night-1930-002",
+        "frame-night-1930-003",
+        "frame-night-1930-004",
+        "frame-night-1930-005",
+        "frame-night-1930-006",
+        "frame-night-1930-007",
+        "frame-night-1930-008",
+        "frame-night-1930-009",
+        "frame-night-1930-010",
+        "frame-night-1930-011",
+        "frame-night-1930-012",
+        "frame-night-1930-013",
+        "frame-night-1930-014"
+      ],
+      "frameIds": [
+        "frame-night-1930-001",
+        "frame-night-1930-002",
+        "frame-night-1930-003",
+        "frame-night-1930-004",
+        "frame-night-1930-005",
+        "frame-night-1930-006",
+        "frame-night-1930-007",
+        "frame-night-1930-008",
+        "frame-night-1930-009",
+        "frame-night-1930-010",
+        "frame-night-1930-011",
+        "frame-night-1930-012",
+        "frame-night-1930-013",
+        "frame-night-1930-014"
+      ],
+      "masterIds": [],
+      "imageCount": 14,
+      "frameCount": 14,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-森林生物-ad5b625b",
+        "role-夜行动物-1bfa79de"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-pan-fd92d952",
+      "name": "Pan",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/04f8a4adaaf9f6935a86.webp",
+      "coverRecordId": "frame-playful-pan-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-playful-pan潘神与森林-e5729daf"
+      ],
+      "recordIds": [
+        "frame-playful-pan-1930-001",
+        "frame-playful-pan-1930-002",
+        "frame-playful-pan-1930-003",
+        "frame-playful-pan-1930-004",
+        "frame-playful-pan-1930-005",
+        "frame-playful-pan-1930-006",
+        "frame-playful-pan-1930-007",
+        "frame-playful-pan-1930-008",
+        "frame-playful-pan-1930-009",
+        "frame-playful-pan-1930-010",
+        "frame-playful-pan-1930-011",
+        "frame-playful-pan-1930-012",
+        "frame-playful-pan-1930-013",
+        "frame-playful-pan-1930-014"
+      ],
+      "frameIds": [
+        "frame-playful-pan-1930-001",
+        "frame-playful-pan-1930-002",
+        "frame-playful-pan-1930-003",
+        "frame-playful-pan-1930-004",
+        "frame-playful-pan-1930-005",
+        "frame-playful-pan-1930-006",
+        "frame-playful-pan-1930-007",
+        "frame-playful-pan-1930-008",
+        "frame-playful-pan-1930-009",
+        "frame-playful-pan-1930-010",
+        "frame-playful-pan-1930-011",
+        "frame-playful-pan-1930-012",
+        "frame-playful-pan-1930-013",
+        "frame-playful-pan-1930-014"
+      ],
+      "workCount": 1,
+      "imageCount": 14,
+      "frameCount": 14,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "火灾",
+          "count": 14
+        },
+        {
+          "name": "森林",
+          "count": 14
+        },
+        {
+          "name": "神话",
+          "count": 14
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 14
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "神话动画",
+          "count": 14
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 14
+        }
+      ],
+      "topHolidays": [],
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-森林生物-ad5b625b"
+      ]
+    },
+    {
+      "id": "role-夜行动物-1bfa79de",
+      "name": "夜行动物",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/c4f96b78c1459b55d4aa.webp",
+      "coverRecordId": "frame-night-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-night月夜森林-bf8f3b19"
+      ],
+      "recordIds": [
+        "frame-night-1930-001",
+        "frame-night-1930-002",
+        "frame-night-1930-003",
+        "frame-night-1930-004",
+        "frame-night-1930-005",
+        "frame-night-1930-006",
+        "frame-night-1930-007",
+        "frame-night-1930-008",
+        "frame-night-1930-009",
+        "frame-night-1930-010",
+        "frame-night-1930-011",
+        "frame-night-1930-012",
+        "frame-night-1930-013",
+        "frame-night-1930-014"
+      ],
+      "frameIds": [
+        "frame-night-1930-001",
+        "frame-night-1930-002",
+        "frame-night-1930-003",
+        "frame-night-1930-004",
+        "frame-night-1930-005",
+        "frame-night-1930-006",
+        "frame-night-1930-007",
+        "frame-night-1930-008",
+        "frame-night-1930-009",
+        "frame-night-1930-010",
+        "frame-night-1930-011",
+        "frame-night-1930-012",
+        "frame-night-1930-013",
+        "frame-night-1930-014"
+      ],
+      "workCount": 1,
+      "imageCount": 14,
+      "frameCount": 14,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "万圣节"
+      ],
+      "topScenes": [
+        {
+          "name": "动物群像",
+          "count": 14
+        },
+        {
+          "name": "森林",
+          "count": 14
+        },
+        {
+          "name": "夜晚",
+          "count": 14
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "季节动画",
+          "count": 14
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 14
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 14
+        }
+      ],
+      "usage": "Silly Symphonies · 季节动画 · 夜晚 · 森林",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-森林生物-ad5b625b"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

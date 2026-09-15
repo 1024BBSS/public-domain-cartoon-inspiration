@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-the-snow-queen-eb7d972d",
+    "name": "The Snow Queen",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/aee5fd2f0b89560c0989.webp",
+    "coverRecordId": "catalog-snow-queen",
+    "yearStart": 1911,
+    "yearEnd": 1911,
+    "workIds": [
+      "work-the-snow-queen-07dd6cbd"
+    ],
+    "recordIds": [
+      "catalog-snow-queen"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言",
+      "圣诞 / 冬季"
+    ],
+    "topScenes": [],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "春季 / 复活节",
+        "count": 1
+      },
+      {
+        "name": "圣诞 / 冬季",
+        "count": 1
+      }
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 59,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-the-snow-queen-07dd6cbd",
+      "title": "The Snow Queen",
+      "subtitle": "Edmund Dulac 童话插图 · 1911",
+      "year": "1911",
+      "yearSort": 1911,
+      "coverImage": "images/aee5fd2f0b89560c0989.webp",
+      "coverRecordId": "catalog-snow-queen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edmund_Dulac_-_Snow_Queen.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言",
+        "圣诞 / 冬季"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [
+        "圣诞 / 冬季",
+        "春季 / 复活节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-snow-queen"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-snow-queen"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 59,
+      "entityIds": [
+        "role-the-snow-queen-eb7d972d"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

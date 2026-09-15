@@ -1,0 +1,817 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-monkey-melodies丛林动物歌舞-eb1bb4d1",
+    "title": "《Monkey Melodies》丛林动物歌舞",
+    "subtitle": "",
+    "year": "1930",
+    "yearSort": 1930,
+    "coverImage": "images/9e76377b0f8aa7d9f977.webp",
+    "coverRecordId": "frame-monkey-melodies-1930-001",
+    "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "以来源页为准"
+    ],
+    "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "tags": [
+      "早期动画",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "Silly Symphonies",
+      "橡皮管动画"
+    ],
+    "scenes": [
+      "丛林",
+      "动物群像",
+      "音乐 / 舞蹈"
+    ],
+    "holidays": [],
+    "characterNames": [
+      "猴群",
+      "丛林动物"
+    ],
+    "characterAliases": [
+      "猴群",
+      "丛林动物"
+    ],
+    "recordIds": [
+      "frame-monkey-melodies-1930-001",
+      "frame-monkey-melodies-1930-002",
+      "frame-monkey-melodies-1930-003",
+      "frame-monkey-melodies-1930-004",
+      "frame-monkey-melodies-1930-005",
+      "frame-monkey-melodies-1930-006",
+      "frame-monkey-melodies-1930-007",
+      "frame-monkey-melodies-1930-008",
+      "frame-monkey-melodies-1930-009",
+      "frame-monkey-melodies-1930-010",
+      "frame-monkey-melodies-1930-011",
+      "frame-monkey-melodies-1930-012",
+      "frame-monkey-melodies-1930-013",
+      "frame-monkey-melodies-1930-014"
+    ],
+    "frameIds": [
+      "frame-monkey-melodies-1930-001",
+      "frame-monkey-melodies-1930-002",
+      "frame-monkey-melodies-1930-003",
+      "frame-monkey-melodies-1930-004",
+      "frame-monkey-melodies-1930-005",
+      "frame-monkey-melodies-1930-006",
+      "frame-monkey-melodies-1930-007",
+      "frame-monkey-melodies-1930-008",
+      "frame-monkey-melodies-1930-009",
+      "frame-monkey-melodies-1930-010",
+      "frame-monkey-melodies-1930-011",
+      "frame-monkey-melodies-1930-012",
+      "frame-monkey-melodies-1930-013",
+      "frame-monkey-melodies-1930-014"
+    ],
+    "masterIds": [],
+    "imageCount": 14,
+    "frameCount": 14,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-猴群-9ece0a2f",
+      "role-丛林动物-c038230c"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-猴群-9ece0a2f",
+      "name": "猴群",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/9e76377b0f8aa7d9f977.webp",
+      "coverRecordId": "frame-monkey-melodies-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-monkey-melodies丛林动物歌舞-eb1bb4d1"
+      ],
+      "recordIds": [
+        "frame-monkey-melodies-1930-001",
+        "frame-monkey-melodies-1930-002",
+        "frame-monkey-melodies-1930-003",
+        "frame-monkey-melodies-1930-004",
+        "frame-monkey-melodies-1930-005",
+        "frame-monkey-melodies-1930-006",
+        "frame-monkey-melodies-1930-007",
+        "frame-monkey-melodies-1930-008",
+        "frame-monkey-melodies-1930-009",
+        "frame-monkey-melodies-1930-010",
+        "frame-monkey-melodies-1930-011",
+        "frame-monkey-melodies-1930-012",
+        "frame-monkey-melodies-1930-013",
+        "frame-monkey-melodies-1930-014"
+      ],
+      "frameIds": [
+        "frame-monkey-melodies-1930-001",
+        "frame-monkey-melodies-1930-002",
+        "frame-monkey-melodies-1930-003",
+        "frame-monkey-melodies-1930-004",
+        "frame-monkey-melodies-1930-005",
+        "frame-monkey-melodies-1930-006",
+        "frame-monkey-melodies-1930-007",
+        "frame-monkey-melodies-1930-008",
+        "frame-monkey-melodies-1930-009",
+        "frame-monkey-melodies-1930-010",
+        "frame-monkey-melodies-1930-011",
+        "frame-monkey-melodies-1930-012",
+        "frame-monkey-melodies-1930-013",
+        "frame-monkey-melodies-1930-014"
+      ],
+      "workCount": 1,
+      "imageCount": 14,
+      "frameCount": 14,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "丛林",
+          "count": 14
+        },
+        {
+          "name": "动物群像",
+          "count": 14
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 14
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 14
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 14
+        }
+      ],
+      "topHolidays": [],
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-丛林动物-c038230c"
+      ]
+    },
+    {
+      "id": "role-丛林动物-c038230c",
+      "name": "丛林动物",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/9e76377b0f8aa7d9f977.webp",
+      "coverRecordId": "frame-monkey-melodies-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-monkey-melodies丛林动物歌舞-eb1bb4d1"
+      ],
+      "recordIds": [
+        "frame-monkey-melodies-1930-001",
+        "frame-monkey-melodies-1930-002",
+        "frame-monkey-melodies-1930-003",
+        "frame-monkey-melodies-1930-004",
+        "frame-monkey-melodies-1930-005",
+        "frame-monkey-melodies-1930-006",
+        "frame-monkey-melodies-1930-007",
+        "frame-monkey-melodies-1930-008",
+        "frame-monkey-melodies-1930-009",
+        "frame-monkey-melodies-1930-010",
+        "frame-monkey-melodies-1930-011",
+        "frame-monkey-melodies-1930-012",
+        "frame-monkey-melodies-1930-013",
+        "frame-monkey-melodies-1930-014"
+      ],
+      "frameIds": [
+        "frame-monkey-melodies-1930-001",
+        "frame-monkey-melodies-1930-002",
+        "frame-monkey-melodies-1930-003",
+        "frame-monkey-melodies-1930-004",
+        "frame-monkey-melodies-1930-005",
+        "frame-monkey-melodies-1930-006",
+        "frame-monkey-melodies-1930-007",
+        "frame-monkey-melodies-1930-008",
+        "frame-monkey-melodies-1930-009",
+        "frame-monkey-melodies-1930-010",
+        "frame-monkey-melodies-1930-011",
+        "frame-monkey-melodies-1930-012",
+        "frame-monkey-melodies-1930-013",
+        "frame-monkey-melodies-1930-014"
+      ],
+      "workCount": 1,
+      "imageCount": 14,
+      "frameCount": 14,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "丛林",
+          "count": 14
+        },
+        {
+          "name": "动物群像",
+          "count": 14
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 14
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 14
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 14
+        }
+      ],
+      "topHolidays": [],
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-猴群-9ece0a2f"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "frame-monkey-melodies-1930-001",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 001",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/9e76377b0f8aa7d9f977.webp"
+    },
+    {
+      "id": "frame-monkey-melodies-1930-002",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 002",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/28d48f012f2170a49470.webp"
+    },
+    {
+      "id": "frame-monkey-melodies-1930-003",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 003",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/ed335546bd5cf86ec77c.webp"
+    },
+    {
+      "id": "frame-monkey-melodies-1930-004",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 004",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/c78591e3984f725666e1.webp"
+    },
+    {
+      "id": "frame-monkey-melodies-1930-005",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 005",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/8b9bd88a98a7021d4528.webp"
+    },
+    {
+      "id": "frame-monkey-melodies-1930-006",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 006",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/47b38adc2537ccbf553e.webp"
+    },
+    {
+      "id": "frame-monkey-melodies-1930-007",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 007",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/2cf8fdc21908071a77d4.webp"
+    },
+    {
+      "id": "frame-monkey-melodies-1930-008",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 008",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/8bb2fabc5a5c5a24078f.webp"
+    },
+    {
+      "id": "frame-monkey-melodies-1930-009",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 009",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/b9eb940e9f82aa3bf8be.webp"
+    },
+    {
+      "id": "frame-monkey-melodies-1930-010",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 010",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/e59d55b96e019e66fbba.webp"
+    },
+    {
+      "id": "frame-monkey-melodies-1930-011",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 011",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/5ac67697816f2d4cd1bf.webp"
+    },
+    {
+      "id": "frame-monkey-melodies-1930-012",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 012",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/0a2dd86696b38e4bf34b.webp"
+    },
+    {
+      "id": "frame-monkey-melodies-1930-013",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 013",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/7261a4507c9f863052f2.webp"
+    },
+    {
+      "id": "frame-monkey-melodies-1930-014",
+      "kind": "动画画面",
+      "title": "《Monkey Melodies》丛林动物歌舞",
+      "subtitle": "画面 014",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/monkey-melodies_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 丛林 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "丛林",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characters": [
+        "猴群",
+        "丛林动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/582658d0fc7a646a40d0.webp"
+    }
+  ]
+}

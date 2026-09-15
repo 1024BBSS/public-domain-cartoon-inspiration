@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-koko-the-clown-c82aa7c7",
+    "title": "Koko the Clown",
+    "subtitle": "Fleischer《Out of the Inkwell》早期版本 · 1919",
+    "year": "1919",
+    "yearSort": 1919,
+    "coverImage": "images/5e549118850652306d4d.webp",
+    "coverRecordId": "catalog-koko",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Out-of-the-inkwell.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+    "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "怪诞 / 魔法"
+    ],
+    "styles": [
+      "早期动画 / 漫画",
+      "橡皮管动画",
+      "都市超现实"
+    ],
+    "scenes": [],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-koko"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-koko"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 23,
+    "entityIds": [
+      "role-koko-a30dbfea"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-koko-a30dbfea",
+      "name": "Koko",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/5e549118850652306d4d.webp",
+      "coverRecordId": "catalog-koko",
+      "yearStart": 1919,
+      "yearEnd": 1932,
+      "workIds": [
+        "work-ker-choo未续期版本-aad1bb70",
+        "work-koko-the-clown-c82aa7c7"
+      ],
+      "recordIds": [
+        "frame-ker-choo-1932-001",
+        "frame-ker-choo-1932-002",
+        "frame-ker-choo-1932-003",
+        "frame-ker-choo-1932-004",
+        "frame-ker-choo-1932-005",
+        "frame-ker-choo-1932-006",
+        "frame-ker-choo-1932-007",
+        "frame-ker-choo-1932-008",
+        "frame-ker-choo-1932-009",
+        "frame-ker-choo-1932-010",
+        "frame-ker-choo-1932-011",
+        "frame-ker-choo-1932-012",
+        "frame-ker-choo-1932-013",
+        "catalog-betty-ker-choo-1932",
+        "catalog-koko"
+      ],
+      "frameIds": [
+        "frame-ker-choo-1932-001",
+        "frame-ker-choo-1932-002",
+        "frame-ker-choo-1932-003",
+        "frame-ker-choo-1932-004",
+        "frame-ker-choo-1932-005",
+        "frame-ker-choo-1932-006",
+        "frame-ker-choo-1932-007",
+        "frame-ker-choo-1932-008",
+        "frame-ker-choo-1932-009",
+        "frame-ker-choo-1932-010",
+        "frame-ker-choo-1932-011",
+        "frame-ker-choo-1932-012",
+        "frame-ker-choo-1932-013"
+      ],
+      "workCount": 2,
+      "imageCount": 14,
+      "frameCount": 13,
+      "rightsBreakdown": {
+        "未续期": 1,
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期",
+        "未续期",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "B",
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "舞台 / 表演",
+          "count": 14
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 14
+        },
+        {
+          "name": "疾病笑料",
+          "count": 13
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 15
+        },
+        {
+          "name": "Fleischer 都市超现实",
+          "count": 14
+        },
+        {
+          "name": "都市超现实",
+          "count": 1
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "圣诞 / 冬季",
+          "count": 14
+        }
+      ],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "awarenessScore": 23,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "role-betty-boop-16ad409c",
+        "role-bimbo-c30ed973"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-koko",
+      "kind": "主档",
+      "title": "Koko the Clown",
+      "subtitle": "Fleischer《Out of the Inkwell》早期版本 · 1919",
+      "year": "1919",
+      "yearSort": 1919,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Out-of-the-inkwell.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "styles": [
+        "早期动画 / 漫画",
+        "橡皮管动画",
+        "都市超现实"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 23,
+      "awarenessLevel": "较低",
+      "image": "images/5e549118850652306d4d.webp"
+    }
+  ]
+}

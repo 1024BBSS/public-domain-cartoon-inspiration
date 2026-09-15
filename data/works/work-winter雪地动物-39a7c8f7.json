@@ -1,0 +1,755 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-winter雪地动物-39a7c8f7",
+    "title": "《Winter》雪地动物",
+    "subtitle": "",
+    "year": "1930",
+    "yearSort": 1930,
+    "coverImage": "images/f046a6a89af4486536a2.webp",
+    "coverRecordId": "frame-winter-1930-001",
+    "sourceUrl": "https://archive.org/details/Winter_915",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "以来源页为准"
+    ],
+    "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "tags": [
+      "早期动画",
+      "动物 / 自然",
+      "圣诞 / 冬季"
+    ],
+    "styles": [
+      "Silly Symphonies",
+      "季节动画"
+    ],
+    "scenes": [
+      "雪景",
+      "动物群像",
+      "音乐 / 舞蹈"
+    ],
+    "holidays": [
+      "圣诞 / 冬季"
+    ],
+    "characterNames": [
+      "雪地动物群像"
+    ],
+    "characterAliases": [
+      "雪地动物群像"
+    ],
+    "recordIds": [
+      "frame-winter-1930-001",
+      "frame-winter-1930-002",
+      "frame-winter-1930-003",
+      "frame-winter-1930-004",
+      "frame-winter-1930-005",
+      "frame-winter-1930-006",
+      "frame-winter-1930-007",
+      "frame-winter-1930-008",
+      "frame-winter-1930-009",
+      "frame-winter-1930-010",
+      "frame-winter-1930-011",
+      "frame-winter-1930-012",
+      "frame-winter-1930-013",
+      "frame-winter-1930-014"
+    ],
+    "frameIds": [
+      "frame-winter-1930-001",
+      "frame-winter-1930-002",
+      "frame-winter-1930-003",
+      "frame-winter-1930-004",
+      "frame-winter-1930-005",
+      "frame-winter-1930-006",
+      "frame-winter-1930-007",
+      "frame-winter-1930-008",
+      "frame-winter-1930-009",
+      "frame-winter-1930-010",
+      "frame-winter-1930-011",
+      "frame-winter-1930-012",
+      "frame-winter-1930-013",
+      "frame-winter-1930-014"
+    ],
+    "masterIds": [],
+    "imageCount": 14,
+    "frameCount": 14,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-雪地动物群像-f97832eb"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-雪地动物群像-f97832eb",
+      "name": "雪地动物群像",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/f046a6a89af4486536a2.webp",
+      "coverRecordId": "frame-winter-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-winter雪地动物-39a7c8f7"
+      ],
+      "recordIds": [
+        "frame-winter-1930-001",
+        "frame-winter-1930-002",
+        "frame-winter-1930-003",
+        "frame-winter-1930-004",
+        "frame-winter-1930-005",
+        "frame-winter-1930-006",
+        "frame-winter-1930-007",
+        "frame-winter-1930-008",
+        "frame-winter-1930-009",
+        "frame-winter-1930-010",
+        "frame-winter-1930-011",
+        "frame-winter-1930-012",
+        "frame-winter-1930-013",
+        "frame-winter-1930-014"
+      ],
+      "frameIds": [
+        "frame-winter-1930-001",
+        "frame-winter-1930-002",
+        "frame-winter-1930-003",
+        "frame-winter-1930-004",
+        "frame-winter-1930-005",
+        "frame-winter-1930-006",
+        "frame-winter-1930-007",
+        "frame-winter-1930-008",
+        "frame-winter-1930-009",
+        "frame-winter-1930-010",
+        "frame-winter-1930-011",
+        "frame-winter-1930-012",
+        "frame-winter-1930-013",
+        "frame-winter-1930-014"
+      ],
+      "workCount": 1,
+      "imageCount": 14,
+      "frameCount": 14,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "topScenes": [
+        {
+          "name": "动物群像",
+          "count": 14
+        },
+        {
+          "name": "雪景",
+          "count": 14
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 14
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "季节动画",
+          "count": 14
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 14
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "圣诞 / 冬季",
+          "count": 14
+        }
+      ],
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "frame-winter-1930-001",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 001",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/f046a6a89af4486536a2.webp"
+    },
+    {
+      "id": "frame-winter-1930-002",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 002",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/6aad8960fc5e9c26ac7f.webp"
+    },
+    {
+      "id": "frame-winter-1930-003",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 003",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/00acd2f289fe71c8f1a3.webp"
+    },
+    {
+      "id": "frame-winter-1930-004",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 004",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/e6c6e94677f7284eb94c.webp"
+    },
+    {
+      "id": "frame-winter-1930-005",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 005",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/e00dac76f4db37f12a82.webp"
+    },
+    {
+      "id": "frame-winter-1930-006",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 006",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/0c9e3998dcda671c99c5.webp"
+    },
+    {
+      "id": "frame-winter-1930-007",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 007",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/034ceefbf549fc903c1a.webp"
+    },
+    {
+      "id": "frame-winter-1930-008",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 008",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/9d7ac9aa08009a9bd5a4.webp"
+    },
+    {
+      "id": "frame-winter-1930-009",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 009",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/8631b1861354126505cf.webp"
+    },
+    {
+      "id": "frame-winter-1930-010",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 010",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/852d28e04622674addeb.webp"
+    },
+    {
+      "id": "frame-winter-1930-011",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 011",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/fd50e7c49f4f468d62fb.webp"
+    },
+    {
+      "id": "frame-winter-1930-012",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 012",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/2731c66084864df65392.webp"
+    },
+    {
+      "id": "frame-winter-1930-013",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 013",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/40734686ff2e566234a9.webp"
+    },
+    {
+      "id": "frame-winter-1930-014",
+      "kind": "动画画面",
+      "title": "《Winter》雪地动物",
+      "subtitle": "画面 014",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/Winter_915",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 雪景 · 动物群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "雪地动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/fa6656a0e9d749a22906.webp"
+    }
+  ]
+}

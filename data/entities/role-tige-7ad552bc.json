@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-tige-7ad552bc",
+    "name": "Tige",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/c07a705bde3b349478e9.webp",
+    "coverRecordId": "catalog-buster-brown",
+    "yearStart": 1902,
+    "yearEnd": 1902,
+    "workIds": [
+      "work-buster-brown-and-tige-a5116c60"
+    ],
+    "recordIds": [
+      "catalog-buster-brown"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "topScenes": [],
+    "topStyles": [
+      {
+        "name": "报刊连环画",
+        "count": 1
+      },
+      {
+        "name": "早期动画 / 漫画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+    "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+    "awarenessScore": 27,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-buster-brown-9165ed4e"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-buster-brown-and-tige-a5116c60",
+      "title": "Buster Brown & Tige",
+      "subtitle": "Richard F. Outcault 报纸漫画 · 1902",
+      "year": "1902",
+      "yearSort": 1902,
+      "coverImage": "images/c07a705bde3b349478e9.webp",
+      "coverRecordId": "catalog-buster-brown",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buster_Brown_Tige_and_tree_1908.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "styles": [
+        "早期动画 / 漫画",
+        "报刊连环画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-buster-brown"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-buster-brown"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 27,
+      "entityIds": [
+        "role-buster-brown-9165ed4e",
+        "role-tige-7ad552bc"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-buster-brown-9165ed4e",
+      "name": "Buster Brown",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/c07a705bde3b349478e9.webp",
+      "coverRecordId": "catalog-buster-brown",
+      "yearStart": 1902,
+      "yearEnd": 1902,
+      "workIds": [
+        "work-buster-brown-and-tige-a5116c60"
+      ],
+      "recordIds": [
+        "catalog-buster-brown"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "报刊连环画",
+          "count": 1
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "awarenessScore": 27,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-tige-7ad552bc"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

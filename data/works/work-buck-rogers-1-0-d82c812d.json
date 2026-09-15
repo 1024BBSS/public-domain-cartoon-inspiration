@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-buck-rogers-1-0-d82c812d",
+    "title": "Buck Rogers 1.0",
+    "subtitle": "《Armageddon 2419 A.D.》/ 早期漫画版本 · 1928–29",
+    "year": "1928–29",
+    "yearSort": 1929,
+    "coverImage": "images/7952cb58b50c02898a63.webp",
+    "coverRecordId": "catalog-buck-rogers",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buck_Rogers,_first_comic_strips.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+    "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "styles": [
+      "早期动画 / 漫画"
+    ],
+    "scenes": [
+      "城市 / 街道"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-buck-rogers"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-buck-rogers"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 45,
+    "entityIds": [
+      "role-buck-rogers-68778885"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-buck-rogers-68778885",
+      "name": "Buck Rogers",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/7952cb58b50c02898a63.webp",
+      "coverRecordId": "catalog-buck-rogers",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "workIds": [
+        "work-buck-rogers-1-0-d82c812d",
+        "work-buck-rogers-首篇报刊连环画-7d96627f"
+      ],
+      "recordIds": [
+        "catalog-buck-rogers",
+        "catalog-nonrenewed-buck-rogers-first-strip"
+      ],
+      "frameIds": [],
+      "workCount": 2,
+      "imageCount": 2,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1,
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满",
+        "未续期"
+      ],
+      "evidenceLevels": [
+        "A",
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "topScenes": [
+        {
+          "name": "城市 / 街道",
+          "count": 1
+        },
+        {
+          "name": "太空 / 科幻",
+          "count": 1
+        },
+        {
+          "name": "未来城市",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "报刊连环画",
+          "count": 1
+        },
+        {
+          "name": "复古科幻",
+          "count": 1
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "awarenessScore": 45,
+      "sourceCount": 2,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-buck-rogers",
+      "kind": "主档",
+      "title": "Buck Rogers 1.0",
+      "subtitle": "《Armageddon 2419 A.D.》/ 早期漫画版本 · 1928–29",
+      "year": "1928–29",
+      "yearSort": 1929,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buck_Rogers,_first_comic_strips.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "styles": [
+        "早期动画 / 漫画"
+      ],
+      "scenes": [
+        "城市 / 街道"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 45,
+      "awarenessLevel": "中",
+      "image": "images/7952cb58b50c02898a63.webp"
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "subject-mesopotamian-myth",
+    "name": "两河神话人物",
+    "type": "文化题材",
+    "aliases": [
+      "吉尔伽美什",
+      "伊南娜",
+      "伊什塔尔",
+      "Gilgamesh",
+      "Inanna",
+      "Ishtar"
+    ],
+    "virtual": true,
+    "coverImage": "images/e5ea799de1c04d9d3598.webp",
+    "coverRecordId": "catalog-belief-met-327617",
+    "yearStart": -2000,
+    "yearEnd": "待复核",
+    "workIds": [
+      "work-cylinder-seal-and-modern-impression-suppliant-goddess--73d60301",
+      "work-amulet-with-fighting-demons-on-reverse-ishtar-enthrone-2a5cdeb3",
+      "work-cuneiform-tablet-a-she-er-gi-ta-balag-to-innin-ishtar-44d7a626",
+      "work-cuneiform-tablet-a-she-er-gi-ta-balag-to-innin-ishtar-4836abf3",
+      "work-cuneiform-tablet-unidentified-balag-to-innnin-ishtar-5f5fe95e"
+    ],
+    "recordIds": [
+      "catalog-belief-met-327617",
+      "catalog-belief-met-321627",
+      "catalog-belief-met-322083",
+      "catalog-belief-met-321911",
+      "catalog-belief-met-321974"
+    ],
+    "frameIds": [],
+    "workCount": 5,
+    "imageCount": 5,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 5
+    },
+    "copyrightRoutes": [
+      "The Met API isPublicDomain=true；图像权利与“可原创转化”分开判断。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "怪诞 / 魔法",
+      "宗教 / 神话"
+    ],
+    "topScenes": [
+      {
+        "name": "丰饶与战争女神 → 英雄史诗 → 生死追问",
+        "count": 5
+      },
+      {
+        "name": "两河与古波斯",
+        "count": 5
+      },
+      {
+        "name": "伊南娜、伊什塔尔与吉尔伽美什",
+        "count": 5
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "神话 / 魔法",
+        "count": 5
+      },
+      {
+        "name": "宗教 / 仪式",
+        "count": 5
+      },
+      {
+        "name": "Ancient West Asian Art · Cuneiform tablet",
+        "count": 3
+      },
+      {
+        "name": "Ancient West Asian Art · Amulet",
+        "count": 1
+      },
+      {
+        "name": "Ancient West Asian Art · Cylinder seal",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "提炼星形徽记、狮、翼、双人搏斗与英雄旅程。",
+    "avoid": "古代文本人物与现代小说、漫画、游戏形象分开。",
+    "awarenessScore": 0,
+    "sourceCount": 5,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-cylinder-seal-and-modern-impression-suppliant-goddess--73d60301",
+      "title": "Cylinder seal and modern impression: suppliant goddess and offering bearer approaching Ishtar, three columns of inscription",
+      "subtitle": "Babylonian · ca. early 2nd millennium BCE · Hematite",
+      "year": "ca. early 2nd millennium BCE",
+      "yearSort": -2000,
+      "coverImage": "images/e5ea799de1c04d9d3598.webp",
+      "coverRecordId": "catalog-belief-met-327617",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/327617",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；图像权利与“可原创转化”分开判断。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "提炼星形徽记、狮、翼、双人搏斗与英雄旅程。",
+      "avoid": "古代文本人物与现代小说、漫画、游戏形象分开。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Ancient West Asian Art · Cylinder seal",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "两河与古波斯",
+        "伊南娜、伊什塔尔与吉尔伽美什",
+        "丰饶与战争女神 → 英雄史诗 → 生死追问"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-327617"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-327617"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-mesopotamian-myth"
+      ]
+    },
+    {
+      "id": "work-amulet-with-fighting-demons-on-reverse-ishtar-enthrone-2a5cdeb3",
+      "title": "Amulet with fighting demons; on reverse: Ishtar enthroned and worshiper",
+      "subtitle": "Assyrian · ca. 8th–7th century BCE · Bronze",
+      "year": "ca. 8th–7th century BCE",
+      "yearSort": -800,
+      "coverImage": "images/895eced38841ee647807.webp",
+      "coverRecordId": "catalog-belief-met-321627",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/321627",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；图像权利与“可原创转化”分开判断。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "提炼星形徽记、狮、翼、双人搏斗与英雄旅程。",
+      "avoid": "古代文本人物与现代小说、漫画、游戏形象分开。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Ancient West Asian Art · Amulet",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "两河与古波斯",
+        "伊南娜、伊什塔尔与吉尔伽美什",
+        "丰饶与战争女神 → 英雄史诗 → 生死追问"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-321627"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-321627"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-mesopotamian-myth"
+      ]
+    },
+    {
+      "id": "work-cuneiform-tablet-a-she-er-gi-ta-balag-to-innin-ishtar-44d7a626",
+      "title": "Cuneiform tablet: a-she-er gi-ta, balag to Innin/Ishtar",
+      "subtitle": "Seleucid or Parthian · ca. 2nd–1st century BCE · Clay",
+      "year": "ca. 2nd–1st century BCE",
+      "yearSort": -200,
+      "coverImage": "images/c931fb0fc304ea56d876.webp",
+      "coverRecordId": "catalog-belief-met-322083",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/322083",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；图像权利与“可原创转化”分开判断。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "提炼星形徽记、狮、翼、双人搏斗与英雄旅程。",
+      "avoid": "古代文本人物与现代小说、漫画、游戏形象分开。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Ancient West Asian Art · Cuneiform tablet",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "两河与古波斯",
+        "伊南娜、伊什塔尔与吉尔伽美什",
+        "丰饶与战争女神 → 英雄史诗 → 生死追问"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-322083"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-322083"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-mesopotamian-myth"
+      ]
+    },
+    {
+      "id": "work-cuneiform-tablet-a-she-er-gi-ta-balag-to-innin-ishtar-4836abf3",
+      "title": "Cuneiform tablet: a-she-er gi-ta, balag to Innin/Ishtar",
+      "subtitle": "Seleucid or Parthian · ca. 2nd–1st century BCE · Clay",
+      "year": "ca. 2nd–1st century BCE",
+      "yearSort": -200,
+      "coverImage": "images/7bced3d78f10dcba6b90.webp",
+      "coverRecordId": "catalog-belief-met-321911",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/321911",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；图像权利与“可原创转化”分开判断。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "提炼星形徽记、狮、翼、双人搏斗与英雄旅程。",
+      "avoid": "古代文本人物与现代小说、漫画、游戏形象分开。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Ancient West Asian Art · Cuneiform tablet",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "两河与古波斯",
+        "伊南娜、伊什塔尔与吉尔伽美什",
+        "丰饶与战争女神 → 英雄史诗 → 生死追问"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-321911"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-321911"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-mesopotamian-myth"
+      ]
+    },
+    {
+      "id": "work-cuneiform-tablet-unidentified-balag-to-innnin-ishtar-5f5fe95e",
+      "title": "Cuneiform tablet: unidentified balag, to Innnin/Ishtar (?)",
+      "subtitle": "Seleucid or Parthian · ca. 2nd–1st century BCE · Clay",
+      "year": "ca. 2nd–1st century BCE",
+      "yearSort": -200,
+      "coverImage": "images/362714d7ccc121696361.webp",
+      "coverRecordId": "catalog-belief-met-321974",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/321974",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；图像权利与“可原创转化”分开判断。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "提炼星形徽记、狮、翼、双人搏斗与英雄旅程。",
+      "avoid": "古代文本人物与现代小说、漫画、游戏形象分开。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Ancient West Asian Art · Cuneiform tablet",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "两河与古波斯",
+        "伊南娜、伊什塔尔与吉尔伽美什",
+        "丰饶与战争女神 → 英雄史诗 → 生死追问"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-321974"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-321974"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-mesopotamian-myth"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

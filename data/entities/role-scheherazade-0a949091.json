@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-scheherazade-0a949091",
+    "name": "Scheherazade",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/487523f153fbd7e03ffc.webp",
+    "coverRecordId": "catalog-scheherazade",
+    "yearStart": 1907,
+    "yearEnd": 1907,
+    "workIds": [
+      "work-scheherazade-1bc9339e"
+    ],
+    "recordIds": [
+      "catalog-scheherazade"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "topScenes": [],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 55,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-scheherazade-1bc9339e",
+      "title": "Scheherazade",
+      "subtitle": "Edmund Dulac《Arabian Nights》插图 · 1907",
+      "year": "1907",
+      "yearSort": 1907,
+      "coverImage": "images/487523f153fbd7e03ffc.webp",
+      "coverRecordId": "catalog-scheherazade",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scheherazade.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-scheherazade"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-scheherazade"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 55,
+      "entityIds": [
+        "role-scheherazade-0a949091"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

@@ -1,0 +1,313 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-拟人玩具-ec0c6206",
+    "name": "拟人玩具",
+    "type": "群像 / 生物",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/981e8d8deea35a0b1fe8.webp",
+    "coverRecordId": "frame-midnight-toy-shop-1930-001",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "workIds": [
+      "work-midnight-in-a-toy-shop午夜玩具店-9eba6fb2"
+    ],
+    "recordIds": [
+      "frame-midnight-toy-shop-1930-001",
+      "frame-midnight-toy-shop-1930-002",
+      "frame-midnight-toy-shop-1930-003",
+      "frame-midnight-toy-shop-1930-004",
+      "frame-midnight-toy-shop-1930-005",
+      "frame-midnight-toy-shop-1930-006",
+      "frame-midnight-toy-shop-1930-007",
+      "frame-midnight-toy-shop-1930-008",
+      "frame-midnight-toy-shop-1930-009",
+      "frame-midnight-toy-shop-1930-010",
+      "frame-midnight-toy-shop-1930-011",
+      "frame-midnight-toy-shop-1930-012",
+      "frame-midnight-toy-shop-1930-013",
+      "frame-midnight-toy-shop-1930-014",
+      "frame-midnight-toy-shop-1930-015"
+    ],
+    "frameIds": [
+      "frame-midnight-toy-shop-1930-001",
+      "frame-midnight-toy-shop-1930-002",
+      "frame-midnight-toy-shop-1930-003",
+      "frame-midnight-toy-shop-1930-004",
+      "frame-midnight-toy-shop-1930-005",
+      "frame-midnight-toy-shop-1930-006",
+      "frame-midnight-toy-shop-1930-007",
+      "frame-midnight-toy-shop-1930-008",
+      "frame-midnight-toy-shop-1930-009",
+      "frame-midnight-toy-shop-1930-010",
+      "frame-midnight-toy-shop-1930-011",
+      "frame-midnight-toy-shop-1930-012",
+      "frame-midnight-toy-shop-1930-013",
+      "frame-midnight-toy-shop-1930-014",
+      "frame-midnight-toy-shop-1930-015"
+    ],
+    "workCount": 1,
+    "imageCount": 15,
+    "frameCount": 15,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "圣诞 / 冬季"
+    ],
+    "topScenes": [
+      {
+        "name": "群像",
+        "count": 15
+      },
+      {
+        "name": "玩具店",
+        "count": 15
+      },
+      {
+        "name": "午夜",
+        "count": 15
+      },
+      {
+        "name": "追逐",
+        "count": 15
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "玩具奇想",
+        "count": 15
+      },
+      {
+        "name": "Silly Symphonies",
+        "count": 15
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "圣诞 / 冬季",
+        "count": 15
+      }
+    ],
+    "usage": "Silly Symphonies · 玩具奇想 · 玩具店 · 午夜",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-蜘蛛-0053a539"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-midnight-in-a-toy-shop午夜玩具店-9eba6fb2",
+      "title": "《Midnight in a Toy Shop》午夜玩具店",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/981e8d8deea35a0b1fe8.webp",
+      "coverRecordId": "frame-midnight-toy-shop-1930-001",
+      "sourceUrl": "https://archive.org/details/midnight-in-a-toy-shop_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "Silly Symphonies · 玩具奇想 · 玩具店 · 午夜",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "圣诞 / 冬季"
+      ],
+      "styles": [
+        "Silly Symphonies",
+        "玩具奇想"
+      ],
+      "scenes": [
+        "玩具店",
+        "午夜",
+        "群像",
+        "追逐"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [
+        "蜘蛛",
+        "拟人玩具"
+      ],
+      "characterAliases": [
+        "蜘蛛",
+        "拟人玩具"
+      ],
+      "recordIds": [
+        "frame-midnight-toy-shop-1930-001",
+        "frame-midnight-toy-shop-1930-002",
+        "frame-midnight-toy-shop-1930-003",
+        "frame-midnight-toy-shop-1930-004",
+        "frame-midnight-toy-shop-1930-005",
+        "frame-midnight-toy-shop-1930-006",
+        "frame-midnight-toy-shop-1930-007",
+        "frame-midnight-toy-shop-1930-008",
+        "frame-midnight-toy-shop-1930-009",
+        "frame-midnight-toy-shop-1930-010",
+        "frame-midnight-toy-shop-1930-011",
+        "frame-midnight-toy-shop-1930-012",
+        "frame-midnight-toy-shop-1930-013",
+        "frame-midnight-toy-shop-1930-014",
+        "frame-midnight-toy-shop-1930-015"
+      ],
+      "frameIds": [
+        "frame-midnight-toy-shop-1930-001",
+        "frame-midnight-toy-shop-1930-002",
+        "frame-midnight-toy-shop-1930-003",
+        "frame-midnight-toy-shop-1930-004",
+        "frame-midnight-toy-shop-1930-005",
+        "frame-midnight-toy-shop-1930-006",
+        "frame-midnight-toy-shop-1930-007",
+        "frame-midnight-toy-shop-1930-008",
+        "frame-midnight-toy-shop-1930-009",
+        "frame-midnight-toy-shop-1930-010",
+        "frame-midnight-toy-shop-1930-011",
+        "frame-midnight-toy-shop-1930-012",
+        "frame-midnight-toy-shop-1930-013",
+        "frame-midnight-toy-shop-1930-014",
+        "frame-midnight-toy-shop-1930-015"
+      ],
+      "masterIds": [],
+      "imageCount": 15,
+      "frameCount": 15,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-蜘蛛-0053a539",
+        "role-拟人玩具-ec0c6206"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-蜘蛛-0053a539",
+      "name": "蜘蛛",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/981e8d8deea35a0b1fe8.webp",
+      "coverRecordId": "frame-midnight-toy-shop-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-midnight-in-a-toy-shop午夜玩具店-9eba6fb2"
+      ],
+      "recordIds": [
+        "frame-midnight-toy-shop-1930-001",
+        "frame-midnight-toy-shop-1930-002",
+        "frame-midnight-toy-shop-1930-003",
+        "frame-midnight-toy-shop-1930-004",
+        "frame-midnight-toy-shop-1930-005",
+        "frame-midnight-toy-shop-1930-006",
+        "frame-midnight-toy-shop-1930-007",
+        "frame-midnight-toy-shop-1930-008",
+        "frame-midnight-toy-shop-1930-009",
+        "frame-midnight-toy-shop-1930-010",
+        "frame-midnight-toy-shop-1930-011",
+        "frame-midnight-toy-shop-1930-012",
+        "frame-midnight-toy-shop-1930-013",
+        "frame-midnight-toy-shop-1930-014",
+        "frame-midnight-toy-shop-1930-015"
+      ],
+      "frameIds": [
+        "frame-midnight-toy-shop-1930-001",
+        "frame-midnight-toy-shop-1930-002",
+        "frame-midnight-toy-shop-1930-003",
+        "frame-midnight-toy-shop-1930-004",
+        "frame-midnight-toy-shop-1930-005",
+        "frame-midnight-toy-shop-1930-006",
+        "frame-midnight-toy-shop-1930-007",
+        "frame-midnight-toy-shop-1930-008",
+        "frame-midnight-toy-shop-1930-009",
+        "frame-midnight-toy-shop-1930-010",
+        "frame-midnight-toy-shop-1930-011",
+        "frame-midnight-toy-shop-1930-012",
+        "frame-midnight-toy-shop-1930-013",
+        "frame-midnight-toy-shop-1930-014",
+        "frame-midnight-toy-shop-1930-015"
+      ],
+      "workCount": 1,
+      "imageCount": 15,
+      "frameCount": 15,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "圣诞 / 冬季"
+      ],
+      "topScenes": [
+        {
+          "name": "群像",
+          "count": 15
+        },
+        {
+          "name": "玩具店",
+          "count": 15
+        },
+        {
+          "name": "午夜",
+          "count": 15
+        },
+        {
+          "name": "追逐",
+          "count": 15
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "玩具奇想",
+          "count": 15
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 15
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "圣诞 / 冬季",
+          "count": 15
+        }
+      ],
+      "usage": "Silly Symphonies · 玩具奇想 · 玩具店 · 午夜",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-拟人玩具-ec0c6206"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

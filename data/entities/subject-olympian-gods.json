@@ -1,0 +1,803 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "subject-olympian-gods",
+    "name": "奥林匹斯诸神",
+    "type": "文化题材",
+    "aliases": [
+      "阿波罗",
+      "赫拉",
+      "雅典娜",
+      "宙斯",
+      "Apollo",
+      "Athena",
+      "Hera",
+      "Olympian gods",
+      "Zeus"
+    ],
+    "virtual": true,
+    "coverImage": "images/fce5e43fcae7aadeb9c2.webp",
+    "coverRecordId": "catalog-belief-cma-109562",
+    "yearStart": -505,
+    "yearEnd": 1630,
+    "workIds": [
+      "work-statuette-of-tinia-zeus-5bded0e3",
+      "work-red-figure-column-krater-mixing-vessel-apollo-and-godd-2635b91e",
+      "work-tetradrachm-coin-of-erognetos-magistrate-of-magnesia-c631f58a",
+      "work-tetradrachm-coin-of-herognetos-magistrate-of-magnesia-855c085a",
+      "work-torso-of-a-woman-e29b8626",
+      "work-torso-of-venus-f035df77",
+      "work-head-of-aphrodite-d13e72f2",
+      "work-thetis-running-5cfcc800",
+      "work-venus-70b01ea1",
+      "work-pair-of-putti-1b75b254",
+      "work-putto-525f4530",
+      "work-mercury-and-argus-in-a-landscape-7f586416"
+    ],
+    "recordIds": [
+      "catalog-belief-cma-109562",
+      "catalog-belief-cma-111527",
+      "catalog-belief-cma-169345",
+      "catalog-belief-cma-169343",
+      "catalog-belief-cma-109234",
+      "catalog-belief-cma-108896",
+      "catalog-belief-cma-108854",
+      "catalog-belief-cma-140079",
+      "catalog-belief-cma-127949",
+      "catalog-belief-cma-144213",
+      "catalog-belief-cma-144214",
+      "catalog-belief-cma-154645"
+    ],
+    "frameIds": [],
+    "workCount": 12,
+    "imageCount": 12,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 12
+    },
+    "copyrightRoutes": [
+      "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“可原创转化”处理。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "怪诞 / 魔法",
+      "宗教 / 神话",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "奥林匹斯诸神",
+        "count": 12
+      },
+      {
+        "name": "希腊罗马神话",
+        "count": 12
+      },
+      {
+        "name": "宙斯与赫拉 → 雅典娜与阿波罗 → 爱与酒神",
+        "count": 12
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "神话 / 魔法",
+        "count": 12
+      },
+      {
+        "name": "宗教 / 仪式",
+        "count": 12
+      },
+      {
+        "name": "European Painting and Sculpture; Sculpture; Sculpture",
+        "count": 4
+      },
+      {
+        "name": "Greek and Roman Art; GR - Roman; Sculpture",
+        "count": 3
+      },
+      {
+        "name": "Greek and Roman Art; GR - Greek; Silver",
+        "count": 2
+      },
+      {
+        "name": "European Painting and Sculpture; P - Netherlandish-Dutch; Painting",
+        "count": 1
+      },
+      {
+        "name": "Greek and Roman Art; GR - Etruscan; Sculpture",
+        "count": 1
+      },
+      {
+        "name": "Greek and Roman Art; GR - Greek; Ceramic",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "按雷电、猫头鹰、月弓、里拉、葡萄与三叉戟重组角色系统。",
+    "avoid": "神名公版不等于现代角色设计开放。",
+    "awarenessScore": 0,
+    "sourceCount": 12,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-statuette-of-tinia-zeus-5bded0e3",
+      "title": "Statuette of Tinia (Zeus)",
+      "subtitle": "作者 / 工坊待复核 · c. 500 BCE, perhaps with modern patina · bronze",
+      "year": "c. 500 BCE, perhaps with modern patina",
+      "yearSort": -505,
+      "coverImage": "images/fce5e43fcae7aadeb9c2.webp",
+      "coverRecordId": "catalog-belief-cma-109562",
+      "sourceUrl": "https://clevelandart.org/art/1928.196",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“可原创转化”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "按雷电、猫头鹰、月弓、里拉、葡萄与三叉戟重组角色系统。",
+      "avoid": "神名公版不等于现代角色设计开放。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Greek and Roman Art; GR - Etruscan; Sculpture",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "希腊罗马神话",
+        "奥林匹斯诸神",
+        "宙斯与赫拉 → 雅典娜与阿波罗 → 爱与酒神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-109562"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-109562"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-olympian-gods"
+      ]
+    },
+    {
+      "id": "work-red-figure-column-krater-mixing-vessel-apollo-and-godd-2635b91e",
+      "title": "Red-Figure Column Krater (Mixing Vessel): Apollo and Goddesses with Chariot (A); Komos (Revel) (B)",
+      "subtitle": "Cleveland Painter (name vase; Greek, Attic, active c. 470–460 BCE) · c. 470–460 BCE · ceramic",
+      "year": "c. 470–460 BCE",
+      "yearSort": -475,
+      "coverImage": "images/20b20ab26969c4a8c18f.webp",
+      "coverRecordId": "catalog-belief-cma-111527",
+      "sourceUrl": "https://clevelandart.org/art/1930.104",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“可原创转化”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "按雷电、猫头鹰、月弓、里拉、葡萄与三叉戟重组角色系统。",
+      "avoid": "神名公版不等于现代角色设计开放。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Greek and Roman Art; GR - Greek; Ceramic",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "希腊罗马神话",
+        "奥林匹斯诸神",
+        "宙斯与赫拉 → 雅典娜与阿波罗 → 爱与酒神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-111527"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-111527"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-olympian-gods"
+      ]
+    },
+    {
+      "id": "work-tetradrachm-coin-of-erognetos-magistrate-of-magnesia-c631f58a",
+      "title": "Tetradrachm Coin of Erognetos, Magistrate of Magnesia",
+      "subtitle": "作者 / 工坊待复核 · 155–145 BCE · silver",
+      "year": "155–145 BCE",
+      "yearSort": -155,
+      "coverImage": "images/53ebb1fd1bd8079de6a3.webp",
+      "coverRecordId": "catalog-belief-cma-169345",
+      "sourceUrl": "https://clevelandart.org/art/2011.209.b",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“可原创转化”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "按雷电、猫头鹰、月弓、里拉、葡萄与三叉戟重组角色系统。",
+      "avoid": "神名公版不等于现代角色设计开放。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Greek and Roman Art; GR - Greek; Silver",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "希腊罗马神话",
+        "奥林匹斯诸神",
+        "宙斯与赫拉 → 雅典娜与阿波罗 → 爱与酒神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-169345"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-169345"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-olympian-gods"
+      ]
+    },
+    {
+      "id": "work-tetradrachm-coin-of-herognetos-magistrate-of-magnesia-855c085a",
+      "title": "Tetradrachm Coin of Herognetos, Magistrate of Magnesia",
+      "subtitle": "作者 / 工坊待复核 · 155–145 BCE · silver",
+      "year": "155–145 BCE",
+      "yearSort": -155,
+      "coverImage": "images/aa6622a771f37e5c7a3c.webp",
+      "coverRecordId": "catalog-belief-cma-169343",
+      "sourceUrl": "https://clevelandart.org/art/2011.209",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“可原创转化”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "按雷电、猫头鹰、月弓、里拉、葡萄与三叉戟重组角色系统。",
+      "avoid": "神名公版不等于现代角色设计开放。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Greek and Roman Art; GR - Greek; Silver",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "希腊罗马神话",
+        "奥林匹斯诸神",
+        "宙斯与赫拉 → 雅典娜与阿波罗 → 爱与酒神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-169343"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-169343"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-olympian-gods"
+      ]
+    },
+    {
+      "id": "work-torso-of-a-woman-e29b8626",
+      "title": "Torso of a Woman",
+      "subtitle": "作者 / 工坊待复核 · 100 BCE–400 CE, or modern, before 1927? · marble",
+      "year": "100 BCE–400 CE, or modern, before 1927?",
+      "yearSort": -100,
+      "coverImage": "images/d94b709f4f6d2884cfc0.webp",
+      "coverRecordId": "catalog-belief-cma-109234",
+      "sourceUrl": "https://clevelandart.org/art/1927.383",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“可原创转化”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "按雷电、猫头鹰、月弓、里拉、葡萄与三叉戟重组角色系统。",
+      "avoid": "神名公版不等于现代角色设计开放。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Greek and Roman Art; GR - Roman; Sculpture",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "希腊罗马神话",
+        "奥林匹斯诸神",
+        "宙斯与赫拉 → 雅典娜与阿波罗 → 爱与酒神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-109234"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-109234"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-olympian-gods"
+      ]
+    },
+    {
+      "id": "work-torso-of-venus-f035df77",
+      "title": "Torso of Venus",
+      "subtitle": "作者 / 工坊待复核 · 1–200 CE · marble",
+      "year": "1–200 CE",
+      "yearSort": 1,
+      "coverImage": "images/548c2259bba97f5dc2de.webp",
+      "coverRecordId": "catalog-belief-cma-108896",
+      "sourceUrl": "https://clevelandart.org/art/1926.565",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“可原创转化”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "按雷电、猫头鹰、月弓、里拉、葡萄与三叉戟重组角色系统。",
+      "avoid": "神名公版不等于现代角色设计开放。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Greek and Roman Art; GR - Roman; Sculpture",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "希腊罗马神话",
+        "奥林匹斯诸神",
+        "宙斯与赫拉 → 雅典娜与阿波罗 → 爱与酒神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-108896"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-108896"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-olympian-gods"
+      ]
+    },
+    {
+      "id": "work-head-of-aphrodite-d13e72f2",
+      "title": "Head of Aphrodite",
+      "subtitle": "作者 / 工坊待复核 · c. 100–200 CE · marble",
+      "year": "c. 100–200 CE",
+      "yearSort": 100,
+      "coverImage": "images/fa96e5d18f6f3c026959.webp",
+      "coverRecordId": "catalog-belief-cma-108854",
+      "sourceUrl": "https://clevelandart.org/art/1926.53",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“可原创转化”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "按雷电、猫头鹰、月弓、里拉、葡萄与三叉戟重组角色系统。",
+      "avoid": "神名公版不等于现代角色设计开放。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Greek and Roman Art; GR - Roman; Sculpture",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "希腊罗马神话",
+        "奥林匹斯诸神",
+        "宙斯与赫拉 → 雅典娜与阿波罗 → 爱与酒神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-108854"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-108854"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-olympian-gods"
+      ]
+    },
+    {
+      "id": "work-thetis-running-5cfcc800",
+      "title": "Thetis Running",
+      "subtitle": "Severo da Ravenna (Italian, c. 1496–c. 1543) · c. 1527 · bronze",
+      "year": "c. 1527",
+      "yearSort": 1522,
+      "coverImage": "images/b2c0ad468c8c42c4e9b1.webp",
+      "coverRecordId": "catalog-belief-cma-140079",
+      "sourceUrl": "https://clevelandart.org/art/1963.92",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“可原创转化”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "按雷电、猫头鹰、月弓、里拉、葡萄与三叉戟重组角色系统。",
+      "avoid": "神名公版不等于现代角色设计开放。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "European Painting and Sculpture; Sculpture; Sculpture",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "希腊罗马神话",
+        "奥林匹斯诸神",
+        "宙斯与赫拉 → 雅典娜与阿波罗 → 爱与酒神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-140079"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-140079"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-olympian-gods"
+      ]
+    },
+    {
+      "id": "work-venus-70b01ea1",
+      "title": "Venus",
+      "subtitle": "Danese Cattaneo (Italian, 1509–1573) · c. 1560 · bronze",
+      "year": "c. 1560",
+      "yearSort": 1555,
+      "coverImage": "images/e2af55e2aceb44aa934c.webp",
+      "coverRecordId": "catalog-belief-cma-127949",
+      "sourceUrl": "https://clevelandart.org/art/1950.578",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“可原创转化”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "按雷电、猫头鹰、月弓、里拉、葡萄与三叉戟重组角色系统。",
+      "avoid": "神名公版不等于现代角色设计开放。",
+      "tags": [
+        "动物 / 自然",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "European Painting and Sculpture; Sculpture; Sculpture",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "希腊罗马神话",
+        "奥林匹斯诸神",
+        "宙斯与赫拉 → 雅典娜与阿波罗 → 爱与酒神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-127949"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-127949"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-olympian-gods"
+      ]
+    },
+    {
+      "id": "work-pair-of-putti-1b75b254",
+      "title": "Pair of Putti",
+      "subtitle": "作者 / 工坊待复核 · late 1500s · gilt bronze",
+      "year": "late 1500s",
+      "yearSort": 1575,
+      "coverImage": "images/772135f7974b77d36c37.webp",
+      "coverRecordId": "catalog-belief-cma-144213",
+      "sourceUrl": "https://clevelandart.org/art/1968.64",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“可原创转化”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "按雷电、猫头鹰、月弓、里拉、葡萄与三叉戟重组角色系统。",
+      "avoid": "神名公版不等于现代角色设计开放。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "European Painting and Sculpture; Sculpture; Sculpture",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "希腊罗马神话",
+        "奥林匹斯诸神",
+        "宙斯与赫拉 → 雅典娜与阿波罗 → 爱与酒神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-144213"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-144213"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-olympian-gods"
+      ]
+    },
+    {
+      "id": "work-putto-525f4530",
+      "title": "Putto",
+      "subtitle": "作者 / 工坊待复核 · late 1500s · gilt bronze",
+      "year": "late 1500s",
+      "yearSort": 1575,
+      "coverImage": "images/0ad896a8e4dee0e951d6.webp",
+      "coverRecordId": "catalog-belief-cma-144214",
+      "sourceUrl": "https://clevelandart.org/art/1968.64.1",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“可原创转化”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "按雷电、猫头鹰、月弓、里拉、葡萄与三叉戟重组角色系统。",
+      "avoid": "神名公版不等于现代角色设计开放。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "European Painting and Sculpture; Sculpture; Sculpture",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "希腊罗马神话",
+        "奥林匹斯诸神",
+        "宙斯与赫拉 → 雅典娜与阿波罗 → 爱与酒神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-144214"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-144214"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-olympian-gods"
+      ]
+    },
+    {
+      "id": "work-mercury-and-argus-in-a-landscape-7f586416",
+      "title": "Mercury and Argus in a Landscape",
+      "subtitle": "Dirck van der Lisse (Dutch, 1669) · c. 1635 · oil on copper",
+      "year": "c. 1635",
+      "yearSort": 1630,
+      "coverImage": "images/c5df776b619e010aa478.webp",
+      "coverRecordId": "catalog-belief-cma-154645",
+      "sourceUrl": "https://clevelandart.org/art/1989.248",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“可原创转化”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "按雷电、猫头鹰、月弓、里拉、葡萄与三叉戟重组角色系统。",
+      "avoid": "神名公版不等于现代角色设计开放。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "European Painting and Sculpture; P - Netherlandish-Dutch; Painting",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "希腊罗马神话",
+        "奥林匹斯诸神",
+        "宙斯与赫拉 → 雅典娜与阿波罗 → 爱与酒神"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-154645"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-154645"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-olympian-gods"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

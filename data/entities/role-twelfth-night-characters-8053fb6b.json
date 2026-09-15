@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-twelfth-night-characters-8053fb6b",
+    "name": "Twelfth Night Characters",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/b6b104f882d4a10bc4f1.webp",
+    "coverRecordId": "catalog-seasonal-v96-mtkztsihqed0x",
+    "yearStart": 1811,
+    "yearEnd": 1811,
+    "workIds": [
+      "work-twelfth-night-characters-ee156f21"
+    ],
+    "recordIds": [
+      "catalog-seasonal-v96-mtkztsihqed0x"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "CC0 / 公版开放馆藏": 1
+    },
+    "copyrightRoutes": [
+      "The Met API isPublicDomain=true；逐件核验 2026-09-14"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "圣诞 / 冬季"
+    ],
+    "topScenes": [
+      {
+        "name": "宴饮、烘焙、礼物与家庭仪式",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "大众印刷",
+        "count": 1
+      },
+      {
+        "name": "人物 / 动作",
+        "count": 1
+      },
+      {
+        "name": "人物 / 肖像",
+        "count": 1
+      },
+      {
+        "name": "生活 / 节庆",
+        "count": 1
+      },
+      {
+        "name": "形象演变",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "圣诞节",
+        "count": 1
+      }
+    ],
+    "usage": "节庆角色、服饰属性与群体动作。",
+    "avoid": "只取这件历史作品已出现的表达；现代修复、重印、品牌化造型与平台规则另查。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-twelfth-night-characters-ee156f21",
+      "title": "Twelfth Night Characters",
+      "subtitle": "1811 · The Metropolitan Museum of Art",
+      "year": "1811",
+      "yearSort": 1811,
+      "coverImage": "images/b6b104f882d4a10bc4f1.webp",
+      "coverRecordId": "catalog-seasonal-v96-mtkztsihqed0x",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/787875",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "CC0 / 公版开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；逐件核验 2026-09-14"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public Domain · The Met CC0"
+      ],
+      "usage": "节庆角色、服饰属性与群体动作。",
+      "avoid": "只取这件历史作品已出现的表达；现代修复、重印、品牌化造型与平台规则另查。",
+      "tags": [
+        "圣诞 / 冬季"
+      ],
+      "styles": [
+        "生活 / 节庆",
+        "人物 / 肖像",
+        "人物 / 动作",
+        "大众印刷",
+        "形象演变"
+      ],
+      "scenes": [
+        "宴饮、烘焙、礼物与家庭仪式"
+      ],
+      "holidays": [
+        "圣诞节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-v96-mtkztsihqed0x"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-v96-mtkztsihqed0x"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-twelfth-night-characters-8053fb6b"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

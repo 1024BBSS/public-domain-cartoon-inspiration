@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-snow-white-580835f2",
+    "title": "Snow White",
+    "subtitle": "Franz Jüttner / 早期格林童话插图 · 1905",
+    "year": "1905",
+    "yearSort": 1905,
+    "coverImage": "images/50594848115f68be7aaf.webp",
+    "coverRecordId": "catalog-snow-white",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Franz_J%C3%BCttner_Schneewittchen_7.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言",
+      "圣诞 / 冬季"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [
+      "森林 / 自然"
+    ],
+    "holidays": [
+      "圣诞 / 冬季"
+    ],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-snow-white"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-snow-white"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 64,
+    "entityIds": [
+      "role-snow-white-29fcc6a6"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-snow-white-29fcc6a6",
+      "name": "Snow White",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/50594848115f68be7aaf.webp",
+      "coverRecordId": "catalog-snow-white",
+      "yearStart": 1905,
+      "yearEnd": 1905,
+      "workIds": [
+        "work-snow-white-580835f2"
+      ],
+      "recordIds": [
+        "catalog-snow-white"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言",
+        "圣诞 / 冬季"
+      ],
+      "topScenes": [
+        {
+          "name": "森林 / 自然",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "圣诞 / 冬季",
+          "count": 1
+        }
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 64,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-snow-white",
+      "kind": "主档",
+      "title": "Snow White",
+      "subtitle": "Franz Jüttner / 早期格林童话插图 · 1905",
+      "year": "1905",
+      "yearSort": 1905,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Franz_J%C3%BCttner_Schneewittchen_7.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "森林 / 自然"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 64,
+      "awarenessLevel": "中",
+      "image": "images/50594848115f68be7aaf.webp"
+    }
+  ]
+}

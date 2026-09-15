@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-rapunzel-6bd67b73",
+    "name": "Rapunzel",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/44357fd99ea820a7d038.webp",
+    "coverRecordId": "catalog-rapunzel",
+    "yearStart": 1910,
+    "yearEnd": 1910,
+    "workIds": [
+      "work-rapunzel-9226fb51"
+    ],
+    "recordIds": [
+      "catalog-rapunzel"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "topScenes": [
+      {
+        "name": "森林 / 自然",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 68,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-rapunzel-9226fb51",
+      "title": "Rapunzel",
+      "subtitle": "Paul Hey 格林童话插图 · 1910",
+      "year": "1910",
+      "yearSort": 1910,
+      "coverImage": "images/44357fd99ea820a7d038.webp",
+      "coverRecordId": "catalog-rapunzel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hey_M%C3%A4rchen_022.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "森林 / 自然"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-rapunzel"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-rapunzel"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 68,
+      "entityIds": [
+        "role-rapunzel-6bd67b73"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

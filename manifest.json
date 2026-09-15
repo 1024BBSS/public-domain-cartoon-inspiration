@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-15T14:26:50.693Z",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
   "sourceVersion": "9.6",
   "publicScope": "美国市场公版卡通视觉灵感；只含已确认期限届满、未续期、公共领域或 CC0 路径，排除待复核项。",
   "counts": {
@@ -29,7 +29,17 @@
       "宗教 / 神话": 116
     }
   },
-  "catalogSha256": "a4f82da71e2813b76b02a931503d44aaefb70987517556d09458f5eea7dda3b8",
+  "catalogSha256": "571d4a9afb2b874e60834588c525dbbe8c7684fccbdabe9bf80349337ee211e9",
+  "relationsSha256": "ea4a5b46a35920cb0e524b028fafac6d3fedfe6d51d005d31c69ab5a0edbd9a3",
+  "relationCounts": {
+    "entities": 162,
+    "characters": 27,
+    "subjectHubs": 10,
+    "works": 241,
+    "scenes": 110,
+    "holidays": 8,
+    "records": 640
+  },
   "exclusions": [
     "未续期待复核",
     "公版线索 · 待复核",

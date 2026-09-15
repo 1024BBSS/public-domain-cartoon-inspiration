@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-daoist-immortal-lu-dongbin-9047b13b",
+    "title": "Daoist Immortal Lü Dongbin",
+    "subtitle": "作者 / 工坊待复核 · 1662–1722 · porcelain with famille verte overglaze enamel decoration",
+    "year": "1662–1722",
+    "yearSort": 1662,
+    "coverImage": "images/403055426551a13d09fd.webp",
+    "coverRecordId": "catalog-belief-cma-140200",
+    "sourceUrl": "https://clevelandart.org/art/1964.193",
+    "sourceLabel": "clevelandart.org",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "CC0 · Cleveland Museum of Art"
+    ],
+    "usage": "按葫芦、扇、剑、荷花、笛、拐杖和云气识别角色。",
+    "avoid": "仙人、民间寿星与佛教罗汉不可互相替代。",
+    "tags": [
+      "怪诞 / 魔法",
+      "宗教 / 神话"
+    ],
+    "styles": [
+      "Chinese Art; China - Qing Dynasty; Ceramic",
+      "宗教 / 仪式",
+      "神话 / 魔法"
+    ],
+    "scenes": [
+      "东亚道教、神道与民间信仰",
+      "道教神仙与八仙",
+      "长生仙境 → 八仙法器 → 星官与地方神"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-belief-cma-140200"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-belief-cma-140200"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "subject-daoist-immortals"
+    ]
+  },
+  "entities": [
+    {
+      "id": "subject-daoist-immortals",
+      "name": "道教神仙与八仙",
+      "type": "文化题材",
+      "aliases": [
+        "八仙",
+        "道教神仙",
+        "Daoist immortals",
+        "Eight Immortals"
+      ],
+      "virtual": true,
+      "coverImage": "images/5208007464468ebf51ba.webp",
+      "coverRecordId": "catalog-belief-cma-140201",
+      "yearStart": 1662,
+      "yearEnd": 1893,
+      "workIds": [
+        "work-daoist-immortal-han-xiangzi-9bc9f8b2",
+        "work-daoist-immortal-lu-dongbin-9047b13b",
+        "work-hotei-with-daoist-immortals-immortal-riding-carp-c94d436d",
+        "work-figure-of-daoist-immortal-he-xiangu-3ef9913a",
+        "work-cup-with-daoist-figures-084458d4",
+        "work-miniature-mountain-with-daoist-paradise-fa90970f",
+        "work-daoist-immortal-on-a-qilin-and-two-attendants-b452a939",
+        "work-bowl-from-nesting-bowls-with-daoist-immortals-5857a6bb",
+        "work-nesting-bowls-with-daoist-immortals-e07fc4e8"
+      ],
+      "recordIds": [
+        "catalog-belief-cma-140201",
+        "catalog-belief-cma-140200",
+        "catalog-belief-cma-155065",
+        "catalog-belief-cma-148812",
+        "catalog-belief-cma-130130",
+        "catalog-belief-cma-120873",
+        "catalog-belief-cma-172814",
+        "catalog-belief-cma-519604",
+        "catalog-belief-cma-447809"
+      ],
+      "frameIds": [],
+      "workCount": 9,
+      "imageCount": 9,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 9
+      },
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "道教神仙与八仙",
+          "count": 9
+        },
+        {
+          "name": "东亚道教、神道与民间信仰",
+          "count": 9
+        },
+        {
+          "name": "长生仙境 → 八仙法器 → 星官与地方神",
+          "count": 9
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "神话 / 魔法",
+          "count": 9
+        },
+        {
+          "name": "宗教 / 仪式",
+          "count": 9
+        },
+        {
+          "name": "Chinese Art; China - Qing Dynasty; Ceramic",
+          "count": 2
+        },
+        {
+          "name": "Japanese Art; Japanese Art; Ceramic",
+          "count": 2
+        },
+        {
+          "name": "Chinese Art; China - Qing Dynasty; Jade",
+          "count": 1
+        },
+        {
+          "name": "Chinese Art; China - Qing Dynasty; Wood",
+          "count": 1
+        },
+        {
+          "name": "Chinese Art; China - Yuan Dynasty; Jade",
+          "count": 1
+        },
+        {
+          "name": "Japanese Art; ASIAN - Hanging scroll; Painting",
+          "count": 1
+        },
+        {
+          "name": "Korean Art; Korean Art; Painting",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "按葫芦、扇、剑、荷花、笛、拐杖和云气识别角色。",
+      "avoid": "仙人、民间寿星与佛教罗汉不可互相替代。",
+      "awarenessScore": 0,
+      "sourceCount": 9,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-belief-cma-140200",
+      "kind": "主档",
+      "title": "Daoist Immortal Lü Dongbin",
+      "subtitle": "作者 / 工坊待复核 · 1662–1722 · porcelain with famille verte overglaze enamel decoration",
+      "year": "1662–1722",
+      "yearSort": 1662,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+      "evidenceLevel": "A",
+      "imageRights": "CC0 · Cleveland Museum of Art",
+      "sourceUrl": "https://clevelandart.org/art/1964.193",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "usage": "按葫芦、扇、剑、荷花、笛、拐杖和云气识别角色。",
+      "avoid": "仙人、民间寿星与佛教罗汉不可互相替代。",
+      "styles": [
+        "Chinese Art; China - Qing Dynasty; Ceramic",
+        "宗教 / 仪式",
+        "神话 / 魔法"
+      ],
+      "scenes": [
+        "东亚道教、神道与民间信仰",
+        "道教神仙与八仙",
+        "长生仙境 → 八仙法器 → 星官与地方神"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/403055426551a13d09fd.webp"
+    }
+  ]
+}

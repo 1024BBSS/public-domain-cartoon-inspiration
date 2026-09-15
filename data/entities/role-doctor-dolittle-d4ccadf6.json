@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-doctor-dolittle-d4ccadf6",
+    "name": "Doctor Dolittle",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/ac24b13978b58f73d300.webp",
+    "coverRecordId": "catalog-doctor-dolittle",
+    "yearStart": 1920,
+    "yearEnd": 1920,
+    "workIds": [
+      "work-doctor-dolittle-a792d384"
+    ],
+    "recordIds": [
+      "catalog-doctor-dolittle"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "动物 / 宠物",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 43,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-doctor-dolittle-a792d384",
+      "title": "Doctor Dolittle",
+      "subtitle": "Hugh Lofting 原著插图 · 1920",
+      "year": "1920",
+      "yearSort": 1920,
+      "coverImage": "images/ac24b13978b58f73d300.webp",
+      "coverRecordId": "catalog-doctor-dolittle",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Story_of_Doctor_Dolittle_(American_edition).jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "动物 / 宠物"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-doctor-dolittle"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-doctor-dolittle"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 43,
+      "entityIds": [
+        "role-doctor-dolittle-d4ccadf6"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

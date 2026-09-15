@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-the-yellow-kid-5cd751c1",
+    "name": "The Yellow Kid",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/bcdf7a00239d050d1cf0.webp",
+    "coverRecordId": "catalog-yellow-kid",
+    "yearStart": 1895,
+    "yearEnd": 1895,
+    "workIds": [
+      "work-the-yellow-kid-7efd07a9"
+    ],
+    "recordIds": [
+      "catalog-yellow-kid"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "topScenes": [
+      {
+        "name": "城市 / 街道",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "报刊连环画",
+        "count": 1
+      },
+      {
+        "name": "早期动画 / 漫画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+    "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+    "awarenessScore": 22,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-the-yellow-kid-7efd07a9",
+      "title": "The Yellow Kid",
+      "subtitle": "Richard F. Outcault 报纸漫画 · 1895",
+      "year": "1895",
+      "yearSort": 1895,
+      "coverImage": "images/bcdf7a00239d050d1cf0.webp",
+      "coverRecordId": "catalog-yellow-kid",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yellow_Kid_1898-01-09.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "styles": [
+        "早期动画 / 漫画",
+        "报刊连环画"
+      ],
+      "scenes": [
+        "城市 / 街道"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-yellow-kid"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-yellow-kid"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 22,
+      "entityIds": [
+        "role-the-yellow-kid-5cd751c1"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

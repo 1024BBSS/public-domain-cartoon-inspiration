@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-queen-of-hearts-f519eaed",
+    "title": "Queen of Hearts",
+    "subtitle": "John Tenniel《Alice》原版插图 · 1865",
+    "year": "1865",
+    "yearSort": 1865,
+    "coverImage": "images/92b864ef6137fa5b5724.webp",
+    "coverRecordId": "catalog-queen-hearts",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alice_with_Queen_of_Hearts_and_King_of_Hearts.png",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-queen-hearts"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-queen-hearts"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 36,
+    "entityIds": [
+      "role-queen-of-hearts-a74811a2"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-queen-of-hearts-a74811a2",
+      "name": "Queen of Hearts",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/92b864ef6137fa5b5724.webp",
+      "coverRecordId": "catalog-queen-hearts",
+      "yearStart": 1865,
+      "yearEnd": 1865,
+      "workIds": [
+        "work-queen-of-hearts-f519eaed"
+      ],
+      "recordIds": [
+        "catalog-queen-hearts"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 36,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-queen-hearts",
+      "kind": "主档",
+      "title": "Queen of Hearts",
+      "subtitle": "John Tenniel《Alice》原版插图 · 1865",
+      "year": "1865",
+      "yearSort": 1865,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alice_with_Queen_of_Hearts_and_King_of_Hearts.png",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "较低",
+      "image": "images/92b864ef6137fa5b5724.webp"
+    }
+  ]
+}

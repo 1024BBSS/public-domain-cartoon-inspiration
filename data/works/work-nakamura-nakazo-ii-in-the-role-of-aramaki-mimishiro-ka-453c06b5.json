@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-nakamura-nakazo-ii-in-the-role-of-aramaki-mimishiro-ka-453c06b5",
+    "title": "Nakamura Nakazo II in the Role of Aramaki Mimishiro Kanetora Disguised as Saiwaka",
+    "subtitle": "Toshusai Sharaku 東洲斎 写楽 Japanese, active 1794-95 · 1794 · Color woodblock print; hosoban",
+    "year": "1794",
+    "yearSort": 1789,
+    "coverImage": "images/f78070db25e9a3280599.webp",
+    "coverRecordId": "catalog-seasonal-mtky99kozjk5i",
+    "sourceUrl": "https://www.artic.edu/artworks/87284",
+    "sourceLabel": "Art Institute of Chicago",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "AIC API is_public_domain=true"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public Domain · AIC"
+    ],
+    "usage": "研究角色扮演中的身份线索如何通过姿态、道具和服装局部被揭示；不要脱离剧目直接复制。",
+    "avoid": "Día de Muertos、All Souls 等不是 Halloween 装饰包；避免去语境挪用。",
+    "tags": [
+      "万圣节",
+      "宗教 / 神话"
+    ],
+    "styles": [
+      "版画",
+      "宗教 / 仪式",
+      "生活 / 节庆"
+    ],
+    "scenes": [
+      "地区亡者传统与边界"
+    ],
+    "holidays": [
+      "万圣节"
+    ],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-seasonal-mtky99kozjk5i"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-seasonal-mtky99kozjk5i"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-nakamura-nakazo-ii-in-the-role-of-aramaki-mimishiro-ka-93ca9fb4"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-nakamura-nakazo-ii-in-the-role-of-aramaki-mimishiro-ka-93ca9fb4",
+      "name": "Nakamura Nakazo II in the Role of Aramaki Mimishiro Kanetora Disguised as Saiwaka",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/f78070db25e9a3280599.webp",
+      "coverRecordId": "catalog-seasonal-mtky99kozjk5i",
+      "yearStart": 1789,
+      "yearEnd": 1789,
+      "workIds": [
+        "work-nakamura-nakazo-ii-in-the-role-of-aramaki-mimishiro-ka-453c06b5"
+      ],
+      "recordIds": [
+        "catalog-seasonal-mtky99kozjk5i"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "地区亡者传统与边界",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "版画",
+          "count": 1
+        },
+        {
+          "name": "生活 / 节庆",
+          "count": 1
+        },
+        {
+          "name": "宗教 / 仪式",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "研究角色扮演中的身份线索如何通过姿态、道具和服装局部被揭示；不要脱离剧目直接复制。",
+      "avoid": "Día de Muertos、All Souls 等不是 Halloween 装饰包；避免去语境挪用。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-seasonal-mtky99kozjk5i",
+      "kind": "主档",
+      "title": "Nakamura Nakazo II in the Role of Aramaki Mimishiro Kanetora Disguised as Saiwaka",
+      "subtitle": "Toshusai Sharaku 東洲斎 写楽 Japanese, active 1794-95 · 1794 · Color woodblock print; hosoban",
+      "year": "1794",
+      "yearSort": 1789,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC API is_public_domain=true",
+      "evidenceLevel": "A",
+      "imageRights": "Public Domain · AIC",
+      "sourceUrl": "https://www.artic.edu/artworks/87284",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "usage": "研究角色扮演中的身份线索如何通过姿态、道具和服装局部被揭示；不要脱离剧目直接复制。",
+      "avoid": "Día de Muertos、All Souls 等不是 Halloween 装饰包；避免去语境挪用。",
+      "styles": [
+        "版画",
+        "宗教 / 仪式",
+        "生活 / 节庆"
+      ],
+      "scenes": [
+        "地区亡者传统与边界"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [],
+      "tags": [
+        "万圣节",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/f78070db25e9a3280599.webp"
+    }
+  ]
+}

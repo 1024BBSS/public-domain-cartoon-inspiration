@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-pinocchio-89d9ef47",
+    "name": "Pinocchio",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/fe2aa91274c97e316b6c.webp",
+    "coverRecordId": "catalog-pinocchio",
+    "yearStart": 1883,
+    "yearEnd": 1883,
+    "workIds": [
+      "work-pinocchio-125a6af8"
+    ],
+    "recordIds": [
+      "catalog-pinocchio"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "topScenes": [],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 66,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-pinocchio-125a6af8",
+      "title": "Pinocchio",
+      "subtitle": "Enrico Mazzanti 原著插图 · 1883",
+      "year": "1883",
+      "yearSort": 1883,
+      "coverImage": "images/fe2aa91274c97e316b6c.webp",
+      "coverRecordId": "catalog-pinocchio",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Collodi_-_Le_avventure_di_Pinocchio,_Bemporad,_1892_(page_40_crop).jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-pinocchio"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-pinocchio"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 66,
+      "entityIds": [
+        "role-pinocchio-89d9ef47"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

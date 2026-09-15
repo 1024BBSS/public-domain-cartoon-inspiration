@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-maid-marian-f76f38bb",
+    "title": "Maid Marian",
+    "subtitle": "Louis Rhead《Robin Hood》插图 · 1912",
+    "year": "1912",
+    "yearSort": 1912,
+    "coverImage": "images/3810205fe301f7a1f0a6.webp",
+    "coverRecordId": "catalog-maid-marian",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_famous_battle_between_Robin_Hood,_and_Maid_Marian_(Wood_401(21)).gif",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-maid-marian"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-maid-marian"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 50,
+    "entityIds": [
+      "role-maid-marian-c33083c6"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-maid-marian-c33083c6",
+      "name": "Maid Marian",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/3810205fe301f7a1f0a6.webp",
+      "coverRecordId": "catalog-maid-marian",
+      "yearStart": 1912,
+      "yearEnd": 1912,
+      "workIds": [
+        "work-maid-marian-f76f38bb"
+      ],
+      "recordIds": [
+        "catalog-maid-marian"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 50,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-maid-marian",
+      "kind": "主档",
+      "title": "Maid Marian",
+      "subtitle": "Louis Rhead《Robin Hood》插图 · 1912",
+      "year": "1912",
+      "yearSort": 1912,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_famous_battle_between_Robin_Hood,_and_Maid_Marian_(Wood_401(21)).gif",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 50,
+      "awarenessLevel": "中",
+      "image": "images/3810205fe301f7a1f0a6.webp"
+    }
+  ]
+}

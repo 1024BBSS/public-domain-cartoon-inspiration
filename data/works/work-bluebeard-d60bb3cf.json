@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-bluebeard-d60bb3cf",
+    "title": "Bluebeard",
+    "subtitle": "Walter Crane 童话插图 · 1875",
+    "year": "1875",
+    "yearSort": 1875,
+    "coverImage": "images/f08ec0564f68f02964cf.webp",
+    "coverRecordId": "catalog-bluebeard",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walter_Crane03.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言",
+      "怪诞 / 魔法"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画",
+      "哥特 / 怪诞"
+    ],
+    "scenes": [],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-bluebeard"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-bluebeard"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 56,
+    "entityIds": [
+      "role-bluebeard-5211f1c7"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-bluebeard-5211f1c7",
+      "name": "Bluebeard",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/f08ec0564f68f02964cf.webp",
+      "coverRecordId": "catalog-bluebeard",
+      "yearStart": 1875,
+      "yearEnd": 1875,
+      "workIds": [
+        "work-bluebeard-d60bb3cf"
+      ],
+      "recordIds": [
+        "catalog-bluebeard"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "哥特 / 怪诞",
+          "count": 1
+        },
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 56,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-bluebeard",
+      "kind": "主档",
+      "title": "Bluebeard",
+      "subtitle": "Walter Crane 童话插图 · 1875",
+      "year": "1875",
+      "yearSort": 1875,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walter_Crane03.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画",
+        "哥特 / 怪诞"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 56,
+      "awarenessLevel": "中",
+      "image": "images/f08ec0564f68f02964cf.webp"
+    }
+  ]
+}

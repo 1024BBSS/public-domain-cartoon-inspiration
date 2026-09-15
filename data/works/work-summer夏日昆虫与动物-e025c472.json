@@ -1,0 +1,765 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-summer夏日昆虫与动物-e025c472",
+    "title": "《Summer》夏日昆虫与动物",
+    "subtitle": "",
+    "year": "1930",
+    "yearSort": 1930,
+    "coverImage": "images/82f6cef9f6f3a31c7f72.webp",
+    "coverRecordId": "frame-summer-1930-001",
+    "sourceUrl": "https://archive.org/details/summer_1930",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "以来源页为准"
+    ],
+    "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "tags": [
+      "早期动画",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "Silly Symphonies",
+      "季节动画"
+    ],
+    "scenes": [
+      "夏日",
+      "田野",
+      "动物群像"
+    ],
+    "holidays": [
+      "夏季"
+    ],
+    "characterNames": [
+      "昆虫",
+      "夏日动物群像"
+    ],
+    "characterAliases": [
+      "昆虫",
+      "夏日动物群像"
+    ],
+    "recordIds": [
+      "frame-summer-1930-001",
+      "frame-summer-1930-002",
+      "frame-summer-1930-003",
+      "frame-summer-1930-004",
+      "frame-summer-1930-005",
+      "frame-summer-1930-006",
+      "frame-summer-1930-007",
+      "frame-summer-1930-008",
+      "frame-summer-1930-009",
+      "frame-summer-1930-010",
+      "frame-summer-1930-011",
+      "frame-summer-1930-012"
+    ],
+    "frameIds": [
+      "frame-summer-1930-001",
+      "frame-summer-1930-002",
+      "frame-summer-1930-003",
+      "frame-summer-1930-004",
+      "frame-summer-1930-005",
+      "frame-summer-1930-006",
+      "frame-summer-1930-007",
+      "frame-summer-1930-008",
+      "frame-summer-1930-009",
+      "frame-summer-1930-010",
+      "frame-summer-1930-011",
+      "frame-summer-1930-012"
+    ],
+    "masterIds": [],
+    "imageCount": 12,
+    "frameCount": 12,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-昆虫-d6df729b",
+      "role-夏日动物群像-44636bd0"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-昆虫-d6df729b",
+      "name": "昆虫",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/82f6cef9f6f3a31c7f72.webp",
+      "coverRecordId": "frame-summer-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-summer夏日昆虫与动物-e025c472"
+      ],
+      "recordIds": [
+        "frame-summer-1930-001",
+        "frame-summer-1930-002",
+        "frame-summer-1930-003",
+        "frame-summer-1930-004",
+        "frame-summer-1930-005",
+        "frame-summer-1930-006",
+        "frame-summer-1930-007",
+        "frame-summer-1930-008",
+        "frame-summer-1930-009",
+        "frame-summer-1930-010",
+        "frame-summer-1930-011",
+        "frame-summer-1930-012"
+      ],
+      "frameIds": [
+        "frame-summer-1930-001",
+        "frame-summer-1930-002",
+        "frame-summer-1930-003",
+        "frame-summer-1930-004",
+        "frame-summer-1930-005",
+        "frame-summer-1930-006",
+        "frame-summer-1930-007",
+        "frame-summer-1930-008",
+        "frame-summer-1930-009",
+        "frame-summer-1930-010",
+        "frame-summer-1930-011",
+        "frame-summer-1930-012"
+      ],
+      "workCount": 1,
+      "imageCount": 12,
+      "frameCount": 12,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物群像",
+          "count": 12
+        },
+        {
+          "name": "田野",
+          "count": 12
+        },
+        {
+          "name": "夏日",
+          "count": 12
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "季节动画",
+          "count": 12
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 12
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "夏季",
+          "count": 12
+        }
+      ],
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-夏日动物群像-44636bd0"
+      ]
+    },
+    {
+      "id": "role-夏日动物群像-44636bd0",
+      "name": "夏日动物群像",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/82f6cef9f6f3a31c7f72.webp",
+      "coverRecordId": "frame-summer-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-summer夏日昆虫与动物-e025c472"
+      ],
+      "recordIds": [
+        "frame-summer-1930-001",
+        "frame-summer-1930-002",
+        "frame-summer-1930-003",
+        "frame-summer-1930-004",
+        "frame-summer-1930-005",
+        "frame-summer-1930-006",
+        "frame-summer-1930-007",
+        "frame-summer-1930-008",
+        "frame-summer-1930-009",
+        "frame-summer-1930-010",
+        "frame-summer-1930-011",
+        "frame-summer-1930-012"
+      ],
+      "frameIds": [
+        "frame-summer-1930-001",
+        "frame-summer-1930-002",
+        "frame-summer-1930-003",
+        "frame-summer-1930-004",
+        "frame-summer-1930-005",
+        "frame-summer-1930-006",
+        "frame-summer-1930-007",
+        "frame-summer-1930-008",
+        "frame-summer-1930-009",
+        "frame-summer-1930-010",
+        "frame-summer-1930-011",
+        "frame-summer-1930-012"
+      ],
+      "workCount": 1,
+      "imageCount": 12,
+      "frameCount": 12,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物群像",
+          "count": 12
+        },
+        {
+          "name": "田野",
+          "count": 12
+        },
+        {
+          "name": "夏日",
+          "count": 12
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "季节动画",
+          "count": 12
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 12
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "夏季",
+          "count": 12
+        }
+      ],
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-昆虫-d6df729b"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "frame-summer-1930-001",
+      "kind": "动画画面",
+      "title": "《Summer》夏日昆虫与动物",
+      "subtitle": "画面 001",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/summer_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "夏日",
+        "田野",
+        "动物群像"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "昆虫",
+        "夏日动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/82f6cef9f6f3a31c7f72.webp"
+    },
+    {
+      "id": "frame-summer-1930-002",
+      "kind": "动画画面",
+      "title": "《Summer》夏日昆虫与动物",
+      "subtitle": "画面 002",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/summer_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "夏日",
+        "田野",
+        "动物群像"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "昆虫",
+        "夏日动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/3ae37b589ba195fc4b41.webp"
+    },
+    {
+      "id": "frame-summer-1930-003",
+      "kind": "动画画面",
+      "title": "《Summer》夏日昆虫与动物",
+      "subtitle": "画面 003",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/summer_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "夏日",
+        "田野",
+        "动物群像"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "昆虫",
+        "夏日动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/6cd38676e8a8fa691956.webp"
+    },
+    {
+      "id": "frame-summer-1930-004",
+      "kind": "动画画面",
+      "title": "《Summer》夏日昆虫与动物",
+      "subtitle": "画面 004",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/summer_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "夏日",
+        "田野",
+        "动物群像"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "昆虫",
+        "夏日动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/beb49495cee730503e23.webp"
+    },
+    {
+      "id": "frame-summer-1930-005",
+      "kind": "动画画面",
+      "title": "《Summer》夏日昆虫与动物",
+      "subtitle": "画面 005",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/summer_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "夏日",
+        "田野",
+        "动物群像"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "昆虫",
+        "夏日动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/64335c1f812b2a76743d.webp"
+    },
+    {
+      "id": "frame-summer-1930-006",
+      "kind": "动画画面",
+      "title": "《Summer》夏日昆虫与动物",
+      "subtitle": "画面 006",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/summer_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "夏日",
+        "田野",
+        "动物群像"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "昆虫",
+        "夏日动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/68bfa88433b5e686ba2d.webp"
+    },
+    {
+      "id": "frame-summer-1930-007",
+      "kind": "动画画面",
+      "title": "《Summer》夏日昆虫与动物",
+      "subtitle": "画面 007",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/summer_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "夏日",
+        "田野",
+        "动物群像"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "昆虫",
+        "夏日动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/60674cd966f1a8711c48.webp"
+    },
+    {
+      "id": "frame-summer-1930-008",
+      "kind": "动画画面",
+      "title": "《Summer》夏日昆虫与动物",
+      "subtitle": "画面 008",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/summer_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "夏日",
+        "田野",
+        "动物群像"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "昆虫",
+        "夏日动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/74bdd291a9d548330559.webp"
+    },
+    {
+      "id": "frame-summer-1930-009",
+      "kind": "动画画面",
+      "title": "《Summer》夏日昆虫与动物",
+      "subtitle": "画面 009",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/summer_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "夏日",
+        "田野",
+        "动物群像"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "昆虫",
+        "夏日动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/5cc21a51044e83af40a8.webp"
+    },
+    {
+      "id": "frame-summer-1930-010",
+      "kind": "动画画面",
+      "title": "《Summer》夏日昆虫与动物",
+      "subtitle": "画面 010",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/summer_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "夏日",
+        "田野",
+        "动物群像"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "昆虫",
+        "夏日动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/0c956b1ab713ece74380.webp"
+    },
+    {
+      "id": "frame-summer-1930-011",
+      "kind": "动画画面",
+      "title": "《Summer》夏日昆虫与动物",
+      "subtitle": "画面 011",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/summer_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "夏日",
+        "田野",
+        "动物群像"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "昆虫",
+        "夏日动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/cf3c112a133d00b85b6c.webp"
+    },
+    {
+      "id": "frame-summer-1930-012",
+      "kind": "动画画面",
+      "title": "《Summer》夏日昆虫与动物",
+      "subtitle": "画面 012",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/summer_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 夏日 · 田野",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "夏日",
+        "田野",
+        "动物群像"
+      ],
+      "holidays": [
+        "夏季"
+      ],
+      "characters": [
+        "昆虫",
+        "夏日动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/cdbcfa804c74dd1232dc.webp"
+    }
+  ]
+}

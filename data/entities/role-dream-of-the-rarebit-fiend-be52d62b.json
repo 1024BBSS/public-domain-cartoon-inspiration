@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-dream-of-the-rarebit-fiend-be52d62b",
+    "name": "Dream of the Rarebit Fiend",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/039f56989c023be05ed8.webp",
+    "coverRecordId": "catalog-rarebit-fiend",
+    "yearStart": 1904,
+    "yearEnd": 1904,
+    "workIds": [
+      "work-dream-of-the-rarebit-fiend-bcf74822"
+    ],
+    "recordIds": [
+      "catalog-rarebit-fiend"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "怪诞 / 魔法"
+    ],
+    "topScenes": [
+      {
+        "name": "城市 / 街道",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "报刊连环画",
+        "count": 1
+      },
+      {
+        "name": "都市超现实",
+        "count": 1
+      },
+      {
+        "name": "早期动画 / 漫画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+    "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+    "awarenessScore": 13,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-dream-of-the-rarebit-fiend-bcf74822",
+      "title": "Dream of the Rarebit Fiend",
+      "subtitle": "Winsor McCay 报纸漫画 · 1904",
+      "year": "1904",
+      "yearSort": 1904,
+      "coverImage": "images/039f56989c023be05ed8.webp",
+      "coverRecordId": "catalog-rarebit-fiend",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winsor_McCay_-_Dream_of_the_Rarebit_Fiend_1907-09-27.tif",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "早期动画 / 漫画",
+        "都市超现实",
+        "报刊连环画"
+      ],
+      "scenes": [
+        "城市 / 街道"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-rarebit-fiend"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-rarebit-fiend"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 13,
+      "entityIds": [
+        "role-dream-of-the-rarebit-fiend-be52d62b"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

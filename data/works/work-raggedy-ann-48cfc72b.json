@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-raggedy-ann-48cfc72b",
+    "title": "Raggedy Ann",
+    "subtitle": "Johnny Gruelle 早期插图 · 1918",
+    "year": "1918",
+    "yearSort": 1918,
+    "coverImage": "images/d021a9b6b57c545f80a2.webp",
+    "coverRecordId": "catalog-raggedy-ann",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raggedy_Ann_and_the_Kite_illustration_006.png",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-raggedy-ann"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-raggedy-ann"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 48,
+    "entityIds": [
+      "role-raggedy-ann-936ff025"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-raggedy-ann-936ff025",
+      "name": "Raggedy Ann",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/d021a9b6b57c545f80a2.webp",
+      "coverRecordId": "catalog-raggedy-ann",
+      "yearStart": 1918,
+      "yearEnd": 1918,
+      "workIds": [
+        "work-raggedy-ann-48cfc72b"
+      ],
+      "recordIds": [
+        "catalog-raggedy-ann"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 48,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-raggedy-ann",
+      "kind": "主档",
+      "title": "Raggedy Ann",
+      "subtitle": "Johnny Gruelle 早期插图 · 1918",
+      "year": "1918",
+      "yearSort": 1918,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raggedy_Ann_and_the_Kite_illustration_006.png",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 48,
+      "awarenessLevel": "中",
+      "image": "images/d021a9b6b57c545f80a2.webp"
+    }
+  ]
+}

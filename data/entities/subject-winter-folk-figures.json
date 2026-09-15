@@ -1,0 +1,573 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "subject-winter-folk-figures",
+    "name": "冬季民俗角色",
+    "type": "文化题材",
+    "aliases": [
+      "冬季面具",
+      "圣尼古拉",
+      "Krampus",
+      "Mari Lwyd",
+      "Perchten",
+      "Saint Nicholas"
+    ],
+    "virtual": true,
+    "coverImage": "images/c5634449756e58f447b5.webp",
+    "coverRecordId": "catalog-seasonal-mtl0pttrlxhi0",
+    "yearStart": 1900,
+    "yearEnd": 1911,
+    "workIds": [
+      "work-nikolaus-und-krampus-da9460dd",
+      "work-gruss-vom-krampus-6af2d422",
+      "work-krampus-postkarte-um-1900-86cc414d",
+      "work-mikulas-a-krampus-1900s-ced1ef59",
+      "work-mikulas-a-krampus-1901-7ccade60",
+      "work-andree-eysn-1910-p173-fig141-schone-pinzgauer-perchten-cd40af33",
+      "work-mari-lwyd-nlw-13c25c96",
+      "work-1911-circa-anonymer-kunstler-wiener-werkstatte-postkar-fb5a7aaa"
+    ],
+    "recordIds": [
+      "catalog-seasonal-mtl0pttrlxhi0",
+      "catalog-seasonal-mtl0umeiz741a",
+      "catalog-seasonal-mtl0psybk1eg2",
+      "catalog-seasonal-mtl0pucn8fjy5",
+      "catalog-seasonal-mtl0ul2d2llb0",
+      "catalog-seasonal-mtl12zdl54cwg",
+      "catalog-seasonal-mtl130mk6sbfp",
+      "catalog-seasonal-mtl0ursjpouoy"
+    ],
+    "frameIds": [],
+    "workCount": 8,
+    "imageCount": 8,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版文件": 8
+    },
+    "copyrightRoutes": [
+      "Commons 逐文件 Public domain"
+    ],
+    "evidenceLevels": [
+      "B"
+    ],
+    "tags": [
+      "漫画 / 角色",
+      "圣诞 / 冬季",
+      "怪诞 / 魔法",
+      "宗教 / 神话"
+    ],
+    "topScenes": [
+      {
+        "name": "冬季面具、游行与民俗角色",
+        "count": 8
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "暗黑 / 怪诞",
+        "count": 8
+      },
+      {
+        "name": "馆藏图像",
+        "count": 8
+      },
+      {
+        "name": "人物 / 肖像",
+        "count": 8
+      },
+      {
+        "name": "宗教 / 仪式",
+        "count": 8
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "圣诞 / 冬季",
+        "count": 8
+      }
+    ],
+    "usage": "研究“赠礼者—惩戒者”双角色系统；不可把所有角兽面具都叫 Krampus。",
+    "avoid": "Mari Lwyd、Perchten、Krampus 等各有地区语境，不能混称一种怪物。",
+    "awarenessScore": 0,
+    "sourceCount": 8,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-nikolaus-und-krampus-da9460dd",
+      "title": "Nikolaus und Krampus",
+      "subtitle": "作者/文化待复核 · beginning of 20 century · 历史图像 / 明信片",
+      "year": "beginning of 20 century",
+      "yearSort": 9999,
+      "coverImage": "images/c5634449756e58f447b5.webp",
+      "coverRecordId": "catalog-seasonal-mtl0pttrlxhi0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nikolaus_und_Krampus.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Commons 逐文件 Public domain"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Public domain · 文件页"
+      ],
+      "usage": "研究“赠礼者—惩戒者”双角色系统；不可把所有角兽面具都叫 Krampus。",
+      "avoid": "Mari Lwyd、Perchten、Krampus 等各有地区语境，不能混称一种怪物。",
+      "tags": [
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "馆藏图像",
+        "宗教 / 仪式",
+        "暗黑 / 怪诞",
+        "人物 / 肖像"
+      ],
+      "scenes": [
+        "冬季面具、游行与民俗角色"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtl0pttrlxhi0"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtl0pttrlxhi0"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-winter-folk-figures"
+      ]
+    },
+    {
+      "id": "work-gruss-vom-krampus-6af2d422",
+      "title": "Gruss vom Krampus",
+      "subtitle": "作者/文化待复核 · 1900s date QSP,+1900-00-00T000000Z8 · 历史图像 / 明信片",
+      "year": "1900s date QSP,+1900-00-00T000000Z8",
+      "yearSort": 1900,
+      "coverImage": "images/d5135545ea846d0581e7.webp",
+      "coverRecordId": "catalog-seasonal-mtl0umeiz741a",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gruss_vom_Krampus.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Commons 逐文件 Public domain"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Public domain · 文件页"
+      ],
+      "usage": "研究“赠礼者—惩戒者”双角色系统；不可把所有角兽面具都叫 Krampus。",
+      "avoid": "Mari Lwyd、Perchten、Krampus 等各有地区语境，不能混称一种怪物。",
+      "tags": [
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "馆藏图像",
+        "宗教 / 仪式",
+        "暗黑 / 怪诞",
+        "人物 / 肖像"
+      ],
+      "scenes": [
+        "冬季面具、游行与民俗角色"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtl0umeiz741a"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtl0umeiz741a"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-winter-folk-figures"
+      ]
+    },
+    {
+      "id": "work-krampus-postkarte-um-1900-86cc414d",
+      "title": "Krampus-Postkarte um 1900",
+      "subtitle": "作者/文化待复核 · 1900s date QSP,+1900-00-00T000000Z8 · 历史图像 / 明信片",
+      "year": "1900s date QSP,+1900-00-00T000000Z8",
+      "yearSort": 1900,
+      "coverImage": "images/5e7843e872402d5a2076.webp",
+      "coverRecordId": "catalog-seasonal-mtl0psybk1eg2",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Krampus-Postkarte_um_1900.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Commons 逐文件 Public domain"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Public domain · 文件页"
+      ],
+      "usage": "研究“赠礼者—惩戒者”双角色系统；不可把所有角兽面具都叫 Krampus。",
+      "avoid": "Mari Lwyd、Perchten、Krampus 等各有地区语境，不能混称一种怪物。",
+      "tags": [
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "馆藏图像",
+        "宗教 / 仪式",
+        "暗黑 / 怪诞",
+        "人物 / 肖像"
+      ],
+      "scenes": [
+        "冬季面具、游行与民俗角色"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtl0psybk1eg2"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtl0psybk1eg2"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-winter-folk-figures"
+      ]
+    },
+    {
+      "id": "work-mikulas-a-krampus-1900s-ced1ef59",
+      "title": "Mikuláš a Krampus 1900s",
+      "subtitle": "作者/文化待复核 · 1900s date QSP,+1900-00-00T000000Z8 · 历史图像 / 明信片",
+      "year": "1900s date QSP,+1900-00-00T000000Z8",
+      "yearSort": 1900,
+      "coverImage": "images/c2d3199e38eb1482185f.webp",
+      "coverRecordId": "catalog-seasonal-mtl0pucn8fjy5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mikul%C3%A1%C5%A1_a_Krampus_1900s.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Commons 逐文件 Public domain"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Public domain · 文件页"
+      ],
+      "usage": "研究“赠礼者—惩戒者”双角色系统；不可把所有角兽面具都叫 Krampus。",
+      "avoid": "Mari Lwyd、Perchten、Krampus 等各有地区语境，不能混称一种怪物。",
+      "tags": [
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "馆藏图像",
+        "宗教 / 仪式",
+        "暗黑 / 怪诞",
+        "人物 / 肖像"
+      ],
+      "scenes": [
+        "冬季面具、游行与民俗角色"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtl0pucn8fjy5"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtl0pucn8fjy5"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-winter-folk-figures"
+      ]
+    },
+    {
+      "id": "work-mikulas-a-krampus-1901-7ccade60",
+      "title": "Mikuláš a Krampus 1901",
+      "subtitle": "作者/文化待复核 · 1901 · 历史图像 / 明信片",
+      "year": "1901",
+      "yearSort": 1901,
+      "coverImage": "images/183273909da84b4385d6.webp",
+      "coverRecordId": "catalog-seasonal-mtl0ul2d2llb0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mikul%C3%A1%C5%A1_a_Krampus_1901.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Commons 逐文件 Public domain"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Public domain · 文件页"
+      ],
+      "usage": "研究“赠礼者—惩戒者”双角色系统；不可把所有角兽面具都叫 Krampus。",
+      "avoid": "Mari Lwyd、Perchten、Krampus 等各有地区语境，不能混称一种怪物。",
+      "tags": [
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "馆藏图像",
+        "宗教 / 仪式",
+        "暗黑 / 怪诞",
+        "人物 / 肖像"
+      ],
+      "scenes": [
+        "冬季面具、游行与民俗角色"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtl0ul2d2llb0"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtl0ul2d2llb0"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-winter-folk-figures"
+      ]
+    },
+    {
+      "id": "work-andree-eysn-1910-p173-fig141-schone-pinzgauer-perchten-cd40af33",
+      "title": "Andree-Eysn(1910)-p173-fig141-Schöne-Pinzgauer-Perchten",
+      "subtitle": "作者/文化待复核 · 1904 · 历史图像 / 明信片",
+      "year": "1904",
+      "yearSort": 1904,
+      "coverImage": "images/53750ff361c7b51bbdb9.webp",
+      "coverRecordId": "catalog-seasonal-mtl12zdl54cwg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andree-Eysn(1910)-p173-fig141-Sch%C3%B6ne-Pinzgauer-Perchten.png",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Commons 逐文件 Public domain"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Public domain · 文件页"
+      ],
+      "usage": "研究木面具、毛皮、铃铛、队伍和身体尺度，保留具体地区与角色名称。",
+      "avoid": "Mari Lwyd、Perchten、Krampus 等各有地区语境，不能混称一种怪物。",
+      "tags": [
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "馆藏图像",
+        "宗教 / 仪式",
+        "暗黑 / 怪诞",
+        "人物 / 肖像"
+      ],
+      "scenes": [
+        "冬季面具、游行与民俗角色"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtl12zdl54cwg"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtl12zdl54cwg"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-winter-folk-figures"
+      ]
+    },
+    {
+      "id": "work-mari-lwyd-nlw-13c25c96",
+      "title": "Mari Lwyd NLW",
+      "subtitle": "作者/文化待复核 · between circa 1910 and circa 1914 date QSP,+1910-00-00T000000Z8,P1319,+1910-00-00T000000Z9,P1326,+1914-00-00T000000Z9,P1480,Q5727902 · 历史图像 / 明信片",
+      "year": "between circa 1910 and circa 1914 date QSP,+1910-00-00T000000Z8,P1319,+1910-00-00T000000Z9,P1326,+1914-00-00T000000Z9,P1480,Q5727902",
+      "yearSort": 1910,
+      "coverImage": "images/816671db7ed4592d4e5a.webp",
+      "coverRecordId": "catalog-seasonal-mtl130mk6sbfp",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mari_Lwyd_NLW.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Commons 逐文件 Public domain"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Public domain · 文件页"
+      ],
+      "usage": "重点研究头部骨架、布幔遮身、队伍和“门内—门外”对话，而不只抽取骷髅马外观。",
+      "avoid": "Mari Lwyd、Perchten、Krampus 等各有地区语境，不能混称一种怪物。",
+      "tags": [
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "馆藏图像",
+        "宗教 / 仪式",
+        "暗黑 / 怪诞",
+        "人物 / 肖像"
+      ],
+      "scenes": [
+        "冬季面具、游行与民俗角色"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtl130mk6sbfp"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtl130mk6sbfp"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-winter-folk-figures"
+      ]
+    },
+    {
+      "id": "work-1911-circa-anonymer-kunstler-wiener-werkstatte-postkar-fb5a7aaa",
+      "title": "1911 circa anonymer Künstler Wiener Werkstätte Postkarte No. 542, Krampus mit Kind",
+      "subtitle": "作者/文化待复核 · circa 1911 date QSP,+1911-00-00T000000Z9,P1480,Q5727902 · 历史图像 / 明信片",
+      "year": "circa 1911 date QSP,+1911-00-00T000000Z9,P1480,Q5727902",
+      "yearSort": 1911,
+      "coverImage": "images/2c5ede7c9c4232cc6e41.webp",
+      "coverRecordId": "catalog-seasonal-mtl0ursjpouoy",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1911_circa_anonymer_K%C3%BCnstler_Wiener_Werkst%C3%A4tte_Postkarte_No._542,_Krampus_mit_Kind.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Commons 逐文件 Public domain"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Public domain · 文件页"
+      ],
+      "usage": "研究“赠礼者—惩戒者”双角色系统；不可把所有角兽面具都叫 Krampus。",
+      "avoid": "Mari Lwyd、Perchten、Krampus 等各有地区语境，不能混称一种怪物。",
+      "tags": [
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "馆藏图像",
+        "宗教 / 仪式",
+        "暗黑 / 怪诞",
+        "人物 / 肖像"
+      ],
+      "scenes": [
+        "冬季面具、游行与民俗角色"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtl0ursjpouoy"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtl0ursjpouoy"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-winter-folk-figures"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

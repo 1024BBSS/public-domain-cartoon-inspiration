@@ -1,0 +1,774 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-arctic-antics极地动物-e9f87d8d",
+    "title": "《Arctic Antics》极地动物",
+    "subtitle": "",
+    "year": "1930",
+    "yearSort": 1930,
+    "coverImage": "images/3f8a2e96293fc046b2e8.webp",
+    "coverRecordId": "frame-arctic-antics-1930-001",
+    "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "以来源页为准"
+    ],
+    "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "tags": [
+      "早期动画",
+      "动物 / 自然",
+      "圣诞 / 冬季"
+    ],
+    "styles": [
+      "Silly Symphonies",
+      "季节动画"
+    ],
+    "scenes": [
+      "极地",
+      "雪景",
+      "动物群像",
+      "音乐 / 舞蹈"
+    ],
+    "holidays": [
+      "圣诞 / 冬季"
+    ],
+    "characterNames": [
+      "北极动物群像"
+    ],
+    "characterAliases": [
+      "北极动物群像"
+    ],
+    "recordIds": [
+      "frame-arctic-antics-1930-001",
+      "frame-arctic-antics-1930-002",
+      "frame-arctic-antics-1930-003",
+      "frame-arctic-antics-1930-004",
+      "frame-arctic-antics-1930-005",
+      "frame-arctic-antics-1930-006",
+      "frame-arctic-antics-1930-007",
+      "frame-arctic-antics-1930-008",
+      "frame-arctic-antics-1930-009",
+      "frame-arctic-antics-1930-010",
+      "frame-arctic-antics-1930-011",
+      "frame-arctic-antics-1930-012",
+      "frame-arctic-antics-1930-013",
+      "frame-arctic-antics-1930-014"
+    ],
+    "frameIds": [
+      "frame-arctic-antics-1930-001",
+      "frame-arctic-antics-1930-002",
+      "frame-arctic-antics-1930-003",
+      "frame-arctic-antics-1930-004",
+      "frame-arctic-antics-1930-005",
+      "frame-arctic-antics-1930-006",
+      "frame-arctic-antics-1930-007",
+      "frame-arctic-antics-1930-008",
+      "frame-arctic-antics-1930-009",
+      "frame-arctic-antics-1930-010",
+      "frame-arctic-antics-1930-011",
+      "frame-arctic-antics-1930-012",
+      "frame-arctic-antics-1930-013",
+      "frame-arctic-antics-1930-014"
+    ],
+    "masterIds": [],
+    "imageCount": 14,
+    "frameCount": 14,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-北极动物群像-d064e296"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-北极动物群像-d064e296",
+      "name": "北极动物群像",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/3f8a2e96293fc046b2e8.webp",
+      "coverRecordId": "frame-arctic-antics-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-arctic-antics极地动物-e9f87d8d"
+      ],
+      "recordIds": [
+        "frame-arctic-antics-1930-001",
+        "frame-arctic-antics-1930-002",
+        "frame-arctic-antics-1930-003",
+        "frame-arctic-antics-1930-004",
+        "frame-arctic-antics-1930-005",
+        "frame-arctic-antics-1930-006",
+        "frame-arctic-antics-1930-007",
+        "frame-arctic-antics-1930-008",
+        "frame-arctic-antics-1930-009",
+        "frame-arctic-antics-1930-010",
+        "frame-arctic-antics-1930-011",
+        "frame-arctic-antics-1930-012",
+        "frame-arctic-antics-1930-013",
+        "frame-arctic-antics-1930-014"
+      ],
+      "frameIds": [
+        "frame-arctic-antics-1930-001",
+        "frame-arctic-antics-1930-002",
+        "frame-arctic-antics-1930-003",
+        "frame-arctic-antics-1930-004",
+        "frame-arctic-antics-1930-005",
+        "frame-arctic-antics-1930-006",
+        "frame-arctic-antics-1930-007",
+        "frame-arctic-antics-1930-008",
+        "frame-arctic-antics-1930-009",
+        "frame-arctic-antics-1930-010",
+        "frame-arctic-antics-1930-011",
+        "frame-arctic-antics-1930-012",
+        "frame-arctic-antics-1930-013",
+        "frame-arctic-antics-1930-014"
+      ],
+      "workCount": 1,
+      "imageCount": 14,
+      "frameCount": 14,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "topScenes": [
+        {
+          "name": "动物群像",
+          "count": 14
+        },
+        {
+          "name": "极地",
+          "count": 14
+        },
+        {
+          "name": "雪景",
+          "count": 14
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 14
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "季节动画",
+          "count": 14
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 14
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "圣诞 / 冬季",
+          "count": 14
+        }
+      ],
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "frame-arctic-antics-1930-001",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 001",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/3f8a2e96293fc046b2e8.webp"
+    },
+    {
+      "id": "frame-arctic-antics-1930-002",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 002",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/6fdce9ade3ecce1dd049.webp"
+    },
+    {
+      "id": "frame-arctic-antics-1930-003",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 003",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/9368cff077eb37b3eb4e.webp"
+    },
+    {
+      "id": "frame-arctic-antics-1930-004",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 004",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/0b83bf8e8d5759c20e10.webp"
+    },
+    {
+      "id": "frame-arctic-antics-1930-005",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 005",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/c37377d8e5328b31106f.webp"
+    },
+    {
+      "id": "frame-arctic-antics-1930-006",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 006",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/ae2ee307689fcb47185b.webp"
+    },
+    {
+      "id": "frame-arctic-antics-1930-007",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 007",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/a85ca5f955af7cacf951.webp"
+    },
+    {
+      "id": "frame-arctic-antics-1930-008",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 008",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/f57593064a170f0de016.webp"
+    },
+    {
+      "id": "frame-arctic-antics-1930-009",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 009",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/7935879cbf0d24c48508.webp"
+    },
+    {
+      "id": "frame-arctic-antics-1930-010",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 010",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/ce509ce935537293b21a.webp"
+    },
+    {
+      "id": "frame-arctic-antics-1930-011",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 011",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/f6dcf587258a649e6ce5.webp"
+    },
+    {
+      "id": "frame-arctic-antics-1930-012",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 012",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/cfcf565d2a8b5d6c5de3.webp"
+    },
+    {
+      "id": "frame-arctic-antics-1930-013",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 013",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/c70a8e1698925bfe33b1.webp"
+    },
+    {
+      "id": "frame-arctic-antics-1930-014",
+      "kind": "动画画面",
+      "title": "《Arctic Antics》极地动物",
+      "subtitle": "画面 014",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/arctic-antics_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 极地 · 雪景",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "极地",
+        "雪景",
+        "动物群像",
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "北极动物群像"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然",
+        "圣诞 / 冬季"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/f91d4ca92ca127f6c9bb.webp"
+    }
+  ]
+}

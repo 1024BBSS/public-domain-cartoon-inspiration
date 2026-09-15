@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-alice-5355e0bd",
+    "title": "Alice",
+    "subtitle": "John Tenniel《Alice》原版插图 · 1865",
+    "year": "1865",
+    "yearSort": 1865,
+    "coverImage": "images/d5887dd1cd3ccc61aab6.webp",
+    "coverRecordId": "catalog-alice",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alice_05a-1116x1492.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-alice"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-alice"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 35,
+    "entityIds": [
+      "role-alice-3bc51062"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-alice-3bc51062",
+      "name": "Alice",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/d5887dd1cd3ccc61aab6.webp",
+      "coverRecordId": "catalog-alice",
+      "yearStart": 1865,
+      "yearEnd": 1865,
+      "workIds": [
+        "work-alice-5355e0bd"
+      ],
+      "recordIds": [
+        "catalog-alice"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 35,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-alice",
+      "kind": "主档",
+      "title": "Alice",
+      "subtitle": "John Tenniel《Alice》原版插图 · 1865",
+      "year": "1865",
+      "yearSort": 1865,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alice_05a-1116x1492.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 35,
+      "awarenessLevel": "较低",
+      "image": "images/d5887dd1cd3ccc61aab6.webp"
+    }
+  ]
+}

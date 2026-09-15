@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-the-picture-of-dorian-gray-ff5ec68b",
+    "title": "The Picture of Dorian Gray",
+    "subtitle": "Oscar Wilde 初版视觉 · 1890",
+    "year": "1890",
+    "yearSort": 1890,
+    "coverImage": "images/5d5f58fd6e8a78b2b044.webp",
+    "coverRecordId": "catalog-dorian-gray",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Houghton_HEW_12.10.15_-_The_Picture_of_Dorian_Gray,_1891_(cover).jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [],
+    "holidays": [
+      "春季 / 复活节"
+    ],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-dorian-gray"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-dorian-gray"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 88,
+    "entityIds": [
+      "role-the-picture-of-dorian-gray-e61916c0"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-the-picture-of-dorian-gray-e61916c0",
+      "name": "The Picture of Dorian Gray",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/5d5f58fd6e8a78b2b044.webp",
+      "coverRecordId": "catalog-dorian-gray",
+      "yearStart": 1890,
+      "yearEnd": 1890,
+      "workIds": [
+        "work-the-picture-of-dorian-gray-ff5ec68b"
+      ],
+      "recordIds": [
+        "catalog-dorian-gray"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "春季 / 复活节",
+          "count": 1
+        }
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 88,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-dorian-gray",
+      "kind": "主档",
+      "title": "The Picture of Dorian Gray",
+      "subtitle": "Oscar Wilde 初版视觉 · 1890",
+      "year": "1890",
+      "yearSort": 1890,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Houghton_HEW_12.10.15_-_The_Picture_of_Dorian_Gray,_1891_(cover).jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [
+        "春季 / 复活节"
+      ],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 88,
+      "awarenessLevel": "高",
+      "image": "images/5d5f58fd6e8a78b2b044.webp"
+    }
+  ]
+}

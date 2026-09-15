@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-dracula-4ec6a6c4",
+    "title": "Dracula",
+    "subtitle": "Bram Stoker 1897 初版封面",
+    "year": "1897",
+    "yearSort": 1897,
+    "coverImage": "images/e27f436d4ae6a42589e0.webp",
+    "coverRecordId": "catalog-dracula",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dracula-First-Edition-1897.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "可从初版黄底红字提炼哥特配色，角色脸需原创。",
+    "avoid": "Bela Lugosi 等演员脸、Universal/Hammer 电影服装与海报。",
+    "tags": [
+      "童话 / 寓言",
+      "万圣节",
+      "怪诞 / 魔法"
+    ],
+    "styles": [
+      "文学插画",
+      "Art Deco / 海报",
+      "哥特 / 怪诞"
+    ],
+    "scenes": [
+      "海滨 / 水下"
+    ],
+    "holidays": [
+      "万圣节"
+    ],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-dracula"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-dracula"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 89,
+    "entityIds": [
+      "role-dracula-0544a724"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-dracula-0544a724",
+      "name": "Dracula",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/e27f436d4ae6a42589e0.webp",
+      "coverRecordId": "catalog-dracula",
+      "yearStart": 1897,
+      "yearEnd": 1897,
+      "workIds": [
+        "work-dracula-4ec6a6c4"
+      ],
+      "recordIds": [
+        "catalog-dracula"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "童话 / 寓言",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "海滨 / 水下",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "哥特 / 怪诞",
+          "count": 1
+        },
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "Art Deco / 海报",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "可从初版黄底红字提炼哥特配色，角色脸需原创。",
+      "avoid": "Bela Lugosi 等演员脸、Universal/Hammer 电影服装与海报。",
+      "awarenessScore": 89,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-dracula",
+      "kind": "主档",
+      "title": "Dracula",
+      "subtitle": "Bram Stoker 1897 初版封面",
+      "year": "1897",
+      "yearSort": 1897,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dracula-First-Edition-1897.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "可从初版黄底红字提炼哥特配色，角色脸需原创。",
+      "avoid": "Bela Lugosi 等演员脸、Universal/Hammer 电影服装与海报。",
+      "styles": [
+        "文学插画",
+        "Art Deco / 海报",
+        "哥特 / 怪诞"
+      ],
+      "scenes": [
+        "海滨 / 水下"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [],
+      "tags": [
+        "童话 / 寓言",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 89,
+      "awarenessLevel": "高",
+      "image": "images/e27f436d4ae6a42589e0.webp"
+    }
+  ]
+}

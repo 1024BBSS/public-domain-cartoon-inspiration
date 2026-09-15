@@ -1,0 +1,281 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-blondie首篇完整条漫-daaf4112",
+    "title": "《Blondie》首篇完整条漫",
+    "subtitle": "",
+    "year": "1930",
+    "yearSort": 1930,
+    "coverImage": "images/e47a4383eeb6a4e3846e.webp",
+    "coverRecordId": "frame-blondie-first-strip-1930-001",
+    "sourceUrl": "https://archive.org/details/blondie-1930-09-08",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "来源页标记为 Public Domain"
+    ],
+    "usage": "报刊连环画 · Flapper 时尚 · 爱情 / 约会 · 社交",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "styles": [
+      "报刊连环画",
+      "Flapper 时尚"
+    ],
+    "scenes": [
+      "爱情 / 约会",
+      "社交",
+      "时装"
+    ],
+    "holidays": [
+      "情人节"
+    ],
+    "characterNames": [
+      "Blondie",
+      "Dagwood"
+    ],
+    "characterAliases": [
+      "Blondie",
+      "Dagwood"
+    ],
+    "recordIds": [
+      "frame-blondie-first-strip-1930-001"
+    ],
+    "frameIds": [
+      "frame-blondie-first-strip-1930-001"
+    ],
+    "masterIds": [],
+    "imageCount": 1,
+    "frameCount": 1,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-blondie-4be5315c",
+      "role-dagwood-4ff5b84b"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-blondie-4be5315c",
+      "name": "Blondie",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fbbd9edced66017ac50e.webp",
+      "coverRecordId": "catalog-blondie-dagwood",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-blondie首篇完整条漫-daaf4112",
+        "work-blondie-and-dagwood-1-0-858455c4"
+      ],
+      "recordIds": [
+        "frame-blondie-first-strip-1930-001",
+        "catalog-blondie-dagwood"
+      ],
+      "frameIds": [
+        "frame-blondie-first-strip-1930-001"
+      ],
+      "workCount": 2,
+      "imageCount": 2,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "期限届满": 2
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "topScenes": [
+        {
+          "name": "爱情 / 约会",
+          "count": 2
+        },
+        {
+          "name": "家庭 / 室内",
+          "count": 1
+        },
+        {
+          "name": "社交",
+          "count": 1
+        },
+        {
+          "name": "时装",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "报刊连环画",
+          "count": 2
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        },
+        {
+          "name": "Flapper 时尚",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "情人节",
+          "count": 1
+        }
+      ],
+      "usage": "女性复古感强，但先用首周条漫逐格核对，再做服装类商标检索。",
+      "avoid": "1933 婚后家庭设定、Dagwood 三明治母题及后续画风新增元素。",
+      "awarenessScore": 33,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "role-dagwood-4ff5b84b"
+      ]
+    },
+    {
+      "id": "role-dagwood-4ff5b84b",
+      "name": "Dagwood",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fbbd9edced66017ac50e.webp",
+      "coverRecordId": "catalog-blondie-dagwood",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-blondie首篇完整条漫-daaf4112",
+        "work-blondie-and-dagwood-1-0-858455c4"
+      ],
+      "recordIds": [
+        "frame-blondie-first-strip-1930-001",
+        "catalog-blondie-dagwood"
+      ],
+      "frameIds": [
+        "frame-blondie-first-strip-1930-001"
+      ],
+      "workCount": 2,
+      "imageCount": 2,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "期限届满": 2
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "topScenes": [
+        {
+          "name": "爱情 / 约会",
+          "count": 2
+        },
+        {
+          "name": "家庭 / 室内",
+          "count": 1
+        },
+        {
+          "name": "社交",
+          "count": 1
+        },
+        {
+          "name": "时装",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "报刊连环画",
+          "count": 2
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        },
+        {
+          "name": "Flapper 时尚",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "情人节",
+          "count": 1
+        }
+      ],
+      "usage": "女性复古感强，但先用首周条漫逐格核对，再做服装类商标检索。",
+      "avoid": "1933 婚后家庭设定、Dagwood 三明治母题及后续画风新增元素。",
+      "awarenessScore": 33,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "role-blondie-4be5315c"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "frame-blondie-first-strip-1930-001",
+      "kind": "动画画面",
+      "title": "《Blondie》首篇完整条漫",
+      "subtitle": "画面 001",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "来源页标记为 Public Domain",
+      "sourceUrl": "https://archive.org/details/blondie-1930-09-08",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "usage": "报刊连环画 · Flapper 时尚 · 爱情 / 约会 · 社交",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "报刊连环画",
+        "Flapper 时尚"
+      ],
+      "scenes": [
+        "爱情 / 约会",
+        "社交",
+        "时装"
+      ],
+      "holidays": [
+        "情人节"
+      ],
+      "characters": [
+        "Blondie",
+        "Dagwood"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/e47a4383eeb6a4e3846e.webp"
+    }
+  ]
+}

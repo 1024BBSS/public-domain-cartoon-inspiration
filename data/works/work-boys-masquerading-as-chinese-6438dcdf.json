@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-boys-masquerading-as-chinese-6438dcdf",
+    "title": "Boys Masquerading as Chinese",
+    "subtitle": "Okumura Masanobu Japanese, 1686-1764 · c. 1748 · Woodblock print; oban benizuri-e with embossing",
+    "year": "c. 1748",
+    "yearSort": 1743,
+    "coverImage": "images/fc05ce6b50ff64525de6.webp",
+    "coverRecordId": "catalog-seasonal-mtky9d7jre4hl",
+    "sourceUrl": "https://www.artic.edu/artworks/19502",
+    "sourceLabel": "Art Institute of Chicago",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "AIC API is_public_domain=true"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public Domain · AIC"
+    ],
+    "usage": "创新时要区分角色想象与族群模仿；可以讨论“伪装的边界”，不可重演刻板形象。",
+    "avoid": "借形式语法，不把古代文化形象直接贴上 Halloween 标签。",
+    "tags": [
+      "万圣节",
+      "怪诞 / 魔法",
+      "宗教 / 神话"
+    ],
+    "styles": [
+      "版画",
+      "暗黑 / 怪诞",
+      "版画 / 纹样",
+      "器物 / 建筑"
+    ],
+    "scenes": [
+      "古代—文艺复兴怪诞形式"
+    ],
+    "holidays": [
+      "万圣节"
+    ],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-seasonal-mtky9d7jre4hl"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-seasonal-mtky9d7jre4hl"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-boys-masquerading-as-chinese-fb4e0346"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-boys-masquerading-as-chinese-fb4e0346",
+      "name": "Boys Masquerading as Chinese",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fc05ce6b50ff64525de6.webp",
+      "coverRecordId": "catalog-seasonal-mtky9d7jre4hl",
+      "yearStart": 1743,
+      "yearEnd": 1743,
+      "workIds": [
+        "work-boys-masquerading-as-chinese-6438dcdf"
+      ],
+      "recordIds": [
+        "catalog-seasonal-mtky9d7jre4hl"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "古代—文艺复兴怪诞形式",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "暗黑 / 怪诞",
+          "count": 1
+        },
+        {
+          "name": "版画",
+          "count": 1
+        },
+        {
+          "name": "版画 / 纹样",
+          "count": 1
+        },
+        {
+          "name": "器物 / 建筑",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "创新时要区分角色想象与族群模仿；可以讨论“伪装的边界”，不可重演刻板形象。",
+      "avoid": "借形式语法，不把古代文化形象直接贴上 Halloween 标签。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-seasonal-mtky9d7jre4hl",
+      "kind": "主档",
+      "title": "Boys Masquerading as Chinese",
+      "subtitle": "Okumura Masanobu Japanese, 1686-1764 · c. 1748 · Woodblock print; oban benizuri-e with embossing",
+      "year": "c. 1748",
+      "yearSort": 1743,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC API is_public_domain=true",
+      "evidenceLevel": "A",
+      "imageRights": "Public Domain · AIC",
+      "sourceUrl": "https://www.artic.edu/artworks/19502",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "usage": "创新时要区分角色想象与族群模仿；可以讨论“伪装的边界”，不可重演刻板形象。",
+      "avoid": "借形式语法，不把古代文化形象直接贴上 Halloween 标签。",
+      "styles": [
+        "版画",
+        "暗黑 / 怪诞",
+        "版画 / 纹样",
+        "器物 / 建筑"
+      ],
+      "scenes": [
+        "古代—文艺复兴怪诞形式"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/fc05ce6b50ff64525de6.webp"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-cheshire-cat-befa4220",
+    "title": "Cheshire Cat",
+    "subtitle": "John Tenniel《Alice》原版插图 · 1865",
+    "year": "1865",
+    "yearSort": 1865,
+    "coverImage": "images/a1185247454a6eec8801.webp",
+    "coverRecordId": "catalog-cheshire",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheshire_Cat_Tenniel.png",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "优先做黑猫化原创重绘，只保留夸张笑容与树枝关系。",
+    "avoid": "Disney 紫色条纹、具体动画配色、电影脸与授权字标。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "童话 / 寓言",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [
+      "动物 / 宠物"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-cheshire"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-cheshire"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 59,
+    "entityIds": [
+      "role-cheshire-cat-7753d640"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-cheshire-cat-7753d640",
+      "name": "Cheshire Cat",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/a1185247454a6eec8801.webp",
+      "coverRecordId": "catalog-cheshire",
+      "yearStart": 1865,
+      "yearEnd": 1865,
+      "workIds": [
+        "work-cheshire-cat-befa4220"
+      ],
+      "recordIds": [
+        "catalog-cheshire"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物 / 宠物",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "优先做黑猫化原创重绘，只保留夸张笑容与树枝关系。",
+      "avoid": "Disney 紫色条纹、具体动画配色、电影脸与授权字标。",
+      "awarenessScore": 59,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-cheshire",
+      "kind": "主档",
+      "title": "Cheshire Cat",
+      "subtitle": "John Tenniel《Alice》原版插图 · 1865",
+      "year": "1865",
+      "yearSort": 1865,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheshire_Cat_Tenniel.png",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "优先做黑猫化原创重绘，只保留夸张笑容与树枝关系。",
+      "avoid": "Disney 紫色条纹、具体动画配色、电影脸与授权字标。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "动物 / 宠物"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 59,
+      "awarenessLevel": "中",
+      "image": "images/a1185247454a6eec8801.webp"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-little-orphan-annie-8988f268",
+    "title": "Little Orphan Annie",
+    "subtitle": "Harold Gray 最初报纸漫画 · 1924",
+    "year": "1924",
+    "yearSort": 1924,
+    "coverImage": "images/ca054dca844eec52941c.webp",
+    "coverRecordId": "catalog-orphan-annie",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1924-09-15_Little_Orphan_Annie,_NYDN,_p22.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+    "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "早期动画 / 漫画",
+      "报刊连环画"
+    ],
+    "scenes": [
+      "动物 / 宠物"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-orphan-annie"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-orphan-annie"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 39,
+    "entityIds": [
+      "role-little-orphan-annie-095763c4"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-little-orphan-annie-095763c4",
+      "name": "Little Orphan Annie",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/ca054dca844eec52941c.webp",
+      "coverRecordId": "catalog-orphan-annie",
+      "yearStart": 1924,
+      "yearEnd": 1924,
+      "workIds": [
+        "work-little-orphan-annie-8988f268"
+      ],
+      "recordIds": [
+        "catalog-orphan-annie"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物 / 宠物",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "报刊连环画",
+          "count": 1
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "awarenessScore": 39,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-orphan-annie",
+      "kind": "主档",
+      "title": "Little Orphan Annie",
+      "subtitle": "Harold Gray 最初报纸漫画 · 1924",
+      "year": "1924",
+      "yearSort": 1924,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1924-09-15_Little_Orphan_Annie,_NYDN,_p22.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "styles": [
+        "早期动画 / 漫画",
+        "报刊连环画"
+      ],
+      "scenes": [
+        "动物 / 宠物"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 39,
+      "awarenessLevel": "较低",
+      "image": "images/ca054dca844eec52941c.webp"
+    }
+  ]
+}

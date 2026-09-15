@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-the-wild-swans-af4d9c5d",
+    "name": "The Wild Swans",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/73c71c0785f2c932a7bc.webp",
+    "coverRecordId": "catalog-wild-swans",
+    "yearStart": 1899,
+    "yearEnd": 1899,
+    "workIds": [
+      "work-the-wild-swans-ba6b9757"
+    ],
+    "recordIds": [
+      "catalog-wild-swans"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "topScenes": [],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 20,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-the-wild-swans-ba6b9757",
+      "title": "The Wild Swans",
+      "subtitle": "Helen Stratton 安徒生童话插图 · 1899",
+      "year": "1899",
+      "yearSort": 1899,
+      "coverImage": "images/73c71c0785f2c932a7bc.webp",
+      "coverRecordId": "catalog-wild-swans",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_queen_disenchants_the_wild_swans_and_fains_upon_the_funeral_pyre.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-wild-swans"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-wild-swans"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 20,
+      "entityIds": [
+        "role-the-wild-swans-af4d9c5d"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

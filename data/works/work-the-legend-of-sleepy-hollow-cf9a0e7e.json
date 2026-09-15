@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-the-legend-of-sleepy-hollow-cf9a0e7e",
+    "title": "The Legend of Sleepy Hollow",
+    "subtitle": "Washington Irving 1820 故事 + John Quidor 1858 画作",
+    "year": "1820 / 1858",
+    "yearSort": 1858,
+    "coverImage": "images/f8ec480be97caafc5ae3.webp",
+    "coverRecordId": "catalog-sleepy-hollow",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_Quidor_-_Ichabod_Crane_Flying_from_the_Headless_Horseman_-_1948.68_-_Yale_University_Art_Gallery.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "适合洗水黑 T 的单色骑士剪影，另行重构马、月与南瓜位置。",
+    "avoid": "Disney 动画及现代电影的具体骑士盔甲、演员脸和海报。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画",
+      "Art Deco / 海报"
+    ],
+    "scenes": [
+      "海滨 / 水下",
+      "冒险 / 追逐"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-sleepy-hollow"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-sleepy-hollow"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 63,
+    "entityIds": [
+      "role-the-legend-of-sleepy-hollow-748b12e1"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-the-legend-of-sleepy-hollow-748b12e1",
+      "name": "The Legend of Sleepy Hollow",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/f8ec480be97caafc5ae3.webp",
+      "coverRecordId": "catalog-sleepy-hollow",
+      "yearStart": 1858,
+      "yearEnd": 1858,
+      "workIds": [
+        "work-the-legend-of-sleepy-hollow-cf9a0e7e"
+      ],
+      "recordIds": [
+        "catalog-sleepy-hollow"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "topScenes": [
+        {
+          "name": "海滨 / 水下",
+          "count": 1
+        },
+        {
+          "name": "冒险 / 追逐",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        },
+        {
+          "name": "Art Deco / 海报",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "适合洗水黑 T 的单色骑士剪影，另行重构马、月与南瓜位置。",
+      "avoid": "Disney 动画及现代电影的具体骑士盔甲、演员脸和海报。",
+      "awarenessScore": 63,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-sleepy-hollow",
+      "kind": "主档",
+      "title": "The Legend of Sleepy Hollow",
+      "subtitle": "Washington Irving 1820 故事 + John Quidor 1858 画作",
+      "year": "1820 / 1858",
+      "yearSort": 1858,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_Quidor_-_Ichabod_Crane_Flying_from_the_Headless_Horseman_-_1948.68_-_Yale_University_Art_Gallery.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "适合洗水黑 T 的单色骑士剪影，另行重构马、月与南瓜位置。",
+      "avoid": "Disney 动画及现代电影的具体骑士盔甲、演员脸和海报。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画",
+        "Art Deco / 海报"
+      ],
+      "scenes": [
+        "海滨 / 水下",
+        "冒险 / 追逐"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 63,
+      "awarenessLevel": "中",
+      "image": "images/f8ec480be97caafc5ae3.webp"
+    }
+  ]
+}

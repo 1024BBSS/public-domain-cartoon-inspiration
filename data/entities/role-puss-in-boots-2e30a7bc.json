@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-puss-in-boots-2e30a7bc",
+    "name": "Puss in Boots",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/1e785eb3b50e6be3db33.webp",
+    "coverRecordId": "catalog-puss-boots",
+    "yearStart": 1867,
+    "yearEnd": 1867,
+    "workIds": [
+      "work-puss-in-boots-abfca65b"
+    ],
+    "recordIds": [
+      "catalog-puss-boots"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "动物 / 宠物",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "适合做细节适中的黑色线雕猫，建议重排为胸前竖构图。",
+    "avoid": "DreamWorks 的橙猫脸、绿色眼睛、帽靴比例与动画表情。",
+    "awarenessScore": 50,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-puss-in-boots-abfca65b",
+      "title": "Puss in Boots",
+      "subtitle": "Gustave Doré 公版雕版插图 · 19 世纪",
+      "year": "19 世纪",
+      "yearSort": 1867,
+      "coverImage": "images/1e785eb3b50e6be3db33.webp",
+      "coverRecordId": "catalog-puss-boots",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gustave_Dor%C3%A9_Puss_in_Boots.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "适合做细节适中的黑色线雕猫，建议重排为胸前竖构图。",
+      "avoid": "DreamWorks 的橙猫脸、绿色眼睛、帽靴比例与动画表情。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "动物 / 宠物"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-puss-boots"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-puss-boots"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 50,
+      "entityIds": [
+        "role-puss-in-boots-2e30a7bc"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-alices-caterpillar-cbdbe09c",
+    "name": "Alice’s Caterpillar",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/56fc593f676e4bea6c60.webp",
+    "coverRecordId": "catalog-caterpillar",
+    "yearStart": 1890,
+    "yearEnd": 1890,
+    "workIds": [
+      "work-alices-caterpillar-4004f7db"
+    ],
+    "recordIds": [
+      "catalog-caterpillar"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "童话 / 寓言",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "动物 / 宠物",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 27,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-alices-caterpillar-4004f7db",
+      "title": "Alice’s Caterpillar",
+      "subtitle": "John Tenniel《The Nursery Alice》彩色插图 · 1890",
+      "year": "1890",
+      "yearSort": 1890,
+      "coverImage": "images/56fc593f676e4bea6c60.webp",
+      "coverRecordId": "catalog-caterpillar",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_Tenniel_-_Illustration_from_The_Nursery_Alice_(1890)_-_c06543_03.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "动物 / 宠物"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-caterpillar"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-caterpillar"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 27,
+      "entityIds": [
+        "role-alices-caterpillar-cbdbe09c"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

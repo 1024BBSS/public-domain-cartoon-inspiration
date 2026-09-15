@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-gretel-09a2a7ec",
+    "name": "Gretel",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/b787d7712e59286fd89d.webp",
+    "coverRecordId": "catalog-hansel-gretel",
+    "yearStart": 1909,
+    "yearEnd": 1909,
+    "workIds": [
+      "work-hansel-and-gretel-e9be07ab"
+    ],
+    "recordIds": [
+      "catalog-hansel-gretel"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "topScenes": [],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 82,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-hansel-2da73295"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-hansel-and-gretel-e9be07ab",
+      "title": "Hansel & Gretel",
+      "subtitle": "Arthur Rackham 童话插图 · 1909",
+      "year": "1909",
+      "yearSort": 1909,
+      "coverImage": "images/b787d7712e59286fd89d.webp",
+      "coverRecordId": "catalog-hansel-gretel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hansel-and-gretel-rackham.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-hansel-gretel"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-hansel-gretel"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 82,
+      "entityIds": [
+        "role-hansel-2da73295",
+        "role-gretel-09a2a7ec"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-hansel-2da73295",
+      "name": "Hansel",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/b787d7712e59286fd89d.webp",
+      "coverRecordId": "catalog-hansel-gretel",
+      "yearStart": 1909,
+      "yearEnd": 1909,
+      "workIds": [
+        "work-hansel-and-gretel-e9be07ab"
+      ],
+      "recordIds": [
+        "catalog-hansel-gretel"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 82,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-gretel-09a2a7ec"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

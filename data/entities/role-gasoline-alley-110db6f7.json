@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-gasoline-alley-110db6f7",
+    "name": "Gasoline Alley",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/913834bcfefd80497ec5.webp",
+    "coverRecordId": "catalog-gasoline-alley",
+    "yearStart": 1918,
+    "yearEnd": 1918,
+    "workIds": [
+      "work-gasoline-alley-0eea3ba3"
+    ],
+    "recordIds": [
+      "catalog-gasoline-alley"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "topScenes": [
+      {
+        "name": "家庭 / 室内",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "报刊连环画",
+        "count": 1
+      },
+      {
+        "name": "早期动画 / 漫画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+    "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-gasoline-alley-0eea3ba3",
+      "title": "Gasoline Alley",
+      "subtitle": "Frank King 报纸漫画早期版 · 1918",
+      "year": "1918",
+      "yearSort": 1918,
+      "coverImage": "images/913834bcfefd80497ec5.webp",
+      "coverRecordId": "catalog-gasoline-alley",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gasoline_Alley_panel_1920.tif",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "styles": [
+        "早期动画 / 漫画",
+        "报刊连环画"
+      ],
+      "scenes": [
+        "家庭 / 室内"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-gasoline-alley"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-gasoline-alley"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-gasoline-alley-110db6f7"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

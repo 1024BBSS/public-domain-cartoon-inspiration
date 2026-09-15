@@ -1,0 +1,645 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-cannibal-capers历史动画档案-821e5e57",
+    "title": "《Cannibal Capers》历史动画档案",
+    "subtitle": "",
+    "year": "1930",
+    "yearSort": 1930,
+    "coverImage": "images/ac8a9a0f18e36a12cdc6.webp",
+    "coverRecordId": "frame-cannibal-capers-1930-001",
+    "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "以来源页为准"
+    ],
+    "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "styles": [
+      "Silly Symphonies",
+      "橡皮管动画"
+    ],
+    "scenes": [
+      "音乐 / 舞蹈",
+      "群像"
+    ],
+    "holidays": [],
+    "characterNames": [
+      "群像角色"
+    ],
+    "characterAliases": [
+      "群像角色"
+    ],
+    "recordIds": [
+      "frame-cannibal-capers-1930-001",
+      "frame-cannibal-capers-1930-002",
+      "frame-cannibal-capers-1930-003",
+      "frame-cannibal-capers-1930-004",
+      "frame-cannibal-capers-1930-005",
+      "frame-cannibal-capers-1930-006",
+      "frame-cannibal-capers-1930-007",
+      "frame-cannibal-capers-1930-008",
+      "frame-cannibal-capers-1930-009",
+      "frame-cannibal-capers-1930-010",
+      "frame-cannibal-capers-1930-011",
+      "frame-cannibal-capers-1930-012",
+      "frame-cannibal-capers-1930-013"
+    ],
+    "frameIds": [
+      "frame-cannibal-capers-1930-001",
+      "frame-cannibal-capers-1930-002",
+      "frame-cannibal-capers-1930-003",
+      "frame-cannibal-capers-1930-004",
+      "frame-cannibal-capers-1930-005",
+      "frame-cannibal-capers-1930-006",
+      "frame-cannibal-capers-1930-007",
+      "frame-cannibal-capers-1930-008",
+      "frame-cannibal-capers-1930-009",
+      "frame-cannibal-capers-1930-010",
+      "frame-cannibal-capers-1930-011",
+      "frame-cannibal-capers-1930-012",
+      "frame-cannibal-capers-1930-013"
+    ],
+    "masterIds": [],
+    "imageCount": 13,
+    "frameCount": 13,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-群像角色-fefaf876"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-群像角色-fefaf876",
+      "name": "群像角色",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/ac8a9a0f18e36a12cdc6.webp",
+      "coverRecordId": "frame-cannibal-capers-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-cannibal-capers历史动画档案-821e5e57"
+      ],
+      "recordIds": [
+        "frame-cannibal-capers-1930-001",
+        "frame-cannibal-capers-1930-002",
+        "frame-cannibal-capers-1930-003",
+        "frame-cannibal-capers-1930-004",
+        "frame-cannibal-capers-1930-005",
+        "frame-cannibal-capers-1930-006",
+        "frame-cannibal-capers-1930-007",
+        "frame-cannibal-capers-1930-008",
+        "frame-cannibal-capers-1930-009",
+        "frame-cannibal-capers-1930-010",
+        "frame-cannibal-capers-1930-011",
+        "frame-cannibal-capers-1930-012",
+        "frame-cannibal-capers-1930-013"
+      ],
+      "frameIds": [
+        "frame-cannibal-capers-1930-001",
+        "frame-cannibal-capers-1930-002",
+        "frame-cannibal-capers-1930-003",
+        "frame-cannibal-capers-1930-004",
+        "frame-cannibal-capers-1930-005",
+        "frame-cannibal-capers-1930-006",
+        "frame-cannibal-capers-1930-007",
+        "frame-cannibal-capers-1930-008",
+        "frame-cannibal-capers-1930-009",
+        "frame-cannibal-capers-1930-010",
+        "frame-cannibal-capers-1930-011",
+        "frame-cannibal-capers-1930-012",
+        "frame-cannibal-capers-1930-013"
+      ],
+      "workCount": 1,
+      "imageCount": 13,
+      "frameCount": 13,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "topScenes": [
+        {
+          "name": "群像",
+          "count": 13
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 13
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 13
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 13
+        }
+      ],
+      "topHolidays": [],
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "frame-cannibal-capers-1930-001",
+      "kind": "动画画面",
+      "title": "《Cannibal Capers》历史动画档案",
+      "subtitle": "画面 001",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "群像"
+      ],
+      "holidays": [],
+      "characters": [
+        "群像角色"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/ac8a9a0f18e36a12cdc6.webp"
+    },
+    {
+      "id": "frame-cannibal-capers-1930-002",
+      "kind": "动画画面",
+      "title": "《Cannibal Capers》历史动画档案",
+      "subtitle": "画面 002",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "群像"
+      ],
+      "holidays": [],
+      "characters": [
+        "群像角色"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/c4221195a7e7e7a2416e.webp"
+    },
+    {
+      "id": "frame-cannibal-capers-1930-003",
+      "kind": "动画画面",
+      "title": "《Cannibal Capers》历史动画档案",
+      "subtitle": "画面 003",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "群像"
+      ],
+      "holidays": [],
+      "characters": [
+        "群像角色"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/e3d8d51d525626e8baf8.webp"
+    },
+    {
+      "id": "frame-cannibal-capers-1930-004",
+      "kind": "动画画面",
+      "title": "《Cannibal Capers》历史动画档案",
+      "subtitle": "画面 004",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "群像"
+      ],
+      "holidays": [],
+      "characters": [
+        "群像角色"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/bc386f08da7731d8e41a.webp"
+    },
+    {
+      "id": "frame-cannibal-capers-1930-005",
+      "kind": "动画画面",
+      "title": "《Cannibal Capers》历史动画档案",
+      "subtitle": "画面 005",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "群像"
+      ],
+      "holidays": [],
+      "characters": [
+        "群像角色"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/78689e6b5dad99f0610a.webp"
+    },
+    {
+      "id": "frame-cannibal-capers-1930-006",
+      "kind": "动画画面",
+      "title": "《Cannibal Capers》历史动画档案",
+      "subtitle": "画面 006",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "群像"
+      ],
+      "holidays": [],
+      "characters": [
+        "群像角色"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/d6a16d3f4ca0ca02aaa2.webp"
+    },
+    {
+      "id": "frame-cannibal-capers-1930-007",
+      "kind": "动画画面",
+      "title": "《Cannibal Capers》历史动画档案",
+      "subtitle": "画面 007",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "群像"
+      ],
+      "holidays": [],
+      "characters": [
+        "群像角色"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/fe14ac8786971e6466fe.webp"
+    },
+    {
+      "id": "frame-cannibal-capers-1930-008",
+      "kind": "动画画面",
+      "title": "《Cannibal Capers》历史动画档案",
+      "subtitle": "画面 008",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "群像"
+      ],
+      "holidays": [],
+      "characters": [
+        "群像角色"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/8c80bd5258505a249590.webp"
+    },
+    {
+      "id": "frame-cannibal-capers-1930-009",
+      "kind": "动画画面",
+      "title": "《Cannibal Capers》历史动画档案",
+      "subtitle": "画面 009",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "群像"
+      ],
+      "holidays": [],
+      "characters": [
+        "群像角色"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/c68afffa57d68649090a.webp"
+    },
+    {
+      "id": "frame-cannibal-capers-1930-010",
+      "kind": "动画画面",
+      "title": "《Cannibal Capers》历史动画档案",
+      "subtitle": "画面 010",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "群像"
+      ],
+      "holidays": [],
+      "characters": [
+        "群像角色"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/089ba58f989443ac1e37.webp"
+    },
+    {
+      "id": "frame-cannibal-capers-1930-011",
+      "kind": "动画画面",
+      "title": "《Cannibal Capers》历史动画档案",
+      "subtitle": "画面 011",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "群像"
+      ],
+      "holidays": [],
+      "characters": [
+        "群像角色"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/679b2d4f860192925d0c.webp"
+    },
+    {
+      "id": "frame-cannibal-capers-1930-012",
+      "kind": "动画画面",
+      "title": "《Cannibal Capers》历史动画档案",
+      "subtitle": "画面 012",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "群像"
+      ],
+      "holidays": [],
+      "characters": [
+        "群像角色"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/6ac48be6c7db02809279.webp"
+    },
+    {
+      "id": "frame-cannibal-capers-1930-013",
+      "kind": "动画画面",
+      "title": "《Cannibal Capers》历史动画档案",
+      "subtitle": "画面 013",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/cannibal-capers_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 橡皮管动画 · 音乐 / 舞蹈 · 群像",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈",
+        "群像"
+      ],
+      "holidays": [],
+      "characters": [
+        "群像角色"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/ca9e60e89bf03ea744df.webp"
+    }
+  ]
+}

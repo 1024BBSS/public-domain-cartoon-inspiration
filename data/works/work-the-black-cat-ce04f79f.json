@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-the-black-cat-ce04f79f",
+    "title": "The Black Cat",
+    "subtitle": "Alphonse Legros French, 1837-1911 · 1862 · Etching and plate tone on ivory laid paper",
+    "year": "1862",
+    "yearSort": 1862,
+    "coverImage": "images/4a1ef78b558ee40e7ff6.webp",
+    "coverRecordId": "catalog-seasonal-mtky1ipdb3g3s",
+    "sourceUrl": "https://www.artic.edu/artworks/104907",
+    "sourceLabel": "Art Institute of Chicago",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "AIC API is_public_domain=true"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public Domain · AIC"
+    ],
+    "usage": "把猫设计成向导、见证者、守护者或偷走仪式道具的叙事角色。",
+    "avoid": "借形式语法，不把古代文化形象直接贴上 Halloween 标签。",
+    "tags": [
+      "动物 / 自然",
+      "万圣节",
+      "怪诞 / 魔法"
+    ],
+    "styles": [
+      "版画",
+      "暗黑 / 怪诞",
+      "版画 / 纹样",
+      "器物 / 建筑"
+    ],
+    "scenes": [
+      "古代—文艺复兴怪诞形式"
+    ],
+    "holidays": [
+      "万圣节"
+    ],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-seasonal-mtky1ipdb3g3s"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-seasonal-mtky1ipdb3g3s"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-the-black-cat-23787fcd"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-the-black-cat-23787fcd",
+      "name": "The Black Cat",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/4a1ef78b558ee40e7ff6.webp",
+      "coverRecordId": "catalog-seasonal-mtky1ipdb3g3s",
+      "yearStart": 1862,
+      "yearEnd": 1862,
+      "workIds": [
+        "work-the-black-cat-ce04f79f"
+      ],
+      "recordIds": [
+        "catalog-seasonal-mtky1ipdb3g3s"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "动物 / 自然",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "古代—文艺复兴怪诞形式",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "暗黑 / 怪诞",
+          "count": 1
+        },
+        {
+          "name": "版画",
+          "count": 1
+        },
+        {
+          "name": "版画 / 纹样",
+          "count": 1
+        },
+        {
+          "name": "器物 / 建筑",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "把猫设计成向导、见证者、守护者或偷走仪式道具的叙事角色。",
+      "avoid": "借形式语法，不把古代文化形象直接贴上 Halloween 标签。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-seasonal-mtky1ipdb3g3s",
+      "kind": "主档",
+      "title": "The Black Cat",
+      "subtitle": "Alphonse Legros French, 1837-1911 · 1862 · Etching and plate tone on ivory laid paper",
+      "year": "1862",
+      "yearSort": 1862,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC API is_public_domain=true",
+      "evidenceLevel": "A",
+      "imageRights": "Public Domain · AIC",
+      "sourceUrl": "https://www.artic.edu/artworks/104907",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "usage": "把猫设计成向导、见证者、守护者或偷走仪式道具的叙事角色。",
+      "avoid": "借形式语法，不把古代文化形象直接贴上 Halloween 标签。",
+      "styles": [
+        "版画",
+        "暗黑 / 怪诞",
+        "版画 / 纹样",
+        "器物 / 建筑"
+      ],
+      "scenes": [
+        "古代—文艺复兴怪诞形式"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [],
+      "tags": [
+        "动物 / 自然",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/4a1ef78b558ee40e7ff6.webp"
+    }
+  ]
+}

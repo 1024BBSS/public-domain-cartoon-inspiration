@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-oswald-the-lucky-rabbit-f50a300e",
+    "name": "Oswald the Lucky Rabbit",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/c9f85ba49de5a7e26f6a.webp",
+    "coverRecordId": "catalog-oswald",
+    "yearStart": 1927,
+    "yearEnd": 1927,
+    "workIds": [
+      "work-oswald-the-lucky-rabbit-fb967d0e"
+    ],
+    "recordIds": [
+      "catalog-oswald"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "童话 / 寓言",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "动物 / 宠物",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      },
+      {
+        "name": "早期动画 / 漫画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "春季 / 复活节",
+        "count": 1
+      }
+    ],
+    "usage": "与活跃品牌的视觉距离太近，内部研究可以，首批商品不建议。",
+    "avoid": "现代 Disney 商品化造型、后续配色、Logo 与修复新增内容。",
+    "awarenessScore": 65,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-oswald-the-lucky-rabbit-fb967d0e",
+      "title": "Oswald the Lucky Rabbit",
+      "subtitle": "Disney / Iwerks 早期版本 · 1927",
+      "year": "1927",
+      "yearSort": 1927,
+      "coverImage": "images/c9f85ba49de5a7e26f6a.webp",
+      "coverRecordId": "catalog-oswald",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oswald_the_Lucky_Rabbit_-_Jun_1927_UW.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "与活跃品牌的视觉距离太近，内部研究可以，首批商品不建议。",
+      "avoid": "现代 Disney 商品化造型、后续配色、Logo 与修复新增内容。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "早期动画 / 漫画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "动物 / 宠物"
+      ],
+      "holidays": [
+        "春季 / 复活节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-oswald"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-oswald"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 65,
+      "entityIds": [
+        "role-oswald-the-lucky-rabbit-f50a300e"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

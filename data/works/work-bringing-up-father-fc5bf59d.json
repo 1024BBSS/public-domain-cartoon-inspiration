@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-bringing-up-father-fc5bf59d",
+    "title": "Bringing Up Father",
+    "subtitle": "George McManus 报纸漫画早期版 · 1913",
+    "year": "1913",
+    "yearSort": 1913,
+    "coverImage": "images/c204d1135aadc1490e85.webp",
+    "coverRecordId": "catalog-bringing-up-father",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bringupfather-comic1920.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+    "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "styles": [
+      "早期动画 / 漫画",
+      "Art Deco / 海报",
+      "报刊连环画"
+    ],
+    "scenes": [
+      "家庭 / 室内"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-bringing-up-father"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-bringing-up-father"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 14,
+    "entityIds": [
+      "role-bringing-up-father-5521f8b2"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-bringing-up-father-5521f8b2",
+      "name": "Bringing Up Father",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/c204d1135aadc1490e85.webp",
+      "coverRecordId": "catalog-bringing-up-father",
+      "yearStart": 1913,
+      "yearEnd": 1913,
+      "workIds": [
+        "work-bringing-up-father-fc5bf59d"
+      ],
+      "recordIds": [
+        "catalog-bringing-up-father"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "topScenes": [
+        {
+          "name": "家庭 / 室内",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "报刊连环画",
+          "count": 1
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        },
+        {
+          "name": "Art Deco / 海报",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "awarenessScore": 14,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-bringing-up-father",
+      "kind": "主档",
+      "title": "Bringing Up Father",
+      "subtitle": "George McManus 报纸漫画早期版 · 1913",
+      "year": "1913",
+      "yearSort": 1913,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bringupfather-comic1920.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "styles": [
+        "早期动画 / 漫画",
+        "Art Deco / 海报",
+        "报刊连环画"
+      ],
+      "scenes": [
+        "家庭 / 室内"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 14,
+      "awarenessLevel": "小众",
+      "image": "images/c204d1135aadc1490e85.webp"
+    }
+  ]
+}

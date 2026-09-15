@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-st-elisabeth-gesticht-mauritskade-28-uitgave-n-j-boon--9aa0cdec",
+    "name": "St. Elisabeth Gesticht, Mauritskade 28. Uitgave N.J. Boon, Amsterdam",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/24b3206e8eab0699010f.webp",
+    "coverRecordId": "catalog-seasonal-mtl0qeb4hw2tb",
+    "yearStart": 1900,
+    "yearEnd": 1900,
+    "workIds": [
+      "work-st-elisabeth-gesticht-mauritskade-28-uitgave-n-j-boon--cb081b10"
+    ],
+    "recordIds": [
+      "catalog-seasonal-mtl0qeb4hw2tb"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版文件": 1
+    },
+    "copyrightRoutes": [
+      "Commons 逐文件 Public domain"
+    ],
+    "evidenceLevels": [
+      "B"
+    ],
+    "tags": [
+      "圣诞 / 冬季"
+    ],
+    "topScenes": [
+      {
+        "name": "圣尼古拉、Santa 与赠礼者",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "馆藏图像",
+        "count": 1
+      },
+      {
+        "name": "人物 / 肖像",
+        "count": 1
+      },
+      {
+        "name": "生活 / 节庆",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "圣诞 / 冬季",
+        "count": 1
+      }
+    ],
+    "usage": "研究主教轮廓、乘船/骑马到达和儿童欢迎；对历史随从形象保持种族刻板印象警惕。",
+    "avoid": "名称、现代品牌化造型、角色商标和后期影视表达仍需另查。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-st-elisabeth-gesticht-mauritskade-28-uitgave-n-j-boon--cb081b10",
+      "title": "St. Elisabeth Gesticht, Mauritskade 28. Uitgave N.J. Boon, Amsterdam",
+      "subtitle": "作者/文化待复核 · circa 1900 date QSP,+1900-00-00T000000Z9,P1480,Q5727902 · 历史图像 / 明信片",
+      "year": "circa 1900 date QSP,+1900-00-00T000000Z9,P1480,Q5727902",
+      "yearSort": 1900,
+      "coverImage": "images/24b3206e8eab0699010f.webp",
+      "coverRecordId": "catalog-seasonal-mtl0qeb4hw2tb",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Elisabeth_Gesticht,_Mauritskade_28._Uitgave_N.J._Boon,_Amsterdam.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Commons 逐文件 Public domain"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Public domain · 文件页"
+      ],
+      "usage": "研究主教轮廓、乘船/骑马到达和儿童欢迎；对历史随从形象保持种族刻板印象警惕。",
+      "avoid": "名称、现代品牌化造型、角色商标和后期影视表达仍需另查。",
+      "tags": [
+        "圣诞 / 冬季"
+      ],
+      "styles": [
+        "馆藏图像",
+        "人物 / 肖像",
+        "生活 / 节庆"
+      ],
+      "scenes": [
+        "圣尼古拉、Santa 与赠礼者"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-seasonal-mtl0qeb4hw2tb"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-seasonal-mtl0qeb4hw2tb"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-st-elisabeth-gesticht-mauritskade-28-uitgave-n-j-boon--9aa0cdec"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

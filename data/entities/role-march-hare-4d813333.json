@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-march-hare-4d813333",
+    "name": "March Hare",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/802acdf30313707bb8bb.webp",
+    "coverRecordId": "catalog-march-hare",
+    "yearStart": 1865,
+    "yearEnd": 1865,
+    "workIds": [
+      "work-march-hare-9c060877"
+    ],
+    "recordIds": [
+      "catalog-march-hare"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "童话 / 寓言",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "动物 / 宠物",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "春季 / 复活节",
+        "count": 1
+      }
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 28,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-march-hare-9c060877",
+      "title": "March Hare",
+      "subtitle": "John Tenniel《Alice》原版插图 · 1865",
+      "year": "1865",
+      "yearSort": 1865,
+      "coverImage": "images/802acdf30313707bb8bb.webp",
+      "coverRecordId": "catalog-march-hare",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alice_with_Mad_Hatter_,_March_Hare_and_Dormouse_(Illustration_by_John_Tenniel).png",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "动物 / 宠物"
+      ],
+      "holidays": [
+        "春季 / 复活节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-march-hare"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-march-hare"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 28,
+      "entityIds": [
+        "role-march-hare-4d813333"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

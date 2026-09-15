@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-the-emperors-new-clothes-7b586c4d",
+    "title": "The Emperor’s New Clothes",
+    "subtitle": "Vilhelm Pedersen 安徒生插图 · 1849",
+    "year": "1849",
+    "yearSort": 1849,
+    "coverImage": "images/71132e76bb627ab9c9d8.webp",
+    "coverRecordId": "catalog-emperors-clothes",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Clothes_01.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-emperors-clothes"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-emperors-clothes"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 60,
+    "entityIds": [
+      "role-the-emperors-new-clothes-fe721b41"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-the-emperors-new-clothes-fe721b41",
+      "name": "The Emperor’s New Clothes",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/71132e76bb627ab9c9d8.webp",
+      "coverRecordId": "catalog-emperors-clothes",
+      "yearStart": 1849,
+      "yearEnd": 1849,
+      "workIds": [
+        "work-the-emperors-new-clothes-7b586c4d"
+      ],
+      "recordIds": [
+        "catalog-emperors-clothes"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 60,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-emperors-clothes",
+      "kind": "主档",
+      "title": "The Emperor’s New Clothes",
+      "subtitle": "Vilhelm Pedersen 安徒生插图 · 1849",
+      "year": "1849",
+      "yearSort": 1849,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Clothes_01.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 60,
+      "awarenessLevel": "中",
+      "image": "images/71132e76bb627ab9c9d8.webp"
+    }
+  ]
+}

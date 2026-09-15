@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-sinbad-the-sailor-36adf7d3",
+    "name": "Sinbad the Sailor",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/54fc39fb37802c3ea11c.webp",
+    "coverRecordId": "catalog-sinbad",
+    "yearStart": 1907,
+    "yearEnd": 1907,
+    "workIds": [
+      "work-sinbad-the-sailor-d1070813"
+    ],
+    "recordIds": [
+      "catalog-sinbad"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "topScenes": [
+      {
+        "name": "海滨 / 水下",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 64,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-sinbad-the-sailor-d1070813",
+      "title": "Sinbad the Sailor",
+      "subtitle": "Edmund Dulac《Arabian Nights》插图 · 1907",
+      "year": "1907",
+      "yearSort": 1907,
+      "coverImage": "images/54fc39fb37802c3ea11c.webp",
+      "coverRecordId": "catalog-sinbad",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sinbad_the_sailor_%26_other_stories_from_the_Arabian_nights_-_Dulac_frontispiece.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "海滨 / 水下"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-sinbad"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-sinbad"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 64,
+      "entityIds": [
+        "role-sinbad-the-sailor-36adf7d3"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

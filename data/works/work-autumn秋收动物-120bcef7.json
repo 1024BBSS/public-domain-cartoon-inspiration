@@ -1,0 +1,811 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-autumn秋收动物-120bcef7",
+    "title": "《Autumn》秋收动物",
+    "subtitle": "",
+    "year": "1930",
+    "yearSort": 1930,
+    "coverImage": "images/631229a0675528047b3f.webp",
+    "coverRecordId": "frame-autumn-1930-001",
+    "sourceUrl": "https://archive.org/details/autumn_1930",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "以来源页为准"
+    ],
+    "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "tags": [
+      "早期动画",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "Silly Symphonies",
+      "季节动画"
+    ],
+    "scenes": [
+      "秋景",
+      "丰收",
+      "动物群像"
+    ],
+    "holidays": [
+      "丰收 / 感恩节"
+    ],
+    "characterNames": [
+      "森林动物",
+      "农场动物"
+    ],
+    "characterAliases": [
+      "森林动物",
+      "农场动物"
+    ],
+    "recordIds": [
+      "frame-autumn-1930-001",
+      "frame-autumn-1930-002",
+      "frame-autumn-1930-003",
+      "frame-autumn-1930-004",
+      "frame-autumn-1930-005",
+      "frame-autumn-1930-006",
+      "frame-autumn-1930-007",
+      "frame-autumn-1930-008",
+      "frame-autumn-1930-009",
+      "frame-autumn-1930-010",
+      "frame-autumn-1930-011",
+      "frame-autumn-1930-012",
+      "frame-autumn-1930-013"
+    ],
+    "frameIds": [
+      "frame-autumn-1930-001",
+      "frame-autumn-1930-002",
+      "frame-autumn-1930-003",
+      "frame-autumn-1930-004",
+      "frame-autumn-1930-005",
+      "frame-autumn-1930-006",
+      "frame-autumn-1930-007",
+      "frame-autumn-1930-008",
+      "frame-autumn-1930-009",
+      "frame-autumn-1930-010",
+      "frame-autumn-1930-011",
+      "frame-autumn-1930-012",
+      "frame-autumn-1930-013"
+    ],
+    "masterIds": [],
+    "imageCount": 13,
+    "frameCount": 13,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-森林动物-50efa8a8",
+      "role-农场动物-9951203a"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-森林动物-50efa8a8",
+      "name": "森林动物",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/631229a0675528047b3f.webp",
+      "coverRecordId": "frame-autumn-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-autumn秋收动物-120bcef7"
+      ],
+      "recordIds": [
+        "frame-autumn-1930-001",
+        "frame-autumn-1930-002",
+        "frame-autumn-1930-003",
+        "frame-autumn-1930-004",
+        "frame-autumn-1930-005",
+        "frame-autumn-1930-006",
+        "frame-autumn-1930-007",
+        "frame-autumn-1930-008",
+        "frame-autumn-1930-009",
+        "frame-autumn-1930-010",
+        "frame-autumn-1930-011",
+        "frame-autumn-1930-012",
+        "frame-autumn-1930-013"
+      ],
+      "frameIds": [
+        "frame-autumn-1930-001",
+        "frame-autumn-1930-002",
+        "frame-autumn-1930-003",
+        "frame-autumn-1930-004",
+        "frame-autumn-1930-005",
+        "frame-autumn-1930-006",
+        "frame-autumn-1930-007",
+        "frame-autumn-1930-008",
+        "frame-autumn-1930-009",
+        "frame-autumn-1930-010",
+        "frame-autumn-1930-011",
+        "frame-autumn-1930-012",
+        "frame-autumn-1930-013"
+      ],
+      "workCount": 1,
+      "imageCount": 13,
+      "frameCount": 13,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物群像",
+          "count": 13
+        },
+        {
+          "name": "丰收",
+          "count": 13
+        },
+        {
+          "name": "秋景",
+          "count": 13
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "季节动画",
+          "count": 13
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 13
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "丰收 / 感恩节",
+          "count": 13
+        }
+      ],
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-农场动物-9951203a"
+      ]
+    },
+    {
+      "id": "role-农场动物-9951203a",
+      "name": "农场动物",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/631229a0675528047b3f.webp",
+      "coverRecordId": "frame-autumn-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-autumn秋收动物-120bcef7"
+      ],
+      "recordIds": [
+        "frame-autumn-1930-001",
+        "frame-autumn-1930-002",
+        "frame-autumn-1930-003",
+        "frame-autumn-1930-004",
+        "frame-autumn-1930-005",
+        "frame-autumn-1930-006",
+        "frame-autumn-1930-007",
+        "frame-autumn-1930-008",
+        "frame-autumn-1930-009",
+        "frame-autumn-1930-010",
+        "frame-autumn-1930-011",
+        "frame-autumn-1930-012",
+        "frame-autumn-1930-013"
+      ],
+      "frameIds": [
+        "frame-autumn-1930-001",
+        "frame-autumn-1930-002",
+        "frame-autumn-1930-003",
+        "frame-autumn-1930-004",
+        "frame-autumn-1930-005",
+        "frame-autumn-1930-006",
+        "frame-autumn-1930-007",
+        "frame-autumn-1930-008",
+        "frame-autumn-1930-009",
+        "frame-autumn-1930-010",
+        "frame-autumn-1930-011",
+        "frame-autumn-1930-012",
+        "frame-autumn-1930-013"
+      ],
+      "workCount": 1,
+      "imageCount": 13,
+      "frameCount": 13,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物群像",
+          "count": 13
+        },
+        {
+          "name": "丰收",
+          "count": 13
+        },
+        {
+          "name": "秋景",
+          "count": 13
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "季节动画",
+          "count": 13
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 13
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "丰收 / 感恩节",
+          "count": 13
+        }
+      ],
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-森林动物-50efa8a8"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "frame-autumn-1930-001",
+      "kind": "动画画面",
+      "title": "《Autumn》秋收动物",
+      "subtitle": "画面 001",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/autumn_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "秋景",
+        "丰收",
+        "动物群像"
+      ],
+      "holidays": [
+        "丰收 / 感恩节"
+      ],
+      "characters": [
+        "森林动物",
+        "农场动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/631229a0675528047b3f.webp"
+    },
+    {
+      "id": "frame-autumn-1930-002",
+      "kind": "动画画面",
+      "title": "《Autumn》秋收动物",
+      "subtitle": "画面 002",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/autumn_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "秋景",
+        "丰收",
+        "动物群像"
+      ],
+      "holidays": [
+        "丰收 / 感恩节"
+      ],
+      "characters": [
+        "森林动物",
+        "农场动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/76815965fb85af860c1e.webp"
+    },
+    {
+      "id": "frame-autumn-1930-003",
+      "kind": "动画画面",
+      "title": "《Autumn》秋收动物",
+      "subtitle": "画面 003",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/autumn_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "秋景",
+        "丰收",
+        "动物群像"
+      ],
+      "holidays": [
+        "丰收 / 感恩节"
+      ],
+      "characters": [
+        "森林动物",
+        "农场动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/ea0a01951f52846c58c9.webp"
+    },
+    {
+      "id": "frame-autumn-1930-004",
+      "kind": "动画画面",
+      "title": "《Autumn》秋收动物",
+      "subtitle": "画面 004",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/autumn_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "秋景",
+        "丰收",
+        "动物群像"
+      ],
+      "holidays": [
+        "丰收 / 感恩节"
+      ],
+      "characters": [
+        "森林动物",
+        "农场动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/bd995dec01ff2e5ab85b.webp"
+    },
+    {
+      "id": "frame-autumn-1930-005",
+      "kind": "动画画面",
+      "title": "《Autumn》秋收动物",
+      "subtitle": "画面 005",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/autumn_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "秋景",
+        "丰收",
+        "动物群像"
+      ],
+      "holidays": [
+        "丰收 / 感恩节"
+      ],
+      "characters": [
+        "森林动物",
+        "农场动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/d11374465c5dbb4f29d2.webp"
+    },
+    {
+      "id": "frame-autumn-1930-006",
+      "kind": "动画画面",
+      "title": "《Autumn》秋收动物",
+      "subtitle": "画面 006",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/autumn_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "秋景",
+        "丰收",
+        "动物群像"
+      ],
+      "holidays": [
+        "丰收 / 感恩节"
+      ],
+      "characters": [
+        "森林动物",
+        "农场动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/e0392498f76c51d79460.webp"
+    },
+    {
+      "id": "frame-autumn-1930-007",
+      "kind": "动画画面",
+      "title": "《Autumn》秋收动物",
+      "subtitle": "画面 007",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/autumn_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "秋景",
+        "丰收",
+        "动物群像"
+      ],
+      "holidays": [
+        "丰收 / 感恩节"
+      ],
+      "characters": [
+        "森林动物",
+        "农场动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/cbed578a7012fb661b7d.webp"
+    },
+    {
+      "id": "frame-autumn-1930-008",
+      "kind": "动画画面",
+      "title": "《Autumn》秋收动物",
+      "subtitle": "画面 008",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/autumn_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "秋景",
+        "丰收",
+        "动物群像"
+      ],
+      "holidays": [
+        "丰收 / 感恩节"
+      ],
+      "characters": [
+        "森林动物",
+        "农场动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/7a5575827d4a980b2dd7.webp"
+    },
+    {
+      "id": "frame-autumn-1930-009",
+      "kind": "动画画面",
+      "title": "《Autumn》秋收动物",
+      "subtitle": "画面 009",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/autumn_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "秋景",
+        "丰收",
+        "动物群像"
+      ],
+      "holidays": [
+        "丰收 / 感恩节"
+      ],
+      "characters": [
+        "森林动物",
+        "农场动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/c3951c6b16c0ec2031d5.webp"
+    },
+    {
+      "id": "frame-autumn-1930-010",
+      "kind": "动画画面",
+      "title": "《Autumn》秋收动物",
+      "subtitle": "画面 010",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/autumn_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "秋景",
+        "丰收",
+        "动物群像"
+      ],
+      "holidays": [
+        "丰收 / 感恩节"
+      ],
+      "characters": [
+        "森林动物",
+        "农场动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/285e69312213c5ff06eb.webp"
+    },
+    {
+      "id": "frame-autumn-1930-011",
+      "kind": "动画画面",
+      "title": "《Autumn》秋收动物",
+      "subtitle": "画面 011",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/autumn_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "秋景",
+        "丰收",
+        "动物群像"
+      ],
+      "holidays": [
+        "丰收 / 感恩节"
+      ],
+      "characters": [
+        "森林动物",
+        "农场动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/0f0e38dac23a7e430dbd.webp"
+    },
+    {
+      "id": "frame-autumn-1930-012",
+      "kind": "动画画面",
+      "title": "《Autumn》秋收动物",
+      "subtitle": "画面 012",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/autumn_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "秋景",
+        "丰收",
+        "动物群像"
+      ],
+      "holidays": [
+        "丰收 / 感恩节"
+      ],
+      "characters": [
+        "森林动物",
+        "农场动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/9e6cba33327b60e17de7.webp"
+    },
+    {
+      "id": "frame-autumn-1930-013",
+      "kind": "动画画面",
+      "title": "《Autumn》秋收动物",
+      "subtitle": "画面 013",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/autumn_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 季节动画 · 秋景 · 丰收",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "季节动画"
+      ],
+      "scenes": [
+        "秋景",
+        "丰收",
+        "动物群像"
+      ],
+      "holidays": [
+        "丰收 / 感恩节"
+      ],
+      "characters": [
+        "森林动物",
+        "农场动物"
+      ],
+      "tags": [
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/6e40f3e35379e63720ec.webp"
+    }
+  ]
+}

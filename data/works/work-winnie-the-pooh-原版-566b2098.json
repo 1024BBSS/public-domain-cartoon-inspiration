@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-winnie-the-pooh-原版-566b2098",
+    "title": "Winnie-the-Pooh 原版",
+    "subtitle": "A. A. Milne / E. H. Shepard · 1926",
+    "year": "1926",
+    "yearSort": 1926,
+    "coverImage": "images/da8a4ca8b3313ab55087.webp",
+    "coverRecordId": "catalog-pooh",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pooh_Shepard1928.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "只按 Shepard 版重画仍有高商品化摩擦。",
+    "avoid": "Disney 红上衣、具体动画脸、后续电影配色和品牌字标。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-pooh"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-pooh"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 88,
+    "entityIds": [
+      "role-winnie-the-pooh-48e43fdd"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-winnie-the-pooh-48e43fdd",
+      "name": "Winnie-the-Pooh",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/da8a4ca8b3313ab55087.webp",
+      "coverRecordId": "catalog-pooh",
+      "yearStart": 1926,
+      "yearEnd": 1926,
+      "workIds": [
+        "work-winnie-the-pooh-原版-566b2098"
+      ],
+      "recordIds": [
+        "catalog-pooh"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "只按 Shepard 版重画仍有高商品化摩擦。",
+      "avoid": "Disney 红上衣、具体动画脸、后续电影配色和品牌字标。",
+      "awarenessScore": 88,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-pooh",
+      "kind": "主档",
+      "title": "Winnie-the-Pooh 原版",
+      "subtitle": "A. A. Milne / E. H. Shepard · 1926",
+      "year": "1926",
+      "yearSort": 1926,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pooh_Shepard1928.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "只按 Shepard 版重画仍有高商品化摩擦。",
+      "avoid": "Disney 红上衣、具体动画脸、后续电影配色和品牌字标。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 88,
+      "awarenessLevel": "高",
+      "image": "images/da8a4ca8b3313ab55087.webp"
+    }
+  ]
+}

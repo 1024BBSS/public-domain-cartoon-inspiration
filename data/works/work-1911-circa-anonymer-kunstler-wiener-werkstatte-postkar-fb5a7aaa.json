@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-1911-circa-anonymer-kunstler-wiener-werkstatte-postkar-fb5a7aaa",
+    "title": "1911 circa anonymer Künstler Wiener Werkstätte Postkarte No. 542, Krampus mit Kind",
+    "subtitle": "作者/文化待复核 · circa 1911 date QSP,+1911-00-00T000000Z9,P1480,Q5727902 · 历史图像 / 明信片",
+    "year": "circa 1911 date QSP,+1911-00-00T000000Z9,P1480,Q5727902",
+    "yearSort": 1911,
+    "coverImage": "images/2c5ede7c9c4232cc6e41.webp",
+    "coverRecordId": "catalog-seasonal-mtl0ursjpouoy",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1911_circa_anonymer_K%C3%BCnstler_Wiener_Werkst%C3%A4tte_Postkarte_No._542,_Krampus_mit_Kind.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版文件"
+    ],
+    "copyrightRoutes": [
+      "Commons 逐文件 Public domain"
+    ],
+    "evidenceLevels": [
+      "B"
+    ],
+    "imageRights": [
+      "Public domain · 文件页"
+    ],
+    "usage": "研究“赠礼者—惩戒者”双角色系统；不可把所有角兽面具都叫 Krampus。",
+    "avoid": "Mari Lwyd、Perchten、Krampus 等各有地区语境，不能混称一种怪物。",
+    "tags": [
+      "漫画 / 角色",
+      "圣诞 / 冬季",
+      "怪诞 / 魔法",
+      "宗教 / 神话"
+    ],
+    "styles": [
+      "馆藏图像",
+      "宗教 / 仪式",
+      "暗黑 / 怪诞",
+      "人物 / 肖像"
+    ],
+    "scenes": [
+      "冬季面具、游行与民俗角色"
+    ],
+    "holidays": [
+      "圣诞 / 冬季"
+    ],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-seasonal-mtl0ursjpouoy"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-seasonal-mtl0ursjpouoy"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "subject-winter-folk-figures"
+    ]
+  },
+  "entities": [
+    {
+      "id": "subject-winter-folk-figures",
+      "name": "冬季民俗角色",
+      "type": "文化题材",
+      "aliases": [
+        "冬季面具",
+        "圣尼古拉",
+        "Krampus",
+        "Mari Lwyd",
+        "Perchten",
+        "Saint Nicholas"
+      ],
+      "virtual": true,
+      "coverImage": "images/c5634449756e58f447b5.webp",
+      "coverRecordId": "catalog-seasonal-mtl0pttrlxhi0",
+      "yearStart": 1900,
+      "yearEnd": 1911,
+      "workIds": [
+        "work-nikolaus-und-krampus-da9460dd",
+        "work-gruss-vom-krampus-6af2d422",
+        "work-krampus-postkarte-um-1900-86cc414d",
+        "work-mikulas-a-krampus-1900s-ced1ef59",
+        "work-mikulas-a-krampus-1901-7ccade60",
+        "work-andree-eysn-1910-p173-fig141-schone-pinzgauer-perchten-cd40af33",
+        "work-mari-lwyd-nlw-13c25c96",
+        "work-1911-circa-anonymer-kunstler-wiener-werkstatte-postkar-fb5a7aaa"
+      ],
+      "recordIds": [
+        "catalog-seasonal-mtl0pttrlxhi0",
+        "catalog-seasonal-mtl0umeiz741a",
+        "catalog-seasonal-mtl0psybk1eg2",
+        "catalog-seasonal-mtl0pucn8fjy5",
+        "catalog-seasonal-mtl0ul2d2llb0",
+        "catalog-seasonal-mtl12zdl54cwg",
+        "catalog-seasonal-mtl130mk6sbfp",
+        "catalog-seasonal-mtl0ursjpouoy"
+      ],
+      "frameIds": [],
+      "workCount": 8,
+      "imageCount": 8,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 8
+      },
+      "copyrightRoutes": [
+        "Commons 逐文件 Public domain"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "冬季面具、游行与民俗角色",
+          "count": 8
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "暗黑 / 怪诞",
+          "count": 8
+        },
+        {
+          "name": "馆藏图像",
+          "count": 8
+        },
+        {
+          "name": "人物 / 肖像",
+          "count": 8
+        },
+        {
+          "name": "宗教 / 仪式",
+          "count": 8
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "圣诞 / 冬季",
+          "count": 8
+        }
+      ],
+      "usage": "研究“赠礼者—惩戒者”双角色系统；不可把所有角兽面具都叫 Krampus。",
+      "avoid": "Mari Lwyd、Perchten、Krampus 等各有地区语境，不能混称一种怪物。",
+      "awarenessScore": 0,
+      "sourceCount": 8,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-seasonal-mtl0ursjpouoy",
+      "kind": "主档",
+      "title": "1911 circa anonymer Künstler Wiener Werkstätte Postkarte No. 542, Krampus mit Kind",
+      "subtitle": "作者/文化待复核 · circa 1911 date QSP,+1911-00-00T000000Z9,P1480,Q5727902 · 历史图像 / 明信片",
+      "year": "circa 1911 date QSP,+1911-00-00T000000Z9,P1480,Q5727902",
+      "yearSort": 1911,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Commons 逐文件 Public domain",
+      "evidenceLevel": "B",
+      "imageRights": "Public domain · 文件页",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1911_circa_anonymer_K%C3%BCnstler_Wiener_Werkst%C3%A4tte_Postkarte_No._542,_Krampus_mit_Kind.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "研究“赠礼者—惩戒者”双角色系统；不可把所有角兽面具都叫 Krampus。",
+      "avoid": "Mari Lwyd、Perchten、Krampus 等各有地区语境，不能混称一种怪物。",
+      "styles": [
+        "馆藏图像",
+        "宗教 / 仪式",
+        "暗黑 / 怪诞",
+        "人物 / 肖像"
+      ],
+      "scenes": [
+        "冬季面具、游行与民俗角色"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [],
+      "tags": [
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/2c5ede7c9c4232cc6e41.webp"
+    }
+  ]
+}

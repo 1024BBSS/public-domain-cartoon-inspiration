@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-felix-master-tom-早期猫-1669cd48",
+    "title": "Felix / Master Tom 早期猫",
+    "subtitle": "《Feline Follies》· 1919",
+    "year": "1919",
+    "yearSort": 1919,
+    "coverImage": "images/48a9f1dca77d80f61f25.webp",
+    "coverRecordId": "catalog-felix",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Felix_1919.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "猫题材适配强，但版本误用概率高；只按 1919 帧重画并先查商标。",
+    "avoid": "后续更熟悉的 Felix 脸、魔法袋、现代 Logo 和授权商品模型。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "动物 / 自然",
+      "怪诞 / 魔法"
+    ],
+    "styles": [
+      "早期动画 / 漫画",
+      "橡皮管动画"
+    ],
+    "scenes": [
+      "魔法 / 变形",
+      "动物 / 宠物"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-felix"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-felix"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 58,
+    "entityIds": [
+      "role-felix-master-tom-20b15ffb"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-felix-master-tom-20b15ffb",
+      "name": "Felix / Master Tom",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/48a9f1dca77d80f61f25.webp",
+      "coverRecordId": "catalog-felix",
+      "yearStart": 1919,
+      "yearEnd": 1919,
+      "workIds": [
+        "work-felix-master-tom-早期猫-1669cd48"
+      ],
+      "recordIds": [
+        "catalog-felix"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "动物 / 宠物",
+          "count": 1
+        },
+        {
+          "name": "魔法 / 变形",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "猫题材适配强，但版本误用概率高；只按 1919 帧重画并先查商标。",
+      "avoid": "后续更熟悉的 Felix 脸、魔法袋、现代 Logo 和授权商品模型。",
+      "awarenessScore": 58,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-felix",
+      "kind": "主档",
+      "title": "Felix / Master Tom 早期猫",
+      "subtitle": "《Feline Follies》· 1919",
+      "year": "1919",
+      "yearSort": 1919,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Felix_1919.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "猫题材适配强，但版本误用概率高；只按 1919 帧重画并先查商标。",
+      "avoid": "后续更熟悉的 Felix 脸、魔法袋、现代 Logo 和授权商品模型。",
+      "styles": [
+        "早期动画 / 漫画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "魔法 / 变形",
+        "动物 / 宠物"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 58,
+      "awarenessLevel": "中",
+      "image": "images/48a9f1dca77d80f61f25.webp"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-white-rabbit-e0326baa",
+    "name": "White Rabbit",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/7e7bf71e9f8e3fbb6ee6.webp",
+    "coverRecordId": "catalog-white-rabbit",
+    "yearStart": 1865,
+    "yearEnd": 1865,
+    "workIds": [
+      "work-white-rabbit-539ba66a"
+    ],
+    "recordIds": [
+      "catalog-white-rabbit"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "童话 / 寓言",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "动物 / 宠物",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "春季 / 复活节",
+        "count": 1
+      }
+    ],
+    "usage": "用怀表做焦点，以不对称奔跑构图形成怪趣复古感。",
+    "avoid": "Disney 的蓝外套/红心服饰具体配色与动画比例。",
+    "awarenessScore": 38,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-white-rabbit-539ba66a",
+      "title": "White Rabbit",
+      "subtitle": "John Tenniel《Alice》原版插图 · 1865",
+      "year": "1865",
+      "yearSort": 1865,
+      "coverImage": "images/7e7bf71e9f8e3fbb6ee6.webp",
+      "coverRecordId": "catalog-white-rabbit",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alice_par_John_Tenniel_02.png",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "用怀表做焦点，以不对称奔跑构图形成怪趣复古感。",
+      "avoid": "Disney 的蓝外套/红心服饰具体配色与动画比例。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "动物 / 宠物"
+      ],
+      "holidays": [
+        "春季 / 复活节"
+      ],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-white-rabbit"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-white-rabbit"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 38,
+      "entityIds": [
+        "role-white-rabbit-e0326baa"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

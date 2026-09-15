@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-happy-hooligan-2f081692",
+    "name": "Happy Hooligan",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/ed464727c7a5e898130d.webp",
+    "coverRecordId": "catalog-happy-hooligan",
+    "yearStart": 1900,
+    "yearEnd": 1900,
+    "workIds": [
+      "work-happy-hooligan-991dbba7"
+    ],
+    "recordIds": [
+      "catalog-happy-hooligan"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "topScenes": [],
+    "topStyles": [
+      {
+        "name": "报刊连环画",
+        "count": 1
+      },
+      {
+        "name": "早期动画 / 漫画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+    "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+    "awarenessScore": 8,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-happy-hooligan-991dbba7",
+      "title": "Happy Hooligan",
+      "subtitle": "Frederick Burr Opper 报纸漫画 · 1900",
+      "year": "1900",
+      "yearSort": 1900,
+      "coverImage": "images/ed464727c7a5e898130d.webp",
+      "coverRecordId": "catalog-happy-hooligan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Happy_Hooligan_1905-04-09.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "styles": [
+        "早期动画 / 漫画",
+        "报刊连环画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-happy-hooligan"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-happy-hooligan"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 8,
+      "entityIds": [
+        "role-happy-hooligan-2f081692"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

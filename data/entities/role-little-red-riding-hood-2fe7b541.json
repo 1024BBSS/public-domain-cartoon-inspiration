@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-little-red-riding-hood-2fe7b541",
+    "name": "Little Red Riding Hood",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/588e89881d51fb8b11d0.webp",
+    "coverRecordId": "catalog-red-riding-hood",
+    "yearStart": 1875,
+    "yearEnd": 1875,
+    "workIds": [
+      "work-little-red-riding-hood-98763afc"
+    ],
+    "recordIds": [
+      "catalog-red-riding-hood"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "topScenes": [
+      {
+        "name": "森林 / 自然",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "文学插画",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "awarenessScore": 76,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-little-red-riding-hood-98763afc",
+      "title": "Little Red Riding Hood",
+      "subtitle": "Walter Crane 童话插图 · 1875",
+      "year": "1875",
+      "yearSort": 1875,
+      "coverImage": "images/588e89881d51fb8b11d0.webp",
+      "coverRecordId": "catalog-red-riding-hood",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RRH_Walter_Crane_1875.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "森林 / 自然"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-red-riding-hood"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-red-riding-hood"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 76,
+      "entityIds": [
+        "role-little-red-riding-hood-2fe7b541"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

@@ -1,0 +1,631 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "subject-hindu-epics",
+    "name": "印度史诗人物",
+    "type": "文化题材",
+    "aliases": [
+      "罗摩衍那",
+      "摩诃婆罗多",
+      "Arjuna",
+      "Mahabharata",
+      "Rama",
+      "Ramayana",
+      "Sita"
+    ],
+    "virtual": true,
+    "coverImage": "images/36353ec797483f58c577.webp",
+    "coverRecordId": "catalog-belief-met-454344",
+    "yearStart": 1580,
+    "yearEnd": 1800,
+    "workIds": [
+      "work-rama-receives-sugriva-and-jambavat-the-monkey-and-bear-fb7ed67e",
+      "work-the-awakening-of-kumbhakarna-in-the-golden-city-of-lan-8c941754",
+      "work-the-court-of-ravana-folio-from-a-ramayana-3ee36c0f",
+      "work-the-death-of-king-dasharatha-the-father-of-rama-folio--c4436524",
+      "work-arjuna-battles-raja-tamradhvaja-folio-from-a-razmnama-cbc74384",
+      "work-double-sided-folio-from-a-ramayana-series-30d4a1e6",
+      "work-folio-18-from-a-chandana-malayagiri-varta-story-of-kin-c0f0e3e1",
+      "work-page-from-ramayana-052a9abc",
+      "work-pages-from-ramayana-a5e61d21"
+    ],
+    "recordIds": [
+      "catalog-belief-met-454344",
+      "catalog-belief-met-454357",
+      "catalog-belief-met-454358",
+      "catalog-belief-met-454359",
+      "catalog-belief-met-451314",
+      "catalog-belief-met-781881",
+      "catalog-belief-cma-143653",
+      "catalog-belief-cma-114258",
+      "catalog-belief-cma-114251"
+    ],
+    "frameIds": [],
+    "workCount": 9,
+    "imageCount": 9,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 9
+    },
+    "copyrightRoutes": [
+      "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+      "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "怪诞 / 魔法",
+      "宗教 / 神话"
+    ],
+    "topScenes": [
+      {
+        "name": "《罗摩衍那》《摩诃婆罗多》与薄伽梵歌",
+        "count": 9
+      },
+      {
+        "name": "流放与救援 → 大战 → 战车上的伦理抉择",
+        "count": 9
+      },
+      {
+        "name": "印度教传统",
+        "count": 9
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "神话 / 魔法",
+        "count": 9
+      },
+      {
+        "name": "书籍 / 海报",
+        "count": 9
+      },
+      {
+        "name": "宗教 / 仪式",
+        "count": 9
+      },
+      {
+        "name": "Islamic Art; Codices; Folio from an illustrated manuscript",
+        "count": 5
+      },
+      {
+        "name": "Indian and Southeast Asian Art; Javanese Art; Manuscript",
+        "count": 2
+      },
+      {
+        "name": "Asian Art; Manuscripts; Folio",
+        "count": 1
+      },
+      {
+        "name": "Indian and Southeast Asian Art; Indian Art; Painting",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "研究战车、森林流放、桥梁、十首敌手与分场叙事。",
+    "avoid": "史诗角色版本众多；不沿用当代电视剧和漫画定型。",
+    "awarenessScore": 0,
+    "sourceCount": 9,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-rama-receives-sugriva-and-jambavat-the-monkey-and-bear-fb7ed67e",
+      "title": "\"Rama Receives Sugriva and Jambavat, the Monkey and Bear Kings\", Folio from a Ramayana",
+      "subtitle": "作者 / 文化待复核 · ca. 1605 · Ink, opaque watercolor, and gold on paper",
+      "year": "ca. 1605",
+      "yearSort": 1580,
+      "coverImage": "images/36353ec797483f58c577.webp",
+      "coverRecordId": "catalog-belief-met-454344",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/454344",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "研究战车、森林流放、桥梁、十首敌手与分场叙事。",
+      "avoid": "史诗角色版本众多；不沿用当代电视剧和漫画定型。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Islamic Art; Codices; Folio from an illustrated manuscript",
+        "宗教 / 仪式",
+        "神话 / 魔法",
+        "书籍 / 海报"
+      ],
+      "scenes": [
+        "印度教传统",
+        "《罗摩衍那》《摩诃婆罗多》与薄伽梵歌",
+        "流放与救援 → 大战 → 战车上的伦理抉择"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-454344"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-454344"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-hindu-epics"
+      ]
+    },
+    {
+      "id": "work-the-awakening-of-kumbhakarna-in-the-golden-city-of-lan-8c941754",
+      "title": "\"The Awakening of Kumbhakarna in the Golden City of Lanka\", Folio from a Ramayana",
+      "subtitle": "作者 / 文化待复核 · ca. 1605 · Opaque watercolor and gold on paper",
+      "year": "ca. 1605",
+      "yearSort": 1580,
+      "coverImage": "images/691e7f38bb611c24efa0.webp",
+      "coverRecordId": "catalog-belief-met-454357",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/454357",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "研究战车、森林流放、桥梁、十首敌手与分场叙事。",
+      "avoid": "史诗角色版本众多；不沿用当代电视剧和漫画定型。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Islamic Art; Codices; Folio from an illustrated manuscript",
+        "宗教 / 仪式",
+        "神话 / 魔法",
+        "书籍 / 海报"
+      ],
+      "scenes": [
+        "印度教传统",
+        "《罗摩衍那》《摩诃婆罗多》与薄伽梵歌",
+        "流放与救援 → 大战 → 战车上的伦理抉择"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-454357"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-454357"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-hindu-epics"
+      ]
+    },
+    {
+      "id": "work-the-court-of-ravana-folio-from-a-ramayana-3ee36c0f",
+      "title": "\"The Court of Ravana\", Folio from a Ramayana",
+      "subtitle": "作者 / 文化待复核 · ca. 1605 · Opaque watercolor and gold on paper",
+      "year": "ca. 1605",
+      "yearSort": 1580,
+      "coverImage": "images/cf0b9b175755832c4f3e.webp",
+      "coverRecordId": "catalog-belief-met-454358",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/454358",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "研究战车、森林流放、桥梁、十首敌手与分场叙事。",
+      "avoid": "史诗角色版本众多；不沿用当代电视剧和漫画定型。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Islamic Art; Codices; Folio from an illustrated manuscript",
+        "宗教 / 仪式",
+        "神话 / 魔法",
+        "书籍 / 海报"
+      ],
+      "scenes": [
+        "印度教传统",
+        "《罗摩衍那》《摩诃婆罗多》与薄伽梵歌",
+        "流放与救援 → 大战 → 战车上的伦理抉择"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-454358"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-454358"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-hindu-epics"
+      ]
+    },
+    {
+      "id": "work-the-death-of-king-dasharatha-the-father-of-rama-folio--c4436524",
+      "title": "\"The Death of King Dasharatha, the Father of Rama\", Folio from a Ramayana",
+      "subtitle": "作者 / 文化待复核 · ca. 1605 · Opaque watercolor and gold on paper",
+      "year": "ca. 1605",
+      "yearSort": 1580,
+      "coverImage": "images/46b60a983f80a80e00bc.webp",
+      "coverRecordId": "catalog-belief-met-454359",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/454359",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "研究战车、森林流放、桥梁、十首敌手与分场叙事。",
+      "avoid": "史诗角色版本众多；不沿用当代电视剧和漫画定型。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Islamic Art; Codices; Folio from an illustrated manuscript",
+        "宗教 / 仪式",
+        "神话 / 魔法",
+        "书籍 / 海报"
+      ],
+      "scenes": [
+        "印度教传统",
+        "《罗摩衍那》《摩诃婆罗多》与薄伽梵歌",
+        "流放与救援 → 大战 → 战车上的伦理抉择"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-454359"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-454359"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-hindu-epics"
+      ]
+    },
+    {
+      "id": "work-arjuna-battles-raja-tamradhvaja-folio-from-a-razmnama-cbc74384",
+      "title": "\"Arjuna Battles Raja Tamradhvaja\", Folio from a Razmnama",
+      "subtitle": "'Abd al-Rahim ibn Muhammad Bairam Khan Khan-i Khanan · ca. 1616–17 · Ink, opaque watercolor, and gold on paper",
+      "year": "ca. 1616–17",
+      "yearSort": 1591,
+      "coverImage": "images/07d922b9d5194ef08513.webp",
+      "coverRecordId": "catalog-belief-met-451314",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/451314",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "研究战车、森林流放、桥梁、十首敌手与分场叙事。",
+      "avoid": "史诗角色版本众多；不沿用当代电视剧和漫画定型。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Islamic Art; Codices; Folio from an illustrated manuscript",
+        "宗教 / 仪式",
+        "神话 / 魔法",
+        "书籍 / 海报"
+      ],
+      "scenes": [
+        "印度教传统",
+        "《罗摩衍那》《摩诃婆罗多》与薄伽梵歌",
+        "流放与救援 → 大战 → 战车上的伦理抉择"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-451314"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-451314"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-hindu-epics"
+      ]
+    },
+    {
+      "id": "work-double-sided-folio-from-a-ramayana-series-30d4a1e6",
+      "title": "Double-sided folio from a Ramayana series",
+      "subtitle": "India, Himachal Pradesh, unidentified sub-school · ca. 1690–1710 · Opaque watercolor on paper",
+      "year": "ca. 1690–1710",
+      "yearSort": 1680,
+      "coverImage": "images/590aed95027e453c3a74.webp",
+      "coverRecordId": "catalog-belief-met-781881",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/781881",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · The Met"
+      ],
+      "usage": "研究战车、森林流放、桥梁、十首敌手与分场叙事。",
+      "avoid": "史诗角色版本众多；不沿用当代电视剧和漫画定型。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Asian Art; Manuscripts; Folio",
+        "宗教 / 仪式",
+        "神话 / 魔法",
+        "书籍 / 海报"
+      ],
+      "scenes": [
+        "印度教传统",
+        "《罗摩衍那》《摩诃婆罗多》与薄伽梵歌",
+        "流放与救援 → 大战 → 战车上的伦理抉择"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-met-781881"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-met-781881"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-hindu-epics"
+      ]
+    },
+    {
+      "id": "work-folio-18-from-a-chandana-malayagiri-varta-story-of-kin-c0f0e3e1",
+      "title": "Folio 18 from a Chandana Malayagiri Varta (Story of King Chandana and Queen Malayagiri) of Karamachand: Ravana battles the great vulture Jatayu and defeats him by throwing stones in his mouth (recto); Jatayu approaches Rama and Lakshmana who are wondering where Sita could be (verso)",
+      "subtitle": "作者 / 工坊待复核 · 1744–45 · Gum tempera, ink, and gold on paper",
+      "year": "1744–45",
+      "yearSort": 1744,
+      "coverImage": "images/d30bdb8e7b807d8b17d2.webp",
+      "coverRecordId": "catalog-belief-cma-143653",
+      "sourceUrl": "https://clevelandart.org/art/1968.108",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "研究战车、森林流放、桥梁、十首敌手与分场叙事。",
+      "avoid": "史诗角色版本众多；不沿用当代电视剧和漫画定型。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Indian and Southeast Asian Art; Indian Art; Painting",
+        "宗教 / 仪式",
+        "神话 / 魔法",
+        "书籍 / 海报"
+      ],
+      "scenes": [
+        "印度教传统",
+        "《罗摩衍那》《摩诃婆罗多》与薄伽梵歌",
+        "流放与救援 → 大战 → 战车上的伦理抉择"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-143653"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-143653"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-hindu-epics"
+      ]
+    },
+    {
+      "id": "work-page-from-ramayana-052a9abc",
+      "title": "Page from Ramayana",
+      "subtitle": "作者 / 工坊待复核 · 1800s · ink on paper",
+      "year": "1800s",
+      "yearSort": 1800,
+      "coverImage": "images/adcf7856473690785d87.webp",
+      "coverRecordId": "catalog-belief-cma-114258",
+      "sourceUrl": "https://clevelandart.org/art/1933.492.3",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "研究战车、森林流放、桥梁、十首敌手与分场叙事。",
+      "avoid": "史诗角色版本众多；不沿用当代电视剧和漫画定型。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Indian and Southeast Asian Art; Javanese Art; Manuscript",
+        "宗教 / 仪式",
+        "神话 / 魔法",
+        "书籍 / 海报"
+      ],
+      "scenes": [
+        "印度教传统",
+        "《罗摩衍那》《摩诃婆罗多》与薄伽梵歌",
+        "流放与救援 → 大战 → 战车上的伦理抉择"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-114258"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-114258"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-hindu-epics"
+      ]
+    },
+    {
+      "id": "work-pages-from-ramayana-a5e61d21",
+      "title": "Pages from Ramayana",
+      "subtitle": "作者 / 工坊待复核 · 1800s · ink on paper",
+      "year": "1800s",
+      "yearSort": 1800,
+      "coverImage": "images/e29a68dc6a3aa65dfc82.webp",
+      "coverRecordId": "catalog-belief-cma-114251",
+      "sourceUrl": "https://clevelandart.org/art/1933.492",
+      "sourceLabel": "clevelandart.org",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CC0 · Cleveland Museum of Art"
+      ],
+      "usage": "研究战车、森林流放、桥梁、十首敌手与分场叙事。",
+      "avoid": "史诗角色版本众多；不沿用当代电视剧和漫画定型。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "Indian and Southeast Asian Art; Javanese Art; Manuscript",
+        "宗教 / 仪式",
+        "神话 / 魔法",
+        "书籍 / 海报"
+      ],
+      "scenes": [
+        "印度教传统",
+        "《罗摩衍那》《摩诃婆罗多》与薄伽梵歌",
+        "流放与救援 → 大战 → 战车上的伦理抉择"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-belief-cma-114251"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-belief-cma-114251"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "subject-hindu-epics"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

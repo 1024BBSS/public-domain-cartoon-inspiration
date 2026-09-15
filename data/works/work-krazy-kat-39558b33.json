@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-krazy-kat-39558b33",
+    "title": "Krazy Kat",
+    "subtitle": "George Herriman 报纸漫画早期版 · 1913",
+    "year": "1913",
+    "yearSort": 1913,
+    "coverImage": "images/bcffdf674271c13a5b03.webp",
+    "coverRecordId": "catalog-krazy-kat",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Krazy_Kat_LOC_npcc.04657.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+    "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "早期动画 / 漫画",
+      "报刊连环画"
+    ],
+    "scenes": [
+      "动物 / 宠物"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-krazy-kat"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-krazy-kat"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 33,
+    "entityIds": [
+      "role-krazy-kat-fc2e64e8"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-krazy-kat-fc2e64e8",
+      "name": "Krazy Kat",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/bcffdf674271c13a5b03.webp",
+      "coverRecordId": "catalog-krazy-kat",
+      "yearStart": 1913,
+      "yearEnd": 1913,
+      "workIds": [
+        "work-krazy-kat-39558b33"
+      ],
+      "recordIds": [
+        "catalog-krazy-kat"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物 / 宠物",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "报刊连环画",
+          "count": 1
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "awarenessScore": 33,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-krazy-kat",
+      "kind": "主档",
+      "title": "Krazy Kat",
+      "subtitle": "George Herriman 报纸漫画早期版 · 1913",
+      "year": "1913",
+      "yearSort": 1913,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Krazy_Kat_LOC_npcc.04657.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "后续造型、现代商标、授权商品画稿、演员肖像，以及修复版或重制版新增的视觉表达。",
+      "styles": [
+        "早期动画 / 漫画",
+        "报刊连环画"
+      ],
+      "scenes": [
+        "动物 / 宠物"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 33,
+      "awarenessLevel": "较低",
+      "image": "images/bcffdf674271c13a5b03.webp"
+    }
+  ]
+}

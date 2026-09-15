@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-ash-wednesday-273bf19e",
+    "title": "Ash Wednesday",
+    "subtitle": "1930 书籍 / 文本与当年封面；2026-01-01 在美国进入公版",
+    "year": "1930",
+    "yearSort": 1930,
+    "coverImage": "images/bbd7a178d9bc9823ca32.webp",
+    "coverRecordId": "catalog-pdd2026-ash-wednesday",
+    "sourceUrl": "https://web.law.duke.edu/cspd/publicdomainday/2026/",
+    "sourceLabel": "Duke CSPD",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Duke 2026 研究页引用图；具体扫描或修复副本仍保留来源"
+    ],
+    "usage": "从书封字体、构图、道具和当年插图中抽取历史语言；不要套用现代影视脸谱。",
+    "avoid": "后续版本、译本、封面、影视造型、商标化名称和在世人物肖像不随 1930 原作一起开放。",
+    "tags": [
+      "漫画 / 角色"
+    ],
+    "styles": [
+      "1930 书封",
+      "文学 / 出版物"
+    ],
+    "scenes": [
+      "文化 / 历史"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-pdd2026-ash-wednesday"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-pdd2026-ash-wednesday"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 40,
+    "entityIds": [
+      "role-ash-wednesday-ad384dcd"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-ash-wednesday-ad384dcd",
+      "name": "Ash Wednesday",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/bbd7a178d9bc9823ca32.webp",
+      "coverRecordId": "catalog-pdd2026-ash-wednesday",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-ash-wednesday-273bf19e"
+      ],
+      "recordIds": [
+        "catalog-pdd2026-ash-wednesday"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色"
+      ],
+      "topScenes": [
+        {
+          "name": "文化 / 历史",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "1930 书封",
+          "count": 1
+        },
+        {
+          "name": "文学 / 出版物",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从书封字体、构图、道具和当年插图中抽取历史语言；不要套用现代影视脸谱。",
+      "avoid": "后续版本、译本、封面、影视造型、商标化名称和在世人物肖像不随 1930 原作一起开放。",
+      "awarenessScore": 40,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-pdd2026-ash-wednesday",
+      "kind": "主档",
+      "title": "Ash Wednesday",
+      "subtitle": "1930 书籍 / 文本与当年封面；2026-01-01 在美国进入公版",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Duke 2026 研究页引用图；具体扫描或修复副本仍保留来源",
+      "sourceUrl": "https://web.law.duke.edu/cspd/publicdomainday/2026/",
+      "sourceLabel": "Duke CSPD",
+      "licenseUrl": "",
+      "usage": "从书封字体、构图、道具和当年插图中抽取历史语言；不要套用现代影视脸谱。",
+      "avoid": "后续版本、译本、封面、影视造型、商标化名称和在世人物肖像不随 1930 原作一起开放。",
+      "styles": [
+        "1930 书封",
+        "文学 / 出版物"
+      ],
+      "scenes": [
+        "文化 / 历史"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 40,
+      "awarenessLevel": "中",
+      "image": "images/bbd7a178d9bc9823ca32.webp"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-the-frog-prince-bba9943f",
+    "title": "The Frog Prince",
+    "subtitle": "Walter Crane 童话插图 · 1874",
+    "year": "1874",
+    "yearSort": 1874,
+    "coverImage": "images/500eb98bf2db21570b87.webp",
+    "coverRecordId": "catalog-frog-prince",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Frog_Turns_Into_A_Prince_-_Illustration_For_The_Frog_Prince_by_Walter_Crane_-_Walter_Crane_-_ABDAG003357.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-frog-prince"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-frog-prince"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 39,
+    "entityIds": [
+      "role-the-frog-prince-e27ef664"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-the-frog-prince-e27ef664",
+      "name": "The Frog Prince",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/500eb98bf2db21570b87.webp",
+      "coverRecordId": "catalog-frog-prince",
+      "yearStart": 1874,
+      "yearEnd": 1874,
+      "workIds": [
+        "work-the-frog-prince-bba9943f"
+      ],
+      "recordIds": [
+        "catalog-frog-prince"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 39,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-frog-prince",
+      "kind": "主档",
+      "title": "The Frog Prince",
+      "subtitle": "Walter Crane 童话插图 · 1874",
+      "year": "1874",
+      "yearSort": 1874,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Frog_Turns_Into_A_Prince_-_Illustration_For_The_Frog_Prince_by_Walter_Crane_-_Walter_Crane_-_ABDAG003357.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 39,
+      "awarenessLevel": "较低",
+      "image": "images/500eb98bf2db21570b87.webp"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-little-nemo-in-slumberland-b3858286",
+    "name": "Little Nemo in Slumberland",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/b4ae035f35e03d197c16.webp",
+    "coverRecordId": "catalog-little-nemo",
+    "yearStart": 1905,
+    "yearEnd": 1905,
+    "workIds": [
+      "work-little-nemo-in-slumberland-54770f8e"
+    ],
+    "recordIds": [
+      "catalog-little-nemo"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "怪诞 / 魔法"
+    ],
+    "topScenes": [],
+    "topStyles": [
+      {
+        "name": "都市超现实",
+        "count": 1
+      },
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      },
+      {
+        "name": "早期动画 / 漫画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "更适合抽取单格建筑与梦境语法，不建议整页小字直接印。",
+    "avoid": "后续动画、游戏、修复上色和现代 Logo 的新增表达。",
+    "awarenessScore": 27,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-little-nemo-in-slumberland-54770f8e",
+      "title": "Little Nemo in Slumberland",
+      "subtitle": "Winsor McCay 报纸连环画 · 1905",
+      "year": "1905",
+      "yearSort": 1905,
+      "coverImage": "images/b4ae035f35e03d197c16.webp",
+      "coverRecordId": "catalog-little-nemo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Little_Nemo_in_Slumberland_(1905-10-22).jpeg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "更适合抽取单格建筑与梦境语法，不建议整页小字直接印。",
+      "avoid": "后续动画、游戏、修复上色和现代 Logo 的新增表达。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "早期动画 / 漫画",
+        "橡皮管动画",
+        "都市超现实"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-little-nemo"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-little-nemo"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 27,
+      "entityIds": [
+        "role-little-nemo-in-slumberland-b3858286"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

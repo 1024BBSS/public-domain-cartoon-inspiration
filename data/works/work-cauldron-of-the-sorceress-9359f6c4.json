@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-cauldron-of-the-sorceress-9359f6c4",
+    "title": "Cauldron of the Sorceress",
+    "subtitle": "Odilon Redon French, 1840-1916 · 1879 · Various charcoals, with stumping, erasing, and incising, on pale-pink wove paper with red and blue fibers altered to a golden tone",
+    "year": "1879",
+    "yearSort": 1879,
+    "coverImage": "images/76b045c897b63e6fb6ba.webp",
+    "coverRecordId": "catalog-seasonal-mtkyybenclz2u",
+    "sourceUrl": "https://www.artic.edu/artworks/90324",
+    "sourceLabel": "Art Institute of Chicago",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "AIC API is_public_domain=true"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public Domain · AIC"
+    ],
+    "usage": "区分神话女术士、宗教恐惧和现代节庆角色；研究姿态、器具、运动方向与群体仪式的组合。",
+    "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+    "tags": [
+      "万圣节",
+      "怪诞 / 魔法",
+      "宗教 / 神话"
+    ],
+    "styles": [
+      "绘画",
+      "神话 / 魔法",
+      "暗黑 / 怪诞"
+    ],
+    "scenes": [
+      "女巫、女术士与怪诞"
+    ],
+    "holidays": [
+      "万圣节"
+    ],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-seasonal-mtkyybenclz2u"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-seasonal-mtkyybenclz2u"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "subject-witches"
+    ]
+  },
+  "entities": [
+    {
+      "id": "subject-witches",
+      "name": "女巫与女术士",
+      "type": "文化题材",
+      "aliases": [
+        "女术士",
+        "女巫",
+        "Sorceress",
+        "Witch"
+      ],
+      "virtual": true,
+      "coverImage": "images/fc2775e50b6e69664504.webp",
+      "coverRecordId": "catalog-seasonal-mtky1ru82pjyt",
+      "yearStart": 1497,
+      "yearEnd": 1900,
+      "workIds": [
+        "work-the-four-witches-a767b69c",
+        "work-the-witch-215616f2",
+        "work-witch-riding-backwards-on-a-goat-e4eda6f2",
+        "work-lo-stregozzo-a-female-witch-riding-on-an-animal-skelet-74656e9a",
+        "work-witches-preparing-for-sabbath-4f7de925",
+        "work-a-witches-sabbath-a9fbb112",
+        "work-circe-with-companions-of-ulysses-changed-into-animals-dfb03999",
+        "work-ulysses-before-circe-mercury-behind-3a74d158",
+        "work-macbeth-and-the-witches-shakespeare-macbeth-act-1-scen-75c9ab56",
+        "work-saul-and-the-witch-of-endor-68d646a0",
+        "work-the-witches-appear-to-macbeth-and-banquo-c9b50116",
+        "work-macbeth-and-the-witches-d90c6d09",
+        "work-faust-and-mephistopheles-galloping-through-the-night-o-b7418299",
+        "work-cauldron-of-the-sorceress-9359f6c4",
+        "work-witches-d940d1a5"
+      ],
+      "recordIds": [
+        "catalog-seasonal-mtky1ru82pjyt",
+        "catalog-seasonal-mtkz0hgncntlv",
+        "catalog-seasonal-mtky15wbgtkv5",
+        "catalog-seasonal-mtkz0lvpsh3kg",
+        "catalog-seasonal-mtkz0kayo90yb",
+        "catalog-seasonal-mtky11zfbgei2",
+        "catalog-seasonal-mtkyvuinmf71p",
+        "catalog-seasonal-mtkyxyhozao4v",
+        "catalog-seasonal-mtkz0q3h51jj7",
+        "catalog-seasonal-mtky1l5yw2y3b",
+        "catalog-seasonal-mtky1m7uqux0h",
+        "catalog-seasonal-mtky1gf7ngbay",
+        "catalog-seasonal-mtky1f7eiic6m",
+        "catalog-seasonal-mtkyybenclz2u",
+        "catalog-seasonal-mtky1hilf70m1"
+      ],
+      "frameIds": [],
+      "workCount": 15,
+      "imageCount": 15,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 15
+      },
+      "copyrightRoutes": [
+        "AIC API is_public_domain=true",
+        "The Met API isPublicDomain=true / CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话",
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "女巫、女术士与怪诞",
+          "count": 15
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "暗黑 / 怪诞",
+          "count": 15
+        },
+        {
+          "name": "神话 / 魔法",
+          "count": 15
+        },
+        {
+          "name": "版画",
+          "count": 12
+        },
+        {
+          "name": "绘画",
+          "count": 2
+        },
+        {
+          "name": "馆藏图像",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 15
+        }
+      ],
+      "usage": "拆解人物姿态、群体关系、飞行方向、烟雾和夜间照明，重组为不依赖尖帽的女巫视觉。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "awarenessScore": 0,
+      "sourceCount": 15,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-seasonal-mtkyybenclz2u",
+      "kind": "主档",
+      "title": "Cauldron of the Sorceress",
+      "subtitle": "Odilon Redon French, 1840-1916 · 1879 · Various charcoals, with stumping, erasing, and incising, on pale-pink wove paper with red and blue fibers altered to a golden tone",
+      "year": "1879",
+      "yearSort": 1879,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC API is_public_domain=true",
+      "evidenceLevel": "A",
+      "imageRights": "Public Domain · AIC",
+      "sourceUrl": "https://www.artic.edu/artworks/90324",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "usage": "区分神话女术士、宗教恐惧和现代节庆角色；研究姿态、器具、运动方向与群体仪式的组合。",
+      "avoid": "区分神话、宗教恐惧与节庆角色；不沿用现代影视造型。",
+      "styles": [
+        "绘画",
+        "神话 / 魔法",
+        "暗黑 / 怪诞"
+      ],
+      "scenes": [
+        "女巫、女术士与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/76b045c897b63e6fb6ba.webp"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-the-pied-piper-4cf98ede",
+    "title": "The Pied Piper",
+    "subtitle": "Kate Greenaway 童书插图 · 1888",
+    "year": "1888",
+    "yearSort": 1888,
+    "coverImage": "images/7ac6a2384762189610c9.webp",
+    "coverRecordId": "catalog-pied-piper",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pied_Piper_-_illustration_by_Kate_Greenaway_-_Project_Gutenberg_eText_18343.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-pied-piper"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-pied-piper"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 75,
+    "entityIds": [
+      "role-the-pied-piper-a85d712b"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-the-pied-piper-a85d712b",
+      "name": "The Pied Piper",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/7ac6a2384762189610c9.webp",
+      "coverRecordId": "catalog-pied-piper",
+      "yearStart": 1888,
+      "yearEnd": 1888,
+      "workIds": [
+        "work-the-pied-piper-4cf98ede"
+      ],
+      "recordIds": [
+        "catalog-pied-piper"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 75,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-pied-piper",
+      "kind": "主档",
+      "title": "The Pied Piper",
+      "subtitle": "Kate Greenaway 童书插图 · 1888",
+      "year": "1888",
+      "yearSort": 1888,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pied_Piper_-_illustration_by_Kate_Greenaway_-_Project_Gutenberg_eText_18343.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 75,
+      "awarenessLevel": "高",
+      "image": "images/7ac6a2384762189610c9.webp"
+    }
+  ]
+}

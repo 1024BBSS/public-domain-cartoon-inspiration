@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-sir-lancelot-9a7a77a0",
+    "title": "Sir Lancelot",
+    "subtitle": "N. C. Wyeth 亚瑟王插图 · 1917",
+    "year": "1917",
+    "yearSort": 1917,
+    "coverImage": "images/49eab59104209ca2ad36.webp",
+    "coverRecordId": "catalog-lancelot",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sir_Lancelot_save_Guinevere_by_Lancelot_Speed.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+    "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+    "tags": [
+      "早期动画",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "文学插画",
+      "橡皮管动画"
+    ],
+    "scenes": [],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-lancelot"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-lancelot"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 63,
+    "entityIds": [
+      "role-sir-lancelot-a7346f04"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-sir-lancelot-a7346f04",
+      "name": "Sir Lancelot",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/49eab59104209ca2ad36.webp",
+      "coverRecordId": "catalog-lancelot",
+      "yearStart": 1917,
+      "yearEnd": 1917,
+      "workIds": [
+        "work-sir-lancelot-9a7a77a0"
+      ],
+      "recordIds": [
+        "catalog-lancelot"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "topScenes": [],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 1
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "awarenessScore": 63,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-lancelot",
+      "kind": "主档",
+      "title": "Sir Lancelot",
+      "subtitle": "N. C. Wyeth 亚瑟王插图 · 1917",
+      "year": "1917",
+      "yearSort": 1917,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sir_Lancelot_save_Guinevere_by_Lancelot_Speed.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
+      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
+      "styles": [
+        "文学插画",
+        "橡皮管动画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 63,
+      "awarenessLevel": "中",
+      "image": "images/49eab59104209ca2ad36.webp"
+    }
+  ]
+}

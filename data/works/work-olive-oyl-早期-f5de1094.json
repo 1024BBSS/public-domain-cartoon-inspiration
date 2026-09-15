@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-olive-oyl-早期-f5de1094",
+    "title": "Olive Oyl（早期）",
+    "subtitle": "《Thimble Theatre》1919 版本",
+    "year": "1919",
+    "yearSort": 1919,
+    "coverImage": "images/5a04834bb1318f7e9a0a.webp",
+    "coverRecordId": "catalog-olive-oyl",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olive_Oyl_1919.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "女性向复古线条潜力高，但必须从 1919 图像独立重绘并查商标。",
+    "avoid": "1930 年代动画模型、现代授权版 Olive 与整套 Popeye 品牌识别。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "styles": [
+      "早期动画 / 漫画",
+      "橡皮管动画"
+    ],
+    "scenes": [
+      "舞台 / 表演"
+    ],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-olive-oyl"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-olive-oyl"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 46,
+    "entityIds": [
+      "role-olive-oyl-23d1cbb2"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-olive-oyl-23d1cbb2",
+      "name": "Olive Oyl",
+      "type": "主体",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/5a04834bb1318f7e9a0a.webp",
+      "coverRecordId": "catalog-olive-oyl",
+      "yearStart": 1919,
+      "yearEnd": 1919,
+      "workIds": [
+        "work-olive-oyl-早期-f5de1094"
+      ],
+      "recordIds": [
+        "catalog-olive-oyl"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "topScenes": [
+        {
+          "name": "舞台 / 表演",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "女性向复古线条潜力高，但必须从 1919 图像独立重绘并查商标。",
+      "avoid": "1930 年代动画模型、现代授权版 Olive 与整套 Popeye 品牌识别。",
+      "awarenessScore": 46,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-olive-oyl",
+      "kind": "主档",
+      "title": "Olive Oyl（早期）",
+      "subtitle": "《Thimble Theatre》1919 版本",
+      "year": "1919",
+      "yearSort": 1919,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olive_Oyl_1919.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "女性向复古线条潜力高，但必须从 1919 图像独立重绘并查商标。",
+      "avoid": "1930 年代动画模型、现代授权版 Olive 与整套 Popeye 品牌识别。",
+      "styles": [
+        "早期动画 / 漫画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "舞台 / 表演"
+      ],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 46,
+      "awarenessLevel": "中",
+      "image": "images/5a04834bb1318f7e9a0a.webp"
+    }
+  ]
+}

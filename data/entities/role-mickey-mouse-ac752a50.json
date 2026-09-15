@@ -1,0 +1,2684 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-mickey-mouse-ac752a50",
+    "name": "Mickey Mouse",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/f78b0219dda15335c363.webp",
+    "coverRecordId": "catalog-mickey",
+    "yearStart": 1928,
+    "yearEnd": 1934,
+    "workIds": [
+      "work-the-chain-gang追逐与越狱-9c106ad9",
+      "work-the-cactus-kid西部酒馆-f34d3ea1",
+      "work-the-gorilla-mystery猩猩谜案-023ad571",
+      "work-the-barnyard-concert农场音乐会-4f752d5c",
+      "work-the-shindig乡村舞会-a41d1b28",
+      "work-fiddling-around小提琴独奏-1a7a3686",
+      "work-the-picnic郊外野餐-0d17c756",
+      "work-pioneer-days拓荒旅途-ebdad9c4",
+      "work-the-fire-fighters城市救火-20e9a170",
+      "work-rumplewatt-the-giant未续期边界案例-927928fd",
+      "work-mickey-mouse-1-0-1795eca9"
+    ],
+    "recordIds": [
+      "frame-the-chain-gang-1930-001",
+      "frame-the-chain-gang-1930-002",
+      "frame-the-chain-gang-1930-003",
+      "frame-the-chain-gang-1930-004",
+      "frame-the-chain-gang-1930-005",
+      "frame-the-chain-gang-1930-006",
+      "frame-the-chain-gang-1930-007",
+      "frame-the-chain-gang-1930-008",
+      "frame-the-chain-gang-1930-009",
+      "frame-the-chain-gang-1930-010",
+      "frame-the-chain-gang-1930-011",
+      "frame-the-chain-gang-1930-012",
+      "frame-the-chain-gang-1930-013",
+      "frame-the-chain-gang-1930-014",
+      "frame-the-chain-gang-1930-015",
+      "frame-the-chain-gang-1930-016",
+      "frame-the-cactus-kid-1930-001",
+      "frame-the-cactus-kid-1930-002",
+      "frame-the-cactus-kid-1930-003",
+      "frame-the-cactus-kid-1930-004",
+      "frame-the-cactus-kid-1930-005",
+      "frame-the-cactus-kid-1930-006",
+      "frame-the-cactus-kid-1930-007",
+      "frame-the-cactus-kid-1930-008",
+      "frame-the-cactus-kid-1930-009",
+      "frame-the-cactus-kid-1930-010",
+      "frame-the-cactus-kid-1930-011",
+      "frame-the-cactus-kid-1930-012",
+      "frame-the-cactus-kid-1930-013",
+      "frame-the-cactus-kid-1930-014",
+      "frame-the-cactus-kid-1930-015",
+      "frame-the-gorilla-mystery-1930-001",
+      "frame-the-gorilla-mystery-1930-002",
+      "frame-the-gorilla-mystery-1930-003",
+      "frame-the-gorilla-mystery-1930-004",
+      "frame-the-gorilla-mystery-1930-005",
+      "frame-the-gorilla-mystery-1930-006",
+      "frame-the-gorilla-mystery-1930-007",
+      "frame-the-gorilla-mystery-1930-008",
+      "frame-the-gorilla-mystery-1930-009",
+      "frame-the-gorilla-mystery-1930-010",
+      "frame-the-gorilla-mystery-1930-011",
+      "frame-the-gorilla-mystery-1930-012",
+      "frame-the-gorilla-mystery-1930-013",
+      "frame-the-gorilla-mystery-1930-014",
+      "frame-the-gorilla-mystery-1930-015",
+      "frame-the-barnyard-concert-1930-001",
+      "frame-the-barnyard-concert-1930-002",
+      "frame-the-barnyard-concert-1930-003",
+      "frame-the-barnyard-concert-1930-004",
+      "frame-the-barnyard-concert-1930-005",
+      "frame-the-barnyard-concert-1930-006",
+      "frame-the-barnyard-concert-1930-007",
+      "frame-the-barnyard-concert-1930-008",
+      "frame-the-barnyard-concert-1930-009",
+      "frame-the-barnyard-concert-1930-010",
+      "frame-the-barnyard-concert-1930-011",
+      "frame-the-barnyard-concert-1930-012",
+      "frame-the-shindig-1930-001",
+      "frame-the-shindig-1930-002",
+      "frame-the-shindig-1930-003",
+      "frame-the-shindig-1930-004",
+      "frame-the-shindig-1930-005",
+      "frame-the-shindig-1930-006",
+      "frame-the-shindig-1930-007",
+      "frame-the-shindig-1930-008",
+      "frame-the-shindig-1930-009",
+      "frame-the-shindig-1930-010",
+      "frame-the-shindig-1930-011",
+      "frame-the-shindig-1930-012",
+      "frame-the-shindig-1930-013",
+      "frame-the-shindig-1930-014",
+      "frame-fiddling-around-1930-001",
+      "frame-fiddling-around-1930-002",
+      "frame-fiddling-around-1930-003",
+      "frame-fiddling-around-1930-004",
+      "frame-fiddling-around-1930-005",
+      "frame-fiddling-around-1930-006",
+      "frame-fiddling-around-1930-007",
+      "frame-fiddling-around-1930-008",
+      "frame-fiddling-around-1930-009",
+      "frame-fiddling-around-1930-010",
+      "frame-fiddling-around-1930-011",
+      "frame-fiddling-around-1930-012",
+      "frame-fiddling-around-1930-013",
+      "frame-fiddling-around-1930-014",
+      "frame-the-picnic-1930-001",
+      "frame-the-picnic-1930-002",
+      "frame-the-picnic-1930-003",
+      "frame-the-picnic-1930-004",
+      "frame-the-picnic-1930-005",
+      "frame-the-picnic-1930-006",
+      "frame-the-picnic-1930-007",
+      "frame-the-picnic-1930-008",
+      "frame-the-picnic-1930-009",
+      "frame-the-picnic-1930-010",
+      "frame-the-picnic-1930-011",
+      "frame-the-picnic-1930-012",
+      "frame-the-picnic-1930-013",
+      "frame-the-picnic-1930-014",
+      "frame-pioneer-days-1930-001",
+      "frame-pioneer-days-1930-002",
+      "frame-pioneer-days-1930-003",
+      "frame-pioneer-days-1930-004",
+      "frame-pioneer-days-1930-005",
+      "frame-pioneer-days-1930-006",
+      "frame-pioneer-days-1930-007",
+      "frame-pioneer-days-1930-008",
+      "frame-pioneer-days-1930-009",
+      "frame-pioneer-days-1930-010",
+      "frame-pioneer-days-1930-011",
+      "frame-pioneer-days-1930-012",
+      "frame-pioneer-days-1930-013",
+      "frame-pioneer-days-1930-014",
+      "frame-pioneer-days-1930-015",
+      "frame-pioneer-days-1930-016",
+      "frame-the-fire-fighters-1930-001",
+      "frame-the-fire-fighters-1930-002",
+      "frame-the-fire-fighters-1930-003",
+      "frame-the-fire-fighters-1930-004",
+      "frame-the-fire-fighters-1930-005",
+      "frame-the-fire-fighters-1930-006",
+      "frame-the-fire-fighters-1930-007",
+      "frame-the-fire-fighters-1930-008",
+      "frame-the-fire-fighters-1930-009",
+      "frame-the-fire-fighters-1930-010",
+      "frame-the-fire-fighters-1930-011",
+      "frame-the-fire-fighters-1930-012",
+      "frame-the-fire-fighters-1930-013",
+      "frame-the-fire-fighters-1930-014",
+      "frame-the-fire-fighters-1930-015",
+      "frame-rumplewatt-1934-001",
+      "frame-rumplewatt-1934-002",
+      "catalog-mickey-rumplewatt-1934",
+      "catalog-mickey"
+    ],
+    "frameIds": [
+      "frame-the-chain-gang-1930-001",
+      "frame-the-chain-gang-1930-002",
+      "frame-the-chain-gang-1930-003",
+      "frame-the-chain-gang-1930-004",
+      "frame-the-chain-gang-1930-005",
+      "frame-the-chain-gang-1930-006",
+      "frame-the-chain-gang-1930-007",
+      "frame-the-chain-gang-1930-008",
+      "frame-the-chain-gang-1930-009",
+      "frame-the-chain-gang-1930-010",
+      "frame-the-chain-gang-1930-011",
+      "frame-the-chain-gang-1930-012",
+      "frame-the-chain-gang-1930-013",
+      "frame-the-chain-gang-1930-014",
+      "frame-the-chain-gang-1930-015",
+      "frame-the-chain-gang-1930-016",
+      "frame-the-cactus-kid-1930-001",
+      "frame-the-cactus-kid-1930-002",
+      "frame-the-cactus-kid-1930-003",
+      "frame-the-cactus-kid-1930-004",
+      "frame-the-cactus-kid-1930-005",
+      "frame-the-cactus-kid-1930-006",
+      "frame-the-cactus-kid-1930-007",
+      "frame-the-cactus-kid-1930-008",
+      "frame-the-cactus-kid-1930-009",
+      "frame-the-cactus-kid-1930-010",
+      "frame-the-cactus-kid-1930-011",
+      "frame-the-cactus-kid-1930-012",
+      "frame-the-cactus-kid-1930-013",
+      "frame-the-cactus-kid-1930-014",
+      "frame-the-cactus-kid-1930-015",
+      "frame-the-gorilla-mystery-1930-001",
+      "frame-the-gorilla-mystery-1930-002",
+      "frame-the-gorilla-mystery-1930-003",
+      "frame-the-gorilla-mystery-1930-004",
+      "frame-the-gorilla-mystery-1930-005",
+      "frame-the-gorilla-mystery-1930-006",
+      "frame-the-gorilla-mystery-1930-007",
+      "frame-the-gorilla-mystery-1930-008",
+      "frame-the-gorilla-mystery-1930-009",
+      "frame-the-gorilla-mystery-1930-010",
+      "frame-the-gorilla-mystery-1930-011",
+      "frame-the-gorilla-mystery-1930-012",
+      "frame-the-gorilla-mystery-1930-013",
+      "frame-the-gorilla-mystery-1930-014",
+      "frame-the-gorilla-mystery-1930-015",
+      "frame-the-barnyard-concert-1930-001",
+      "frame-the-barnyard-concert-1930-002",
+      "frame-the-barnyard-concert-1930-003",
+      "frame-the-barnyard-concert-1930-004",
+      "frame-the-barnyard-concert-1930-005",
+      "frame-the-barnyard-concert-1930-006",
+      "frame-the-barnyard-concert-1930-007",
+      "frame-the-barnyard-concert-1930-008",
+      "frame-the-barnyard-concert-1930-009",
+      "frame-the-barnyard-concert-1930-010",
+      "frame-the-barnyard-concert-1930-011",
+      "frame-the-barnyard-concert-1930-012",
+      "frame-the-shindig-1930-001",
+      "frame-the-shindig-1930-002",
+      "frame-the-shindig-1930-003",
+      "frame-the-shindig-1930-004",
+      "frame-the-shindig-1930-005",
+      "frame-the-shindig-1930-006",
+      "frame-the-shindig-1930-007",
+      "frame-the-shindig-1930-008",
+      "frame-the-shindig-1930-009",
+      "frame-the-shindig-1930-010",
+      "frame-the-shindig-1930-011",
+      "frame-the-shindig-1930-012",
+      "frame-the-shindig-1930-013",
+      "frame-the-shindig-1930-014",
+      "frame-fiddling-around-1930-001",
+      "frame-fiddling-around-1930-002",
+      "frame-fiddling-around-1930-003",
+      "frame-fiddling-around-1930-004",
+      "frame-fiddling-around-1930-005",
+      "frame-fiddling-around-1930-006",
+      "frame-fiddling-around-1930-007",
+      "frame-fiddling-around-1930-008",
+      "frame-fiddling-around-1930-009",
+      "frame-fiddling-around-1930-010",
+      "frame-fiddling-around-1930-011",
+      "frame-fiddling-around-1930-012",
+      "frame-fiddling-around-1930-013",
+      "frame-fiddling-around-1930-014",
+      "frame-the-picnic-1930-001",
+      "frame-the-picnic-1930-002",
+      "frame-the-picnic-1930-003",
+      "frame-the-picnic-1930-004",
+      "frame-the-picnic-1930-005",
+      "frame-the-picnic-1930-006",
+      "frame-the-picnic-1930-007",
+      "frame-the-picnic-1930-008",
+      "frame-the-picnic-1930-009",
+      "frame-the-picnic-1930-010",
+      "frame-the-picnic-1930-011",
+      "frame-the-picnic-1930-012",
+      "frame-the-picnic-1930-013",
+      "frame-the-picnic-1930-014",
+      "frame-pioneer-days-1930-001",
+      "frame-pioneer-days-1930-002",
+      "frame-pioneer-days-1930-003",
+      "frame-pioneer-days-1930-004",
+      "frame-pioneer-days-1930-005",
+      "frame-pioneer-days-1930-006",
+      "frame-pioneer-days-1930-007",
+      "frame-pioneer-days-1930-008",
+      "frame-pioneer-days-1930-009",
+      "frame-pioneer-days-1930-010",
+      "frame-pioneer-days-1930-011",
+      "frame-pioneer-days-1930-012",
+      "frame-pioneer-days-1930-013",
+      "frame-pioneer-days-1930-014",
+      "frame-pioneer-days-1930-015",
+      "frame-pioneer-days-1930-016",
+      "frame-the-fire-fighters-1930-001",
+      "frame-the-fire-fighters-1930-002",
+      "frame-the-fire-fighters-1930-003",
+      "frame-the-fire-fighters-1930-004",
+      "frame-the-fire-fighters-1930-005",
+      "frame-the-fire-fighters-1930-006",
+      "frame-the-fire-fighters-1930-007",
+      "frame-the-fire-fighters-1930-008",
+      "frame-the-fire-fighters-1930-009",
+      "frame-the-fire-fighters-1930-010",
+      "frame-the-fire-fighters-1930-011",
+      "frame-the-fire-fighters-1930-012",
+      "frame-the-fire-fighters-1930-013",
+      "frame-the-fire-fighters-1930-014",
+      "frame-the-fire-fighters-1930-015",
+      "frame-rumplewatt-1934-001",
+      "frame-rumplewatt-1934-002"
+    ],
+    "workCount": 11,
+    "imageCount": 134,
+    "frameCount": 133,
+    "rightsBreakdown": {
+      "期限届满": 10,
+      "未续期": 1
+    },
+    "copyrightRoutes": [
+      "期限届满",
+      "美国旧法未续期",
+      "未续期",
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "动物 / 自然",
+      "万圣节",
+      "童话 / 寓言"
+    ],
+    "topScenes": [
+      {
+        "name": "动作",
+        "count": 46
+      },
+      {
+        "name": "音乐 / 舞蹈",
+        "count": 40
+      },
+      {
+        "name": "爱情 / 约会",
+        "count": 32
+      },
+      {
+        "name": "西部",
+        "count": 31
+      },
+      {
+        "name": "追逐",
+        "count": 31
+      },
+      {
+        "name": "营救",
+        "count": 30
+      },
+      {
+        "name": "动物伙伴",
+        "count": 16
+      },
+      {
+        "name": "劳动",
+        "count": 16
+      },
+      {
+        "name": "旅行",
+        "count": 16
+      },
+      {
+        "name": "营地",
+        "count": 16
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "橡皮管动画",
+        "count": 132
+      },
+      {
+        "name": "早期 Disney",
+        "count": 131
+      },
+      {
+        "name": "西部片",
+        "count": 31
+      },
+      {
+        "name": "报刊连环画",
+        "count": 3
+      },
+      {
+        "name": "童话冒险",
+        "count": 3
+      },
+      {
+        "name": "早期动画 / 漫画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "情人节",
+        "count": 17
+      },
+      {
+        "name": "万圣节",
+        "count": 15
+      },
+      {
+        "name": "春季 / 复活节",
+        "count": 14
+      }
+    ],
+    "usage": "版权公版不等于低摩擦；服装商品极易产生来源混淆。",
+    "avoid": "现代白手套、红短裤/黄鞋配色、后续脸型和 Disney 品牌化呈现。",
+    "awarenessScore": 86,
+    "sourceCount": 11,
+    "relatedEntityIds": [
+      "role-minnie-mouse-b07065a5",
+      "role-rover-pluto-8d61d09f",
+      "role-拓荒者群像-f36e70f4",
+      "role-peg-leg-pete-09b61c51",
+      "role-gorilla-ccbe2268",
+      "role-消防队-24a0e885",
+      "role-乡村动物群像-1eb8c230",
+      "role-农场动物乐队-f8e4cfc2",
+      "role-rumplewatt-e21e6a90",
+      "role-gnomes-91b12ba6"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-the-chain-gang追逐与越狱-9c106ad9",
+      "title": "《The Chain Gang》追逐与越狱",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/7e9b5fbc852591b31654.webp",
+      "coverRecordId": "frame-the-chain-gang-1930-001",
+      "sourceUrl": "https://archive.org/details/the-chain-gang_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "橡皮管动画 · 早期 Disney · 劳动 · 追逐",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "橡皮管动画",
+        "早期 Disney"
+      ],
+      "scenes": [
+        "劳动",
+        "追逐",
+        "动物伙伴"
+      ],
+      "holidays": [],
+      "characterNames": [
+        "Mickey Mouse",
+        "Rover / Pluto"
+      ],
+      "characterAliases": [
+        "Mickey Mouse",
+        "未命名寻血猎犬（Rover/Pluto 前身）"
+      ],
+      "recordIds": [
+        "frame-the-chain-gang-1930-001",
+        "frame-the-chain-gang-1930-002",
+        "frame-the-chain-gang-1930-003",
+        "frame-the-chain-gang-1930-004",
+        "frame-the-chain-gang-1930-005",
+        "frame-the-chain-gang-1930-006",
+        "frame-the-chain-gang-1930-007",
+        "frame-the-chain-gang-1930-008",
+        "frame-the-chain-gang-1930-009",
+        "frame-the-chain-gang-1930-010",
+        "frame-the-chain-gang-1930-011",
+        "frame-the-chain-gang-1930-012",
+        "frame-the-chain-gang-1930-013",
+        "frame-the-chain-gang-1930-014",
+        "frame-the-chain-gang-1930-015",
+        "frame-the-chain-gang-1930-016"
+      ],
+      "frameIds": [
+        "frame-the-chain-gang-1930-001",
+        "frame-the-chain-gang-1930-002",
+        "frame-the-chain-gang-1930-003",
+        "frame-the-chain-gang-1930-004",
+        "frame-the-chain-gang-1930-005",
+        "frame-the-chain-gang-1930-006",
+        "frame-the-chain-gang-1930-007",
+        "frame-the-chain-gang-1930-008",
+        "frame-the-chain-gang-1930-009",
+        "frame-the-chain-gang-1930-010",
+        "frame-the-chain-gang-1930-011",
+        "frame-the-chain-gang-1930-012",
+        "frame-the-chain-gang-1930-013",
+        "frame-the-chain-gang-1930-014",
+        "frame-the-chain-gang-1930-015",
+        "frame-the-chain-gang-1930-016"
+      ],
+      "masterIds": [],
+      "imageCount": 16,
+      "frameCount": 16,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-rover-pluto-8d61d09f"
+      ]
+    },
+    {
+      "id": "work-the-cactus-kid西部酒馆-f34d3ea1",
+      "title": "《The Cactus Kid》西部酒馆",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/9fe2dfd88c98c5e366bc.webp",
+      "coverRecordId": "frame-the-cactus-kid-1930-001",
+      "sourceUrl": "https://archive.org/details/the-cactus-kid_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "橡皮管动画 · 早期 Disney · 西部片 · 西部",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "橡皮管动画",
+        "早期 Disney",
+        "西部片"
+      ],
+      "scenes": [
+        "西部",
+        "酒馆",
+        "爱情 / 约会",
+        "动作"
+      ],
+      "holidays": [],
+      "characterNames": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "Peg-Leg Pete"
+      ],
+      "characterAliases": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "Peg-Leg Pete"
+      ],
+      "recordIds": [
+        "frame-the-cactus-kid-1930-001",
+        "frame-the-cactus-kid-1930-002",
+        "frame-the-cactus-kid-1930-003",
+        "frame-the-cactus-kid-1930-004",
+        "frame-the-cactus-kid-1930-005",
+        "frame-the-cactus-kid-1930-006",
+        "frame-the-cactus-kid-1930-007",
+        "frame-the-cactus-kid-1930-008",
+        "frame-the-cactus-kid-1930-009",
+        "frame-the-cactus-kid-1930-010",
+        "frame-the-cactus-kid-1930-011",
+        "frame-the-cactus-kid-1930-012",
+        "frame-the-cactus-kid-1930-013",
+        "frame-the-cactus-kid-1930-014",
+        "frame-the-cactus-kid-1930-015"
+      ],
+      "frameIds": [
+        "frame-the-cactus-kid-1930-001",
+        "frame-the-cactus-kid-1930-002",
+        "frame-the-cactus-kid-1930-003",
+        "frame-the-cactus-kid-1930-004",
+        "frame-the-cactus-kid-1930-005",
+        "frame-the-cactus-kid-1930-006",
+        "frame-the-cactus-kid-1930-007",
+        "frame-the-cactus-kid-1930-008",
+        "frame-the-cactus-kid-1930-009",
+        "frame-the-cactus-kid-1930-010",
+        "frame-the-cactus-kid-1930-011",
+        "frame-the-cactus-kid-1930-012",
+        "frame-the-cactus-kid-1930-013",
+        "frame-the-cactus-kid-1930-014",
+        "frame-the-cactus-kid-1930-015"
+      ],
+      "masterIds": [],
+      "imageCount": 15,
+      "frameCount": 15,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5",
+        "role-peg-leg-pete-09b61c51"
+      ]
+    },
+    {
+      "id": "work-the-gorilla-mystery猩猩谜案-023ad571",
+      "title": "《The Gorilla Mystery》猩猩谜案",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/d072ef4d2f9769cf43f1.webp",
+      "coverRecordId": "frame-the-gorilla-mystery-1930-001",
+      "sourceUrl": "https://archive.org/details/the-gorilla-mystery_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "橡皮管动画 · 早期 Disney · 家庭 / 室内 · 怪兽",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然",
+        "万圣节"
+      ],
+      "styles": [
+        "橡皮管动画",
+        "早期 Disney"
+      ],
+      "scenes": [
+        "家庭 / 室内",
+        "怪兽",
+        "营救",
+        "追逐"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "Gorilla"
+      ],
+      "characterAliases": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "Gorilla"
+      ],
+      "recordIds": [
+        "frame-the-gorilla-mystery-1930-001",
+        "frame-the-gorilla-mystery-1930-002",
+        "frame-the-gorilla-mystery-1930-003",
+        "frame-the-gorilla-mystery-1930-004",
+        "frame-the-gorilla-mystery-1930-005",
+        "frame-the-gorilla-mystery-1930-006",
+        "frame-the-gorilla-mystery-1930-007",
+        "frame-the-gorilla-mystery-1930-008",
+        "frame-the-gorilla-mystery-1930-009",
+        "frame-the-gorilla-mystery-1930-010",
+        "frame-the-gorilla-mystery-1930-011",
+        "frame-the-gorilla-mystery-1930-012",
+        "frame-the-gorilla-mystery-1930-013",
+        "frame-the-gorilla-mystery-1930-014",
+        "frame-the-gorilla-mystery-1930-015"
+      ],
+      "frameIds": [
+        "frame-the-gorilla-mystery-1930-001",
+        "frame-the-gorilla-mystery-1930-002",
+        "frame-the-gorilla-mystery-1930-003",
+        "frame-the-gorilla-mystery-1930-004",
+        "frame-the-gorilla-mystery-1930-005",
+        "frame-the-gorilla-mystery-1930-006",
+        "frame-the-gorilla-mystery-1930-007",
+        "frame-the-gorilla-mystery-1930-008",
+        "frame-the-gorilla-mystery-1930-009",
+        "frame-the-gorilla-mystery-1930-010",
+        "frame-the-gorilla-mystery-1930-011",
+        "frame-the-gorilla-mystery-1930-012",
+        "frame-the-gorilla-mystery-1930-013",
+        "frame-the-gorilla-mystery-1930-014",
+        "frame-the-gorilla-mystery-1930-015"
+      ],
+      "masterIds": [],
+      "imageCount": 15,
+      "frameCount": 15,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5",
+        "role-gorilla-ccbe2268"
+      ]
+    },
+    {
+      "id": "work-the-barnyard-concert农场音乐会-4f752d5c",
+      "title": "《The Barnyard Concert》农场音乐会",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/3707d29422188fa7311a.webp",
+      "coverRecordId": "frame-the-barnyard-concert-1930-001",
+      "sourceUrl": "https://archive.org/details/the-barnyard-concert_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "橡皮管动画 · 早期 Disney · 农场 · 音乐 / 舞蹈",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "橡皮管动画",
+        "早期 Disney"
+      ],
+      "scenes": [
+        "农场",
+        "音乐 / 舞蹈",
+        "动物群像"
+      ],
+      "holidays": [],
+      "characterNames": [
+        "Mickey Mouse",
+        "农场动物乐队"
+      ],
+      "characterAliases": [
+        "Mickey Mouse",
+        "农场动物乐队"
+      ],
+      "recordIds": [
+        "frame-the-barnyard-concert-1930-001",
+        "frame-the-barnyard-concert-1930-002",
+        "frame-the-barnyard-concert-1930-003",
+        "frame-the-barnyard-concert-1930-004",
+        "frame-the-barnyard-concert-1930-005",
+        "frame-the-barnyard-concert-1930-006",
+        "frame-the-barnyard-concert-1930-007",
+        "frame-the-barnyard-concert-1930-008",
+        "frame-the-barnyard-concert-1930-009",
+        "frame-the-barnyard-concert-1930-010",
+        "frame-the-barnyard-concert-1930-011",
+        "frame-the-barnyard-concert-1930-012"
+      ],
+      "frameIds": [
+        "frame-the-barnyard-concert-1930-001",
+        "frame-the-barnyard-concert-1930-002",
+        "frame-the-barnyard-concert-1930-003",
+        "frame-the-barnyard-concert-1930-004",
+        "frame-the-barnyard-concert-1930-005",
+        "frame-the-barnyard-concert-1930-006",
+        "frame-the-barnyard-concert-1930-007",
+        "frame-the-barnyard-concert-1930-008",
+        "frame-the-barnyard-concert-1930-009",
+        "frame-the-barnyard-concert-1930-010",
+        "frame-the-barnyard-concert-1930-011",
+        "frame-the-barnyard-concert-1930-012"
+      ],
+      "masterIds": [],
+      "imageCount": 12,
+      "frameCount": 12,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-农场动物乐队-f8e4cfc2"
+      ]
+    },
+    {
+      "id": "work-the-shindig乡村舞会-a41d1b28",
+      "title": "《The Shindig》乡村舞会",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/f8d45fef597cf8362595.webp",
+      "coverRecordId": "frame-the-shindig-1930-001",
+      "sourceUrl": "https://archive.org/details/the-shindig_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "橡皮管动画 · 早期 Disney · 派对 · 音乐 / 舞蹈",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "橡皮管动画",
+        "早期 Disney"
+      ],
+      "scenes": [
+        "派对",
+        "音乐 / 舞蹈",
+        "乡村"
+      ],
+      "holidays": [],
+      "characterNames": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "乡村动物群像"
+      ],
+      "characterAliases": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "乡村动物群像"
+      ],
+      "recordIds": [
+        "frame-the-shindig-1930-001",
+        "frame-the-shindig-1930-002",
+        "frame-the-shindig-1930-003",
+        "frame-the-shindig-1930-004",
+        "frame-the-shindig-1930-005",
+        "frame-the-shindig-1930-006",
+        "frame-the-shindig-1930-007",
+        "frame-the-shindig-1930-008",
+        "frame-the-shindig-1930-009",
+        "frame-the-shindig-1930-010",
+        "frame-the-shindig-1930-011",
+        "frame-the-shindig-1930-012",
+        "frame-the-shindig-1930-013",
+        "frame-the-shindig-1930-014"
+      ],
+      "frameIds": [
+        "frame-the-shindig-1930-001",
+        "frame-the-shindig-1930-002",
+        "frame-the-shindig-1930-003",
+        "frame-the-shindig-1930-004",
+        "frame-the-shindig-1930-005",
+        "frame-the-shindig-1930-006",
+        "frame-the-shindig-1930-007",
+        "frame-the-shindig-1930-008",
+        "frame-the-shindig-1930-009",
+        "frame-the-shindig-1930-010",
+        "frame-the-shindig-1930-011",
+        "frame-the-shindig-1930-012",
+        "frame-the-shindig-1930-013",
+        "frame-the-shindig-1930-014"
+      ],
+      "masterIds": [],
+      "imageCount": 14,
+      "frameCount": 14,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5",
+        "role-乡村动物群像-1eb8c230"
+      ]
+    },
+    {
+      "id": "work-fiddling-around小提琴独奏-1a7a3686",
+      "title": "《Fiddling Around》小提琴独奏",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/461f808376e4454ca68e.webp",
+      "coverRecordId": "frame-fiddling-around-1930-001",
+      "sourceUrl": "https://archive.org/details/fiddling-around-aka-just-mickey_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "橡皮管动画 · 早期 Disney · 舞台 / 表演 · 音乐 / 舞蹈",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "橡皮管动画",
+        "早期 Disney"
+      ],
+      "scenes": [
+        "舞台 / 表演",
+        "音乐 / 舞蹈",
+        "独角戏"
+      ],
+      "holidays": [],
+      "characterNames": [
+        "Mickey Mouse"
+      ],
+      "characterAliases": [
+        "Mickey Mouse"
+      ],
+      "recordIds": [
+        "frame-fiddling-around-1930-001",
+        "frame-fiddling-around-1930-002",
+        "frame-fiddling-around-1930-003",
+        "frame-fiddling-around-1930-004",
+        "frame-fiddling-around-1930-005",
+        "frame-fiddling-around-1930-006",
+        "frame-fiddling-around-1930-007",
+        "frame-fiddling-around-1930-008",
+        "frame-fiddling-around-1930-009",
+        "frame-fiddling-around-1930-010",
+        "frame-fiddling-around-1930-011",
+        "frame-fiddling-around-1930-012",
+        "frame-fiddling-around-1930-013",
+        "frame-fiddling-around-1930-014"
+      ],
+      "frameIds": [
+        "frame-fiddling-around-1930-001",
+        "frame-fiddling-around-1930-002",
+        "frame-fiddling-around-1930-003",
+        "frame-fiddling-around-1930-004",
+        "frame-fiddling-around-1930-005",
+        "frame-fiddling-around-1930-006",
+        "frame-fiddling-around-1930-007",
+        "frame-fiddling-around-1930-008",
+        "frame-fiddling-around-1930-009",
+        "frame-fiddling-around-1930-010",
+        "frame-fiddling-around-1930-011",
+        "frame-fiddling-around-1930-012",
+        "frame-fiddling-around-1930-013",
+        "frame-fiddling-around-1930-014"
+      ],
+      "masterIds": [],
+      "imageCount": 14,
+      "frameCount": 14,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-mickey-mouse-ac752a50"
+      ]
+    },
+    {
+      "id": "work-the-picnic郊外野餐-0d17c756",
+      "title": "《The Picnic》郊外野餐",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/5c60096a5560b5c3462a.webp",
+      "coverRecordId": "frame-the-picnic-1930-001",
+      "sourceUrl": "https://archive.org/details/the-picnic_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "橡皮管动画 · 早期 Disney · 户外 · 野餐",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "橡皮管动画",
+        "早期 Disney"
+      ],
+      "scenes": [
+        "户外",
+        "野餐",
+        "爱情 / 约会",
+        "宠物"
+      ],
+      "holidays": [
+        "情人节",
+        "春季 / 复活节"
+      ],
+      "characterNames": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "Rover / Pluto"
+      ],
+      "characterAliases": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "Rover"
+      ],
+      "recordIds": [
+        "frame-the-picnic-1930-001",
+        "frame-the-picnic-1930-002",
+        "frame-the-picnic-1930-003",
+        "frame-the-picnic-1930-004",
+        "frame-the-picnic-1930-005",
+        "frame-the-picnic-1930-006",
+        "frame-the-picnic-1930-007",
+        "frame-the-picnic-1930-008",
+        "frame-the-picnic-1930-009",
+        "frame-the-picnic-1930-010",
+        "frame-the-picnic-1930-011",
+        "frame-the-picnic-1930-012",
+        "frame-the-picnic-1930-013",
+        "frame-the-picnic-1930-014"
+      ],
+      "frameIds": [
+        "frame-the-picnic-1930-001",
+        "frame-the-picnic-1930-002",
+        "frame-the-picnic-1930-003",
+        "frame-the-picnic-1930-004",
+        "frame-the-picnic-1930-005",
+        "frame-the-picnic-1930-006",
+        "frame-the-picnic-1930-007",
+        "frame-the-picnic-1930-008",
+        "frame-the-picnic-1930-009",
+        "frame-the-picnic-1930-010",
+        "frame-the-picnic-1930-011",
+        "frame-the-picnic-1930-012",
+        "frame-the-picnic-1930-013",
+        "frame-the-picnic-1930-014"
+      ],
+      "masterIds": [],
+      "imageCount": 14,
+      "frameCount": 14,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-rover-pluto-8d61d09f",
+        "role-minnie-mouse-b07065a5"
+      ]
+    },
+    {
+      "id": "work-pioneer-days拓荒旅途-ebdad9c4",
+      "title": "《Pioneer Days》拓荒旅途",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/130307042beace323520.webp",
+      "coverRecordId": "frame-pioneer-days-1930-001",
+      "sourceUrl": "https://archive.org/details/pioneer-days_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "以来源页为准"
+      ],
+      "usage": "橡皮管动画 · 早期 Disney · 西部片 · 旅行",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "橡皮管动画",
+        "早期 Disney",
+        "西部片"
+      ],
+      "scenes": [
+        "旅行",
+        "西部",
+        "营地",
+        "动作"
+      ],
+      "holidays": [],
+      "characterNames": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "拓荒者群像"
+      ],
+      "characterAliases": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "拓荒者群像"
+      ],
+      "recordIds": [
+        "frame-pioneer-days-1930-001",
+        "frame-pioneer-days-1930-002",
+        "frame-pioneer-days-1930-003",
+        "frame-pioneer-days-1930-004",
+        "frame-pioneer-days-1930-005",
+        "frame-pioneer-days-1930-006",
+        "frame-pioneer-days-1930-007",
+        "frame-pioneer-days-1930-008",
+        "frame-pioneer-days-1930-009",
+        "frame-pioneer-days-1930-010",
+        "frame-pioneer-days-1930-011",
+        "frame-pioneer-days-1930-012",
+        "frame-pioneer-days-1930-013",
+        "frame-pioneer-days-1930-014",
+        "frame-pioneer-days-1930-015",
+        "frame-pioneer-days-1930-016"
+      ],
+      "frameIds": [
+        "frame-pioneer-days-1930-001",
+        "frame-pioneer-days-1930-002",
+        "frame-pioneer-days-1930-003",
+        "frame-pioneer-days-1930-004",
+        "frame-pioneer-days-1930-005",
+        "frame-pioneer-days-1930-006",
+        "frame-pioneer-days-1930-007",
+        "frame-pioneer-days-1930-008",
+        "frame-pioneer-days-1930-009",
+        "frame-pioneer-days-1930-010",
+        "frame-pioneer-days-1930-011",
+        "frame-pioneer-days-1930-012",
+        "frame-pioneer-days-1930-013",
+        "frame-pioneer-days-1930-014",
+        "frame-pioneer-days-1930-015",
+        "frame-pioneer-days-1930-016"
+      ],
+      "masterIds": [],
+      "imageCount": 16,
+      "frameCount": 16,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5",
+        "role-拓荒者群像-f36e70f4"
+      ]
+    },
+    {
+      "id": "work-the-fire-fighters城市救火-20e9a170",
+      "title": "《The Fire Fighters》城市救火",
+      "subtitle": "",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/de22bb247d2f7babc021.webp",
+      "coverRecordId": "frame-the-fire-fighters-1930-001",
+      "sourceUrl": "https://archive.org/details/the-fire-fighters-1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "来源页标记为 Public Domain"
+      ],
+      "usage": "橡皮管动画 · 早期 Disney · 城市 · 消防",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "橡皮管动画",
+        "早期 Disney"
+      ],
+      "scenes": [
+        "城市",
+        "消防",
+        "营救",
+        "动作"
+      ],
+      "holidays": [],
+      "characterNames": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "消防队"
+      ],
+      "characterAliases": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "消防队"
+      ],
+      "recordIds": [
+        "frame-the-fire-fighters-1930-001",
+        "frame-the-fire-fighters-1930-002",
+        "frame-the-fire-fighters-1930-003",
+        "frame-the-fire-fighters-1930-004",
+        "frame-the-fire-fighters-1930-005",
+        "frame-the-fire-fighters-1930-006",
+        "frame-the-fire-fighters-1930-007",
+        "frame-the-fire-fighters-1930-008",
+        "frame-the-fire-fighters-1930-009",
+        "frame-the-fire-fighters-1930-010",
+        "frame-the-fire-fighters-1930-011",
+        "frame-the-fire-fighters-1930-012",
+        "frame-the-fire-fighters-1930-013",
+        "frame-the-fire-fighters-1930-014",
+        "frame-the-fire-fighters-1930-015"
+      ],
+      "frameIds": [
+        "frame-the-fire-fighters-1930-001",
+        "frame-the-fire-fighters-1930-002",
+        "frame-the-fire-fighters-1930-003",
+        "frame-the-fire-fighters-1930-004",
+        "frame-the-fire-fighters-1930-005",
+        "frame-the-fire-fighters-1930-006",
+        "frame-the-fire-fighters-1930-007",
+        "frame-the-fire-fighters-1930-008",
+        "frame-the-fire-fighters-1930-009",
+        "frame-the-fire-fighters-1930-010",
+        "frame-the-fire-fighters-1930-011",
+        "frame-the-fire-fighters-1930-012",
+        "frame-the-fire-fighters-1930-013",
+        "frame-the-fire-fighters-1930-014",
+        "frame-the-fire-fighters-1930-015"
+      ],
+      "masterIds": [],
+      "imageCount": 15,
+      "frameCount": 15,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5",
+        "role-消防队-24a0e885"
+      ]
+    },
+    {
+      "id": "work-rumplewatt-the-giant未续期边界案例-927928fd",
+      "title": "《Rumplewatt the Giant》未续期边界案例",
+      "subtitle": "1934 漫画；未续期边界案例",
+      "year": "1934",
+      "yearSort": 1934,
+      "coverImage": "images/6a5eb58e0f4b6b20f87e.webp",
+      "coverRecordId": "catalog-mickey-rumplewatt-1934",
+      "sourceUrl": "https://web.law.duke.edu/cspd/publicdomainday/2026/",
+      "sourceLabel": "Duke CSPD",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "未续期"
+      ],
+      "copyrightRoutes": [
+        "美国旧法未续期",
+        "未续期"
+      ],
+      "evidenceLevels": [
+        "B",
+        "C"
+      ],
+      "imageRights": [
+        "以来源页为准",
+        "Duke 研究页摘录；逐格使用前须回查原条漫"
+      ],
+      "usage": "把它当作“新旧素材倒置”的教学案例；任何实际使用先做逐格来源比对。",
+      "avoid": "糖罐、咖啡杯和胡椒喷嚏等表达源自仍受保护的《Giantland》(1933)，即使出现在未续期漫画中也不能据此转用。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "报刊连环画",
+        "童话冒险"
+      ],
+      "scenes": [
+        "巨人",
+        "城堡",
+        "金鹅",
+        "爱情 / 约会"
+      ],
+      "holidays": [
+        "情人节"
+      ],
+      "characterNames": [
+        "Mickey Mouse",
+        "Minnie Mouse",
+        "Rumplewatt",
+        "Gnomes"
+      ],
+      "characterAliases": [
+        "Mickey Mouse",
+        "Princess Minnie",
+        "Rumplewatt",
+        "Gnomes"
+      ],
+      "recordIds": [
+        "frame-rumplewatt-1934-001",
+        "frame-rumplewatt-1934-002",
+        "catalog-mickey-rumplewatt-1934"
+      ],
+      "frameIds": [
+        "frame-rumplewatt-1934-001",
+        "frame-rumplewatt-1934-002"
+      ],
+      "masterIds": [
+        "catalog-mickey-rumplewatt-1934"
+      ],
+      "imageCount": 2,
+      "frameCount": 2,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5",
+        "role-rumplewatt-e21e6a90",
+        "role-gnomes-91b12ba6"
+      ]
+    },
+    {
+      "id": "work-mickey-mouse-1-0-1795eca9",
+      "title": "Mickey Mouse 1.0",
+      "subtitle": "《Steamboat Willie》· 1928",
+      "year": "1928",
+      "yearSort": 1928,
+      "coverImage": "images/f78b0219dda15335c363.webp",
+      "coverRecordId": "catalog-mickey",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mickey_Mouse_-_Steamboat_Willie_(1928).jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "版权公版不等于低摩擦；服装商品极易产生来源混淆。",
+      "avoid": "现代白手套、红短裤/黄鞋配色、后续脸型和 Disney 品牌化呈现。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "早期动画 / 漫画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "海滨 / 水下",
+        "动物 / 宠物"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-mickey"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-mickey"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 86,
+      "entityIds": [
+        "role-mickey-mouse-ac752a50"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-minnie-mouse-b07065a5",
+      "name": "Minnie Mouse",
+      "type": "角色",
+      "aliases": [
+        "Princess Minnie"
+      ],
+      "virtual": false,
+      "coverImage": "images/afea03ae1a78fa114b66.webp",
+      "coverRecordId": "catalog-minnie",
+      "yearStart": 1928,
+      "yearEnd": 1934,
+      "workIds": [
+        "work-the-cactus-kid西部酒馆-f34d3ea1",
+        "work-the-gorilla-mystery猩猩谜案-023ad571",
+        "work-the-shindig乡村舞会-a41d1b28",
+        "work-the-picnic郊外野餐-0d17c756",
+        "work-pioneer-days拓荒旅途-ebdad9c4",
+        "work-the-fire-fighters城市救火-20e9a170",
+        "work-rumplewatt-the-giant未续期边界案例-927928fd",
+        "work-minnie-mouse-1-0-0ed10699"
+      ],
+      "recordIds": [
+        "frame-the-cactus-kid-1930-001",
+        "frame-the-cactus-kid-1930-002",
+        "frame-the-cactus-kid-1930-003",
+        "frame-the-cactus-kid-1930-004",
+        "frame-the-cactus-kid-1930-005",
+        "frame-the-cactus-kid-1930-006",
+        "frame-the-cactus-kid-1930-007",
+        "frame-the-cactus-kid-1930-008",
+        "frame-the-cactus-kid-1930-009",
+        "frame-the-cactus-kid-1930-010",
+        "frame-the-cactus-kid-1930-011",
+        "frame-the-cactus-kid-1930-012",
+        "frame-the-cactus-kid-1930-013",
+        "frame-the-cactus-kid-1930-014",
+        "frame-the-cactus-kid-1930-015",
+        "frame-the-gorilla-mystery-1930-001",
+        "frame-the-gorilla-mystery-1930-002",
+        "frame-the-gorilla-mystery-1930-003",
+        "frame-the-gorilla-mystery-1930-004",
+        "frame-the-gorilla-mystery-1930-005",
+        "frame-the-gorilla-mystery-1930-006",
+        "frame-the-gorilla-mystery-1930-007",
+        "frame-the-gorilla-mystery-1930-008",
+        "frame-the-gorilla-mystery-1930-009",
+        "frame-the-gorilla-mystery-1930-010",
+        "frame-the-gorilla-mystery-1930-011",
+        "frame-the-gorilla-mystery-1930-012",
+        "frame-the-gorilla-mystery-1930-013",
+        "frame-the-gorilla-mystery-1930-014",
+        "frame-the-gorilla-mystery-1930-015",
+        "frame-the-shindig-1930-001",
+        "frame-the-shindig-1930-002",
+        "frame-the-shindig-1930-003",
+        "frame-the-shindig-1930-004",
+        "frame-the-shindig-1930-005",
+        "frame-the-shindig-1930-006",
+        "frame-the-shindig-1930-007",
+        "frame-the-shindig-1930-008",
+        "frame-the-shindig-1930-009",
+        "frame-the-shindig-1930-010",
+        "frame-the-shindig-1930-011",
+        "frame-the-shindig-1930-012",
+        "frame-the-shindig-1930-013",
+        "frame-the-shindig-1930-014",
+        "frame-the-picnic-1930-001",
+        "frame-the-picnic-1930-002",
+        "frame-the-picnic-1930-003",
+        "frame-the-picnic-1930-004",
+        "frame-the-picnic-1930-005",
+        "frame-the-picnic-1930-006",
+        "frame-the-picnic-1930-007",
+        "frame-the-picnic-1930-008",
+        "frame-the-picnic-1930-009",
+        "frame-the-picnic-1930-010",
+        "frame-the-picnic-1930-011",
+        "frame-the-picnic-1930-012",
+        "frame-the-picnic-1930-013",
+        "frame-the-picnic-1930-014",
+        "frame-pioneer-days-1930-001",
+        "frame-pioneer-days-1930-002",
+        "frame-pioneer-days-1930-003",
+        "frame-pioneer-days-1930-004",
+        "frame-pioneer-days-1930-005",
+        "frame-pioneer-days-1930-006",
+        "frame-pioneer-days-1930-007",
+        "frame-pioneer-days-1930-008",
+        "frame-pioneer-days-1930-009",
+        "frame-pioneer-days-1930-010",
+        "frame-pioneer-days-1930-011",
+        "frame-pioneer-days-1930-012",
+        "frame-pioneer-days-1930-013",
+        "frame-pioneer-days-1930-014",
+        "frame-pioneer-days-1930-015",
+        "frame-pioneer-days-1930-016",
+        "frame-the-fire-fighters-1930-001",
+        "frame-the-fire-fighters-1930-002",
+        "frame-the-fire-fighters-1930-003",
+        "frame-the-fire-fighters-1930-004",
+        "frame-the-fire-fighters-1930-005",
+        "frame-the-fire-fighters-1930-006",
+        "frame-the-fire-fighters-1930-007",
+        "frame-the-fire-fighters-1930-008",
+        "frame-the-fire-fighters-1930-009",
+        "frame-the-fire-fighters-1930-010",
+        "frame-the-fire-fighters-1930-011",
+        "frame-the-fire-fighters-1930-012",
+        "frame-the-fire-fighters-1930-013",
+        "frame-the-fire-fighters-1930-014",
+        "frame-the-fire-fighters-1930-015",
+        "frame-rumplewatt-1934-001",
+        "frame-rumplewatt-1934-002",
+        "catalog-mickey-rumplewatt-1934",
+        "catalog-minnie"
+      ],
+      "frameIds": [
+        "frame-the-cactus-kid-1930-001",
+        "frame-the-cactus-kid-1930-002",
+        "frame-the-cactus-kid-1930-003",
+        "frame-the-cactus-kid-1930-004",
+        "frame-the-cactus-kid-1930-005",
+        "frame-the-cactus-kid-1930-006",
+        "frame-the-cactus-kid-1930-007",
+        "frame-the-cactus-kid-1930-008",
+        "frame-the-cactus-kid-1930-009",
+        "frame-the-cactus-kid-1930-010",
+        "frame-the-cactus-kid-1930-011",
+        "frame-the-cactus-kid-1930-012",
+        "frame-the-cactus-kid-1930-013",
+        "frame-the-cactus-kid-1930-014",
+        "frame-the-cactus-kid-1930-015",
+        "frame-the-gorilla-mystery-1930-001",
+        "frame-the-gorilla-mystery-1930-002",
+        "frame-the-gorilla-mystery-1930-003",
+        "frame-the-gorilla-mystery-1930-004",
+        "frame-the-gorilla-mystery-1930-005",
+        "frame-the-gorilla-mystery-1930-006",
+        "frame-the-gorilla-mystery-1930-007",
+        "frame-the-gorilla-mystery-1930-008",
+        "frame-the-gorilla-mystery-1930-009",
+        "frame-the-gorilla-mystery-1930-010",
+        "frame-the-gorilla-mystery-1930-011",
+        "frame-the-gorilla-mystery-1930-012",
+        "frame-the-gorilla-mystery-1930-013",
+        "frame-the-gorilla-mystery-1930-014",
+        "frame-the-gorilla-mystery-1930-015",
+        "frame-the-shindig-1930-001",
+        "frame-the-shindig-1930-002",
+        "frame-the-shindig-1930-003",
+        "frame-the-shindig-1930-004",
+        "frame-the-shindig-1930-005",
+        "frame-the-shindig-1930-006",
+        "frame-the-shindig-1930-007",
+        "frame-the-shindig-1930-008",
+        "frame-the-shindig-1930-009",
+        "frame-the-shindig-1930-010",
+        "frame-the-shindig-1930-011",
+        "frame-the-shindig-1930-012",
+        "frame-the-shindig-1930-013",
+        "frame-the-shindig-1930-014",
+        "frame-the-picnic-1930-001",
+        "frame-the-picnic-1930-002",
+        "frame-the-picnic-1930-003",
+        "frame-the-picnic-1930-004",
+        "frame-the-picnic-1930-005",
+        "frame-the-picnic-1930-006",
+        "frame-the-picnic-1930-007",
+        "frame-the-picnic-1930-008",
+        "frame-the-picnic-1930-009",
+        "frame-the-picnic-1930-010",
+        "frame-the-picnic-1930-011",
+        "frame-the-picnic-1930-012",
+        "frame-the-picnic-1930-013",
+        "frame-the-picnic-1930-014",
+        "frame-pioneer-days-1930-001",
+        "frame-pioneer-days-1930-002",
+        "frame-pioneer-days-1930-003",
+        "frame-pioneer-days-1930-004",
+        "frame-pioneer-days-1930-005",
+        "frame-pioneer-days-1930-006",
+        "frame-pioneer-days-1930-007",
+        "frame-pioneer-days-1930-008",
+        "frame-pioneer-days-1930-009",
+        "frame-pioneer-days-1930-010",
+        "frame-pioneer-days-1930-011",
+        "frame-pioneer-days-1930-012",
+        "frame-pioneer-days-1930-013",
+        "frame-pioneer-days-1930-014",
+        "frame-pioneer-days-1930-015",
+        "frame-pioneer-days-1930-016",
+        "frame-the-fire-fighters-1930-001",
+        "frame-the-fire-fighters-1930-002",
+        "frame-the-fire-fighters-1930-003",
+        "frame-the-fire-fighters-1930-004",
+        "frame-the-fire-fighters-1930-005",
+        "frame-the-fire-fighters-1930-006",
+        "frame-the-fire-fighters-1930-007",
+        "frame-the-fire-fighters-1930-008",
+        "frame-the-fire-fighters-1930-009",
+        "frame-the-fire-fighters-1930-010",
+        "frame-the-fire-fighters-1930-011",
+        "frame-the-fire-fighters-1930-012",
+        "frame-the-fire-fighters-1930-013",
+        "frame-the-fire-fighters-1930-014",
+        "frame-the-fire-fighters-1930-015",
+        "frame-rumplewatt-1934-001",
+        "frame-rumplewatt-1934-002"
+      ],
+      "workCount": 8,
+      "imageCount": 92,
+      "frameCount": 91,
+      "rightsBreakdown": {
+        "期限届满": 7,
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "美国旧法未续期",
+        "未续期",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然",
+        "万圣节",
+        "童话 / 寓言"
+      ],
+      "topScenes": [
+        {
+          "name": "动作",
+          "count": 46
+        },
+        {
+          "name": "爱情 / 约会",
+          "count": 32
+        },
+        {
+          "name": "西部",
+          "count": 31
+        },
+        {
+          "name": "营救",
+          "count": 30
+        },
+        {
+          "name": "旅行",
+          "count": 16
+        },
+        {
+          "name": "营地",
+          "count": 16
+        },
+        {
+          "name": "城市",
+          "count": 15
+        },
+        {
+          "name": "怪兽",
+          "count": 15
+        },
+        {
+          "name": "家庭 / 室内",
+          "count": 15
+        },
+        {
+          "name": "酒馆",
+          "count": 15
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 90
+        },
+        {
+          "name": "早期 Disney",
+          "count": 89
+        },
+        {
+          "name": "西部片",
+          "count": 31
+        },
+        {
+          "name": "报刊连环画",
+          "count": 3
+        },
+        {
+          "name": "童话冒险",
+          "count": 3
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "情人节",
+          "count": 17
+        },
+        {
+          "name": "万圣节",
+          "count": 15
+        },
+        {
+          "name": "春季 / 复活节",
+          "count": 14
+        }
+      ],
+      "usage": "女性认知高但商品化摩擦极高，不建议作为无授权首批。",
+      "avoid": "现代大蝴蝶结、标准波点体系、后续动画配色和 Disney 标识。",
+      "awarenessScore": 48,
+      "sourceCount": 8,
+      "relatedEntityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-rover-pluto-8d61d09f",
+        "role-拓荒者群像-f36e70f4",
+        "role-peg-leg-pete-09b61c51",
+        "role-gorilla-ccbe2268",
+        "role-消防队-24a0e885",
+        "role-乡村动物群像-1eb8c230",
+        "role-rumplewatt-e21e6a90",
+        "role-gnomes-91b12ba6"
+      ]
+    },
+    {
+      "id": "role-rover-pluto-8d61d09f",
+      "name": "Rover / Pluto",
+      "type": "角色",
+      "aliases": [
+        "未命名寻血猎犬（Rover/Pluto 前身）",
+        "Rover"
+      ],
+      "virtual": false,
+      "coverImage": "images/8643a403f9d5bef3dacb.webp",
+      "coverRecordId": "catalog-rover-pluto",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-the-chain-gang追逐与越狱-9c106ad9",
+        "work-the-picnic郊外野餐-0d17c756",
+        "work-rover-pluto-1-0-4f350af3"
+      ],
+      "recordIds": [
+        "frame-the-chain-gang-1930-001",
+        "frame-the-chain-gang-1930-002",
+        "frame-the-chain-gang-1930-003",
+        "frame-the-chain-gang-1930-004",
+        "frame-the-chain-gang-1930-005",
+        "frame-the-chain-gang-1930-006",
+        "frame-the-chain-gang-1930-007",
+        "frame-the-chain-gang-1930-008",
+        "frame-the-chain-gang-1930-009",
+        "frame-the-chain-gang-1930-010",
+        "frame-the-chain-gang-1930-011",
+        "frame-the-chain-gang-1930-012",
+        "frame-the-chain-gang-1930-013",
+        "frame-the-chain-gang-1930-014",
+        "frame-the-chain-gang-1930-015",
+        "frame-the-chain-gang-1930-016",
+        "frame-the-picnic-1930-001",
+        "frame-the-picnic-1930-002",
+        "frame-the-picnic-1930-003",
+        "frame-the-picnic-1930-004",
+        "frame-the-picnic-1930-005",
+        "frame-the-picnic-1930-006",
+        "frame-the-picnic-1930-007",
+        "frame-the-picnic-1930-008",
+        "frame-the-picnic-1930-009",
+        "frame-the-picnic-1930-010",
+        "frame-the-picnic-1930-011",
+        "frame-the-picnic-1930-012",
+        "frame-the-picnic-1930-013",
+        "frame-the-picnic-1930-014",
+        "catalog-rover-pluto"
+      ],
+      "frameIds": [
+        "frame-the-chain-gang-1930-001",
+        "frame-the-chain-gang-1930-002",
+        "frame-the-chain-gang-1930-003",
+        "frame-the-chain-gang-1930-004",
+        "frame-the-chain-gang-1930-005",
+        "frame-the-chain-gang-1930-006",
+        "frame-the-chain-gang-1930-007",
+        "frame-the-chain-gang-1930-008",
+        "frame-the-chain-gang-1930-009",
+        "frame-the-chain-gang-1930-010",
+        "frame-the-chain-gang-1930-011",
+        "frame-the-chain-gang-1930-012",
+        "frame-the-chain-gang-1930-013",
+        "frame-the-chain-gang-1930-014",
+        "frame-the-chain-gang-1930-015",
+        "frame-the-chain-gang-1930-016",
+        "frame-the-picnic-1930-001",
+        "frame-the-picnic-1930-002",
+        "frame-the-picnic-1930-003",
+        "frame-the-picnic-1930-004",
+        "frame-the-picnic-1930-005",
+        "frame-the-picnic-1930-006",
+        "frame-the-picnic-1930-007",
+        "frame-the-picnic-1930-008",
+        "frame-the-picnic-1930-009",
+        "frame-the-picnic-1930-010",
+        "frame-the-picnic-1930-011",
+        "frame-the-picnic-1930-012",
+        "frame-the-picnic-1930-013",
+        "frame-the-picnic-1930-014"
+      ],
+      "workCount": 3,
+      "imageCount": 31,
+      "frameCount": 30,
+      "rightsBreakdown": {
+        "期限届满": 3
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物伙伴",
+          "count": 16
+        },
+        {
+          "name": "劳动",
+          "count": 16
+        },
+        {
+          "name": "追逐",
+          "count": 16
+        },
+        {
+          "name": "爱情 / 约会",
+          "count": 14
+        },
+        {
+          "name": "宠物",
+          "count": 14
+        },
+        {
+          "name": "户外",
+          "count": 14
+        },
+        {
+          "name": "野餐",
+          "count": 14
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 30
+        },
+        {
+          "name": "早期 Disney",
+          "count": 30
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "春季 / 复活节",
+          "count": 14
+        },
+        {
+          "name": "情人节",
+          "count": 14
+        }
+      ],
+      "usage": "虽在 2026 进入美国公版，但现代品牌联想极强。",
+      "avoid": "1931 后 Pluto 名称下的现代黄犬、绿项圈、脸型与品牌视觉。",
+      "awarenessScore": 38,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5"
+      ]
+    },
+    {
+      "id": "role-拓荒者群像-f36e70f4",
+      "name": "拓荒者群像",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/130307042beace323520.webp",
+      "coverRecordId": "frame-pioneer-days-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-pioneer-days拓荒旅途-ebdad9c4"
+      ],
+      "recordIds": [
+        "frame-pioneer-days-1930-001",
+        "frame-pioneer-days-1930-002",
+        "frame-pioneer-days-1930-003",
+        "frame-pioneer-days-1930-004",
+        "frame-pioneer-days-1930-005",
+        "frame-pioneer-days-1930-006",
+        "frame-pioneer-days-1930-007",
+        "frame-pioneer-days-1930-008",
+        "frame-pioneer-days-1930-009",
+        "frame-pioneer-days-1930-010",
+        "frame-pioneer-days-1930-011",
+        "frame-pioneer-days-1930-012",
+        "frame-pioneer-days-1930-013",
+        "frame-pioneer-days-1930-014",
+        "frame-pioneer-days-1930-015",
+        "frame-pioneer-days-1930-016"
+      ],
+      "frameIds": [
+        "frame-pioneer-days-1930-001",
+        "frame-pioneer-days-1930-002",
+        "frame-pioneer-days-1930-003",
+        "frame-pioneer-days-1930-004",
+        "frame-pioneer-days-1930-005",
+        "frame-pioneer-days-1930-006",
+        "frame-pioneer-days-1930-007",
+        "frame-pioneer-days-1930-008",
+        "frame-pioneer-days-1930-009",
+        "frame-pioneer-days-1930-010",
+        "frame-pioneer-days-1930-011",
+        "frame-pioneer-days-1930-012",
+        "frame-pioneer-days-1930-013",
+        "frame-pioneer-days-1930-014",
+        "frame-pioneer-days-1930-015",
+        "frame-pioneer-days-1930-016"
+      ],
+      "workCount": 1,
+      "imageCount": 16,
+      "frameCount": 16,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动作",
+          "count": 16
+        },
+        {
+          "name": "旅行",
+          "count": 16
+        },
+        {
+          "name": "西部",
+          "count": 16
+        },
+        {
+          "name": "营地",
+          "count": 16
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "西部片",
+          "count": 16
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 16
+        },
+        {
+          "name": "早期 Disney",
+          "count": 16
+        }
+      ],
+      "topHolidays": [],
+      "usage": "橡皮管动画 · 早期 Disney · 西部片 · 旅行",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5"
+      ]
+    },
+    {
+      "id": "role-peg-leg-pete-09b61c51",
+      "name": "Peg-Leg Pete",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/9fe2dfd88c98c5e366bc.webp",
+      "coverRecordId": "frame-the-cactus-kid-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-the-cactus-kid西部酒馆-f34d3ea1"
+      ],
+      "recordIds": [
+        "frame-the-cactus-kid-1930-001",
+        "frame-the-cactus-kid-1930-002",
+        "frame-the-cactus-kid-1930-003",
+        "frame-the-cactus-kid-1930-004",
+        "frame-the-cactus-kid-1930-005",
+        "frame-the-cactus-kid-1930-006",
+        "frame-the-cactus-kid-1930-007",
+        "frame-the-cactus-kid-1930-008",
+        "frame-the-cactus-kid-1930-009",
+        "frame-the-cactus-kid-1930-010",
+        "frame-the-cactus-kid-1930-011",
+        "frame-the-cactus-kid-1930-012",
+        "frame-the-cactus-kid-1930-013",
+        "frame-the-cactus-kid-1930-014",
+        "frame-the-cactus-kid-1930-015"
+      ],
+      "frameIds": [
+        "frame-the-cactus-kid-1930-001",
+        "frame-the-cactus-kid-1930-002",
+        "frame-the-cactus-kid-1930-003",
+        "frame-the-cactus-kid-1930-004",
+        "frame-the-cactus-kid-1930-005",
+        "frame-the-cactus-kid-1930-006",
+        "frame-the-cactus-kid-1930-007",
+        "frame-the-cactus-kid-1930-008",
+        "frame-the-cactus-kid-1930-009",
+        "frame-the-cactus-kid-1930-010",
+        "frame-the-cactus-kid-1930-011",
+        "frame-the-cactus-kid-1930-012",
+        "frame-the-cactus-kid-1930-013",
+        "frame-the-cactus-kid-1930-014",
+        "frame-the-cactus-kid-1930-015"
+      ],
+      "workCount": 1,
+      "imageCount": 15,
+      "frameCount": 15,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "爱情 / 约会",
+          "count": 15
+        },
+        {
+          "name": "动作",
+          "count": 15
+        },
+        {
+          "name": "酒馆",
+          "count": 15
+        },
+        {
+          "name": "西部",
+          "count": 15
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "西部片",
+          "count": 15
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 15
+        },
+        {
+          "name": "早期 Disney",
+          "count": 15
+        }
+      ],
+      "topHolidays": [],
+      "usage": "橡皮管动画 · 早期 Disney · 西部片 · 西部",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5"
+      ]
+    },
+    {
+      "id": "role-gorilla-ccbe2268",
+      "name": "Gorilla",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/d072ef4d2f9769cf43f1.webp",
+      "coverRecordId": "frame-the-gorilla-mystery-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-the-gorilla-mystery猩猩谜案-023ad571"
+      ],
+      "recordIds": [
+        "frame-the-gorilla-mystery-1930-001",
+        "frame-the-gorilla-mystery-1930-002",
+        "frame-the-gorilla-mystery-1930-003",
+        "frame-the-gorilla-mystery-1930-004",
+        "frame-the-gorilla-mystery-1930-005",
+        "frame-the-gorilla-mystery-1930-006",
+        "frame-the-gorilla-mystery-1930-007",
+        "frame-the-gorilla-mystery-1930-008",
+        "frame-the-gorilla-mystery-1930-009",
+        "frame-the-gorilla-mystery-1930-010",
+        "frame-the-gorilla-mystery-1930-011",
+        "frame-the-gorilla-mystery-1930-012",
+        "frame-the-gorilla-mystery-1930-013",
+        "frame-the-gorilla-mystery-1930-014",
+        "frame-the-gorilla-mystery-1930-015"
+      ],
+      "frameIds": [
+        "frame-the-gorilla-mystery-1930-001",
+        "frame-the-gorilla-mystery-1930-002",
+        "frame-the-gorilla-mystery-1930-003",
+        "frame-the-gorilla-mystery-1930-004",
+        "frame-the-gorilla-mystery-1930-005",
+        "frame-the-gorilla-mystery-1930-006",
+        "frame-the-gorilla-mystery-1930-007",
+        "frame-the-gorilla-mystery-1930-008",
+        "frame-the-gorilla-mystery-1930-009",
+        "frame-the-gorilla-mystery-1930-010",
+        "frame-the-gorilla-mystery-1930-011",
+        "frame-the-gorilla-mystery-1930-012",
+        "frame-the-gorilla-mystery-1930-013",
+        "frame-the-gorilla-mystery-1930-014",
+        "frame-the-gorilla-mystery-1930-015"
+      ],
+      "workCount": 1,
+      "imageCount": 15,
+      "frameCount": 15,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然",
+        "万圣节"
+      ],
+      "topScenes": [
+        {
+          "name": "怪兽",
+          "count": 15
+        },
+        {
+          "name": "家庭 / 室内",
+          "count": 15
+        },
+        {
+          "name": "营救",
+          "count": 15
+        },
+        {
+          "name": "追逐",
+          "count": 15
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 15
+        },
+        {
+          "name": "早期 Disney",
+          "count": 15
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 15
+        }
+      ],
+      "usage": "橡皮管动画 · 早期 Disney · 家庭 / 室内 · 怪兽",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5"
+      ]
+    },
+    {
+      "id": "role-消防队-24a0e885",
+      "name": "消防队",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/de22bb247d2f7babc021.webp",
+      "coverRecordId": "frame-the-fire-fighters-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-the-fire-fighters城市救火-20e9a170"
+      ],
+      "recordIds": [
+        "frame-the-fire-fighters-1930-001",
+        "frame-the-fire-fighters-1930-002",
+        "frame-the-fire-fighters-1930-003",
+        "frame-the-fire-fighters-1930-004",
+        "frame-the-fire-fighters-1930-005",
+        "frame-the-fire-fighters-1930-006",
+        "frame-the-fire-fighters-1930-007",
+        "frame-the-fire-fighters-1930-008",
+        "frame-the-fire-fighters-1930-009",
+        "frame-the-fire-fighters-1930-010",
+        "frame-the-fire-fighters-1930-011",
+        "frame-the-fire-fighters-1930-012",
+        "frame-the-fire-fighters-1930-013",
+        "frame-the-fire-fighters-1930-014",
+        "frame-the-fire-fighters-1930-015"
+      ],
+      "frameIds": [
+        "frame-the-fire-fighters-1930-001",
+        "frame-the-fire-fighters-1930-002",
+        "frame-the-fire-fighters-1930-003",
+        "frame-the-fire-fighters-1930-004",
+        "frame-the-fire-fighters-1930-005",
+        "frame-the-fire-fighters-1930-006",
+        "frame-the-fire-fighters-1930-007",
+        "frame-the-fire-fighters-1930-008",
+        "frame-the-fire-fighters-1930-009",
+        "frame-the-fire-fighters-1930-010",
+        "frame-the-fire-fighters-1930-011",
+        "frame-the-fire-fighters-1930-012",
+        "frame-the-fire-fighters-1930-013",
+        "frame-the-fire-fighters-1930-014",
+        "frame-the-fire-fighters-1930-015"
+      ],
+      "workCount": 1,
+      "imageCount": 15,
+      "frameCount": 15,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "城市",
+          "count": 15
+        },
+        {
+          "name": "动作",
+          "count": 15
+        },
+        {
+          "name": "消防",
+          "count": 15
+        },
+        {
+          "name": "营救",
+          "count": 15
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 15
+        },
+        {
+          "name": "早期 Disney",
+          "count": 15
+        }
+      ],
+      "topHolidays": [],
+      "usage": "橡皮管动画 · 早期 Disney · 城市 · 消防",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5"
+      ]
+    },
+    {
+      "id": "role-乡村动物群像-1eb8c230",
+      "name": "乡村动物群像",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/f8d45fef597cf8362595.webp",
+      "coverRecordId": "frame-the-shindig-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-the-shindig乡村舞会-a41d1b28"
+      ],
+      "recordIds": [
+        "frame-the-shindig-1930-001",
+        "frame-the-shindig-1930-002",
+        "frame-the-shindig-1930-003",
+        "frame-the-shindig-1930-004",
+        "frame-the-shindig-1930-005",
+        "frame-the-shindig-1930-006",
+        "frame-the-shindig-1930-007",
+        "frame-the-shindig-1930-008",
+        "frame-the-shindig-1930-009",
+        "frame-the-shindig-1930-010",
+        "frame-the-shindig-1930-011",
+        "frame-the-shindig-1930-012",
+        "frame-the-shindig-1930-013",
+        "frame-the-shindig-1930-014"
+      ],
+      "frameIds": [
+        "frame-the-shindig-1930-001",
+        "frame-the-shindig-1930-002",
+        "frame-the-shindig-1930-003",
+        "frame-the-shindig-1930-004",
+        "frame-the-shindig-1930-005",
+        "frame-the-shindig-1930-006",
+        "frame-the-shindig-1930-007",
+        "frame-the-shindig-1930-008",
+        "frame-the-shindig-1930-009",
+        "frame-the-shindig-1930-010",
+        "frame-the-shindig-1930-011",
+        "frame-the-shindig-1930-012",
+        "frame-the-shindig-1930-013",
+        "frame-the-shindig-1930-014"
+      ],
+      "workCount": 1,
+      "imageCount": 14,
+      "frameCount": 14,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "派对",
+          "count": 14
+        },
+        {
+          "name": "乡村",
+          "count": 14
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 14
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 14
+        },
+        {
+          "name": "早期 Disney",
+          "count": 14
+        }
+      ],
+      "topHolidays": [],
+      "usage": "橡皮管动画 · 早期 Disney · 派对 · 音乐 / 舞蹈",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5"
+      ]
+    },
+    {
+      "id": "role-农场动物乐队-f8e4cfc2",
+      "name": "农场动物乐队",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/3707d29422188fa7311a.webp",
+      "coverRecordId": "frame-the-barnyard-concert-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-the-barnyard-concert农场音乐会-4f752d5c"
+      ],
+      "recordIds": [
+        "frame-the-barnyard-concert-1930-001",
+        "frame-the-barnyard-concert-1930-002",
+        "frame-the-barnyard-concert-1930-003",
+        "frame-the-barnyard-concert-1930-004",
+        "frame-the-barnyard-concert-1930-005",
+        "frame-the-barnyard-concert-1930-006",
+        "frame-the-barnyard-concert-1930-007",
+        "frame-the-barnyard-concert-1930-008",
+        "frame-the-barnyard-concert-1930-009",
+        "frame-the-barnyard-concert-1930-010",
+        "frame-the-barnyard-concert-1930-011",
+        "frame-the-barnyard-concert-1930-012"
+      ],
+      "frameIds": [
+        "frame-the-barnyard-concert-1930-001",
+        "frame-the-barnyard-concert-1930-002",
+        "frame-the-barnyard-concert-1930-003",
+        "frame-the-barnyard-concert-1930-004",
+        "frame-the-barnyard-concert-1930-005",
+        "frame-the-barnyard-concert-1930-006",
+        "frame-the-barnyard-concert-1930-007",
+        "frame-the-barnyard-concert-1930-008",
+        "frame-the-barnyard-concert-1930-009",
+        "frame-the-barnyard-concert-1930-010",
+        "frame-the-barnyard-concert-1930-011",
+        "frame-the-barnyard-concert-1930-012"
+      ],
+      "workCount": 1,
+      "imageCount": 12,
+      "frameCount": 12,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物群像",
+          "count": 12
+        },
+        {
+          "name": "农场",
+          "count": 12
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 12
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 12
+        },
+        {
+          "name": "早期 Disney",
+          "count": 12
+        }
+      ],
+      "topHolidays": [],
+      "usage": "橡皮管动画 · 早期 Disney · 农场 · 音乐 / 舞蹈",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-mickey-mouse-ac752a50"
+      ]
+    },
+    {
+      "id": "role-rumplewatt-e21e6a90",
+      "name": "Rumplewatt",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/6a5eb58e0f4b6b20f87e.webp",
+      "coverRecordId": "catalog-mickey-rumplewatt-1934",
+      "yearStart": 1934,
+      "yearEnd": 1934,
+      "workIds": [
+        "work-rumplewatt-the-giant未续期边界案例-927928fd"
+      ],
+      "recordIds": [
+        "frame-rumplewatt-1934-001",
+        "frame-rumplewatt-1934-002",
+        "catalog-mickey-rumplewatt-1934"
+      ],
+      "frameIds": [
+        "frame-rumplewatt-1934-001",
+        "frame-rumplewatt-1934-002"
+      ],
+      "workCount": 1,
+      "imageCount": 2,
+      "frameCount": 2,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期",
+        "未续期"
+      ],
+      "evidenceLevels": [
+        "B",
+        "C"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "爱情 / 约会",
+          "count": 3
+        },
+        {
+          "name": "城堡",
+          "count": 3
+        },
+        {
+          "name": "金鹅",
+          "count": 3
+        },
+        {
+          "name": "巨人",
+          "count": 3
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "报刊连环画",
+          "count": 3
+        },
+        {
+          "name": "童话冒险",
+          "count": 3
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "情人节",
+          "count": 3
+        }
+      ],
+      "usage": "把它当作“新旧素材倒置”的教学案例；任何实际使用先做逐格来源比对。",
+      "avoid": "糖罐、咖啡杯和胡椒喷嚏等表达源自仍受保护的《Giantland》(1933)，即使出现在未续期漫画中也不能据此转用。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5",
+        "role-gnomes-91b12ba6"
+      ]
+    },
+    {
+      "id": "role-gnomes-91b12ba6",
+      "name": "Gnomes",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/6a5eb58e0f4b6b20f87e.webp",
+      "coverRecordId": "catalog-mickey-rumplewatt-1934",
+      "yearStart": 1934,
+      "yearEnd": 1934,
+      "workIds": [
+        "work-rumplewatt-the-giant未续期边界案例-927928fd"
+      ],
+      "recordIds": [
+        "frame-rumplewatt-1934-001",
+        "frame-rumplewatt-1934-002",
+        "catalog-mickey-rumplewatt-1934"
+      ],
+      "frameIds": [
+        "frame-rumplewatt-1934-001",
+        "frame-rumplewatt-1934-002"
+      ],
+      "workCount": 1,
+      "imageCount": 2,
+      "frameCount": 2,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期",
+        "未续期"
+      ],
+      "evidenceLevels": [
+        "B",
+        "C"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "爱情 / 约会",
+          "count": 3
+        },
+        {
+          "name": "城堡",
+          "count": 3
+        },
+        {
+          "name": "金鹅",
+          "count": 3
+        },
+        {
+          "name": "巨人",
+          "count": 3
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "报刊连环画",
+          "count": 3
+        },
+        {
+          "name": "童话冒险",
+          "count": 3
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "情人节",
+          "count": 3
+        }
+      ],
+      "usage": "把它当作“新旧素材倒置”的教学案例；任何实际使用先做逐格来源比对。",
+      "avoid": "糖罐、咖啡杯和胡椒喷嚏等表达源自仍受保护的《Giantland》(1933)，即使出现在未续期漫画中也不能据此转用。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5",
+        "role-rumplewatt-e21e6a90"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

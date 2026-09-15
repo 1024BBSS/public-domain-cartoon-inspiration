@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-bosko-61714889",
+    "name": "Bosko",
+    "type": "主体",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/5f1742e116ddbf3f291a.webp",
+    "coverRecordId": "catalog-bosko",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "workIds": [
+      "work-bosko-1-0-12bdf3ad"
+    ],
+    "recordIds": [
+      "catalog-bosko"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "topScenes": [
+      {
+        "name": "音乐 / 舞蹈",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "橡皮管动画",
+        "count": 1
+      },
+      {
+        "name": "早期动画 / 漫画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [],
+    "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+    "avoid": "角色带有时代性的种族刻板表达；不建议商品化。后续 Looney Tunes 识别与现代修复内容也不可混用。",
+    "awarenessScore": 34,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-bosko-1-0-12bdf3ad",
+      "title": "Bosko 1.0",
+      "subtitle": "《Sinkin’ in the Bathtub》版本 · 1930",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/5f1742e116ddbf3f291a.webp",
+      "coverRecordId": "catalog-bosko",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bosko-sinkininthebathtub1930.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Public domain"
+      ],
+      "usage": "只能按标明年份的画面独立重绘；名称和服装类图形在立项前另做当前商标检索。",
+      "avoid": "角色带有时代性的种族刻板表达；不建议商品化。后续 Looney Tunes 识别与现代修复内容也不可混用。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "styles": [
+        "早期动画 / 漫画",
+        "橡皮管动画"
+      ],
+      "scenes": [
+        "音乐 / 舞蹈"
+      ],
+      "holidays": [],
+      "characterNames": [],
+      "characterAliases": [],
+      "recordIds": [
+        "catalog-bosko"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-bosko"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 34,
+      "entityIds": [
+        "role-bosko-61714889"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

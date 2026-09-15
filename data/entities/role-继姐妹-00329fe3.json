@@ -1,0 +1,835 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "entity": {
+    "id": "role-继姐妹-00329fe3",
+    "name": "继姐妹",
+    "type": "群像 / 生物",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/eec93a605af4aa2b6307.webp",
+    "coverRecordId": "catalog-betty-poor-cinderella-1934",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "workIds": [
+      "work-poor-cinderella未续期版本-3e7b12c5"
+    ],
+    "recordIds": [
+      "frame-poor-cinderella-1934-001",
+      "frame-poor-cinderella-1934-002",
+      "frame-poor-cinderella-1934-003",
+      "frame-poor-cinderella-1934-004",
+      "frame-poor-cinderella-1934-005",
+      "frame-poor-cinderella-1934-006",
+      "frame-poor-cinderella-1934-007",
+      "frame-poor-cinderella-1934-008",
+      "frame-poor-cinderella-1934-009",
+      "frame-poor-cinderella-1934-010",
+      "frame-poor-cinderella-1934-011",
+      "frame-poor-cinderella-1934-012",
+      "frame-poor-cinderella-1934-013",
+      "frame-poor-cinderella-1934-014",
+      "frame-poor-cinderella-1934-015",
+      "frame-poor-cinderella-1934-016",
+      "frame-poor-cinderella-1934-017",
+      "frame-poor-cinderella-1934-018",
+      "frame-poor-cinderella-1934-019",
+      "frame-poor-cinderella-1934-020",
+      "frame-poor-cinderella-1934-021",
+      "catalog-betty-poor-cinderella-1934"
+    ],
+    "frameIds": [
+      "frame-poor-cinderella-1934-001",
+      "frame-poor-cinderella-1934-002",
+      "frame-poor-cinderella-1934-003",
+      "frame-poor-cinderella-1934-004",
+      "frame-poor-cinderella-1934-005",
+      "frame-poor-cinderella-1934-006",
+      "frame-poor-cinderella-1934-007",
+      "frame-poor-cinderella-1934-008",
+      "frame-poor-cinderella-1934-009",
+      "frame-poor-cinderella-1934-010",
+      "frame-poor-cinderella-1934-011",
+      "frame-poor-cinderella-1934-012",
+      "frame-poor-cinderella-1934-013",
+      "frame-poor-cinderella-1934-014",
+      "frame-poor-cinderella-1934-015",
+      "frame-poor-cinderella-1934-016",
+      "frame-poor-cinderella-1934-017",
+      "frame-poor-cinderella-1934-018",
+      "frame-poor-cinderella-1934-019",
+      "frame-poor-cinderella-1934-020",
+      "frame-poor-cinderella-1934-021"
+    ],
+    "workCount": 1,
+    "imageCount": 21,
+    "frameCount": 21,
+    "rightsBreakdown": {
+      "未续期": 1
+    },
+    "copyrightRoutes": [
+      "美国旧法未续期",
+      "未续期"
+    ],
+    "evidenceLevels": [
+      "B"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "童话 / 寓言",
+      "怪诞 / 魔法"
+    ],
+    "topScenes": [
+      {
+        "name": "爱情 / 约会",
+        "count": 22
+      },
+      {
+        "name": "魔法 / 变形",
+        "count": 22
+      },
+      {
+        "name": "舞会",
+        "count": 22
+      },
+      {
+        "name": "城堡",
+        "count": 21
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "童话歌舞",
+        "count": 22
+      },
+      {
+        "name": "早期彩色动画",
+        "count": 22
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "情人节",
+        "count": 22
+      }
+    ],
+    "usage": "适合作为早期彩色动画、舞会与魔法变形的历史视觉档案，不等于现代角色授权。",
+    "avoid": "后来的 Betty Boop 造型、修复色、品牌商品视觉，以及其他仍受保护影片中新增加的剧情和角色。",
+    "awarenessScore": 10,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-betty-boop-16ad409c",
+      "role-prince-0300dc42"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-poor-cinderella未续期版本-3e7b12c5",
+      "title": "《Poor Cinderella》未续期版本",
+      "subtitle": "1934 动画短片；Duke 未找到续期记录",
+      "year": "1934",
+      "yearSort": 1934,
+      "coverImage": "images/eec93a605af4aa2b6307.webp",
+      "coverRecordId": "catalog-betty-poor-cinderella-1934",
+      "sourceUrl": "https://archive.org/details/poor-cinderella-1934",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "rightsStatuses": [
+        "未续期"
+      ],
+      "copyrightRoutes": [
+        "美国旧法未续期",
+        "未续期"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "来源页标记为 Public Domain",
+        "Internet Archive 公版标记副本；作品未续期依据见 Duke"
+      ],
+      "usage": "适合作为早期彩色动画、舞会与魔法变形的历史视觉档案，不等于现代角色授权。",
+      "avoid": "后来的 Betty Boop 造型、修复色、品牌商品视觉，以及其他仍受保护影片中新增加的剧情和角色。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "早期彩色动画",
+        "童话歌舞"
+      ],
+      "scenes": [
+        "舞会",
+        "爱情 / 约会",
+        "魔法 / 变形",
+        "城堡"
+      ],
+      "holidays": [
+        "情人节"
+      ],
+      "characterNames": [
+        "Betty Boop",
+        "Prince",
+        "继姐妹"
+      ],
+      "characterAliases": [
+        "Betty Boop as Cinderella",
+        "Prince",
+        "继姐妹"
+      ],
+      "recordIds": [
+        "frame-poor-cinderella-1934-001",
+        "frame-poor-cinderella-1934-002",
+        "frame-poor-cinderella-1934-003",
+        "frame-poor-cinderella-1934-004",
+        "frame-poor-cinderella-1934-005",
+        "frame-poor-cinderella-1934-006",
+        "frame-poor-cinderella-1934-007",
+        "frame-poor-cinderella-1934-008",
+        "frame-poor-cinderella-1934-009",
+        "frame-poor-cinderella-1934-010",
+        "frame-poor-cinderella-1934-011",
+        "frame-poor-cinderella-1934-012",
+        "frame-poor-cinderella-1934-013",
+        "frame-poor-cinderella-1934-014",
+        "frame-poor-cinderella-1934-015",
+        "frame-poor-cinderella-1934-016",
+        "frame-poor-cinderella-1934-017",
+        "frame-poor-cinderella-1934-018",
+        "frame-poor-cinderella-1934-019",
+        "frame-poor-cinderella-1934-020",
+        "frame-poor-cinderella-1934-021",
+        "catalog-betty-poor-cinderella-1934"
+      ],
+      "frameIds": [
+        "frame-poor-cinderella-1934-001",
+        "frame-poor-cinderella-1934-002",
+        "frame-poor-cinderella-1934-003",
+        "frame-poor-cinderella-1934-004",
+        "frame-poor-cinderella-1934-005",
+        "frame-poor-cinderella-1934-006",
+        "frame-poor-cinderella-1934-007",
+        "frame-poor-cinderella-1934-008",
+        "frame-poor-cinderella-1934-009",
+        "frame-poor-cinderella-1934-010",
+        "frame-poor-cinderella-1934-011",
+        "frame-poor-cinderella-1934-012",
+        "frame-poor-cinderella-1934-013",
+        "frame-poor-cinderella-1934-014",
+        "frame-poor-cinderella-1934-015",
+        "frame-poor-cinderella-1934-016",
+        "frame-poor-cinderella-1934-017",
+        "frame-poor-cinderella-1934-018",
+        "frame-poor-cinderella-1934-019",
+        "frame-poor-cinderella-1934-020",
+        "frame-poor-cinderella-1934-021"
+      ],
+      "masterIds": [
+        "catalog-betty-poor-cinderella-1934"
+      ],
+      "imageCount": 21,
+      "frameCount": 21,
+      "awarenessScore": 10,
+      "entityIds": [
+        "role-betty-boop-16ad409c",
+        "role-prince-0300dc42",
+        "role-继姐妹-00329fe3"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-betty-boop-16ad409c",
+      "name": "Betty Boop",
+      "type": "角色",
+      "aliases": [
+        "Betty Boop 1.0",
+        "Betty Boop as Cinderella"
+      ],
+      "virtual": false,
+      "coverImage": "images/1040bc6b5042d92ab869.webp",
+      "coverRecordId": "catalog-betty-boop",
+      "yearStart": 1930,
+      "yearEnd": 1938,
+      "workIds": [
+        "work-dizzy-dishes餐厅奇想-8337b9b3",
+        "work-barnacle-bill海员歌舞-ad54a5e8",
+        "work-accordion-joe手风琴舞台-18d72f20",
+        "work-mysterious-mose夜间怪谈-06a0b703",
+        "work-ker-choo未续期版本-aad1bb70",
+        "work-poor-cinderella未续期版本-3e7b12c5",
+        "work-grampys-indoor-outing室内嘉年华-3545052d",
+        "work-making-friendspudgy-动物伙伴-8ce69c55",
+        "work-pudgy-picks-a-fight-pudgy-梦魇-8c431b15",
+        "work-on-with-the-new餐厅与托儿所-8a5cfcc0",
+        "work-betty-boop-1-0-42db0e59"
+      ],
+      "recordIds": [
+        "frame-dizzy-dishes-1930-001",
+        "frame-dizzy-dishes-1930-002",
+        "frame-dizzy-dishes-1930-003",
+        "frame-dizzy-dishes-1930-004",
+        "frame-dizzy-dishes-1930-005",
+        "frame-dizzy-dishes-1930-006",
+        "frame-dizzy-dishes-1930-007",
+        "frame-dizzy-dishes-1930-008",
+        "frame-dizzy-dishes-1930-009",
+        "frame-dizzy-dishes-1930-010",
+        "frame-dizzy-dishes-1930-011",
+        "frame-dizzy-dishes-1930-012",
+        "frame-dizzy-dishes-1930-013",
+        "frame-barnacle-bill-1930-001",
+        "frame-barnacle-bill-1930-002",
+        "frame-barnacle-bill-1930-003",
+        "frame-barnacle-bill-1930-004",
+        "frame-barnacle-bill-1930-005",
+        "frame-barnacle-bill-1930-006",
+        "frame-barnacle-bill-1930-007",
+        "frame-barnacle-bill-1930-008",
+        "frame-barnacle-bill-1930-009",
+        "frame-barnacle-bill-1930-010",
+        "frame-barnacle-bill-1930-011",
+        "frame-barnacle-bill-1930-012",
+        "frame-barnacle-bill-1930-013",
+        "frame-barnacle-bill-1930-014",
+        "frame-barnacle-bill-1930-015",
+        "frame-barnacle-bill-1930-016",
+        "frame-accordion-joe-1930-001",
+        "frame-accordion-joe-1930-002",
+        "frame-accordion-joe-1930-003",
+        "frame-accordion-joe-1930-004",
+        "frame-accordion-joe-1930-005",
+        "frame-accordion-joe-1930-006",
+        "frame-accordion-joe-1930-007",
+        "frame-accordion-joe-1930-008",
+        "frame-accordion-joe-1930-009",
+        "frame-accordion-joe-1930-010",
+        "frame-accordion-joe-1930-011",
+        "frame-accordion-joe-1930-012",
+        "frame-accordion-joe-1930-013",
+        "frame-mysterious-mose-1930-001",
+        "frame-mysterious-mose-1930-002",
+        "frame-mysterious-mose-1930-003",
+        "frame-mysterious-mose-1930-004",
+        "frame-mysterious-mose-1930-005",
+        "frame-mysterious-mose-1930-006",
+        "frame-mysterious-mose-1930-007",
+        "frame-mysterious-mose-1930-008",
+        "frame-mysterious-mose-1930-009",
+        "frame-mysterious-mose-1930-010",
+        "frame-mysterious-mose-1930-011",
+        "frame-mysterious-mose-1930-012",
+        "frame-ker-choo-1932-001",
+        "frame-ker-choo-1932-002",
+        "frame-ker-choo-1932-003",
+        "frame-ker-choo-1932-004",
+        "frame-ker-choo-1932-005",
+        "frame-ker-choo-1932-006",
+        "frame-ker-choo-1932-007",
+        "frame-ker-choo-1932-008",
+        "frame-ker-choo-1932-009",
+        "frame-ker-choo-1932-010",
+        "frame-ker-choo-1932-011",
+        "frame-ker-choo-1932-012",
+        "frame-ker-choo-1932-013",
+        "catalog-betty-ker-choo-1932",
+        "frame-poor-cinderella-1934-001",
+        "frame-poor-cinderella-1934-002",
+        "frame-poor-cinderella-1934-003",
+        "frame-poor-cinderella-1934-004",
+        "frame-poor-cinderella-1934-005",
+        "frame-poor-cinderella-1934-006",
+        "frame-poor-cinderella-1934-007",
+        "frame-poor-cinderella-1934-008",
+        "frame-poor-cinderella-1934-009",
+        "frame-poor-cinderella-1934-010",
+        "frame-poor-cinderella-1934-011",
+        "frame-poor-cinderella-1934-012",
+        "frame-poor-cinderella-1934-013",
+        "frame-poor-cinderella-1934-014",
+        "frame-poor-cinderella-1934-015",
+        "frame-poor-cinderella-1934-016",
+        "frame-poor-cinderella-1934-017",
+        "frame-poor-cinderella-1934-018",
+        "frame-poor-cinderella-1934-019",
+        "frame-poor-cinderella-1934-020",
+        "frame-poor-cinderella-1934-021",
+        "catalog-betty-poor-cinderella-1934",
+        "frame-grampys-indoor-outing-1936-001",
+        "frame-grampys-indoor-outing-1936-002",
+        "frame-grampys-indoor-outing-1936-003",
+        "frame-grampys-indoor-outing-1936-004",
+        "frame-grampys-indoor-outing-1936-005",
+        "frame-grampys-indoor-outing-1936-006",
+        "frame-grampys-indoor-outing-1936-007",
+        "frame-grampys-indoor-outing-1936-008",
+        "frame-grampys-indoor-outing-1936-009",
+        "frame-grampys-indoor-outing-1936-010",
+        "frame-grampys-indoor-outing-1936-011",
+        "frame-grampys-indoor-outing-1936-012",
+        "frame-grampys-indoor-outing-1936-013",
+        "catalog-betty-grampys-indoor-outing-1936",
+        "frame-making-friends-1936-001",
+        "frame-making-friends-1936-002",
+        "frame-making-friends-1936-003",
+        "frame-making-friends-1936-004",
+        "frame-making-friends-1936-005",
+        "frame-making-friends-1936-006",
+        "frame-making-friends-1936-007",
+        "frame-making-friends-1936-008",
+        "frame-making-friends-1936-009",
+        "frame-making-friends-1936-010",
+        "frame-making-friends-1936-011",
+        "frame-making-friends-1936-012",
+        "frame-making-friends-1936-013",
+        "frame-making-friends-1936-014",
+        "catalog-betty-making-friends-1936",
+        "frame-pudgy-picks-a-fight-1937-001",
+        "frame-pudgy-picks-a-fight-1937-002",
+        "frame-pudgy-picks-a-fight-1937-003",
+        "frame-pudgy-picks-a-fight-1937-004",
+        "frame-pudgy-picks-a-fight-1937-005",
+        "frame-pudgy-picks-a-fight-1937-006",
+        "frame-pudgy-picks-a-fight-1937-007",
+        "frame-pudgy-picks-a-fight-1937-008",
+        "frame-pudgy-picks-a-fight-1937-009",
+        "frame-pudgy-picks-a-fight-1937-010",
+        "frame-pudgy-picks-a-fight-1937-011",
+        "frame-pudgy-picks-a-fight-1937-012",
+        "frame-pudgy-picks-a-fight-1937-013",
+        "frame-pudgy-picks-a-fight-1937-014",
+        "catalog-betty-pudgy-picks-a-fight-1937",
+        "frame-on-with-the-new-1938-001",
+        "frame-on-with-the-new-1938-002",
+        "frame-on-with-the-new-1938-003",
+        "frame-on-with-the-new-1938-004",
+        "frame-on-with-the-new-1938-005",
+        "frame-on-with-the-new-1938-006",
+        "frame-on-with-the-new-1938-007",
+        "frame-on-with-the-new-1938-008",
+        "frame-on-with-the-new-1938-009",
+        "frame-on-with-the-new-1938-010",
+        "frame-on-with-the-new-1938-011",
+        "frame-on-with-the-new-1938-012",
+        "frame-on-with-the-new-1938-013",
+        "catalog-betty-on-with-the-new-1938",
+        "catalog-betty-boop"
+      ],
+      "frameIds": [
+        "frame-dizzy-dishes-1930-001",
+        "frame-dizzy-dishes-1930-002",
+        "frame-dizzy-dishes-1930-003",
+        "frame-dizzy-dishes-1930-004",
+        "frame-dizzy-dishes-1930-005",
+        "frame-dizzy-dishes-1930-006",
+        "frame-dizzy-dishes-1930-007",
+        "frame-dizzy-dishes-1930-008",
+        "frame-dizzy-dishes-1930-009",
+        "frame-dizzy-dishes-1930-010",
+        "frame-dizzy-dishes-1930-011",
+        "frame-dizzy-dishes-1930-012",
+        "frame-dizzy-dishes-1930-013",
+        "frame-barnacle-bill-1930-001",
+        "frame-barnacle-bill-1930-002",
+        "frame-barnacle-bill-1930-003",
+        "frame-barnacle-bill-1930-004",
+        "frame-barnacle-bill-1930-005",
+        "frame-barnacle-bill-1930-006",
+        "frame-barnacle-bill-1930-007",
+        "frame-barnacle-bill-1930-008",
+        "frame-barnacle-bill-1930-009",
+        "frame-barnacle-bill-1930-010",
+        "frame-barnacle-bill-1930-011",
+        "frame-barnacle-bill-1930-012",
+        "frame-barnacle-bill-1930-013",
+        "frame-barnacle-bill-1930-014",
+        "frame-barnacle-bill-1930-015",
+        "frame-barnacle-bill-1930-016",
+        "frame-accordion-joe-1930-001",
+        "frame-accordion-joe-1930-002",
+        "frame-accordion-joe-1930-003",
+        "frame-accordion-joe-1930-004",
+        "frame-accordion-joe-1930-005",
+        "frame-accordion-joe-1930-006",
+        "frame-accordion-joe-1930-007",
+        "frame-accordion-joe-1930-008",
+        "frame-accordion-joe-1930-009",
+        "frame-accordion-joe-1930-010",
+        "frame-accordion-joe-1930-011",
+        "frame-accordion-joe-1930-012",
+        "frame-accordion-joe-1930-013",
+        "frame-mysterious-mose-1930-001",
+        "frame-mysterious-mose-1930-002",
+        "frame-mysterious-mose-1930-003",
+        "frame-mysterious-mose-1930-004",
+        "frame-mysterious-mose-1930-005",
+        "frame-mysterious-mose-1930-006",
+        "frame-mysterious-mose-1930-007",
+        "frame-mysterious-mose-1930-008",
+        "frame-mysterious-mose-1930-009",
+        "frame-mysterious-mose-1930-010",
+        "frame-mysterious-mose-1930-011",
+        "frame-mysterious-mose-1930-012",
+        "frame-ker-choo-1932-001",
+        "frame-ker-choo-1932-002",
+        "frame-ker-choo-1932-003",
+        "frame-ker-choo-1932-004",
+        "frame-ker-choo-1932-005",
+        "frame-ker-choo-1932-006",
+        "frame-ker-choo-1932-007",
+        "frame-ker-choo-1932-008",
+        "frame-ker-choo-1932-009",
+        "frame-ker-choo-1932-010",
+        "frame-ker-choo-1932-011",
+        "frame-ker-choo-1932-012",
+        "frame-ker-choo-1932-013",
+        "frame-poor-cinderella-1934-001",
+        "frame-poor-cinderella-1934-002",
+        "frame-poor-cinderella-1934-003",
+        "frame-poor-cinderella-1934-004",
+        "frame-poor-cinderella-1934-005",
+        "frame-poor-cinderella-1934-006",
+        "frame-poor-cinderella-1934-007",
+        "frame-poor-cinderella-1934-008",
+        "frame-poor-cinderella-1934-009",
+        "frame-poor-cinderella-1934-010",
+        "frame-poor-cinderella-1934-011",
+        "frame-poor-cinderella-1934-012",
+        "frame-poor-cinderella-1934-013",
+        "frame-poor-cinderella-1934-014",
+        "frame-poor-cinderella-1934-015",
+        "frame-poor-cinderella-1934-016",
+        "frame-poor-cinderella-1934-017",
+        "frame-poor-cinderella-1934-018",
+        "frame-poor-cinderella-1934-019",
+        "frame-poor-cinderella-1934-020",
+        "frame-poor-cinderella-1934-021",
+        "frame-grampys-indoor-outing-1936-001",
+        "frame-grampys-indoor-outing-1936-002",
+        "frame-grampys-indoor-outing-1936-003",
+        "frame-grampys-indoor-outing-1936-004",
+        "frame-grampys-indoor-outing-1936-005",
+        "frame-grampys-indoor-outing-1936-006",
+        "frame-grampys-indoor-outing-1936-007",
+        "frame-grampys-indoor-outing-1936-008",
+        "frame-grampys-indoor-outing-1936-009",
+        "frame-grampys-indoor-outing-1936-010",
+        "frame-grampys-indoor-outing-1936-011",
+        "frame-grampys-indoor-outing-1936-012",
+        "frame-grampys-indoor-outing-1936-013",
+        "frame-making-friends-1936-001",
+        "frame-making-friends-1936-002",
+        "frame-making-friends-1936-003",
+        "frame-making-friends-1936-004",
+        "frame-making-friends-1936-005",
+        "frame-making-friends-1936-006",
+        "frame-making-friends-1936-007",
+        "frame-making-friends-1936-008",
+        "frame-making-friends-1936-009",
+        "frame-making-friends-1936-010",
+        "frame-making-friends-1936-011",
+        "frame-making-friends-1936-012",
+        "frame-making-friends-1936-013",
+        "frame-making-friends-1936-014",
+        "frame-pudgy-picks-a-fight-1937-001",
+        "frame-pudgy-picks-a-fight-1937-002",
+        "frame-pudgy-picks-a-fight-1937-003",
+        "frame-pudgy-picks-a-fight-1937-004",
+        "frame-pudgy-picks-a-fight-1937-005",
+        "frame-pudgy-picks-a-fight-1937-006",
+        "frame-pudgy-picks-a-fight-1937-007",
+        "frame-pudgy-picks-a-fight-1937-008",
+        "frame-pudgy-picks-a-fight-1937-009",
+        "frame-pudgy-picks-a-fight-1937-010",
+        "frame-pudgy-picks-a-fight-1937-011",
+        "frame-pudgy-picks-a-fight-1937-012",
+        "frame-pudgy-picks-a-fight-1937-013",
+        "frame-pudgy-picks-a-fight-1937-014",
+        "frame-on-with-the-new-1938-001",
+        "frame-on-with-the-new-1938-002",
+        "frame-on-with-the-new-1938-003",
+        "frame-on-with-the-new-1938-004",
+        "frame-on-with-the-new-1938-005",
+        "frame-on-with-the-new-1938-006",
+        "frame-on-with-the-new-1938-007",
+        "frame-on-with-the-new-1938-008",
+        "frame-on-with-the-new-1938-009",
+        "frame-on-with-the-new-1938-010",
+        "frame-on-with-the-new-1938-011",
+        "frame-on-with-the-new-1938-012",
+        "frame-on-with-the-new-1938-013"
+      ],
+      "workCount": 11,
+      "imageCount": 143,
+      "frameCount": 142,
+      "rightsBreakdown": {
+        "期限届满": 5,
+        "未续期": 6
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "美国旧法未续期",
+        "未续期",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A",
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然",
+        "怪诞 / 魔法",
+        "万圣节",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "topScenes": [
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 68
+        },
+        {
+          "name": "爱情 / 约会",
+          "count": 51
+        },
+        {
+          "name": "宠物",
+          "count": 30
+        },
+        {
+          "name": "家庭 / 室内",
+          "count": 29
+        },
+        {
+          "name": "舞台 / 表演",
+          "count": 27
+        },
+        {
+          "name": "魔法 / 变形",
+          "count": 22
+        },
+        {
+          "name": "舞会",
+          "count": 22
+        },
+        {
+          "name": "城堡",
+          "count": 21
+        },
+        {
+          "name": "海员",
+          "count": 16
+        },
+        {
+          "name": "动物 / 友谊",
+          "count": 15
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 127
+        },
+        {
+          "name": "Fleischer 动画",
+          "count": 58
+        },
+        {
+          "name": "歌舞短片",
+          "count": 29
+        },
+        {
+          "name": "Fleischer 都市超现实",
+          "count": 27
+        },
+        {
+          "name": "童话歌舞",
+          "count": 22
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 22
+        },
+        {
+          "name": "Fleischer 怪诞",
+          "count": 12
+        },
+        {
+          "name": "都市超现实",
+          "count": 1
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "情人节",
+          "count": 51
+        },
+        {
+          "name": "万圣节",
+          "count": 27
+        },
+        {
+          "name": "春季 / 户外",
+          "count": 15
+        },
+        {
+          "name": "圣诞 / 冬季",
+          "count": 14
+        },
+        {
+          "name": "雨天 / 居家",
+          "count": 14
+        }
+      ],
+      "usage": "只能从 1930 画面独立重绘；服装类商标摩擦极高，不建议作为首批。",
+      "avoid": "1931 后更熟悉的人形化耳环版本、现代 Logo、授权商品画稿。",
+      "awarenessScore": 71,
+      "sourceCount": 11,
+      "relatedEntityIds": [
+        "role-bimbo-c30ed973",
+        "role-pudgy-eb70a784",
+        "role-prince-0300dc42",
+        "role-继姐妹-00329fe3",
+        "role-barnacle-bill-f9fea540",
+        "role-koko-a30dbfea",
+        "role-野生动物群像-13af1c6f",
+        "role-餐厅动物群像-118f7c78",
+        "role-accordion-joe-64041640",
+        "role-grampy-d1dc168a"
+      ]
+    },
+    {
+      "id": "role-prince-0300dc42",
+      "name": "Prince",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/eec93a605af4aa2b6307.webp",
+      "coverRecordId": "catalog-betty-poor-cinderella-1934",
+      "yearStart": 1934,
+      "yearEnd": 1934,
+      "workIds": [
+        "work-poor-cinderella未续期版本-3e7b12c5"
+      ],
+      "recordIds": [
+        "frame-poor-cinderella-1934-001",
+        "frame-poor-cinderella-1934-002",
+        "frame-poor-cinderella-1934-003",
+        "frame-poor-cinderella-1934-004",
+        "frame-poor-cinderella-1934-005",
+        "frame-poor-cinderella-1934-006",
+        "frame-poor-cinderella-1934-007",
+        "frame-poor-cinderella-1934-008",
+        "frame-poor-cinderella-1934-009",
+        "frame-poor-cinderella-1934-010",
+        "frame-poor-cinderella-1934-011",
+        "frame-poor-cinderella-1934-012",
+        "frame-poor-cinderella-1934-013",
+        "frame-poor-cinderella-1934-014",
+        "frame-poor-cinderella-1934-015",
+        "frame-poor-cinderella-1934-016",
+        "frame-poor-cinderella-1934-017",
+        "frame-poor-cinderella-1934-018",
+        "frame-poor-cinderella-1934-019",
+        "frame-poor-cinderella-1934-020",
+        "frame-poor-cinderella-1934-021",
+        "catalog-betty-poor-cinderella-1934"
+      ],
+      "frameIds": [
+        "frame-poor-cinderella-1934-001",
+        "frame-poor-cinderella-1934-002",
+        "frame-poor-cinderella-1934-003",
+        "frame-poor-cinderella-1934-004",
+        "frame-poor-cinderella-1934-005",
+        "frame-poor-cinderella-1934-006",
+        "frame-poor-cinderella-1934-007",
+        "frame-poor-cinderella-1934-008",
+        "frame-poor-cinderella-1934-009",
+        "frame-poor-cinderella-1934-010",
+        "frame-poor-cinderella-1934-011",
+        "frame-poor-cinderella-1934-012",
+        "frame-poor-cinderella-1934-013",
+        "frame-poor-cinderella-1934-014",
+        "frame-poor-cinderella-1934-015",
+        "frame-poor-cinderella-1934-016",
+        "frame-poor-cinderella-1934-017",
+        "frame-poor-cinderella-1934-018",
+        "frame-poor-cinderella-1934-019",
+        "frame-poor-cinderella-1934-020",
+        "frame-poor-cinderella-1934-021"
+      ],
+      "workCount": 1,
+      "imageCount": 21,
+      "frameCount": 21,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期",
+        "未续期"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "爱情 / 约会",
+          "count": 22
+        },
+        {
+          "name": "魔法 / 变形",
+          "count": 22
+        },
+        {
+          "name": "舞会",
+          "count": 22
+        },
+        {
+          "name": "城堡",
+          "count": 21
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "童话歌舞",
+          "count": 22
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 22
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "情人节",
+          "count": 22
+        }
+      ],
+      "usage": "适合作为早期彩色动画、舞会与魔法变形的历史视觉档案，不等于现代角色授权。",
+      "avoid": "后来的 Betty Boop 造型、修复色、品牌商品视觉，以及其他仍受保护影片中新增加的剧情和角色。",
+      "awarenessScore": 10,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-betty-boop-16ad409c",
+        "role-继姐妹-00329fe3"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

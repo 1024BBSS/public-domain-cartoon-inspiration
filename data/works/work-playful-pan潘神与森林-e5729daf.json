@@ -1,0 +1,889 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-playful-pan潘神与森林-e5729daf",
+    "title": "《Playful Pan》潘神与森林",
+    "subtitle": "",
+    "year": "1930",
+    "yearSort": 1930,
+    "coverImage": "images/04f8a4adaaf9f6935a86.webp",
+    "coverRecordId": "frame-playful-pan-1930-001",
+    "sourceUrl": "https://archive.org/details/playful-pan_1930",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "以来源页为准"
+    ],
+    "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+    "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+    "tags": [
+      "早期动画",
+      "宗教 / 神话"
+    ],
+    "styles": [
+      "Silly Symphonies",
+      "神话动画"
+    ],
+    "scenes": [
+      "森林",
+      "神话",
+      "音乐 / 舞蹈",
+      "火灾"
+    ],
+    "holidays": [],
+    "characterNames": [
+      "Pan",
+      "森林生物"
+    ],
+    "characterAliases": [
+      "Pan",
+      "森林生物"
+    ],
+    "recordIds": [
+      "frame-playful-pan-1930-001",
+      "frame-playful-pan-1930-002",
+      "frame-playful-pan-1930-003",
+      "frame-playful-pan-1930-004",
+      "frame-playful-pan-1930-005",
+      "frame-playful-pan-1930-006",
+      "frame-playful-pan-1930-007",
+      "frame-playful-pan-1930-008",
+      "frame-playful-pan-1930-009",
+      "frame-playful-pan-1930-010",
+      "frame-playful-pan-1930-011",
+      "frame-playful-pan-1930-012",
+      "frame-playful-pan-1930-013",
+      "frame-playful-pan-1930-014"
+    ],
+    "frameIds": [
+      "frame-playful-pan-1930-001",
+      "frame-playful-pan-1930-002",
+      "frame-playful-pan-1930-003",
+      "frame-playful-pan-1930-004",
+      "frame-playful-pan-1930-005",
+      "frame-playful-pan-1930-006",
+      "frame-playful-pan-1930-007",
+      "frame-playful-pan-1930-008",
+      "frame-playful-pan-1930-009",
+      "frame-playful-pan-1930-010",
+      "frame-playful-pan-1930-011",
+      "frame-playful-pan-1930-012",
+      "frame-playful-pan-1930-013",
+      "frame-playful-pan-1930-014"
+    ],
+    "masterIds": [],
+    "imageCount": 14,
+    "frameCount": 14,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-pan-fd92d952",
+      "role-森林生物-ad5b625b"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-pan-fd92d952",
+      "name": "Pan",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/04f8a4adaaf9f6935a86.webp",
+      "coverRecordId": "frame-playful-pan-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-playful-pan潘神与森林-e5729daf"
+      ],
+      "recordIds": [
+        "frame-playful-pan-1930-001",
+        "frame-playful-pan-1930-002",
+        "frame-playful-pan-1930-003",
+        "frame-playful-pan-1930-004",
+        "frame-playful-pan-1930-005",
+        "frame-playful-pan-1930-006",
+        "frame-playful-pan-1930-007",
+        "frame-playful-pan-1930-008",
+        "frame-playful-pan-1930-009",
+        "frame-playful-pan-1930-010",
+        "frame-playful-pan-1930-011",
+        "frame-playful-pan-1930-012",
+        "frame-playful-pan-1930-013",
+        "frame-playful-pan-1930-014"
+      ],
+      "frameIds": [
+        "frame-playful-pan-1930-001",
+        "frame-playful-pan-1930-002",
+        "frame-playful-pan-1930-003",
+        "frame-playful-pan-1930-004",
+        "frame-playful-pan-1930-005",
+        "frame-playful-pan-1930-006",
+        "frame-playful-pan-1930-007",
+        "frame-playful-pan-1930-008",
+        "frame-playful-pan-1930-009",
+        "frame-playful-pan-1930-010",
+        "frame-playful-pan-1930-011",
+        "frame-playful-pan-1930-012",
+        "frame-playful-pan-1930-013",
+        "frame-playful-pan-1930-014"
+      ],
+      "workCount": 1,
+      "imageCount": 14,
+      "frameCount": 14,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "火灾",
+          "count": 14
+        },
+        {
+          "name": "森林",
+          "count": 14
+        },
+        {
+          "name": "神话",
+          "count": 14
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 14
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "神话动画",
+          "count": 14
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 14
+        }
+      ],
+      "topHolidays": [],
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-森林生物-ad5b625b"
+      ]
+    },
+    {
+      "id": "role-森林生物-ad5b625b",
+      "name": "森林生物",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/04f8a4adaaf9f6935a86.webp",
+      "coverRecordId": "frame-playful-pan-1930-001",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-playful-pan潘神与森林-e5729daf",
+        "work-night月夜森林-bf8f3b19"
+      ],
+      "recordIds": [
+        "frame-playful-pan-1930-001",
+        "frame-playful-pan-1930-002",
+        "frame-playful-pan-1930-003",
+        "frame-playful-pan-1930-004",
+        "frame-playful-pan-1930-005",
+        "frame-playful-pan-1930-006",
+        "frame-playful-pan-1930-007",
+        "frame-playful-pan-1930-008",
+        "frame-playful-pan-1930-009",
+        "frame-playful-pan-1930-010",
+        "frame-playful-pan-1930-011",
+        "frame-playful-pan-1930-012",
+        "frame-playful-pan-1930-013",
+        "frame-playful-pan-1930-014",
+        "frame-night-1930-001",
+        "frame-night-1930-002",
+        "frame-night-1930-003",
+        "frame-night-1930-004",
+        "frame-night-1930-005",
+        "frame-night-1930-006",
+        "frame-night-1930-007",
+        "frame-night-1930-008",
+        "frame-night-1930-009",
+        "frame-night-1930-010",
+        "frame-night-1930-011",
+        "frame-night-1930-012",
+        "frame-night-1930-013",
+        "frame-night-1930-014"
+      ],
+      "frameIds": [
+        "frame-playful-pan-1930-001",
+        "frame-playful-pan-1930-002",
+        "frame-playful-pan-1930-003",
+        "frame-playful-pan-1930-004",
+        "frame-playful-pan-1930-005",
+        "frame-playful-pan-1930-006",
+        "frame-playful-pan-1930-007",
+        "frame-playful-pan-1930-008",
+        "frame-playful-pan-1930-009",
+        "frame-playful-pan-1930-010",
+        "frame-playful-pan-1930-011",
+        "frame-playful-pan-1930-012",
+        "frame-playful-pan-1930-013",
+        "frame-playful-pan-1930-014",
+        "frame-night-1930-001",
+        "frame-night-1930-002",
+        "frame-night-1930-003",
+        "frame-night-1930-004",
+        "frame-night-1930-005",
+        "frame-night-1930-006",
+        "frame-night-1930-007",
+        "frame-night-1930-008",
+        "frame-night-1930-009",
+        "frame-night-1930-010",
+        "frame-night-1930-011",
+        "frame-night-1930-012",
+        "frame-night-1930-013",
+        "frame-night-1930-014"
+      ],
+      "workCount": 2,
+      "imageCount": 28,
+      "frameCount": 28,
+      "rightsBreakdown": {
+        "期限届满": 2
+      },
+      "copyrightRoutes": [
+        "期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话",
+        "动物 / 自然",
+        "万圣节"
+      ],
+      "topScenes": [
+        {
+          "name": "森林",
+          "count": 28
+        },
+        {
+          "name": "动物群像",
+          "count": 14
+        },
+        {
+          "name": "火灾",
+          "count": 14
+        },
+        {
+          "name": "神话",
+          "count": 14
+        },
+        {
+          "name": "夜晚",
+          "count": 14
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 14
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "Silly Symphonies",
+          "count": 28
+        },
+        {
+          "name": "季节动画",
+          "count": 14
+        },
+        {
+          "name": "神话动画",
+          "count": 14
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 14
+        }
+      ],
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "awarenessScore": 0,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "role-pan-fd92d952",
+        "role-夜行动物-1bfa79de"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "frame-playful-pan-1930-001",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 001",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/04f8a4adaaf9f6935a86.webp"
+    },
+    {
+      "id": "frame-playful-pan-1930-002",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 002",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/78d0aee987310d03cbf8.webp"
+    },
+    {
+      "id": "frame-playful-pan-1930-003",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 003",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/5e6e0b35ba74d79b2a16.webp"
+    },
+    {
+      "id": "frame-playful-pan-1930-004",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 004",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/9e8dc980836ee33698ac.webp"
+    },
+    {
+      "id": "frame-playful-pan-1930-005",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 005",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/7e8c377396d43a10d528.webp"
+    },
+    {
+      "id": "frame-playful-pan-1930-006",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 006",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/e7443fbea956bb933dd3.webp"
+    },
+    {
+      "id": "frame-playful-pan-1930-007",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 007",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/99d93694f936bb78145c.webp"
+    },
+    {
+      "id": "frame-playful-pan-1930-008",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 008",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/01b128e3d575f7a34bc7.webp"
+    },
+    {
+      "id": "frame-playful-pan-1930-009",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 009",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/ca48764e22fae6ee48de.webp"
+    },
+    {
+      "id": "frame-playful-pan-1930-010",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 010",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/78e86f0a00b0437a3658.webp"
+    },
+    {
+      "id": "frame-playful-pan-1930-011",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 011",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/276e5180a3ca52a22608.webp"
+    },
+    {
+      "id": "frame-playful-pan-1930-012",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 012",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/457a135ff6aae05d1dd2.webp"
+    },
+    {
+      "id": "frame-playful-pan-1930-013",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 013",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/4a93963d8d76c60984f5.webp"
+    },
+    {
+      "id": "frame-playful-pan-1930-014",
+      "kind": "动画画面",
+      "title": "《Playful Pan》潘神与森林",
+      "subtitle": "画面 014",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "以来源页为准",
+      "sourceUrl": "https://archive.org/details/playful-pan_1930",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "Silly Symphonies · 神话动画 · 森林 · 神话",
+      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
+      "styles": [
+        "Silly Symphonies",
+        "神话动画"
+      ],
+      "scenes": [
+        "森林",
+        "神话",
+        "音乐 / 舞蹈",
+        "火灾"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pan",
+        "森林生物"
+      ],
+      "tags": [
+        "早期动画",
+        "宗教 / 神话"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "image": "images/162bbcf545bdc65a590d.webp"
+    }
+  ]
+}

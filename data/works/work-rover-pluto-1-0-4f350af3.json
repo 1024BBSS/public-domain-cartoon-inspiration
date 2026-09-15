@@ -1,0 +1,253 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "work": {
+    "id": "work-rover-pluto-1-0-4f350af3",
+    "title": "Rover / Pluto 1.0",
+    "subtitle": "《The Picnic》· 1930（当时名 Rover）",
+    "year": "1930",
+    "yearSort": 1930,
+    "coverImage": "images/8643a403f9d5bef3dacb.webp",
+    "coverRecordId": "catalog-rover-pluto",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rover_(Pluto),_The_Picnic_1930.jpg",
+    "sourceLabel": "Wikimedia",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "期限届满"
+    ],
+    "copyrightRoutes": [
+      "完整期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Public domain"
+    ],
+    "usage": "虽在 2026 进入美国公版，但现代品牌联想极强。",
+    "avoid": "1931 后 Pluto 名称下的现代黄犬、绿项圈、脸型与品牌视觉。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色"
+    ],
+    "styles": [
+      "早期动画 / 漫画"
+    ],
+    "scenes": [],
+    "holidays": [],
+    "characterNames": [],
+    "characterAliases": [],
+    "recordIds": [
+      "catalog-rover-pluto"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-rover-pluto"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 38,
+    "entityIds": [
+      "role-rover-pluto-8d61d09f"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-rover-pluto-8d61d09f",
+      "name": "Rover / Pluto",
+      "type": "角色",
+      "aliases": [
+        "未命名寻血猎犬（Rover/Pluto 前身）",
+        "Rover"
+      ],
+      "virtual": false,
+      "coverImage": "images/8643a403f9d5bef3dacb.webp",
+      "coverRecordId": "catalog-rover-pluto",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-the-chain-gang追逐与越狱-9c106ad9",
+        "work-the-picnic郊外野餐-0d17c756",
+        "work-rover-pluto-1-0-4f350af3"
+      ],
+      "recordIds": [
+        "frame-the-chain-gang-1930-001",
+        "frame-the-chain-gang-1930-002",
+        "frame-the-chain-gang-1930-003",
+        "frame-the-chain-gang-1930-004",
+        "frame-the-chain-gang-1930-005",
+        "frame-the-chain-gang-1930-006",
+        "frame-the-chain-gang-1930-007",
+        "frame-the-chain-gang-1930-008",
+        "frame-the-chain-gang-1930-009",
+        "frame-the-chain-gang-1930-010",
+        "frame-the-chain-gang-1930-011",
+        "frame-the-chain-gang-1930-012",
+        "frame-the-chain-gang-1930-013",
+        "frame-the-chain-gang-1930-014",
+        "frame-the-chain-gang-1930-015",
+        "frame-the-chain-gang-1930-016",
+        "frame-the-picnic-1930-001",
+        "frame-the-picnic-1930-002",
+        "frame-the-picnic-1930-003",
+        "frame-the-picnic-1930-004",
+        "frame-the-picnic-1930-005",
+        "frame-the-picnic-1930-006",
+        "frame-the-picnic-1930-007",
+        "frame-the-picnic-1930-008",
+        "frame-the-picnic-1930-009",
+        "frame-the-picnic-1930-010",
+        "frame-the-picnic-1930-011",
+        "frame-the-picnic-1930-012",
+        "frame-the-picnic-1930-013",
+        "frame-the-picnic-1930-014",
+        "catalog-rover-pluto"
+      ],
+      "frameIds": [
+        "frame-the-chain-gang-1930-001",
+        "frame-the-chain-gang-1930-002",
+        "frame-the-chain-gang-1930-003",
+        "frame-the-chain-gang-1930-004",
+        "frame-the-chain-gang-1930-005",
+        "frame-the-chain-gang-1930-006",
+        "frame-the-chain-gang-1930-007",
+        "frame-the-chain-gang-1930-008",
+        "frame-the-chain-gang-1930-009",
+        "frame-the-chain-gang-1930-010",
+        "frame-the-chain-gang-1930-011",
+        "frame-the-chain-gang-1930-012",
+        "frame-the-chain-gang-1930-013",
+        "frame-the-chain-gang-1930-014",
+        "frame-the-chain-gang-1930-015",
+        "frame-the-chain-gang-1930-016",
+        "frame-the-picnic-1930-001",
+        "frame-the-picnic-1930-002",
+        "frame-the-picnic-1930-003",
+        "frame-the-picnic-1930-004",
+        "frame-the-picnic-1930-005",
+        "frame-the-picnic-1930-006",
+        "frame-the-picnic-1930-007",
+        "frame-the-picnic-1930-008",
+        "frame-the-picnic-1930-009",
+        "frame-the-picnic-1930-010",
+        "frame-the-picnic-1930-011",
+        "frame-the-picnic-1930-012",
+        "frame-the-picnic-1930-013",
+        "frame-the-picnic-1930-014"
+      ],
+      "workCount": 3,
+      "imageCount": 31,
+      "frameCount": 30,
+      "rightsBreakdown": {
+        "期限届满": 3
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "动物伙伴",
+          "count": 16
+        },
+        {
+          "name": "劳动",
+          "count": 16
+        },
+        {
+          "name": "追逐",
+          "count": 16
+        },
+        {
+          "name": "爱情 / 约会",
+          "count": 14
+        },
+        {
+          "name": "宠物",
+          "count": 14
+        },
+        {
+          "name": "户外",
+          "count": 14
+        },
+        {
+          "name": "野餐",
+          "count": 14
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 30
+        },
+        {
+          "name": "早期 Disney",
+          "count": 30
+        },
+        {
+          "name": "早期动画 / 漫画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "春季 / 复活节",
+          "count": 14
+        },
+        {
+          "name": "情人节",
+          "count": 14
+        }
+      ],
+      "usage": "虽在 2026 进入美国公版，但现代品牌联想极强。",
+      "avoid": "1931 后 Pluto 名称下的现代黄犬、绿项圈、脸型与品牌视觉。",
+      "awarenessScore": 38,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-mickey-mouse-ac752a50",
+        "role-minnie-mouse-b07065a5"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "catalog-rover-pluto",
+      "kind": "主档",
+      "title": "Rover / Pluto 1.0",
+      "subtitle": "《The Picnic》· 1930（当时名 Rover）",
+      "year": "1930",
+      "yearSort": 1930,
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "完整期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rover_(Pluto),_The_Picnic_1930.jpg",
+      "sourceLabel": "Wikimedia",
+      "licenseUrl": "",
+      "usage": "虽在 2026 进入美国公版，但现代品牌联想极强。",
+      "avoid": "1931 后 Pluto 名称下的现代黄犬、绿项圈、脸型与品牌视觉。",
+      "styles": [
+        "早期动画 / 漫画"
+      ],
+      "scenes": [],
+      "holidays": [],
+      "characters": [],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色"
+      ],
+      "awarenessScore": 38,
+      "awarenessLevel": "较低",
+      "image": "images/8643a403f9d5bef3dacb.webp"
+    }
+  ]
+}
