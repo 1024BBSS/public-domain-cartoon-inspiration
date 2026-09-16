@@ -67,6 +67,18 @@ const CHARACTER_ALIASES = new Map([
   ["popeye 1.0", "Popeye"],
   ["buck rogers 1.0", "Buck Rogers"],
   ["bosko 1.0", "Bosko"],
+  ["小鱼 small fry", "Small Fry"],
+  ["somewhere in dreamland siblings", "Dreamland Siblings"],
+  ["梦境兄妹", "Dreamland Siblings"],
+  ["the cobweb hotel spider", "Cobweb Hotel Spider"],
+  ["蛛网旅馆蜘蛛老板", "Cobweb Hotel Spider"],
+  ["the cobweb hotel fly couple", "Cobweb Hotel Fly Couple"],
+  ["苍蝇情侣", "Cobweb Hotel Fly Couple"],
+  ["christmas comes orphan children", "Christmas Comes Orphans"],
+  ["圣诞孤儿院孩子群像", "Christmas Comes Orphans"],
+  ["格兰皮爷爷", "Grampy"],
+  ["van beuren 人类版 tom & jerry", "Van Beuren Human Duo"],
+  ["范伯伦人类搭档", "Van Beuren Human Duo"],
 ]);
 
 const SUBJECT_HUBS = [

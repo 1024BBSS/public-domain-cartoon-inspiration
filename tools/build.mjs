@@ -24,6 +24,7 @@ const eagleImagesRoot = "/Users/wenshanchen/Pictures/idea.library/images";
 const designSystemRoot = "/Users/wenshanchen/Documents/design-system/kit";
 const imageOutputRoot = path.join(projectRoot, "images");
 const dataOutputRoot = path.join(projectRoot, "data");
+const supplementalCartoonsPath = path.join(projectRoot, "source", "cartoon-ip-supplement.json");
 const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "pd-cartoon-build-"));
 
 const ALLOWED_RIGHTS = new Set([
@@ -135,7 +136,9 @@ function genericAvoid(rightsStatus) {
 }
 
 function resolveSource(imageKey, assetManifest) {
-  const eagleId = assetManifest.keys[imageKey];
+  const eagleId = String(imageKey || "").startsWith("eagle:")
+    ? String(imageKey).slice("eagle:".length)
+    : assetManifest.keys[imageKey];
   if (!eagleId) throw new Error(`No Eagle item for ${imageKey}`);
 
   const infoDir = path.join(eagleImagesRoot, `${eagleId}.info`);
@@ -188,6 +191,68 @@ async function convertImage(job) {
 const snapshot = JSON.parse(await fs.readFile(snapshotPath, "utf8"));
 const assetManifest = JSON.parse(await fs.readFile(assetManifestPath, "utf8"));
 const worksById = new Map(snapshot.collections.gallery.map((work) => [work.id, work]));
+
+const supplementalCartoons = existsSync(supplementalCartoonsPath)
+  ? JSON.parse(await fs.readFile(supplementalCartoonsPath, "utf8"))
+  : { schemaVersion: "1.0", sourceVersion: "none", works: [] };
+
+function supplementalRecords(data) {
+  const output = [];
+  for (const work of data.works || []) {
+    if (!Array.isArray(work.frames) || !work.frames.length) {
+      throw new Error(`Supplemental work has no frames: ${work.id || work.title}`);
+    }
+    const common = {
+      title: work.title,
+      year: work.year,
+      yearSort: Number.parseInt(work.year, 10) || 9999,
+      rightsStatus: work.rightsStatus,
+      copyrightRoute: work.copyrightRoute,
+      evidenceLevel: work.evidenceLevel || "待复核",
+      imageRights: work.imageRights || "以来源页为准",
+      sourceLabel: work.sourceLabel || sourceLabel(work.sourceUrl),
+      licenseUrl: work.licenseUrl || "",
+      usage: work.usage || "从该作品的具体角色表达与画面关系中提炼题材。",
+      avoid: work.avoid || genericAvoid(work.rightsStatus),
+      styles: compact(work.styles || []),
+      scenes: compact(work.scenes || []),
+      holidays: compact(work.holidays || []),
+      characters: compact(work.characters || []),
+      tags: compact(work.tags || ["早期动画", "漫画 / 角色"]),
+      awarenessScore: Number(work.awarenessScore) || 0,
+      awarenessLevel: work.awarenessLevel || "待复核",
+      registrationNumber: work.registrationNumber || "",
+      renewalSearch: work.renewalSearch || "",
+      evidenceSources: compact(work.evidenceSources || []),
+      riskFlags: compact(work.riskFlags || []),
+      researchDate: work.researchDate || data.researchDate || "",
+      supplementalSourceVersion: data.sourceVersion || "",
+    };
+    const first = work.frames[0];
+    output.push({
+      ...common,
+      id: `catalog-supplement-${work.id}`,
+      kind: "主档",
+      subtitle: work.subtitle || `${work.year} 具体作品版本`,
+      sourceUrl: work.sourceUrl,
+      imageKey: `eagle:${first.eagleItemId}`,
+    });
+    work.frames.forEach((frame, index) => {
+      const sourceUrl = frame.sourceUrl || (frame.seconds === undefined
+        ? work.sourceUrl
+        : `${work.sourceUrl}#frame-${frame.seconds}s`);
+      output.push({
+        ...common,
+        id: `frame-supplement-${work.id}-${String(index + 1).padStart(3, "0")}`,
+        kind: "动画画面",
+        subtitle: frame.subtitle || `画面 ${String(index + 1).padStart(3, "0")}`,
+        sourceUrl,
+        imageKey: `eagle:${frame.eagleItemId}`,
+      });
+    });
+  }
+  return output;
+}
 
 const catalogRecords = snapshot.collections.catalog
   .filter((item) => ALLOWED_RIGHTS.has(item.rightsStatus) && isCatalogCartoon(item))
@@ -253,7 +318,8 @@ const galleryRecords = snapshot.collections.galleryAssets
     };
   });
 
-const records = [...catalogRecords, ...galleryRecords];
+const addedCartoonRecords = supplementalRecords(supplementalCartoons);
+const records = [...catalogRecords, ...galleryRecords, ...addedCartoonRecords];
 const imageNames = new Map();
 for (const record of records) {
   if (!imageNames.has(record.imageKey)) imageNames.set(record.imageKey, `${hashText(record.imageKey)}.webp`);
@@ -328,6 +394,11 @@ const manifest = {
   catalogSha256: createHash("sha256").update(catalogJson).digest("hex"),
   relationsSha256: relationResult.sha256,
   relationCounts: relationResult.relations.counts,
+  supplemental: {
+    sourceVersion: supplementalCartoons.sourceVersion || "none",
+    workCount: (supplementalCartoons.works || []).length,
+    recordCount: addedCartoonRecords.length,
+  },
   exclusions: ["未续期待复核", "公版线索 · 待复核", "仍受版权保护", "Eagle 本地路径", "内部证据附件"],
 };
 await fs.writeFile(path.join(projectRoot, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`, "utf8");

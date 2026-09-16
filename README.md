@@ -34,3 +34,5 @@ node tools/build.mjs
 ```
 
 构建会从 Eagle 事实源读取图片、生成 960px WebP 预览、重建公开目录与关系数据，并重新复制指定设计系统的 `tokens.css` 与 `components.css`。
+
+`source/cartoon-ip-supplement.json` 保存已进入卡通 IP 队列的具体作品、登记/续期线索、风险边界和 Eagle item ID。图片原件仍以 Eagle 为事实源；补充文件只描述关系与证据，不保存第二份原图。
