@@ -1,0 +1,344 @@
+{
+  "frank sinatra::in the wee small hours": {
+    "id": "5a5d9938-38a9-3f32-b03b-8f14f62b880a",
+    "releaseDate": "1955-04-25",
+    "title": "In the Wee Small Hours",
+    "artist": "Frank Sinatra"
+  },
+  "elvis presley::elvis presley": {
+    "id": "2ebeec96-6ef7-3d4d-943c-0b4a2af1d7cc",
+    "releaseDate": "1956",
+    "title": "Elvis Presley",
+    "artist": "Elvis Presley"
+  },
+  "miles davis::birth of the cool": {
+    "id": "903d5fe8-ab43-33b2-9411-6738af50de19",
+    "releaseDate": "1957-02",
+    "title": "Birth of the Cool",
+    "artist": "Miles Davis"
+  },
+  "john coltrane::blue train": {
+    "id": "12349ce8-2087-3d16-93da-70cd65621774",
+    "releaseDate": "1958-02",
+    "title": "Blue Train",
+    "artist": "John Coltrane"
+  },
+  "little richard::here s little richard": {
+    "id": "a987042b-4fe0-35bb-9cca-7ff44b1ff5b4",
+    "releaseDate": "1957-03",
+    "title": "Here’s Little Richard",
+    "artist": "Little Richard"
+  },
+  "billie holiday::lady in satin": {
+    "id": "cf7bc239-a3ba-3d87-80e5-261f750cb560",
+    "releaseDate": "1958-06",
+    "title": "Lady in Satin",
+    "artist": "Billie Holiday"
+  },
+  "cannonball adderley::somethin else": {
+    "id": "495c22f5-90b3-3e87-8be1-2c55aef3ed82",
+    "releaseDate": "1958",
+    "title": "Somethin’ Else",
+    "artist": "Cannonball Adderley"
+  },
+  "the dave brubeck quartet::time out": {
+    "id": "035a7881-3e2c-39d2-b110-fe26a4de94e5",
+    "releaseDate": "1959",
+    "title": "Time Out",
+    "artist": "The Dave Brubeck Quartet"
+  },
+  "marty robbins::gunfighter ballads and trail songs": {
+    "id": "81e9ea0b-e334-35b3-9d10-f9a5f8bea5ae",
+    "releaseDate": "1959-09",
+    "title": "Gunfighter Ballads and Trail Songs",
+    "artist": "Marty Robbins"
+  },
+  "the beatles::with the beatles": {
+    "id": "a63dc65f-09f2-359b-a10e-648f00ecd96c",
+    "releaseDate": "1963-11-22",
+    "title": "With The Beatles",
+    "artist": "The Beatles"
+  },
+  "the beatles::a hard day s night": {
+    "id": "06281c4d-112d-33b0-a25b-df63b420eae7",
+    "releaseDate": "1964-06-26",
+    "title": "A Hard Day’s Night",
+    "artist": "The Beatles"
+  },
+  "john coltrane::a love supreme": {
+    "id": "77cf47ba-58cd-3f3d-a5f9-79bf89860421",
+    "releaseDate": "1965-01",
+    "title": "A Love Supreme",
+    "artist": "John Coltrane"
+  },
+  "john lennon::john lennon plastic ono band": {
+    "id": "8be83468-4917-390d-82b6-d890f058cd22",
+    "releaseDate": "1970",
+    "title": "John Lennon/Plastic Ono Band",
+    "artist": "John Lennon"
+  },
+  "sex pistols::never mind the bollocks here s the sex pistols": {
+    "id": "e959a4b3-6306-3c45-9df6-e7241dae9ea3",
+    "releaseDate": "1977-10-28",
+    "title": "Never Mind the Bollocks Here’s the Sex Pistols",
+    "artist": "Sex Pistols"
+  },
+  "public enemy::it takes a nation of millions to hold us back": {
+    "id": "01921d99-9d15-3fce-8734-46e58327cfb7",
+    "releaseDate": "1988",
+    "title": "It Takes a Nation of Millions to Hold Us Back",
+    "artist": "Public Enemy"
+  },
+  "rage against the machine::rage against the machine": {
+    "id": "1305859b-8937-397f-9c33-39f62eb672fb",
+    "releaseDate": "1992",
+    "title": "Rage Against the Machine",
+    "artist": "Rage Against the Machine"
+  },
+  "m i a::arular": {
+    "id": "32d38e25-27e8-45bc-b79b-931f5a609546",
+    "releaseDate": "2005",
+    "title": "Arular",
+    "artist": "M.I.A."
+  },
+  "childish gambino::awaken my love": {
+    "id": "fd817615-3d43-4f07-9509-d0a46b2bc278",
+    "releaseDate": "2016",
+    "title": "\"Awaken, My Love!\"",
+    "artist": "Childish Gambino"
+  },
+  "kacey musgraves::golden hour": {
+    "id": "56713bde-f9de-4097-bbe3-41d9d7af32c4",
+    "releaseDate": "2018",
+    "title": "Golden Hour",
+    "artist": "Kacey Musgraves"
+  },
+  "rosalia::el mal querer": {
+    "id": "bb525db3-81e4-4c05-b529-23fa05f35c12",
+    "releaseDate": "2018",
+    "title": "El Mal Querer",
+    "artist": "Rosalía"
+  },
+  "lana del rey::norman fucking rockwell": {
+    "id": "24fd0887-9e83-42e3-b27e-e7f89ead4c03",
+    "releaseDate": "2019",
+    "title": "Norman Fucking Rockwell!",
+    "artist": "Lana Del Rey"
+  },
+  "orville peck::pony": {
+    "id": "daa5d250-f26f-414a-a0b6-0dd02c630549",
+    "releaseDate": "2019",
+    "title": "Pony",
+    "artist": "Orville Peck"
+  },
+  "dua lipa::future nostalgia": {
+    "id": "aa366795-92d7-4d67-91fa-6741f82a4858",
+    "releaseDate": "2020",
+    "title": "Future Nostalgia",
+    "artist": "Dua Lipa"
+  },
+  "taylor swift::folklore": {
+    "id": "f1d08326-c23b-4b43-be3b-20b33ab10bf6",
+    "releaseDate": "2020",
+    "title": "Folklore",
+    "artist": "Taylor Swift"
+  },
+  "bad bunny::yhlqmdlg": {
+    "id": "e20e0bc0-4660-461b-8ac7-14ad2459cda6",
+    "releaseDate": "2020",
+    "title": "YHLQMDLG",
+    "artist": "Bad Bunny"
+  },
+  "olivia rodrigo::sour": {
+    "id": "2ae2e504-7116-4b4f-b632-9748bb18ccd2",
+    "releaseDate": "2021",
+    "title": "Sour",
+    "artist": "Olivia Rodrigo"
+  },
+  "tyler the creator::call me if you get lost": {
+    "id": "c65de046-7a48-4269-b4e5-4db0ed328f47",
+    "releaseDate": "2021",
+    "title": "Call Me If You Get Lost",
+    "artist": "Tyler, the Creator"
+  },
+  "little simz::sometimes i might be introvert": {
+    "id": "e95de3f4-84db-4d24-8d06-fd970576a6ef",
+    "releaseDate": "2021",
+    "title": "Sometimes I Might Be Introvert",
+    "artist": "Little Simz"
+  },
+  "bad bunny::un verano sin ti": {
+    "id": "e992b449-141b-4aea-b07b-9b2a478a8570",
+    "releaseDate": "2022",
+    "title": "Un Verano Sin Ti",
+    "artist": "Bad Bunny"
+  },
+  "rosalia::motomami": {
+    "id": "f455f658-dd55-4790-8cd3-99c7c273018a",
+    "releaseDate": "2022",
+    "title": "Motomami",
+    "artist": "Rosalía"
+  },
+  "sza::sos": {
+    "id": "1646286a-d0ad-4288-bfab-34b0fb7b22c1",
+    "releaseDate": "2022",
+    "title": "SOS",
+    "artist": "SZA"
+  },
+  "chappell roan::the rise and fall of a midwest princess": {
+    "id": "eda0f5d3-44eb-42cf-bcfd-5c9f93e05c7a",
+    "releaseDate": "2023",
+    "title": "The Rise and Fall of a Midwest Princess",
+    "artist": "Chappell Roan"
+  },
+  "beyonce::cowboy carter": {
+    "id": "fa566e7b-254a-4fab-8aa5-ebcb7592d7f2",
+    "releaseDate": "2024",
+    "title": "Cowboy Carter",
+    "artist": "Beyoncé"
+  },
+  "bad bunny::debi tirar mas fotos": {
+    "id": "b3073a10-2d7c-484c-b387-e49ae629da3d",
+    "releaseDate": "2025",
+    "title": "Debí tirar más fotos",
+    "artist": "Bad Bunny"
+  },
+  "patsy cline::showcase": {
+    "id": "b952a2b4-07df-31f1-911a-25af1a8631d9",
+    "releaseDate": "1961",
+    "title": "Showcase",
+    "artist": "Patsy Cline"
+  },
+  "johnny cash::at folsom prison": {
+    "id": "6b4ea595-3378-3019-be5f-058412670791",
+    "releaseDate": "1968",
+    "title": "At Folsom Prison",
+    "artist": "Johnny Cash"
+  },
+  "the byrds::sweetheart of the rodeo": {
+    "id": "2a02ea31-7a7f-3a46-8a46-aebfac434a81",
+    "releaseDate": "1968",
+    "title": "Sweetheart of the Rodeo",
+    "artist": "The Byrds"
+  },
+  "the beatles::the beatles": {
+    "id": "055be730-dcad-31bf-b550-45ba9c202aa3",
+    "releaseDate": "1968",
+    "title": "The Beatles",
+    "artist": "The Beatles"
+  },
+  "the highwaymen::highwayman": {
+    "id": "81fd7c68-3934-32cb-a515-412ce5358ca8",
+    "releaseDate": "1986",
+    "title": "Highwayman",
+    "artist": "The Highwaymen"
+  },
+  "run d m c::raising hell": {
+    "id": "a209c0a5-e9b2-37ff-a76d-df5bc405a0e8",
+    "releaseDate": "1986",
+    "title": "Raising Hell",
+    "artist": "Run-D.M.C."
+  },
+  "janet jackson::janet jackson s rhythm nation 1814": {
+    "id": "20aaac17-e4e8-373c-99cc-211321b82832",
+    "releaseDate": "1989",
+    "title": "Janet Jackson's Rhythm Nation 1814",
+    "artist": "Janet Jackson"
+  },
+  "garth brooks::no fences": {
+    "id": "d4377787-0d92-3902-997a-feb75f4dee2d",
+    "releaseDate": "1990",
+    "title": "No Fences",
+    "artist": "Garth Brooks"
+  },
+  "a tribe called quest::the low end theory": {
+    "id": "c3733436-fcba-3c08-b082-d548df5c5139",
+    "releaseDate": "1991",
+    "title": "The Low End Theory",
+    "artist": "A Tribe Called Quest"
+  },
+  "michael jackson::dangerous": {
+    "id": "d6b52521-0dfa-390f-970f-790174c22752",
+    "releaseDate": "1991",
+    "title": "Dangerous",
+    "artist": "Michael Jackson"
+  },
+  "my bloody valentine::loveless": {
+    "id": "cb76227e-3ac0-3002-9a10-615a5b73cc59",
+    "releaseDate": "1991",
+    "title": "Loveless",
+    "artist": "My Bloody Valentine"
+  },
+  "dr dre::the chronic": {
+    "id": "ad444843-7160-33d7-b0c9-fc99f2c14a99",
+    "releaseDate": "1992",
+    "title": "The Chronic",
+    "artist": "Dr. Dre"
+  },
+  "snoop doggy dogg::doggystyle": {
+    "id": "649762c9-8785-3d9c-803d-2f0496f168e5",
+    "releaseDate": "1993",
+    "title": "Doggystyle",
+    "artist": "Snoop Doggy Dogg"
+  },
+  "the notorious b i g::ready to die": {
+    "id": "5afcfeac-118a-35e6-af0d-35ec9003354d",
+    "releaseDate": "1994",
+    "title": "Ready to Die",
+    "artist": "The Notorious B.I.G."
+  },
+  "green day::dookie": {
+    "id": "314cffd4-daa5-3337-85e5-e54165a96113",
+    "releaseDate": "1994",
+    "title": "Dookie",
+    "artist": "Green Day"
+  },
+  "the prodigy::the fat of the land": {
+    "id": "ac9138ce-6331-3f8d-86d7-69f13e4ab4f4",
+    "releaseDate": "1997",
+    "title": "The Fat of the Land",
+    "artist": "The Prodigy"
+  },
+  "the smashing pumpkins::mellon collie and the infinite sadness": {
+    "id": "1af599c9-0b44-3a5a-a06b-39e8db6b2b4e",
+    "releaseDate": "1995",
+    "title": "Mellon Collie and the Infinite Sadness",
+    "artist": "The Smashing Pumpkins"
+  },
+  "gorillaz::gorillaz": {
+    "id": "b0405d2a-5720-340a-bb56-4e135d031cc2",
+    "releaseDate": "2001",
+    "title": "Gorillaz",
+    "artist": "Gorillaz"
+  },
+  "lady gaga::the fame": {
+    "id": "e5495719-b3ad-3eea-a533-fb70af43c23d",
+    "releaseDate": "2008",
+    "title": "The Fame",
+    "artist": "Lady Gaga"
+  },
+  "fka twigs::lp1": {
+    "id": "c390b47b-71c0-461d-b563-e5344b4f84e5",
+    "releaseDate": "2014",
+    "title": "LP1",
+    "artist": "FKA twigs"
+  },
+  "david bowie::blackstar": {
+    "id": "1fd18f5b-9a92-41fd-a590-da6b5cc60d85",
+    "releaseDate": "2016",
+    "title": "Blackstar",
+    "artist": "David Bowie"
+  },
+  "frank ocean::blonde": {
+    "id": "0da340a0-6ad7-4fc2-a272-6f94393a7831",
+    "releaseDate": "2016",
+    "title": "Blonde",
+    "artist": "Frank Ocean"
+  },
+  "solange::a seat at the table": {
+    "id": "331a7ba1-fae2-4881-b434-554f46c13746",
+    "releaseDate": "2016",
+    "title": "A Seat at the Table",
+    "artist": "Solange"
+  }
+}

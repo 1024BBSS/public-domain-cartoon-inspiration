@@ -3,25 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="音乐视觉研究：公版封面、近70年经典、鹰翼摇滚及西部乡村的专辑与历史视觉母题。">
-  <title>音乐视觉研究</title>
+  <meta name="description" content="经典专辑封面视觉研究：按艺人、年代、音乐类型与视觉方法浏览；现代封面仅作研究参考。">
+  <title>经典专辑封面</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12'/%3E%3Ccircle cx='32' cy='32' r='20' fill='none' stroke='white' stroke-width='7'/%3E%3Ccircle cx='32' cy='32' r='4' fill='white'/%3E%3C/svg%3E">
-  <link rel="alternate" type="application/json" href="data/albums.json?v=20260916.2" title="封面视觉研究数据">
+  <link rel="alternate" type="application/json" href="data/albums.json?v=20260916.3" title="专辑封面研究数据">
   <link rel="stylesheet" href="assets/tokens.css">
   <link rel="stylesheet" href="assets/components.css">
-  <link rel="stylesheet" href="assets/albums.css?v=20260916.2">
-  <script defer src="data/albums.js?v=20260916.2"></script>
-  <script defer src="assets/albums.js?v=20260916.2"></script>
+  <link rel="stylesheet" href="assets/albums.css?v=20260916.3">
+  <script defer src="data/albums.js?v=20260916.3"></script>
+  <script defer src="assets/albums.js?v=20260916.3"></script>
 </head>
 <body>
   <div class="app">
     <header class="topbar">
-      <div class="topbar__title">音乐视觉研究</div>
+      <div class="topbar__title">经典专辑封面</div>
       <span class="topbar__meta" id="top-meta">载入中</span>
       <div class="topbar__spacer"></div>
       <div class="topbar__actions">
         <a class="btn btn--ghost btn--sm" href="index.html">公版视觉</a>
-        <a class="btn btn--ghost btn--sm" href="data/albums.json?v=20260916.2" target="_blank" rel="noreferrer">Agent JSON</a>
+        <a class="btn btn--ghost btn--sm" href="data/albums.json?v=20260916.3" target="_blank" rel="noreferrer">Agent JSON</a>
         <button class="btn btn--primary btn--sm" id="copy-filter" type="button">复制当前页</button>
       </div>
     </header>
@@ -29,47 +29,69 @@
     <div class="body">
       <aside class="sidebar" aria-label="封面筛选">
         <div class="sidebar__section">
-          <div class="sidebar__label">研究路径</div>
+          <div class="sidebar__label">资料库</div>
           <nav class="facet-list" id="bucket-facets"></nav>
         </div>
         <div class="sidebar__section">
-          <div class="sidebar__label">艺术路径</div>
-          <nav class="facet-list" id="type-facets"></nav>
+          <div class="sidebar__label">浏览</div>
+          <nav class="facet-list" id="view-facets"></nav>
+        </div>
+        <div class="sidebar__section">
+          <div class="sidebar__label">年代</div>
+          <nav class="facet-list" id="decade-facets"></nav>
         </div>
         <div class="sidebar__section sidebar__section--tail">
-          <p class="boundary-note">仅“公版母题”可进入原创重构；其余只作研究，品牌与乐队元素不得生产。</p>
+          <p class="boundary-note">现代封面只作研究。不得直接复制封面、艺人肖像、名称、标志或商品关系。</p>
         </div>
       </aside>
 
-      <main class="main album-main">
+      <main class="main album-main" id="main-content">
         <section class="filterbar" aria-label="查找与排序">
           <label class="search-field">
             <span class="sr-only">搜索封面</span>
             <input class="input" id="search" type="search" autocomplete="off" placeholder="搜专辑、艺人或视觉结构">
           </label>
+          <select class="select compact-select" id="genre-select" aria-label="音乐类型">
+            <option value="全部">全部类型</option>
+          </select>
+          <select class="select compact-select" id="visual-select" aria-label="视觉方法">
+            <option value="全部">全部视觉方法</option>
+          </select>
           <select class="select compact-select" id="sort-select" aria-label="排序">
-            <option value="curated">脉络</option>
+            <option value="curated">精选顺序</option>
             <option value="year">年代</option>
             <option value="title">名称</option>
-            <option value="type">艺术路径</option>
+            <option value="artist">艺人</option>
+            <option value="score">经典度</option>
           </select>
           <button class="btn btn--secondary" id="reset" type="button">重置</button>
         </section>
 
-        <nav class="bucket-tabs" id="bucket-tabs" aria-label="研究路径"></nav>
-        <nav class="type-chips" id="type-chips" aria-label="艺术路径"></nav>
+        <nav class="bucket-tabs" id="bucket-tabs" aria-label="资料库"></nav>
+        <div class="browse-row">
+          <nav class="view-tabs" id="view-tabs" aria-label="浏览方式"></nav>
+          <nav class="genre-chips" id="genre-chips" aria-label="音乐类型"></nav>
+        </div>
 
         <section class="result-head" aria-live="polite">
-          <div><strong id="result-title">公版封面源流</strong><span class="dim"> · </span><strong id="result-count">0</strong></div>
+          <div><strong id="result-title">经典封面</strong><span class="dim"> · </span><strong id="result-count">0</strong></div>
           <div class="dim" id="result-note"></div>
         </section>
 
         <section class="cover-grid" id="cover-grid" aria-label="封面结果"></section>
+        <section class="artist-grid" id="artist-grid" aria-label="艺人结果" hidden></section>
+
         <div class="empty" id="empty-state" hidden>
           <div class="empty__title">没有匹配项</div>
           <div class="dim">缩短关键词或清空筛选。</div>
           <button class="btn btn--secondary btn--sm" id="empty-reset" type="button">清空筛选</button>
         </div>
+
+        <nav class="pager" id="pager" aria-label="分页">
+          <button class="btn btn--secondary" id="prev-page" type="button">上一页</button>
+          <span class="pager__status" id="pager-status">1 / 1</span>
+          <button class="btn btn--secondary" id="next-page" type="button">下一页</button>
+        </nav>
       </main>
     </div>
   </div>
@@ -86,14 +108,15 @@
         <p class="detail-subtitle" id="detail-subtitle"></p>
         <div class="badge-row" id="detail-badges"></div>
         <dl class="detail-list">
+          <div><dt>为什么经典</dt><dd id="detail-reason"></dd></div>
           <div><dt>视觉结构</dt><dd id="detail-grammar"></dd></div>
-          <div><dt>可转化</dt><dd id="detail-use"></dd></div>
-          <div><dt>市场信号</dt><dd id="detail-signal"></dd></div>
+          <div><dt>可取方法</dt><dd id="detail-use"></dd></div>
           <div><dt>版权门</dt><dd id="detail-gate"></dd></div>
         </dl>
         <div class="detail-actions">
-          <a class="btn btn--secondary" id="detail-visual" target="_blank" rel="noreferrer">视觉来源</a>
-          <a class="btn btn--secondary" id="detail-license" target="_blank" rel="noreferrer">权利线索</a>
+          <button class="btn btn--secondary" id="view-artist" type="button">查看该艺人全部</button>
+          <a class="btn btn--secondary" id="detail-visual" target="_blank" rel="noreferrer">封面来源</a>
+          <a class="btn btn--secondary" id="detail-license" target="_blank" rel="noreferrer">版权说明</a>
           <button class="btn btn--primary" id="copy-item" type="button">复制这条</button>
         </div>
       </article>

@@ -89,7 +89,7 @@ const licenseOnly = (licenseOnlySource.albums || []).map((item) => ({
   ...item,
   bucket: "license-only",
   licenseStatus: "需授权",
-  visualFamily: visualFamily(item.visualType),
+  visualFamily: item.visualFamily || visualFamily(item.visualType),
   image: item.thumbnail,
   evidenceLevel: "研究线索",
 }));
@@ -111,11 +111,11 @@ const westernCountryLineage = (westernCountrySource.records || []).map((item) =>
 }));
 
 const dataset = {
-  schemaVersion: "1.0",
+  schemaVersion: "2.0",
   sourceVersions: [publicDomainSource.sourceVersion, licenseOnlySource.sourceVersion, eagleRockSource.sourceVersion, westernCountrySource.sourceVersion],
   generatedAt: new Date().toISOString(),
-  researchDate: eagleRockSource.researchDate,
-  scope: "音乐视觉研究：公版封面、现代需授权经典、鹰翼摇滚，以及西部/乡村/Rodeo 的专辑和历史公版母题。缩略图不是生产文件。",
+  researchDate: licenseOnlySource.researchDate || eagleRockSource.researchDate,
+  scope: "经典专辑封面、公版封面源流、鹰翼摇滚与西部乡村视觉研究。现代封面均需授权；缩略图不是生产文件。",
   records: [...publicDomain, ...licenseOnly, ...eagleRockLineage, ...westernCountryLineage],
 };
 
@@ -128,6 +128,8 @@ await fs.writeFile(path.join(projectRoot, "album-manifest.json"), `${JSON.string
     total: dataset.records.length,
     publicDomain: publicDomain.length,
     licenseOnly: licenseOnly.length,
+    licenseOnlyArtists: new Set(licenseOnly.map((item) => item.artist).filter(Boolean)).size,
+    countryAmericana: licenseOnly.filter((item) => item.genreGroup === "Country / Americana").length,
     eagleRockLineage: eagleRockLineage.length,
     westernCountryLineage: westernCountryLineage.length,
   },

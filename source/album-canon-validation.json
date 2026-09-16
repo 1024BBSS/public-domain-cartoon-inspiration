@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-09-16T09:59:26.880Z",
+  "pass": true,
+  "counts": {
+    "albums": 200,
+    "artists": 153,
+    "imagesChecked": 200,
+    "imageFailures": 0
+  },
+  "decadeCounts": {
+    "1950s": 10,
+    "1960s": 25,
+    "1970s": 35,
+    "1980s": 35,
+    "1990s": 30,
+    "2000s": 25,
+    "2010s": 25,
+    "2020s": 15
+  },
+  "genreCounts": {
+    "Country / Americana": 25,
+    "Electronic / Dance": 11,
+    "Folk / Singer-songwriter": 9,
+    "Hip-hop": 31,
+    "Jazz / Blues": 10,
+    "Latin / Global": 9,
+    "Pop": 30,
+    "R&B / Soul / Funk": 21,
+    "Rock / Punk / Metal": 54
+  },
+  "failures": []
+}
