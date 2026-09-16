@@ -12,7 +12,8 @@ const execFileAsync = promisify(execFile);
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDir, "..");
 
-if (path.basename(projectRoot) !== "public-domain-cartoon-online-v1") {
+const allowedProjectNames = new Set(["public-domain-cartoon-online-v1", "public-domain-cartoon-online-v1-build"]);
+if (!allowedProjectNames.has(path.basename(projectRoot))) {
   throw new Error(`Refusing to build outside the expected project: ${projectRoot}`);
 }
 
