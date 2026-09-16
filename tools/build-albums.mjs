@@ -115,7 +115,7 @@ const dataset = {
   sourceVersions: [publicDomainSource.sourceVersion, licenseOnlySource.sourceVersion, eagleRockSource.sourceVersion, westernCountrySource.sourceVersion],
   generatedAt: new Date().toISOString(),
   researchDate: eagleRockSource.researchDate,
-  scope: "音乐视觉研究：公版封面、现代需授权经典、鹰翼摇滚，以及西部/乡村/Rodeo 的专辑、周边和公版母题分层浏览。缩略图不是生产文件。",
+  scope: "音乐视觉研究：公版封面、现代需授权经典、鹰翼摇滚，以及西部/乡村/Rodeo 的专辑和历史公版母题。缩略图不是生产文件。",
   records: [...publicDomain, ...licenseOnly, ...eagleRockLineage, ...westernCountryLineage],
 };
 

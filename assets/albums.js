@@ -145,9 +145,9 @@
     dom.resultNote.textContent = state.bucket === "public-domain"
       ? "图源在 Eagle"
       : state.bucket === "eagle-rock-lineage"
-        ? "周边 + 专辑 + 公版母题"
+        ? "专辑 + 公版母题"
         : state.bucket === "western-country-lineage"
-          ? "女装 + 专辑 + 公版母题"
+          ? "专辑 + 公版母题"
         : "研究缩略图 · 禁止生产";
     dom.topMeta.textContent = `${bucketRecords("public-domain").length} 公版 · ${bucketRecords("license-only").length} 授权 · ${bucketRecords("eagle-rock-lineage").length} 鹰翼 · ${bucketRecords("western-country-lineage").length} 西部`;
     document.title = `${bucketLabel(state.bucket)}｜音乐视觉研究`;
