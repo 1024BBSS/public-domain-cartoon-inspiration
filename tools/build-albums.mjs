@@ -12,15 +12,17 @@ const projectRoot = path.resolve(scriptDir, "..");
 const eagleRoot = "/Users/wenshanchen/Pictures/idea.library/images";
 const publicDomainPath = path.join(projectRoot, "source/album-public-domain.json");
 const licenseOnlyPath = path.join(projectRoot, "source/album-license-only.json");
+const eagleRockPath = path.join(projectRoot, "source/eagle-rock-lineage.json");
 const imageRoot = path.join(projectRoot, "album-images");
 const dataRoot = path.join(projectRoot, "data");
 
-if (!existsSync(publicDomainPath) || !existsSync(licenseOnlyPath)) {
+if (!existsSync(publicDomainPath) || !existsSync(licenseOnlyPath) || !existsSync(eagleRockPath)) {
   throw new Error("Album source files are missing. Run tools/import-grok-intake.mjs first.");
 }
 
 const publicDomainSource = JSON.parse(await fs.readFile(publicDomainPath, "utf8"));
 const licenseOnlySource = JSON.parse(await fs.readFile(licenseOnlyPath, "utf8"));
+const eagleRockSource = JSON.parse(await fs.readFile(eagleRockPath, "utf8"));
 await fs.mkdir(imageRoot, { recursive: true });
 await fs.mkdir(dataRoot, { recursive: true });
 
@@ -90,13 +92,21 @@ const licenseOnly = (licenseOnlySource.albums || []).map((item) => ({
   evidenceLevel: "研究线索",
 }));
 
+const eagleRockLineage = (eagleRockSource.records || []).map((item) => ({
+  ...item,
+  bucket: "eagle-rock-lineage",
+  visualFamily: item.visualFamily || visualFamily(item.visualType),
+  image: item.thumbnail,
+  evidenceLevel: item.pathStatus || "研究线索",
+}));
+
 const dataset = {
   schemaVersion: "1.0",
-  sourceVersions: [publicDomainSource.sourceVersion, licenseOnlySource.sourceVersion],
+  sourceVersions: [publicDomainSource.sourceVersion, licenseOnlySource.sourceVersion, eagleRockSource.sourceVersion],
   generatedAt: new Date().toISOString(),
-  researchDate: licenseOnlySource.researchDate,
-  scope: "封面视觉研究：公版历史封面与现代需授权经典分开。缩略图不是生产文件。",
-  records: [...publicDomain, ...licenseOnly],
+  researchDate: eagleRockSource.researchDate,
+  scope: "音乐视觉研究：公版封面、现代需授权经典，以及鹰翼摇滚的专辑/周边/公版母题分层浏览。缩略图不是生产文件。",
+  records: [...publicDomain, ...licenseOnly, ...eagleRockLineage],
 };
 
 const json = `${JSON.stringify(dataset, null, 2)}\n`;
@@ -104,8 +114,17 @@ await fs.writeFile(path.join(dataRoot, "albums.json"), json, "utf8");
 await fs.writeFile(path.join(dataRoot, "albums.js"), `window.ALBUM_RESEARCH_DATA = ${JSON.stringify(dataset)};\n`, "utf8");
 await fs.writeFile(path.join(projectRoot, "album-manifest.json"), `${JSON.stringify({
   generatedAt: dataset.generatedAt,
-  counts: { total: dataset.records.length, publicDomain: publicDomain.length, licenseOnly: licenseOnly.length },
+  counts: {
+    total: dataset.records.length,
+    publicDomain: publicDomain.length,
+    licenseOnly: licenseOnly.length,
+    eagleRockLineage: eagleRockLineage.length,
+  },
   sha256: createHash("sha256").update(json).digest("hex"),
 }, null, 2)}\n`, "utf8");
 
-console.log(JSON.stringify({ publicDomain: publicDomain.length, licenseOnly: licenseOnly.length }, null, 2));
+console.log(JSON.stringify({
+  publicDomain: publicDomain.length,
+  licenseOnly: licenseOnly.length,
+  eagleRockLineage: eagleRockLineage.length,
+}, null, 2));

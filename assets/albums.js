@@ -11,7 +11,7 @@
     resultTitle: $("#result-title"), resultCount: $("#result-count"), resultNote: $("#result-note"), copyFilter: $("#copy-filter"),
     dialog: $("#detail-dialog"), detailImage: $("#detail-image"), detailKind: $("#detail-kind"),
     detailTitle: $("#detail-title"), detailSubtitle: $("#detail-subtitle"), detailBadges: $("#detail-badges"),
-    detailGrammar: $("#detail-grammar"), detailUse: $("#detail-use"), detailGate: $("#detail-gate"),
+    detailGrammar: $("#detail-grammar"), detailUse: $("#detail-use"), detailSignal: $("#detail-signal"), detailGate: $("#detail-gate"),
     detailVisual: $("#detail-visual"), detailLicense: $("#detail-license"), copyItem: $("#copy-item"),
   };
   const normalize = (value) => String(value || "").normalize("NFKC").toLocaleLowerCase("zh-CN").replace(/\s+/g, " ").trim();
@@ -20,16 +20,23 @@
   const BUCKETS = [
     ["public-domain", "公版封面源流"],
     ["license-only", "近70年经典 · 需授权"],
+    ["eagle-rock-lineage", "鹰翼摇滚脉络"],
   ];
-  for (const item of records) item._search = normalize([item.title, item.artist, item.year, item.genre, item.visualFamily, item.visualType, item.grammar, item.opportunity].filter(Boolean).join(" "));
+  const bucketIds = BUCKETS.map(([id]) => id);
+  for (const item of records) item._search = normalize([
+    item.title, item.artist, item.year, item.genre, item.visualFamily, item.visualType,
+    item.grammar, item.opportunity, item.trendSignal, item.licenseStatus, item.pathStatus,
+  ].filter(Boolean).join(" "));
 
   function params() {
     const query = new URLSearchParams(location.search);
+    const bucket = bucketIds.includes(query.get("bucket")) ? query.get("bucket") : "public-domain";
+    const defaultSort = bucket === "eagle-rock-lineage" ? "curated" : "year";
     return {
-      bucket: ["public-domain", "license-only"].includes(query.get("bucket")) ? query.get("bucket") : "public-domain",
+      bucket,
       type: query.get("type") || "全部",
       q: query.get("q") || "",
-      sort: ["year", "title", "type"].includes(query.get("sort")) ? query.get("sort") : "year",
+      sort: ["curated", "year", "title", "type"].includes(query.get("sort")) ? query.get("sort") : defaultSort,
       item: query.get("item") || "",
     };
   }
@@ -71,7 +78,8 @@
     if (state.bucket !== "public-domain") query.set("bucket", state.bucket);
     if (state.type !== "全部") query.set("type", state.type);
     if (state.q) query.set("q", state.q);
-    if (state.sort !== "year") query.set("sort", state.sort);
+    const defaultSort = state.bucket === "eagle-rock-lineage" ? "curated" : "year";
+    if (state.sort !== defaultSort) query.set("sort", state.sort);
     if (state.item) query.set("item", state.item);
     history[replace ? "replaceState" : "pushState"](null, "", `${location.pathname}${query.size ? `?${query}` : ""}`);
   }
@@ -90,6 +98,7 @@
   function filtered() {
     const q = normalize(state.q);
     const source = bucketRecords().filter((item) => (!q || item._search.includes(q)) && (state.type === "全部" || item.visualFamily === state.type));
+    if (state.sort === "curated") return source;
     return [...source].sort((a, b) => {
       if (state.sort === "title") return byLocale(a.title, b.title);
       if (state.sort === "type") return byLocale(a.visualFamily, b.visualFamily) || byLocale(a.visualType, b.visualType) || byLocale(a.title, b.title);
@@ -100,7 +109,7 @@
     dom.bucketFacets.replaceChildren(); dom.bucketTabs.replaceChildren();
     for (const [id, label] of BUCKETS) {
       const count = bucketRecords(id).length;
-      const activate = () => setState({ bucket: id, type: "全部", item: "" });
+      const activate = () => setState({ bucket: id, type: "全部", sort: id === "eagle-rock-lineage" ? "curated" : "year", item: "" });
       dom.bucketFacets.append(facet(label, count, state.bucket === id, activate));
       dom.bucketTabs.append(facet(label, count, state.bucket === id, activate, true));
     }
@@ -131,9 +140,13 @@
     dom.empty.hidden = items.length > 0;
     dom.resultTitle.textContent = bucketLabel(state.bucket);
     dom.resultCount.textContent = String(items.length);
-    dom.resultNote.textContent = state.bucket === "public-domain" ? "图源在 Eagle" : "研究缩略图 · 禁止生产";
-    dom.topMeta.textContent = `${bucketRecords("public-domain").length} 公版源流 · ${bucketRecords("license-only").length} 需授权经典`;
-    document.title = `${bucketLabel(state.bucket)}｜封面视觉研究`;
+    dom.resultNote.textContent = state.bucket === "public-domain"
+      ? "图源在 Eagle"
+      : state.bucket === "eagle-rock-lineage"
+        ? "周边 + 专辑 + 公版母题"
+        : "研究缩略图 · 禁止生产";
+    dom.topMeta.textContent = `${bucketRecords("public-domain").length} 公版源流 · ${bucketRecords("license-only").length} 需授权经典 · ${bucketRecords("eagle-rock-lineage").length} 鹰翼脉络`;
+    document.title = `${bucketLabel(state.bucket)}｜音乐视觉研究`;
     if (state.item) {
       const item = records.find((candidate) => candidate.id === state.item);
       if (item) open(item, true);
@@ -145,12 +158,13 @@
     current = item;
     if (!fromRoute) { state.item = item.id; writeState(); }
     dom.detailImage.hidden = false; dom.detailImage.src = item.image; dom.detailImage.alt = item.title; dom.detailImage.referrerPolicy = "no-referrer";
-    dom.detailKind.textContent = item.bucket === "public-domain" ? "公版历史封面" : "近70年经典 · 需授权";
+    dom.detailKind.textContent = bucketLabel(item.bucket);
     dom.detailTitle.textContent = item.title;
     dom.detailSubtitle.textContent = [item.artist, item.year, item.genre].filter(Boolean).join(" · ");
-    dom.detailBadges.replaceChildren(badge(item.licenseStatus, item.bucket === "public-domain"), badge(item.pathStatus || item.evidenceLevel));
+    dom.detailBadges.replaceChildren(badge(item.licenseStatus, item.bucket === "public-domain" || item.licenseStatus === "公版母题"), badge(item.pathStatus || item.evidenceLevel));
     dom.detailGrammar.textContent = item.grammar || "待复核";
     dom.detailUse.textContent = item.opportunity || item.use || "待复核";
+    dom.detailSignal.textContent = item.trendSignal || "无市场信号；仅作艺术研究。";
     dom.detailGate.textContent = item.rightsGate || item.avoid || "待复核";
     dom.detailVisual.href = item.visualSourceUrl || item.sourceUrl; dom.detailVisual.hidden = !(item.visualSourceUrl || item.sourceUrl);
     dom.detailLicense.href = item.licenseUrl || item.sourceUrl; dom.detailLicense.hidden = !(item.licenseUrl || item.sourceUrl);
@@ -167,7 +181,7 @@
   dom.sort.addEventListener("change", () => setState({ sort: dom.sort.value, item: "" }));
   dom.reset.addEventListener("click", reset); dom.emptyReset.addEventListener("click", reset);
   dom.copyFilter.addEventListener("click", (event) => copy(location.href, event.currentTarget));
-  dom.copyItem.addEventListener("click", (event) => current && copy([current.title, current.artist, current.year, current.licenseStatus, current.grammar, current.rightsGate, current.visualSourceUrl || current.sourceUrl, current.licenseUrl].filter(Boolean).join("\n"), event.currentTarget));
+  dom.copyItem.addEventListener("click", (event) => current && copy([current.title, current.artist, current.year, current.licenseStatus, current.grammar, current.opportunity || current.use, current.trendSignal, current.rightsGate, current.visualSourceUrl || current.sourceUrl, current.licenseUrl].filter(Boolean).join("\n"), event.currentTarget));
   dom.dialog.addEventListener("close", () => { if (state.item) { state.item = ""; writeState(true); } });
   window.addEventListener("popstate", () => { state = params(); render(); });
   if (!records.length) { dom.empty.hidden = false; dom.empty.querySelector(".empty__title").textContent = "数据未载入"; }
