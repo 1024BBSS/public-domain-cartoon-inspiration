@@ -119,6 +119,23 @@ const SUBJECT_HUBS = [
     match: (record) => (record.scenes || []).includes("道教神仙与八仙"),
   },
   {
+    id: "subject-ghosts-spiritualism",
+    name: "幽灵、鬼屋与通灵",
+    aliases: ["Ghost", "Spirit", "Phantom", "Apparition", "Haunting", "Séance", "幽灵", "鬼怪", "灵体", "通灵", "鬼屋"],
+    coverRecordId: "catalog-supplement-ghost-christmas-frolic-1814",
+    usage: "按母题进入：白布幽灵、锁链亡灵、半透明显影、鬼屋喜剧、通灵摄影、舞台幻术与东亚幽魂。打开具体作品后，再取构图、动作和轮廓。",
+    avoid: "公版结论只覆盖列出的具体历史版本。避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+    match: (record) => {
+      if (!record) return false;
+      const text = normalize([
+        record.title, record.subtitle, record.characters, record.scenes,
+        record.styles, record.tags,
+      ].flat().filter(Boolean).join(" "));
+      return (record.scenes || []).includes("幽灵、鬼屋与通灵")
+        || /幽灵|鬼怪|灵体|通灵|鬼屋|ghost|spirit|phantom|apparition|haunt|séance|seance|marley|mysterious mose/.test(text);
+    },
+  },
+  {
     id: "subject-east-asian-ghosts",
     name: "钟馗与东亚鬼神",
     aliases: ["Zhong Kui", "Yokai", "钟馗", "妖怪", "鬼神"],
@@ -327,7 +344,11 @@ function buildEntities(records, works) {
         const bMatch = normalize(canonicalCharacter(masterSubjectNames(b)[0])) === nameKey ? 1 : 0;
         return bMatch - aMatch || (b.awarenessScore || 0) - (a.awarenessScore || 0);
       })[0];
-    const coverRecord = matchingMaster || entityRecords[0];
+    const subjectHub = SUBJECT_HUBS.find((hub) => hub.id === draft.id);
+    const preferredCover = subjectHub?.coverRecordId
+      ? entityRecords.find((record) => record.id === subjectHub.coverRecordId)
+      : null;
+    const coverRecord = preferredCover || matchingMaster || entityRecords[0];
     const rightsByWork = countsBy(entityWorks.flatMap((work) => work.rightsStatuses));
     const firstYear = entityWorks.reduce((year, work) => Math.min(year, work.yearSort || 9999), 9999);
     const representative = matchingMaster || entityRecords.find((record) => record.usage || record.avoid) || entityRecords[0];
@@ -356,8 +377,8 @@ function buildEntities(records, works) {
       topScenes: topValues(entityRecords, "scenes"),
       topStyles: topValues(entityRecords, "styles"),
       topHolidays: topValues(entityRecords, "holidays"),
-      usage: representative?.usage || "从具体作品与版本中提取可复用的视觉关系。",
-      avoid: representative?.avoid || "避开后期新增造型、现代修复、品牌标志与来源混淆。",
+      usage: subjectHub?.usage || representative?.usage || "从具体作品与版本中提取可复用的视觉关系。",
+      avoid: subjectHub?.avoid || representative?.avoid || "避开后期新增造型、现代修复、品牌标志与来源混淆。",
       awarenessScore: Math.max(...entityRecords.map((record) => Number(record.awarenessScore) || 0), 0),
       sourceCount: new Set(entityWorks.map((work) => canonicalSource(work.sourceUrl)).filter(Boolean)).size,
     };
@@ -452,6 +473,26 @@ export function deriveRelations(dataset) {
   };
 }
 
+async function writeStablePackage(filePath, packageData) {
+  let output = packageData;
+
+  try {
+    const previous = JSON.parse(await fs.readFile(filePath, "utf8"));
+    const previousComparable = { ...previous };
+    const nextComparable = { ...packageData };
+    delete previousComparable.generatedAt;
+    delete nextComparable.generatedAt;
+
+    if (JSON.stringify(previousComparable) === JSON.stringify(nextComparable)) {
+      output = { ...packageData, generatedAt: previous.generatedAt };
+    }
+  } catch {
+    // New or unreadable package: write the current generated timestamp.
+  }
+
+  await fs.writeFile(filePath, `${JSON.stringify(output, null, 2)}\n`, "utf8");
+}
+
 export async function writeRelationData(projectRoot, dataset) {
   const dataRoot = path.join(projectRoot, "data");
   const entityRoot = path.join(dataRoot, "entities");
@@ -461,8 +502,6 @@ export async function writeRelationData(projectRoot, dataset) {
   const workById = new Map(relations.works.map((work) => [work.id, work]));
   const entityById = new Map(relations.entities.map((entity) => [entity.id, entity]));
 
-  await fs.rm(entityRoot, { recursive: true, force: true });
-  await fs.rm(workRoot, { recursive: true, force: true });
   await fs.mkdir(entityRoot, { recursive: true });
   await fs.mkdir(workRoot, { recursive: true });
 
@@ -480,7 +519,7 @@ export async function writeRelationData(projectRoot, dataset) {
       relatedEntities: entity.relatedEntityIds.map((id) => entityById.get(id)).filter(Boolean),
       recordsEndpoint: "../catalog.json",
     };
-    await fs.writeFile(path.join(entityRoot, `${entity.id}.json`), `${JSON.stringify(packageData, null, 2)}\n`, "utf8");
+    await writeStablePackage(path.join(entityRoot, `${entity.id}.json`), packageData);
   }));
 
   await Promise.all(relations.works.map(async (work) => {
@@ -492,7 +531,7 @@ export async function writeRelationData(projectRoot, dataset) {
       entities: work.entityIds.map((id) => entityById.get(id)).filter(Boolean),
       records: work.recordIds.map((id) => recordById.get(id)).filter(Boolean),
     };
-    await fs.writeFile(path.join(workRoot, `${work.id}.json`), `${JSON.stringify(packageData, null, 2)}\n`, "utf8");
+    await writeStablePackage(path.join(workRoot, `${work.id}.json`), packageData);
   }));
 
   return {

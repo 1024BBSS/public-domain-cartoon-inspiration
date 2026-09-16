@@ -1,0 +1,981 @@
+{
+  "schemaVersion": "1.0",
+  "sourceVersion": "ghost-commercial-2026-09-16-v1",
+  "researchDate": "2026-09-16",
+  "works": [
+    {
+      "id": "ghost-stereoscope-1856",
+      "title": "立体镜中的幽灵",
+      "subtitle": "The Ghost in the Stereoscope",
+      "year": "ca. 1856",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met 标记 Public Domain，可按开放政策商用",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/302466",
+      "sourceLabel": "The Met",
+      "usage": "双联立体照、餐桌旁白布幽灵、人物惊吓关系。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "维多利亚摄影",
+        "手工上色"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "白布幽灵"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIU7A9KC6",
+          "subtitle": "The Ghost in the Stereoscope"
+        }
+      ]
+    },
+    {
+      "id": "ghost-orphans-grave-1889",
+      "title": "孤儿在母亲墓前",
+      "subtitle": "The Orphans at Their Mother's Grave",
+      "year": "1889",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "LOC · No known restrictions",
+      "evidenceLevel": "A",
+      "imageRights": "LOC 权利栏：No known restrictions on publication",
+      "sourceUrl": "https://www.loc.gov/item/2004668383/",
+      "sourceLabel": "Library of Congress",
+      "usage": "墓碑、儿童与半透明母亲灵体的三层叙事。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "通灵摄影",
+        "立体照片"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "母亲幽灵"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIUD0QDMM",
+          "subtitle": "The Orphans at Their Mother's Grave"
+        }
+      ]
+    },
+    {
+      "id": "ghost-hallowell-composite-1901",
+      "title": "通灵会灵体合成照",
+      "subtitle": "Hallowell / Fallis Spirit Composite",
+      "year": "1901",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "LOC · No known restrictions",
+      "evidenceLevel": "A",
+      "imageRights": "LOC 权利栏：No known restrictions on publication",
+      "sourceUrl": "https://www.loc.gov/item/91732576/",
+      "sourceLabel": "Library of Congress",
+      "usage": "女性肖像、环绕灵体面孔、通灵会合成结构。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "通灵摄影",
+        "双重曝光"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "通灵灵体"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIUHCCMWR",
+          "subtitle": "Hallowell / Fallis Spirit Composite"
+        }
+      ]
+    },
+    {
+      "id": "ghost-marley-leech-1843",
+      "title": "马利的幽灵",
+      "subtitle": "John Leech · A Christmas Carol",
+      "year": "1843",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "1843 初版插图 · 期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 标记公版；底层作品期限届满",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marley%27s_Ghost-John_Leech,_1843.jpg",
+      "sourceLabel": "Wikimedia Commons",
+      "usage": "锁链、账簿、睡帽与室内烛光；同时连接万圣节和圣诞节。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "维多利亚插图",
+        "手工上色"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节",
+        "圣诞节"
+      ],
+      "characters": [
+        "Marley's Ghost"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIULCQCMS",
+          "subtitle": "John Leech · A Christmas Carol"
+        }
+      ]
+    },
+    {
+      "id": "ghost-samuel-blake",
+      "title": "撒母耳的幽灵向扫罗显现",
+      "subtitle": "William Blake",
+      "year": "ca. 1800",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "NGA Open Access",
+      "evidenceLevel": "A",
+      "imageRights": "NGA 开放馆藏；底层作品期限届满",
+      "sourceUrl": "https://www.nga.gov/artworks/11498-ghost-samuel-appearing-saul",
+      "sourceLabel": "National Gallery of Art",
+      "usage": "发光先知、跪伏人物与召灵仪式的纵向构图。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "浪漫主义",
+        "圣经异象"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "基督教 · 耶稣与圣像"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Samuel"
+      ],
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIUPA50Y8",
+          "subtitle": "William Blake"
+        }
+      ]
+    },
+    {
+      "id": "ghost-marguerite-delacroix-1828",
+      "title": "玛格丽特的幽灵向浮士德显现",
+      "subtitle": "Eugène Delacroix · Faust",
+      "year": "1828",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC Open Access · CC0",
+      "evidenceLevel": "A",
+      "imageRights": "AIC API 标记 is_public_domain=true",
+      "sourceUrl": "https://www.artic.edu/artworks/84499",
+      "sourceLabel": "Art Institute of Chicago",
+      "usage": "文学女幽灵、床边显现与黑白浪漫主义明暗。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "浪漫主义版画",
+        "文学幽灵"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Marguerite's Ghost"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIUSTXGFI",
+          "subtitle": "Eugène Delacroix · Faust"
+        }
+      ]
+    },
+    {
+      "id": "ghost-witchcraft-fantin-1899",
+      "title": "巫术",
+      "subtitle": "Henri Fantin-Latour",
+      "year": "1899",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "CMA Open Access · CC0",
+      "evidenceLevel": "A",
+      "imageRights": "CMA API 标记 CC0",
+      "sourceUrl": "https://www.clevelandart.org/art/1921.68",
+      "sourceLabel": "Cleveland Museum of Art",
+      "usage": "雾化召灵、漂浮人物和低对比灰阶气氛。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "象征主义",
+        "石版画"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "召灵幻象"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIUURCVU3",
+          "subtitle": "Henri Fantin-Latour"
+        }
+      ]
+    },
+    {
+      "id": "ghost-magician-roses-1892",
+      "title": "玫瑰魔术师与超自然生物",
+      "subtitle": "Calvert Lithograph",
+      "year": "1892",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "LOC · No known restrictions",
+      "evidenceLevel": "A",
+      "imageRights": "LOC 权利栏：No known restrictions on publication",
+      "sourceUrl": "https://www.loc.gov/item/2014636963/",
+      "sourceLabel": "Library of Congress",
+      "usage": "舞台魔术师、花束与环绕灵体的彩色海报构图。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "魔术海报",
+        "彩色石版"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "舞台灵体"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIUWQWGGR",
+          "subtitle": "Calvert Lithograph"
+        }
+      ]
+    },
+    {
+      "id": "ghost-thurston-1915",
+      "title": "灵魂会回来吗？",
+      "subtitle": "Thurston the Great Magician",
+      "year": "1915",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "LOC · No known restrictions",
+      "evidenceLevel": "A",
+      "imageRights": "LOC 权利栏：No known restrictions on publication",
+      "sourceUrl": "https://www.loc.gov/item/2014636948/",
+      "sourceLabel": "Library of Congress",
+      "usage": "巨大标题、漂浮头部、红黑蓝舞台魔术色盘。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "魔术海报",
+        "戏剧排版"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "舞台灵体"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIV2AH4WP",
+          "subtitle": "Thurston the Great Magician"
+        }
+      ]
+    },
+    {
+      "id": "ghost-joan-arc-1879",
+      "title": "圣女贞德与异象",
+      "subtitle": "Jules Bastien-Lepage",
+      "year": "1879",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met API 标记 isPublicDomain=true",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435621",
+      "sourceLabel": "The Met",
+      "usage": "人物、花园与半透明圣者异象的层叠。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "自然主义",
+        "宗教异象"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "基督教 · 耶稣与圣像"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Joan of Arc"
+      ],
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIV61R1TC",
+          "subtitle": "Jules Bastien-Lepage"
+        }
+      ]
+    },
+    {
+      "id": "ghost-witchcraft-evening",
+      "title": "巫术场景：黄昏",
+      "subtitle": "Salvator Rosa",
+      "year": "c. 1645–49",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "CMA Open Access · CC0",
+      "evidenceLevel": "A",
+      "imageRights": "CMA API 标记 CC0",
+      "sourceUrl": "https://www.clevelandart.org/art/1977.37.3",
+      "sourceLabel": "Cleveland Museum of Art",
+      "usage": "召灵者、骨骸幽灵和岩石火光的圆形聚焦。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "巴洛克版画",
+        "巫术场景"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "召唤幽灵"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIVARNU0X",
+          "subtitle": "Salvator Rosa"
+        }
+      ]
+    },
+    {
+      "id": "ghost-christmas-frolic-1814",
+      "title": "幽灵：一场圣诞恶作剧",
+      "subtitle": "The Ghost — A Christmas Frolic",
+      "year": "1814",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "1814 版画 · LOC No known restrictions",
+      "evidenceLevel": "A",
+      "imageRights": "LOC 说明该馆藏许多作品为公版或无已知限制",
+      "sourceUrl": "https://www.loc.gov/item/2005676988/",
+      "sourceLabel": "Library of Congress",
+      "usage": "烛台、白布幽灵、楼梯追逐和室内混乱群像。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "讽刺版画",
+        "白布幽灵"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节",
+        "圣诞节"
+      ],
+      "characters": [
+        "白布幽灵"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIVBFEMON",
+          "subtitle": "The Ghost — A Christmas Frolic"
+        }
+      ]
+    },
+    {
+      "id": "ghost-rackham-marley-1915",
+      "title": "马利的幽灵：拉克姆版",
+      "subtitle": "Arthur Rackham · A Christmas Carol",
+      "year": "1915",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "1915 插图 · 期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Internet Archive 扫描；底层作品期限届满",
+      "sourceUrl": "https://archive.org/details/christmascar00dick",
+      "sourceLabel": "Internet Archive",
+      "usage": "半透明锁链幽灵、维多利亚室内和蓝灰色调。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "拉克姆插图",
+        "文学幽灵"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节",
+        "圣诞节"
+      ],
+      "characters": [
+        "Marley's Ghost"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIVCDPF9T",
+          "subtitle": "Arthur Rackham · A Christmas Carol"
+        }
+      ]
+    },
+    {
+      "id": "ghost-rackham-phantoms-1915",
+      "title": "空中挤满幽灵",
+      "subtitle": "Arthur Rackham · A Christmas Carol",
+      "year": "1915",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "1915 插图 · 期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Internet Archive 扫描；底层作品期限届满",
+      "sourceUrl": "https://archive.org/details/christmascar00dick",
+      "sourceLabel": "Internet Archive",
+      "usage": "锁链幽灵群、烟雾层次和垂直漂浮节奏。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "拉克姆插图",
+        "幽灵群像"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节",
+        "圣诞节"
+      ],
+      "characters": [
+        "Chained Phantoms"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIVE1FX13",
+          "subtitle": "Arthur Rackham · A Christmas Carol"
+        }
+      ]
+    },
+    {
+      "id": "ghost-buguet-1874",
+      "title": "布盖通灵摄影",
+      "subtitle": "Édouard Isidore Buguet",
+      "year": "1874",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "1874 摄影 · 期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "来源标记 Public Domain；底层摄影期限届满",
+      "sourceUrl": "https://archive.org/details/edward-isidore-buguet-spiritualist-photograph-albumin-print-1874",
+      "sourceLabel": "Internet Archive",
+      "usage": "坐姿人物上方覆盖半透明披布灵体；可研究伪通灵摄影语法。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "通灵摄影",
+        "双重曝光"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "披布灵体"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIVGTQRDP",
+          "subtitle": "Édouard Isidore Buguet"
+        }
+      ]
+    },
+    {
+      "id": "ghost-underwood-1893",
+      "title": "休息的幽灵演奏者",
+      "subtitle": "Phantom Player Resting",
+      "year": "1893",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "1893 摄影 · 期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "来源标记 Public Domain；底层摄影期限届满",
+      "sourceUrl": "https://archive.org/details/stereoview-no.-1634-phantom-player-resting-littleton-underwood-and-underwood-1893",
+      "sourceLabel": "Internet Archive",
+      "usage": "客厅、乐器与半透明人物的横向立体照。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "通灵摄影",
+        "立体照片"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "幽灵演奏者"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KHIVH2XS96",
+          "subtitle": "Phantom Player Resting"
+        }
+      ]
+    },
+    {
+      "id": "ghost-oil-lamp-1810",
+      "title": "幽灵与油灯",
+      "subtitle": "Tani Bun'ichi",
+      "year": "1810",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "CMA Open Access · CC0",
+      "evidenceLevel": "A",
+      "imageRights": "CMA API 标记 CC0",
+      "sourceUrl": "https://www.clevelandart.org/art/1992.71",
+      "sourceLabel": "Cleveland Museum of Art",
+      "usage": "无脚白衣幽灵、长发、油灯与大面积留白。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "日本幽灵画",
+        "水墨"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "妖怪、幽灵与民间护佑神"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Yūrei"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KKPQ0DTVU3",
+          "subtitle": "Tani Bun'ichi"
+        }
+      ]
+    },
+    {
+      "id": "ghost-haunted-auto-1910",
+      "title": "闹鬼的汽车",
+      "subtitle": "Bryant Baker · Puck",
+      "year": "1910",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "LOC · No known restrictions",
+      "evidenceLevel": "A",
+      "imageRights": "LOC 权利栏：No known restrictions on publication",
+      "sourceUrl": "https://www.loc.gov/item/2011647576/",
+      "sourceLabel": "Library of Congress",
+      "usage": "透明动物幽灵围绕汽车；早期漫画式动态群像。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "讽刺杂志封面",
+        "动物幽灵"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "动物幽灵群"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KKPQ534E65",
+          "subtitle": "Bryant Baker · Puck"
+        }
+      ]
+    },
+    {
+      "id": "ghost-newmann-1911",
+      "title": "Newmann 的灵体奇术",
+      "subtitle": "Wonderful Spirit Mysteries",
+      "year": "1911",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "LOC · No known restrictions",
+      "evidenceLevel": "A",
+      "imageRights": "LOC 权利栏：No known restrictions on publication",
+      "sourceUrl": "https://www.loc.gov/item/2014636926/",
+      "sourceLabel": "Library of Congress",
+      "usage": "女性灵体、舞台拱门和高对比红黑海报。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "魔术海报",
+        "通灵舞台"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "舞台灵体"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KKPQ7ARGY7",
+          "subtitle": "Wonderful Spirit Mysteries"
+        }
+      ]
+    },
+    {
+      "id": "ghost-haunted-lane-1889",
+      "title": "闹鬼的小路",
+      "subtitle": "The Haunted Lane",
+      "year": "1889",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "LOC · No known restrictions",
+      "evidenceLevel": "A",
+      "imageRights": "LOC 权利栏：No known restrictions on publication",
+      "sourceUrl": "https://www.loc.gov/item/2006686826/",
+      "sourceLabel": "Library of Congress",
+      "usage": "树林小路、白衣灵体与立体摄影的深景。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "通灵摄影",
+        "鬼路场景"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "白衣幽灵"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KKPQABD04G",
+          "subtitle": "The Haunted Lane"
+        }
+      ]
+    },
+    {
+      "id": "ghost-hamlet-delacroix-1835",
+      "title": "哈姆雷特追随父亲幽灵",
+      "subtitle": "Eugène Delacroix",
+      "year": "1835",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "CMA Open Access · CC0",
+      "evidenceLevel": "A",
+      "imageRights": "CMA API 标记 CC0",
+      "sourceUrl": "https://www.clevelandart.org/art/1941.215.2",
+      "sourceLabel": "Cleveland Museum of Art",
+      "usage": "城墙、披甲父王幽灵与追随动作。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "浪漫主义版画",
+        "文学幽灵"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Hamlet's Father"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KKPQB3KP1X",
+          "subtitle": "Eugène Delacroix"
+        }
+      ]
+    },
+    {
+      "id": "ghost-met-cat-demon",
+      "title": "冈崎猫妖怪谈",
+      "subtitle": "Utagawa Kuniyoshi",
+      "year": "ca. 1850",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met API 标记 isPublicDomain=true",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/45282",
+      "sourceLabel": "The Met",
+      "usage": "巨猫面孔、室内夜戏与被压缩的人物空间。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "浮世绘",
+        "妖猫怪谈"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "妖怪、幽灵与民间护佑神"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Cat Demon"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KM4D3TPK7J",
+          "subtitle": "Utagawa Kuniyoshi"
+        }
+      ]
+    },
+    {
+      "id": "ghost-met-zhong-kui",
+      "title": "钟馗",
+      "subtitle": "Okumura Masanobu",
+      "year": "18th century",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met API 标记 isPublicDomain=true",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/56722",
+      "sourceLabel": "The Met",
+      "usage": "长须、官帽、长剑和窄幅站姿。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "浮世绘",
+        "柱绘"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "妖怪、幽灵与民间护佑神"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "钟馗"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KM4D70B7VY",
+          "subtitle": "Okumura Masanobu"
+        }
+      ]
+    },
+    {
+      "id": "ghost-met-demon-drawings",
+      "title": "鬼怪素描",
+      "subtitle": "Kawanabe Kyōsai",
+      "year": "late 19th century",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met API 标记 isPublicDomain=true",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/57231",
+      "sourceLabel": "The Met",
+      "usage": "多种鬼怪轮廓、动作速写与角色表情库。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "日本素描",
+        "鬼怪角色表"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "妖怪、幽灵与民间护佑神"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Demons"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KM4D9BVAQ3",
+          "subtitle": "Kawanabe Kyōsai"
+        }
+      ]
+    },
+    {
+      "id": "ghost-met-yoshihira-revenge",
+      "title": "义平幽灵复仇",
+      "subtitle": "Utagawa Yoshifusa",
+      "year": "1856",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met API 标记 isPublicDomain=true",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/63378",
+      "sourceLabel": "The Met",
+      "usage": "瀑布、武者幽灵与横向戏剧叙事。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "浮世绘",
+        "复仇幽灵"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "妖怪、幽灵与民间护佑神"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Yoshihira's Ghost"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KM4DCU9C6M",
+          "subtitle": "Utagawa Yoshifusa"
+        }
+      ]
+    },
+    {
+      "id": "ghost-met-shoki-banner",
+      "title": "鲤旗与钟馗旗",
+      "subtitle": "Kawanabe Kyōsai",
+      "year": "before 1870",
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met API 标记 isPublicDomain=true",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/754547",
+      "sourceLabel": "The Met",
+      "usage": "节庆旗幡、护佑钟馗与鲤鱼的垂直组合。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "styles": [
+        "日本节庆画",
+        "旗幡"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "妖怪、幽灵与民间护佑神"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "钟馗"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MU3KM4DEDRGXF",
+          "subtitle": "Kawanabe Kyōsai"
+        }
+      ]
+    }
+  ]
+}

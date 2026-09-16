@@ -25,7 +25,10 @@ const eagleImagesRoot = "/Users/wenshanchen/Pictures/idea.library/images";
 const designSystemRoot = "/Users/wenshanchen/Documents/design-system/kit";
 const imageOutputRoot = path.join(projectRoot, "images");
 const dataOutputRoot = path.join(projectRoot, "data");
-const supplementalCartoonsPath = path.join(projectRoot, "source", "cartoon-ip-supplement.json");
+const supplementalPaths = [
+  path.join(projectRoot, "source", "cartoon-ip-supplement.json"),
+  path.join(projectRoot, "source", "ghost-commercial-supplement.json"),
+];
 const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "pd-cartoon-build-"));
 
 const ALLOWED_RIGHTS = new Set([
@@ -193,9 +196,22 @@ const snapshot = JSON.parse(await fs.readFile(snapshotPath, "utf8"));
 const assetManifest = JSON.parse(await fs.readFile(assetManifestPath, "utf8"));
 const worksById = new Map(snapshot.collections.gallery.map((work) => [work.id, work]));
 
-const supplementalCartoons = existsSync(supplementalCartoonsPath)
-  ? JSON.parse(await fs.readFile(supplementalCartoonsPath, "utf8"))
-  : { schemaVersion: "1.0", sourceVersion: "none", works: [] };
+const supplementalDatasets = [];
+for (const sourcePath of supplementalPaths) {
+  if (!existsSync(sourcePath)) continue;
+  supplementalDatasets.push(JSON.parse(await fs.readFile(sourcePath, "utf8")));
+}
+
+function parseYearSort(value) {
+  const text = String(value || "").trim();
+  const fullYear = text.match(/(?:^|\D)((?:1[0-9]{3}|20[0-9]{2}))(?:\D|$)/);
+  if (fullYear) return Number(fullYear[1]);
+  const englishCentury = text.match(/\b(\d{1,2})(?:st|nd|rd|th)\s+century\b/i);
+  if (englishCentury) return (Number(englishCentury[1]) - 1) * 100;
+  const chineseCentury = text.match(/(\d{1,2})\s*世纪/);
+  if (chineseCentury) return (Number(chineseCentury[1]) - 1) * 100;
+  return 9999;
+}
 
 function supplementalRecords(data) {
   const output = [];
@@ -206,7 +222,7 @@ function supplementalRecords(data) {
     const common = {
       title: work.title,
       year: work.year,
-      yearSort: Number.parseInt(work.year, 10) || 9999,
+      yearSort: parseYearSort(work.year),
       rightsStatus: work.rightsStatus,
       copyrightRoute: work.copyrightRoute,
       evidenceLevel: work.evidenceLevel || "待复核",
@@ -319,15 +335,13 @@ const galleryRecords = snapshot.collections.galleryAssets
     };
   });
 
-const addedCartoonRecords = supplementalRecords(supplementalCartoons);
-const records = [...catalogRecords, ...galleryRecords, ...addedCartoonRecords];
+const addedSupplementalRecords = supplementalDatasets.flatMap(supplementalRecords);
+const records = [...catalogRecords, ...galleryRecords, ...addedSupplementalRecords];
 const imageNames = new Map();
 for (const record of records) {
   if (!imageNames.has(record.imageKey)) imageNames.set(record.imageKey, `${hashText(record.imageKey)}.webp`);
 }
 
-await fs.rm(imageOutputRoot, { recursive: true, force: true });
-await fs.rm(dataOutputRoot, { recursive: true, force: true });
 await fs.mkdir(imageOutputRoot, { recursive: true });
 await fs.mkdir(dataOutputRoot, { recursive: true });
 
@@ -396,9 +410,9 @@ const manifest = {
   relationsSha256: relationResult.sha256,
   relationCounts: relationResult.relations.counts,
   supplemental: {
-    sourceVersion: supplementalCartoons.sourceVersion || "none",
-    workCount: (supplementalCartoons.works || []).length,
-    recordCount: addedCartoonRecords.length,
+    sourceVersions: supplementalDatasets.map((data) => data.sourceVersion || "unknown"),
+    workCount: supplementalDatasets.reduce((sum, data) => sum + (data.works || []).length, 0),
+    recordCount: addedSupplementalRecords.length,
   },
   exclusions: ["未续期待复核", "公版线索 · 待复核", "仍受版权保护", "Eagle 本地路径", "内部证据附件"],
 };

@@ -99,6 +99,12 @@
     .trim();
   const compact = (values) => [...new Set(values.filter(Boolean))];
   const joinSearch = (values) => normalize(values.flat(Infinity).filter(Boolean).join(" "));
+  const QUERY_SYNONYMS = new Map([
+    ["幽灵", ["幽灵", "鬼", "鬼怪", "灵体", "通灵", "鬼屋", "ghost", "spirit", "phantom", "apparition", "haunt", "séance", "seance", "marley", "mysterious mose"]],
+    ["鬼", ["鬼", "幽灵", "鬼怪", "灵体", "ghost", "spirit", "phantom", "yūrei", "yokai"]],
+    ["ghost", ["ghost", "spirit", "phantom", "apparition", "haunt", "幽灵", "鬼怪", "灵体"]],
+    ["通灵", ["通灵", "灵体", "招魂", "séance", "seance", "spirit", "spiritualist"]],
+  ]);
   const byLocale = (a, b) => String(a).localeCompare(String(b), "zh-CN", { numeric: true });
   const num = (value) => Number(value) || 0;
 
@@ -281,7 +287,8 @@
   }
 
   function matches(item, query, type, rights) {
-    if (query && !item._search?.includes(query)) return false;
+    const alternatives = QUERY_SYNONYMS.get(query) || [query];
+    if (query && !alternatives.some((term) => item._search?.includes(term))) return false;
     if (type !== "全部" && !itemTags(item).includes(type)) return false;
     if (rights !== "全部" && !itemRights(item).includes(rights)) return false;
     return true;

@@ -1,0 +1,475 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-16T04:23:38.211Z",
+  "entity": {
+    "id": "role-幽灵演奏者-0941d377",
+    "name": "幽灵演奏者",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/39bfe52fef0ded6cd70d.webp",
+    "coverRecordId": "catalog-supplement-ghost-underwood-1893",
+    "yearStart": 1893,
+    "yearEnd": 1893,
+    "workIds": [
+      "work-休息的幽灵演奏者-6db9d5b8"
+    ],
+    "recordIds": [
+      "frame-supplement-ghost-underwood-1893-001",
+      "catalog-supplement-ghost-underwood-1893"
+    ],
+    "frameIds": [
+      "frame-supplement-ghost-underwood-1893-001"
+    ],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 1,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 1
+    },
+    "copyrightRoutes": [
+      "1893 摄影 · 期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "怪诞 / 魔法"
+    ],
+    "topScenes": [
+      {
+        "name": "幽灵、鬼屋与通灵",
+        "count": 2
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "立体照片",
+        "count": 2
+      },
+      {
+        "name": "通灵摄影",
+        "count": 2
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 2
+      }
+    ],
+    "usage": "客厅、乐器与半透明人物的横向立体照。",
+    "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "subject-ghosts-spiritualism"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-休息的幽灵演奏者-6db9d5b8",
+      "title": "休息的幽灵演奏者",
+      "subtitle": "Phantom Player Resting",
+      "year": "1893",
+      "yearSort": 1893,
+      "coverImage": "images/39bfe52fef0ded6cd70d.webp",
+      "coverRecordId": "catalog-supplement-ghost-underwood-1893",
+      "sourceUrl": "https://archive.org/details/stereoview-no.-1634-phantom-player-resting-littleton-underwood-and-underwood-1893",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "1893 摄影 · 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "来源标记 Public Domain；底层摄影期限届满"
+      ],
+      "usage": "客厅、乐器与半透明人物的横向立体照。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "通灵摄影",
+        "立体照片"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "幽灵演奏者"
+      ],
+      "characterAliases": [
+        "幽灵演奏者"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-underwood-1893-001",
+        "catalog-supplement-ghost-underwood-1893"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-underwood-1893-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-underwood-1893"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-幽灵演奏者-0941d377",
+        "subject-ghosts-spiritualism"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "subject-ghosts-spiritualism",
+      "name": "幽灵、鬼屋与通灵",
+      "type": "文化题材",
+      "aliases": [
+        "鬼怪",
+        "鬼屋",
+        "灵体",
+        "通灵",
+        "幽灵",
+        "Apparition",
+        "Ghost",
+        "Haunting",
+        "Phantom",
+        "Séance",
+        "Spirit"
+      ],
+      "virtual": true,
+      "coverImage": "images/2e583b2aae5a2e17ef41.webp",
+      "coverRecordId": "catalog-supplement-ghost-christmas-frolic-1814",
+      "yearStart": 1200,
+      "yearEnd": 1931,
+      "workIds": [
+        "work-mysterious-mose夜间怪谈-06a0b703",
+        "work-wot-a-night-cb97ee02",
+        "work-立体镜中的幽灵-f0be4d30",
+        "work-孤儿在母亲墓前-23a2d5dc",
+        "work-通灵会灵体合成照-3c8907c2",
+        "work-马利的幽灵-436b638e",
+        "work-撒母耳的幽灵向扫罗显现-54e3a978",
+        "work-玛格丽特的幽灵向浮士德显现-f9fe58a8",
+        "work-巫术-2cb43daf",
+        "work-玫瑰魔术师与超自然生物-36d50d1c",
+        "work-灵魂会回来吗-ba38546d",
+        "work-圣女贞德与异象-77bed1c9",
+        "work-巫术场景-黄昏-5e91ed00",
+        "work-幽灵-一场圣诞恶作剧-d2a5c039",
+        "work-马利的幽灵-拉克姆版-917905df",
+        "work-布盖通灵摄影-296427a4",
+        "work-休息的幽灵演奏者-6db9d5b8",
+        "work-幽灵与油灯-1fb37b14",
+        "work-闹鬼的汽车-e6442b01",
+        "work-newmann-的灵体奇术-576434db",
+        "work-闹鬼的小路-1ee678e8",
+        "work-哈姆雷特追随父亲幽灵-c3f90678",
+        "work-冈崎猫妖怪谈-bd4f4df0",
+        "work-钟馗-35122b8b",
+        "work-鬼怪素描-abaf8ede",
+        "work-义平幽灵复仇-8f44b5f3",
+        "work-鲤旗与钟馗旗-dd97e27f",
+        "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
+        "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
+        "work-zhong-kui-supported-by-ghosts-8f0c0fce",
+        "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
+        "work-ghosts-of-the-taira-at-daimotsu-bay-4e6f02fe",
+        "work-a-boat-cast-adrift-ukifune-omatsu-and-akabori-mizuemon-0e3ed557",
+        "work-a-molted-cicada-shell-utsusemi-soga-goro-tokimune-from-9e43ce93",
+        "work-exile-to-suma-suma-tamaori-hime-from-the-series-scenes-606f10d3",
+        "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
+        "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35"
+      ],
+      "recordIds": [
+        "frame-mysterious-mose-1930-001",
+        "frame-mysterious-mose-1930-002",
+        "frame-mysterious-mose-1930-003",
+        "frame-mysterious-mose-1930-004",
+        "frame-mysterious-mose-1930-005",
+        "frame-mysterious-mose-1930-006",
+        "frame-mysterious-mose-1930-007",
+        "frame-mysterious-mose-1930-008",
+        "frame-mysterious-mose-1930-009",
+        "frame-mysterious-mose-1930-010",
+        "frame-mysterious-mose-1930-011",
+        "frame-mysterious-mose-1930-012",
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006",
+        "catalog-supplement-van-beuren-wot-a-night-1931",
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "catalog-supplement-ghost-stereoscope-1856",
+        "frame-supplement-ghost-orphans-grave-1889-001",
+        "catalog-supplement-ghost-orphans-grave-1889",
+        "frame-supplement-ghost-hallowell-composite-1901-001",
+        "catalog-supplement-ghost-hallowell-composite-1901",
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "catalog-supplement-ghost-marley-leech-1843",
+        "frame-supplement-ghost-samuel-blake-001",
+        "catalog-supplement-ghost-samuel-blake",
+        "frame-supplement-ghost-marguerite-delacroix-1828-001",
+        "catalog-supplement-ghost-marguerite-delacroix-1828",
+        "frame-supplement-ghost-witchcraft-fantin-1899-001",
+        "catalog-supplement-ghost-witchcraft-fantin-1899",
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "catalog-supplement-ghost-magician-roses-1892",
+        "frame-supplement-ghost-thurston-1915-001",
+        "catalog-supplement-ghost-thurston-1915",
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "catalog-supplement-ghost-joan-arc-1879",
+        "frame-supplement-ghost-witchcraft-evening-001",
+        "catalog-supplement-ghost-witchcraft-evening",
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "catalog-supplement-ghost-christmas-frolic-1814",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "catalog-supplement-ghost-rackham-marley-1915",
+        "catalog-supplement-ghost-rackham-phantoms-1915",
+        "frame-supplement-ghost-buguet-1874-001",
+        "catalog-supplement-ghost-buguet-1874",
+        "frame-supplement-ghost-underwood-1893-001",
+        "catalog-supplement-ghost-underwood-1893",
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "catalog-supplement-ghost-oil-lamp-1810",
+        "frame-supplement-ghost-haunted-auto-1910-001",
+        "catalog-supplement-ghost-haunted-auto-1910",
+        "frame-supplement-ghost-newmann-1911-001",
+        "catalog-supplement-ghost-newmann-1911",
+        "frame-supplement-ghost-haunted-lane-1889-001",
+        "catalog-supplement-ghost-haunted-lane-1889",
+        "frame-supplement-ghost-hamlet-delacroix-1835-001",
+        "catalog-supplement-ghost-hamlet-delacroix-1835",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "catalog-supplement-ghost-met-cat-demon",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "catalog-supplement-ghost-met-zhong-kui",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "catalog-supplement-ghost-met-demon-drawings",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "catalog-supplement-ghost-met-yoshihira-revenge",
+        "frame-supplement-ghost-met-shoki-banner-001",
+        "catalog-supplement-ghost-met-shoki-banner",
+        "catalog-belief-cma-163115",
+        "catalog-belief-cma-136668",
+        "catalog-belief-cma-135655",
+        "catalog-belief-met-58892",
+        "catalog-belief-met-55743",
+        "catalog-belief-met-789147",
+        "catalog-belief-met-789145",
+        "catalog-belief-met-789148",
+        "catalog-belief-met-789144",
+        "catalog-belief-met-76582"
+      ],
+      "frameIds": [
+        "frame-mysterious-mose-1930-001",
+        "frame-mysterious-mose-1930-002",
+        "frame-mysterious-mose-1930-003",
+        "frame-mysterious-mose-1930-004",
+        "frame-mysterious-mose-1930-005",
+        "frame-mysterious-mose-1930-006",
+        "frame-mysterious-mose-1930-007",
+        "frame-mysterious-mose-1930-008",
+        "frame-mysterious-mose-1930-009",
+        "frame-mysterious-mose-1930-010",
+        "frame-mysterious-mose-1930-011",
+        "frame-mysterious-mose-1930-012",
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006",
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "frame-supplement-ghost-orphans-grave-1889-001",
+        "frame-supplement-ghost-hallowell-composite-1901-001",
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "frame-supplement-ghost-samuel-blake-001",
+        "frame-supplement-ghost-marguerite-delacroix-1828-001",
+        "frame-supplement-ghost-witchcraft-fantin-1899-001",
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "frame-supplement-ghost-thurston-1915-001",
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "frame-supplement-ghost-witchcraft-evening-001",
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "frame-supplement-ghost-buguet-1874-001",
+        "frame-supplement-ghost-underwood-1893-001",
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "frame-supplement-ghost-haunted-auto-1910-001",
+        "frame-supplement-ghost-newmann-1911-001",
+        "frame-supplement-ghost-haunted-lane-1889-001",
+        "frame-supplement-ghost-hamlet-delacroix-1835-001",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "frame-supplement-ghost-met-shoki-banner-001"
+      ],
+      "workCount": 37,
+      "imageCount": 54,
+      "frameCount": 44,
+      "rightsBreakdown": {
+        "期限届满": 1,
+        "未续期": 1,
+        "公版 / 开放馆藏": 35
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+        "Met Open Access · Public Domain",
+        "LOC · No known restrictions",
+        "1843 初版插图 · 期限届满",
+        "NGA Open Access",
+        "AIC Open Access · CC0",
+        "CMA Open Access · CC0",
+        "1814 版画 · LOC No known restrictions",
+        "1915 插图 · 期限届满",
+        "1874 摄影 · 期限届满",
+        "1893 摄影 · 期限届满",
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A",
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 52
+        },
+        {
+          "name": "妖怪、幽灵与民间护佑神",
+          "count": 22
+        },
+        {
+          "name": "鬼怪",
+          "count": 12
+        },
+        {
+          "name": "夜晚",
+          "count": 12
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 12
+        },
+        {
+          "name": "追逐",
+          "count": 12
+        },
+        {
+          "name": "东亚道教、神道与民间信仰",
+          "count": 10
+        },
+        {
+          "name": "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神",
+          "count": 10
+        },
+        {
+          "name": "鬼屋",
+          "count": 7
+        },
+        {
+          "name": "双人搭档",
+          "count": 7
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 19
+        },
+        {
+          "name": "Fleischer 怪诞",
+          "count": 12
+        },
+        {
+          "name": "暗黑 / 怪诞",
+          "count": 10
+        },
+        {
+          "name": "神话 / 魔法",
+          "count": 10
+        },
+        {
+          "name": "通灵摄影",
+          "count": 10
+        },
+        {
+          "name": "宗教 / 仪式",
+          "count": 10
+        },
+        {
+          "name": "鬼屋喜剧",
+          "count": 7
+        },
+        {
+          "name": "黑白动画",
+          "count": 7
+        },
+        {
+          "name": "浮世绘",
+          "count": 6
+        },
+        {
+          "name": "魔术海报",
+          "count": 6
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 71
+        },
+        {
+          "name": "圣诞节",
+          "count": 8
+        }
+      ],
+      "usage": "按母题进入：白布幽灵、锁链亡灵、半透明显影、鬼屋喜剧、通灵摄影、舞台幻术与东亚幽魂。打开具体作品后，再取构图、动作和轮廓。",
+      "avoid": "公版结论只覆盖列出的具体历史版本。避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 28,
+      "sourceCount": 37,
+      "relatedEntityIds": [
+        "subject-east-asian-ghosts",
+        "role-舞台灵体-b5c936dc",
+        "subject-jesus-christian-iconography",
+        "role-marleys-ghost-0861a74f",
+        "role-白布幽灵-0f2aa01a",
+        "role-钟馗-2d4bb89f",
+        "role-betty-boop-16ad409c",
+        "role-bimbo-c30ed973",
+        "role-mysterious-mose-1e6192c3",
+        "role-van-beuren-human-duo-2d6c075a"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

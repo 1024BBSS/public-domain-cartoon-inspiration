@@ -1,0 +1,267 @@
+{
+  "researchDate": "2026-09-16",
+  "intakeArchives": [
+    {
+      "name": "GHOST-FINAL.tar.gz",
+      "sha256": "e126e7c5bba9ada64c81e6dc18effcbcb4d9b787ac96aa578b9b1a27e3aa77f4",
+      "role": "幽灵研究与预览"
+    },
+    {
+      "name": "MERGE-2026-09-16.tar.gz",
+      "sha256": "3584f3d718842015504c99bb75b93ba587e5a292cd4c950fbe080ce97c0eb3e3",
+      "role": "公版封面与现代授权研究"
+    }
+  ],
+  "deferredLeads": [
+    {
+      "id": "ghost-aic-shoki-sword",
+      "reason": "AIC API 标记公版，但 IIIF 图像请求返回 403；没有可回读的本地原图，不进入公开页。"
+    },
+    {
+      "id": "ghost-aic-shoki-standing",
+      "reason": "AIC API 标记公版，但 IIIF 图像请求返回 403；没有可回读的本地原图，不进入公开页。"
+    },
+    {
+      "id": "ghost-aic-okiku",
+      "reason": "AIC API 标记公版，但 IIIF 图像请求返回 403；没有可回读的本地原图，不进入公开页。"
+    },
+    {
+      "id": "ghost-aic-laughing-demoness",
+      "reason": "AIC API 标记公版，但 IIIF 图像请求返回 403；没有可回读的本地原图，不进入公开页。"
+    }
+  ],
+  "excludedBrands": [
+    {
+      "name": "Casper",
+      "reason": "现代角色与商品识别风险；本批不作为公版素材。"
+    },
+    {
+      "name": "Ghostbusters",
+      "reason": "电影、角色与商标受保护；排除。"
+    },
+    {
+      "name": "Disney Haunted Mansion",
+      "reason": "迪士尼角色、景点与商品体系受保护；排除。"
+    }
+  ],
+  "ghosts": [
+    {
+      "intakeId": "ghost-stereoscope-1856",
+      "eagleItemId": "MU3KHIU7A9KC6",
+      "skipped": true,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/302466"
+    },
+    {
+      "intakeId": "ghost-orphans-grave-1889",
+      "eagleItemId": "MU3KHIUD0QDMM",
+      "skipped": true,
+      "sourceUrl": "https://www.loc.gov/item/2004668383/"
+    },
+    {
+      "intakeId": "ghost-hallowell-composite-1901",
+      "eagleItemId": "MU3KHIUHCCMWR",
+      "skipped": true,
+      "sourceUrl": "https://www.loc.gov/item/91732576/"
+    },
+    {
+      "intakeId": "ghost-marley-leech-1843",
+      "eagleItemId": "MU3KHIULCQCMS",
+      "skipped": true,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marley%27s_Ghost-John_Leech,_1843.jpg"
+    },
+    {
+      "intakeId": "ghost-samuel-blake",
+      "eagleItemId": "MU3KHIUPA50Y8",
+      "skipped": true,
+      "sourceUrl": "https://www.nga.gov/artworks/11498-ghost-samuel-appearing-saul"
+    },
+    {
+      "intakeId": "ghost-marguerite-delacroix-1828",
+      "eagleItemId": "MU3KHIUSTXGFI",
+      "skipped": true,
+      "sourceUrl": "https://www.artic.edu/artworks/84499"
+    },
+    {
+      "intakeId": "ghost-witchcraft-fantin-1899",
+      "eagleItemId": "MU3KHIUURCVU3",
+      "skipped": true,
+      "sourceUrl": "https://www.clevelandart.org/art/1921.68"
+    },
+    {
+      "intakeId": "ghost-magician-roses-1892",
+      "eagleItemId": "MU3KHIUWQWGGR",
+      "skipped": true,
+      "sourceUrl": "https://www.loc.gov/item/2014636963/"
+    },
+    {
+      "intakeId": "ghost-thurston-1915",
+      "eagleItemId": "MU3KHIV2AH4WP",
+      "skipped": true,
+      "sourceUrl": "https://www.loc.gov/item/2014636948/"
+    },
+    {
+      "intakeId": "ghost-joan-arc-1879",
+      "eagleItemId": "MU3KHIV61R1TC",
+      "skipped": true,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435621"
+    },
+    {
+      "intakeId": "ghost-witchcraft-evening",
+      "eagleItemId": "MU3KHIVARNU0X",
+      "skipped": true,
+      "sourceUrl": "https://www.clevelandart.org/art/1977.37.3"
+    },
+    {
+      "intakeId": "ghost-christmas-frolic-1814",
+      "eagleItemId": "MU3KHIVBFEMON",
+      "skipped": true,
+      "sourceUrl": "https://www.loc.gov/item/2005676988/"
+    },
+    {
+      "intakeId": "ghost-rackham-marley-1915",
+      "eagleItemId": "MU3KHIVCDPF9T",
+      "skipped": true,
+      "sourceUrl": "https://archive.org/details/christmascar00dick"
+    },
+    {
+      "intakeId": "ghost-rackham-phantoms-1915",
+      "eagleItemId": "MU3KHIVE1FX13",
+      "skipped": true,
+      "sourceUrl": "https://archive.org/details/christmascar00dick"
+    },
+    {
+      "intakeId": "ghost-buguet-1874",
+      "eagleItemId": "MU3KHIVGTQRDP",
+      "skipped": true,
+      "sourceUrl": "https://archive.org/details/edward-isidore-buguet-spiritualist-photograph-albumin-print-1874"
+    },
+    {
+      "intakeId": "ghost-underwood-1893",
+      "eagleItemId": "MU3KHIVH2XS96",
+      "skipped": true,
+      "sourceUrl": "https://archive.org/details/stereoview-no.-1634-phantom-player-resting-littleton-underwood-and-underwood-1893"
+    },
+    {
+      "intakeId": "ghost-oil-lamp-1810",
+      "eagleItemId": "MU3KKPQ0DTVU3",
+      "skipped": true,
+      "sourceUrl": "https://www.clevelandart.org/art/1992.71"
+    },
+    {
+      "intakeId": "ghost-haunted-auto-1910",
+      "eagleItemId": "MU3KKPQ534E65",
+      "skipped": true,
+      "sourceUrl": "https://www.loc.gov/item/2011647576/"
+    },
+    {
+      "intakeId": "ghost-newmann-1911",
+      "eagleItemId": "MU3KKPQ7ARGY7",
+      "skipped": true,
+      "sourceUrl": "https://www.loc.gov/item/2014636926/"
+    },
+    {
+      "intakeId": "ghost-haunted-lane-1889",
+      "eagleItemId": "MU3KKPQABD04G",
+      "skipped": true,
+      "sourceUrl": "https://www.loc.gov/item/2006686826/"
+    },
+    {
+      "intakeId": "ghost-hamlet-delacroix-1835",
+      "eagleItemId": "MU3KKPQB3KP1X",
+      "skipped": true,
+      "sourceUrl": "https://www.clevelandart.org/art/1941.215.2"
+    },
+    {
+      "intakeId": "ghost-met-cat-demon",
+      "eagleItemId": "MU3KM4D3TPK7J",
+      "skipped": false,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/45282"
+    },
+    {
+      "intakeId": "ghost-met-zhong-kui",
+      "eagleItemId": "MU3KM4D70B7VY",
+      "skipped": false,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/56722"
+    },
+    {
+      "intakeId": "ghost-met-demon-drawings",
+      "eagleItemId": "MU3KM4D9BVAQ3",
+      "skipped": false,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/57231"
+    },
+    {
+      "intakeId": "ghost-met-yoshihira-revenge",
+      "eagleItemId": "MU3KM4DCU9C6M",
+      "skipped": false,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/63378"
+    },
+    {
+      "intakeId": "ghost-met-shoki-banner",
+      "eagleItemId": "MU3KM4DEDRGXF",
+      "skipped": false,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/754547"
+    }
+  ],
+  "publicDomainCovers": [
+    {
+      "intakeId": "sheet-maple-leaf-rag-1899",
+      "eagleItemId": "MU3KM4DFVSDAF",
+      "skipped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maple_Leaf_Rag_1st_ed_b.jpg"
+    },
+    {
+      "intakeId": "sheet-entertainer-1902",
+      "eagleItemId": "MU3KM4DHCVFKZ",
+      "skipped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1902_The_Entertainer.jpg"
+    },
+    {
+      "intakeId": "sheet-cleopatra-rag-1915",
+      "eagleItemId": "MU3KM4DIZLYCB",
+      "skipped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1915_Cleopatra_Rag.jpg"
+    },
+    {
+      "intakeId": "sheet-magnetic-rag-1914",
+      "eagleItemId": "MU3KM4DKRV2OH",
+      "skipped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magnetic_Rag.jpg"
+    },
+    {
+      "intakeId": "sheet-black-cat-rag-1905",
+      "eagleItemId": "MU3KM4DMC37WN",
+      "skipped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Cat_Rag.jpg"
+    },
+    {
+      "intakeId": "sheet-spaghetti-rag-1910",
+      "eagleItemId": "MU3KM4DNGVGWQ",
+      "skipped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_Rag.jpg"
+    },
+    {
+      "intakeId": "sheet-kismet-rag-1913",
+      "eagleItemId": "MU3KM4DOP8YTZ",
+      "skipped": false,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1913_Kismet_Rag.jpg"
+    },
+    {
+      "intakeId": "sheet-bloomer-waltz-1851",
+      "eagleItemId": "MU3KM4DQPETHW",
+      "skipped": false,
+      "sourceUrl": "https://www.loc.gov/item/95505065/"
+    },
+    {
+      "intakeId": "sheet-black-cat-magazine-1895",
+      "eagleItemId": "MU3KM4DR78HX0",
+      "skipped": false,
+      "sourceUrl": "https://www.loc.gov/item/2015647207/"
+    },
+    {
+      "intakeId": "sheet-airship-trip-1904",
+      "eagleItemId": "MU3KM4DS2T8N2",
+      "skipped": false,
+      "sourceUrl": "https://library.si.edu/digital-library/book/Cometaketripmya00Evan"
+    }
+  ]
+}

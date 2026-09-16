@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-16T02:50:01.060Z",
+  "generatedAt": "2026-09-16T04:09:51.899Z",
   "entity": {
     "id": "role-pudgy-eb70a784",
     "name": "Pudgy",
@@ -802,14 +802,14 @@
       "relatedEntityIds": [
         "role-bimbo-c30ed973",
         "role-pudgy-eb70a784",
+        "subject-ghosts-spiritualism",
         "role-grampy-d1dc168a",
         "role-prince-0300dc42",
         "role-继姐妹-00329fe3",
         "role-barnacle-bill-f9fea540",
         "role-koko-a30dbfea",
         "role-野生动物群像-13af1c6f",
-        "role-餐厅动物群像-118f7c78",
-        "role-accordion-joe-64041640"
+        "role-餐厅动物群像-118f7c78"
       ]
     },
     {

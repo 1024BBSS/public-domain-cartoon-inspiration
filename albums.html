@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="经典封面视觉研究：公版历史封面与近70年需授权专辑分开浏览。">
+  <title>封面视觉研究</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12'/%3E%3Ccircle cx='32' cy='32' r='20' fill='none' stroke='white' stroke-width='7'/%3E%3Ccircle cx='32' cy='32' r='4' fill='white'/%3E%3C/svg%3E">
+  <link rel="alternate" type="application/json" href="data/albums.json" title="封面视觉研究数据">
+  <link rel="stylesheet" href="assets/tokens.css">
+  <link rel="stylesheet" href="assets/components.css">
+  <link rel="stylesheet" href="assets/albums.css">
+  <script defer src="data/albums.js"></script>
+  <script defer src="assets/albums.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="topbar__title">封面视觉研究</div>
+      <span class="topbar__meta" id="top-meta">载入中</span>
+      <div class="topbar__spacer"></div>
+      <div class="topbar__actions">
+        <a class="btn btn--ghost btn--sm" href="index.html">公版视觉</a>
+        <a class="btn btn--ghost btn--sm" href="data/albums.json" target="_blank" rel="noreferrer">Agent JSON</a>
+        <button class="btn btn--primary btn--sm" id="copy-filter" type="button">复制当前页</button>
+      </div>
+    </header>
+
+    <div class="body">
+      <aside class="sidebar" aria-label="封面筛选">
+        <div class="sidebar__section">
+          <div class="sidebar__label">版权层</div>
+          <nav class="facet-list" id="bucket-facets"></nav>
+        </div>
+        <div class="sidebar__section">
+          <div class="sidebar__label">艺术路径</div>
+          <nav class="facet-list" id="type-facets"></nav>
+        </div>
+        <div class="sidebar__section sidebar__section--tail">
+          <p class="boundary-note">现代专辑缩略图只用于识别和研究。未获授权，不得进入印花生产。</p>
+        </div>
+      </aside>
+
+      <main class="main album-main">
+        <section class="filterbar" aria-label="查找与排序">
+          <label class="search-field">
+            <span class="sr-only">搜索封面</span>
+            <input class="input" id="search" type="search" autocomplete="off" placeholder="搜专辑、艺人或视觉结构">
+          </label>
+          <select class="select compact-select" id="sort-select" aria-label="排序">
+            <option value="year">年代</option>
+            <option value="title">名称</option>
+            <option value="type">艺术路径</option>
+          </select>
+          <button class="btn btn--secondary" id="reset" type="button">重置</button>
+        </section>
+
+        <nav class="bucket-tabs" id="bucket-tabs" aria-label="版权层"></nav>
+        <nav class="type-chips" id="type-chips" aria-label="艺术路径"></nav>
+
+        <section class="result-head" aria-live="polite">
+          <div><strong id="result-title">公版封面源流</strong><span class="dim"> · </span><strong id="result-count">0</strong></div>
+          <div class="dim" id="result-note"></div>
+        </section>
+
+        <section class="cover-grid" id="cover-grid" aria-label="封面结果"></section>
+        <div class="empty" id="empty-state" hidden>
+          <div class="empty__title">没有匹配项</div>
+          <div class="dim">缩短关键词或清空筛选。</div>
+          <button class="btn btn--secondary btn--sm" id="empty-reset" type="button">清空筛选</button>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="detail-title">
+    <form method="dialog" class="dialog-close-row">
+      <button class="btn btn--ghost btn--sm" aria-label="关闭详情">关闭</button>
+    </form>
+    <div class="detail-layout">
+      <div class="detail-media"><img id="detail-image" hidden alt=""></div>
+      <article class="detail-copy">
+        <div class="eyebrow" id="detail-kind"></div>
+        <h1 id="detail-title"></h1>
+        <p class="detail-subtitle" id="detail-subtitle"></p>
+        <div class="badge-row" id="detail-badges"></div>
+        <dl class="detail-list">
+          <div><dt>视觉结构</dt><dd id="detail-grammar"></dd></div>
+          <div><dt>可转化</dt><dd id="detail-use"></dd></div>
+          <div><dt>版权门</dt><dd id="detail-gate"></dd></div>
+        </dl>
+        <div class="detail-actions">
+          <a class="btn btn--secondary" id="detail-visual" target="_blank" rel="noreferrer">封面来源</a>
+          <a class="btn btn--secondary" id="detail-license" target="_blank" rel="noreferrer">授权线索</a>
+          <button class="btn btn--primary" id="copy-item" type="button">复制这条</button>
+        </div>
+      </article>
+    </div>
+  </dialog>
+</body>
+</html>

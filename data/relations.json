@@ -1,16 +1,16 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-16T02:50:01.060Z",
+  "generatedAt": "2026-09-16T04:46:57.426Z",
   "scope": "由公开目录生成的角色、主体、作品、场景与节日关系层；权利状态继承具体记录，不扩大原结论。",
   "counts": {
-    "entities": 168,
-    "characters": 33,
-    "subjectHubs": 10,
-    "works": 246,
-    "scenes": 128,
+    "entities": 190,
+    "characters": 54,
+    "subjectHubs": 11,
+    "works": 271,
+    "scenes": 129,
     "holidays": 8,
-    "records": 681
+    "records": 733
   },
   "entities": [
     {
@@ -469,14 +469,14 @@
       "relatedEntityIds": [
         "role-bimbo-c30ed973",
         "role-pudgy-eb70a784",
+        "subject-ghosts-spiritualism",
         "role-grampy-d1dc168a",
         "role-prince-0300dc42",
         "role-继姐妹-00329fe3",
         "role-barnacle-bill-f9fea540",
         "role-koko-a30dbfea",
         "role-野生动物群像-13af1c6f",
-        "role-餐厅动物群像-118f7c78",
-        "role-accordion-joe-64041640"
+        "role-餐厅动物群像-118f7c78"
       ]
     },
     {
@@ -1491,11 +1491,348 @@
       "sourceCount": 5,
       "relatedEntityIds": [
         "role-betty-boop-16ad409c",
+        "subject-ghosts-spiritualism",
         "role-barnacle-bill-f9fea540",
         "role-koko-a30dbfea",
         "role-餐厅动物群像-118f7c78",
         "role-accordion-joe-64041640",
         "role-mysterious-mose-1e6192c3"
+      ]
+    },
+    {
+      "id": "subject-ghosts-spiritualism",
+      "name": "幽灵、鬼屋与通灵",
+      "type": "文化题材",
+      "aliases": [
+        "鬼怪",
+        "鬼屋",
+        "灵体",
+        "通灵",
+        "幽灵",
+        "Apparition",
+        "Ghost",
+        "Haunting",
+        "Phantom",
+        "Séance",
+        "Spirit"
+      ],
+      "virtual": true,
+      "coverImage": "images/2e583b2aae5a2e17ef41.webp",
+      "coverRecordId": "catalog-supplement-ghost-christmas-frolic-1814",
+      "yearStart": 1200,
+      "yearEnd": 1931,
+      "workIds": [
+        "work-mysterious-mose夜间怪谈-06a0b703",
+        "work-wot-a-night-cb97ee02",
+        "work-立体镜中的幽灵-f0be4d30",
+        "work-孤儿在母亲墓前-23a2d5dc",
+        "work-通灵会灵体合成照-3c8907c2",
+        "work-马利的幽灵-436b638e",
+        "work-撒母耳的幽灵向扫罗显现-54e3a978",
+        "work-玛格丽特的幽灵向浮士德显现-f9fe58a8",
+        "work-巫术-2cb43daf",
+        "work-玫瑰魔术师与超自然生物-36d50d1c",
+        "work-灵魂会回来吗-ba38546d",
+        "work-圣女贞德与异象-77bed1c9",
+        "work-巫术场景-黄昏-5e91ed00",
+        "work-幽灵-一场圣诞恶作剧-d2a5c039",
+        "work-马利的幽灵-拉克姆版-917905df",
+        "work-布盖通灵摄影-296427a4",
+        "work-休息的幽灵演奏者-6db9d5b8",
+        "work-幽灵与油灯-1fb37b14",
+        "work-闹鬼的汽车-e6442b01",
+        "work-newmann-的灵体奇术-576434db",
+        "work-闹鬼的小路-1ee678e8",
+        "work-哈姆雷特追随父亲幽灵-c3f90678",
+        "work-冈崎猫妖怪谈-bd4f4df0",
+        "work-钟馗-35122b8b",
+        "work-鬼怪素描-abaf8ede",
+        "work-义平幽灵复仇-8f44b5f3",
+        "work-鲤旗与钟馗旗-dd97e27f",
+        "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
+        "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
+        "work-zhong-kui-supported-by-ghosts-8f0c0fce",
+        "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
+        "work-ghosts-of-the-taira-at-daimotsu-bay-4e6f02fe",
+        "work-a-boat-cast-adrift-ukifune-omatsu-and-akabori-mizuemon-0e3ed557",
+        "work-a-molted-cicada-shell-utsusemi-soga-goro-tokimune-from-9e43ce93",
+        "work-exile-to-suma-suma-tamaori-hime-from-the-series-scenes-606f10d3",
+        "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
+        "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35"
+      ],
+      "recordIds": [
+        "frame-mysterious-mose-1930-001",
+        "frame-mysterious-mose-1930-002",
+        "frame-mysterious-mose-1930-003",
+        "frame-mysterious-mose-1930-004",
+        "frame-mysterious-mose-1930-005",
+        "frame-mysterious-mose-1930-006",
+        "frame-mysterious-mose-1930-007",
+        "frame-mysterious-mose-1930-008",
+        "frame-mysterious-mose-1930-009",
+        "frame-mysterious-mose-1930-010",
+        "frame-mysterious-mose-1930-011",
+        "frame-mysterious-mose-1930-012",
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006",
+        "catalog-supplement-van-beuren-wot-a-night-1931",
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "catalog-supplement-ghost-stereoscope-1856",
+        "frame-supplement-ghost-orphans-grave-1889-001",
+        "catalog-supplement-ghost-orphans-grave-1889",
+        "frame-supplement-ghost-hallowell-composite-1901-001",
+        "catalog-supplement-ghost-hallowell-composite-1901",
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "catalog-supplement-ghost-marley-leech-1843",
+        "frame-supplement-ghost-samuel-blake-001",
+        "catalog-supplement-ghost-samuel-blake",
+        "frame-supplement-ghost-marguerite-delacroix-1828-001",
+        "catalog-supplement-ghost-marguerite-delacroix-1828",
+        "frame-supplement-ghost-witchcraft-fantin-1899-001",
+        "catalog-supplement-ghost-witchcraft-fantin-1899",
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "catalog-supplement-ghost-magician-roses-1892",
+        "frame-supplement-ghost-thurston-1915-001",
+        "catalog-supplement-ghost-thurston-1915",
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "catalog-supplement-ghost-joan-arc-1879",
+        "frame-supplement-ghost-witchcraft-evening-001",
+        "catalog-supplement-ghost-witchcraft-evening",
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "catalog-supplement-ghost-christmas-frolic-1814",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "catalog-supplement-ghost-rackham-marley-1915",
+        "catalog-supplement-ghost-rackham-phantoms-1915",
+        "frame-supplement-ghost-buguet-1874-001",
+        "catalog-supplement-ghost-buguet-1874",
+        "frame-supplement-ghost-underwood-1893-001",
+        "catalog-supplement-ghost-underwood-1893",
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "catalog-supplement-ghost-oil-lamp-1810",
+        "frame-supplement-ghost-haunted-auto-1910-001",
+        "catalog-supplement-ghost-haunted-auto-1910",
+        "frame-supplement-ghost-newmann-1911-001",
+        "catalog-supplement-ghost-newmann-1911",
+        "frame-supplement-ghost-haunted-lane-1889-001",
+        "catalog-supplement-ghost-haunted-lane-1889",
+        "frame-supplement-ghost-hamlet-delacroix-1835-001",
+        "catalog-supplement-ghost-hamlet-delacroix-1835",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "catalog-supplement-ghost-met-cat-demon",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "catalog-supplement-ghost-met-zhong-kui",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "catalog-supplement-ghost-met-demon-drawings",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "catalog-supplement-ghost-met-yoshihira-revenge",
+        "frame-supplement-ghost-met-shoki-banner-001",
+        "catalog-supplement-ghost-met-shoki-banner",
+        "catalog-belief-cma-163115",
+        "catalog-belief-cma-136668",
+        "catalog-belief-cma-135655",
+        "catalog-belief-met-58892",
+        "catalog-belief-met-55743",
+        "catalog-belief-met-789147",
+        "catalog-belief-met-789145",
+        "catalog-belief-met-789148",
+        "catalog-belief-met-789144",
+        "catalog-belief-met-76582"
+      ],
+      "frameIds": [
+        "frame-mysterious-mose-1930-001",
+        "frame-mysterious-mose-1930-002",
+        "frame-mysterious-mose-1930-003",
+        "frame-mysterious-mose-1930-004",
+        "frame-mysterious-mose-1930-005",
+        "frame-mysterious-mose-1930-006",
+        "frame-mysterious-mose-1930-007",
+        "frame-mysterious-mose-1930-008",
+        "frame-mysterious-mose-1930-009",
+        "frame-mysterious-mose-1930-010",
+        "frame-mysterious-mose-1930-011",
+        "frame-mysterious-mose-1930-012",
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006",
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "frame-supplement-ghost-orphans-grave-1889-001",
+        "frame-supplement-ghost-hallowell-composite-1901-001",
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "frame-supplement-ghost-samuel-blake-001",
+        "frame-supplement-ghost-marguerite-delacroix-1828-001",
+        "frame-supplement-ghost-witchcraft-fantin-1899-001",
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "frame-supplement-ghost-thurston-1915-001",
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "frame-supplement-ghost-witchcraft-evening-001",
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "frame-supplement-ghost-buguet-1874-001",
+        "frame-supplement-ghost-underwood-1893-001",
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "frame-supplement-ghost-haunted-auto-1910-001",
+        "frame-supplement-ghost-newmann-1911-001",
+        "frame-supplement-ghost-haunted-lane-1889-001",
+        "frame-supplement-ghost-hamlet-delacroix-1835-001",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "frame-supplement-ghost-met-shoki-banner-001"
+      ],
+      "workCount": 37,
+      "imageCount": 54,
+      "frameCount": 44,
+      "rightsBreakdown": {
+        "期限届满": 1,
+        "未续期": 1,
+        "公版 / 开放馆藏": 35
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+        "Met Open Access · Public Domain",
+        "LOC · No known restrictions",
+        "1843 初版插图 · 期限届满",
+        "NGA Open Access",
+        "AIC Open Access · CC0",
+        "CMA Open Access · CC0",
+        "1814 版画 · LOC No known restrictions",
+        "1915 插图 · 期限届满",
+        "1874 摄影 · 期限届满",
+        "1893 摄影 · 期限届满",
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A",
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 52
+        },
+        {
+          "name": "妖怪、幽灵与民间护佑神",
+          "count": 22
+        },
+        {
+          "name": "鬼怪",
+          "count": 12
+        },
+        {
+          "name": "夜晚",
+          "count": 12
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 12
+        },
+        {
+          "name": "追逐",
+          "count": 12
+        },
+        {
+          "name": "东亚道教、神道与民间信仰",
+          "count": 10
+        },
+        {
+          "name": "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神",
+          "count": 10
+        },
+        {
+          "name": "鬼屋",
+          "count": 7
+        },
+        {
+          "name": "双人搭档",
+          "count": 7
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 19
+        },
+        {
+          "name": "Fleischer 怪诞",
+          "count": 12
+        },
+        {
+          "name": "暗黑 / 怪诞",
+          "count": 10
+        },
+        {
+          "name": "神话 / 魔法",
+          "count": 10
+        },
+        {
+          "name": "通灵摄影",
+          "count": 10
+        },
+        {
+          "name": "宗教 / 仪式",
+          "count": 10
+        },
+        {
+          "name": "鬼屋喜剧",
+          "count": 7
+        },
+        {
+          "name": "黑白动画",
+          "count": 7
+        },
+        {
+          "name": "浮世绘",
+          "count": 6
+        },
+        {
+          "name": "魔术海报",
+          "count": 6
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 71
+        },
+        {
+          "name": "圣诞节",
+          "count": 8
+        }
+      ],
+      "usage": "按母题进入：白布幽灵、锁链亡灵、半透明显影、鬼屋喜剧、通灵摄影、舞台幻术与东亚幽魂。打开具体作品后，再取构图、动作和轮廓。",
+      "avoid": "公版结论只覆盖列出的具体历史版本。避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 28,
+      "sourceCount": 37,
+      "relatedEntityIds": [
+        "subject-east-asian-ghosts",
+        "role-舞台灵体-b5c936dc",
+        "subject-jesus-christian-iconography",
+        "role-marleys-ghost-0861a74f",
+        "role-白布幽灵-0f2aa01a",
+        "role-钟馗-2d4bb89f",
+        "role-betty-boop-16ad409c",
+        "role-bimbo-c30ed973",
+        "role-mysterious-mose-1e6192c3",
+        "role-van-beuren-human-duo-2d6c075a"
       ]
     },
     {
@@ -2516,6 +2853,171 @@
       "relatedEntityIds": [
         "role-betty-boop-16ad409c",
         "role-继姐妹-00329fe3"
+      ]
+    },
+    {
+      "id": "subject-east-asian-ghosts",
+      "name": "钟馗与东亚鬼神",
+      "type": "文化题材",
+      "aliases": [
+        "鬼神",
+        "妖怪",
+        "钟馗",
+        "Yokai",
+        "Zhong Kui"
+      ],
+      "virtual": true,
+      "coverImage": "images/98d7778df9949b92f668.webp",
+      "coverRecordId": "catalog-supplement-ghost-oil-lamp-1810",
+      "yearStart": 1200,
+      "yearEnd": 1870,
+      "workIds": [
+        "work-幽灵与油灯-1fb37b14",
+        "work-冈崎猫妖怪谈-bd4f4df0",
+        "work-钟馗-35122b8b",
+        "work-鬼怪素描-abaf8ede",
+        "work-义平幽灵复仇-8f44b5f3",
+        "work-鲤旗与钟馗旗-dd97e27f",
+        "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
+        "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
+        "work-zhong-kui-supported-by-ghosts-8f0c0fce",
+        "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
+        "work-ghosts-of-the-taira-at-daimotsu-bay-4e6f02fe",
+        "work-a-boat-cast-adrift-ukifune-omatsu-and-akabori-mizuemon-0e3ed557",
+        "work-a-molted-cicada-shell-utsusemi-soga-goro-tokimune-from-9e43ce93",
+        "work-exile-to-suma-suma-tamaori-hime-from-the-series-scenes-606f10d3",
+        "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
+        "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "catalog-supplement-ghost-oil-lamp-1810",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "catalog-supplement-ghost-met-cat-demon",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "catalog-supplement-ghost-met-zhong-kui",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "catalog-supplement-ghost-met-demon-drawings",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "catalog-supplement-ghost-met-yoshihira-revenge",
+        "frame-supplement-ghost-met-shoki-banner-001",
+        "catalog-supplement-ghost-met-shoki-banner",
+        "catalog-belief-cma-163115",
+        "catalog-belief-cma-136668",
+        "catalog-belief-cma-135655",
+        "catalog-belief-met-58892",
+        "catalog-belief-met-55743",
+        "catalog-belief-met-789147",
+        "catalog-belief-met-789145",
+        "catalog-belief-met-789148",
+        "catalog-belief-met-789144",
+        "catalog-belief-met-76582"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "frame-supplement-ghost-met-shoki-banner-001"
+      ],
+      "workCount": 16,
+      "imageCount": 16,
+      "frameCount": 6,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 16
+      },
+      "copyrightRoutes": [
+        "CMA Open Access · CC0",
+        "Met Open Access · Public Domain",
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "妖怪、幽灵与民间护佑神",
+          "count": 22
+        },
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 12
+        },
+        {
+          "name": "东亚道教、神道与民间信仰",
+          "count": 10
+        },
+        {
+          "name": "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神",
+          "count": 10
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "暗黑 / 怪诞",
+          "count": 10
+        },
+        {
+          "name": "神话 / 魔法",
+          "count": 10
+        },
+        {
+          "name": "宗教 / 仪式",
+          "count": 10
+        },
+        {
+          "name": "浮世绘",
+          "count": 6
+        },
+        {
+          "name": "Asian Art; Prints; Print",
+          "count": 4
+        },
+        {
+          "name": "复仇幽灵",
+          "count": 2
+        },
+        {
+          "name": "鬼怪角色表",
+          "count": 2
+        },
+        {
+          "name": "旗幡",
+          "count": 2
+        },
+        {
+          "name": "日本节庆画",
+          "count": 2
+        },
+        {
+          "name": "日本素描",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 12
+        }
+      ],
+      "usage": "无脚白衣幽灵、长发、油灯与大面积留白。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 16,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-钟馗-2d4bb89f",
+        "role-yurei-39275740",
+        "role-cat-demon-1b812fa1",
+        "role-demons-bd2a88c5",
+        "role-yoshihiras-ghost-122808fc"
       ]
     },
     {
@@ -4271,6 +4773,154 @@
       ]
     },
     {
+      "id": "subject-jesus-christian-iconography",
+      "name": "耶稣与基督教圣像",
+      "type": "文化题材",
+      "aliases": [
+        "基督",
+        "耶稣",
+        "Christ",
+        "Jesus",
+        "Nativity"
+      ],
+      "virtual": true,
+      "coverImage": "images/1abe670591a3a0916430.webp",
+      "coverRecordId": "catalog-supplement-ghost-samuel-blake",
+      "yearStart": 1250,
+      "yearEnd": 1879,
+      "workIds": [
+        "work-撒母耳的幽灵向扫罗显现-54e3a978",
+        "work-圣女贞德与异象-77bed1c9",
+        "work-pendant-triptych-with-an-onyx-cameo-of-the-nativity-84be0098",
+        "work-bifolio-from-an-antiphonary-historiated-initial-o-with-67a1ff25",
+        "work-triptych-with-the-adoration-of-the-magi-e3c44618",
+        "work-leaf-from-a-book-of-hours-the-nativity-recto-and-text--8dfa42ac",
+        "work-the-annunciation-and-the-nativity-a1049fdc",
+        "work-book-of-hours-use-of-utrecht-9769ddc6",
+        "work-single-leaf-from-an-antiphonary-initial-h-odie-nobis-w-7966302e",
+        "work-the-life-of-christ-the-nativity-0312906d",
+        "work-the-nativity-56582779",
+        "work-nativity-and-passion-of-christ-37deca27",
+        "work-the-adoration-of-the-shepherds-4dfbf978"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-samuel-blake-001",
+        "catalog-supplement-ghost-samuel-blake",
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "catalog-supplement-ghost-joan-arc-1879",
+        "catalog-belief-cma-125587",
+        "catalog-belief-cma-148397",
+        "catalog-belief-cma-120995",
+        "catalog-belief-cma-171423",
+        "catalog-belief-cma-130980",
+        "catalog-belief-cma-160212",
+        "catalog-belief-cma-129858",
+        "catalog-belief-cma-149440",
+        "catalog-belief-cma-135311",
+        "catalog-belief-cma-143785",
+        "catalog-belief-cma-300708"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-samuel-blake-001",
+        "frame-supplement-ghost-joan-arc-1879-001"
+      ],
+      "workCount": 13,
+      "imageCount": 13,
+      "frameCount": 2,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 13
+      },
+      "copyrightRoutes": [
+        "NGA Open Access",
+        "Met Open Access · Public Domain",
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话",
+        "圣诞 / 冬季",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "基督教 · 耶稣与圣像",
+          "count": 15
+        },
+        {
+          "name": "天使报喜 → 马槽 → 牧羊人与三博士",
+          "count": 11
+        },
+        {
+          "name": "耶稣降生与朝拜",
+          "count": 11
+        },
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 4
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "神话 / 魔法",
+          "count": 11
+        },
+        {
+          "name": "宗教 / 仪式",
+          "count": 11
+        },
+        {
+          "name": "Medieval Art; MED - Manuscript Illuminations; Manuscript",
+          "count": 3
+        },
+        {
+          "name": "Medieval Art; MED - Medieval Art; Painting",
+          "count": 3
+        },
+        {
+          "name": "浪漫主义",
+          "count": 2
+        },
+        {
+          "name": "圣经异象",
+          "count": 2
+        },
+        {
+          "name": "自然主义",
+          "count": 2
+        },
+        {
+          "name": "宗教异象",
+          "count": 2
+        },
+        {
+          "name": "Prints; PR - Engraving; Print",
+          "count": 2
+        },
+        {
+          "name": "Medieval Art; MED - Gothic; Enamel",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 4
+        }
+      ],
+      "usage": "发光先知、跪伏人物与召灵仪式的纵向构图。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 13,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-samuel-b1f6d124",
+        "role-joan-of-arc-5c8b31af"
+      ]
+    },
+    {
       "id": "role-婴儿群像-861fd8b1",
       "name": "婴儿群像",
       "type": "群像 / 生物",
@@ -5822,7 +6472,8 @@
       "sourceCount": 1,
       "relatedEntityIds": [
         "role-betty-boop-16ad409c",
-        "role-bimbo-c30ed973"
+        "role-bimbo-c30ed973",
+        "subject-ghosts-spiritualism"
       ]
     },
     {
@@ -5944,240 +6595,6 @@
       "avoid": "观音、Kannon 等不是可随意互换的同一现代角色。",
       "awarenessScore": 0,
       "sourceCount": 11,
-      "relatedEntityIds": []
-    },
-    {
-      "id": "subject-jesus-christian-iconography",
-      "name": "耶稣与基督教圣像",
-      "type": "文化题材",
-      "aliases": [
-        "基督",
-        "耶稣",
-        "Christ",
-        "Jesus",
-        "Nativity"
-      ],
-      "virtual": true,
-      "coverImage": "images/9b951c28c1d420207f22.webp",
-      "coverRecordId": "catalog-belief-cma-125587",
-      "yearStart": 1250,
-      "yearEnd": 1547,
-      "workIds": [
-        "work-pendant-triptych-with-an-onyx-cameo-of-the-nativity-84be0098",
-        "work-bifolio-from-an-antiphonary-historiated-initial-o-with-67a1ff25",
-        "work-triptych-with-the-adoration-of-the-magi-e3c44618",
-        "work-leaf-from-a-book-of-hours-the-nativity-recto-and-text--8dfa42ac",
-        "work-the-annunciation-and-the-nativity-a1049fdc",
-        "work-book-of-hours-use-of-utrecht-9769ddc6",
-        "work-single-leaf-from-an-antiphonary-initial-h-odie-nobis-w-7966302e",
-        "work-the-life-of-christ-the-nativity-0312906d",
-        "work-the-nativity-56582779",
-        "work-nativity-and-passion-of-christ-37deca27",
-        "work-the-adoration-of-the-shepherds-4dfbf978"
-      ],
-      "recordIds": [
-        "catalog-belief-cma-125587",
-        "catalog-belief-cma-148397",
-        "catalog-belief-cma-120995",
-        "catalog-belief-cma-171423",
-        "catalog-belief-cma-130980",
-        "catalog-belief-cma-160212",
-        "catalog-belief-cma-129858",
-        "catalog-belief-cma-149440",
-        "catalog-belief-cma-135311",
-        "catalog-belief-cma-143785",
-        "catalog-belief-cma-300708"
-      ],
-      "frameIds": [],
-      "workCount": 11,
-      "imageCount": 11,
-      "frameCount": 0,
-      "rightsBreakdown": {
-        "公版 / 开放馆藏": 11
-      },
-      "copyrightRoutes": [
-        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
-      ],
-      "evidenceLevels": [
-        "A"
-      ],
-      "tags": [
-        "圣诞 / 冬季",
-        "怪诞 / 魔法",
-        "宗教 / 神话",
-        "动物 / 自然"
-      ],
-      "topScenes": [
-        {
-          "name": "基督教 · 耶稣与圣像",
-          "count": 11
-        },
-        {
-          "name": "天使报喜 → 马槽 → 牧羊人与三博士",
-          "count": 11
-        },
-        {
-          "name": "耶稣降生与朝拜",
-          "count": 11
-        }
-      ],
-      "topStyles": [
-        {
-          "name": "神话 / 魔法",
-          "count": 11
-        },
-        {
-          "name": "宗教 / 仪式",
-          "count": 11
-        },
-        {
-          "name": "Medieval Art; MED - Manuscript Illuminations; Manuscript",
-          "count": 3
-        },
-        {
-          "name": "Medieval Art; MED - Medieval Art; Painting",
-          "count": 3
-        },
-        {
-          "name": "Prints; PR - Engraving; Print",
-          "count": 2
-        },
-        {
-          "name": "Medieval Art; MED - Gothic; Enamel",
-          "count": 1
-        },
-        {
-          "name": "Medieval Art; MED - Manuscript Illuminations; Bound Volume",
-          "count": 1
-        },
-        {
-          "name": "Prints; PR - Woodcut; Print",
-          "count": 1
-        }
-      ],
-      "topHolidays": [],
-      "usage": "提炼星光、围合人物、礼物与中心光源。",
-      "avoid": "保留耶稣降生语境，不把圣婴改成普通节庆角色。",
-      "awarenessScore": 0,
-      "sourceCount": 11,
-      "relatedEntityIds": []
-    },
-    {
-      "id": "subject-east-asian-ghosts",
-      "name": "钟馗与东亚鬼神",
-      "type": "文化题材",
-      "aliases": [
-        "鬼神",
-        "妖怪",
-        "钟馗",
-        "Yokai",
-        "Zhong Kui"
-      ],
-      "virtual": true,
-      "coverImage": "images/9ed068056201863f947b.webp",
-      "coverRecordId": "catalog-belief-cma-163115",
-      "yearStart": 1200,
-      "yearEnd": 1865,
-      "workIds": [
-        "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
-        "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
-        "work-zhong-kui-supported-by-ghosts-8f0c0fce",
-        "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
-        "work-ghosts-of-the-taira-at-daimotsu-bay-4e6f02fe",
-        "work-a-boat-cast-adrift-ukifune-omatsu-and-akabori-mizuemon-0e3ed557",
-        "work-a-molted-cicada-shell-utsusemi-soga-goro-tokimune-from-9e43ce93",
-        "work-exile-to-suma-suma-tamaori-hime-from-the-series-scenes-606f10d3",
-        "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
-        "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35"
-      ],
-      "recordIds": [
-        "catalog-belief-cma-163115",
-        "catalog-belief-cma-136668",
-        "catalog-belief-cma-135655",
-        "catalog-belief-met-58892",
-        "catalog-belief-met-55743",
-        "catalog-belief-met-789147",
-        "catalog-belief-met-789145",
-        "catalog-belief-met-789148",
-        "catalog-belief-met-789144",
-        "catalog-belief-met-76582"
-      ],
-      "frameIds": [],
-      "workCount": 10,
-      "imageCount": 10,
-      "frameCount": 0,
-      "rightsBreakdown": {
-        "公版 / 开放馆藏": 10
-      },
-      "copyrightRoutes": [
-        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
-        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
-      ],
-      "evidenceLevels": [
-        "A"
-      ],
-      "tags": [
-        "万圣节",
-        "怪诞 / 魔法",
-        "宗教 / 神话"
-      ],
-      "topScenes": [
-        {
-          "name": "东亚道教、神道与民间信仰",
-          "count": 10
-        },
-        {
-          "name": "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神",
-          "count": 10
-        },
-        {
-          "name": "妖怪、幽灵与民间护佑神",
-          "count": 10
-        }
-      ],
-      "topStyles": [
-        {
-          "name": "暗黑 / 怪诞",
-          "count": 10
-        },
-        {
-          "name": "神话 / 魔法",
-          "count": 10
-        },
-        {
-          "name": "宗教 / 仪式",
-          "count": 10
-        },
-        {
-          "name": "Asian Art; Prints; Print",
-          "count": 4
-        },
-        {
-          "name": "Asian Art; Prints; Woodblock print",
-          "count": 2
-        },
-        {
-          "name": "Asian Art; Inrō; Inrō",
-          "count": 1
-        },
-        {
-          "name": "Chinese Art; ASIAN - Album leaf; Painting",
-          "count": 1
-        },
-        {
-          "name": "Chinese Art; ASIAN - Handscroll; Painting",
-          "count": 1
-        },
-        {
-          "name": "Chinese Art; ASIAN - Hanging scroll; Painting",
-          "count": 1
-        }
-      ],
-      "topHolidays": [],
-      "usage": "从物件成精、夸张轮廓、夜行队列与驱邪姿态发展怪诞角色。",
-      "avoid": "妖怪与宗教神祇层级复杂，不用现代动漫造型替代。",
-      "awarenessScore": 0,
-      "sourceCount": 10,
       "relatedEntityIds": []
     },
     {
@@ -7171,7 +7588,9 @@
       "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
       "awarenessScore": 28,
       "sourceCount": 1,
-      "relatedEntityIds": []
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
     },
     {
       "id": "subject-mesopotamian-myth",
@@ -7263,6 +7682,179 @@
       "awarenessScore": 0,
       "sourceCount": 5,
       "relatedEntityIds": []
+    },
+    {
+      "id": "role-舞台灵体-b5c936dc",
+      "name": "舞台灵体",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/8100ae6af22e3d3c4ad5.webp",
+      "coverRecordId": "catalog-supplement-ghost-magician-roses-1892",
+      "yearStart": 1892,
+      "yearEnd": 1915,
+      "workIds": [
+        "work-玫瑰魔术师与超自然生物-36d50d1c",
+        "work-灵魂会回来吗-ba38546d",
+        "work-newmann-的灵体奇术-576434db"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "catalog-supplement-ghost-magician-roses-1892",
+        "frame-supplement-ghost-thurston-1915-001",
+        "catalog-supplement-ghost-thurston-1915",
+        "frame-supplement-ghost-newmann-1911-001",
+        "catalog-supplement-ghost-newmann-1911"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "frame-supplement-ghost-thurston-1915-001",
+        "frame-supplement-ghost-newmann-1911-001"
+      ],
+      "workCount": 3,
+      "imageCount": 3,
+      "frameCount": 3,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 3
+      },
+      "copyrightRoutes": [
+        "LOC · No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 6
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "魔术海报",
+          "count": 6
+        },
+        {
+          "name": "彩色石版",
+          "count": 2
+        },
+        {
+          "name": "通灵舞台",
+          "count": 2
+        },
+        {
+          "name": "戏剧排版",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 6
+        }
+      ],
+      "usage": "舞台魔术师、花束与环绕灵体的彩色海报构图。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-marleys-ghost-0861a74f",
+      "name": "Marley's Ghost",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/f60b8e89dc9b6017eb46.webp",
+      "coverRecordId": "catalog-supplement-ghost-marley-leech-1843",
+      "yearStart": 1843,
+      "yearEnd": 1915,
+      "workIds": [
+        "work-马利的幽灵-436b638e",
+        "work-马利的幽灵-拉克姆版-917905df"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "catalog-supplement-ghost-marley-leech-1843",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "catalog-supplement-ghost-rackham-marley-1915",
+        "catalog-supplement-ghost-rackham-phantoms-1915"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001"
+      ],
+      "workCount": 2,
+      "imageCount": 3,
+      "frameCount": 3,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 2
+      },
+      "copyrightRoutes": [
+        "1843 初版插图 · 期限届满",
+        "1915 插图 · 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 6
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "拉克姆插图",
+          "count": 4
+        },
+        {
+          "name": "手工上色",
+          "count": 2
+        },
+        {
+          "name": "维多利亚插图",
+          "count": 2
+        },
+        {
+          "name": "文学幽灵",
+          "count": 2
+        },
+        {
+          "name": "幽灵群像",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "圣诞节",
+          "count": 6
+        },
+        {
+          "name": "万圣节",
+          "count": 6
+        }
+      ],
+      "usage": "锁链、账簿、睡帽与室内烛光；同时连接万圣节和圣诞节。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-chained-phantoms-3541a6a1"
+      ]
     },
     {
       "id": "role-popeye-f93ca91e",
@@ -7580,6 +8172,250 @@
       "sourceCount": 2,
       "relatedEntityIds": [
         "role-blondie-4be5315c"
+      ]
+    },
+    {
+      "id": "role-白布幽灵-0f2aa01a",
+      "name": "白布幽灵",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/b02e71f61eb593b2f401.webp",
+      "coverRecordId": "catalog-supplement-ghost-stereoscope-1856",
+      "yearStart": 1814,
+      "yearEnd": 1856,
+      "workIds": [
+        "work-立体镜中的幽灵-f0be4d30",
+        "work-幽灵-一场圣诞恶作剧-d2a5c039"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "catalog-supplement-ghost-stereoscope-1856",
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "catalog-supplement-ghost-christmas-frolic-1814"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "frame-supplement-ghost-christmas-frolic-1814-001"
+      ],
+      "workCount": 2,
+      "imageCount": 2,
+      "frameCount": 2,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 2
+      },
+      "copyrightRoutes": [
+        "Met Open Access · Public Domain",
+        "1814 版画 · LOC No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 4
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "白布幽灵",
+          "count": 2
+        },
+        {
+          "name": "讽刺版画",
+          "count": 2
+        },
+        {
+          "name": "手工上色",
+          "count": 2
+        },
+        {
+          "name": "维多利亚摄影",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 4
+        },
+        {
+          "name": "圣诞节",
+          "count": 2
+        }
+      ],
+      "usage": "双联立体照、餐桌旁白布幽灵、人物惊吓关系。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-钟馗-2d4bb89f",
+      "name": "钟馗",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/5bb484a8f94c002de590.webp",
+      "coverRecordId": "catalog-supplement-ghost-met-zhong-kui",
+      "yearStart": 1700,
+      "yearEnd": 1870,
+      "workIds": [
+        "work-钟馗-35122b8b",
+        "work-鲤旗与钟馗旗-dd97e27f"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "catalog-supplement-ghost-met-zhong-kui",
+        "frame-supplement-ghost-met-shoki-banner-001",
+        "catalog-supplement-ghost-met-shoki-banner"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "frame-supplement-ghost-met-shoki-banner-001"
+      ],
+      "workCount": 2,
+      "imageCount": 2,
+      "frameCount": 2,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 2
+      },
+      "copyrightRoutes": [
+        "Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "妖怪、幽灵与民间护佑神",
+          "count": 4
+        },
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 4
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "浮世绘",
+          "count": 2
+        },
+        {
+          "name": "旗幡",
+          "count": 2
+        },
+        {
+          "name": "日本节庆画",
+          "count": 2
+        },
+        {
+          "name": "柱绘",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 4
+        }
+      ],
+      "usage": "长须、官帽、长剑和窄幅站姿。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "role-chained-phantoms-3541a6a1",
+      "name": "Chained Phantoms",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/2cbe3db3923d348e41f0.webp",
+      "coverRecordId": "catalog-supplement-ghost-rackham-marley-1915",
+      "yearStart": 1915,
+      "yearEnd": 1915,
+      "workIds": [
+        "work-马利的幽灵-拉克姆版-917905df"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "catalog-supplement-ghost-rackham-marley-1915",
+        "catalog-supplement-ghost-rackham-phantoms-1915"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001"
+      ],
+      "workCount": 1,
+      "imageCount": 2,
+      "frameCount": 2,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "1915 插图 · 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 4
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "拉克姆插图",
+          "count": 4
+        },
+        {
+          "name": "文学幽灵",
+          "count": 2
+        },
+        {
+          "name": "幽灵群像",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "圣诞节",
+          "count": 4
+        },
+        {
+          "name": "万圣节",
+          "count": 4
+        }
+      ],
+      "usage": "半透明锁链幽灵、维多利亚室内和蓝灰色调。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-marleys-ghost-0861a74f"
       ]
     },
     {
@@ -12696,6 +13532,534 @@
       "relatedEntityIds": []
     },
     {
+      "id": "role-白衣幽灵-4f1bdbdf",
+      "name": "白衣幽灵",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/e8e684c2cac3f58470db.webp",
+      "coverRecordId": "catalog-supplement-ghost-haunted-lane-1889",
+      "yearStart": 1889,
+      "yearEnd": 1889,
+      "workIds": [
+        "work-闹鬼的小路-1ee678e8"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-haunted-lane-1889-001",
+        "catalog-supplement-ghost-haunted-lane-1889"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-haunted-lane-1889-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "LOC · No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "鬼路场景",
+          "count": 2
+        },
+        {
+          "name": "通灵摄影",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "树林小路、白衣灵体与立体摄影的深景。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-动物幽灵群-856dd4d2",
+      "name": "动物幽灵群",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/0a1b0d4157493f6d1c9c.webp",
+      "coverRecordId": "catalog-supplement-ghost-haunted-auto-1910",
+      "yearStart": 1910,
+      "yearEnd": 1910,
+      "workIds": [
+        "work-闹鬼的汽车-e6442b01"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-haunted-auto-1910-001",
+        "catalog-supplement-ghost-haunted-auto-1910"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-haunted-auto-1910-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "LOC · No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "动物幽灵",
+          "count": 2
+        },
+        {
+          "name": "讽刺杂志封面",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "透明动物幽灵围绕汽车；早期漫画式动态群像。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-母亲幽灵-79c3028b",
+      "name": "母亲幽灵",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/10abdbb3daef337faa27.webp",
+      "coverRecordId": "catalog-supplement-ghost-orphans-grave-1889",
+      "yearStart": 1889,
+      "yearEnd": 1889,
+      "workIds": [
+        "work-孤儿在母亲墓前-23a2d5dc"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-orphans-grave-1889-001",
+        "catalog-supplement-ghost-orphans-grave-1889"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-orphans-grave-1889-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "LOC · No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "立体照片",
+          "count": 2
+        },
+        {
+          "name": "通灵摄影",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "墓碑、儿童与半透明母亲灵体的三层叙事。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-披布灵体-f8637771",
+      "name": "披布灵体",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/a73fbc6adeac0cde3c4b.webp",
+      "coverRecordId": "catalog-supplement-ghost-buguet-1874",
+      "yearStart": 1874,
+      "yearEnd": 1874,
+      "workIds": [
+        "work-布盖通灵摄影-296427a4"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-buguet-1874-001",
+        "catalog-supplement-ghost-buguet-1874"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-buguet-1874-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "1874 摄影 · 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "双重曝光",
+          "count": 2
+        },
+        {
+          "name": "通灵摄影",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "坐姿人物上方覆盖半透明披布灵体；可研究伪通灵摄影语法。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-通灵灵体-17f504c0",
+      "name": "通灵灵体",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/a2fe88e2addea68116f8.webp",
+      "coverRecordId": "catalog-supplement-ghost-hallowell-composite-1901",
+      "yearStart": 1901,
+      "yearEnd": 1901,
+      "workIds": [
+        "work-通灵会灵体合成照-3c8907c2"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-hallowell-composite-1901-001",
+        "catalog-supplement-ghost-hallowell-composite-1901"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-hallowell-composite-1901-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "LOC · No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "双重曝光",
+          "count": 2
+        },
+        {
+          "name": "通灵摄影",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "女性肖像、环绕灵体面孔、通灵会合成结构。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-幽灵演奏者-0941d377",
+      "name": "幽灵演奏者",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/39bfe52fef0ded6cd70d.webp",
+      "coverRecordId": "catalog-supplement-ghost-underwood-1893",
+      "yearStart": 1893,
+      "yearEnd": 1893,
+      "workIds": [
+        "work-休息的幽灵演奏者-6db9d5b8"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-underwood-1893-001",
+        "catalog-supplement-ghost-underwood-1893"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-underwood-1893-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "1893 摄影 · 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "立体照片",
+          "count": 2
+        },
+        {
+          "name": "通灵摄影",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "客厅、乐器与半透明人物的横向立体照。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-召唤幽灵-e623ac10",
+      "name": "召唤幽灵",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/f6f4c763ab4ff25acc56.webp",
+      "coverRecordId": "catalog-supplement-ghost-witchcraft-evening",
+      "yearStart": 1645,
+      "yearEnd": 1645,
+      "workIds": [
+        "work-巫术场景-黄昏-5e91ed00"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-witchcraft-evening-001",
+        "catalog-supplement-ghost-witchcraft-evening"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-witchcraft-evening-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "CMA Open Access · CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "巴洛克版画",
+          "count": 2
+        },
+        {
+          "name": "巫术场景",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "召灵者、骨骸幽灵和岩石火光的圆形聚焦。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-召灵幻象-a015fd9d",
+      "name": "召灵幻象",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/2f1e5dc6774fb3805387.webp",
+      "coverRecordId": "catalog-supplement-ghost-witchcraft-fantin-1899",
+      "yearStart": 1899,
+      "yearEnd": 1899,
+      "workIds": [
+        "work-巫术-2cb43daf"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-witchcraft-fantin-1899-001",
+        "catalog-supplement-ghost-witchcraft-fantin-1899"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-witchcraft-fantin-1899-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "CMA Open Access · CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "石版画",
+          "count": 2
+        },
+        {
+          "name": "象征主义",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "雾化召灵、漂浮人物和低对比灰阶气氛。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
       "id": "role-baroque-pearl-mounted-as-a-cat-holding-a-mouse-b1535fab",
       "name": "Baroque Pearl Mounted as a Cat Holding a Mouse",
       "type": "主体",
@@ -12902,6 +14266,77 @@
       "relatedEntityIds": []
     },
     {
+      "id": "role-cat-demon-1b812fa1",
+      "name": "Cat Demon",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/ad91b335afe6091f519f.webp",
+      "coverRecordId": "catalog-supplement-ghost-met-cat-demon",
+      "yearStart": 1850,
+      "yearEnd": 1850,
+      "workIds": [
+        "work-冈崎猫妖怪谈-bd4f4df0"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-met-cat-demon-001",
+        "catalog-supplement-ghost-met-cat-demon"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-met-cat-demon-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "妖怪、幽灵与民间护佑神",
+          "count": 2
+        },
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "浮世绘",
+          "count": 2
+        },
+        {
+          "name": "妖猫怪谈",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "巨猫面孔、室内夜戏与被压缩的人物空间。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
       "id": "role-cats-suggested-as-the-fifty-three-stations-f3a6474d",
       "name": "Cats Suggested as the Fifty-three Stations",
       "type": "主体",
@@ -12960,6 +14395,77 @@
       "awarenessScore": 0,
       "sourceCount": 1,
       "relatedEntityIds": []
+    },
+    {
+      "id": "role-demons-bd2a88c5",
+      "name": "Demons",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/a655205ddfe8bf0c757c.webp",
+      "coverRecordId": "catalog-supplement-ghost-met-demon-drawings",
+      "yearStart": 1800,
+      "yearEnd": 1800,
+      "workIds": [
+        "work-鬼怪素描-abaf8ede"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "catalog-supplement-ghost-met-demon-drawings"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-met-demon-drawings-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "妖怪、幽灵与民间护佑神",
+          "count": 2
+        },
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "鬼怪角色表",
+          "count": 2
+        },
+        {
+          "name": "日本素描",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "多种鬼怪轮廓、动作速写与角色表情库。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "subject-east-asian-ghosts"
+      ]
     },
     {
       "id": "role-elson-basic-readers-53a2ce60",
@@ -13073,6 +14579,143 @@
       "relatedEntityIds": []
     },
     {
+      "id": "role-hamlets-father-5a4cc5d1",
+      "name": "Hamlet's Father",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/b0682d9f749b37aa3a34.webp",
+      "coverRecordId": "catalog-supplement-ghost-hamlet-delacroix-1835",
+      "yearStart": 1835,
+      "yearEnd": 1835,
+      "workIds": [
+        "work-哈姆雷特追随父亲幽灵-c3f90678"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-hamlet-delacroix-1835-001",
+        "catalog-supplement-ghost-hamlet-delacroix-1835"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-hamlet-delacroix-1835-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "CMA Open Access · CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "浪漫主义版画",
+          "count": 2
+        },
+        {
+          "name": "文学幽灵",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "城墙、披甲父王幽灵与追随动作。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-joan-of-arc-5c8b31af",
+      "name": "Joan of Arc",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/2fbc226f0e6e2a220339.webp",
+      "coverRecordId": "catalog-supplement-ghost-joan-arc-1879",
+      "yearStart": 1879,
+      "yearEnd": 1879,
+      "workIds": [
+        "work-圣女贞德与异象-77bed1c9"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "catalog-supplement-ghost-joan-arc-1879"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-joan-arc-1879-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "基督教 · 耶稣与圣像",
+          "count": 2
+        },
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "自然主义",
+          "count": 2
+        },
+        {
+          "name": "宗教异象",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "人物、花园与半透明圣者异象的层叠。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "subject-jesus-christian-iconography"
+      ]
+    },
+    {
       "id": "role-le-bal-the-costume-ball-furnishing-fabric-54a6644f",
       "name": "Le Bal (The Costume Ball) (Furnishing Fabric)",
       "type": "主体",
@@ -13135,6 +14778,72 @@
       "awarenessScore": 0,
       "sourceCount": 1,
       "relatedEntityIds": []
+    },
+    {
+      "id": "role-marguerites-ghost-de177e82",
+      "name": "Marguerite's Ghost",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/e62715d49b206a032225.webp",
+      "coverRecordId": "catalog-supplement-ghost-marguerite-delacroix-1828",
+      "yearStart": 1828,
+      "yearEnd": 1828,
+      "workIds": [
+        "work-玛格丽特的幽灵向浮士德显现-f9fe58a8"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-marguerite-delacroix-1828-001",
+        "catalog-supplement-ghost-marguerite-delacroix-1828"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-marguerite-delacroix-1828-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "AIC Open Access · CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "浪漫主义版画",
+          "count": 2
+        },
+        {
+          "name": "文学幽灵",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "文学女幽灵、床边显现与黑白浪漫主义明暗。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
     },
     {
       "id": "role-nakamura-nakazo-ii-in-the-role-of-aramaki-mimishiro-ka-93ca9fb4",
@@ -13264,6 +14973,77 @@
       "awarenessScore": 0,
       "sourceCount": 1,
       "relatedEntityIds": []
+    },
+    {
+      "id": "role-samuel-b1f6d124",
+      "name": "Samuel",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/1abe670591a3a0916430.webp",
+      "coverRecordId": "catalog-supplement-ghost-samuel-blake",
+      "yearStart": 1800,
+      "yearEnd": 1800,
+      "workIds": [
+        "work-撒母耳的幽灵向扫罗显现-54e3a978"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-samuel-blake-001",
+        "catalog-supplement-ghost-samuel-blake"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-samuel-blake-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "NGA Open Access"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "topScenes": [
+        {
+          "name": "基督教 · 耶稣与圣像",
+          "count": 2
+        },
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "浪漫主义",
+          "count": 2
+        },
+        {
+          "name": "圣经异象",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "发光先知、跪伏人物与召灵仪式的纵向构图。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "subject-jesus-christian-iconography"
+      ]
     },
     {
       "id": "role-st-elisabeth-gesticht-mauritskade-28-uitgave-n-j-boon--9aa0cdec",
@@ -13713,6 +15493,148 @@
       "awarenessScore": 0,
       "sourceCount": 1,
       "relatedEntityIds": []
+    },
+    {
+      "id": "role-yoshihiras-ghost-122808fc",
+      "name": "Yoshihira's Ghost",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/6d696056211743759a4e.webp",
+      "coverRecordId": "catalog-supplement-ghost-met-yoshihira-revenge",
+      "yearStart": 1856,
+      "yearEnd": 1856,
+      "workIds": [
+        "work-义平幽灵复仇-8f44b5f3"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "catalog-supplement-ghost-met-yoshihira-revenge"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-met-yoshihira-revenge-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "妖怪、幽灵与民间护佑神",
+          "count": 2
+        },
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "浮世绘",
+          "count": 2
+        },
+        {
+          "name": "复仇幽灵",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "瀑布、武者幽灵与横向戏剧叙事。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "role-yurei-39275740",
+      "name": "Yūrei",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/98d7778df9949b92f668.webp",
+      "coverRecordId": "catalog-supplement-ghost-oil-lamp-1810",
+      "yearStart": 1810,
+      "yearEnd": 1810,
+      "workIds": [
+        "work-幽灵与油灯-1fb37b14"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "catalog-supplement-ghost-oil-lamp-1810"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-oil-lamp-1810-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "CMA Open Access · CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "妖怪、幽灵与民间护佑神",
+          "count": 2
+        },
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "日本幽灵画",
+          "count": 2
+        },
+        {
+          "name": "水墨",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "无脚白衣幽灵、长发、油灯与大面积留白。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "subject-east-asian-ghosts"
+      ]
     }
   ],
   "works": [
@@ -16317,7 +18239,8 @@
       "entityIds": [
         "role-betty-boop-16ad409c",
         "role-bimbo-c30ed973",
-        "role-mysterious-mose-1e6192c3"
+        "role-mysterious-mose-1e6192c3",
+        "subject-ghosts-spiritualism"
       ]
     },
     {
@@ -16902,7 +18825,80 @@
       "frameCount": 6,
       "awarenessScore": 28,
       "entityIds": [
-        "role-van-beuren-human-duo-2d6c075a"
+        "role-van-beuren-human-duo-2d6c075a",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-马利的幽灵-拉克姆版-917905df",
+      "title": "马利的幽灵：拉克姆版",
+      "subtitle": "Arthur Rackham · A Christmas Carol",
+      "year": "1915",
+      "yearSort": 1915,
+      "coverImage": "images/2cbe3db3923d348e41f0.webp",
+      "coverRecordId": "catalog-supplement-ghost-rackham-marley-1915",
+      "sourceUrl": "https://archive.org/details/christmascar00dick",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "1915 插图 · 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Internet Archive 扫描；底层作品期限届满"
+      ],
+      "usage": "半透明锁链幽灵、维多利亚室内和蓝灰色调。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "拉克姆插图",
+        "文学幽灵",
+        "幽灵群像"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节",
+        "圣诞节"
+      ],
+      "characterNames": [
+        "Marley's Ghost",
+        "Chained Phantoms"
+      ],
+      "characterAliases": [
+        "Marley's Ghost",
+        "Chained Phantoms"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "catalog-supplement-ghost-rackham-marley-1915",
+        "catalog-supplement-ghost-rackham-phantoms-1915"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-rackham-marley-1915",
+        "catalog-supplement-ghost-rackham-phantoms-1915"
+      ],
+      "imageCount": 2,
+      "frameCount": 2,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-marleys-ghost-0861a74f",
+        "role-chained-phantoms-3541a6a1",
+        "subject-ghosts-spiritualism"
       ]
     },
     {
@@ -23149,6 +25145,7 @@
       "frameCount": 0,
       "awarenessScore": 0,
       "entityIds": [
+        "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
       ]
     },
@@ -23264,6 +25261,7 @@
       "frameCount": 0,
       "awarenessScore": 0,
       "entityIds": [
+        "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
       ]
     },
@@ -25146,6 +27144,69 @@
       ]
     },
     {
+      "id": "work-巫术场景-黄昏-5e91ed00",
+      "title": "巫术场景：黄昏",
+      "subtitle": "Salvator Rosa",
+      "year": "c. 1645–49",
+      "yearSort": 1645,
+      "coverImage": "images/f6f4c763ab4ff25acc56.webp",
+      "coverRecordId": "catalog-supplement-ghost-witchcraft-evening",
+      "sourceUrl": "https://www.clevelandart.org/art/1977.37.3",
+      "sourceLabel": "Cleveland Museum of Art",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA Open Access · CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CMA API 标记 CC0"
+      ],
+      "usage": "召灵者、骨骸幽灵和岩石火光的圆形聚焦。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "巴洛克版画",
+        "巫术场景"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "召唤幽灵"
+      ],
+      "characterAliases": [
+        "召唤幽灵"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-witchcraft-evening-001",
+        "catalog-supplement-ghost-witchcraft-evening"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-witchcraft-evening-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-witchcraft-evening"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-召唤幽灵-e623ac10",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
       "id": "work-bodhisattva-of-compassion-avalokiteshvara-0a548cb4",
       "title": "Bodhisattva of Compassion (Avalokiteshvara)",
       "subtitle": "Choying Dorje, the Tenth Black Hat Karmapa (Tibetan, 1604–1674) · 1647–48 or 1658 · ivory",
@@ -25538,6 +27599,71 @@
       "awarenessScore": 0,
       "entityIds": [
         "subject-hindu-epics"
+      ]
+    },
+    {
+      "id": "work-钟馗-35122b8b",
+      "title": "钟馗",
+      "subtitle": "Okumura Masanobu",
+      "year": "18th century",
+      "yearSort": 1700,
+      "coverImage": "images/5bb484a8f94c002de590.webp",
+      "coverRecordId": "catalog-supplement-ghost-met-zhong-kui",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/56722",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met API 标记 isPublicDomain=true"
+      ],
+      "usage": "长须、官帽、长剑和窄幅站姿。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "浮世绘",
+        "柱绘"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "妖怪、幽灵与民间护佑神"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "钟馗"
+      ],
+      "characterAliases": [
+        "钟馗"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "catalog-supplement-ghost-met-zhong-kui"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-met-zhong-kui-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-met-zhong-kui"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-钟馗-2d4bb89f",
+        "subject-ghosts-spiritualism",
+        "subject-east-asian-ghosts"
       ]
     },
     {
@@ -25934,6 +28060,7 @@
       "frameCount": 0,
       "awarenessScore": 0,
       "entityIds": [
+        "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
       ]
     },
@@ -26222,6 +28349,136 @@
       ]
     },
     {
+      "id": "work-鬼怪素描-abaf8ede",
+      "title": "鬼怪素描",
+      "subtitle": "Kawanabe Kyōsai",
+      "year": "late 19th century",
+      "yearSort": 1800,
+      "coverImage": "images/a655205ddfe8bf0c757c.webp",
+      "coverRecordId": "catalog-supplement-ghost-met-demon-drawings",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/57231",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met API 标记 isPublicDomain=true"
+      ],
+      "usage": "多种鬼怪轮廓、动作速写与角色表情库。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "日本素描",
+        "鬼怪角色表"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "妖怪、幽灵与民间护佑神"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "Demons"
+      ],
+      "characterAliases": [
+        "Demons"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "catalog-supplement-ghost-met-demon-drawings"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-met-demon-drawings-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-met-demon-drawings"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-demons-bd2a88c5",
+        "subject-ghosts-spiritualism",
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-撒母耳的幽灵向扫罗显现-54e3a978",
+      "title": "撒母耳的幽灵向扫罗显现",
+      "subtitle": "William Blake",
+      "year": "ca. 1800",
+      "yearSort": 1800,
+      "coverImage": "images/1abe670591a3a0916430.webp",
+      "coverRecordId": "catalog-supplement-ghost-samuel-blake",
+      "sourceUrl": "https://www.nga.gov/artworks/11498-ghost-samuel-appearing-saul",
+      "sourceLabel": "National Gallery of Art",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "NGA Open Access"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "NGA 开放馆藏；底层作品期限届满"
+      ],
+      "usage": "发光先知、跪伏人物与召灵仪式的纵向构图。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "浪漫主义",
+        "圣经异象"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "基督教 · 耶稣与圣像"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "Samuel"
+      ],
+      "characterAliases": [
+        "Samuel"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-samuel-blake-001",
+        "catalog-supplement-ghost-samuel-blake"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-samuel-blake-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-samuel-blake"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-samuel-b1f6d124",
+        "subject-jesus-christian-iconography",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
       "id": "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
       "title": "Case (Inrō) with Design of Old Man and Woman (Jo and Uba) and Pine Trees (from Noh Play \"Takasago Spirits of the Pine\")",
       "subtitle": "Minsetsusai Kyuho · 19th century · Ceramic and mother-of-pearl inlays and gold maki-e on black lacquer Ojime: porcelain with overglaze enamel design of maple leaves Netsuke: porcelain with overglaze enamel design of maple leaves imitating Kenzan design",
@@ -26276,6 +28533,7 @@
       "frameCount": 0,
       "awarenessScore": 0,
       "entityIds": [
+        "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
       ]
     },
@@ -26394,6 +28652,71 @@
       ]
     },
     {
+      "id": "work-幽灵与油灯-1fb37b14",
+      "title": "幽灵与油灯",
+      "subtitle": "Tani Bun'ichi",
+      "year": "1810",
+      "yearSort": 1810,
+      "coverImage": "images/98d7778df9949b92f668.webp",
+      "coverRecordId": "catalog-supplement-ghost-oil-lamp-1810",
+      "sourceUrl": "https://www.clevelandart.org/art/1992.71",
+      "sourceLabel": "Cleveland Museum of Art",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA Open Access · CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CMA API 标记 CC0"
+      ],
+      "usage": "无脚白衣幽灵、长发、油灯与大面积留白。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "日本幽灵画",
+        "水墨"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "妖怪、幽灵与民间护佑神"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "Yūrei"
+      ],
+      "characterAliases": [
+        "Yūrei"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "catalog-supplement-ghost-oil-lamp-1810"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-oil-lamp-1810-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-oil-lamp-1810"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-yurei-39275740",
+        "subject-ghosts-spiritualism",
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
       "id": "work-twelfth-night-characters-ee156f21",
       "title": "Twelfth Night Characters",
       "subtitle": "1811 · The Metropolitan Museum of Art",
@@ -26448,6 +28771,70 @@
       "awarenessScore": 0,
       "entityIds": [
         "role-twelfth-night-characters-8053fb6b"
+      ]
+    },
+    {
+      "id": "work-幽灵-一场圣诞恶作剧-d2a5c039",
+      "title": "幽灵：一场圣诞恶作剧",
+      "subtitle": "The Ghost — A Christmas Frolic",
+      "year": "1814",
+      "yearSort": 1814,
+      "coverImage": "images/2e583b2aae5a2e17ef41.webp",
+      "coverRecordId": "catalog-supplement-ghost-christmas-frolic-1814",
+      "sourceUrl": "https://www.loc.gov/item/2005676988/",
+      "sourceLabel": "Library of Congress",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "1814 版画 · LOC No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "LOC 说明该馆藏许多作品为公版或无已知限制"
+      ],
+      "usage": "烛台、白布幽灵、楼梯追逐和室内混乱群像。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "讽刺版画",
+        "白布幽灵"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节",
+        "圣诞节"
+      ],
+      "characterNames": [
+        "白布幽灵"
+      ],
+      "characterAliases": [
+        "白布幽灵"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "catalog-supplement-ghost-christmas-frolic-1814"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-christmas-frolic-1814-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-christmas-frolic-1814"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-白布幽灵-0f2aa01a",
+        "subject-ghosts-spiritualism"
       ]
     },
     {
@@ -26563,6 +28950,69 @@
       ]
     },
     {
+      "id": "work-玛格丽特的幽灵向浮士德显现-f9fe58a8",
+      "title": "玛格丽特的幽灵向浮士德显现",
+      "subtitle": "Eugène Delacroix · Faust",
+      "year": "1828",
+      "yearSort": 1828,
+      "coverImage": "images/e62715d49b206a032225.webp",
+      "coverRecordId": "catalog-supplement-ghost-marguerite-delacroix-1828",
+      "sourceUrl": "https://www.artic.edu/artworks/84499",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC Open Access · CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "AIC API 标记 is_public_domain=true"
+      ],
+      "usage": "文学女幽灵、床边显现与黑白浪漫主义明暗。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "浪漫主义版画",
+        "文学幽灵"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "Marguerite's Ghost"
+      ],
+      "characterAliases": [
+        "Marguerite's Ghost"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-marguerite-delacroix-1828-001",
+        "catalog-supplement-ghost-marguerite-delacroix-1828"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-marguerite-delacroix-1828-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-marguerite-delacroix-1828"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-marguerites-ghost-de177e82",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
       "id": "work-faust-and-mephistopheles-galloping-through-the-night-o-b7418299",
       "title": "Faust and Mephistopheles Galloping Through the Night of the Witches' Sabbath",
       "subtitle": "Eugène Delacroix French, 1798-1863 · 1828 · Lithograph in black on ivory wove paper",
@@ -26675,6 +29125,133 @@
       ]
     },
     {
+      "id": "work-哈姆雷特追随父亲幽灵-c3f90678",
+      "title": "哈姆雷特追随父亲幽灵",
+      "subtitle": "Eugène Delacroix",
+      "year": "1835",
+      "yearSort": 1835,
+      "coverImage": "images/b0682d9f749b37aa3a34.webp",
+      "coverRecordId": "catalog-supplement-ghost-hamlet-delacroix-1835",
+      "sourceUrl": "https://www.clevelandart.org/art/1941.215.2",
+      "sourceLabel": "Cleveland Museum of Art",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA Open Access · CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CMA API 标记 CC0"
+      ],
+      "usage": "城墙、披甲父王幽灵与追随动作。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "浪漫主义版画",
+        "文学幽灵"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "Hamlet's Father"
+      ],
+      "characterAliases": [
+        "Hamlet's Father"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-hamlet-delacroix-1835-001",
+        "catalog-supplement-ghost-hamlet-delacroix-1835"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-hamlet-delacroix-1835-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-hamlet-delacroix-1835"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-hamlets-father-5a4cc5d1",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-马利的幽灵-436b638e",
+      "title": "马利的幽灵",
+      "subtitle": "John Leech · A Christmas Carol",
+      "year": "1843",
+      "yearSort": 1843,
+      "coverImage": "images/f60b8e89dc9b6017eb46.webp",
+      "coverRecordId": "catalog-supplement-ghost-marley-leech-1843",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marley%27s_Ghost-John_Leech,_1843.jpg",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "1843 初版插图 · 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Commons 标记公版；底层作品期限届满"
+      ],
+      "usage": "锁链、账簿、睡帽与室内烛光；同时连接万圣节和圣诞节。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "维多利亚插图",
+        "手工上色"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节",
+        "圣诞节"
+      ],
+      "characterNames": [
+        "Marley's Ghost"
+      ],
+      "characterAliases": [
+        "Marley's Ghost"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "catalog-supplement-ghost-marley-leech-1843"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-marley-leech-1843-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-marley-leech-1843"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-marleys-ghost-0861a74f",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
       "id": "work-ghosts-of-the-taira-at-daimotsu-bay-4e6f02fe",
       "title": "Ghosts of the Taira at Daimotsu Bay",
       "subtitle": "Utagawa Kuniyoshi · 1843–47 · Triptych of woodblock-printed books (nishiki-e); ink and color on paper",
@@ -26729,6 +29306,7 @@
       "frameCount": 0,
       "awarenessScore": 0,
       "entityIds": [
+        "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
       ]
     },
@@ -26787,6 +29365,7 @@
       "frameCount": 0,
       "awarenessScore": 0,
       "entityIds": [
+        "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
       ]
     },
@@ -26845,6 +29424,7 @@
       "frameCount": 0,
       "awarenessScore": 0,
       "entityIds": [
+        "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
       ]
     },
@@ -26903,6 +29483,7 @@
       "frameCount": 0,
       "awarenessScore": 0,
       "entityIds": [
+        "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
       ]
     },
@@ -26961,6 +29542,72 @@
       "frameCount": 0,
       "awarenessScore": 0,
       "entityIds": [
+        "subject-ghosts-spiritualism",
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-冈崎猫妖怪谈-bd4f4df0",
+      "title": "冈崎猫妖怪谈",
+      "subtitle": "Utagawa Kuniyoshi",
+      "year": "ca. 1850",
+      "yearSort": 1850,
+      "coverImage": "images/ad91b335afe6091f519f.webp",
+      "coverRecordId": "catalog-supplement-ghost-met-cat-demon",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/45282",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met API 标记 isPublicDomain=true"
+      ],
+      "usage": "巨猫面孔、室内夜戏与被压缩的人物空间。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "浮世绘",
+        "妖猫怪谈"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "妖怪、幽灵与民间护佑神"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "Cat Demon"
+      ],
+      "characterAliases": [
+        "Cat Demon"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-met-cat-demon-001",
+        "catalog-supplement-ghost-met-cat-demon"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-met-cat-demon-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-met-cat-demon"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-cat-demon-1b812fa1",
+        "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
       ]
     },
@@ -27072,6 +29719,134 @@
       "awarenessScore": 0,
       "entityIds": [
         "subject-daoist-immortals"
+      ]
+    },
+    {
+      "id": "work-立体镜中的幽灵-f0be4d30",
+      "title": "立体镜中的幽灵",
+      "subtitle": "The Ghost in the Stereoscope",
+      "year": "ca. 1856",
+      "yearSort": 1856,
+      "coverImage": "images/b02e71f61eb593b2f401.webp",
+      "coverRecordId": "catalog-supplement-ghost-stereoscope-1856",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/302466",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met 标记 Public Domain，可按开放政策商用"
+      ],
+      "usage": "双联立体照、餐桌旁白布幽灵、人物惊吓关系。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "维多利亚摄影",
+        "手工上色"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "白布幽灵"
+      ],
+      "characterAliases": [
+        "白布幽灵"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "catalog-supplement-ghost-stereoscope-1856"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-stereoscope-1856-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-stereoscope-1856"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-白布幽灵-0f2aa01a",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-义平幽灵复仇-8f44b5f3",
+      "title": "义平幽灵复仇",
+      "subtitle": "Utagawa Yoshifusa",
+      "year": "1856",
+      "yearSort": 1856,
+      "coverImage": "images/6d696056211743759a4e.webp",
+      "coverRecordId": "catalog-supplement-ghost-met-yoshihira-revenge",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/63378",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met API 标记 isPublicDomain=true"
+      ],
+      "usage": "瀑布、武者幽灵与横向戏剧叙事。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "浮世绘",
+        "复仇幽灵"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "妖怪、幽灵与民间护佑神"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "Yoshihira's Ghost"
+      ],
+      "characterAliases": [
+        "Yoshihira's Ghost"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "catalog-supplement-ghost-met-yoshihira-revenge"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-met-yoshihira-revenge-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-met-yoshihira-revenge"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-yoshihiras-ghost-122808fc",
+        "subject-ghosts-spiritualism",
+        "subject-east-asian-ghosts"
       ]
     },
     {
@@ -27187,7 +29962,136 @@
       "frameCount": 0,
       "awarenessScore": 0,
       "entityIds": [
+        "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-鲤旗与钟馗旗-dd97e27f",
+      "title": "鲤旗与钟馗旗",
+      "subtitle": "Kawanabe Kyōsai",
+      "year": "before 1870",
+      "yearSort": 1870,
+      "coverImage": "images/28ee8b546c78d663f990.webp",
+      "coverRecordId": "catalog-supplement-ghost-met-shoki-banner",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/754547",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met API 标记 isPublicDomain=true"
+      ],
+      "usage": "节庆旗幡、护佑钟馗与鲤鱼的垂直组合。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "日本节庆画",
+        "旗幡"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "妖怪、幽灵与民间护佑神"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "钟馗"
+      ],
+      "characterAliases": [
+        "钟馗"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-met-shoki-banner-001",
+        "catalog-supplement-ghost-met-shoki-banner"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-met-shoki-banner-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-met-shoki-banner"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-钟馗-2d4bb89f",
+        "subject-ghosts-spiritualism",
+        "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-布盖通灵摄影-296427a4",
+      "title": "布盖通灵摄影",
+      "subtitle": "Édouard Isidore Buguet",
+      "year": "1874",
+      "yearSort": 1874,
+      "coverImage": "images/a73fbc6adeac0cde3c4b.webp",
+      "coverRecordId": "catalog-supplement-ghost-buguet-1874",
+      "sourceUrl": "https://archive.org/details/edward-isidore-buguet-spiritualist-photograph-albumin-print-1874",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "1874 摄影 · 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "来源标记 Public Domain；底层摄影期限届满"
+      ],
+      "usage": "坐姿人物上方覆盖半透明披布灵体；可研究伪通灵摄影语法。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "通灵摄影",
+        "双重曝光"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "披布灵体"
+      ],
+      "characterAliases": [
+        "披布灵体"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-buguet-1874-001",
+        "catalog-supplement-ghost-buguet-1874"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-buguet-1874-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-buguet-1874"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-披布灵体-f8637771",
+        "subject-ghosts-spiritualism"
       ]
     },
     {
@@ -27305,6 +30209,71 @@
       ]
     },
     {
+      "id": "work-圣女贞德与异象-77bed1c9",
+      "title": "圣女贞德与异象",
+      "subtitle": "Jules Bastien-Lepage",
+      "year": "1879",
+      "yearSort": 1879,
+      "coverImage": "images/2fbc226f0e6e2a220339.webp",
+      "coverRecordId": "catalog-supplement-ghost-joan-arc-1879",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435621",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met API 标记 isPublicDomain=true"
+      ],
+      "usage": "人物、花园与半透明圣者异象的层叠。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "styles": [
+        "自然主义",
+        "宗教异象"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "基督教 · 耶稣与圣像"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "Joan of Arc"
+      ],
+      "characterAliases": [
+        "Joan of Arc"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "catalog-supplement-ghost-joan-arc-1879"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-joan-arc-1879-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-joan-arc-1879"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-joan-of-arc-5c8b31af",
+        "subject-jesus-christian-iconography",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
       "id": "work-cauldron-of-the-sorceress-9359f6c4",
       "title": "Cauldron of the Sorceress",
       "subtitle": "Odilon Redon French, 1840-1916 · 1879 · Various charcoals, with stumping, erasing, and incising, on pale-pink wove paper with red and blue fibers altered to a golden tone",
@@ -27414,6 +30383,258 @@
       "awarenessScore": 0,
       "entityIds": [
         "role-portrait-after-a-costume-ball-portrait-of-madame-dietz-8efe8ed4"
+      ]
+    },
+    {
+      "id": "work-孤儿在母亲墓前-23a2d5dc",
+      "title": "孤儿在母亲墓前",
+      "subtitle": "The Orphans at Their Mother's Grave",
+      "year": "1889",
+      "yearSort": 1889,
+      "coverImage": "images/10abdbb3daef337faa27.webp",
+      "coverRecordId": "catalog-supplement-ghost-orphans-grave-1889",
+      "sourceUrl": "https://www.loc.gov/item/2004668383/",
+      "sourceLabel": "Library of Congress",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "LOC · No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "LOC 权利栏：No known restrictions on publication"
+      ],
+      "usage": "墓碑、儿童与半透明母亲灵体的三层叙事。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "通灵摄影",
+        "立体照片"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "母亲幽灵"
+      ],
+      "characterAliases": [
+        "母亲幽灵"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-orphans-grave-1889-001",
+        "catalog-supplement-ghost-orphans-grave-1889"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-orphans-grave-1889-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-orphans-grave-1889"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-母亲幽灵-79c3028b",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-闹鬼的小路-1ee678e8",
+      "title": "闹鬼的小路",
+      "subtitle": "The Haunted Lane",
+      "year": "1889",
+      "yearSort": 1889,
+      "coverImage": "images/e8e684c2cac3f58470db.webp",
+      "coverRecordId": "catalog-supplement-ghost-haunted-lane-1889",
+      "sourceUrl": "https://www.loc.gov/item/2006686826/",
+      "sourceLabel": "Library of Congress",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "LOC · No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "LOC 权利栏：No known restrictions on publication"
+      ],
+      "usage": "树林小路、白衣灵体与立体摄影的深景。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "通灵摄影",
+        "鬼路场景"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "白衣幽灵"
+      ],
+      "characterAliases": [
+        "白衣幽灵"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-haunted-lane-1889-001",
+        "catalog-supplement-ghost-haunted-lane-1889"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-haunted-lane-1889-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-haunted-lane-1889"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-白衣幽灵-4f1bdbdf",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-玫瑰魔术师与超自然生物-36d50d1c",
+      "title": "玫瑰魔术师与超自然生物",
+      "subtitle": "Calvert Lithograph",
+      "year": "1892",
+      "yearSort": 1892,
+      "coverImage": "images/8100ae6af22e3d3c4ad5.webp",
+      "coverRecordId": "catalog-supplement-ghost-magician-roses-1892",
+      "sourceUrl": "https://www.loc.gov/item/2014636963/",
+      "sourceLabel": "Library of Congress",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "LOC · No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "LOC 权利栏：No known restrictions on publication"
+      ],
+      "usage": "舞台魔术师、花束与环绕灵体的彩色海报构图。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "魔术海报",
+        "彩色石版"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "舞台灵体"
+      ],
+      "characterAliases": [
+        "舞台灵体"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "catalog-supplement-ghost-magician-roses-1892"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-magician-roses-1892-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-magician-roses-1892"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-舞台灵体-b5c936dc",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-休息的幽灵演奏者-6db9d5b8",
+      "title": "休息的幽灵演奏者",
+      "subtitle": "Phantom Player Resting",
+      "year": "1893",
+      "yearSort": 1893,
+      "coverImage": "images/39bfe52fef0ded6cd70d.webp",
+      "coverRecordId": "catalog-supplement-ghost-underwood-1893",
+      "sourceUrl": "https://archive.org/details/stereoview-no.-1634-phantom-player-resting-littleton-underwood-and-underwood-1893",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "1893 摄影 · 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "来源标记 Public Domain；底层摄影期限届满"
+      ],
+      "usage": "客厅、乐器与半透明人物的横向立体照。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "通灵摄影",
+        "立体照片"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "幽灵演奏者"
+      ],
+      "characterAliases": [
+        "幽灵演奏者"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-underwood-1893-001",
+        "catalog-supplement-ghost-underwood-1893"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-underwood-1893-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-underwood-1893"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-幽灵演奏者-0941d377",
+        "subject-ghosts-spiritualism"
       ]
     },
     {
@@ -27581,6 +30802,69 @@
       "awarenessScore": 0,
       "entityIds": [
         "role-carnival-2511d543"
+      ]
+    },
+    {
+      "id": "work-巫术-2cb43daf",
+      "title": "巫术",
+      "subtitle": "Henri Fantin-Latour",
+      "year": "1899",
+      "yearSort": 1899,
+      "coverImage": "images/2f1e5dc6774fb3805387.webp",
+      "coverRecordId": "catalog-supplement-ghost-witchcraft-fantin-1899",
+      "sourceUrl": "https://www.clevelandart.org/art/1921.68",
+      "sourceLabel": "Cleveland Museum of Art",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "CMA Open Access · CC0"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "CMA API 标记 CC0"
+      ],
+      "usage": "雾化召灵、漂浮人物和低对比灰阶气氛。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "象征主义",
+        "石版画"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "召灵幻象"
+      ],
+      "characterAliases": [
+        "召灵幻象"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-witchcraft-fantin-1899-001",
+        "catalog-supplement-ghost-witchcraft-fantin-1899"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-witchcraft-fantin-1899-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-witchcraft-fantin-1899"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-召灵幻象-a015fd9d",
+        "subject-ghosts-spiritualism"
       ]
     },
     {
@@ -27873,6 +31157,69 @@
       ]
     },
     {
+      "id": "work-通灵会灵体合成照-3c8907c2",
+      "title": "通灵会灵体合成照",
+      "subtitle": "Hallowell / Fallis Spirit Composite",
+      "year": "1901",
+      "yearSort": 1901,
+      "coverImage": "images/a2fe88e2addea68116f8.webp",
+      "coverRecordId": "catalog-supplement-ghost-hallowell-composite-1901",
+      "sourceUrl": "https://www.loc.gov/item/91732576/",
+      "sourceLabel": "Library of Congress",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "LOC · No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "LOC 权利栏：No known restrictions on publication"
+      ],
+      "usage": "女性肖像、环绕灵体面孔、通灵会合成结构。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "通灵摄影",
+        "双重曝光"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "通灵灵体"
+      ],
+      "characterAliases": [
+        "通灵灵体"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-hallowell-composite-1901-001",
+        "catalog-supplement-ghost-hallowell-composite-1901"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-hallowell-composite-1901-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-hallowell-composite-1901"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-通灵灵体-17f504c0",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
       "id": "work-mikulas-a-krampus-1901-7ccade60",
       "title": "Mikuláš a Krampus 1901",
       "subtitle": "作者/文化待复核 · 1901 · 历史图像 / 明信片",
@@ -27991,6 +31338,69 @@
       ]
     },
     {
+      "id": "work-闹鬼的汽车-e6442b01",
+      "title": "闹鬼的汽车",
+      "subtitle": "Bryant Baker · Puck",
+      "year": "1910",
+      "yearSort": 1910,
+      "coverImage": "images/0a1b0d4157493f6d1c9c.webp",
+      "coverRecordId": "catalog-supplement-ghost-haunted-auto-1910",
+      "sourceUrl": "https://www.loc.gov/item/2011647576/",
+      "sourceLabel": "Library of Congress",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "LOC · No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "LOC 权利栏：No known restrictions on publication"
+      ],
+      "usage": "透明动物幽灵围绕汽车；早期漫画式动态群像。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "讽刺杂志封面",
+        "动物幽灵"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "动物幽灵群"
+      ],
+      "characterAliases": [
+        "动物幽灵群"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-haunted-auto-1910-001",
+        "catalog-supplement-ghost-haunted-auto-1910"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-haunted-auto-1910-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-haunted-auto-1910"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-动物幽灵群-856dd4d2",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
       "id": "work-mari-lwyd-nlw-13c25c96",
       "title": "Mari Lwyd NLW",
       "subtitle": "作者/文化待复核 · between circa 1910 and circa 1914 date QSP,+1910-00-00T000000Z8,P1319,+1910-00-00T000000Z9,P1326,+1914-00-00T000000Z9,P1480,Q5727902 · 历史图像 / 明信片",
@@ -28106,6 +31516,132 @@
       "awarenessScore": 0,
       "entityIds": [
         "subject-winter-folk-figures"
+      ]
+    },
+    {
+      "id": "work-newmann-的灵体奇术-576434db",
+      "title": "Newmann 的灵体奇术",
+      "subtitle": "Wonderful Spirit Mysteries",
+      "year": "1911",
+      "yearSort": 1911,
+      "coverImage": "images/4e8b6138d1b017739055.webp",
+      "coverRecordId": "catalog-supplement-ghost-newmann-1911",
+      "sourceUrl": "https://www.loc.gov/item/2014636926/",
+      "sourceLabel": "Library of Congress",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "LOC · No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "LOC 权利栏：No known restrictions on publication"
+      ],
+      "usage": "女性灵体、舞台拱门和高对比红黑海报。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "魔术海报",
+        "通灵舞台"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "舞台灵体"
+      ],
+      "characterAliases": [
+        "舞台灵体"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-newmann-1911-001",
+        "catalog-supplement-ghost-newmann-1911"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-newmann-1911-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-newmann-1911"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-舞台灵体-b5c936dc",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-灵魂会回来吗-ba38546d",
+      "title": "灵魂会回来吗？",
+      "subtitle": "Thurston the Great Magician",
+      "year": "1915",
+      "yearSort": 1915,
+      "coverImage": "images/095eae31b430d7872fbb.webp",
+      "coverRecordId": "catalog-supplement-ghost-thurston-1915",
+      "sourceUrl": "https://www.loc.gov/item/2014636948/",
+      "sourceLabel": "Library of Congress",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "LOC · No known restrictions"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "LOC 权利栏：No known restrictions on publication"
+      ],
+      "usage": "巨大标题、漂浮头部、红黑蓝舞台魔术色盘。",
+      "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "魔术海报",
+        "戏剧排版"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "舞台灵体"
+      ],
+      "characterAliases": [
+        "舞台灵体"
+      ],
+      "recordIds": [
+        "frame-supplement-ghost-thurston-1915-001",
+        "catalog-supplement-ghost-thurston-1915"
+      ],
+      "frameIds": [
+        "frame-supplement-ghost-thurston-1915-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-ghost-thurston-1915"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-舞台灵体-b5c936dc",
+        "subject-ghosts-spiritualism"
       ]
     },
     {
@@ -28604,6 +32140,7 @@
         "role-barnacle-bill-f9fea540",
         "role-accordion-joe-64041640",
         "role-mysterious-mose-1e6192c3",
+        "subject-ghosts-spiritualism",
         "role-mickey-mouse-ac752a50",
         "role-农场动物乐队-f8e4cfc2",
         "role-minnie-mouse-b07065a5",
@@ -29201,6 +32738,7 @@
         "role-betty-boop-16ad409c",
         "role-bimbo-c30ed973",
         "role-mysterious-mose-1e6192c3",
+        "subject-ghosts-spiritualism",
         "role-mickey-mouse-ac752a50",
         "role-rover-pluto-8d61d09f",
         "role-minnie-mouse-b07065a5",
@@ -29981,6 +33519,7 @@
         "role-betty-boop-16ad409c",
         "role-bimbo-c30ed973",
         "role-mysterious-mose-1e6192c3",
+        "subject-ghosts-spiritualism",
         "role-森林生物-ad5b625b",
         "role-夜行动物-1bfa79de"
       ],
@@ -30025,6 +33564,135 @@
         "动物 / 自然"
       ],
       "yearStart": 1930
+    },
+    {
+      "id": "scene-幽灵-鬼屋与通灵-862f5410",
+      "name": "幽灵、鬼屋与通灵",
+      "type": "场景",
+      "coverImages": [
+        "images/b02e71f61eb593b2f401.webp",
+        "images/10abdbb3daef337faa27.webp",
+        "images/a2fe88e2addea68116f8.webp",
+        "images/f60b8e89dc9b6017eb46.webp"
+      ],
+      "workIds": [
+        "work-立体镜中的幽灵-f0be4d30",
+        "work-孤儿在母亲墓前-23a2d5dc",
+        "work-通灵会灵体合成照-3c8907c2",
+        "work-马利的幽灵-436b638e",
+        "work-撒母耳的幽灵向扫罗显现-54e3a978",
+        "work-玛格丽特的幽灵向浮士德显现-f9fe58a8",
+        "work-巫术-2cb43daf",
+        "work-玫瑰魔术师与超自然生物-36d50d1c",
+        "work-灵魂会回来吗-ba38546d",
+        "work-圣女贞德与异象-77bed1c9",
+        "work-巫术场景-黄昏-5e91ed00",
+        "work-幽灵-一场圣诞恶作剧-d2a5c039",
+        "work-马利的幽灵-拉克姆版-917905df",
+        "work-布盖通灵摄影-296427a4",
+        "work-休息的幽灵演奏者-6db9d5b8",
+        "work-幽灵与油灯-1fb37b14",
+        "work-闹鬼的汽车-e6442b01",
+        "work-newmann-的灵体奇术-576434db",
+        "work-闹鬼的小路-1ee678e8",
+        "work-哈姆雷特追随父亲幽灵-c3f90678",
+        "work-冈崎猫妖怪谈-bd4f4df0",
+        "work-钟馗-35122b8b",
+        "work-鬼怪素描-abaf8ede",
+        "work-义平幽灵复仇-8f44b5f3",
+        "work-鲤旗与钟馗旗-dd97e27f"
+      ],
+      "entityIds": [
+        "role-白布幽灵-0f2aa01a",
+        "subject-ghosts-spiritualism",
+        "role-母亲幽灵-79c3028b",
+        "role-通灵灵体-17f504c0",
+        "role-marleys-ghost-0861a74f",
+        "role-samuel-b1f6d124",
+        "subject-jesus-christian-iconography",
+        "role-marguerites-ghost-de177e82",
+        "role-召灵幻象-a015fd9d",
+        "role-舞台灵体-b5c936dc",
+        "role-joan-of-arc-5c8b31af",
+        "role-召唤幽灵-e623ac10",
+        "role-chained-phantoms-3541a6a1",
+        "role-披布灵体-f8637771",
+        "role-幽灵演奏者-0941d377",
+        "role-yurei-39275740",
+        "subject-east-asian-ghosts",
+        "role-动物幽灵群-856dd4d2",
+        "role-白衣幽灵-4f1bdbdf",
+        "role-hamlets-father-5a4cc5d1",
+        "role-cat-demon-1b812fa1",
+        "role-钟馗-2d4bb89f",
+        "role-demons-bd2a88c5",
+        "role-yoshihiras-ghost-122808fc"
+      ],
+      "recordIds": [
+        "catalog-supplement-ghost-stereoscope-1856",
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "catalog-supplement-ghost-orphans-grave-1889",
+        "frame-supplement-ghost-orphans-grave-1889-001",
+        "catalog-supplement-ghost-hallowell-composite-1901",
+        "frame-supplement-ghost-hallowell-composite-1901-001",
+        "catalog-supplement-ghost-marley-leech-1843",
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "catalog-supplement-ghost-samuel-blake",
+        "frame-supplement-ghost-samuel-blake-001",
+        "catalog-supplement-ghost-marguerite-delacroix-1828",
+        "frame-supplement-ghost-marguerite-delacroix-1828-001",
+        "catalog-supplement-ghost-witchcraft-fantin-1899",
+        "frame-supplement-ghost-witchcraft-fantin-1899-001",
+        "catalog-supplement-ghost-magician-roses-1892",
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "catalog-supplement-ghost-thurston-1915",
+        "frame-supplement-ghost-thurston-1915-001",
+        "catalog-supplement-ghost-joan-arc-1879",
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "catalog-supplement-ghost-witchcraft-evening",
+        "frame-supplement-ghost-witchcraft-evening-001",
+        "catalog-supplement-ghost-christmas-frolic-1814",
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "catalog-supplement-ghost-rackham-marley-1915",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "catalog-supplement-ghost-rackham-phantoms-1915",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "catalog-supplement-ghost-buguet-1874",
+        "frame-supplement-ghost-buguet-1874-001",
+        "catalog-supplement-ghost-underwood-1893",
+        "frame-supplement-ghost-underwood-1893-001",
+        "catalog-supplement-ghost-oil-lamp-1810",
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "catalog-supplement-ghost-haunted-auto-1910",
+        "frame-supplement-ghost-haunted-auto-1910-001",
+        "catalog-supplement-ghost-newmann-1911",
+        "frame-supplement-ghost-newmann-1911-001",
+        "catalog-supplement-ghost-haunted-lane-1889",
+        "frame-supplement-ghost-haunted-lane-1889-001",
+        "catalog-supplement-ghost-hamlet-delacroix-1835",
+        "frame-supplement-ghost-hamlet-delacroix-1835-001",
+        "catalog-supplement-ghost-met-cat-demon",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "catalog-supplement-ghost-met-zhong-kui",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "catalog-supplement-ghost-met-demon-drawings",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "catalog-supplement-ghost-met-yoshihira-revenge",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "catalog-supplement-ghost-met-shoki-banner",
+        "frame-supplement-ghost-met-shoki-banner-001"
+      ],
+      "workCount": 25,
+      "imageCount": 26,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 25
+      },
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "yearStart": 1645
     },
     {
       "id": "scene-城堡-f6f854a2",
@@ -30305,6 +33973,7 @@
       ],
       "entityIds": [
         "subject-daoist-immortals",
+        "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
       ],
       "recordIds": [
@@ -30516,6 +34185,79 @@
         "动物 / 自然"
       ],
       "yearStart": 1930
+    },
+    {
+      "id": "scene-妖怪-幽灵与民间护佑神-7edf5361",
+      "name": "妖怪、幽灵与民间护佑神",
+      "type": "场景",
+      "coverImages": [
+        "images/98d7778df9949b92f668.webp",
+        "images/ad91b335afe6091f519f.webp",
+        "images/5bb484a8f94c002de590.webp",
+        "images/a655205ddfe8bf0c757c.webp"
+      ],
+      "workIds": [
+        "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
+        "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
+        "work-zhong-kui-supported-by-ghosts-8f0c0fce",
+        "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
+        "work-ghosts-of-the-taira-at-daimotsu-bay-4e6f02fe",
+        "work-a-boat-cast-adrift-ukifune-omatsu-and-akabori-mizuemon-0e3ed557",
+        "work-a-molted-cicada-shell-utsusemi-soga-goro-tokimune-from-9e43ce93",
+        "work-exile-to-suma-suma-tamaori-hime-from-the-series-scenes-606f10d3",
+        "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
+        "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35",
+        "work-幽灵与油灯-1fb37b14",
+        "work-冈崎猫妖怪谈-bd4f4df0",
+        "work-钟馗-35122b8b",
+        "work-鬼怪素描-abaf8ede",
+        "work-义平幽灵复仇-8f44b5f3",
+        "work-鲤旗与钟馗旗-dd97e27f"
+      ],
+      "entityIds": [
+        "subject-ghosts-spiritualism",
+        "subject-east-asian-ghosts",
+        "role-yurei-39275740",
+        "role-cat-demon-1b812fa1",
+        "role-钟馗-2d4bb89f",
+        "role-demons-bd2a88c5",
+        "role-yoshihiras-ghost-122808fc"
+      ],
+      "recordIds": [
+        "catalog-belief-cma-163115",
+        "catalog-belief-cma-136668",
+        "catalog-belief-cma-135655",
+        "catalog-belief-met-58892",
+        "catalog-belief-met-55743",
+        "catalog-belief-met-789147",
+        "catalog-belief-met-789145",
+        "catalog-belief-met-789148",
+        "catalog-belief-met-789144",
+        "catalog-belief-met-76582",
+        "catalog-supplement-ghost-oil-lamp-1810",
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "catalog-supplement-ghost-met-cat-demon",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "catalog-supplement-ghost-met-zhong-kui",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "catalog-supplement-ghost-met-demon-drawings",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "catalog-supplement-ghost-met-yoshihira-revenge",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "catalog-supplement-ghost-met-shoki-banner",
+        "frame-supplement-ghost-met-shoki-banner-001"
+      ],
+      "workCount": 16,
+      "imageCount": 16,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 16
+      },
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话"
+      ],
+      "yearStart": 1200
     },
     {
       "id": "scene-营地-ce11603d",
@@ -31672,6 +35414,67 @@
       "yearStart": 1938
     },
     {
+      "id": "scene-基督教-耶稣与圣像-95a1d11d",
+      "name": "基督教 · 耶稣与圣像",
+      "type": "场景",
+      "coverImages": [
+        "images/1abe670591a3a0916430.webp",
+        "images/2fbc226f0e6e2a220339.webp",
+        "images/9b951c28c1d420207f22.webp",
+        "images/07973ce52c447097b18a.webp"
+      ],
+      "workIds": [
+        "work-pendant-triptych-with-an-onyx-cameo-of-the-nativity-84be0098",
+        "work-bifolio-from-an-antiphonary-historiated-initial-o-with-67a1ff25",
+        "work-triptych-with-the-adoration-of-the-magi-e3c44618",
+        "work-leaf-from-a-book-of-hours-the-nativity-recto-and-text--8dfa42ac",
+        "work-the-annunciation-and-the-nativity-a1049fdc",
+        "work-book-of-hours-use-of-utrecht-9769ddc6",
+        "work-single-leaf-from-an-antiphonary-initial-h-odie-nobis-w-7966302e",
+        "work-the-life-of-christ-the-nativity-0312906d",
+        "work-the-nativity-56582779",
+        "work-nativity-and-passion-of-christ-37deca27",
+        "work-the-adoration-of-the-shepherds-4dfbf978",
+        "work-撒母耳的幽灵向扫罗显现-54e3a978",
+        "work-圣女贞德与异象-77bed1c9"
+      ],
+      "entityIds": [
+        "subject-jesus-christian-iconography",
+        "role-samuel-b1f6d124",
+        "subject-ghosts-spiritualism",
+        "role-joan-of-arc-5c8b31af"
+      ],
+      "recordIds": [
+        "catalog-belief-cma-125587",
+        "catalog-belief-cma-148397",
+        "catalog-belief-cma-120995",
+        "catalog-belief-cma-171423",
+        "catalog-belief-cma-130980",
+        "catalog-belief-cma-160212",
+        "catalog-belief-cma-129858",
+        "catalog-belief-cma-149440",
+        "catalog-belief-cma-135311",
+        "catalog-belief-cma-143785",
+        "catalog-belief-cma-300708",
+        "catalog-supplement-ghost-samuel-blake",
+        "frame-supplement-ghost-samuel-blake-001",
+        "catalog-supplement-ghost-joan-arc-1879",
+        "frame-supplement-ghost-joan-arc-1879-001"
+      ],
+      "workCount": 13,
+      "imageCount": 13,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 13
+      },
+      "tags": [
+        "圣诞 / 冬季",
+        "怪诞 / 魔法",
+        "宗教 / 神话",
+        "动物 / 自然"
+      ],
+      "yearStart": 1250
+    },
+    {
       "id": "scene-疾病笑料-a777ba9f",
       "name": "疾病笑料",
       "type": "场景",
@@ -31903,7 +35706,8 @@
       "entityIds": [
         "role-betty-boop-16ad409c",
         "role-bimbo-c30ed973",
-        "role-mysterious-mose-1e6192c3"
+        "role-mysterious-mose-1e6192c3",
+        "subject-ghosts-spiritualism"
       ],
       "recordIds": [
         "frame-mysterious-mose-1930-001",
@@ -32347,58 +36151,6 @@
       "yearStart": 300
     },
     {
-      "id": "scene-基督教-耶稣与圣像-95a1d11d",
-      "name": "基督教 · 耶稣与圣像",
-      "type": "场景",
-      "coverImages": [
-        "images/9b951c28c1d420207f22.webp",
-        "images/07973ce52c447097b18a.webp",
-        "images/eca3f826d51dfbd215e6.webp",
-        "images/1911b1964356fe912d77.webp"
-      ],
-      "workIds": [
-        "work-pendant-triptych-with-an-onyx-cameo-of-the-nativity-84be0098",
-        "work-bifolio-from-an-antiphonary-historiated-initial-o-with-67a1ff25",
-        "work-triptych-with-the-adoration-of-the-magi-e3c44618",
-        "work-leaf-from-a-book-of-hours-the-nativity-recto-and-text--8dfa42ac",
-        "work-the-annunciation-and-the-nativity-a1049fdc",
-        "work-book-of-hours-use-of-utrecht-9769ddc6",
-        "work-single-leaf-from-an-antiphonary-initial-h-odie-nobis-w-7966302e",
-        "work-the-life-of-christ-the-nativity-0312906d",
-        "work-the-nativity-56582779",
-        "work-nativity-and-passion-of-christ-37deca27",
-        "work-the-adoration-of-the-shepherds-4dfbf978"
-      ],
-      "entityIds": [
-        "subject-jesus-christian-iconography"
-      ],
-      "recordIds": [
-        "catalog-belief-cma-125587",
-        "catalog-belief-cma-148397",
-        "catalog-belief-cma-120995",
-        "catalog-belief-cma-171423",
-        "catalog-belief-cma-130980",
-        "catalog-belief-cma-160212",
-        "catalog-belief-cma-129858",
-        "catalog-belief-cma-149440",
-        "catalog-belief-cma-135311",
-        "catalog-belief-cma-143785",
-        "catalog-belief-cma-300708"
-      ],
-      "workCount": 11,
-      "imageCount": 11,
-      "rightsBreakdown": {
-        "公版 / 开放馆藏": 11
-      },
-      "tags": [
-        "圣诞 / 冬季",
-        "怪诞 / 魔法",
-        "宗教 / 神话",
-        "动物 / 自然"
-      ],
-      "yearStart": 1250
-    },
-    {
       "id": "scene-天使报喜-马槽-牧羊人与三博士-5de7b286",
       "name": "天使报喜 → 马槽 → 牧羊人与三博士",
       "type": "场景",
@@ -32525,6 +36277,7 @@
         "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35"
       ],
       "entityIds": [
+        "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
       ],
       "recordIds": [
@@ -32607,55 +36360,6 @@
         "宗教 / 神话"
       ],
       "yearStart": 1930
-    },
-    {
-      "id": "scene-妖怪-幽灵与民间护佑神-7edf5361",
-      "name": "妖怪、幽灵与民间护佑神",
-      "type": "场景",
-      "coverImages": [
-        "images/9ed068056201863f947b.webp",
-        "images/c28fcc64895f5f4f8df9.webp",
-        "images/b10764308bfc5a5dae32.webp",
-        "images/101d38dc525bc34f45d8.webp"
-      ],
-      "workIds": [
-        "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
-        "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
-        "work-zhong-kui-supported-by-ghosts-8f0c0fce",
-        "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
-        "work-ghosts-of-the-taira-at-daimotsu-bay-4e6f02fe",
-        "work-a-boat-cast-adrift-ukifune-omatsu-and-akabori-mizuemon-0e3ed557",
-        "work-a-molted-cicada-shell-utsusemi-soga-goro-tokimune-from-9e43ce93",
-        "work-exile-to-suma-suma-tamaori-hime-from-the-series-scenes-606f10d3",
-        "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
-        "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35"
-      ],
-      "entityIds": [
-        "subject-east-asian-ghosts"
-      ],
-      "recordIds": [
-        "catalog-belief-cma-163115",
-        "catalog-belief-cma-136668",
-        "catalog-belief-cma-135655",
-        "catalog-belief-met-58892",
-        "catalog-belief-met-55743",
-        "catalog-belief-met-789147",
-        "catalog-belief-met-789145",
-        "catalog-belief-met-789148",
-        "catalog-belief-met-789144",
-        "catalog-belief-met-76582"
-      ],
-      "workCount": 10,
-      "imageCount": 10,
-      "rightsBreakdown": {
-        "公版 / 开放馆藏": 10
-      },
-      "tags": [
-        "万圣节",
-        "怪诞 / 魔法",
-        "宗教 / 神话"
-      ],
-      "yearStart": 1200
     },
     {
       "id": "scene-罗摩衍那摩诃婆罗多与薄伽梵歌-1f72e2da",
@@ -33480,7 +37184,8 @@
         "work-wot-a-night-cb97ee02"
       ],
       "entityIds": [
-        "role-van-beuren-human-duo-2d6c075a"
+        "role-van-beuren-human-duo-2d6c075a",
+        "subject-ghosts-spiritualism"
       ],
       "recordIds": [
         "catalog-supplement-van-beuren-wot-a-night-1931",
@@ -33515,7 +37220,8 @@
         "work-wot-a-night-cb97ee02"
       ],
       "entityIds": [
-        "role-van-beuren-human-duo-2d6c075a"
+        "role-van-beuren-human-duo-2d6c075a",
+        "subject-ghosts-spiritualism"
       ],
       "recordIds": [
         "catalog-supplement-van-beuren-wot-a-night-1931",
@@ -33652,7 +37358,8 @@
         "work-wot-a-night-cb97ee02"
       ],
       "entityIds": [
-        "role-van-beuren-human-duo-2d6c075a"
+        "role-van-beuren-human-duo-2d6c075a",
+        "subject-ghosts-spiritualism"
       ],
       "recordIds": [
         "catalog-supplement-van-beuren-wot-a-night-1931",
@@ -33687,7 +37394,8 @@
         "work-wot-a-night-cb97ee02"
       ],
       "entityIds": [
-        "role-van-beuren-human-duo-2d6c075a"
+        "role-van-beuren-human-duo-2d6c075a",
+        "subject-ghosts-spiritualism"
       ],
       "recordIds": [
         "catalog-supplement-van-beuren-wot-a-night-1931",
@@ -34740,7 +38448,32 @@
         "work-the-gorilla-mystery猩猩谜案-023ad571",
         "work-night月夜森林-bf8f3b19",
         "work-the-cobweb-hotel-15b03452",
-        "work-wot-a-night-cb97ee02"
+        "work-wot-a-night-cb97ee02",
+        "work-立体镜中的幽灵-f0be4d30",
+        "work-孤儿在母亲墓前-23a2d5dc",
+        "work-通灵会灵体合成照-3c8907c2",
+        "work-马利的幽灵-436b638e",
+        "work-撒母耳的幽灵向扫罗显现-54e3a978",
+        "work-玛格丽特的幽灵向浮士德显现-f9fe58a8",
+        "work-巫术-2cb43daf",
+        "work-玫瑰魔术师与超自然生物-36d50d1c",
+        "work-灵魂会回来吗-ba38546d",
+        "work-圣女贞德与异象-77bed1c9",
+        "work-巫术场景-黄昏-5e91ed00",
+        "work-幽灵-一场圣诞恶作剧-d2a5c039",
+        "work-马利的幽灵-拉克姆版-917905df",
+        "work-布盖通灵摄影-296427a4",
+        "work-休息的幽灵演奏者-6db9d5b8",
+        "work-幽灵与油灯-1fb37b14",
+        "work-闹鬼的汽车-e6442b01",
+        "work-newmann-的灵体奇术-576434db",
+        "work-闹鬼的小路-1ee678e8",
+        "work-哈姆雷特追随父亲幽灵-c3f90678",
+        "work-冈崎猫妖怪谈-bd4f4df0",
+        "work-钟馗-35122b8b",
+        "work-鬼怪素描-abaf8ede",
+        "work-义平幽灵复仇-8f44b5f3",
+        "work-鲤旗与钟馗旗-dd97e27f"
       ],
       "entityIds": [
         "role-dracula-0544a724",
@@ -34758,6 +38491,7 @@
         "role-the-black-cat-23787fcd",
         "role-bimbo-c30ed973",
         "role-mysterious-mose-1e6192c3",
+        "subject-ghosts-spiritualism",
         "role-mickey-mouse-ac752a50",
         "role-minnie-mouse-b07065a5",
         "role-gorilla-ccbe2268",
@@ -34765,7 +38499,30 @@
         "role-夜行动物-1bfa79de",
         "role-cobweb-hotel-spider-e1986568",
         "role-cobweb-hotel-fly-couple-30801d8f",
-        "role-van-beuren-human-duo-2d6c075a"
+        "role-van-beuren-human-duo-2d6c075a",
+        "role-白布幽灵-0f2aa01a",
+        "role-母亲幽灵-79c3028b",
+        "role-通灵灵体-17f504c0",
+        "role-marleys-ghost-0861a74f",
+        "role-samuel-b1f6d124",
+        "subject-jesus-christian-iconography",
+        "role-marguerites-ghost-de177e82",
+        "role-召灵幻象-a015fd9d",
+        "role-舞台灵体-b5c936dc",
+        "role-joan-of-arc-5c8b31af",
+        "role-召唤幽灵-e623ac10",
+        "role-chained-phantoms-3541a6a1",
+        "role-披布灵体-f8637771",
+        "role-幽灵演奏者-0941d377",
+        "role-yurei-39275740",
+        "subject-east-asian-ghosts",
+        "role-动物幽灵群-856dd4d2",
+        "role-白衣幽灵-4f1bdbdf",
+        "role-hamlets-father-5a4cc5d1",
+        "role-cat-demon-1b812fa1",
+        "role-钟馗-2d4bb89f",
+        "role-demons-bd2a88c5",
+        "role-yoshihiras-ghost-122808fc"
       ],
       "recordIds": [
         "catalog-dracula",
@@ -34862,14 +38619,66 @@
         "frame-supplement-van-beuren-wot-a-night-1931-003",
         "frame-supplement-van-beuren-wot-a-night-1931-004",
         "frame-supplement-van-beuren-wot-a-night-1931-005",
-        "frame-supplement-van-beuren-wot-a-night-1931-006"
+        "frame-supplement-van-beuren-wot-a-night-1931-006",
+        "catalog-supplement-ghost-stereoscope-1856",
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "catalog-supplement-ghost-orphans-grave-1889",
+        "frame-supplement-ghost-orphans-grave-1889-001",
+        "catalog-supplement-ghost-hallowell-composite-1901",
+        "frame-supplement-ghost-hallowell-composite-1901-001",
+        "catalog-supplement-ghost-marley-leech-1843",
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "catalog-supplement-ghost-samuel-blake",
+        "frame-supplement-ghost-samuel-blake-001",
+        "catalog-supplement-ghost-marguerite-delacroix-1828",
+        "frame-supplement-ghost-marguerite-delacroix-1828-001",
+        "catalog-supplement-ghost-witchcraft-fantin-1899",
+        "frame-supplement-ghost-witchcraft-fantin-1899-001",
+        "catalog-supplement-ghost-magician-roses-1892",
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "catalog-supplement-ghost-thurston-1915",
+        "frame-supplement-ghost-thurston-1915-001",
+        "catalog-supplement-ghost-joan-arc-1879",
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "catalog-supplement-ghost-witchcraft-evening",
+        "frame-supplement-ghost-witchcraft-evening-001",
+        "catalog-supplement-ghost-christmas-frolic-1814",
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "catalog-supplement-ghost-rackham-marley-1915",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "catalog-supplement-ghost-rackham-phantoms-1915",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "catalog-supplement-ghost-buguet-1874",
+        "frame-supplement-ghost-buguet-1874-001",
+        "catalog-supplement-ghost-underwood-1893",
+        "frame-supplement-ghost-underwood-1893-001",
+        "catalog-supplement-ghost-oil-lamp-1810",
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "catalog-supplement-ghost-haunted-auto-1910",
+        "frame-supplement-ghost-haunted-auto-1910-001",
+        "catalog-supplement-ghost-newmann-1911",
+        "frame-supplement-ghost-newmann-1911-001",
+        "catalog-supplement-ghost-haunted-lane-1889",
+        "frame-supplement-ghost-haunted-lane-1889-001",
+        "catalog-supplement-ghost-hamlet-delacroix-1835",
+        "frame-supplement-ghost-hamlet-delacroix-1835-001",
+        "catalog-supplement-ghost-met-cat-demon",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "catalog-supplement-ghost-met-zhong-kui",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "catalog-supplement-ghost-met-demon-drawings",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "catalog-supplement-ghost-met-yoshihira-revenge",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "catalog-supplement-ghost-met-shoki-banner",
+        "frame-supplement-ghost-met-shoki-banner-001"
       ],
-      "workCount": 31,
-      "imageCount": 92,
+      "workCount": 56,
+      "imageCount": 118,
       "rightsBreakdown": {
         "期限届满": 4,
         "未续期": 3,
-        "公版 / 开放馆藏": 24
+        "公版 / 开放馆藏": 49
       },
       "tags": [
         "童话 / 寓言",
@@ -34911,7 +38720,10 @@
         "work-midnight-in-a-toy-shop午夜玩具店-9eba6fb2",
         "work-arctic-antics极地动物-e9f87d8d",
         "work-somewhere-in-dreamland-be7e9b92",
-        "work-christmas-comes-but-once-a-year-d58e90af"
+        "work-christmas-comes-but-once-a-year-d58e90af",
+        "work-马利的幽灵-436b638e",
+        "work-幽灵-一场圣诞恶作剧-d2a5c039",
+        "work-马利的幽灵-拉克姆版-917905df"
       ],
       "entityIds": [
         "role-snow-white-29fcc6a6",
@@ -34929,7 +38741,11 @@
         "role-北极动物群像-d064e296",
         "role-dreamland-siblings-28c4e62e",
         "role-grampy-d1dc168a",
-        "role-christmas-comes-orphans-3dc6e7ed"
+        "role-christmas-comes-orphans-3dc6e7ed",
+        "role-marleys-ghost-0861a74f",
+        "subject-ghosts-spiritualism",
+        "role-白布幽灵-0f2aa01a",
+        "role-chained-phantoms-3541a6a1"
       ],
       "recordIds": [
         "catalog-snow-white",
@@ -35021,13 +38837,22 @@
         "frame-supplement-christmas-comes-1936-006",
         "frame-supplement-christmas-comes-1936-007",
         "frame-supplement-christmas-comes-1936-008",
-        "frame-supplement-christmas-comes-1936-009"
+        "frame-supplement-christmas-comes-1936-009",
+        "catalog-supplement-ghost-marley-leech-1843",
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "catalog-supplement-ghost-christmas-frolic-1814",
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "catalog-supplement-ghost-rackham-marley-1915",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "catalog-supplement-ghost-rackham-phantoms-1915",
+        "frame-supplement-ghost-rackham-phantoms-1915-001"
       ],
-      "workCount": 19,
-      "imageCount": 87,
+      "workCount": 22,
+      "imageCount": 91,
       "rightsBreakdown": {
         "期限届满": 6,
         "未续期": 3,
+        "公版 / 开放馆藏": 3,
         "公版文件": 9,
         "CC0 / 公版开放馆藏": 1
       },
@@ -35039,7 +38864,8 @@
         "怪诞 / 魔法",
         "宗教 / 神话",
         "动物 / 自然",
-        "生活 / 节庆"
+        "生活 / 节庆",
+        "万圣节"
       ],
       "yearStart": 1811
     },
