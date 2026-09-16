@@ -21,8 +21,10 @@
     ["public-domain", "公版封面源流"],
     ["license-only", "近70年经典 · 需授权"],
     ["eagle-rock-lineage", "鹰翼摇滚脉络"],
+    ["western-country-lineage", "西部乡村脉络"],
   ];
   const bucketIds = BUCKETS.map(([id]) => id);
+  const curatedBuckets = new Set(["eagle-rock-lineage", "western-country-lineage"]);
   for (const item of records) item._search = normalize([
     item.title, item.artist, item.year, item.genre, item.visualFamily, item.visualType,
     item.grammar, item.opportunity, item.trendSignal, item.licenseStatus, item.pathStatus,
@@ -31,7 +33,7 @@
   function params() {
     const query = new URLSearchParams(location.search);
     const bucket = bucketIds.includes(query.get("bucket")) ? query.get("bucket") : "public-domain";
-    const defaultSort = bucket === "eagle-rock-lineage" ? "curated" : "year";
+    const defaultSort = curatedBuckets.has(bucket) ? "curated" : "year";
     return {
       bucket,
       type: query.get("type") || "全部",
@@ -78,7 +80,7 @@
     if (state.bucket !== "public-domain") query.set("bucket", state.bucket);
     if (state.type !== "全部") query.set("type", state.type);
     if (state.q) query.set("q", state.q);
-    const defaultSort = state.bucket === "eagle-rock-lineage" ? "curated" : "year";
+    const defaultSort = curatedBuckets.has(state.bucket) ? "curated" : "year";
     if (state.sort !== defaultSort) query.set("sort", state.sort);
     if (state.item) query.set("item", state.item);
     history[replace ? "replaceState" : "pushState"](null, "", `${location.pathname}${query.size ? `?${query}` : ""}`);
@@ -109,7 +111,7 @@
     dom.bucketFacets.replaceChildren(); dom.bucketTabs.replaceChildren();
     for (const [id, label] of BUCKETS) {
       const count = bucketRecords(id).length;
-      const activate = () => setState({ bucket: id, type: "全部", sort: id === "eagle-rock-lineage" ? "curated" : "year", item: "" });
+      const activate = () => setState({ bucket: id, type: "全部", sort: curatedBuckets.has(id) ? "curated" : "year", item: "" });
       dom.bucketFacets.append(facet(label, count, state.bucket === id, activate));
       dom.bucketTabs.append(facet(label, count, state.bucket === id, activate, true));
     }
@@ -144,8 +146,10 @@
       ? "图源在 Eagle"
       : state.bucket === "eagle-rock-lineage"
         ? "周边 + 专辑 + 公版母题"
+        : state.bucket === "western-country-lineage"
+          ? "女装 + 专辑 + 公版母题"
         : "研究缩略图 · 禁止生产";
-    dom.topMeta.textContent = `${bucketRecords("public-domain").length} 公版源流 · ${bucketRecords("license-only").length} 需授权经典 · ${bucketRecords("eagle-rock-lineage").length} 鹰翼脉络`;
+    dom.topMeta.textContent = `${bucketRecords("public-domain").length} 公版 · ${bucketRecords("license-only").length} 授权 · ${bucketRecords("eagle-rock-lineage").length} 鹰翼 · ${bucketRecords("western-country-lineage").length} 西部`;
     document.title = `${bucketLabel(state.bucket)}｜音乐视觉研究`;
     if (state.item) {
       const item = records.find((candidate) => candidate.id === state.item);

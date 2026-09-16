@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-09-16T07:02:41.324Z",
+  "generatedAt": "2026-09-16T07:56:14.925Z",
   "counts": {
-    "total": 84,
+    "total": 134,
     "publicDomain": 10,
     "licenseOnly": 36,
-    "eagleRockLineage": 38
+    "eagleRockLineage": 38,
+    "westernCountryLineage": 50
   },
-  "sha256": "944944d8749d9c42f9f5f85863619ac0be94d80259385a4c9d75e3105f77be53"
+  "sha256": "0db1bcb1ecf2e6aba361aa224956ab619b77693e92dfe765105072b02a3b32bc"
 }

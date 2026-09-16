@@ -13,16 +13,18 @@ const eagleRoot = "/Users/wenshanchen/Pictures/idea.library/images";
 const publicDomainPath = path.join(projectRoot, "source/album-public-domain.json");
 const licenseOnlyPath = path.join(projectRoot, "source/album-license-only.json");
 const eagleRockPath = path.join(projectRoot, "source/eagle-rock-lineage.json");
+const westernCountryPath = path.join(projectRoot, "source/western-country-lineage.json");
 const imageRoot = path.join(projectRoot, "album-images");
 const dataRoot = path.join(projectRoot, "data");
 
-if (!existsSync(publicDomainPath) || !existsSync(licenseOnlyPath) || !existsSync(eagleRockPath)) {
+if (!existsSync(publicDomainPath) || !existsSync(licenseOnlyPath) || !existsSync(eagleRockPath) || !existsSync(westernCountryPath)) {
   throw new Error("Album source files are missing. Run tools/import-grok-intake.mjs first.");
 }
 
 const publicDomainSource = JSON.parse(await fs.readFile(publicDomainPath, "utf8"));
 const licenseOnlySource = JSON.parse(await fs.readFile(licenseOnlyPath, "utf8"));
 const eagleRockSource = JSON.parse(await fs.readFile(eagleRockPath, "utf8"));
+const westernCountrySource = JSON.parse(await fs.readFile(westernCountryPath, "utf8"));
 await fs.mkdir(imageRoot, { recursive: true });
 await fs.mkdir(dataRoot, { recursive: true });
 
@@ -100,13 +102,21 @@ const eagleRockLineage = (eagleRockSource.records || []).map((item) => ({
   evidenceLevel: item.pathStatus || "研究线索",
 }));
 
+const westernCountryLineage = (westernCountrySource.records || []).map((item) => ({
+  ...item,
+  bucket: "western-country-lineage",
+  visualFamily: item.visualFamily || visualFamily(item.visualType),
+  image: item.thumbnail,
+  evidenceLevel: item.pathStatus || "研究线索",
+}));
+
 const dataset = {
   schemaVersion: "1.0",
-  sourceVersions: [publicDomainSource.sourceVersion, licenseOnlySource.sourceVersion, eagleRockSource.sourceVersion],
+  sourceVersions: [publicDomainSource.sourceVersion, licenseOnlySource.sourceVersion, eagleRockSource.sourceVersion, westernCountrySource.sourceVersion],
   generatedAt: new Date().toISOString(),
   researchDate: eagleRockSource.researchDate,
-  scope: "音乐视觉研究：公版封面、现代需授权经典，以及鹰翼摇滚的专辑/周边/公版母题分层浏览。缩略图不是生产文件。",
-  records: [...publicDomain, ...licenseOnly, ...eagleRockLineage],
+  scope: "音乐视觉研究：公版封面、现代需授权经典、鹰翼摇滚，以及西部/乡村/Rodeo 的专辑、周边和公版母题分层浏览。缩略图不是生产文件。",
+  records: [...publicDomain, ...licenseOnly, ...eagleRockLineage, ...westernCountryLineage],
 };
 
 const json = `${JSON.stringify(dataset, null, 2)}\n`;
@@ -119,6 +129,7 @@ await fs.writeFile(path.join(projectRoot, "album-manifest.json"), `${JSON.string
     publicDomain: publicDomain.length,
     licenseOnly: licenseOnly.length,
     eagleRockLineage: eagleRockLineage.length,
+    westernCountryLineage: westernCountryLineage.length,
   },
   sha256: createHash("sha256").update(json).digest("hex"),
 }, null, 2)}\n`, "utf8");
@@ -127,4 +138,5 @@ console.log(JSON.stringify({
   publicDomain: publicDomain.length,
   licenseOnly: licenseOnly.length,
   eagleRockLineage: eagleRockLineage.length,
+  westernCountryLineage: westernCountryLineage.length,
 }, null, 2));
