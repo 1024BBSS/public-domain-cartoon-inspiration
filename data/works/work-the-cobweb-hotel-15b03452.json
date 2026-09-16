@@ -1,0 +1,679 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-16T02:50:01.060Z",
+  "work": {
+    "id": "work-the-cobweb-hotel-15b03452",
+    "title": "The Cobweb Hotel",
+    "subtitle": "Fleischer Color Classics · 1936",
+    "year": "1936",
+    "yearSort": 1936,
+    "coverImage": "images/0011c968e8696732fecf.webp",
+    "coverRecordId": "catalog-supplement-cobweb-hotel-1936",
+    "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "未续期"
+    ],
+    "copyrightRoutes": [
+      "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索"
+    ],
+    "evidenceLevels": [
+      "B"
+    ],
+    "imageRights": [
+      "Internet Archive 影片关键帧；图源与作品版权分开记录"
+    ],
+    "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+    "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "万圣节",
+      "怪诞 / 魔法",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "Fleischer Color Classics",
+      "怪诞卡通",
+      "早期彩色动画"
+    ],
+    "scenes": [
+      "蛛网旅馆",
+      "蜘蛛与苍蝇",
+      "怪诞室内"
+    ],
+    "holidays": [
+      "万圣节"
+    ],
+    "characterNames": [
+      "Cobweb Hotel Spider",
+      "Cobweb Hotel Fly Couple"
+    ],
+    "characterAliases": [
+      "The Cobweb Hotel Spider",
+      "蛛网旅馆蜘蛛老板",
+      "The Cobweb Hotel Fly Couple",
+      "苍蝇情侣"
+    ],
+    "recordIds": [
+      "frame-supplement-cobweb-hotel-1936-001",
+      "frame-supplement-cobweb-hotel-1936-002",
+      "frame-supplement-cobweb-hotel-1936-003",
+      "frame-supplement-cobweb-hotel-1936-004",
+      "frame-supplement-cobweb-hotel-1936-005",
+      "frame-supplement-cobweb-hotel-1936-006",
+      "catalog-supplement-cobweb-hotel-1936"
+    ],
+    "frameIds": [
+      "frame-supplement-cobweb-hotel-1936-001",
+      "frame-supplement-cobweb-hotel-1936-002",
+      "frame-supplement-cobweb-hotel-1936-003",
+      "frame-supplement-cobweb-hotel-1936-004",
+      "frame-supplement-cobweb-hotel-1936-005",
+      "frame-supplement-cobweb-hotel-1936-006"
+    ],
+    "masterIds": [
+      "catalog-supplement-cobweb-hotel-1936"
+    ],
+    "imageCount": 6,
+    "frameCount": 6,
+    "awarenessScore": 32,
+    "entityIds": [
+      "role-cobweb-hotel-spider-e1986568",
+      "role-cobweb-hotel-fly-couple-30801d8f"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-cobweb-hotel-spider-e1986568",
+      "name": "Cobweb Hotel Spider",
+      "type": "角色",
+      "aliases": [
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Spider"
+      ],
+      "virtual": false,
+      "coverImage": "images/0011c968e8696732fecf.webp",
+      "coverRecordId": "catalog-supplement-cobweb-hotel-1936",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "workIds": [
+        "work-the-cobweb-hotel-15b03452"
+      ],
+      "recordIds": [
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006",
+        "catalog-supplement-cobweb-hotel-1936"
+      ],
+      "frameIds": [
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "frameCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "怪诞室内",
+          "count": 7
+        },
+        {
+          "name": "蜘蛛与苍蝇",
+          "count": 7
+        },
+        {
+          "name": "蛛网旅馆",
+          "count": 7
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "怪诞卡通",
+          "count": 7
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 7
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 7
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 7
+        }
+      ],
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "awarenessScore": 32,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-cobweb-hotel-fly-couple-30801d8f"
+      ]
+    },
+    {
+      "id": "role-cobweb-hotel-fly-couple-30801d8f",
+      "name": "Cobweb Hotel Fly Couple",
+      "type": "角色",
+      "aliases": [
+        "苍蝇情侣",
+        "The Cobweb Hotel Fly Couple"
+      ],
+      "virtual": false,
+      "coverImage": "images/0011c968e8696732fecf.webp",
+      "coverRecordId": "catalog-supplement-cobweb-hotel-1936",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "workIds": [
+        "work-the-cobweb-hotel-15b03452"
+      ],
+      "recordIds": [
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006",
+        "catalog-supplement-cobweb-hotel-1936"
+      ],
+      "frameIds": [
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "frameCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "怪诞室内",
+          "count": 7
+        },
+        {
+          "name": "蜘蛛与苍蝇",
+          "count": 7
+        },
+        {
+          "name": "蛛网旅馆",
+          "count": 7
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "怪诞卡通",
+          "count": 7
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 7
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 7
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 7
+        }
+      ],
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "awarenessScore": 32,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-cobweb-hotel-spider-e1986568"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-cobweb-hotel-1936-001",
+      "kind": "动画画面",
+      "subtitle": "画面 001",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic#frame-105s",
+      "image": "images/0011c968e8696732fecf.webp"
+    },
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-cobweb-hotel-1936-002",
+      "kind": "动画画面",
+      "subtitle": "画面 002",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic#frame-135s",
+      "image": "images/18509af8a58d4f04f267.webp"
+    },
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-cobweb-hotel-1936-003",
+      "kind": "动画画面",
+      "subtitle": "画面 003",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic#frame-165s",
+      "image": "images/563db3954c771a59a604.webp"
+    },
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-cobweb-hotel-1936-004",
+      "kind": "动画画面",
+      "subtitle": "画面 004",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic#frame-195s",
+      "image": "images/acdd45f0eae5b09d5c7c.webp"
+    },
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-cobweb-hotel-1936-005",
+      "kind": "动画画面",
+      "subtitle": "画面 005",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic#frame-225s",
+      "image": "images/a3e5f5625656f2f6f56e.webp"
+    },
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-cobweb-hotel-1936-006",
+      "kind": "动画画面",
+      "subtitle": "画面 006",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic#frame-375s",
+      "image": "images/811a3c8eec9857b95687.webp"
+    },
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "catalog-supplement-cobweb-hotel-1936",
+      "kind": "主档",
+      "subtitle": "Fleischer Color Classics · 1936",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic",
+      "image": "images/0011c968e8696732fecf.webp"
+    }
+  ]
+}

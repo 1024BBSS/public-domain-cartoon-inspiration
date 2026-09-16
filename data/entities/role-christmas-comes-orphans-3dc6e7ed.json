@@ -1,0 +1,525 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-16T02:50:01.060Z",
+  "entity": {
+    "id": "role-christmas-comes-orphans-3dc6e7ed",
+    "name": "Christmas Comes Orphans",
+    "type": "角色",
+    "aliases": [
+      "圣诞孤儿院孩子群像",
+      "Christmas Comes Orphan Children"
+    ],
+    "virtual": false,
+    "coverImage": "images/f6f31560e1dbee6eec6e.webp",
+    "coverRecordId": "catalog-supplement-christmas-comes-1936",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "workIds": [
+      "work-christmas-comes-but-once-a-year-d58e90af"
+    ],
+    "recordIds": [
+      "frame-supplement-christmas-comes-1936-001",
+      "frame-supplement-christmas-comes-1936-002",
+      "frame-supplement-christmas-comes-1936-003",
+      "frame-supplement-christmas-comes-1936-004",
+      "frame-supplement-christmas-comes-1936-005",
+      "frame-supplement-christmas-comes-1936-006",
+      "frame-supplement-christmas-comes-1936-007",
+      "frame-supplement-christmas-comes-1936-008",
+      "frame-supplement-christmas-comes-1936-009",
+      "catalog-supplement-christmas-comes-1936"
+    ],
+    "frameIds": [
+      "frame-supplement-christmas-comes-1936-001",
+      "frame-supplement-christmas-comes-1936-002",
+      "frame-supplement-christmas-comes-1936-003",
+      "frame-supplement-christmas-comes-1936-004",
+      "frame-supplement-christmas-comes-1936-005",
+      "frame-supplement-christmas-comes-1936-006",
+      "frame-supplement-christmas-comes-1936-007",
+      "frame-supplement-christmas-comes-1936-008",
+      "frame-supplement-christmas-comes-1936-009"
+    ],
+    "workCount": 1,
+    "imageCount": 9,
+    "frameCount": 9,
+    "rightsBreakdown": {
+      "未续期": 1
+    },
+    "copyrightRoutes": [
+      "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索"
+    ],
+    "evidenceLevels": [
+      "B"
+    ],
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "圣诞 / 冬季",
+      "生活 / 节庆"
+    ],
+    "topScenes": [
+      {
+        "name": "孤儿院",
+        "count": 10
+      },
+      {
+        "name": "集体舞蹈",
+        "count": 10
+      },
+      {
+        "name": "玩具修复工坊",
+        "count": 10
+      },
+      {
+        "name": "赠礼",
+        "count": 10
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "机械玩具",
+        "count": 10
+      },
+      {
+        "name": "早期彩色动画",
+        "count": 10
+      },
+      {
+        "name": "Fleischer Color Classics",
+        "count": 10
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "圣诞 / 冬季",
+        "count": 10
+      }
+    ],
+    "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+    "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+    "awarenessScore": 44,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-拟人玩具-ec0c6206",
+      "role-grampy-d1dc168a"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-christmas-comes-but-once-a-year-d58e90af",
+      "title": "Christmas Comes But Once a Year",
+      "subtitle": "Fleischer Color Classics · 1936",
+      "year": "1936",
+      "yearSort": 1936,
+      "coverImage": "images/f6f31560e1dbee6eec6e.webp",
+      "coverRecordId": "catalog-supplement-christmas-comes-1936",
+      "sourceUrl": "https://archive.org/details/Christmas_Comes_But_Once_A_Year_1936",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "未续期"
+      ],
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录"
+      ],
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "styles": [
+        "Fleischer Color Classics",
+        "机械玩具",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "孤儿院",
+        "玩具修复工坊",
+        "集体舞蹈",
+        "赠礼"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [
+        "Christmas Comes Orphans",
+        "拟人玩具",
+        "Grampy"
+      ],
+      "characterAliases": [
+        "Christmas Comes Orphan Children",
+        "圣诞孤儿院孩子群像",
+        "拟人玩具",
+        "Grampy",
+        "格兰皮爷爷"
+      ],
+      "recordIds": [
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009",
+        "catalog-supplement-christmas-comes-1936"
+      ],
+      "frameIds": [
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009"
+      ],
+      "masterIds": [
+        "catalog-supplement-christmas-comes-1936"
+      ],
+      "imageCount": 9,
+      "frameCount": 9,
+      "awarenessScore": 44,
+      "entityIds": [
+        "role-拟人玩具-ec0c6206",
+        "role-grampy-d1dc168a",
+        "role-christmas-comes-orphans-3dc6e7ed"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-拟人玩具-ec0c6206",
+      "name": "拟人玩具",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/f6f31560e1dbee6eec6e.webp",
+      "coverRecordId": "catalog-supplement-christmas-comes-1936",
+      "yearStart": 1930,
+      "yearEnd": 1936,
+      "workIds": [
+        "work-midnight-in-a-toy-shop午夜玩具店-9eba6fb2",
+        "work-christmas-comes-but-once-a-year-d58e90af"
+      ],
+      "recordIds": [
+        "frame-midnight-toy-shop-1930-001",
+        "frame-midnight-toy-shop-1930-002",
+        "frame-midnight-toy-shop-1930-003",
+        "frame-midnight-toy-shop-1930-004",
+        "frame-midnight-toy-shop-1930-005",
+        "frame-midnight-toy-shop-1930-006",
+        "frame-midnight-toy-shop-1930-007",
+        "frame-midnight-toy-shop-1930-008",
+        "frame-midnight-toy-shop-1930-009",
+        "frame-midnight-toy-shop-1930-010",
+        "frame-midnight-toy-shop-1930-011",
+        "frame-midnight-toy-shop-1930-012",
+        "frame-midnight-toy-shop-1930-013",
+        "frame-midnight-toy-shop-1930-014",
+        "frame-midnight-toy-shop-1930-015",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009",
+        "catalog-supplement-christmas-comes-1936"
+      ],
+      "frameIds": [
+        "frame-midnight-toy-shop-1930-001",
+        "frame-midnight-toy-shop-1930-002",
+        "frame-midnight-toy-shop-1930-003",
+        "frame-midnight-toy-shop-1930-004",
+        "frame-midnight-toy-shop-1930-005",
+        "frame-midnight-toy-shop-1930-006",
+        "frame-midnight-toy-shop-1930-007",
+        "frame-midnight-toy-shop-1930-008",
+        "frame-midnight-toy-shop-1930-009",
+        "frame-midnight-toy-shop-1930-010",
+        "frame-midnight-toy-shop-1930-011",
+        "frame-midnight-toy-shop-1930-012",
+        "frame-midnight-toy-shop-1930-013",
+        "frame-midnight-toy-shop-1930-014",
+        "frame-midnight-toy-shop-1930-015",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009"
+      ],
+      "workCount": 2,
+      "imageCount": 24,
+      "frameCount": 24,
+      "rightsBreakdown": {
+        "期限届满": 1,
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "A",
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "圣诞 / 冬季",
+        "漫画 / 角色",
+        "生活 / 节庆"
+      ],
+      "topScenes": [
+        {
+          "name": "群像",
+          "count": 15
+        },
+        {
+          "name": "玩具店",
+          "count": 15
+        },
+        {
+          "name": "午夜",
+          "count": 15
+        },
+        {
+          "name": "追逐",
+          "count": 15
+        },
+        {
+          "name": "孤儿院",
+          "count": 10
+        },
+        {
+          "name": "集体舞蹈",
+          "count": 10
+        },
+        {
+          "name": "玩具修复工坊",
+          "count": 10
+        },
+        {
+          "name": "赠礼",
+          "count": 10
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "玩具奇想",
+          "count": 15
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 15
+        },
+        {
+          "name": "机械玩具",
+          "count": 10
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 10
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 10
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "圣诞 / 冬季",
+          "count": 25
+        }
+      ],
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "awarenessScore": 44,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "role-grampy-d1dc168a",
+        "role-蜘蛛-0053a539",
+        "role-christmas-comes-orphans-3dc6e7ed"
+      ]
+    },
+    {
+      "id": "role-grampy-d1dc168a",
+      "name": "Grampy",
+      "type": "角色",
+      "aliases": [
+        "格兰皮爷爷"
+      ],
+      "virtual": false,
+      "coverImage": "images/f6f31560e1dbee6eec6e.webp",
+      "coverRecordId": "catalog-supplement-christmas-comes-1936",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "workIds": [
+        "work-grampys-indoor-outing室内嘉年华-3545052d",
+        "work-christmas-comes-but-once-a-year-d58e90af"
+      ],
+      "recordIds": [
+        "frame-grampys-indoor-outing-1936-001",
+        "frame-grampys-indoor-outing-1936-002",
+        "frame-grampys-indoor-outing-1936-003",
+        "frame-grampys-indoor-outing-1936-004",
+        "frame-grampys-indoor-outing-1936-005",
+        "frame-grampys-indoor-outing-1936-006",
+        "frame-grampys-indoor-outing-1936-007",
+        "frame-grampys-indoor-outing-1936-008",
+        "frame-grampys-indoor-outing-1936-009",
+        "frame-grampys-indoor-outing-1936-010",
+        "frame-grampys-indoor-outing-1936-011",
+        "frame-grampys-indoor-outing-1936-012",
+        "frame-grampys-indoor-outing-1936-013",
+        "catalog-betty-grampys-indoor-outing-1936",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009",
+        "catalog-supplement-christmas-comes-1936"
+      ],
+      "frameIds": [
+        "frame-grampys-indoor-outing-1936-001",
+        "frame-grampys-indoor-outing-1936-002",
+        "frame-grampys-indoor-outing-1936-003",
+        "frame-grampys-indoor-outing-1936-004",
+        "frame-grampys-indoor-outing-1936-005",
+        "frame-grampys-indoor-outing-1936-006",
+        "frame-grampys-indoor-outing-1936-007",
+        "frame-grampys-indoor-outing-1936-008",
+        "frame-grampys-indoor-outing-1936-009",
+        "frame-grampys-indoor-outing-1936-010",
+        "frame-grampys-indoor-outing-1936-011",
+        "frame-grampys-indoor-outing-1936-012",
+        "frame-grampys-indoor-outing-1936-013",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009"
+      ],
+      "workCount": 2,
+      "imageCount": 22,
+      "frameCount": 22,
+      "rightsBreakdown": {
+        "未续期": 2
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期",
+        "未续期",
+        "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "topScenes": [
+        {
+          "name": "发明 / 机关",
+          "count": 14
+        },
+        {
+          "name": "家庭 / 室内",
+          "count": 14
+        },
+        {
+          "name": "嘉年华 / 马戏",
+          "count": 14
+        },
+        {
+          "name": "孤儿院",
+          "count": 10
+        },
+        {
+          "name": "集体舞蹈",
+          "count": 10
+        },
+        {
+          "name": "玩具修复工坊",
+          "count": 10
+        },
+        {
+          "name": "赠礼",
+          "count": 10
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 14
+        },
+        {
+          "name": "Fleischer 动画",
+          "count": 14
+        },
+        {
+          "name": "机械玩具",
+          "count": 10
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 10
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 10
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "雨天 / 居家",
+          "count": 14
+        },
+        {
+          "name": "圣诞 / 冬季",
+          "count": 10
+        }
+      ],
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "awarenessScore": 44,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "role-betty-boop-16ad409c",
+        "role-拟人玩具-ec0c6206",
+        "role-junior-ecc6252a",
+        "role-christmas-comes-orphans-3dc6e7ed"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

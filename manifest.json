@@ -1,44 +1,50 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "generatedAt": "2026-09-16T02:50:01.060Z",
   "sourceVersion": "9.6",
   "publicScope": "美国市场公版卡通视觉灵感；只含已确认期限届满、未续期、公共领域或 CC0 路径，排除待复核项。",
   "counts": {
-    "records": 640,
-    "uniqueImages": 631,
-    "imageBytes": 23652202,
+    "records": 681,
+    "uniqueImages": 667,
+    "imageBytes": 24096854,
     "byKind": {
-      "主档": 216,
-      "动画画面": 424
+      "主档": 221,
+      "动画画面": 460
     },
     "byRights": {
       "期限届满": 433,
-      "未续期": 99,
+      "未续期": 140,
       "公版 / 开放馆藏": 96,
       "公版文件": 11,
       "CC0 / 公版开放馆藏": 1
     },
     "byTag": {
-      "早期动画": 505,
-      "漫画 / 角色": 362,
-      "童话 / 寓言": 87,
-      "动物 / 自然": 292,
-      "怪诞 / 魔法": 170,
-      "万圣节": 91,
-      "圣诞 / 冬季": 78,
-      "宗教 / 神话": 116
+      "早期动画": 546,
+      "漫画 / 角色": 403,
+      "童话 / 寓言": 97,
+      "动物 / 自然": 306,
+      "怪诞 / 魔法": 184,
+      "万圣节": 105,
+      "圣诞 / 冬季": 98,
+      "宗教 / 神话": 116,
+      "生活 / 节庆": 10
     }
   },
-  "catalogSha256": "571d4a9afb2b874e60834588c525dbbe8c7684fccbdabe9bf80349337ee211e9",
-  "relationsSha256": "ea4a5b46a35920cb0e524b028fafac6d3fedfe6d51d005d31c69ab5a0edbd9a3",
+  "catalogSha256": "5656847398d69f01209543c5b466f27efbbb935dfc5c2e2cf268edaff31375f7",
+  "relationsSha256": "e29c779c3a74e3f040f9857f5aeec4f9421119f3d15386261a4e24e0ccaba2a3",
   "relationCounts": {
-    "entities": 162,
-    "characters": 27,
+    "entities": 168,
+    "characters": 33,
     "subjectHubs": 10,
-    "works": 241,
-    "scenes": 110,
+    "works": 246,
+    "scenes": 128,
     "holidays": 8,
-    "records": 640
+    "records": 681
+  },
+  "supplemental": {
+    "sourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+    "workCount": 5,
+    "recordCount": 41
   },
   "exclusions": [
     "未续期待复核",

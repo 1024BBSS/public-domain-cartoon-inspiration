@@ -1,0 +1,755 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-16T02:50:01.060Z",
+  "work": {
+    "id": "work-somewhere-in-dreamland-be7e9b92",
+    "title": "Somewhere in Dreamland",
+    "subtitle": "Fleischer Color Classics · 登记于 1936",
+    "year": "1936",
+    "yearSort": 1936,
+    "coverImage": "images/33ff8d85598c8bfa6c8e.webp",
+    "coverRecordId": "catalog-supplement-somewhere-in-dreamland-1936",
+    "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "未续期"
+    ],
+    "copyrightRoutes": [
+      "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索"
+    ],
+    "evidenceLevels": [
+      "B"
+    ],
+    "imageRights": [
+      "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录"
+    ],
+    "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+    "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "圣诞 / 冬季",
+      "童话 / 寓言"
+    ],
+    "styles": [
+      "Fleischer Color Classics",
+      "糖果梦境",
+      "早期彩色动画"
+    ],
+    "scenes": [
+      "冬夜归家",
+      "贫困家庭",
+      "糖果梦境",
+      "互助赠予"
+    ],
+    "holidays": [
+      "圣诞 / 冬季"
+    ],
+    "characterNames": [
+      "Dreamland Siblings"
+    ],
+    "characterAliases": [
+      "Somewhere in Dreamland Siblings",
+      "梦境兄妹"
+    ],
+    "recordIds": [
+      "frame-supplement-somewhere-in-dreamland-1936-001",
+      "frame-supplement-somewhere-in-dreamland-1936-002",
+      "frame-supplement-somewhere-in-dreamland-1936-003",
+      "frame-supplement-somewhere-in-dreamland-1936-004",
+      "frame-supplement-somewhere-in-dreamland-1936-005",
+      "frame-supplement-somewhere-in-dreamland-1936-006",
+      "frame-supplement-somewhere-in-dreamland-1936-007",
+      "frame-supplement-somewhere-in-dreamland-1936-008",
+      "frame-supplement-somewhere-in-dreamland-1936-009",
+      "catalog-supplement-somewhere-in-dreamland-1936"
+    ],
+    "frameIds": [
+      "frame-supplement-somewhere-in-dreamland-1936-001",
+      "frame-supplement-somewhere-in-dreamland-1936-002",
+      "frame-supplement-somewhere-in-dreamland-1936-003",
+      "frame-supplement-somewhere-in-dreamland-1936-004",
+      "frame-supplement-somewhere-in-dreamland-1936-005",
+      "frame-supplement-somewhere-in-dreamland-1936-006",
+      "frame-supplement-somewhere-in-dreamland-1936-007",
+      "frame-supplement-somewhere-in-dreamland-1936-008",
+      "frame-supplement-somewhere-in-dreamland-1936-009"
+    ],
+    "masterIds": [
+      "catalog-supplement-somewhere-in-dreamland-1936"
+    ],
+    "imageCount": 9,
+    "frameCount": 9,
+    "awarenessScore": 41,
+    "entityIds": [
+      "role-dreamland-siblings-28c4e62e"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-dreamland-siblings-28c4e62e",
+      "name": "Dreamland Siblings",
+      "type": "角色",
+      "aliases": [
+        "梦境兄妹",
+        "Somewhere in Dreamland Siblings"
+      ],
+      "virtual": false,
+      "coverImage": "images/33ff8d85598c8bfa6c8e.webp",
+      "coverRecordId": "catalog-supplement-somewhere-in-dreamland-1936",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "workIds": [
+        "work-somewhere-in-dreamland-be7e9b92"
+      ],
+      "recordIds": [
+        "frame-supplement-somewhere-in-dreamland-1936-001",
+        "frame-supplement-somewhere-in-dreamland-1936-002",
+        "frame-supplement-somewhere-in-dreamland-1936-003",
+        "frame-supplement-somewhere-in-dreamland-1936-004",
+        "frame-supplement-somewhere-in-dreamland-1936-005",
+        "frame-supplement-somewhere-in-dreamland-1936-006",
+        "frame-supplement-somewhere-in-dreamland-1936-007",
+        "frame-supplement-somewhere-in-dreamland-1936-008",
+        "frame-supplement-somewhere-in-dreamland-1936-009",
+        "catalog-supplement-somewhere-in-dreamland-1936"
+      ],
+      "frameIds": [
+        "frame-supplement-somewhere-in-dreamland-1936-001",
+        "frame-supplement-somewhere-in-dreamland-1936-002",
+        "frame-supplement-somewhere-in-dreamland-1936-003",
+        "frame-supplement-somewhere-in-dreamland-1936-004",
+        "frame-supplement-somewhere-in-dreamland-1936-005",
+        "frame-supplement-somewhere-in-dreamland-1936-006",
+        "frame-supplement-somewhere-in-dreamland-1936-007",
+        "frame-supplement-somewhere-in-dreamland-1936-008",
+        "frame-supplement-somewhere-in-dreamland-1936-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "topScenes": [
+        {
+          "name": "冬夜归家",
+          "count": 10
+        },
+        {
+          "name": "互助赠予",
+          "count": 10
+        },
+        {
+          "name": "贫困家庭",
+          "count": 10
+        },
+        {
+          "name": "糖果梦境",
+          "count": 10
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "糖果梦境",
+          "count": 10
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 10
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 10
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "圣诞 / 冬季",
+          "count": 10
+        }
+      ],
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "awarenessScore": 41,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-001",
+      "kind": "动画画面",
+      "subtitle": "画面 001",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-18s",
+      "image": "images/33ff8d85598c8bfa6c8e.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-002",
+      "kind": "动画画面",
+      "subtitle": "画面 002",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-70s",
+      "image": "images/3fcb9414a1176270d1df.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-003",
+      "kind": "动画画面",
+      "subtitle": "画面 003",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-124s",
+      "image": "images/8e6eb13e9e7d646f5008.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-004",
+      "kind": "动画画面",
+      "subtitle": "画面 004",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-180s",
+      "image": "images/230063572cd422544c6d.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-005",
+      "kind": "动画画面",
+      "subtitle": "画面 005",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-238s",
+      "image": "images/afff4cef4926a05073b5.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-006",
+      "kind": "动画画面",
+      "subtitle": "画面 006",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-300s",
+      "image": "images/2b41d2c36dfcf45575d9.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-007",
+      "kind": "动画画面",
+      "subtitle": "画面 007",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-360s",
+      "image": "images/6b15e88f73d69104968d.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-008",
+      "kind": "动画画面",
+      "subtitle": "画面 008",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-420s",
+      "image": "images/e168612e5a3d9cc37e62.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-009",
+      "kind": "动画画面",
+      "subtitle": "画面 009",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-500s",
+      "image": "images/76de3e687ad742b9268a.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "catalog-supplement-somewhere-in-dreamland-1936",
+      "kind": "主档",
+      "subtitle": "Fleischer Color Classics · 登记于 1936",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935",
+      "image": "images/33ff8d85598c8bfa6c8e.webp"
+    }
+  ]
+}

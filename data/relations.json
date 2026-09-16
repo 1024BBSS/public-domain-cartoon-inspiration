@@ -1,16 +1,16 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "generatedAt": "2026-09-16T02:50:01.060Z",
   "scope": "由公开目录生成的角色、主体、作品、场景与节日关系层；权利状态继承具体记录，不扩大原结论。",
   "counts": {
-    "entities": 162,
-    "characters": 27,
+    "entities": 168,
+    "characters": 33,
     "subjectHubs": 10,
-    "works": 241,
-    "scenes": 110,
+    "works": 246,
+    "scenes": 128,
     "holidays": 8,
-    "records": 640
+    "records": 681
   },
   "entities": [
     {
@@ -469,14 +469,14 @@
       "relatedEntityIds": [
         "role-bimbo-c30ed973",
         "role-pudgy-eb70a784",
+        "role-grampy-d1dc168a",
         "role-prince-0300dc42",
         "role-继姐妹-00329fe3",
         "role-barnacle-bill-f9fea540",
         "role-koko-a30dbfea",
         "role-野生动物群像-13af1c6f",
         "role-餐厅动物群像-118f7c78",
-        "role-accordion-joe-64041640",
-        "role-grampy-d1dc168a"
+        "role-accordion-joe-64041640"
       ]
     },
     {
@@ -1956,6 +1956,325 @@
       ]
     },
     {
+      "id": "role-拟人玩具-ec0c6206",
+      "name": "拟人玩具",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/f6f31560e1dbee6eec6e.webp",
+      "coverRecordId": "catalog-supplement-christmas-comes-1936",
+      "yearStart": 1930,
+      "yearEnd": 1936,
+      "workIds": [
+        "work-midnight-in-a-toy-shop午夜玩具店-9eba6fb2",
+        "work-christmas-comes-but-once-a-year-d58e90af"
+      ],
+      "recordIds": [
+        "frame-midnight-toy-shop-1930-001",
+        "frame-midnight-toy-shop-1930-002",
+        "frame-midnight-toy-shop-1930-003",
+        "frame-midnight-toy-shop-1930-004",
+        "frame-midnight-toy-shop-1930-005",
+        "frame-midnight-toy-shop-1930-006",
+        "frame-midnight-toy-shop-1930-007",
+        "frame-midnight-toy-shop-1930-008",
+        "frame-midnight-toy-shop-1930-009",
+        "frame-midnight-toy-shop-1930-010",
+        "frame-midnight-toy-shop-1930-011",
+        "frame-midnight-toy-shop-1930-012",
+        "frame-midnight-toy-shop-1930-013",
+        "frame-midnight-toy-shop-1930-014",
+        "frame-midnight-toy-shop-1930-015",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009",
+        "catalog-supplement-christmas-comes-1936"
+      ],
+      "frameIds": [
+        "frame-midnight-toy-shop-1930-001",
+        "frame-midnight-toy-shop-1930-002",
+        "frame-midnight-toy-shop-1930-003",
+        "frame-midnight-toy-shop-1930-004",
+        "frame-midnight-toy-shop-1930-005",
+        "frame-midnight-toy-shop-1930-006",
+        "frame-midnight-toy-shop-1930-007",
+        "frame-midnight-toy-shop-1930-008",
+        "frame-midnight-toy-shop-1930-009",
+        "frame-midnight-toy-shop-1930-010",
+        "frame-midnight-toy-shop-1930-011",
+        "frame-midnight-toy-shop-1930-012",
+        "frame-midnight-toy-shop-1930-013",
+        "frame-midnight-toy-shop-1930-014",
+        "frame-midnight-toy-shop-1930-015",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009"
+      ],
+      "workCount": 2,
+      "imageCount": 24,
+      "frameCount": 24,
+      "rightsBreakdown": {
+        "期限届满": 1,
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "A",
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "圣诞 / 冬季",
+        "漫画 / 角色",
+        "生活 / 节庆"
+      ],
+      "topScenes": [
+        {
+          "name": "群像",
+          "count": 15
+        },
+        {
+          "name": "玩具店",
+          "count": 15
+        },
+        {
+          "name": "午夜",
+          "count": 15
+        },
+        {
+          "name": "追逐",
+          "count": 15
+        },
+        {
+          "name": "孤儿院",
+          "count": 10
+        },
+        {
+          "name": "集体舞蹈",
+          "count": 10
+        },
+        {
+          "name": "玩具修复工坊",
+          "count": 10
+        },
+        {
+          "name": "赠礼",
+          "count": 10
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "玩具奇想",
+          "count": 15
+        },
+        {
+          "name": "Silly Symphonies",
+          "count": 15
+        },
+        {
+          "name": "机械玩具",
+          "count": 10
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 10
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 10
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "圣诞 / 冬季",
+          "count": 25
+        }
+      ],
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "awarenessScore": 44,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "role-grampy-d1dc168a",
+        "role-蜘蛛-0053a539",
+        "role-christmas-comes-orphans-3dc6e7ed"
+      ]
+    },
+    {
+      "id": "role-grampy-d1dc168a",
+      "name": "Grampy",
+      "type": "角色",
+      "aliases": [
+        "格兰皮爷爷"
+      ],
+      "virtual": false,
+      "coverImage": "images/f6f31560e1dbee6eec6e.webp",
+      "coverRecordId": "catalog-supplement-christmas-comes-1936",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "workIds": [
+        "work-grampys-indoor-outing室内嘉年华-3545052d",
+        "work-christmas-comes-but-once-a-year-d58e90af"
+      ],
+      "recordIds": [
+        "frame-grampys-indoor-outing-1936-001",
+        "frame-grampys-indoor-outing-1936-002",
+        "frame-grampys-indoor-outing-1936-003",
+        "frame-grampys-indoor-outing-1936-004",
+        "frame-grampys-indoor-outing-1936-005",
+        "frame-grampys-indoor-outing-1936-006",
+        "frame-grampys-indoor-outing-1936-007",
+        "frame-grampys-indoor-outing-1936-008",
+        "frame-grampys-indoor-outing-1936-009",
+        "frame-grampys-indoor-outing-1936-010",
+        "frame-grampys-indoor-outing-1936-011",
+        "frame-grampys-indoor-outing-1936-012",
+        "frame-grampys-indoor-outing-1936-013",
+        "catalog-betty-grampys-indoor-outing-1936",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009",
+        "catalog-supplement-christmas-comes-1936"
+      ],
+      "frameIds": [
+        "frame-grampys-indoor-outing-1936-001",
+        "frame-grampys-indoor-outing-1936-002",
+        "frame-grampys-indoor-outing-1936-003",
+        "frame-grampys-indoor-outing-1936-004",
+        "frame-grampys-indoor-outing-1936-005",
+        "frame-grampys-indoor-outing-1936-006",
+        "frame-grampys-indoor-outing-1936-007",
+        "frame-grampys-indoor-outing-1936-008",
+        "frame-grampys-indoor-outing-1936-009",
+        "frame-grampys-indoor-outing-1936-010",
+        "frame-grampys-indoor-outing-1936-011",
+        "frame-grampys-indoor-outing-1936-012",
+        "frame-grampys-indoor-outing-1936-013",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009"
+      ],
+      "workCount": 2,
+      "imageCount": 22,
+      "frameCount": 22,
+      "rightsBreakdown": {
+        "未续期": 2
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期",
+        "未续期",
+        "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "topScenes": [
+        {
+          "name": "发明 / 机关",
+          "count": 14
+        },
+        {
+          "name": "家庭 / 室内",
+          "count": 14
+        },
+        {
+          "name": "嘉年华 / 马戏",
+          "count": 14
+        },
+        {
+          "name": "孤儿院",
+          "count": 10
+        },
+        {
+          "name": "集体舞蹈",
+          "count": 10
+        },
+        {
+          "name": "玩具修复工坊",
+          "count": 10
+        },
+        {
+          "name": "赠礼",
+          "count": 10
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 14
+        },
+        {
+          "name": "Fleischer 动画",
+          "count": 14
+        },
+        {
+          "name": "机械玩具",
+          "count": 10
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 10
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 10
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "雨天 / 居家",
+          "count": 14
+        },
+        {
+          "name": "圣诞 / 冬季",
+          "count": 10
+        }
+      ],
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "awarenessScore": 44,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "role-betty-boop-16ad409c",
+        "role-拟人玩具-ec0c6206",
+        "role-junior-ecc6252a",
+        "role-christmas-comes-orphans-3dc6e7ed"
+      ]
+    },
+    {
       "id": "role-继姐妹-00329fe3",
       "name": "继姐妹",
       "type": "群像 / 生物",
@@ -2521,111 +2840,6 @@
       "awarenessScore": 0,
       "sourceCount": 15,
       "relatedEntityIds": []
-    },
-    {
-      "id": "role-拟人玩具-ec0c6206",
-      "name": "拟人玩具",
-      "type": "群像 / 生物",
-      "aliases": [],
-      "virtual": false,
-      "coverImage": "images/981e8d8deea35a0b1fe8.webp",
-      "coverRecordId": "frame-midnight-toy-shop-1930-001",
-      "yearStart": 1930,
-      "yearEnd": 1930,
-      "workIds": [
-        "work-midnight-in-a-toy-shop午夜玩具店-9eba6fb2"
-      ],
-      "recordIds": [
-        "frame-midnight-toy-shop-1930-001",
-        "frame-midnight-toy-shop-1930-002",
-        "frame-midnight-toy-shop-1930-003",
-        "frame-midnight-toy-shop-1930-004",
-        "frame-midnight-toy-shop-1930-005",
-        "frame-midnight-toy-shop-1930-006",
-        "frame-midnight-toy-shop-1930-007",
-        "frame-midnight-toy-shop-1930-008",
-        "frame-midnight-toy-shop-1930-009",
-        "frame-midnight-toy-shop-1930-010",
-        "frame-midnight-toy-shop-1930-011",
-        "frame-midnight-toy-shop-1930-012",
-        "frame-midnight-toy-shop-1930-013",
-        "frame-midnight-toy-shop-1930-014",
-        "frame-midnight-toy-shop-1930-015"
-      ],
-      "frameIds": [
-        "frame-midnight-toy-shop-1930-001",
-        "frame-midnight-toy-shop-1930-002",
-        "frame-midnight-toy-shop-1930-003",
-        "frame-midnight-toy-shop-1930-004",
-        "frame-midnight-toy-shop-1930-005",
-        "frame-midnight-toy-shop-1930-006",
-        "frame-midnight-toy-shop-1930-007",
-        "frame-midnight-toy-shop-1930-008",
-        "frame-midnight-toy-shop-1930-009",
-        "frame-midnight-toy-shop-1930-010",
-        "frame-midnight-toy-shop-1930-011",
-        "frame-midnight-toy-shop-1930-012",
-        "frame-midnight-toy-shop-1930-013",
-        "frame-midnight-toy-shop-1930-014",
-        "frame-midnight-toy-shop-1930-015"
-      ],
-      "workCount": 1,
-      "imageCount": 15,
-      "frameCount": 15,
-      "rightsBreakdown": {
-        "期限届满": 1
-      },
-      "copyrightRoutes": [
-        "期限届满"
-      ],
-      "evidenceLevels": [
-        "A"
-      ],
-      "tags": [
-        "早期动画",
-        "圣诞 / 冬季"
-      ],
-      "topScenes": [
-        {
-          "name": "群像",
-          "count": 15
-        },
-        {
-          "name": "玩具店",
-          "count": 15
-        },
-        {
-          "name": "午夜",
-          "count": 15
-        },
-        {
-          "name": "追逐",
-          "count": 15
-        }
-      ],
-      "topStyles": [
-        {
-          "name": "玩具奇想",
-          "count": 15
-        },
-        {
-          "name": "Silly Symphonies",
-          "count": 15
-        }
-      ],
-      "topHolidays": [
-        {
-          "name": "圣诞 / 冬季",
-          "count": 15
-        }
-      ],
-      "usage": "Silly Symphonies · 玩具奇想 · 玩具店 · 午夜",
-      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
-      "awarenessScore": 0,
-      "sourceCount": 1,
-      "relatedEntityIds": [
-        "role-蜘蛛-0053a539"
-      ]
     },
     {
       "id": "role-消防队-24a0e885",
@@ -4148,106 +4362,6 @@
       "sourceCount": 1,
       "relatedEntityIds": [
         "role-betty-boop-16ad409c"
-      ]
-    },
-    {
-      "id": "role-grampy-d1dc168a",
-      "name": "Grampy",
-      "type": "角色",
-      "aliases": [],
-      "virtual": false,
-      "coverImage": "images/68cafbd15976ddf94f82.webp",
-      "coverRecordId": "catalog-betty-grampys-indoor-outing-1936",
-      "yearStart": 1936,
-      "yearEnd": 1936,
-      "workIds": [
-        "work-grampys-indoor-outing室内嘉年华-3545052d"
-      ],
-      "recordIds": [
-        "frame-grampys-indoor-outing-1936-001",
-        "frame-grampys-indoor-outing-1936-002",
-        "frame-grampys-indoor-outing-1936-003",
-        "frame-grampys-indoor-outing-1936-004",
-        "frame-grampys-indoor-outing-1936-005",
-        "frame-grampys-indoor-outing-1936-006",
-        "frame-grampys-indoor-outing-1936-007",
-        "frame-grampys-indoor-outing-1936-008",
-        "frame-grampys-indoor-outing-1936-009",
-        "frame-grampys-indoor-outing-1936-010",
-        "frame-grampys-indoor-outing-1936-011",
-        "frame-grampys-indoor-outing-1936-012",
-        "frame-grampys-indoor-outing-1936-013",
-        "catalog-betty-grampys-indoor-outing-1936"
-      ],
-      "frameIds": [
-        "frame-grampys-indoor-outing-1936-001",
-        "frame-grampys-indoor-outing-1936-002",
-        "frame-grampys-indoor-outing-1936-003",
-        "frame-grampys-indoor-outing-1936-004",
-        "frame-grampys-indoor-outing-1936-005",
-        "frame-grampys-indoor-outing-1936-006",
-        "frame-grampys-indoor-outing-1936-007",
-        "frame-grampys-indoor-outing-1936-008",
-        "frame-grampys-indoor-outing-1936-009",
-        "frame-grampys-indoor-outing-1936-010",
-        "frame-grampys-indoor-outing-1936-011",
-        "frame-grampys-indoor-outing-1936-012",
-        "frame-grampys-indoor-outing-1936-013"
-      ],
-      "workCount": 1,
-      "imageCount": 13,
-      "frameCount": 13,
-      "rightsBreakdown": {
-        "未续期": 1
-      },
-      "copyrightRoutes": [
-        "美国旧法未续期",
-        "未续期"
-      ],
-      "evidenceLevels": [
-        "B"
-      ],
-      "tags": [
-        "早期动画",
-        "漫画 / 角色"
-      ],
-      "topScenes": [
-        {
-          "name": "发明 / 机关",
-          "count": 14
-        },
-        {
-          "name": "家庭 / 室内",
-          "count": 14
-        },
-        {
-          "name": "嘉年华 / 马戏",
-          "count": 14
-        }
-      ],
-      "topStyles": [
-        {
-          "name": "橡皮管动画",
-          "count": 14
-        },
-        {
-          "name": "Fleischer 动画",
-          "count": 14
-        }
-      ],
-      "topHolidays": [
-        {
-          "name": "雨天 / 居家",
-          "count": 14
-        }
-      ],
-      "usage": "先以作品画面做版本拆解，再为每个拟用元素保留首现作品与帧号。",
-      "avoid": "不要把后期版本、新增角色特征、现代配色、Logo、修复新增或来源识别元素一并带入。",
-      "awarenessScore": 2,
-      "sourceCount": 1,
-      "relatedEntityIds": [
-        "role-betty-boop-16ad409c",
-        "role-junior-ecc6252a"
       ]
     },
     {
@@ -6289,6 +6403,211 @@
       "relatedEntityIds": []
     },
     {
+      "id": "role-christmas-comes-orphans-3dc6e7ed",
+      "name": "Christmas Comes Orphans",
+      "type": "角色",
+      "aliases": [
+        "圣诞孤儿院孩子群像",
+        "Christmas Comes Orphan Children"
+      ],
+      "virtual": false,
+      "coverImage": "images/f6f31560e1dbee6eec6e.webp",
+      "coverRecordId": "catalog-supplement-christmas-comes-1936",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "workIds": [
+        "work-christmas-comes-but-once-a-year-d58e90af"
+      ],
+      "recordIds": [
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009",
+        "catalog-supplement-christmas-comes-1936"
+      ],
+      "frameIds": [
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "topScenes": [
+        {
+          "name": "孤儿院",
+          "count": 10
+        },
+        {
+          "name": "集体舞蹈",
+          "count": 10
+        },
+        {
+          "name": "玩具修复工坊",
+          "count": 10
+        },
+        {
+          "name": "赠礼",
+          "count": 10
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "机械玩具",
+          "count": 10
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 10
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 10
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "圣诞 / 冬季",
+          "count": 10
+        }
+      ],
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "awarenessScore": 44,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-拟人玩具-ec0c6206",
+        "role-grampy-d1dc168a"
+      ]
+    },
+    {
+      "id": "role-dreamland-siblings-28c4e62e",
+      "name": "Dreamland Siblings",
+      "type": "角色",
+      "aliases": [
+        "梦境兄妹",
+        "Somewhere in Dreamland Siblings"
+      ],
+      "virtual": false,
+      "coverImage": "images/33ff8d85598c8bfa6c8e.webp",
+      "coverRecordId": "catalog-supplement-somewhere-in-dreamland-1936",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "workIds": [
+        "work-somewhere-in-dreamland-be7e9b92"
+      ],
+      "recordIds": [
+        "frame-supplement-somewhere-in-dreamland-1936-001",
+        "frame-supplement-somewhere-in-dreamland-1936-002",
+        "frame-supplement-somewhere-in-dreamland-1936-003",
+        "frame-supplement-somewhere-in-dreamland-1936-004",
+        "frame-supplement-somewhere-in-dreamland-1936-005",
+        "frame-supplement-somewhere-in-dreamland-1936-006",
+        "frame-supplement-somewhere-in-dreamland-1936-007",
+        "frame-supplement-somewhere-in-dreamland-1936-008",
+        "frame-supplement-somewhere-in-dreamland-1936-009",
+        "catalog-supplement-somewhere-in-dreamland-1936"
+      ],
+      "frameIds": [
+        "frame-supplement-somewhere-in-dreamland-1936-001",
+        "frame-supplement-somewhere-in-dreamland-1936-002",
+        "frame-supplement-somewhere-in-dreamland-1936-003",
+        "frame-supplement-somewhere-in-dreamland-1936-004",
+        "frame-supplement-somewhere-in-dreamland-1936-005",
+        "frame-supplement-somewhere-in-dreamland-1936-006",
+        "frame-supplement-somewhere-in-dreamland-1936-007",
+        "frame-supplement-somewhere-in-dreamland-1936-008",
+        "frame-supplement-somewhere-in-dreamland-1936-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "topScenes": [
+        {
+          "name": "冬夜归家",
+          "count": 10
+        },
+        {
+          "name": "互助赠予",
+          "count": 10
+        },
+        {
+          "name": "贫困家庭",
+          "count": 10
+        },
+        {
+          "name": "糖果梦境",
+          "count": 10
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "糖果梦境",
+          "count": 10
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 10
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 10
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "圣诞 / 冬季",
+          "count": 10
+        }
+      ],
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "awarenessScore": 41,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    },
+    {
       "id": "subject-winter-folk-figures",
       "name": "冬季民俗角色",
       "type": "文化题材",
@@ -6485,6 +6804,373 @@
       "avoid": "亚瑟母题古老，现代小说、电影角色造型仍受保护。",
       "awarenessScore": 0,
       "sourceCount": 7,
+      "relatedEntityIds": []
+    },
+    {
+      "id": "role-small-fry-2830f024",
+      "name": "Small Fry",
+      "type": "角色",
+      "aliases": [
+        "小鱼 Small Fry"
+      ],
+      "virtual": false,
+      "coverImage": "images/37e5d76be0caeed7808a.webp",
+      "coverRecordId": "catalog-supplement-small-fry-1939",
+      "yearStart": 1939,
+      "yearEnd": 1939,
+      "workIds": [
+        "work-small-fry-07d36a90"
+      ],
+      "recordIds": [
+        "frame-supplement-small-fry-1939-001",
+        "frame-supplement-small-fry-1939-002",
+        "frame-supplement-small-fry-1939-003",
+        "frame-supplement-small-fry-1939-004",
+        "frame-supplement-small-fry-1939-005",
+        "frame-supplement-small-fry-1939-006",
+        "catalog-supplement-small-fry-1939"
+      ],
+      "frameIds": [
+        "frame-supplement-small-fry-1939-001",
+        "frame-supplement-small-fry-1939-002",
+        "frame-supplement-small-fry-1939-003",
+        "frame-supplement-small-fry-1939-004",
+        "frame-supplement-small-fry-1939-005",
+        "frame-supplement-small-fry-1939-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "frameCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "水下俱乐部",
+          "count": 7
+        },
+        {
+          "name": "台球室",
+          "count": 7
+        },
+        {
+          "name": "小角色逆袭",
+          "count": 7
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "角色卡通",
+          "count": 7
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 7
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 7
+        }
+      ],
+      "topHolidays": [],
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "awarenessScore": 36,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    },
+    {
+      "id": "role-cobweb-hotel-fly-couple-30801d8f",
+      "name": "Cobweb Hotel Fly Couple",
+      "type": "角色",
+      "aliases": [
+        "苍蝇情侣",
+        "The Cobweb Hotel Fly Couple"
+      ],
+      "virtual": false,
+      "coverImage": "images/0011c968e8696732fecf.webp",
+      "coverRecordId": "catalog-supplement-cobweb-hotel-1936",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "workIds": [
+        "work-the-cobweb-hotel-15b03452"
+      ],
+      "recordIds": [
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006",
+        "catalog-supplement-cobweb-hotel-1936"
+      ],
+      "frameIds": [
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "frameCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "怪诞室内",
+          "count": 7
+        },
+        {
+          "name": "蜘蛛与苍蝇",
+          "count": 7
+        },
+        {
+          "name": "蛛网旅馆",
+          "count": 7
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "怪诞卡通",
+          "count": 7
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 7
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 7
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 7
+        }
+      ],
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "awarenessScore": 32,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-cobweb-hotel-spider-e1986568"
+      ]
+    },
+    {
+      "id": "role-cobweb-hotel-spider-e1986568",
+      "name": "Cobweb Hotel Spider",
+      "type": "角色",
+      "aliases": [
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Spider"
+      ],
+      "virtual": false,
+      "coverImage": "images/0011c968e8696732fecf.webp",
+      "coverRecordId": "catalog-supplement-cobweb-hotel-1936",
+      "yearStart": 1936,
+      "yearEnd": 1936,
+      "workIds": [
+        "work-the-cobweb-hotel-15b03452"
+      ],
+      "recordIds": [
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006",
+        "catalog-supplement-cobweb-hotel-1936"
+      ],
+      "frameIds": [
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "frameCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "怪诞室内",
+          "count": 7
+        },
+        {
+          "name": "蜘蛛与苍蝇",
+          "count": 7
+        },
+        {
+          "name": "蛛网旅馆",
+          "count": 7
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "怪诞卡通",
+          "count": 7
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 7
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 7
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 7
+        }
+      ],
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "awarenessScore": 32,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-cobweb-hotel-fly-couple-30801d8f"
+      ]
+    },
+    {
+      "id": "role-van-beuren-human-duo-2d6c075a",
+      "name": "Van Beuren Human Duo",
+      "type": "角色",
+      "aliases": [
+        "范伯伦人类搭档",
+        "Van Beuren 人类版 Tom & Jerry"
+      ],
+      "virtual": false,
+      "coverImage": "images/2a3558bde23c9e108ce1.webp",
+      "coverRecordId": "catalog-supplement-van-beuren-wot-a-night-1931",
+      "yearStart": 1931,
+      "yearEnd": 1931,
+      "workIds": [
+        "work-wot-a-night-cb97ee02"
+      ],
+      "recordIds": [
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006",
+        "catalog-supplement-van-beuren-wot-a-night-1931"
+      ],
+      "frameIds": [
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "frameCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "鬼屋",
+          "count": 7
+        },
+        {
+          "name": "双人搭档",
+          "count": 7
+        },
+        {
+          "name": "幽灵与骷髅",
+          "count": 7
+        },
+        {
+          "name": "雨夜旅程",
+          "count": 7
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "鬼屋喜剧",
+          "count": 7
+        },
+        {
+          "name": "黑白动画",
+          "count": 7
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 7
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 7
+        }
+      ],
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "awarenessScore": 28,
+      "sourceCount": 1,
       "relatedEntityIds": []
     },
     {
@@ -15803,6 +16489,420 @@
       "entityIds": [
         "role-mickey-mouse-ac752a50",
         "role-农场动物乐队-f8e4cfc2"
+      ]
+    },
+    {
+      "id": "work-christmas-comes-but-once-a-year-d58e90af",
+      "title": "Christmas Comes But Once a Year",
+      "subtitle": "Fleischer Color Classics · 1936",
+      "year": "1936",
+      "yearSort": 1936,
+      "coverImage": "images/f6f31560e1dbee6eec6e.webp",
+      "coverRecordId": "catalog-supplement-christmas-comes-1936",
+      "sourceUrl": "https://archive.org/details/Christmas_Comes_But_Once_A_Year_1936",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "未续期"
+      ],
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录"
+      ],
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "styles": [
+        "Fleischer Color Classics",
+        "机械玩具",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "孤儿院",
+        "玩具修复工坊",
+        "集体舞蹈",
+        "赠礼"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [
+        "Christmas Comes Orphans",
+        "拟人玩具",
+        "Grampy"
+      ],
+      "characterAliases": [
+        "Christmas Comes Orphan Children",
+        "圣诞孤儿院孩子群像",
+        "拟人玩具",
+        "Grampy",
+        "格兰皮爷爷"
+      ],
+      "recordIds": [
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009",
+        "catalog-supplement-christmas-comes-1936"
+      ],
+      "frameIds": [
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009"
+      ],
+      "masterIds": [
+        "catalog-supplement-christmas-comes-1936"
+      ],
+      "imageCount": 9,
+      "frameCount": 9,
+      "awarenessScore": 44,
+      "entityIds": [
+        "role-拟人玩具-ec0c6206",
+        "role-grampy-d1dc168a",
+        "role-christmas-comes-orphans-3dc6e7ed"
+      ]
+    },
+    {
+      "id": "work-somewhere-in-dreamland-be7e9b92",
+      "title": "Somewhere in Dreamland",
+      "subtitle": "Fleischer Color Classics · 登记于 1936",
+      "year": "1936",
+      "yearSort": 1936,
+      "coverImage": "images/33ff8d85598c8bfa6c8e.webp",
+      "coverRecordId": "catalog-supplement-somewhere-in-dreamland-1936",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "未续期"
+      ],
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录"
+      ],
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characterNames": [
+        "Dreamland Siblings"
+      ],
+      "characterAliases": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "recordIds": [
+        "frame-supplement-somewhere-in-dreamland-1936-001",
+        "frame-supplement-somewhere-in-dreamland-1936-002",
+        "frame-supplement-somewhere-in-dreamland-1936-003",
+        "frame-supplement-somewhere-in-dreamland-1936-004",
+        "frame-supplement-somewhere-in-dreamland-1936-005",
+        "frame-supplement-somewhere-in-dreamland-1936-006",
+        "frame-supplement-somewhere-in-dreamland-1936-007",
+        "frame-supplement-somewhere-in-dreamland-1936-008",
+        "frame-supplement-somewhere-in-dreamland-1936-009",
+        "catalog-supplement-somewhere-in-dreamland-1936"
+      ],
+      "frameIds": [
+        "frame-supplement-somewhere-in-dreamland-1936-001",
+        "frame-supplement-somewhere-in-dreamland-1936-002",
+        "frame-supplement-somewhere-in-dreamland-1936-003",
+        "frame-supplement-somewhere-in-dreamland-1936-004",
+        "frame-supplement-somewhere-in-dreamland-1936-005",
+        "frame-supplement-somewhere-in-dreamland-1936-006",
+        "frame-supplement-somewhere-in-dreamland-1936-007",
+        "frame-supplement-somewhere-in-dreamland-1936-008",
+        "frame-supplement-somewhere-in-dreamland-1936-009"
+      ],
+      "masterIds": [
+        "catalog-supplement-somewhere-in-dreamland-1936"
+      ],
+      "imageCount": 9,
+      "frameCount": 9,
+      "awarenessScore": 41,
+      "entityIds": [
+        "role-dreamland-siblings-28c4e62e"
+      ]
+    },
+    {
+      "id": "work-small-fry-07d36a90",
+      "title": "Small Fry",
+      "subtitle": "Fleischer Color Classics · 1939",
+      "year": "1939",
+      "yearSort": 1939,
+      "coverImage": "images/37e5d76be0caeed7808a.webp",
+      "coverRecordId": "catalog-supplement-small-fry-1939",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "未续期"
+      ],
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Internet Archive 影片关键帧；图源与作品版权分开记录"
+      ],
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characterNames": [
+        "Small Fry"
+      ],
+      "characterAliases": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "recordIds": [
+        "frame-supplement-small-fry-1939-001",
+        "frame-supplement-small-fry-1939-002",
+        "frame-supplement-small-fry-1939-003",
+        "frame-supplement-small-fry-1939-004",
+        "frame-supplement-small-fry-1939-005",
+        "frame-supplement-small-fry-1939-006",
+        "catalog-supplement-small-fry-1939"
+      ],
+      "frameIds": [
+        "frame-supplement-small-fry-1939-001",
+        "frame-supplement-small-fry-1939-002",
+        "frame-supplement-small-fry-1939-003",
+        "frame-supplement-small-fry-1939-004",
+        "frame-supplement-small-fry-1939-005",
+        "frame-supplement-small-fry-1939-006"
+      ],
+      "masterIds": [
+        "catalog-supplement-small-fry-1939"
+      ],
+      "imageCount": 6,
+      "frameCount": 6,
+      "awarenessScore": 36,
+      "entityIds": [
+        "role-small-fry-2830f024"
+      ]
+    },
+    {
+      "id": "work-the-cobweb-hotel-15b03452",
+      "title": "The Cobweb Hotel",
+      "subtitle": "Fleischer Color Classics · 1936",
+      "year": "1936",
+      "yearSort": 1936,
+      "coverImage": "images/0011c968e8696732fecf.webp",
+      "coverRecordId": "catalog-supplement-cobweb-hotel-1936",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "未续期"
+      ],
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Internet Archive 影片关键帧；图源与作品版权分开记录"
+      ],
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "Cobweb Hotel Spider",
+        "Cobweb Hotel Fly Couple"
+      ],
+      "characterAliases": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "recordIds": [
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006",
+        "catalog-supplement-cobweb-hotel-1936"
+      ],
+      "frameIds": [
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006"
+      ],
+      "masterIds": [
+        "catalog-supplement-cobweb-hotel-1936"
+      ],
+      "imageCount": 6,
+      "frameCount": 6,
+      "awarenessScore": 32,
+      "entityIds": [
+        "role-cobweb-hotel-spider-e1986568",
+        "role-cobweb-hotel-fly-couple-30801d8f"
+      ]
+    },
+    {
+      "id": "work-wot-a-night-cb97ee02",
+      "title": "Wot a Night",
+      "subtitle": "Van Beuren 人类搭档 · 1931",
+      "year": "1931",
+      "yearSort": 1931,
+      "coverImage": "images/2a3558bde23c9e108ce1.webp",
+      "coverRecordId": "catalog-supplement-van-beuren-wot-a-night-1931",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "未续期"
+      ],
+      "copyrightRoutes": [
+        "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "imageRights": [
+        "Internet Archive 影片关键帧；图源与作品版权分开记录"
+      ],
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "Van Beuren Human Duo"
+      ],
+      "characterAliases": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "recordIds": [
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006",
+        "catalog-supplement-van-beuren-wot-a-night-1931"
+      ],
+      "frameIds": [
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006"
+      ],
+      "masterIds": [
+        "catalog-supplement-van-beuren-wot-a-night-1931"
+      ],
+      "imageCount": 6,
+      "frameCount": 6,
+      "awarenessScore": 28,
+      "entityIds": [
+        "role-van-beuren-human-duo-2d6c075a"
       ]
     },
     {
@@ -31650,6 +32750,162 @@
       "yearStart": 1662
     },
     {
+      "id": "scene-冬夜归家-2ff053fa",
+      "name": "冬夜归家",
+      "type": "场景",
+      "coverImages": [
+        "images/33ff8d85598c8bfa6c8e.webp"
+      ],
+      "workIds": [
+        "work-somewhere-in-dreamland-be7e9b92"
+      ],
+      "entityIds": [
+        "role-dreamland-siblings-28c4e62e"
+      ],
+      "recordIds": [
+        "catalog-supplement-somewhere-in-dreamland-1936",
+        "frame-supplement-somewhere-in-dreamland-1936-001",
+        "frame-supplement-somewhere-in-dreamland-1936-002",
+        "frame-supplement-somewhere-in-dreamland-1936-003",
+        "frame-supplement-somewhere-in-dreamland-1936-004",
+        "frame-supplement-somewhere-in-dreamland-1936-005",
+        "frame-supplement-somewhere-in-dreamland-1936-006",
+        "frame-supplement-somewhere-in-dreamland-1936-007",
+        "frame-supplement-somewhere-in-dreamland-1936-008",
+        "frame-supplement-somewhere-in-dreamland-1936-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "yearStart": 1936
+    },
+    {
+      "id": "scene-孤儿院-5a39d364",
+      "name": "孤儿院",
+      "type": "场景",
+      "coverImages": [
+        "images/f6f31560e1dbee6eec6e.webp"
+      ],
+      "workIds": [
+        "work-christmas-comes-but-once-a-year-d58e90af"
+      ],
+      "entityIds": [
+        "role-拟人玩具-ec0c6206",
+        "role-grampy-d1dc168a",
+        "role-christmas-comes-orphans-3dc6e7ed"
+      ],
+      "recordIds": [
+        "catalog-supplement-christmas-comes-1936",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "yearStart": 1936
+    },
+    {
+      "id": "scene-互助赠予-d534a0de",
+      "name": "互助赠予",
+      "type": "场景",
+      "coverImages": [
+        "images/33ff8d85598c8bfa6c8e.webp"
+      ],
+      "workIds": [
+        "work-somewhere-in-dreamland-be7e9b92"
+      ],
+      "entityIds": [
+        "role-dreamland-siblings-28c4e62e"
+      ],
+      "recordIds": [
+        "catalog-supplement-somewhere-in-dreamland-1936",
+        "frame-supplement-somewhere-in-dreamland-1936-001",
+        "frame-supplement-somewhere-in-dreamland-1936-002",
+        "frame-supplement-somewhere-in-dreamland-1936-003",
+        "frame-supplement-somewhere-in-dreamland-1936-004",
+        "frame-supplement-somewhere-in-dreamland-1936-005",
+        "frame-supplement-somewhere-in-dreamland-1936-006",
+        "frame-supplement-somewhere-in-dreamland-1936-007",
+        "frame-supplement-somewhere-in-dreamland-1936-008",
+        "frame-supplement-somewhere-in-dreamland-1936-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "yearStart": 1936
+    },
+    {
+      "id": "scene-集体舞蹈-b5c1dcbc",
+      "name": "集体舞蹈",
+      "type": "场景",
+      "coverImages": [
+        "images/f6f31560e1dbee6eec6e.webp"
+      ],
+      "workIds": [
+        "work-christmas-comes-but-once-a-year-d58e90af"
+      ],
+      "entityIds": [
+        "role-拟人玩具-ec0c6206",
+        "role-grampy-d1dc168a",
+        "role-christmas-comes-orphans-3dc6e7ed"
+      ],
+      "recordIds": [
+        "catalog-supplement-christmas-comes-1936",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "yearStart": 1936
+    },
+    {
       "id": "scene-流放与救援-大战-战车上的伦理抉择-8f6530e6",
       "name": "流放与救援 → 大战 → 战车上的伦理抉择",
       "type": "场景",
@@ -31696,6 +32952,122 @@
       "yearStart": 1580
     },
     {
+      "id": "scene-贫困家庭-ee924c9f",
+      "name": "贫困家庭",
+      "type": "场景",
+      "coverImages": [
+        "images/33ff8d85598c8bfa6c8e.webp"
+      ],
+      "workIds": [
+        "work-somewhere-in-dreamland-be7e9b92"
+      ],
+      "entityIds": [
+        "role-dreamland-siblings-28c4e62e"
+      ],
+      "recordIds": [
+        "catalog-supplement-somewhere-in-dreamland-1936",
+        "frame-supplement-somewhere-in-dreamland-1936-001",
+        "frame-supplement-somewhere-in-dreamland-1936-002",
+        "frame-supplement-somewhere-in-dreamland-1936-003",
+        "frame-supplement-somewhere-in-dreamland-1936-004",
+        "frame-supplement-somewhere-in-dreamland-1936-005",
+        "frame-supplement-somewhere-in-dreamland-1936-006",
+        "frame-supplement-somewhere-in-dreamland-1936-007",
+        "frame-supplement-somewhere-in-dreamland-1936-008",
+        "frame-supplement-somewhere-in-dreamland-1936-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "yearStart": 1936
+    },
+    {
+      "id": "scene-糖果梦境-3020493b",
+      "name": "糖果梦境",
+      "type": "场景",
+      "coverImages": [
+        "images/33ff8d85598c8bfa6c8e.webp"
+      ],
+      "workIds": [
+        "work-somewhere-in-dreamland-be7e9b92"
+      ],
+      "entityIds": [
+        "role-dreamland-siblings-28c4e62e"
+      ],
+      "recordIds": [
+        "catalog-supplement-somewhere-in-dreamland-1936",
+        "frame-supplement-somewhere-in-dreamland-1936-001",
+        "frame-supplement-somewhere-in-dreamland-1936-002",
+        "frame-supplement-somewhere-in-dreamland-1936-003",
+        "frame-supplement-somewhere-in-dreamland-1936-004",
+        "frame-supplement-somewhere-in-dreamland-1936-005",
+        "frame-supplement-somewhere-in-dreamland-1936-006",
+        "frame-supplement-somewhere-in-dreamland-1936-007",
+        "frame-supplement-somewhere-in-dreamland-1936-008",
+        "frame-supplement-somewhere-in-dreamland-1936-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "yearStart": 1936
+    },
+    {
+      "id": "scene-玩具修复工坊-89698b00",
+      "name": "玩具修复工坊",
+      "type": "场景",
+      "coverImages": [
+        "images/f6f31560e1dbee6eec6e.webp"
+      ],
+      "workIds": [
+        "work-christmas-comes-but-once-a-year-d58e90af"
+      ],
+      "entityIds": [
+        "role-拟人玩具-ec0c6206",
+        "role-grampy-d1dc168a",
+        "role-christmas-comes-orphans-3dc6e7ed"
+      ],
+      "recordIds": [
+        "catalog-supplement-christmas-comes-1936",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "yearStart": 1936
+    },
+    {
       "id": "scene-印度教传统-3cc16957",
       "name": "印度教传统",
       "type": "场景",
@@ -31740,6 +33112,46 @@
         "宗教 / 神话"
       ],
       "yearStart": 1580
+    },
+    {
+      "id": "scene-赠礼-49287b74",
+      "name": "赠礼",
+      "type": "场景",
+      "coverImages": [
+        "images/f6f31560e1dbee6eec6e.webp"
+      ],
+      "workIds": [
+        "work-christmas-comes-but-once-a-year-d58e90af"
+      ],
+      "entityIds": [
+        "role-拟人玩具-ec0c6206",
+        "role-grampy-d1dc168a",
+        "role-christmas-comes-orphans-3dc6e7ed"
+      ],
+      "recordIds": [
+        "catalog-supplement-christmas-comes-1936",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "yearStart": 1936
     },
     {
       "id": "scene-长生仙境-八仙法器-星官与地方神-6f42c3a0",
@@ -32019,6 +33431,359 @@
         "宗教 / 神话"
       ],
       "yearStart": 1395
+    },
+    {
+      "id": "scene-怪诞室内-e36ee881",
+      "name": "怪诞室内",
+      "type": "场景",
+      "coverImages": [
+        "images/0011c968e8696732fecf.webp"
+      ],
+      "workIds": [
+        "work-the-cobweb-hotel-15b03452"
+      ],
+      "entityIds": [
+        "role-cobweb-hotel-spider-e1986568",
+        "role-cobweb-hotel-fly-couple-30801d8f"
+      ],
+      "recordIds": [
+        "catalog-supplement-cobweb-hotel-1936",
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "yearStart": 1936
+    },
+    {
+      "id": "scene-鬼屋-550de132",
+      "name": "鬼屋",
+      "type": "场景",
+      "coverImages": [
+        "images/2a3558bde23c9e108ce1.webp"
+      ],
+      "workIds": [
+        "work-wot-a-night-cb97ee02"
+      ],
+      "entityIds": [
+        "role-van-beuren-human-duo-2d6c075a"
+      ],
+      "recordIds": [
+        "catalog-supplement-van-beuren-wot-a-night-1931",
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "yearStart": 1931
+    },
+    {
+      "id": "scene-双人搭档-54cd7774",
+      "name": "双人搭档",
+      "type": "场景",
+      "coverImages": [
+        "images/2a3558bde23c9e108ce1.webp"
+      ],
+      "workIds": [
+        "work-wot-a-night-cb97ee02"
+      ],
+      "entityIds": [
+        "role-van-beuren-human-duo-2d6c075a"
+      ],
+      "recordIds": [
+        "catalog-supplement-van-beuren-wot-a-night-1931",
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "yearStart": 1931
+    },
+    {
+      "id": "scene-水下俱乐部-26cceb80",
+      "name": "水下俱乐部",
+      "type": "场景",
+      "coverImages": [
+        "images/37e5d76be0caeed7808a.webp"
+      ],
+      "workIds": [
+        "work-small-fry-07d36a90"
+      ],
+      "entityIds": [
+        "role-small-fry-2830f024"
+      ],
+      "recordIds": [
+        "catalog-supplement-small-fry-1939",
+        "frame-supplement-small-fry-1939-001",
+        "frame-supplement-small-fry-1939-002",
+        "frame-supplement-small-fry-1939-003",
+        "frame-supplement-small-fry-1939-004",
+        "frame-supplement-small-fry-1939-005",
+        "frame-supplement-small-fry-1939-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "yearStart": 1939
+    },
+    {
+      "id": "scene-台球室-900977d6",
+      "name": "台球室",
+      "type": "场景",
+      "coverImages": [
+        "images/37e5d76be0caeed7808a.webp"
+      ],
+      "workIds": [
+        "work-small-fry-07d36a90"
+      ],
+      "entityIds": [
+        "role-small-fry-2830f024"
+      ],
+      "recordIds": [
+        "catalog-supplement-small-fry-1939",
+        "frame-supplement-small-fry-1939-001",
+        "frame-supplement-small-fry-1939-002",
+        "frame-supplement-small-fry-1939-003",
+        "frame-supplement-small-fry-1939-004",
+        "frame-supplement-small-fry-1939-005",
+        "frame-supplement-small-fry-1939-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "yearStart": 1939
+    },
+    {
+      "id": "scene-小角色逆袭-625cc625",
+      "name": "小角色逆袭",
+      "type": "场景",
+      "coverImages": [
+        "images/37e5d76be0caeed7808a.webp"
+      ],
+      "workIds": [
+        "work-small-fry-07d36a90"
+      ],
+      "entityIds": [
+        "role-small-fry-2830f024"
+      ],
+      "recordIds": [
+        "catalog-supplement-small-fry-1939",
+        "frame-supplement-small-fry-1939-001",
+        "frame-supplement-small-fry-1939-002",
+        "frame-supplement-small-fry-1939-003",
+        "frame-supplement-small-fry-1939-004",
+        "frame-supplement-small-fry-1939-005",
+        "frame-supplement-small-fry-1939-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "yearStart": 1939
+    },
+    {
+      "id": "scene-幽灵与骷髅-ee3f3f21",
+      "name": "幽灵与骷髅",
+      "type": "场景",
+      "coverImages": [
+        "images/2a3558bde23c9e108ce1.webp"
+      ],
+      "workIds": [
+        "work-wot-a-night-cb97ee02"
+      ],
+      "entityIds": [
+        "role-van-beuren-human-duo-2d6c075a"
+      ],
+      "recordIds": [
+        "catalog-supplement-van-beuren-wot-a-night-1931",
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "yearStart": 1931
+    },
+    {
+      "id": "scene-雨夜旅程-a32090a7",
+      "name": "雨夜旅程",
+      "type": "场景",
+      "coverImages": [
+        "images/2a3558bde23c9e108ce1.webp"
+      ],
+      "workIds": [
+        "work-wot-a-night-cb97ee02"
+      ],
+      "entityIds": [
+        "role-van-beuren-human-duo-2d6c075a"
+      ],
+      "recordIds": [
+        "catalog-supplement-van-beuren-wot-a-night-1931",
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "yearStart": 1931
+    },
+    {
+      "id": "scene-蜘蛛与苍蝇-55370c11",
+      "name": "蜘蛛与苍蝇",
+      "type": "场景",
+      "coverImages": [
+        "images/0011c968e8696732fecf.webp"
+      ],
+      "workIds": [
+        "work-the-cobweb-hotel-15b03452"
+      ],
+      "entityIds": [
+        "role-cobweb-hotel-spider-e1986568",
+        "role-cobweb-hotel-fly-couple-30801d8f"
+      ],
+      "recordIds": [
+        "catalog-supplement-cobweb-hotel-1936",
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "yearStart": 1936
+    },
+    {
+      "id": "scene-蛛网旅馆-7aca3fe9",
+      "name": "蛛网旅馆",
+      "type": "场景",
+      "coverImages": [
+        "images/0011c968e8696732fecf.webp"
+      ],
+      "workIds": [
+        "work-the-cobweb-hotel-15b03452"
+      ],
+      "entityIds": [
+        "role-cobweb-hotel-spider-e1986568",
+        "role-cobweb-hotel-fly-couple-30801d8f"
+      ],
+      "recordIds": [
+        "catalog-supplement-cobweb-hotel-1936",
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "yearStart": 1936
     },
     {
       "id": "scene-丰饶与战争女神-英雄史诗-生死追问-5ab70223",
@@ -32973,7 +34738,9 @@
         "work-the-black-cat-ce04f79f",
         "work-mysterious-mose夜间怪谈-06a0b703",
         "work-the-gorilla-mystery猩猩谜案-023ad571",
-        "work-night月夜森林-bf8f3b19"
+        "work-night月夜森林-bf8f3b19",
+        "work-the-cobweb-hotel-15b03452",
+        "work-wot-a-night-cb97ee02"
       ],
       "entityIds": [
         "role-dracula-0544a724",
@@ -32995,7 +34762,10 @@
         "role-minnie-mouse-b07065a5",
         "role-gorilla-ccbe2268",
         "role-森林生物-ad5b625b",
-        "role-夜行动物-1bfa79de"
+        "role-夜行动物-1bfa79de",
+        "role-cobweb-hotel-spider-e1986568",
+        "role-cobweb-hotel-fly-couple-30801d8f",
+        "role-van-beuren-human-duo-2d6c075a"
       ],
       "recordIds": [
         "catalog-dracula",
@@ -33078,13 +34848,27 @@
         "frame-pudgy-picks-a-fight-1937-011",
         "frame-pudgy-picks-a-fight-1937-012",
         "frame-pudgy-picks-a-fight-1937-013",
-        "frame-pudgy-picks-a-fight-1937-014"
+        "frame-pudgy-picks-a-fight-1937-014",
+        "catalog-supplement-cobweb-hotel-1936",
+        "frame-supplement-cobweb-hotel-1936-001",
+        "frame-supplement-cobweb-hotel-1936-002",
+        "frame-supplement-cobweb-hotel-1936-003",
+        "frame-supplement-cobweb-hotel-1936-004",
+        "frame-supplement-cobweb-hotel-1936-005",
+        "frame-supplement-cobweb-hotel-1936-006",
+        "catalog-supplement-van-beuren-wot-a-night-1931",
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006"
       ],
-      "workCount": 29,
-      "imageCount": 80,
+      "workCount": 31,
+      "imageCount": 92,
       "rightsBreakdown": {
         "期限届满": 4,
-        "未续期": 1,
+        "未续期": 3,
         "公版 / 开放馆藏": 24
       },
       "tags": [
@@ -33125,7 +34909,9 @@
         "work-twelfth-night-characters-ee156f21",
         "work-winter雪地动物-39a7c8f7",
         "work-midnight-in-a-toy-shop午夜玩具店-9eba6fb2",
-        "work-arctic-antics极地动物-e9f87d8d"
+        "work-arctic-antics极地动物-e9f87d8d",
+        "work-somewhere-in-dreamland-be7e9b92",
+        "work-christmas-comes-but-once-a-year-d58e90af"
       ],
       "entityIds": [
         "role-snow-white-29fcc6a6",
@@ -33140,7 +34926,10 @@
         "role-雪地动物群像-f97832eb",
         "role-蜘蛛-0053a539",
         "role-拟人玩具-ec0c6206",
-        "role-北极动物群像-d064e296"
+        "role-北极动物群像-d064e296",
+        "role-dreamland-siblings-28c4e62e",
+        "role-grampy-d1dc168a",
+        "role-christmas-comes-orphans-3dc6e7ed"
       ],
       "recordIds": [
         "catalog-snow-white",
@@ -33212,13 +35001,33 @@
         "frame-ker-choo-1932-010",
         "frame-ker-choo-1932-011",
         "frame-ker-choo-1932-012",
-        "frame-ker-choo-1932-013"
+        "frame-ker-choo-1932-013",
+        "catalog-supplement-somewhere-in-dreamland-1936",
+        "frame-supplement-somewhere-in-dreamland-1936-001",
+        "frame-supplement-somewhere-in-dreamland-1936-002",
+        "frame-supplement-somewhere-in-dreamland-1936-003",
+        "frame-supplement-somewhere-in-dreamland-1936-004",
+        "frame-supplement-somewhere-in-dreamland-1936-005",
+        "frame-supplement-somewhere-in-dreamland-1936-006",
+        "frame-supplement-somewhere-in-dreamland-1936-007",
+        "frame-supplement-somewhere-in-dreamland-1936-008",
+        "frame-supplement-somewhere-in-dreamland-1936-009",
+        "catalog-supplement-christmas-comes-1936",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009"
       ],
-      "workCount": 17,
-      "imageCount": 69,
+      "workCount": 19,
+      "imageCount": 87,
       "rightsBreakdown": {
         "期限届满": 6,
-        "未续期": 1,
+        "未续期": 3,
         "公版文件": 9,
         "CC0 / 公版开放馆藏": 1
       },
@@ -33229,7 +35038,8 @@
         "漫画 / 角色",
         "怪诞 / 魔法",
         "宗教 / 神话",
-        "动物 / 自然"
+        "动物 / 自然",
+        "生活 / 节庆"
       ],
       "yearStart": 1811
     },

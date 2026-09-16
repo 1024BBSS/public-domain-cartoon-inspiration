@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "generatedAt": "2026-09-16T02:50:01.060Z",
   "scope": "美国市场公版卡通视觉灵感；只含已确认期限届满、未续期、公共领域或 CC0 路径，排除待复核项。",
   "records": [
     {
@@ -24884,6 +24884,2325 @@
       "awarenessScore": 0,
       "awarenessLevel": "待复核",
       "image": "images/fa5f0cfbbd9fd6c2b3d2.webp"
+    },
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "catalog-supplement-small-fry-1939",
+      "kind": "主档",
+      "subtitle": "Fleischer Color Classics · 1939",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939",
+      "image": "images/37e5d76be0caeed7808a.webp"
+    },
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-small-fry-1939-001",
+      "kind": "动画画面",
+      "subtitle": "画面 001",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939#frame-105s",
+      "image": "images/37e5d76be0caeed7808a.webp"
+    },
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-small-fry-1939-002",
+      "kind": "动画画面",
+      "subtitle": "画面 002",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939#frame-165s",
+      "image": "images/49f2be6c90ff7694f18b.webp"
+    },
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-small-fry-1939-003",
+      "kind": "动画画面",
+      "subtitle": "画面 003",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939#frame-195s",
+      "image": "images/b717fccf0d5c41de6822.webp"
+    },
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-small-fry-1939-004",
+      "kind": "动画画面",
+      "subtitle": "画面 004",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939#frame-225s",
+      "image": "images/8f35f5447549739d4e6f.webp"
+    },
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-small-fry-1939-005",
+      "kind": "动画画面",
+      "subtitle": "画面 005",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939#frame-255s",
+      "image": "images/2843edcdbb9609a72638.webp"
+    },
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-small-fry-1939-006",
+      "kind": "动画画面",
+      "subtitle": "画面 006",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939#frame-345s",
+      "image": "images/81fa0876850dc4531f11.webp"
+    },
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "catalog-supplement-cobweb-hotel-1936",
+      "kind": "主档",
+      "subtitle": "Fleischer Color Classics · 1936",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic",
+      "image": "images/0011c968e8696732fecf.webp"
+    },
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-cobweb-hotel-1936-001",
+      "kind": "动画画面",
+      "subtitle": "画面 001",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic#frame-105s",
+      "image": "images/0011c968e8696732fecf.webp"
+    },
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-cobweb-hotel-1936-002",
+      "kind": "动画画面",
+      "subtitle": "画面 002",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic#frame-135s",
+      "image": "images/18509af8a58d4f04f267.webp"
+    },
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-cobweb-hotel-1936-003",
+      "kind": "动画画面",
+      "subtitle": "画面 003",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic#frame-165s",
+      "image": "images/563db3954c771a59a604.webp"
+    },
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-cobweb-hotel-1936-004",
+      "kind": "动画画面",
+      "subtitle": "画面 004",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic#frame-195s",
+      "image": "images/acdd45f0eae5b09d5c7c.webp"
+    },
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-cobweb-hotel-1936-005",
+      "kind": "动画画面",
+      "subtitle": "画面 005",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic#frame-225s",
+      "image": "images/a3e5f5625656f2f6f56e.webp"
+    },
+    {
+      "title": "The Cobweb Hotel",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6477 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取蜘蛛旅店老板、苍蝇情侣、蛛网旅馆和逃脱关系；适合万圣节怪诞叙事与双角色冲突。",
+      "avoid": "不要混入现代旅馆商标、后期修复配色或其他受保护蜘蛛角色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "怪诞卡通",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "蛛网旅馆",
+        "蜘蛛与苍蝇",
+        "怪诞室内"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "The Cobweb Hotel Spider",
+        "蛛网旅馆蜘蛛老板",
+        "The Cobweb Hotel Fly Couple",
+        "苍蝇情侣"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 32,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6477",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-cobweb-hotel-1936-006",
+      "kind": "动画画面",
+      "subtitle": "画面 006",
+      "sourceUrl": "https://archive.org/details/19360515TheCobwebHotelColorClassic#frame-375s",
+      "image": "images/811a3c8eec9857b95687.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "catalog-supplement-somewhere-in-dreamland-1936",
+      "kind": "主档",
+      "subtitle": "Fleischer Color Classics · 登记于 1936",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935",
+      "image": "images/33ff8d85598c8bfa6c8e.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-001",
+      "kind": "动画画面",
+      "subtitle": "画面 001",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-18s",
+      "image": "images/33ff8d85598c8bfa6c8e.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-002",
+      "kind": "动画画面",
+      "subtitle": "画面 002",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-70s",
+      "image": "images/3fcb9414a1176270d1df.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-003",
+      "kind": "动画画面",
+      "subtitle": "画面 003",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-124s",
+      "image": "images/8e6eb13e9e7d646f5008.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-004",
+      "kind": "动画画面",
+      "subtitle": "画面 004",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-180s",
+      "image": "images/230063572cd422544c6d.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-005",
+      "kind": "动画画面",
+      "subtitle": "画面 005",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-238s",
+      "image": "images/afff4cef4926a05073b5.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-006",
+      "kind": "动画画面",
+      "subtitle": "画面 006",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-300s",
+      "image": "images/2b41d2c36dfcf45575d9.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-007",
+      "kind": "动画画面",
+      "subtitle": "画面 007",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-360s",
+      "image": "images/6b15e88f73d69104968d.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-008",
+      "kind": "动画画面",
+      "subtitle": "画面 008",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-420s",
+      "image": "images/e168612e5a3d9cc37e62.webp"
+    },
+    {
+      "title": "Somewhere in Dreamland",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6128 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取兄妹轮廓、冬夜贫困与糖果梦境的反差；优先角色关系，不只使用糖果风景。",
+      "avoid": "不把作品标题当品牌主标；避开后期修复、重配色和非本片角色增量。",
+      "styles": [
+        "Fleischer Color Classics",
+        "糖果梦境",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "冬夜归家",
+        "贫困家庭",
+        "糖果梦境",
+        "互助赠予"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Somewhere in Dreamland Siblings",
+        "梦境兄妹"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "童话 / 寓言"
+      ],
+      "awarenessScore": 41,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6128",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "YEAR_LABEL_VARIANTS_1935_1936"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-somewhere-in-dreamland-1936-009",
+      "kind": "动画画面",
+      "subtitle": "画面 009",
+      "sourceUrl": "https://archive.org/details/somewhere-in-dreamland-1935#frame-500s",
+      "image": "images/76de3e687ad742b9268a.webp"
+    },
+    {
+      "title": "Christmas Comes But Once a Year",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "styles": [
+        "Fleischer Color Classics",
+        "机械玩具",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "孤儿院",
+        "玩具修复工坊",
+        "集体舞蹈",
+        "赠礼"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Christmas Comes Orphan Children",
+        "圣诞孤儿院孩子群像",
+        "拟人玩具",
+        "Grampy",
+        "格兰皮爷爷"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 44,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6950",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "catalog-supplement-christmas-comes-1936",
+      "kind": "主档",
+      "subtitle": "Fleischer Color Classics · 1936",
+      "sourceUrl": "https://archive.org/details/Christmas_Comes_But_Once_A_Year_1936",
+      "image": "images/f6f31560e1dbee6eec6e.webp"
+    },
+    {
+      "title": "Christmas Comes But Once a Year",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "styles": [
+        "Fleischer Color Classics",
+        "机械玩具",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "孤儿院",
+        "玩具修复工坊",
+        "集体舞蹈",
+        "赠礼"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Christmas Comes Orphan Children",
+        "圣诞孤儿院孩子群像",
+        "拟人玩具",
+        "Grampy",
+        "格兰皮爷爷"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 44,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6950",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-christmas-comes-1936-001",
+      "kind": "动画画面",
+      "subtitle": "画面 001",
+      "sourceUrl": "https://archive.org/details/Christmas_Comes_But_Once_A_Year_1936#frame-18s",
+      "image": "images/f6f31560e1dbee6eec6e.webp"
+    },
+    {
+      "title": "Christmas Comes But Once a Year",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "styles": [
+        "Fleischer Color Classics",
+        "机械玩具",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "孤儿院",
+        "玩具修复工坊",
+        "集体舞蹈",
+        "赠礼"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Christmas Comes Orphan Children",
+        "圣诞孤儿院孩子群像",
+        "拟人玩具",
+        "Grampy",
+        "格兰皮爷爷"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 44,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6950",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-christmas-comes-1936-002",
+      "kind": "动画画面",
+      "subtitle": "画面 002",
+      "sourceUrl": "https://archive.org/details/Christmas_Comes_But_Once_A_Year_1936#frame-62s",
+      "image": "images/3e1e604f7d37be0cda4c.webp"
+    },
+    {
+      "title": "Christmas Comes But Once a Year",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "styles": [
+        "Fleischer Color Classics",
+        "机械玩具",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "孤儿院",
+        "玩具修复工坊",
+        "集体舞蹈",
+        "赠礼"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Christmas Comes Orphan Children",
+        "圣诞孤儿院孩子群像",
+        "拟人玩具",
+        "Grampy",
+        "格兰皮爷爷"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 44,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6950",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-christmas-comes-1936-003",
+      "kind": "动画画面",
+      "subtitle": "画面 003",
+      "sourceUrl": "https://archive.org/details/Christmas_Comes_But_Once_A_Year_1936#frame-116s",
+      "image": "images/b23114159b6aeb36f080.webp"
+    },
+    {
+      "title": "Christmas Comes But Once a Year",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "styles": [
+        "Fleischer Color Classics",
+        "机械玩具",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "孤儿院",
+        "玩具修复工坊",
+        "集体舞蹈",
+        "赠礼"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Christmas Comes Orphan Children",
+        "圣诞孤儿院孩子群像",
+        "拟人玩具",
+        "Grampy",
+        "格兰皮爷爷"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 44,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6950",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-christmas-comes-1936-004",
+      "kind": "动画画面",
+      "subtitle": "画面 004",
+      "sourceUrl": "https://archive.org/details/Christmas_Comes_But_Once_A_Year_1936#frame-171s",
+      "image": "images/edec60c2e09ca069a4f9.webp"
+    },
+    {
+      "title": "Christmas Comes But Once a Year",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "styles": [
+        "Fleischer Color Classics",
+        "机械玩具",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "孤儿院",
+        "玩具修复工坊",
+        "集体舞蹈",
+        "赠礼"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Christmas Comes Orphan Children",
+        "圣诞孤儿院孩子群像",
+        "拟人玩具",
+        "Grampy",
+        "格兰皮爷爷"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 44,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6950",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-christmas-comes-1936-005",
+      "kind": "动画画面",
+      "subtitle": "画面 005",
+      "sourceUrl": "https://archive.org/details/Christmas_Comes_But_Once_A_Year_1936#frame-228s",
+      "image": "images/00f9a32b0cc0dadafd07.webp"
+    },
+    {
+      "title": "Christmas Comes But Once a Year",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "styles": [
+        "Fleischer Color Classics",
+        "机械玩具",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "孤儿院",
+        "玩具修复工坊",
+        "集体舞蹈",
+        "赠礼"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Christmas Comes Orphan Children",
+        "圣诞孤儿院孩子群像",
+        "拟人玩具",
+        "Grampy",
+        "格兰皮爷爷"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 44,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6950",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-christmas-comes-1936-006",
+      "kind": "动画画面",
+      "subtitle": "画面 006",
+      "sourceUrl": "https://archive.org/details/Christmas_Comes_But_Once_A_Year_1936#frame-284s",
+      "image": "images/039dbf01fddbb89aed9d.webp"
+    },
+    {
+      "title": "Christmas Comes But Once a Year",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "styles": [
+        "Fleischer Color Classics",
+        "机械玩具",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "孤儿院",
+        "玩具修复工坊",
+        "集体舞蹈",
+        "赠礼"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Christmas Comes Orphan Children",
+        "圣诞孤儿院孩子群像",
+        "拟人玩具",
+        "Grampy",
+        "格兰皮爷爷"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 44,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6950",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-christmas-comes-1936-007",
+      "kind": "动画画面",
+      "subtitle": "画面 007",
+      "sourceUrl": "https://archive.org/details/Christmas_Comes_But_Once_A_Year_1936#frame-343s",
+      "image": "images/e4973c03d55a45c0f5c1.webp"
+    },
+    {
+      "title": "Christmas Comes But Once a Year",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "styles": [
+        "Fleischer Color Classics",
+        "机械玩具",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "孤儿院",
+        "玩具修复工坊",
+        "集体舞蹈",
+        "赠礼"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Christmas Comes Orphan Children",
+        "圣诞孤儿院孩子群像",
+        "拟人玩具",
+        "Grampy",
+        "格兰皮爷爷"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 44,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6950",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-christmas-comes-1936-008",
+      "kind": "动画画面",
+      "subtitle": "画面 008",
+      "sourceUrl": "https://archive.org/details/Christmas_Comes_But_Once_A_Year_1936#frame-418s",
+      "image": "images/e1d38a5254aaa818b547.webp"
+    },
+    {
+      "title": "Christmas Comes But Once a Year",
+      "year": "1936",
+      "yearSort": 1936,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Eagle 内 Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "styles": [
+        "Fleischer Color Classics",
+        "机械玩具",
+        "早期彩色动画"
+      ],
+      "scenes": [
+        "孤儿院",
+        "玩具修复工坊",
+        "集体舞蹈",
+        "赠礼"
+      ],
+      "holidays": [
+        "圣诞 / 冬季"
+      ],
+      "characters": [
+        "Christmas Comes Orphan Children",
+        "圣诞孤儿院孩子群像",
+        "拟人玩具",
+        "Grampy",
+        "格兰皮爷爷"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "圣诞 / 冬季",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 44,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 6950",
+      "renewalSearch": "CCE Motion Pictures 1963–1964 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig91libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-christmas-comes-1936-009",
+      "kind": "动画画面",
+      "subtitle": "画面 009",
+      "sourceUrl": "https://archive.org/details/Christmas_Comes_But_Once_A_Year_1936#frame-480s",
+      "image": "images/33a4c160d200e6d1ad65.webp"
+    },
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "catalog-supplement-van-beuren-wot-a-night-1931",
+      "kind": "主档",
+      "subtitle": "Van Beuren 人类搭档 · 1931",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight",
+      "image": "images/2a3558bde23c9e108ce1.webp"
+    },
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-van-beuren-wot-a-night-1931-001",
+      "kind": "动画画面",
+      "subtitle": "画面 001",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight#frame-205s",
+      "image": "images/2a3558bde23c9e108ce1.webp"
+    },
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-van-beuren-wot-a-night-1931-002",
+      "kind": "动画画面",
+      "subtitle": "画面 002",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight#frame-215s",
+      "image": "images/9e49af1890b517685d2c.webp"
+    },
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-van-beuren-wot-a-night-1931-003",
+      "kind": "动画画面",
+      "subtitle": "画面 003",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight#frame-235s",
+      "image": "images/ee1ac68da9334682da2c.webp"
+    },
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-van-beuren-wot-a-night-1931-004",
+      "kind": "动画画面",
+      "subtitle": "画面 004",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight#frame-245s",
+      "image": "images/2874a19a81f3a9bc8e7c.webp"
+    },
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-van-beuren-wot-a-night-1931-005",
+      "kind": "动画画面",
+      "subtitle": "画面 005",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight#frame-285s",
+      "image": "images/b2f7bb7eeb651eb17932.webp"
+    },
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-van-beuren-wot-a-night-1931-006",
+      "kind": "动画画面",
+      "subtitle": "画面 006",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight#frame-365s",
+      "image": "images/8e39748d7f9b521b2aff.webp"
     }
   ]
 }

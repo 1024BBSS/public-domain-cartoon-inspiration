@@ -1,0 +1,532 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-16T02:50:01.060Z",
+  "work": {
+    "id": "work-small-fry-07d36a90",
+    "title": "Small Fry",
+    "subtitle": "Fleischer Color Classics · 1939",
+    "year": "1939",
+    "yearSort": 1939,
+    "coverImage": "images/37e5d76be0caeed7808a.webp",
+    "coverRecordId": "catalog-supplement-small-fry-1939",
+    "sourceUrl": "https://archive.org/details/SmallFry-1939",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "未续期"
+    ],
+    "copyrightRoutes": [
+      "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索"
+    ],
+    "evidenceLevels": [
+      "B"
+    ],
+    "imageRights": [
+      "Internet Archive 影片关键帧；图源与作品版权分开记录"
+    ],
+    "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+    "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "Fleischer Color Classics",
+      "早期彩色动画",
+      "角色卡通"
+    ],
+    "scenes": [
+      "水下俱乐部",
+      "台球室",
+      "小角色逆袭"
+    ],
+    "holidays": [],
+    "characterNames": [
+      "Small Fry"
+    ],
+    "characterAliases": [
+      "Small Fry",
+      "小鱼 Small Fry"
+    ],
+    "recordIds": [
+      "frame-supplement-small-fry-1939-001",
+      "frame-supplement-small-fry-1939-002",
+      "frame-supplement-small-fry-1939-003",
+      "frame-supplement-small-fry-1939-004",
+      "frame-supplement-small-fry-1939-005",
+      "frame-supplement-small-fry-1939-006",
+      "catalog-supplement-small-fry-1939"
+    ],
+    "frameIds": [
+      "frame-supplement-small-fry-1939-001",
+      "frame-supplement-small-fry-1939-002",
+      "frame-supplement-small-fry-1939-003",
+      "frame-supplement-small-fry-1939-004",
+      "frame-supplement-small-fry-1939-005",
+      "frame-supplement-small-fry-1939-006"
+    ],
+    "masterIds": [
+      "catalog-supplement-small-fry-1939"
+    ],
+    "imageCount": 6,
+    "frameCount": 6,
+    "awarenessScore": 36,
+    "entityIds": [
+      "role-small-fry-2830f024"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-small-fry-2830f024",
+      "name": "Small Fry",
+      "type": "角色",
+      "aliases": [
+        "小鱼 Small Fry"
+      ],
+      "virtual": false,
+      "coverImage": "images/37e5d76be0caeed7808a.webp",
+      "coverRecordId": "catalog-supplement-small-fry-1939",
+      "yearStart": 1939,
+      "yearEnd": 1939,
+      "workIds": [
+        "work-small-fry-07d36a90"
+      ],
+      "recordIds": [
+        "frame-supplement-small-fry-1939-001",
+        "frame-supplement-small-fry-1939-002",
+        "frame-supplement-small-fry-1939-003",
+        "frame-supplement-small-fry-1939-004",
+        "frame-supplement-small-fry-1939-005",
+        "frame-supplement-small-fry-1939-006",
+        "catalog-supplement-small-fry-1939"
+      ],
+      "frameIds": [
+        "frame-supplement-small-fry-1939-001",
+        "frame-supplement-small-fry-1939-002",
+        "frame-supplement-small-fry-1939-003",
+        "frame-supplement-small-fry-1939-004",
+        "frame-supplement-small-fry-1939-005",
+        "frame-supplement-small-fry-1939-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "frameCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "水下俱乐部",
+          "count": 7
+        },
+        {
+          "name": "台球室",
+          "count": 7
+        },
+        {
+          "name": "小角色逆袭",
+          "count": 7
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "角色卡通",
+          "count": 7
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 7
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 7
+        }
+      ],
+      "topHolidays": [],
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "awarenessScore": 36,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-small-fry-1939-001",
+      "kind": "动画画面",
+      "subtitle": "画面 001",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939#frame-105s",
+      "image": "images/37e5d76be0caeed7808a.webp"
+    },
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-small-fry-1939-002",
+      "kind": "动画画面",
+      "subtitle": "画面 002",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939#frame-165s",
+      "image": "images/49f2be6c90ff7694f18b.webp"
+    },
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-small-fry-1939-003",
+      "kind": "动画画面",
+      "subtitle": "画面 003",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939#frame-195s",
+      "image": "images/b717fccf0d5c41de6822.webp"
+    },
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-small-fry-1939-004",
+      "kind": "动画画面",
+      "subtitle": "画面 004",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939#frame-225s",
+      "image": "images/8f35f5447549739d4e6f.webp"
+    },
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-small-fry-1939-005",
+      "kind": "动画画面",
+      "subtitle": "画面 005",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939#frame-255s",
+      "image": "images/2843edcdbb9609a72638.webp"
+    },
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-small-fry-1939-006",
+      "kind": "动画画面",
+      "subtitle": "画面 006",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939#frame-345s",
+      "image": "images/81fa0876850dc4531f11.webp"
+    },
+    {
+      "title": "Small Fry",
+      "year": "1939",
+      "yearSort": 1939,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · M 9333 · 续期窗 1966–1967 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取圆头、头顶鳍、工装裤和小个子逆袭关系；适合单角色徽章、俱乐部场景和复古水下叙事。",
+      "avoid": "主题曲权利另算；只使用本片具体造型，不沿用后期改造或现代修复配色。",
+      "styles": [
+        "Fleischer Color Classics",
+        "早期彩色动画",
+        "角色卡通"
+      ],
+      "scenes": [
+        "水下俱乐部",
+        "台球室",
+        "小角色逆袭"
+      ],
+      "holidays": [],
+      "characters": [
+        "Small Fry",
+        "小鱼 Small Fry"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 36,
+      "awarenessLevel": "低",
+      "registrationNumber": "M 9333",
+      "renewalSearch": "CCE Motion Pictures 1966–1967 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyrig121libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "MUSIC_RIGHTS_SEPARATE",
+        "WORK_VERSION_ONLY"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "catalog-supplement-small-fry-1939",
+      "kind": "主档",
+      "subtitle": "Fleischer Color Classics · 1939",
+      "sourceUrl": "https://archive.org/details/SmallFry-1939",
+      "image": "images/37e5d76be0caeed7808a.webp"
+    }
+  ]
+}

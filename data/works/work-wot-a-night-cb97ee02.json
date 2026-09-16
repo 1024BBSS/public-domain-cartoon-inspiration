@@ -1,0 +1,589 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-16T02:50:01.060Z",
+  "work": {
+    "id": "work-wot-a-night-cb97ee02",
+    "title": "Wot a Night",
+    "subtitle": "Van Beuren 人类搭档 · 1931",
+    "year": "1931",
+    "yearSort": 1931,
+    "coverImage": "images/2a3558bde23c9e108ce1.webp",
+    "coverRecordId": "catalog-supplement-van-beuren-wot-a-night-1931",
+    "sourceUrl": "https://archive.org/details/TomAndJerryWotANight",
+    "sourceLabel": "Internet Archive",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "未续期"
+    ],
+    "copyrightRoutes": [
+      "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索"
+    ],
+    "evidenceLevels": [
+      "B"
+    ],
+    "imageRights": [
+      "Internet Archive 影片关键帧；图源与作品版权分开记录"
+    ],
+    "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+    "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+    "tags": [
+      "早期动画",
+      "漫画 / 角色",
+      "万圣节",
+      "怪诞 / 魔法"
+    ],
+    "styles": [
+      "橡皮管动画",
+      "鬼屋喜剧",
+      "黑白动画"
+    ],
+    "scenes": [
+      "鬼屋",
+      "双人搭档",
+      "幽灵与骷髅",
+      "雨夜旅程"
+    ],
+    "holidays": [
+      "万圣节"
+    ],
+    "characterNames": [
+      "Van Beuren Human Duo"
+    ],
+    "characterAliases": [
+      "Van Beuren 人类版 Tom & Jerry",
+      "范伯伦人类搭档"
+    ],
+    "recordIds": [
+      "frame-supplement-van-beuren-wot-a-night-1931-001",
+      "frame-supplement-van-beuren-wot-a-night-1931-002",
+      "frame-supplement-van-beuren-wot-a-night-1931-003",
+      "frame-supplement-van-beuren-wot-a-night-1931-004",
+      "frame-supplement-van-beuren-wot-a-night-1931-005",
+      "frame-supplement-van-beuren-wot-a-night-1931-006",
+      "catalog-supplement-van-beuren-wot-a-night-1931"
+    ],
+    "frameIds": [
+      "frame-supplement-van-beuren-wot-a-night-1931-001",
+      "frame-supplement-van-beuren-wot-a-night-1931-002",
+      "frame-supplement-van-beuren-wot-a-night-1931-003",
+      "frame-supplement-van-beuren-wot-a-night-1931-004",
+      "frame-supplement-van-beuren-wot-a-night-1931-005",
+      "frame-supplement-van-beuren-wot-a-night-1931-006"
+    ],
+    "masterIds": [
+      "catalog-supplement-van-beuren-wot-a-night-1931"
+    ],
+    "imageCount": 6,
+    "frameCount": 6,
+    "awarenessScore": 28,
+    "entityIds": [
+      "role-van-beuren-human-duo-2d6c075a"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-van-beuren-human-duo-2d6c075a",
+      "name": "Van Beuren Human Duo",
+      "type": "角色",
+      "aliases": [
+        "范伯伦人类搭档",
+        "Van Beuren 人类版 Tom & Jerry"
+      ],
+      "virtual": false,
+      "coverImage": "images/2a3558bde23c9e108ce1.webp",
+      "coverRecordId": "catalog-supplement-van-beuren-wot-a-night-1931",
+      "yearStart": 1931,
+      "yearEnd": 1931,
+      "workIds": [
+        "work-wot-a-night-cb97ee02"
+      ],
+      "recordIds": [
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006",
+        "catalog-supplement-van-beuren-wot-a-night-1931"
+      ],
+      "frameIds": [
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006"
+      ],
+      "workCount": 1,
+      "imageCount": 6,
+      "frameCount": 6,
+      "rightsBreakdown": {
+        "未续期": 1
+      },
+      "copyrightRoutes": [
+        "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索"
+      ],
+      "evidenceLevels": [
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "鬼屋",
+          "count": 7
+        },
+        {
+          "name": "双人搭档",
+          "count": 7
+        },
+        {
+          "name": "幽灵与骷髅",
+          "count": 7
+        },
+        {
+          "name": "雨夜旅程",
+          "count": 7
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "鬼屋喜剧",
+          "count": 7
+        },
+        {
+          "name": "黑白动画",
+          "count": 7
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 7
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 7
+        }
+      ],
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "awarenessScore": 28,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-van-beuren-wot-a-night-1931-001",
+      "kind": "动画画面",
+      "subtitle": "画面 001",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight#frame-205s",
+      "image": "images/2a3558bde23c9e108ce1.webp"
+    },
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-van-beuren-wot-a-night-1931-002",
+      "kind": "动画画面",
+      "subtitle": "画面 002",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight#frame-215s",
+      "image": "images/9e49af1890b517685d2c.webp"
+    },
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-van-beuren-wot-a-night-1931-003",
+      "kind": "动画画面",
+      "subtitle": "画面 003",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight#frame-235s",
+      "image": "images/ee1ac68da9334682da2c.webp"
+    },
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-van-beuren-wot-a-night-1931-004",
+      "kind": "动画画面",
+      "subtitle": "画面 004",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight#frame-245s",
+      "image": "images/2874a19a81f3a9bc8e7c.webp"
+    },
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-van-beuren-wot-a-night-1931-005",
+      "kind": "动画画面",
+      "subtitle": "画面 005",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight#frame-285s",
+      "image": "images/b2f7bb7eeb651eb17932.webp"
+    },
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "frame-supplement-van-beuren-wot-a-night-1931-006",
+      "kind": "动画画面",
+      "subtitle": "画面 006",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight#frame-365s",
+      "image": "images/8e39748d7f9b521b2aff.webp"
+    },
+    {
+      "title": "Wot a Night",
+      "year": "1931",
+      "yearSort": 1931,
+      "rightsStatus": "未续期",
+      "copyrightRoute": "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+      "evidenceLevel": "B",
+      "imageRights": "Internet Archive 影片关键帧；图源与作品版权分开记录",
+      "sourceLabel": "Internet Archive",
+      "licenseUrl": "",
+      "usage": "提取一高一矮的人类橡皮管搭档、微型帽、手套和鬼屋反应；适合双人轮廓与怪诞喜剧。",
+      "avoid": "绝非 MGM 猫鼠。不得使用猫鼠轮廓、经典猫鼠配色或 TOM AND JERRY 商品主标；剔除片中种族刻板表演。",
+      "styles": [
+        "橡皮管动画",
+        "鬼屋喜剧",
+        "黑白动画"
+      ],
+      "scenes": [
+        "鬼屋",
+        "双人搭档",
+        "幽灵与骷髅",
+        "雨夜旅程"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Van Beuren 人类版 Tom & Jerry",
+        "范伯伦人类搭档"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 28,
+      "awarenessLevel": "低",
+      "registrationNumber": "L 2468",
+      "renewalSearch": "CCE Motion Pictures 1958–1961 负向检索；商用前回读原卷",
+      "evidenceSources": [
+        "https://archive.org/details/catalogofcopyri41libr",
+        "https://www.copyright.gov/records/search.html"
+      ],
+      "riskFlags": [
+        "NOT_MGM_CAT_MOUSE",
+        "TOM_AND_JERRY_TRADEMARK_COLLISION_HIGH",
+        "NO_NAME_AS_PRODUCT_BRAND",
+        "RACIAL_STEREOTYPE_FRAMES_EXCLUDED"
+      ],
+      "researchDate": "2026-09-16",
+      "supplementalSourceVersion": "cartoon-ip-grok-clues-2026-09-16-v1",
+      "id": "catalog-supplement-van-beuren-wot-a-night-1931",
+      "kind": "主档",
+      "subtitle": "Van Beuren 人类搭档 · 1931",
+      "sourceUrl": "https://archive.org/details/TomAndJerryWotANight",
+      "image": "images/2a3558bde23c9e108ce1.webp"
+    }
+  ]
+}

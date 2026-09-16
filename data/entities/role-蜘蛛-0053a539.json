@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-15T15:54:17.646Z",
+  "generatedAt": "2026-09-16T02:50:01.060Z",
   "entity": {
     "id": "role-蜘蛛-0053a539",
     "name": "蜘蛛",
@@ -209,12 +209,13 @@
       "type": "群像 / 生物",
       "aliases": [],
       "virtual": false,
-      "coverImage": "images/981e8d8deea35a0b1fe8.webp",
-      "coverRecordId": "frame-midnight-toy-shop-1930-001",
+      "coverImage": "images/f6f31560e1dbee6eec6e.webp",
+      "coverRecordId": "catalog-supplement-christmas-comes-1936",
       "yearStart": 1930,
-      "yearEnd": 1930,
+      "yearEnd": 1936,
       "workIds": [
-        "work-midnight-in-a-toy-shop午夜玩具店-9eba6fb2"
+        "work-midnight-in-a-toy-shop午夜玩具店-9eba6fb2",
+        "work-christmas-comes-but-once-a-year-d58e90af"
       ],
       "recordIds": [
         "frame-midnight-toy-shop-1930-001",
@@ -231,7 +232,17 @@
         "frame-midnight-toy-shop-1930-012",
         "frame-midnight-toy-shop-1930-013",
         "frame-midnight-toy-shop-1930-014",
-        "frame-midnight-toy-shop-1930-015"
+        "frame-midnight-toy-shop-1930-015",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009",
+        "catalog-supplement-christmas-comes-1936"
       ],
       "frameIds": [
         "frame-midnight-toy-shop-1930-001",
@@ -248,23 +259,37 @@
         "frame-midnight-toy-shop-1930-012",
         "frame-midnight-toy-shop-1930-013",
         "frame-midnight-toy-shop-1930-014",
-        "frame-midnight-toy-shop-1930-015"
+        "frame-midnight-toy-shop-1930-015",
+        "frame-supplement-christmas-comes-1936-001",
+        "frame-supplement-christmas-comes-1936-002",
+        "frame-supplement-christmas-comes-1936-003",
+        "frame-supplement-christmas-comes-1936-004",
+        "frame-supplement-christmas-comes-1936-005",
+        "frame-supplement-christmas-comes-1936-006",
+        "frame-supplement-christmas-comes-1936-007",
+        "frame-supplement-christmas-comes-1936-008",
+        "frame-supplement-christmas-comes-1936-009"
       ],
-      "workCount": 1,
-      "imageCount": 15,
-      "frameCount": 15,
+      "workCount": 2,
+      "imageCount": 24,
+      "frameCount": 24,
       "rightsBreakdown": {
-        "期限届满": 1
+        "期限届满": 1,
+        "未续期": 1
       },
       "copyrightRoutes": [
-        "期限届满"
+        "期限届满",
+        "美国旧法未续期 · M 6950 · 续期窗 1963–1964 负向检索"
       ],
       "evidenceLevels": [
-        "A"
+        "A",
+        "B"
       ],
       "tags": [
         "早期动画",
-        "圣诞 / 冬季"
+        "圣诞 / 冬季",
+        "漫画 / 角色",
+        "生活 / 节庆"
       ],
       "topScenes": [
         {
@@ -282,6 +307,22 @@
         {
           "name": "追逐",
           "count": 15
+        },
+        {
+          "name": "孤儿院",
+          "count": 10
+        },
+        {
+          "name": "集体舞蹈",
+          "count": 10
+        },
+        {
+          "name": "玩具修复工坊",
+          "count": 10
+        },
+        {
+          "name": "赠礼",
+          "count": 10
         }
       ],
       "topStyles": [
@@ -292,20 +333,34 @@
         {
           "name": "Silly Symphonies",
           "count": 15
+        },
+        {
+          "name": "机械玩具",
+          "count": 10
+        },
+        {
+          "name": "早期彩色动画",
+          "count": 10
+        },
+        {
+          "name": "Fleischer Color Classics",
+          "count": 10
         }
       ],
       "topHolidays": [
         {
           "name": "圣诞 / 冬季",
-          "count": 15
+          "count": 25
         }
       ],
-      "usage": "Silly Symphonies · 玩具奇想 · 玩具店 · 午夜",
-      "avoid": "避开后期新增造型、现代修复、重新配色、品牌标志与易造成官方授权误认的商品化呈现。",
-      "awarenessScore": 0,
-      "sourceCount": 1,
+      "usage": "提取孤儿群像、破损玩具、修复工坊和集体舞蹈；优先玩具与孩子关系，不依赖 Grampy 名称。",
+      "avoid": "不把 Grampy 或片名当授权品牌；避开后期造型、现代修复与独立音乐素材。",
+      "awarenessScore": 44,
+      "sourceCount": 2,
       "relatedEntityIds": [
-        "role-蜘蛛-0053a539"
+        "role-grampy-d1dc168a",
+        "role-蜘蛛-0053a539",
+        "role-christmas-comes-orphans-3dc6e7ed"
       ]
     }
   ],
