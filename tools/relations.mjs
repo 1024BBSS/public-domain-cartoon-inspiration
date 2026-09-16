@@ -222,7 +222,7 @@ function buildWorks(records) {
     const masterLead = [...draft.masters].sort((a, b) => (b.awarenessScore || 0) - (a.awarenessScore || 0))[0];
     const lead = frameLead || masterLead || draft.records[0];
     const cover = masterLead || frameLead || lead;
-    const sourceUrl = lead.sourceUrl || masterLead?.sourceUrl || "";
+    const sourceUrl = masterLead?.sourceUrl || lead.sourceUrl || "";
     const characterAliases = unionFromRecords(draft.frames, "characters");
     const characterNames = compact(characterAliases.map(canonicalCharacter));
     return {
