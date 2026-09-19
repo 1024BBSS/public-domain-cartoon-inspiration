@@ -1,0 +1,292 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:17:24.041Z",
+  "entity": {
+    "id": "role-南瓜-85bc0873",
+    "name": "南瓜",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/326fef2fe15978d2de5d.webp",
+    "coverRecordId": "catalog-supplement-black-cat-pumpkin-detail-1910",
+    "yearStart": 1910,
+    "yearEnd": 1910,
+    "workIds": [
+      "work-black-cat-with-pumpkin-detail-86866d3d"
+    ],
+    "recordIds": [
+      "catalog-supplement-black-cat-pumpkin-detail-1910"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版文件": 1
+    },
+    "copyrightRoutes": [
+      "Wikimedia Commons · Public domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "动物 / 自然",
+      "图素裁切"
+    ],
+    "topScenes": [
+      {
+        "name": "黑猫、南瓜灯与月夜",
+        "count": 1
+      },
+      {
+        "name": "万圣节单体图素",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "复古明信片裁切",
+        "count": 1
+      },
+      {
+        "name": "颗粒印刷",
+        "count": 1
+      },
+      {
+        "name": "双主体",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "黑猫与南瓜紧密重叠，天然适合小面积双主体图；轮廓可压缩成三到四色。",
+    "avoid": "裁切图仍需回溯整张明信片；不要误称独立原创，也不要叠加现代角色特征。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-黑猫-10d5e79f"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-black-cat-with-pumpkin-detail-86866d3d",
+      "title": "Black Cat with Pumpkin — Detail",
+      "subtitle": "Unknown author Unknown author",
+      "year": "ca. 1910",
+      "yearSort": 1910,
+      "coverImage": "images/326fef2fe15978d2de5d.webp",
+      "coverRecordId": "catalog-supplement-black-cat-pumpkin-detail-1910",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_cat_with_pumpkin_art_detail,_%22A_Merry_Halloween.%22_(cropped).jpg",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Black_cat_with_pumpkin_art_detail,_%22A_Merry_Halloween.%22_(cropped).jpg",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Commons 文件页标记 Public domain"
+      ],
+      "usage": "黑猫与南瓜紧密重叠，天然适合小面积双主体图；轮廓可压缩成三到四色。",
+      "avoid": "裁切图仍需回溯整张明信片；不要误称独立原创，也不要叠加现代角色特征。",
+      "tags": [
+        "万圣节",
+        "动物 / 自然",
+        "图素裁切"
+      ],
+      "styles": [
+        "复古明信片裁切",
+        "双主体",
+        "颗粒印刷"
+      ],
+      "scenes": [
+        "黑猫、南瓜灯与月夜",
+        "万圣节单体图素"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "公版原图裁切图素"
+      ],
+      "motifs": [
+        "黑猫",
+        "南瓜",
+        "玉米秆"
+      ],
+      "actions": [
+        "黑猫蹲坐",
+        "回头凝视"
+      ],
+      "compositions": [
+        "双主体",
+        "方形图素",
+        "中心胸花"
+      ],
+      "colors": [
+        "黑",
+        "南瓜橙",
+        "玉米黄",
+        "草绿"
+      ],
+      "productionUses": [
+        "小胸花",
+        "袖口图",
+        "贴纸式图案"
+      ],
+      "sourceHashes": [
+        "f92ca5e0bc95d1a2231ddbaf48dd081ed98b3b8c77f44b3e5544f0f38e29bf9f"
+      ],
+      "characterNames": [
+        "黑猫",
+        "南瓜"
+      ],
+      "characterAliases": [
+        "黑猫",
+        "南瓜"
+      ],
+      "recordIds": [
+        "catalog-supplement-black-cat-pumpkin-detail-1910"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-supplement-black-cat-pumpkin-detail-1910"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-黑猫-10d5e79f",
+        "role-南瓜-85bc0873"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-黑猫-10d5e79f",
+      "name": "黑猫",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/7fda696cf589fb8cf2d4.webp",
+      "coverRecordId": "catalog-supplement-witch-pumpkin-cat-flight-1910",
+      "yearStart": 1910,
+      "yearEnd": 1910,
+      "workIds": [
+        "work-halloween-witch-jack-o-lantern-and-black-cat-4c644b2f",
+        "work-a-merry-halloween-three-jack-o-lanterns-c259219d",
+        "work-black-cat-with-pumpkin-detail-86866d3d"
+      ],
+      "recordIds": [
+        "catalog-supplement-witch-pumpkin-cat-flight-1910",
+        "catalog-supplement-merry-halloween-pumpkin-choir-1910",
+        "catalog-supplement-black-cat-pumpkin-detail-1910"
+      ],
+      "frameIds": [],
+      "workCount": 3,
+      "imageCount": 3,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 3
+      },
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "动物 / 自然",
+        "生活 / 节庆",
+        "角色 / 卡通",
+        "图素裁切"
+      ],
+      "topScenes": [
+        {
+          "name": "万圣节贺卡与民俗图像",
+          "count": 2
+        },
+        {
+          "name": "黑猫、南瓜灯与月夜",
+          "count": 1
+        },
+        {
+          "name": "南瓜灯与拟人角色",
+          "count": 1
+        },
+        {
+          "name": "女巫飞行与黑猫",
+          "count": 1
+        },
+        {
+          "name": "万圣节单体图素",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "复古贺卡",
+          "count": 2
+        },
+        {
+          "name": "彩色石印",
+          "count": 1
+        },
+        {
+          "name": "飞行叙事",
+          "count": 1
+        },
+        {
+          "name": "复古明信片裁切",
+          "count": 1
+        },
+        {
+          "name": "颗粒印刷",
+          "count": 1
+        },
+        {
+          "name": "拟人南瓜",
+          "count": 1
+        },
+        {
+          "name": "双主体",
+          "count": 1
+        },
+        {
+          "name": "舞台群像",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 3
+        }
+      ],
+      "usage": "用牵引关系把女巫、南瓜和猫串成一个动作；比静态符号拼贴更有叙事。",
+      "avoid": "只取历史明信片中的动作机制；避开现代影视女巫、具体演员脸和品牌角色。",
+      "awarenessScore": 0,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-女巫-a639054d",
+        "role-南瓜灯-acaa4309",
+        "role-南瓜灯三人组-955cb80e",
+        "role-南瓜-85bc0873"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

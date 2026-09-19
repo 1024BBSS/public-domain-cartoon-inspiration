@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T04:50:12.888Z",
+  "generatedAt": "2026-09-19T06:21:40.308Z",
   "scope": "美国市场公版卡通视觉灵感；只含已确认期限届满、未续期、公共领域或 CC0 路径，排除待复核项。",
   "records": [
     {
@@ -31133,6 +31133,1945 @@
       "subtitle": "1925 公版剧照",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Phantom_of_the_Opera_(1925)_-_9.jpg",
       "image": "images/7129838edda8ba076b4a.webp"
+    },
+    {
+      "title": "Pumpkinheads Heaven",
+      "year": "1901",
+      "yearSort": 1901,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:PumpkinheadsHeaven1901.jpg",
+      "usage": "把南瓜头当作一组有社会关系的角色，而不是单个符号；可转译为乐队、读报会或乡野俱乐部。",
+      "avoid": "不要沿用明信片原句；避免把历史摄影误称现代电影或品牌角色。",
+      "styles": [
+        "复古明信片",
+        "乡野怪诞",
+        "拟人群像"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "南瓜灯与拟人角色"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "南瓜头群像"
+      ],
+      "assetType": "摄影式节庆明信片",
+      "motifs": [
+        "南瓜头人物",
+        "稻草堆",
+        "乡野聚会"
+      ],
+      "actions": [
+        "围坐",
+        "阅读标牌",
+        "群体叙事"
+      ],
+      "compositions": [
+        "横向群像",
+        "舞台式中央构图",
+        "背部主图"
+      ],
+      "colors": [
+        "旧纸黄",
+        "南瓜橙",
+        "草木褐"
+      ],
+      "productionUses": [
+        "背部主图",
+        "复古拼贴",
+        "万圣节故事场景"
+      ],
+      "sourceHash": "97d2b3d3f96e74db45e49e21868a1f93f827a7c2d9a9dff7c74694e8ec247cd9",
+      "sourcePixels": "821x495",
+      "tags": [
+        "万圣节",
+        "生活 / 节庆",
+        "暗黑 / 怪诞"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:PumpkinheadsHeaven1901.jpg"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-pumpkinheads-heaven-1901",
+      "kind": "主档",
+      "subtitle": "Unknown creator",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PumpkinheadsHeaven1901.jpg",
+      "image": "images/cac4e7f6311b87c4dd77.webp"
+    },
+    {
+      "title": "A Thrilling Hallowe'en",
+      "year": "ca. 1910",
+      "yearSort": 1910,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:%22A_Thrilling_Hallowe%27en.%22_(Three_black_cats_flying_through_the_air_with_Jack-o-lanterns).jpg",
+      "usage": "飞行猫群与南瓜灯形成节奏队列；适合扁平化为三至五个重复动作。",
+      "avoid": "不要复制整张贺卡字排；避免套用现代黑猫角色、电影造型或品牌标识。",
+      "styles": [
+        "彩色石印",
+        "复古贺卡",
+        "夜空巡游"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "黑猫、南瓜灯与月夜"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "飞行黑猫群",
+        "南瓜幽灵"
+      ],
+      "assetType": "彩色万圣节明信片",
+      "motifs": [
+        "飞行黑猫",
+        "南瓜灯",
+        "满月",
+        "幽灵"
+      ],
+      "actions": [
+        "猫群飞行",
+        "幽灵抬举南瓜",
+        "环形巡游"
+      ],
+      "compositions": [
+        "纵向队列",
+        "圆月徽章",
+        "中心胸花"
+      ],
+      "colors": [
+        "夜蓝",
+        "南瓜橙",
+        "黑",
+        "月黄"
+      ],
+      "productionUses": [
+        "中心胸花",
+        "纵向背图",
+        "角色队列"
+      ],
+      "sourceHash": "e18879a93b9178d3829c0a21f006b34c1d93cc23448bf9cfa8902557b068d996",
+      "sourcePixels": "3840x6157",
+      "tags": [
+        "万圣节",
+        "动物 / 自然",
+        "暗黑 / 怪诞"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:%22A_Thrilling_Hallowe%27en.%22_(Three_black_cats_flying_through_the_air_with_Jack-o-lanterns).jpg"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-thrilling-halloween-cats-pumpkins-1910",
+      "kind": "主档",
+      "subtitle": "Unknown author Unknown author",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22A_Thrilling_Hallowe%27en.%22_(Three_black_cats_flying_through_the_air_with_Jack-o-lanterns).jpg",
+      "image": "images/3b3b38da722715ddb21e.webp"
+    },
+    {
+      "title": "Hallowe'en: Witch, Jack-o'-Lantern and Black Cat",
+      "year": "ca. 1910",
+      "yearSort": 1910,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:%22Hallowe%27en.%22_(A_Witch_riding_a_broomstick_being_pulled_by_a_jack-o-lantern_with_a_black_cat).jpg",
+      "usage": "用牵引关系把女巫、南瓜和猫串成一个动作；比静态符号拼贴更有叙事。",
+      "avoid": "只取历史明信片中的动作机制；避开现代影视女巫、具体演员脸和品牌角色。",
+      "styles": [
+        "彩色石印",
+        "复古贺卡",
+        "飞行叙事"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "女巫飞行与黑猫"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "女巫",
+        "黑猫",
+        "南瓜灯"
+      ],
+      "assetType": "彩色万圣节明信片",
+      "motifs": [
+        "女巫",
+        "飞行南瓜灯",
+        "黑猫",
+        "扫帚",
+        "月亮"
+      ],
+      "actions": [
+        "女巫骑扫帚",
+        "南瓜牵引",
+        "黑猫同行"
+      ],
+      "compositions": [
+        "横向飞行",
+        "单一叙事带",
+        "中心胸花"
+      ],
+      "colors": [
+        "南瓜橙",
+        "深绿",
+        "夜蓝",
+        "黑"
+      ],
+      "productionUses": [
+        "横向胸花",
+        "背部主图",
+        "飞行剪影"
+      ],
+      "sourceHash": "cd7f1bbc5ae78e6ed26b073deb912b479b2cd7c52ca46394e677852639713775",
+      "sourcePixels": "3840x2415",
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:%22Hallowe%27en.%22_(A_Witch_riding_a_broomstick_being_pulled_by_a_jack-o-lantern_with_a_black_cat).jpg"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-witch-pumpkin-cat-flight-1910",
+      "kind": "主档",
+      "subtitle": "Unknown author Unknown author",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Hallowe%27en.%22_(A_Witch_riding_a_broomstick_being_pulled_by_a_jack-o-lantern_with_a_black_cat).jpg",
+      "image": "images/7fda696cf589fb8cf2d4.webp"
+    },
+    {
+      "title": "A Merry Halloween: Three Jack-o'-Lanterns",
+      "year": "ca. 1910",
+      "yearSort": 1910,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:%22A_Merry_Halloween.%22_(Girl_blowing_a_horn_with_three_Jack-o-Lanterns).jpg",
+      "usage": "三只表情不同的南瓜灯可发展成乐队或合唱团；保留高低错落和表情差异。",
+      "avoid": "不要复制人物肖像与原文；避开后期影视南瓜角色和现代商标。",
+      "styles": [
+        "复古贺卡",
+        "拟人南瓜",
+        "舞台群像"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "南瓜灯与拟人角色"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "南瓜灯三人组",
+        "黑猫"
+      ],
+      "assetType": "彩色万圣节明信片",
+      "motifs": [
+        "三只南瓜灯",
+        "黑猫",
+        "新月",
+        "号角"
+      ],
+      "actions": [
+        "少女吹号",
+        "南瓜合唱",
+        "黑猫守候"
+      ],
+      "compositions": [
+        "横向四主体",
+        "舞台式队列",
+        "背部主图"
+      ],
+      "colors": [
+        "夜蓝",
+        "南瓜橙",
+        "稻草黄",
+        "黑"
+      ],
+      "productionUses": [
+        "南瓜角色组",
+        "音乐主题",
+        "复古横幅"
+      ],
+      "sourceHash": "b1e356f3ba71da34527e136f4df9b86b8527fe8c4f5c53679507ff987a4b14ce",
+      "sourcePixels": "3840x2472",
+      "tags": [
+        "万圣节",
+        "生活 / 节庆",
+        "角色 / 卡通"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:%22A_Merry_Halloween.%22_(Girl_blowing_a_horn_with_three_Jack-o-Lanterns).jpg"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-merry-halloween-pumpkin-choir-1910",
+      "kind": "主档",
+      "subtitle": "Unknown author Unknown author",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22A_Merry_Halloween.%22_(Girl_blowing_a_horn_with_three_Jack-o-Lanterns).jpg",
+      "image": "images/46fb38e4cf947a73e968.webp"
+    },
+    {
+      "title": "You Auto Have a Happy Hallowe'en",
+      "year": "1908",
+      "yearSort": 1908,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:%22You_Auto_Have_a_Happy_Hallowe%27en.%22_(Jack-O-Lantern_driving_a_car).jpg",
+      "usage": "把南瓜灯变成有职业和动作的司机；可发展交通工具、快递或夜间巡游系列。",
+      "avoid": "不要复制原句；不要加入现代汽车品牌、车标或可识别车型。",
+      "styles": [
+        "复古贺卡",
+        "拟人交通工具",
+        "幽默角色"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "南瓜灯与拟人角色"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "南瓜头司机"
+      ],
+      "assetType": "彩色万圣节明信片",
+      "motifs": [
+        "南瓜头司机",
+        "南瓜汽车",
+        "手套"
+      ],
+      "actions": [
+        "驾驶",
+        "挥手",
+        "向前冲"
+      ],
+      "compositions": [
+        "纵向单主体",
+        "徽章",
+        "中心胸花"
+      ],
+      "colors": [
+        "南瓜橙",
+        "车身红",
+        "黑",
+        "奶油白"
+      ],
+      "productionUses": [
+        "中心胸花",
+        "车队系列",
+        "幽默角色"
+      ],
+      "sourceHash": "0776f24a15a8f2a83ab04de0ddcdf23c71711791921d2b111f78f846570571e5",
+      "sourcePixels": "3840x5999",
+      "tags": [
+        "万圣节",
+        "角色 / 卡通",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:%22You_Auto_Have_a_Happy_Hallowe%27en.%22_(Jack-O-Lantern_driving_a_car).jpg"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-jackolantern-car-1908",
+      "kind": "主档",
+      "subtitle": "International Art Publishing Company",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22You_Auto_Have_a_Happy_Hallowe%27en.%22_(Jack-O-Lantern_driving_a_car).jpg",
+      "image": "images/dee510033c5df8488f4c.webp"
+    },
+    {
+      "title": "I Summon Up Remembrance of Things Past",
+      "year": "1915",
+      "yearSort": 1915,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:1910s-Witch-Cauldron-Halloween-Postcard-I-Summon-Up-Remembrance-1152x1536.jpg",
+      "usage": "画中画与上方小角色边框可拆成独立版式；坩埚蒸汽适合形成文字留白。",
+      "avoid": "不要照抄原句或签名；现代女巫品牌、魔法学校和影视道具不在范围内。",
+      "styles": [
+        "复古贺卡",
+        "画中画",
+        "魔法仪式"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "女巫、坩埚与仪式"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "坩埚女巫"
+      ],
+      "assetType": "彩色万圣节明信片",
+      "motifs": [
+        "女巫",
+        "坩埚",
+        "蒸汽",
+        "小精灵边框"
+      ],
+      "actions": [
+        "搅动坩埚",
+        "召唤记忆",
+        "围观"
+      ],
+      "compositions": [
+        "画中画",
+        "竖版徽章",
+        "边框"
+      ],
+      "colors": [
+        "南瓜橙",
+        "鼠尾草绿",
+        "黑",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "竖版胸花",
+        "塔罗牌式构图",
+        "边框装饰"
+      ],
+      "sourceHash": "169554a6f6b7854aaff4d47612fbbb0db39f7bf5a25aaa34cacca0ddaae7ba07",
+      "sourcePixels": "1152x1536",
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "版画 / 纹样"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:1910s-Witch-Cauldron-Halloween-Postcard-I-Summon-Up-Remembrance-1152x1536.jpg"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-witch-cauldron-remembrance-1915",
+      "kind": "主档",
+      "subtitle": "Pearl",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1910s-Witch-Cauldron-Halloween-Postcard-I-Summon-Up-Remembrance-1152x1536.jpg",
+      "image": "images/96db7d5fff329cc7630a.webp"
+    },
+    {
+      "title": "The Halloween Lantern Car",
+      "year": "1914",
+      "yearSort": 1914,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Halloween_Lantern_car_1914.jpg",
+      "usage": "车辆本身长着表情，乘客与车身形成多层角色；适合扁平化为万圣节巡游车。",
+      "avoid": "不要加入现代汽车品牌、影视角色或受保护的交通工具造型。",
+      "styles": [
+        "复古贺卡",
+        "拟人器物",
+        "节庆巡游"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "万圣节巡游与交通工具"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "灯笼车",
+        "南瓜乘客",
+        "女巫"
+      ],
+      "assetType": "彩色万圣节明信片",
+      "motifs": [
+        "灯笼车",
+        "南瓜乘客",
+        "女巫",
+        "猫头鹰",
+        "边框"
+      ],
+      "actions": [
+        "乘车巡游",
+        "向前行驶",
+        "动物陪伴"
+      ],
+      "compositions": [
+        "横向车辆",
+        "装饰边框",
+        "长条胸花"
+      ],
+      "colors": [
+        "奶油白",
+        "南瓜橙",
+        "灰绿",
+        "酒红"
+      ],
+      "productionUses": [
+        "横向胸花",
+        "节庆巡游",
+        "徽章边框"
+      ],
+      "sourceHash": "136f54787d0b1b1a51d9f6aa312cc0fdaed470799d9da00e93d3b3c9a18caf9d",
+      "sourcePixels": "1200x760",
+      "tags": [
+        "万圣节",
+        "器物 / 建筑",
+        "角色 / 卡通"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:The_Halloween_Lantern_car_1914.jpg"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-halloween-lantern-car-1914",
+      "kind": "主档",
+      "subtitle": "John Winslow",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Halloween_Lantern_car_1914.jpg",
+      "image": "images/ee5815db451d1e603a93.webp"
+    },
+    {
+      "title": "A Jolly Halloween: Black Cat Procession",
+      "year": "ca. 1900–1916",
+      "yearSort": 1900,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Jolly_Halloween_card_Black_Cats.jpg",
+      "usage": "黑猫以相同轮廓、不同提灯组成队列；适合做连续边饰或四到六只的行进图。",
+      "avoid": "不要复制贺卡标题；避免现代黑猫品牌角色和现成商品版式。",
+      "styles": [
+        "复古贺卡",
+        "角色队列",
+        "儿童节庆"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "黑猫、南瓜灯与月夜"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "尖帽黑猫队列"
+      ],
+      "assetType": "彩色万圣节明信片",
+      "motifs": [
+        "尖帽黑猫",
+        "南瓜提灯",
+        "扫帚",
+        "儿童"
+      ],
+      "actions": [
+        "猫群列队",
+        "提灯行进",
+        "儿童布置"
+      ],
+      "compositions": [
+        "横向队列",
+        "重复角色",
+        "背部主图"
+      ],
+      "colors": [
+        "黑",
+        "南瓜橙",
+        "扫帚黄",
+        "浅灰"
+      ],
+      "productionUses": [
+        "角色队列",
+        "重复纹样",
+        "长条胸花"
+      ],
+      "sourceHash": "de98c8f2742efde17dd324c106103f528ae36e072a3805d02a573eb19f0d92c3",
+      "sourcePixels": "1200x772",
+      "tags": [
+        "万圣节",
+        "动物 / 自然",
+        "角色 / 卡通"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:A_Jolly_Halloween_card_Black_Cats.jpg"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-jolly-halloween-black-cat-procession",
+      "kind": "主档",
+      "subtitle": "Not credited",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Jolly_Halloween_card_Black_Cats.jpg",
+      "image": "images/db3a39c9a96c01e2a66b.webp"
+    },
+    {
+      "title": "All Hallowe'en Card",
+      "year": "1911",
+      "yearSort": 1911,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:All_Hallween_Card_1911.jpg",
+      "usage": "月亮脸、猫头鹰与女巫形成上下三层结构；适合重构成纵向图章。",
+      "avoid": "不要沿用原诗文与整版排版；避开现代影视女巫和授权角色。",
+      "styles": [
+        "复古贺卡",
+        "月夜飞行",
+        "装饰字排"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "女巫飞行与黑猫"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "扫帚女巫",
+        "月亮脸",
+        "猫头鹰"
+      ],
+      "assetType": "彩色万圣节明信片",
+      "motifs": [
+        "女巫",
+        "扫帚",
+        "月亮脸",
+        "猫头鹰",
+        "星空"
+      ],
+      "actions": [
+        "女巫骑行",
+        "猫头鹰守望",
+        "月亮凝视"
+      ],
+      "compositions": [
+        "竖版主角",
+        "月亮徽章",
+        "装饰字排"
+      ],
+      "colors": [
+        "夜蓝",
+        "月黄",
+        "森林绿",
+        "南瓜橙"
+      ],
+      "productionUses": [
+        "竖版胸花",
+        "月夜徽章",
+        "女巫角色图"
+      ],
+      "sourceHash": "2fb65352d93954855de6b2be71af74677233b00d489a811660a92e2dc941a366",
+      "sourcePixels": "1200x1862",
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:All_Hallween_Card_1911.jpg"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-all-halloween-card-1911",
+      "kind": "主档",
+      "subtitle": "John Winsch",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:All_Hallween_Card_1911.jpg",
+      "image": "images/365e10da89c1e2bb99c7.webp"
+    },
+    {
+      "title": "Black Cat with Pumpkin — Detail",
+      "year": "ca. 1910",
+      "yearSort": 1910,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Black_cat_with_pumpkin_art_detail,_%22A_Merry_Halloween.%22_(cropped).jpg",
+      "usage": "黑猫与南瓜紧密重叠，天然适合小面积双主体图；轮廓可压缩成三到四色。",
+      "avoid": "裁切图仍需回溯整张明信片；不要误称独立原创，也不要叠加现代角色特征。",
+      "styles": [
+        "复古明信片裁切",
+        "双主体",
+        "颗粒印刷"
+      ],
+      "scenes": [
+        "黑猫、南瓜灯与月夜",
+        "万圣节单体图素"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "黑猫",
+        "南瓜"
+      ],
+      "assetType": "公版原图裁切图素",
+      "motifs": [
+        "黑猫",
+        "南瓜",
+        "玉米秆"
+      ],
+      "actions": [
+        "黑猫蹲坐",
+        "回头凝视"
+      ],
+      "compositions": [
+        "双主体",
+        "方形图素",
+        "中心胸花"
+      ],
+      "colors": [
+        "黑",
+        "南瓜橙",
+        "玉米黄",
+        "草绿"
+      ],
+      "productionUses": [
+        "小胸花",
+        "袖口图",
+        "贴纸式图案"
+      ],
+      "parentSourceId": "merry-halloween-pumpkin-choir-1910",
+      "sourceHash": "f92ca5e0bc95d1a2231ddbaf48dd081ed98b3b8c77f44b3e5544f0f38e29bf9f",
+      "sourcePixels": "1276x1193",
+      "tags": [
+        "万圣节",
+        "动物 / 自然",
+        "图素裁切"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:Black_cat_with_pumpkin_art_detail,_%22A_Merry_Halloween.%22_(cropped).jpg"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-black-cat-pumpkin-detail-1910",
+      "kind": "主档",
+      "subtitle": "Unknown author Unknown author",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_cat_with_pumpkin_art_detail,_%22A_Merry_Halloween.%22_(cropped).jpg",
+      "image": "images/326fef2fe15978d2de5d.webp"
+    },
+    {
+      "title": "Crescent Moon and Stars — Detail",
+      "year": "ca. 1910",
+      "yearSort": 1910,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Crescent_moon_and_stars_art_detail,_from-_%22A_Merry_Halloween.%22_(cropped).jpg",
+      "usage": "粗颗粒新月和不规则星点可以作为其他主角的环境底图，不必再叠加复杂场景。",
+      "avoid": "避免加入现代影视月亮脸、品牌星标或原贺卡文字。",
+      "styles": [
+        "复古明信片裁切",
+        "夜空图素",
+        "颗粒印刷"
+      ],
+      "scenes": [
+        "黑猫、南瓜灯与月夜",
+        "万圣节单体图素"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "新月与星星"
+      ],
+      "assetType": "公版原图裁切图素",
+      "motifs": [
+        "新月",
+        "星星",
+        "夜空"
+      ],
+      "actions": [
+        "新月悬浮"
+      ],
+      "compositions": [
+        "单主体",
+        "角落装饰",
+        "重复散点"
+      ],
+      "colors": [
+        "夜蓝",
+        "月黄",
+        "黑"
+      ],
+      "productionUses": [
+        "口袋小图",
+        "角落图素",
+        "满版散点"
+      ],
+      "parentSourceId": "merry-halloween-pumpkin-choir-1910",
+      "sourceHash": "5d0104b9d81e1889e715bd36263985aeb6e35ddb255d84443a04be410882b385",
+      "sourcePixels": "1189x944",
+      "tags": [
+        "万圣节",
+        "图素裁切",
+        "版画 / 纹样"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:Crescent_moon_and_stars_art_detail,_from-_%22A_Merry_Halloween.%22_(cropped).jpg"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-crescent-moon-stars-detail-1910",
+      "kind": "主档",
+      "subtitle": "Unknown author Unknown author",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crescent_moon_and_stars_art_detail,_from-_%22A_Merry_Halloween.%22_(cropped).jpg",
+      "image": "images/55b40053cd4714462681.webp"
+    },
+    {
+      "title": "Pumpkin, Witch, Black Cat and Bats",
+      "year": "ca. 1926",
+      "yearSort": 1926,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pumpkin,_Witch,_Black_Cat_postcard_circa_1926.png",
+      "usage": "同一画面把南瓜、猫、女巫、月亮和蝙蝠分层排布；适合拆成可组合的元素套件。",
+      "avoid": "不要复制原文；不要把任一元素改造成现代授权角色或影视标志物。",
+      "styles": [
+        "复古贺卡",
+        "扁平角色",
+        "横向舞台"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "黑猫、南瓜灯与月夜"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "女巫",
+        "黑猫群",
+        "南瓜灯队列",
+        "蝙蝠"
+      ],
+      "assetType": "彩色万圣节明信片",
+      "motifs": [
+        "南瓜灯队列",
+        "黑猫",
+        "女巫",
+        "月亮",
+        "蝙蝠"
+      ],
+      "actions": [
+        "女巫飞行",
+        "猫群聚集",
+        "南瓜排列"
+      ],
+      "compositions": [
+        "横向舞台",
+        "角色清单",
+        "长条胸花"
+      ],
+      "colors": [
+        "浅蓝",
+        "南瓜橙",
+        "黑",
+        "奶油白"
+      ],
+      "productionUses": [
+        "长条胸花",
+        "元素清单",
+        "儿童友好万圣节"
+      ],
+      "sourceHash": "55aa4a430cb945535163e092de16c81a7a063ba03e266bb88443b79e57ca6b46",
+      "sourcePixels": "1500x978",
+      "tags": [
+        "万圣节",
+        "角色 / 卡通",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:Pumpkin,_Witch,_Black_Cat_postcard_circa_1926.png"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-pumpkin-witch-cat-bat-postcard-1926",
+      "kind": "主档",
+      "subtitle": "Unknown author Unknown author",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pumpkin,_Witch,_Black_Cat_postcard_circa_1926.png",
+      "image": "images/6b48a04ea3f4a44a7161.webp"
+    },
+    {
+      "title": "A Bat Flying near a Pine Tree",
+      "year": "19th century",
+      "yearSort": 1800,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC Open Access · CC0 Public Domain Designation",
+      "evidenceLevel": "A",
+      "imageRights": "AIC API 标记 is_public_domain=true",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "usage": "蝙蝠翼膜与松针形成软硬线条对照；适合单色重绘，不必套用西方吸血鬼语义。",
+      "avoid": "尊重原作文化语境；避免直接叠加现代吸血鬼、Batman 或影视符号。",
+      "styles": [
+        "日本水墨",
+        "动物写生",
+        "留白构图"
+      ],
+      "scenes": [
+        "夜行动物与月夜",
+        "万圣节单体图素"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "飞行蝙蝠"
+      ],
+      "assetType": "水墨动物画",
+      "motifs": [
+        "飞行蝙蝠",
+        "松枝",
+        "留白"
+      ],
+      "actions": [
+        "蝙蝠俯冲",
+        "翼膜展开"
+      ],
+      "compositions": [
+        "上下双主体",
+        "大面积留白",
+        "竖版胸花"
+      ],
+      "colors": [
+        "墨黑",
+        "旧纸白",
+        "淡褐"
+      ],
+      "productionUses": [
+        "单色印花",
+        "竖版背图",
+        "东方夜行意象"
+      ],
+      "sourceHash": "f4fa355d05872631f4ef7996ceb7562af4bdcb0b97cecd2a310f4367880e0d02",
+      "sourcePixels": "1686x2060",
+      "tags": [
+        "万圣节",
+        "动物 / 自然",
+        "经典艺术"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.artic.edu/artworks/41357",
+        "https://api.artic.edu/docs/"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-bat-pine-isso-19c",
+      "kind": "主档",
+      "subtitle": "Isshō Japanese, active 19th century",
+      "sourceUrl": "https://www.artic.edu/artworks/41357",
+      "image": "images/d837a9ecf1f4b94260db.webp"
+    },
+    {
+      "title": "Ornamental Design with a Bat in the Centre",
+      "year": "1550",
+      "yearSort": 1550,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC Open Access · CC0 Public Domain Designation",
+      "evidenceLevel": "A",
+      "imageRights": "AIC API 标记 is_public_domain=true",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "usage": "蝙蝠是对称装饰的中心铰链；上下怪诞生物和卷草可拆成边框、徽章与满版三种层级。",
+      "avoid": "不要把历史装饰误称现代哥特品牌图案；避免直接照搬整版用于商标式识别。",
+      "styles": [
+        "文艺复兴装饰版画",
+        "怪诞纹样",
+        "黑白线刻"
+      ],
+      "scenes": [
+        "万圣节边框、徽章与纹样",
+        "夜行动物与月夜"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "装饰蝙蝠"
+      ],
+      "assetType": "装饰版画",
+      "motifs": [
+        "中央蝙蝠",
+        "怪诞生物",
+        "卷草",
+        "对称边框"
+      ],
+      "actions": [
+        "蝙蝠展翼",
+        "怪诞生物环绕"
+      ],
+      "compositions": [
+        "垂直对称",
+        "徽章",
+        "边框",
+        "满版纹样"
+      ],
+      "colors": [
+        "黑",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "徽章",
+        "背部主图",
+        "装饰边框",
+        "重复纹样"
+      ],
+      "sourceHash": "8b5cb25d0b87f619c3cf6bf7d2bc696dd5345374225d33267ae00c1344af2d83",
+      "sourcePixels": "1686x2115",
+      "tags": [
+        "万圣节",
+        "版画 / 纹样",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.artic.edu/artworks/77421",
+        "https://api.artic.edu/docs/"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-bat-ornament-aldegrever-1550",
+      "kind": "主档",
+      "subtitle": "Heinrich Aldegrever German, 1502-c.1560",
+      "sourceUrl": "https://www.artic.edu/artworks/77421",
+      "image": "images/c297d3e9f6e9188e9e2d.webp"
+    },
+    {
+      "title": "Great Indian Fruit Bat",
+      "year": "ca. 1777–82",
+      "yearSort": 1777,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "The Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met API 标记 isPublicDomain=true",
+      "sourceLabel": "The Met",
+      "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+      "usage": "一侧展翼形成不对称张力，毛发、爪和翼膜可分别简化为三层线面。",
+      "avoid": "不要混入现代超级英雄、吸血鬼影视或品牌符号；自然史来源不等于万圣节原生语境。",
+      "styles": [
+        "自然史绘画",
+        "动物写生",
+        "不对称构图"
+      ],
+      "scenes": [
+        "夜行动物与月夜",
+        "万圣节单体图素"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "大果蝠"
+      ],
+      "assetType": "自然史动物画",
+      "motifs": [
+        "果蝠",
+        "展开单翼",
+        "爪部结构"
+      ],
+      "actions": [
+        "单翼展开",
+        "正面凝视"
+      ],
+      "compositions": [
+        "单主体",
+        "横向展开",
+        "中心胸花"
+      ],
+      "colors": [
+        "炭黑",
+        "棕褐",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "中心胸花",
+        "动物解剖感",
+        "单体重绘"
+      ],
+      "sourceHash": "877657234d1677d21cdbb48cb64e244da0fb82f30e3248db0011d1c52a3456d9",
+      "sourcePixels": "3905x2869",
+      "tags": [
+        "万圣节",
+        "动物 / 自然",
+        "经典艺术"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.metmuseum.org/art/collection/search/456949",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-great-indian-fruit-bat-1777",
+      "kind": "主档",
+      "subtitle": "Bhawani Das",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/456949",
+      "image": "images/05a2e9d052dff23884a5.webp"
+    },
+    {
+      "title": "Crow and the Moon",
+      "year": "ca. 1887",
+      "yearSort": 1887,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "The Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met API 标记 isPublicDomain=true",
+      "sourceLabel": "The Met",
+      "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+      "usage": "乌鸦和月亮依靠极少笔触建立气氛；适合低色数、强轮廓、留白型印花。",
+      "avoid": "不要添加现代乐队 Logo、影视乌鸦角色或品牌标记；保留作品来源。",
+      "styles": [
+        "日本水墨",
+        "月夜动物",
+        "极简留白"
+      ],
+      "scenes": [
+        "夜行动物与月夜",
+        "乌鸦与哥特文学"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "月下乌鸦"
+      ],
+      "assetType": "水墨动物画",
+      "motifs": [
+        "乌鸦",
+        "月亮",
+        "枯枝"
+      ],
+      "actions": [
+        "乌鸦驻足",
+        "低头观察"
+      ],
+      "compositions": [
+        "单主体",
+        "对角枯枝",
+        "竖版胸花"
+      ],
+      "colors": [
+        "墨黑",
+        "灰褐",
+        "月白"
+      ],
+      "productionUses": [
+        "单色印花",
+        "竖版背图",
+        "月夜徽章"
+      ],
+      "sourceHash": "e74006da6333527e2880f7b2413da677618c5815ec48dea9108fe8b926f2ec78",
+      "sourcePixels": "2896x3778",
+      "tags": [
+        "万圣节",
+        "动物 / 自然",
+        "经典艺术"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.metmuseum.org/art/collection/search/54631",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-crow-moon-kyosai-1887",
+      "kind": "主档",
+      "subtitle": "Kawanabe Kyōsai 河鍋暁斎",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/54631",
+      "image": "images/e5021f8bfac1e9e08ad7.webp"
+    },
+    {
+      "title": "Flying Raven: Ex Libris",
+      "year": "1875",
+      "yearSort": 1875,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC Open Access · CC0 Public Domain Designation",
+      "evidenceLevel": "A",
+      "imageRights": "AIC API 标记 is_public_domain=true",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "usage": "乌鸦近乎纯黑剪影，适合直接抽象成低色数飞行动作；可与月相或短文案组合。",
+      "avoid": "《乌鸦》原文可另行核对，但不要混入现代乐队、影视或商标识别。",
+      "styles": [
+        "马奈石版画",
+        "文学书票",
+        "黑白剪影"
+      ],
+      "scenes": [
+        "乌鸦与哥特文学",
+        "万圣节单体图素"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "飞行乌鸦"
+      ],
+      "assetType": "文学版画图素",
+      "motifs": [
+        "飞行乌鸦",
+        "书票字样",
+        "留白"
+      ],
+      "actions": [
+        "乌鸦展翼飞行"
+      ],
+      "compositions": [
+        "横向单主体",
+        "标志式剪影",
+        "中心胸花"
+      ],
+      "colors": [
+        "黑",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "单色胸花",
+        "书票徽章",
+        "袖口图"
+      ],
+      "sourceHash": "46b60c138df4b5ddfc6689ced6c3e5402e79772ea7848185f9e0e104c13f0477",
+      "sourcePixels": "1686x1493",
+      "tags": [
+        "万圣节",
+        "版画 / 纹样",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.artic.edu/artworks/111363",
+        "https://api.artic.edu/docs/"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-flying-raven-ex-libris-1875",
+      "kind": "主档",
+      "subtitle": "Édouard Manet (French, 1832-1883) written by Edgar Allan Poe (American, 1809-1849) translated and produced by Stéphane Mallarmé (French, 1842-1898) printed by Lefman et Cie. (French, 19th century) published by Richard Lesclide (French, 1825-1892)",
+      "sourceUrl": "https://www.artic.edu/artworks/111363",
+      "image": "images/9363949e91e5e3079b1c.webp"
+    },
+    {
+      "title": "The Raven on the Bust of Pallas",
+      "year": "1875",
+      "yearSort": 1875,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC Open Access · CC0 Public Domain Designation",
+      "evidenceLevel": "A",
+      "imageRights": "AIC API 标记 is_public_domain=true",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "usage": "乌鸦位于高处、人物缩在低处，利用尺度差产生压迫感；可转译为极简室内阴影。",
+      "avoid": "避免照搬整段诗句、现代电影海报或乐队专辑包装；商品使用前另查文字商标。",
+      "styles": [
+        "马奈石版画",
+        "哥特文学",
+        "表现性黑白"
+      ],
+      "scenes": [
+        "乌鸦与哥特文学",
+        "幽暗室内与烛光"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "帕拉斯胸像上的乌鸦"
+      ],
+      "assetType": "文学版画",
+      "motifs": [
+        "乌鸦",
+        "帕拉斯胸像",
+        "门楣",
+        "强阴影"
+      ],
+      "actions": [
+        "乌鸦栖停",
+        "室内凝视"
+      ],
+      "compositions": [
+        "上下对峙",
+        "竖版场景",
+        "背部主图"
+      ],
+      "colors": [
+        "黑",
+        "旧纸白",
+        "灰"
+      ],
+      "productionUses": [
+        "背部主图",
+        "哥特文学系列",
+        "单色印花"
+      ],
+      "sourceHash": "77f7492a8ebb4eff6de2de7dde764fb671d466f874f490901909a5dad440110b",
+      "sourcePixels": "1200x1671",
+      "tags": [
+        "万圣节",
+        "文学 / 童话",
+        "暗黑 / 怪诞"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.artic.edu/artworks/111365",
+        "https://api.artic.edu/docs/"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-raven-bust-pallas-1875",
+      "kind": "主档",
+      "subtitle": "Édouard Manet (French, 1832-1883) written by Edgar Allan Poe (American, 1809-1849) translated and produced by Stéphane Mallarmé (French, 1842-1898) printed by Lefman et Cie. (French, 19th century) published by Richard Lesclide (French, 1825-1892)",
+      "sourceUrl": "https://www.artic.edu/artworks/111365",
+      "image": "images/aee74fb382eebbcfe990.webp"
+    },
+    {
+      "title": "The Moon in its Final Quarter",
+      "year": "1635",
+      "yearSort": 1635,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "The Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met API 标记 isPublicDomain=true",
+      "sourceLabel": "The Met",
+      "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+      "usage": "真实月面纹理比卡通月牙更有识别度；可扩展成月相序列、徽章或单一圆形焦点。",
+      "avoid": "不要叠加现代航天机构标志、影视月球画面或受保护字标。",
+      "styles": [
+        "科学版画",
+        "月相研究",
+        "单色纹理"
+      ],
+      "scenes": [
+        "夜行动物与月夜",
+        "万圣节边框、徽章与纹样"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "残月"
+      ],
+      "assetType": "天文版画",
+      "motifs": [
+        "残月",
+        "月面纹理",
+        "圆形留白"
+      ],
+      "actions": [
+        "月相变化"
+      ],
+      "compositions": [
+        "单一圆形焦点",
+        "徽章",
+        "满版重复"
+      ],
+      "colors": [
+        "黑",
+        "灰",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "月相系列",
+        "徽章",
+        "袖口图",
+        "重复纹样"
+      ],
+      "sourceHash": "d96d217755185a54620f02234c40f3599cbece707345c4cb0dcd3bc86c0c2b5b",
+      "sourcePixels": "2440x4000",
+      "tags": [
+        "万圣节",
+        "版画 / 纹样",
+        "其他视觉"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.metmuseum.org/art/collection/search/359769",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-moon-final-quarter-mellan-1635",
+      "kind": "主档",
+      "subtitle": "Claude Mellan",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/359769",
+      "image": "images/cb320328cc2fbadadaaf.webp"
+    },
+    {
+      "title": "The Sleep of Reason Produces Monsters",
+      "year": "1799",
+      "yearSort": 1799,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "The Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met API 标记 isPublicDomain=true",
+      "sourceLabel": "The Met",
+      "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+      "usage": "上方动物群与下方沉睡人物形成理性/梦魇对照；可拆成蝙蝠群、猫头鹰脸与伏案轮廓。",
+      "avoid": "不要断言作品原意就是万圣节；不要复刻完整版画当作新图，也不要加入现代影视怪物。",
+      "styles": [
+        "戈雅版画",
+        "梦魇群像",
+        "黑白蚀刻"
+      ],
+      "scenes": [
+        "夜行动物与月夜",
+        "梦魇、睡眠与怪诞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "蝙蝠与猫头鹰群",
+        "沉睡的人"
+      ],
+      "assetType": "怪诞版画",
+      "motifs": [
+        "蝙蝠群",
+        "猫头鹰群",
+        "山猫",
+        "伏案人物"
+      ],
+      "actions": [
+        "群鸟盘旋",
+        "人物沉睡",
+        "山猫警觉"
+      ],
+      "compositions": [
+        "中心人物",
+        "上方群飞",
+        "三角形背图"
+      ],
+      "colors": [
+        "黑",
+        "灰",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "背部主图",
+        "群飞纹样",
+        "怪诞文学题材"
+      ],
+      "sourceHash": "122aa775d975c4aa8d96e7ecbbfe02626c36c12f42cb4bfafbfc59dbafc52fa8",
+      "sourcePixels": "2689x3665",
+      "tags": [
+        "万圣节",
+        "经典艺术",
+        "暗黑 / 怪诞"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.metmuseum.org/art/collection/search/338473",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-sleep-of-reason-goya-1799",
+      "kind": "主档",
+      "subtitle": "Goya (Francisco de Goya y Lucientes)",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/338473",
+      "image": "images/dfa87392558555c57486.webp"
+    },
+    {
+      "title": "Student at a Table by Candlelight",
+      "year": "ca. 1642",
+      "yearSort": 1642,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC Open Access · CC0 Public Domain Designation",
+      "evidenceLevel": "A",
+      "imageRights": "AIC API 标记 is_public_domain=true",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "usage": "单点烛光只照亮脸、书与桌面；适合用大黑块和极少暖色建立暗室氛围。",
+      "avoid": "不要把历史人物包装成现代影视角色；使用时重构姿态与光影，不照抄整幅。",
+      "styles": [
+        "伦勃朗式明暗",
+        "烛光版画",
+        "暗室阅读"
+      ],
+      "scenes": [
+        "幽暗室内与烛光",
+        "哥特文学空间"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "烛光下的学生"
+      ],
+      "assetType": "烛光版画",
+      "motifs": [
+        "蜡烛",
+        "桌前人物",
+        "黑暗室内",
+        "书本"
+      ],
+      "actions": [
+        "阅读",
+        "烛光照明",
+        "独坐"
+      ],
+      "compositions": [
+        "单点光源",
+        "暗部包围",
+        "竖版场景"
+      ],
+      "colors": [
+        "炭黑",
+        "烛火黄",
+        "灰褐"
+      ],
+      "productionUses": [
+        "哥特烛光场景",
+        "单色背图",
+        "文学主题"
+      ],
+      "sourceHash": "f63feba8874fb9ec13bd3e8bebf652547b460f659c734af7d1cb9bbcefda5753",
+      "sourcePixels": "1200x1333",
+      "tags": [
+        "万圣节",
+        "经典艺术",
+        "暗黑 / 怪诞"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.artic.edu/artworks/49088",
+        "https://api.artic.edu/docs/"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-student-candlelight-rembrandt-1642",
+      "kind": "主档",
+      "subtitle": "Rembrandt van Rijn Dutch, 1606-1669",
+      "sourceUrl": "https://www.artic.edu/artworks/49088",
+      "image": "images/44fcf73b2ee5ea867e94.webp"
+    },
+    {
+      "title": "A Cemetery in Galicia",
+      "year": "1897 / 1898",
+      "yearSort": 1897,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC Open Access · CC0 Public Domain Designation",
+      "evidenceLevel": "A",
+      "imageRights": "AIC API 标记 is_public_domain=true",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "usage": "低地平线与稀疏墓碑提供可叠加角色的场景底图；适合留出大面积天空给主图或文字。",
+      "avoid": "墓地和宗教符号需保持尊重；不要与具体灾难、群体或现代影视角色混淆。",
+      "styles": [
+        "石版画",
+        "墓园风景",
+        "留白场景"
+      ],
+      "scenes": [
+        "墓园与哥特空间",
+        "万圣节场景底图"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "墓园与枯树"
+      ],
+      "assetType": "墓园版画",
+      "motifs": [
+        "墓碑",
+        "十字架",
+        "枯树",
+        "空地"
+      ],
+      "actions": [
+        "静置",
+        "远景眺望"
+      ],
+      "compositions": [
+        "横向低地平线",
+        "多墓碑散点",
+        "场景底图"
+      ],
+      "colors": [
+        "灰黑",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "墓园底景",
+        "单色背图",
+        "场景拼贴"
+      ],
+      "sourceHash": "80510a917ba08a0b52653c20291bbff3e3dc79e1fae72a01f8782bb749ad4797",
+      "sourcePixels": "1200x1382",
+      "tags": [
+        "万圣节",
+        "器物 / 建筑",
+        "暗黑 / 怪诞"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.artic.edu/artworks/72411",
+        "https://api.artic.edu/docs/"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-cemetery-galicia-lautrec-1897",
+      "kind": "主档",
+      "subtitle": "Henri de Toulouse-Lautrec French, 1864-1901",
+      "sourceUrl": "https://www.artic.edu/artworks/72411",
+      "image": "images/5874b34bfa853c95de5c.webp"
+    },
+    {
+      "title": "The Full Moon",
+      "year": "18th century",
+      "yearSort": 1700,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC Open Access · CC0 Public Domain Designation",
+      "evidenceLevel": "A",
+      "imageRights": "AIC API 标记 is_public_domain=true",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "usage": "圆月直接作为人物背光；可借用‘圆形光源+半身轮廓’机制，不必复制人物。",
+      "avoid": "尊重日本画语境；不要简单套成西方女巫或现代影视人物。",
+      "styles": [
+        "日本版画",
+        "满月背光",
+        "窄幅构图"
+      ],
+      "scenes": [
+        "夜行动物与月夜",
+        "月下人物"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "月下人物"
+      ],
+      "assetType": "月夜人物画",
+      "motifs": [
+        "满月",
+        "人物",
+        "书法",
+        "夜色"
+      ],
+      "actions": [
+        "仰望月亮"
+      ],
+      "compositions": [
+        "纵向窄幅",
+        "圆月背景",
+        "单人物"
+      ],
+      "colors": [
+        "墨黑",
+        "月白",
+        "肤色",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "月夜窄幅图",
+        "竖版背图",
+        "月相系列"
+      ],
+      "sourceHash": "9875d6149140f8145a7d254c69c32f10ad90a27e22265b0b244bd90a31a52081",
+      "sourcePixels": "843x2303",
+      "tags": [
+        "万圣节",
+        "经典艺术",
+        "人物 / 肖像"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.artic.edu/artworks/19048",
+        "https://api.artic.edu/docs/"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-full-moon-japanese-18c",
+      "kind": "主档",
+      "subtitle": "Artist unknown Japanese, 18th century",
+      "sourceUrl": "https://www.artic.edu/artworks/19048",
+      "image": "images/4aebb78ac230796aec3c.webp"
+    },
+    {
+      "title": "Group of Children Around a Candle",
+      "year": "1818",
+      "yearSort": 1818,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC Open Access · CC0 Public Domain Designation",
+      "evidenceLevel": "A",
+      "imageRights": "AIC API 标记 is_public_domain=true",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "usage": "所有视线和手势围绕中央烛火，适合转译成讲鬼故事、占卜或夜间聚会场景。",
+      "avoid": "不要把历史儿童肖像直接商品化；重构人物、服装与面貌，只保留环形光源机制。",
+      "styles": [
+        "烛光版画",
+        "环形群像",
+        "明暗对比"
+      ],
+      "scenes": [
+        "幽暗室内与烛光",
+        "万圣节聚会与怪谈"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "烛火旁的儿童群像"
+      ],
+      "assetType": "烛光群像版画",
+      "motifs": [
+        "蜡烛",
+        "儿童群像",
+        "手部",
+        "围观"
+      ],
+      "actions": [
+        "围绕烛火",
+        "伸手遮光",
+        "共同凝视"
+      ],
+      "compositions": [
+        "环形群像",
+        "中心光源",
+        "徽章"
+      ],
+      "colors": [
+        "黑",
+        "灰",
+        "烛火黄",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "环形角色组",
+        "怪谈场景",
+        "背部主图"
+      ],
+      "sourceHash": "1d8cb413512b4a4afa0007eeb0b375c239f11f78e74e833bc2c9dc0c9de1d7c3",
+      "sourcePixels": "843x1158",
+      "tags": [
+        "万圣节",
+        "人物 / 肖像",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.artic.edu/artworks/121551",
+        "https://api.artic.edu/docs/"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-children-around-candle-isabey-1818",
+      "kind": "主档",
+      "subtitle": "Jean Baptiste Isabey (French, 1767-1855) printed by Gottfried Engelmann (French, 1788-1839)",
+      "sourceUrl": "https://www.artic.edu/artworks/121551",
+      "image": "images/625bdb9ef8e356f3cfb0.webp"
     }
   ]
 }

@@ -29,6 +29,7 @@ const supplementalPaths = [
   path.join(projectRoot, "source", "cartoon-ip-supplement.json"),
   path.join(projectRoot, "source", "ghost-commercial-supplement.json"),
   path.join(projectRoot, "source", "halloween-classics-supplement.json"),
+  path.join(projectRoot, "source", "halloween-visual-elements-supplement.json"),
 ];
 const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "pd-cartoon-build-"));
 
@@ -71,6 +72,11 @@ function textOf(item) {
     ...(item.scenes || []),
     ...(item.holidays || []),
     ...(item.characters || []),
+    ...(item.motifs || []),
+    ...(item.actions || []),
+    ...(item.compositions || []),
+    ...(item.colors || []),
+    ...(item.productionUses || []),
   ].filter(Boolean).join(" ");
 }
 
@@ -216,6 +222,7 @@ function parseYearSort(value) {
 
 function supplementalRecords(data) {
   const output = [];
+  const masterOnly = data.recordMode === "master-only";
   for (const work of data.works || []) {
     if (!Array.isArray(work.frames) || !work.frames.length) {
       throw new Error(`Supplemental work has no frames: ${work.id || work.title}`);
@@ -236,6 +243,15 @@ function supplementalRecords(data) {
       scenes: compact(work.scenes || []),
       holidays: compact(work.holidays || []),
       characters: compact(work.characters || []),
+      ...(work.assetType ? { assetType: work.assetType } : {}),
+      ...(compact(work.motifs || []).length ? { motifs: compact(work.motifs) } : {}),
+      ...(compact(work.actions || []).length ? { actions: compact(work.actions) } : {}),
+      ...(compact(work.compositions || []).length ? { compositions: compact(work.compositions) } : {}),
+      ...(compact(work.colors || []).length ? { colors: compact(work.colors) } : {}),
+      ...(compact(work.productionUses || []).length ? { productionUses: compact(work.productionUses) } : {}),
+      ...(work.parentSourceId ? { parentSourceId: work.parentSourceId } : {}),
+      ...(work.sourceHash ? { sourceHash: work.sourceHash } : {}),
+      ...(work.sourcePixels ? { sourcePixels: work.sourcePixels } : {}),
       tags: compact(work.tags || ["早期动画", "漫画 / 角色"]),
       awarenessScore: Number(work.awarenessScore) || 0,
       awarenessLevel: work.awarenessLevel || "待复核",
@@ -255,7 +271,7 @@ function supplementalRecords(data) {
       sourceUrl: work.sourceUrl,
       imageKey: `eagle:${first.eagleItemId}`,
     });
-    work.frames.forEach((frame, index) => {
+    if (!masterOnly) work.frames.forEach((frame, index) => {
       const sourceUrl = frame.sourceUrl || (frame.seconds === undefined
         ? work.sourceUrl
         : `${work.sourceUrl}#frame-${frame.seconds}s`);

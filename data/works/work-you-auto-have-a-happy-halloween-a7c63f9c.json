@@ -1,0 +1,253 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "work": {
+    "id": "work-you-auto-have-a-happy-halloween-a7c63f9c",
+    "title": "You Auto Have a Happy Hallowe'en",
+    "subtitle": "International Art Publishing Company",
+    "year": "1908",
+    "yearSort": 1908,
+    "coverImage": "images/dee510033c5df8488f4c.webp",
+    "coverRecordId": "catalog-supplement-jackolantern-car-1908",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22You_Auto_Have_a_Happy_Hallowe%27en.%22_(Jack-O-Lantern_driving_a_car).jpg",
+    "sourceLabel": "Wikimedia Commons",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:%22You_Auto_Have_a_Happy_Hallowe%27en.%22_(Jack-O-Lantern_driving_a_car).jpg",
+    "rightsStatuses": [
+      "公版文件"
+    ],
+    "copyrightRoutes": [
+      "Wikimedia Commons · Public domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Commons 文件页标记 Public domain"
+    ],
+    "usage": "把南瓜灯变成有职业和动作的司机；可发展交通工具、快递或夜间巡游系列。",
+    "avoid": "不要复制原句；不要加入现代汽车品牌、车标或可识别车型。",
+    "tags": [
+      "万圣节",
+      "角色 / 卡通",
+      "生活 / 节庆"
+    ],
+    "styles": [
+      "复古贺卡",
+      "拟人交通工具",
+      "幽默角色"
+    ],
+    "scenes": [
+      "万圣节贺卡与民俗图像",
+      "南瓜灯与拟人角色"
+    ],
+    "holidays": [
+      "万圣节"
+    ],
+    "assetTypes": [
+      "彩色万圣节明信片"
+    ],
+    "motifs": [
+      "南瓜头司机",
+      "南瓜汽车",
+      "手套"
+    ],
+    "actions": [
+      "驾驶",
+      "挥手",
+      "向前冲"
+    ],
+    "compositions": [
+      "纵向单主体",
+      "徽章",
+      "中心胸花"
+    ],
+    "colors": [
+      "南瓜橙",
+      "车身红",
+      "黑",
+      "奶油白"
+    ],
+    "productionUses": [
+      "中心胸花",
+      "车队系列",
+      "幽默角色"
+    ],
+    "sourceHashes": [
+      "0776f24a15a8f2a83ab04de0ddcdf23c71711791921d2b111f78f846570571e5"
+    ],
+    "characterNames": [
+      "南瓜头司机"
+    ],
+    "characterAliases": [
+      "南瓜头司机"
+    ],
+    "recordIds": [
+      "catalog-supplement-jackolantern-car-1908"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-supplement-jackolantern-car-1908"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-南瓜头司机-28fcb00a"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-南瓜头司机-28fcb00a",
+      "name": "南瓜头司机",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/dee510033c5df8488f4c.webp",
+      "coverRecordId": "catalog-supplement-jackolantern-car-1908",
+      "yearStart": 1908,
+      "yearEnd": 1908,
+      "workIds": [
+        "work-you-auto-have-a-happy-halloween-a7c63f9c"
+      ],
+      "recordIds": [
+        "catalog-supplement-jackolantern-car-1908"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "角色 / 卡通",
+        "生活 / 节庆"
+      ],
+      "topScenes": [
+        {
+          "name": "南瓜灯与拟人角色",
+          "count": 1
+        },
+        {
+          "name": "万圣节贺卡与民俗图像",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "复古贺卡",
+          "count": 1
+        },
+        {
+          "name": "拟人交通工具",
+          "count": 1
+        },
+        {
+          "name": "幽默角色",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "把南瓜灯变成有职业和动作的司机；可发展交通工具、快递或夜间巡游系列。",
+      "avoid": "不要复制原句；不要加入现代汽车品牌、车标或可识别车型。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "title": "You Auto Have a Happy Hallowe'en",
+      "year": "1908",
+      "yearSort": 1908,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:%22You_Auto_Have_a_Happy_Hallowe%27en.%22_(Jack-O-Lantern_driving_a_car).jpg",
+      "usage": "把南瓜灯变成有职业和动作的司机；可发展交通工具、快递或夜间巡游系列。",
+      "avoid": "不要复制原句；不要加入现代汽车品牌、车标或可识别车型。",
+      "styles": [
+        "复古贺卡",
+        "拟人交通工具",
+        "幽默角色"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "南瓜灯与拟人角色"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "南瓜头司机"
+      ],
+      "assetType": "彩色万圣节明信片",
+      "motifs": [
+        "南瓜头司机",
+        "南瓜汽车",
+        "手套"
+      ],
+      "actions": [
+        "驾驶",
+        "挥手",
+        "向前冲"
+      ],
+      "compositions": [
+        "纵向单主体",
+        "徽章",
+        "中心胸花"
+      ],
+      "colors": [
+        "南瓜橙",
+        "车身红",
+        "黑",
+        "奶油白"
+      ],
+      "productionUses": [
+        "中心胸花",
+        "车队系列",
+        "幽默角色"
+      ],
+      "sourceHash": "0776f24a15a8f2a83ab04de0ddcdf23c71711791921d2b111f78f846570571e5",
+      "sourcePixels": "3840x5999",
+      "tags": [
+        "万圣节",
+        "角色 / 卡通",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:%22You_Auto_Have_a_Happy_Hallowe%27en.%22_(Jack-O-Lantern_driving_a_car).jpg"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-jackolantern-car-1908",
+      "kind": "主档",
+      "subtitle": "International Art Publishing Company",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22You_Auto_Have_a_Happy_Hallowe%27en.%22_(Jack-O-Lantern_driving_a_car).jpg",
+      "image": "images/dee510033c5df8488f4c.webp"
+    }
+  ]
+}

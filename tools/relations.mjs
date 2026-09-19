@@ -240,8 +240,15 @@ function buildWorks(records) {
     const lead = frameLead || masterLead || draft.records[0];
     const cover = masterLead || frameLead || lead;
     const sourceUrl = masterLead?.sourceUrl || lead.sourceUrl || "";
-    const characterAliases = unionFromRecords(draft.frames, "characters");
+    const characterAliases = unionFromRecords(draft.frames.length ? draft.frames : draft.records, "characters");
     const characterNames = compact(characterAliases.map(canonicalCharacter));
+    const assetTypes = unionFromRecords(draft.records, "assetType");
+    const motifs = unionFromRecords(draft.records, "motifs");
+    const actions = unionFromRecords(draft.records, "actions");
+    const compositions = unionFromRecords(draft.records, "compositions");
+    const colors = unionFromRecords(draft.records, "colors");
+    const productionUses = unionFromRecords(draft.records, "productionUses");
+    const sourceHashes = unionFromRecords(draft.records, "sourceHash");
     return {
       id: stableId("work", lead.title, draft.key),
       title: frameLead?.title || masterLead?.title || lead.title,
@@ -263,6 +270,13 @@ function buildWorks(records) {
       styles: unionFromRecords(draft.records, "styles"),
       scenes: unionFromRecords(draft.records, "scenes"),
       holidays: unionFromRecords(draft.records, "holidays"),
+      ...(assetTypes.length ? { assetTypes } : {}),
+      ...(motifs.length ? { motifs } : {}),
+      ...(actions.length ? { actions } : {}),
+      ...(compositions.length ? { compositions } : {}),
+      ...(colors.length ? { colors } : {}),
+      ...(productionUses.length ? { productionUses } : {}),
+      ...(sourceHashes.length ? { sourceHashes } : {}),
       characterNames,
       characterAliases,
       recordIds: draft.records.map((record) => record.id),

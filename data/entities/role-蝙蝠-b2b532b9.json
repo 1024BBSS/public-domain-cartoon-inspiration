@@ -1,0 +1,445 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:17:24.041Z",
+  "entity": {
+    "id": "role-蝙蝠-b2b532b9",
+    "name": "蝙蝠",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/6b48a04ea3f4a44a7161.webp",
+    "coverRecordId": "catalog-supplement-pumpkin-witch-cat-bat-postcard-1926",
+    "yearStart": 1926,
+    "yearEnd": 1926,
+    "workIds": [
+      "work-pumpkin-witch-black-cat-and-bats-365967f6"
+    ],
+    "recordIds": [
+      "catalog-supplement-pumpkin-witch-cat-bat-postcard-1926"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版文件": 1
+    },
+    "copyrightRoutes": [
+      "Wikimedia Commons · Public domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "角色 / 卡通",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "黑猫、南瓜灯与月夜",
+        "count": 1
+      },
+      {
+        "name": "万圣节贺卡与民俗图像",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "扁平角色",
+        "count": 1
+      },
+      {
+        "name": "复古贺卡",
+        "count": 1
+      },
+      {
+        "name": "横向舞台",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "同一画面把南瓜、猫、女巫、月亮和蝙蝠分层排布；适合拆成可组合的元素套件。",
+    "avoid": "不要复制原文；不要把任一元素改造成现代授权角色或影视标志物。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-女巫-a639054d",
+      "role-黑猫群-e7b3fc6f",
+      "role-南瓜灯队列-a2de2c1f"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-pumpkin-witch-black-cat-and-bats-365967f6",
+      "title": "Pumpkin, Witch, Black Cat and Bats",
+      "subtitle": "Unknown author Unknown author",
+      "year": "ca. 1926",
+      "yearSort": 1926,
+      "coverImage": "images/6b48a04ea3f4a44a7161.webp",
+      "coverRecordId": "catalog-supplement-pumpkin-witch-cat-bat-postcard-1926",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pumpkin,_Witch,_Black_Cat_postcard_circa_1926.png",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pumpkin,_Witch,_Black_Cat_postcard_circa_1926.png",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Commons 文件页标记 Public domain"
+      ],
+      "usage": "同一画面把南瓜、猫、女巫、月亮和蝙蝠分层排布；适合拆成可组合的元素套件。",
+      "avoid": "不要复制原文；不要把任一元素改造成现代授权角色或影视标志物。",
+      "tags": [
+        "万圣节",
+        "角色 / 卡通",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "复古贺卡",
+        "扁平角色",
+        "横向舞台"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "黑猫、南瓜灯与月夜"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "彩色万圣节明信片"
+      ],
+      "motifs": [
+        "南瓜灯队列",
+        "黑猫",
+        "女巫",
+        "月亮",
+        "蝙蝠"
+      ],
+      "actions": [
+        "女巫飞行",
+        "猫群聚集",
+        "南瓜排列"
+      ],
+      "compositions": [
+        "横向舞台",
+        "角色清单",
+        "长条胸花"
+      ],
+      "colors": [
+        "浅蓝",
+        "南瓜橙",
+        "黑",
+        "奶油白"
+      ],
+      "productionUses": [
+        "长条胸花",
+        "元素清单",
+        "儿童友好万圣节"
+      ],
+      "sourceHashes": [
+        "55aa4a430cb945535163e092de16c81a7a063ba03e266bb88443b79e57ca6b46"
+      ],
+      "characterNames": [
+        "女巫",
+        "黑猫群",
+        "南瓜灯队列",
+        "蝙蝠"
+      ],
+      "characterAliases": [
+        "女巫",
+        "黑猫群",
+        "南瓜灯队列",
+        "蝙蝠"
+      ],
+      "recordIds": [
+        "catalog-supplement-pumpkin-witch-cat-bat-postcard-1926"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-supplement-pumpkin-witch-cat-bat-postcard-1926"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-女巫-a639054d",
+        "role-黑猫群-e7b3fc6f",
+        "role-南瓜灯队列-a2de2c1f",
+        "role-蝙蝠-b2b532b9"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-女巫-a639054d",
+      "name": "女巫",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/7fda696cf589fb8cf2d4.webp",
+      "coverRecordId": "catalog-supplement-witch-pumpkin-cat-flight-1910",
+      "yearStart": 1910,
+      "yearEnd": 1926,
+      "workIds": [
+        "work-halloween-witch-jack-o-lantern-and-black-cat-4c644b2f",
+        "work-the-halloween-lantern-car-8677b0d6",
+        "work-pumpkin-witch-black-cat-and-bats-365967f6"
+      ],
+      "recordIds": [
+        "catalog-supplement-witch-pumpkin-cat-flight-1910",
+        "catalog-supplement-halloween-lantern-car-1914",
+        "catalog-supplement-pumpkin-witch-cat-bat-postcard-1926"
+      ],
+      "frameIds": [],
+      "workCount": 3,
+      "imageCount": 3,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 3
+      },
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "动物 / 自然",
+        "器物 / 建筑",
+        "角色 / 卡通"
+      ],
+      "topScenes": [
+        {
+          "name": "万圣节贺卡与民俗图像",
+          "count": 3
+        },
+        {
+          "name": "黑猫、南瓜灯与月夜",
+          "count": 1
+        },
+        {
+          "name": "女巫飞行与黑猫",
+          "count": 1
+        },
+        {
+          "name": "万圣节巡游与交通工具",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "复古贺卡",
+          "count": 3
+        },
+        {
+          "name": "扁平角色",
+          "count": 1
+        },
+        {
+          "name": "彩色石印",
+          "count": 1
+        },
+        {
+          "name": "飞行叙事",
+          "count": 1
+        },
+        {
+          "name": "横向舞台",
+          "count": 1
+        },
+        {
+          "name": "节庆巡游",
+          "count": 1
+        },
+        {
+          "name": "拟人器物",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 3
+        }
+      ],
+      "usage": "用牵引关系把女巫、南瓜和猫串成一个动作；比静态符号拼贴更有叙事。",
+      "avoid": "只取历史明信片中的动作机制；避开现代影视女巫、具体演员脸和品牌角色。",
+      "awarenessScore": 0,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-黑猫-10d5e79f",
+        "role-南瓜灯-acaa4309",
+        "role-灯笼车-af8a5eed",
+        "role-南瓜乘客-d81a660c",
+        "role-黑猫群-e7b3fc6f",
+        "role-南瓜灯队列-a2de2c1f",
+        "role-蝙蝠-b2b532b9"
+      ]
+    },
+    {
+      "id": "role-黑猫群-e7b3fc6f",
+      "name": "黑猫群",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/6b48a04ea3f4a44a7161.webp",
+      "coverRecordId": "catalog-supplement-pumpkin-witch-cat-bat-postcard-1926",
+      "yearStart": 1926,
+      "yearEnd": 1926,
+      "workIds": [
+        "work-pumpkin-witch-black-cat-and-bats-365967f6"
+      ],
+      "recordIds": [
+        "catalog-supplement-pumpkin-witch-cat-bat-postcard-1926"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "角色 / 卡通",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "黑猫、南瓜灯与月夜",
+          "count": 1
+        },
+        {
+          "name": "万圣节贺卡与民俗图像",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "扁平角色",
+          "count": 1
+        },
+        {
+          "name": "复古贺卡",
+          "count": 1
+        },
+        {
+          "name": "横向舞台",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "同一画面把南瓜、猫、女巫、月亮和蝙蝠分层排布；适合拆成可组合的元素套件。",
+      "avoid": "不要复制原文；不要把任一元素改造成现代授权角色或影视标志物。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-女巫-a639054d",
+        "role-南瓜灯队列-a2de2c1f",
+        "role-蝙蝠-b2b532b9"
+      ]
+    },
+    {
+      "id": "role-南瓜灯队列-a2de2c1f",
+      "name": "南瓜灯队列",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/6b48a04ea3f4a44a7161.webp",
+      "coverRecordId": "catalog-supplement-pumpkin-witch-cat-bat-postcard-1926",
+      "yearStart": 1926,
+      "yearEnd": 1926,
+      "workIds": [
+        "work-pumpkin-witch-black-cat-and-bats-365967f6"
+      ],
+      "recordIds": [
+        "catalog-supplement-pumpkin-witch-cat-bat-postcard-1926"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "角色 / 卡通",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "黑猫、南瓜灯与月夜",
+          "count": 1
+        },
+        {
+          "name": "万圣节贺卡与民俗图像",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "扁平角色",
+          "count": 1
+        },
+        {
+          "name": "复古贺卡",
+          "count": 1
+        },
+        {
+          "name": "横向舞台",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "同一画面把南瓜、猫、女巫、月亮和蝙蝠分层排布；适合拆成可组合的元素套件。",
+      "avoid": "不要复制原文；不要把任一元素改造成现代授权角色或影视标志物。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-女巫-a639054d",
+        "role-黑猫群-e7b3fc6f",
+        "role-蝙蝠-b2b532b9"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

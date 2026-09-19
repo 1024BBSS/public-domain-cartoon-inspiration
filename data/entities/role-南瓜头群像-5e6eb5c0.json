@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:17:24.041Z",
+  "entity": {
+    "id": "role-南瓜头群像-5e6eb5c0",
+    "name": "南瓜头群像",
+    "type": "群像 / 生物",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/cac4e7f6311b87c4dd77.webp",
+    "coverRecordId": "catalog-supplement-pumpkinheads-heaven-1901",
+    "yearStart": 1901,
+    "yearEnd": 1901,
+    "workIds": [
+      "work-pumpkinheads-heaven-f84c8a3e"
+    ],
+    "recordIds": [
+      "catalog-supplement-pumpkinheads-heaven-1901"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版文件": 1
+    },
+    "copyrightRoutes": [
+      "Wikimedia Commons · Public domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "生活 / 节庆",
+      "暗黑 / 怪诞"
+    ],
+    "topScenes": [
+      {
+        "name": "南瓜灯与拟人角色",
+        "count": 1
+      },
+      {
+        "name": "万圣节贺卡与民俗图像",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "复古明信片",
+        "count": 1
+      },
+      {
+        "name": "拟人群像",
+        "count": 1
+      },
+      {
+        "name": "乡野怪诞",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "把南瓜头当作一组有社会关系的角色，而不是单个符号；可转译为乐队、读报会或乡野俱乐部。",
+    "avoid": "不要沿用明信片原句；避免把历史摄影误称现代电影或品牌角色。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-pumpkinheads-heaven-f84c8a3e",
+      "title": "Pumpkinheads Heaven",
+      "subtitle": "Unknown creator",
+      "year": "1901",
+      "yearSort": 1901,
+      "coverImage": "images/cac4e7f6311b87c4dd77.webp",
+      "coverRecordId": "catalog-supplement-pumpkinheads-heaven-1901",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PumpkinheadsHeaven1901.jpg",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:PumpkinheadsHeaven1901.jpg",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Commons 文件页标记 Public domain"
+      ],
+      "usage": "把南瓜头当作一组有社会关系的角色，而不是单个符号；可转译为乐队、读报会或乡野俱乐部。",
+      "avoid": "不要沿用明信片原句；避免把历史摄影误称现代电影或品牌角色。",
+      "tags": [
+        "万圣节",
+        "生活 / 节庆",
+        "暗黑 / 怪诞"
+      ],
+      "styles": [
+        "复古明信片",
+        "乡野怪诞",
+        "拟人群像"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "南瓜灯与拟人角色"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "摄影式节庆明信片"
+      ],
+      "motifs": [
+        "南瓜头人物",
+        "稻草堆",
+        "乡野聚会"
+      ],
+      "actions": [
+        "围坐",
+        "阅读标牌",
+        "群体叙事"
+      ],
+      "compositions": [
+        "横向群像",
+        "舞台式中央构图",
+        "背部主图"
+      ],
+      "colors": [
+        "旧纸黄",
+        "南瓜橙",
+        "草木褐"
+      ],
+      "productionUses": [
+        "背部主图",
+        "复古拼贴",
+        "万圣节故事场景"
+      ],
+      "sourceHashes": [
+        "97d2b3d3f96e74db45e49e21868a1f93f827a7c2d9a9dff7c74694e8ec247cd9"
+      ],
+      "characterNames": [
+        "南瓜头群像"
+      ],
+      "characterAliases": [
+        "南瓜头群像"
+      ],
+      "recordIds": [
+        "catalog-supplement-pumpkinheads-heaven-1901"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-supplement-pumpkinheads-heaven-1901"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-南瓜头群像-5e6eb5c0"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

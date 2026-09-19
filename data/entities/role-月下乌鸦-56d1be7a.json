@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:17:24.041Z",
+  "entity": {
+    "id": "role-月下乌鸦-56d1be7a",
+    "name": "月下乌鸦",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/e5021f8bfac1e9e08ad7.webp",
+    "coverRecordId": "catalog-supplement-crow-moon-kyosai-1887",
+    "yearStart": 1887,
+    "yearEnd": 1887,
+    "workIds": [
+      "work-crow-and-the-moon-ce33a8c2"
+    ],
+    "recordIds": [
+      "catalog-supplement-crow-moon-kyosai-1887"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 1
+    },
+    "copyrightRoutes": [
+      "The Met Open Access · Public Domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "动物 / 自然",
+      "经典艺术"
+    ],
+    "topScenes": [
+      {
+        "name": "乌鸦与哥特文学",
+        "count": 1
+      },
+      {
+        "name": "夜行动物与月夜",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "极简留白",
+        "count": 1
+      },
+      {
+        "name": "日本水墨",
+        "count": 1
+      },
+      {
+        "name": "月夜动物",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "乌鸦和月亮依靠极少笔触建立气氛；适合低色数、强轮廓、留白型印花。",
+    "avoid": "不要添加现代乐队 Logo、影视乌鸦角色或品牌标记；保留作品来源。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-crow-and-the-moon-ce33a8c2",
+      "title": "Crow and the Moon",
+      "subtitle": "Kawanabe Kyōsai 河鍋暁斎",
+      "year": "ca. 1887",
+      "yearSort": 1887,
+      "coverImage": "images/e5021f8bfac1e9e08ad7.webp",
+      "coverRecordId": "catalog-supplement-crow-moon-kyosai-1887",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/54631",
+      "sourceLabel": "The Met",
+      "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met API 标记 isPublicDomain=true"
+      ],
+      "usage": "乌鸦和月亮依靠极少笔触建立气氛；适合低色数、强轮廓、留白型印花。",
+      "avoid": "不要添加现代乐队 Logo、影视乌鸦角色或品牌标记；保留作品来源。",
+      "tags": [
+        "万圣节",
+        "动物 / 自然",
+        "经典艺术"
+      ],
+      "styles": [
+        "日本水墨",
+        "月夜动物",
+        "极简留白"
+      ],
+      "scenes": [
+        "夜行动物与月夜",
+        "乌鸦与哥特文学"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "水墨动物画"
+      ],
+      "motifs": [
+        "乌鸦",
+        "月亮",
+        "枯枝"
+      ],
+      "actions": [
+        "乌鸦驻足",
+        "低头观察"
+      ],
+      "compositions": [
+        "单主体",
+        "对角枯枝",
+        "竖版胸花"
+      ],
+      "colors": [
+        "墨黑",
+        "灰褐",
+        "月白"
+      ],
+      "productionUses": [
+        "单色印花",
+        "竖版背图",
+        "月夜徽章"
+      ],
+      "sourceHashes": [
+        "e74006da6333527e2880f7b2413da677618c5815ec48dea9108fe8b926f2ec78"
+      ],
+      "characterNames": [
+        "月下乌鸦"
+      ],
+      "characterAliases": [
+        "月下乌鸦"
+      ],
+      "recordIds": [
+        "catalog-supplement-crow-moon-kyosai-1887"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-supplement-crow-moon-kyosai-1887"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-月下乌鸦-56d1be7a"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

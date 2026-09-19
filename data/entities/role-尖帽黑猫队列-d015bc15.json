@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:17:24.041Z",
+  "entity": {
+    "id": "role-尖帽黑猫队列-d015bc15",
+    "name": "尖帽黑猫队列",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/db3a39c9a96c01e2a66b.webp",
+    "coverRecordId": "catalog-supplement-jolly-halloween-black-cat-procession",
+    "yearStart": 1900,
+    "yearEnd": 1900,
+    "workIds": [
+      "work-a-jolly-halloween-black-cat-procession-74347b57"
+    ],
+    "recordIds": [
+      "catalog-supplement-jolly-halloween-black-cat-procession"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版文件": 1
+    },
+    "copyrightRoutes": [
+      "Wikimedia Commons · Public domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "动物 / 自然",
+      "角色 / 卡通"
+    ],
+    "topScenes": [
+      {
+        "name": "黑猫、南瓜灯与月夜",
+        "count": 1
+      },
+      {
+        "name": "万圣节贺卡与民俗图像",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "儿童节庆",
+        "count": 1
+      },
+      {
+        "name": "复古贺卡",
+        "count": 1
+      },
+      {
+        "name": "角色队列",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "黑猫以相同轮廓、不同提灯组成队列；适合做连续边饰或四到六只的行进图。",
+    "avoid": "不要复制贺卡标题；避免现代黑猫品牌角色和现成商品版式。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-a-jolly-halloween-black-cat-procession-74347b57",
+      "title": "A Jolly Halloween: Black Cat Procession",
+      "subtitle": "Not credited",
+      "year": "ca. 1900–1916",
+      "yearSort": 1900,
+      "coverImage": "images/db3a39c9a96c01e2a66b.webp",
+      "coverRecordId": "catalog-supplement-jolly-halloween-black-cat-procession",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Jolly_Halloween_card_Black_Cats.jpg",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Jolly_Halloween_card_Black_Cats.jpg",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Commons 文件页标记 Public domain"
+      ],
+      "usage": "黑猫以相同轮廓、不同提灯组成队列；适合做连续边饰或四到六只的行进图。",
+      "avoid": "不要复制贺卡标题；避免现代黑猫品牌角色和现成商品版式。",
+      "tags": [
+        "万圣节",
+        "动物 / 自然",
+        "角色 / 卡通"
+      ],
+      "styles": [
+        "复古贺卡",
+        "角色队列",
+        "儿童节庆"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "黑猫、南瓜灯与月夜"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "彩色万圣节明信片"
+      ],
+      "motifs": [
+        "尖帽黑猫",
+        "南瓜提灯",
+        "扫帚",
+        "儿童"
+      ],
+      "actions": [
+        "猫群列队",
+        "提灯行进",
+        "儿童布置"
+      ],
+      "compositions": [
+        "横向队列",
+        "重复角色",
+        "背部主图"
+      ],
+      "colors": [
+        "黑",
+        "南瓜橙",
+        "扫帚黄",
+        "浅灰"
+      ],
+      "productionUses": [
+        "角色队列",
+        "重复纹样",
+        "长条胸花"
+      ],
+      "sourceHashes": [
+        "de98c8f2742efde17dd324c106103f528ae36e072a3805d02a573eb19f0d92c3"
+      ],
+      "characterNames": [
+        "尖帽黑猫队列"
+      ],
+      "characterAliases": [
+        "尖帽黑猫队列"
+      ],
+      "recordIds": [
+        "catalog-supplement-jolly-halloween-black-cat-procession"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-supplement-jolly-halloween-black-cat-procession"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-尖帽黑猫队列-d015bc15"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

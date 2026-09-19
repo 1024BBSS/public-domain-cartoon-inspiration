@@ -1,0 +1,254 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "work": {
+    "id": "work-student-at-a-table-by-candlelight-bdba6084",
+    "title": "Student at a Table by Candlelight",
+    "subtitle": "Rembrandt van Rijn Dutch, 1606-1669",
+    "year": "ca. 1642",
+    "yearSort": 1642,
+    "coverImage": "images/44fcf73b2ee5ea867e94.webp",
+    "coverRecordId": "catalog-supplement-student-candlelight-rembrandt-1642",
+    "sourceUrl": "https://www.artic.edu/artworks/49088",
+    "sourceLabel": "Art Institute of Chicago",
+    "licenseUrl": "https://api.artic.edu/docs/",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "AIC Open Access · CC0 Public Domain Designation"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "AIC API 标记 is_public_domain=true"
+    ],
+    "usage": "单点烛光只照亮脸、书与桌面；适合用大黑块和极少暖色建立暗室氛围。",
+    "avoid": "不要把历史人物包装成现代影视角色；使用时重构姿态与光影，不照抄整幅。",
+    "tags": [
+      "万圣节",
+      "经典艺术",
+      "暗黑 / 怪诞"
+    ],
+    "styles": [
+      "伦勃朗式明暗",
+      "烛光版画",
+      "暗室阅读"
+    ],
+    "scenes": [
+      "幽暗室内与烛光",
+      "哥特文学空间"
+    ],
+    "holidays": [
+      "万圣节"
+    ],
+    "assetTypes": [
+      "烛光版画"
+    ],
+    "motifs": [
+      "蜡烛",
+      "桌前人物",
+      "黑暗室内",
+      "书本"
+    ],
+    "actions": [
+      "阅读",
+      "烛光照明",
+      "独坐"
+    ],
+    "compositions": [
+      "单点光源",
+      "暗部包围",
+      "竖版场景"
+    ],
+    "colors": [
+      "炭黑",
+      "烛火黄",
+      "灰褐"
+    ],
+    "productionUses": [
+      "哥特烛光场景",
+      "单色背图",
+      "文学主题"
+    ],
+    "sourceHashes": [
+      "f63feba8874fb9ec13bd3e8bebf652547b460f659c734af7d1cb9bbcefda5753"
+    ],
+    "characterNames": [
+      "烛光下的学生"
+    ],
+    "characterAliases": [
+      "烛光下的学生"
+    ],
+    "recordIds": [
+      "catalog-supplement-student-candlelight-rembrandt-1642"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-supplement-student-candlelight-rembrandt-1642"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-烛光下的学生-2c0164d6"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-烛光下的学生-2c0164d6",
+      "name": "烛光下的学生",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/44fcf73b2ee5ea867e94.webp",
+      "coverRecordId": "catalog-supplement-student-candlelight-rembrandt-1642",
+      "yearStart": 1642,
+      "yearEnd": 1642,
+      "workIds": [
+        "work-student-at-a-table-by-candlelight-bdba6084"
+      ],
+      "recordIds": [
+        "catalog-supplement-student-candlelight-rembrandt-1642"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "AIC Open Access · CC0 Public Domain Designation"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "经典艺术",
+        "暗黑 / 怪诞"
+      ],
+      "topScenes": [
+        {
+          "name": "哥特文学空间",
+          "count": 1
+        },
+        {
+          "name": "幽暗室内与烛光",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "暗室阅读",
+          "count": 1
+        },
+        {
+          "name": "伦勃朗式明暗",
+          "count": 1
+        },
+        {
+          "name": "烛光版画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "单点烛光只照亮脸、书与桌面；适合用大黑块和极少暖色建立暗室氛围。",
+      "avoid": "不要把历史人物包装成现代影视角色；使用时重构姿态与光影，不照抄整幅。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "title": "Student at a Table by Candlelight",
+      "year": "ca. 1642",
+      "yearSort": 1642,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC Open Access · CC0 Public Domain Designation",
+      "evidenceLevel": "A",
+      "imageRights": "AIC API 标记 is_public_domain=true",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "usage": "单点烛光只照亮脸、书与桌面；适合用大黑块和极少暖色建立暗室氛围。",
+      "avoid": "不要把历史人物包装成现代影视角色；使用时重构姿态与光影，不照抄整幅。",
+      "styles": [
+        "伦勃朗式明暗",
+        "烛光版画",
+        "暗室阅读"
+      ],
+      "scenes": [
+        "幽暗室内与烛光",
+        "哥特文学空间"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "烛光下的学生"
+      ],
+      "assetType": "烛光版画",
+      "motifs": [
+        "蜡烛",
+        "桌前人物",
+        "黑暗室内",
+        "书本"
+      ],
+      "actions": [
+        "阅读",
+        "烛光照明",
+        "独坐"
+      ],
+      "compositions": [
+        "单点光源",
+        "暗部包围",
+        "竖版场景"
+      ],
+      "colors": [
+        "炭黑",
+        "烛火黄",
+        "灰褐"
+      ],
+      "productionUses": [
+        "哥特烛光场景",
+        "单色背图",
+        "文学主题"
+      ],
+      "sourceHash": "f63feba8874fb9ec13bd3e8bebf652547b460f659c734af7d1cb9bbcefda5753",
+      "sourcePixels": "1200x1333",
+      "tags": [
+        "万圣节",
+        "经典艺术",
+        "暗黑 / 怪诞"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.artic.edu/artworks/49088",
+        "https://api.artic.edu/docs/"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-student-candlelight-rembrandt-1642",
+      "kind": "主档",
+      "subtitle": "Rembrandt van Rijn Dutch, 1606-1669",
+      "sourceUrl": "https://www.artic.edu/artworks/49088",
+      "image": "images/44fcf73b2ee5ea867e94.webp"
+    }
+  ]
+}

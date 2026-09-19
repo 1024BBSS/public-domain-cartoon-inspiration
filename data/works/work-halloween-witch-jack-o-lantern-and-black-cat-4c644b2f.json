@@ -1,0 +1,490 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "work": {
+    "id": "work-halloween-witch-jack-o-lantern-and-black-cat-4c644b2f",
+    "title": "Hallowe'en: Witch, Jack-o'-Lantern and Black Cat",
+    "subtitle": "Unknown author Unknown author",
+    "year": "ca. 1910",
+    "yearSort": 1910,
+    "coverImage": "images/7fda696cf589fb8cf2d4.webp",
+    "coverRecordId": "catalog-supplement-witch-pumpkin-cat-flight-1910",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Hallowe%27en.%22_(A_Witch_riding_a_broomstick_being_pulled_by_a_jack-o-lantern_with_a_black_cat).jpg",
+    "sourceLabel": "Wikimedia Commons",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:%22Hallowe%27en.%22_(A_Witch_riding_a_broomstick_being_pulled_by_a_jack-o-lantern_with_a_black_cat).jpg",
+    "rightsStatuses": [
+      "公版文件"
+    ],
+    "copyrightRoutes": [
+      "Wikimedia Commons · Public domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Commons 文件页标记 Public domain"
+    ],
+    "usage": "用牵引关系把女巫、南瓜和猫串成一个动作；比静态符号拼贴更有叙事。",
+    "avoid": "只取历史明信片中的动作机制；避开现代影视女巫、具体演员脸和品牌角色。",
+    "tags": [
+      "万圣节",
+      "神话 / 魔法",
+      "动物 / 自然"
+    ],
+    "styles": [
+      "彩色石印",
+      "复古贺卡",
+      "飞行叙事"
+    ],
+    "scenes": [
+      "万圣节贺卡与民俗图像",
+      "女巫飞行与黑猫"
+    ],
+    "holidays": [
+      "万圣节"
+    ],
+    "assetTypes": [
+      "彩色万圣节明信片"
+    ],
+    "motifs": [
+      "女巫",
+      "飞行南瓜灯",
+      "黑猫",
+      "扫帚",
+      "月亮"
+    ],
+    "actions": [
+      "女巫骑扫帚",
+      "南瓜牵引",
+      "黑猫同行"
+    ],
+    "compositions": [
+      "横向飞行",
+      "单一叙事带",
+      "中心胸花"
+    ],
+    "colors": [
+      "南瓜橙",
+      "深绿",
+      "夜蓝",
+      "黑"
+    ],
+    "productionUses": [
+      "横向胸花",
+      "背部主图",
+      "飞行剪影"
+    ],
+    "sourceHashes": [
+      "cd7f1bbc5ae78e6ed26b073deb912b479b2cd7c52ca46394e677852639713775"
+    ],
+    "characterNames": [
+      "女巫",
+      "黑猫",
+      "南瓜灯"
+    ],
+    "characterAliases": [
+      "女巫",
+      "黑猫",
+      "南瓜灯"
+    ],
+    "recordIds": [
+      "catalog-supplement-witch-pumpkin-cat-flight-1910"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-supplement-witch-pumpkin-cat-flight-1910"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-女巫-a639054d",
+      "role-黑猫-10d5e79f",
+      "role-南瓜灯-acaa4309"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-女巫-a639054d",
+      "name": "女巫",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/7fda696cf589fb8cf2d4.webp",
+      "coverRecordId": "catalog-supplement-witch-pumpkin-cat-flight-1910",
+      "yearStart": 1910,
+      "yearEnd": 1926,
+      "workIds": [
+        "work-halloween-witch-jack-o-lantern-and-black-cat-4c644b2f",
+        "work-the-halloween-lantern-car-8677b0d6",
+        "work-pumpkin-witch-black-cat-and-bats-365967f6"
+      ],
+      "recordIds": [
+        "catalog-supplement-witch-pumpkin-cat-flight-1910",
+        "catalog-supplement-halloween-lantern-car-1914",
+        "catalog-supplement-pumpkin-witch-cat-bat-postcard-1926"
+      ],
+      "frameIds": [],
+      "workCount": 3,
+      "imageCount": 3,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 3
+      },
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "动物 / 自然",
+        "器物 / 建筑",
+        "角色 / 卡通"
+      ],
+      "topScenes": [
+        {
+          "name": "万圣节贺卡与民俗图像",
+          "count": 3
+        },
+        {
+          "name": "黑猫、南瓜灯与月夜",
+          "count": 1
+        },
+        {
+          "name": "女巫飞行与黑猫",
+          "count": 1
+        },
+        {
+          "name": "万圣节巡游与交通工具",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "复古贺卡",
+          "count": 3
+        },
+        {
+          "name": "扁平角色",
+          "count": 1
+        },
+        {
+          "name": "彩色石印",
+          "count": 1
+        },
+        {
+          "name": "飞行叙事",
+          "count": 1
+        },
+        {
+          "name": "横向舞台",
+          "count": 1
+        },
+        {
+          "name": "节庆巡游",
+          "count": 1
+        },
+        {
+          "name": "拟人器物",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 3
+        }
+      ],
+      "usage": "用牵引关系把女巫、南瓜和猫串成一个动作；比静态符号拼贴更有叙事。",
+      "avoid": "只取历史明信片中的动作机制；避开现代影视女巫、具体演员脸和品牌角色。",
+      "awarenessScore": 0,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-黑猫-10d5e79f",
+        "role-南瓜灯-acaa4309",
+        "role-灯笼车-af8a5eed",
+        "role-南瓜乘客-d81a660c",
+        "role-黑猫群-e7b3fc6f",
+        "role-南瓜灯队列-a2de2c1f",
+        "role-蝙蝠-b2b532b9"
+      ]
+    },
+    {
+      "id": "role-黑猫-10d5e79f",
+      "name": "黑猫",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/7fda696cf589fb8cf2d4.webp",
+      "coverRecordId": "catalog-supplement-witch-pumpkin-cat-flight-1910",
+      "yearStart": 1910,
+      "yearEnd": 1910,
+      "workIds": [
+        "work-halloween-witch-jack-o-lantern-and-black-cat-4c644b2f",
+        "work-a-merry-halloween-three-jack-o-lanterns-c259219d",
+        "work-black-cat-with-pumpkin-detail-86866d3d"
+      ],
+      "recordIds": [
+        "catalog-supplement-witch-pumpkin-cat-flight-1910",
+        "catalog-supplement-merry-halloween-pumpkin-choir-1910",
+        "catalog-supplement-black-cat-pumpkin-detail-1910"
+      ],
+      "frameIds": [],
+      "workCount": 3,
+      "imageCount": 3,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 3
+      },
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "动物 / 自然",
+        "生活 / 节庆",
+        "角色 / 卡通",
+        "图素裁切"
+      ],
+      "topScenes": [
+        {
+          "name": "万圣节贺卡与民俗图像",
+          "count": 2
+        },
+        {
+          "name": "黑猫、南瓜灯与月夜",
+          "count": 1
+        },
+        {
+          "name": "南瓜灯与拟人角色",
+          "count": 1
+        },
+        {
+          "name": "女巫飞行与黑猫",
+          "count": 1
+        },
+        {
+          "name": "万圣节单体图素",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "复古贺卡",
+          "count": 2
+        },
+        {
+          "name": "彩色石印",
+          "count": 1
+        },
+        {
+          "name": "飞行叙事",
+          "count": 1
+        },
+        {
+          "name": "复古明信片裁切",
+          "count": 1
+        },
+        {
+          "name": "颗粒印刷",
+          "count": 1
+        },
+        {
+          "name": "拟人南瓜",
+          "count": 1
+        },
+        {
+          "name": "双主体",
+          "count": 1
+        },
+        {
+          "name": "舞台群像",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 3
+        }
+      ],
+      "usage": "用牵引关系把女巫、南瓜和猫串成一个动作；比静态符号拼贴更有叙事。",
+      "avoid": "只取历史明信片中的动作机制；避开现代影视女巫、具体演员脸和品牌角色。",
+      "awarenessScore": 0,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-女巫-a639054d",
+        "role-南瓜灯-acaa4309",
+        "role-南瓜灯三人组-955cb80e",
+        "role-南瓜-85bc0873"
+      ]
+    },
+    {
+      "id": "role-南瓜灯-acaa4309",
+      "name": "南瓜灯",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/7fda696cf589fb8cf2d4.webp",
+      "coverRecordId": "catalog-supplement-witch-pumpkin-cat-flight-1910",
+      "yearStart": 1910,
+      "yearEnd": 1910,
+      "workIds": [
+        "work-halloween-witch-jack-o-lantern-and-black-cat-4c644b2f"
+      ],
+      "recordIds": [
+        "catalog-supplement-witch-pumpkin-cat-flight-1910"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "女巫飞行与黑猫",
+          "count": 1
+        },
+        {
+          "name": "万圣节贺卡与民俗图像",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "彩色石印",
+          "count": 1
+        },
+        {
+          "name": "飞行叙事",
+          "count": 1
+        },
+        {
+          "name": "复古贺卡",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "用牵引关系把女巫、南瓜和猫串成一个动作；比静态符号拼贴更有叙事。",
+      "avoid": "只取历史明信片中的动作机制；避开现代影视女巫、具体演员脸和品牌角色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-女巫-a639054d",
+        "role-黑猫-10d5e79f"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "title": "Hallowe'en: Witch, Jack-o'-Lantern and Black Cat",
+      "year": "ca. 1910",
+      "yearSort": 1910,
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "Wikimedia Commons · Public domain",
+      "evidenceLevel": "A",
+      "imageRights": "Commons 文件页标记 Public domain",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:%22Hallowe%27en.%22_(A_Witch_riding_a_broomstick_being_pulled_by_a_jack-o-lantern_with_a_black_cat).jpg",
+      "usage": "用牵引关系把女巫、南瓜和猫串成一个动作；比静态符号拼贴更有叙事。",
+      "avoid": "只取历史明信片中的动作机制；避开现代影视女巫、具体演员脸和品牌角色。",
+      "styles": [
+        "彩色石印",
+        "复古贺卡",
+        "飞行叙事"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "女巫飞行与黑猫"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "女巫",
+        "黑猫",
+        "南瓜灯"
+      ],
+      "assetType": "彩色万圣节明信片",
+      "motifs": [
+        "女巫",
+        "飞行南瓜灯",
+        "黑猫",
+        "扫帚",
+        "月亮"
+      ],
+      "actions": [
+        "女巫骑扫帚",
+        "南瓜牵引",
+        "黑猫同行"
+      ],
+      "compositions": [
+        "横向飞行",
+        "单一叙事带",
+        "中心胸花"
+      ],
+      "colors": [
+        "南瓜橙",
+        "深绿",
+        "夜蓝",
+        "黑"
+      ],
+      "productionUses": [
+        "横向胸花",
+        "背部主图",
+        "飞行剪影"
+      ],
+      "sourceHash": "cd7f1bbc5ae78e6ed26b073deb912b479b2cd7c52ca46394e677852639713775",
+      "sourcePixels": "3840x2415",
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "动物 / 自然"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:%22Hallowe%27en.%22_(A_Witch_riding_a_broomstick_being_pulled_by_a_jack-o-lantern_with_a_black_cat).jpg"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-witch-pumpkin-cat-flight-1910",
+      "kind": "主档",
+      "subtitle": "Unknown author Unknown author",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Hallowe%27en.%22_(A_Witch_riding_a_broomstick_being_pulled_by_a_jack-o-lantern_with_a_black_cat).jpg",
+      "image": "images/7fda696cf589fb8cf2d4.webp"
+    }
+  ]
+}

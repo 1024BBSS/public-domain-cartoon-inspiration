@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "1.0",
+  "intakeVersion": "halloween-visual-elements-2026-09-19-v1",
+  "researchDate": "2026-09-19",
+  "eagleFolderId": "MTQ0XCUZOVLNG",
+  "requested": 24,
+  "imported": [
+    {
+      "intakeId": "full-moon-japanese-18c",
+      "eagleItemId": "MU7ZV6C0D5RPV",
+      "sourceUrl": "https://www.artic.edu/artworks/19048",
+      "sha256": "9875d6149140f8145a7d254c69c32f10ad90a27e22265b0b244bd90a31a52081",
+      "width": 843,
+      "height": 2303
+    },
+    {
+      "intakeId": "children-around-candle-isabey-1818",
+      "eagleItemId": "MU7ZV8CBJLTEC",
+      "sourceUrl": "https://www.artic.edu/artworks/121551",
+      "sha256": "1d8cb413512b4a4afa0007eeb0b375c239f11f78e74e833bc2c9dc0c9de1d7c3",
+      "width": 843,
+      "height": 1158
+    }
+  ],
+  "reused": [
+    {
+      "intakeId": "pumpkinheads-heaven-1901",
+      "eagleItemId": "MU7ZNET16L7MJ",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PumpkinheadsHeaven1901.jpg",
+      "sha256": "97d2b3d3f96e74db45e49e21868a1f93f827a7c2d9a9dff7c74694e8ec247cd9",
+      "width": 821,
+      "height": 495
+    },
+    {
+      "intakeId": "thrilling-halloween-cats-pumpkins-1910",
+      "eagleItemId": "MU7ZNHXJC5JUM",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22A_Thrilling_Hallowe%27en.%22_(Three_black_cats_flying_through_the_air_with_Jack-o-lanterns).jpg",
+      "sha256": "e18879a93b9178d3829c0a21f006b34c1d93cc23448bf9cfa8902557b068d996",
+      "width": 3840,
+      "height": 6157
+    },
+    {
+      "intakeId": "witch-pumpkin-cat-flight-1910",
+      "eagleItemId": "MU7ZNK1KQW5TY",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Hallowe%27en.%22_(A_Witch_riding_a_broomstick_being_pulled_by_a_jack-o-lantern_with_a_black_cat).jpg",
+      "sha256": "cd7f1bbc5ae78e6ed26b073deb912b479b2cd7c52ca46394e677852639713775",
+      "width": 3840,
+      "height": 2415
+    },
+    {
+      "intakeId": "merry-halloween-pumpkin-choir-1910",
+      "eagleItemId": "MU7ZNMD612UCK",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22A_Merry_Halloween.%22_(Girl_blowing_a_horn_with_three_Jack-o-Lanterns).jpg",
+      "sha256": "b1e356f3ba71da34527e136f4df9b86b8527fe8c4f5c53679507ff987a4b14ce",
+      "width": 3840,
+      "height": 2472
+    },
+    {
+      "intakeId": "jackolantern-car-1908",
+      "eagleItemId": "MU7ZNP234FIFO",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22You_Auto_Have_a_Happy_Hallowe%27en.%22_(Jack-O-Lantern_driving_a_car).jpg",
+      "sha256": "0776f24a15a8f2a83ab04de0ddcdf23c71711791921d2b111f78f846570571e5",
+      "width": 3840,
+      "height": 5999
+    },
+    {
+      "intakeId": "witch-cauldron-remembrance-1915",
+      "eagleItemId": "MU7ZNQWYU1POJ",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1910s-Witch-Cauldron-Halloween-Postcard-I-Summon-Up-Remembrance-1152x1536.jpg",
+      "sha256": "169554a6f6b7854aaff4d47612fbbb0db39f7bf5a25aaa34cacca0ddaae7ba07",
+      "width": 1152,
+      "height": 1536
+    },
+    {
+      "intakeId": "halloween-lantern-car-1914",
+      "eagleItemId": "MU7ZNS8643O60",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Halloween_Lantern_car_1914.jpg",
+      "sha256": "136f54787d0b1b1a51d9f6aa312cc0fdaed470799d9da00e93d3b3c9a18caf9d",
+      "width": 1200,
+      "height": 760
+    },
+    {
+      "intakeId": "jolly-halloween-black-cat-procession",
+      "eagleItemId": "MU7ZNWJ2SXLW5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Jolly_Halloween_card_Black_Cats.jpg",
+      "sha256": "de98c8f2742efde17dd324c106103f528ae36e072a3805d02a573eb19f0d92c3",
+      "width": 1200,
+      "height": 772
+    },
+    {
+      "intakeId": "all-halloween-card-1911",
+      "eagleItemId": "MU7ZNXWFIBCMN",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:All_Hallween_Card_1911.jpg",
+      "sha256": "2fb65352d93954855de6b2be71af74677233b00d489a811660a92e2dc941a366",
+      "width": 1200,
+      "height": 1862
+    },
+    {
+      "intakeId": "black-cat-pumpkin-detail-1910",
+      "eagleItemId": "MU7ZO0OZGDCI4",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_cat_with_pumpkin_art_detail,_%22A_Merry_Halloween.%22_(cropped).jpg",
+      "sha256": "f92ca5e0bc95d1a2231ddbaf48dd081ed98b3b8c77f44b3e5544f0f38e29bf9f",
+      "width": 1276,
+      "height": 1193
+    },
+    {
+      "intakeId": "crescent-moon-stars-detail-1910",
+      "eagleItemId": "MU7ZRJJGA5DRF",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crescent_moon_and_stars_art_detail,_from-_%22A_Merry_Halloween.%22_(cropped).jpg",
+      "sha256": "5d0104b9d81e1889e715bd36263985aeb6e35ddb255d84443a04be410882b385",
+      "width": 1189,
+      "height": 944
+    },
+    {
+      "intakeId": "pumpkin-witch-cat-bat-postcard-1926",
+      "eagleItemId": "MU7ZRLZYX2CIJ",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pumpkin,_Witch,_Black_Cat_postcard_circa_1926.png",
+      "sha256": "55aa4a430cb945535163e092de16c81a7a063ba03e266bb88443b79e57ca6b46",
+      "width": 1500,
+      "height": 978
+    },
+    {
+      "intakeId": "bat-pine-isso-19c",
+      "eagleItemId": "MU7ZRORKSP6RB",
+      "sourceUrl": "https://www.artic.edu/artworks/41357",
+      "sha256": "f4fa355d05872631f4ef7996ceb7562af4bdcb0b97cecd2a310f4367880e0d02",
+      "width": 1686,
+      "height": 2060
+    },
+    {
+      "intakeId": "bat-ornament-aldegrever-1550",
+      "eagleItemId": "MU7ZRQTSZPW1E",
+      "sourceUrl": "https://www.artic.edu/artworks/77421",
+      "sha256": "8b5cb25d0b87f619c3cf6bf7d2bc696dd5345374225d33267ae00c1344af2d83",
+      "width": 1686,
+      "height": 2115
+    },
+    {
+      "intakeId": "great-indian-fruit-bat-1777",
+      "eagleItemId": "MU7ZSHCLHJXOS",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/456949",
+      "sha256": "877657234d1677d21cdbb48cb64e244da0fb82f30e3248db0011d1c52a3456d9",
+      "width": 3905,
+      "height": 2869
+    },
+    {
+      "intakeId": "crow-moon-kyosai-1887",
+      "eagleItemId": "MU7ZSKVVYYWAN",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/54631",
+      "sha256": "e74006da6333527e2880f7b2413da677618c5815ec48dea9108fe8b926f2ec78",
+      "width": 2896,
+      "height": 3778
+    },
+    {
+      "intakeId": "flying-raven-ex-libris-1875",
+      "eagleItemId": "MU7ZSNYNDWUFH",
+      "sourceUrl": "https://www.artic.edu/artworks/111363",
+      "sha256": "46b60c138df4b5ddfc6689ced6c3e5402e79772ea7848185f9e0e104c13f0477",
+      "width": 1686,
+      "height": 1493
+    },
+    {
+      "intakeId": "raven-bust-pallas-1875",
+      "eagleItemId": "MU7ZTLT4HLOZ9",
+      "sourceUrl": "https://www.artic.edu/artworks/111365",
+      "sha256": "77f7492a8ebb4eff6de2de7dde764fb671d466f874f490901909a5dad440110b",
+      "width": 1200,
+      "height": 1671
+    },
+    {
+      "intakeId": "moon-final-quarter-mellan-1635",
+      "eagleItemId": "MU7ZTOZ9HFXQJ",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/359769",
+      "sha256": "d96d217755185a54620f02234c40f3599cbece707345c4cb0dcd3bc86c0c2b5b",
+      "width": 2440,
+      "height": 4000
+    },
+    {
+      "intakeId": "sleep-of-reason-goya-1799",
+      "eagleItemId": "MU7ZTQZ29A9PV",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/338473",
+      "sha256": "122aa775d975c4aa8d96e7ecbbfe02626c36c12f42cb4bfafbfc59dbafc52fa8",
+      "width": 2689,
+      "height": 3665
+    },
+    {
+      "intakeId": "student-candlelight-rembrandt-1642",
+      "eagleItemId": "MU7ZTTS5187RV",
+      "sourceUrl": "https://www.artic.edu/artworks/49088",
+      "sha256": "f63feba8874fb9ec13bd3e8bebf652547b460f659c734af7d1cb9bbcefda5753",
+      "width": 1200,
+      "height": 1333
+    },
+    {
+      "intakeId": "cemetery-galicia-lautrec-1897",
+      "eagleItemId": "MU7ZTVUZVVTKX",
+      "sourceUrl": "https://www.artic.edu/artworks/72411",
+      "sha256": "80510a917ba08a0b52653c20291bbff3e3dc79e1fae72a01f8782bb749ad4797",
+      "width": 1200,
+      "height": 1382
+    }
+  ],
+  "rejected": [],
+  "completed": 24,
+  "sha256Unique": 24,
+  "status": "PASS"
+}

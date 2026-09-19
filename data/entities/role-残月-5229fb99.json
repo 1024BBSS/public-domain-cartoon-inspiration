@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:17:24.041Z",
+  "entity": {
+    "id": "role-残月-5229fb99",
+    "name": "残月",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/cb320328cc2fbadadaaf.webp",
+    "coverRecordId": "catalog-supplement-moon-final-quarter-mellan-1635",
+    "yearStart": 1635,
+    "yearEnd": 1635,
+    "workIds": [
+      "work-the-moon-in-its-final-quarter-c880c2fc"
+    ],
+    "recordIds": [
+      "catalog-supplement-moon-final-quarter-mellan-1635"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 1
+    },
+    "copyrightRoutes": [
+      "The Met Open Access · Public Domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "版画 / 纹样",
+      "其他视觉"
+    ],
+    "topScenes": [
+      {
+        "name": "万圣节边框、徽章与纹样",
+        "count": 1
+      },
+      {
+        "name": "夜行动物与月夜",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "单色纹理",
+        "count": 1
+      },
+      {
+        "name": "科学版画",
+        "count": 1
+      },
+      {
+        "name": "月相研究",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "真实月面纹理比卡通月牙更有识别度；可扩展成月相序列、徽章或单一圆形焦点。",
+    "avoid": "不要叠加现代航天机构标志、影视月球画面或受保护字标。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-the-moon-in-its-final-quarter-c880c2fc",
+      "title": "The Moon in its Final Quarter",
+      "subtitle": "Claude Mellan",
+      "year": "1635",
+      "yearSort": 1635,
+      "coverImage": "images/cb320328cc2fbadadaaf.webp",
+      "coverRecordId": "catalog-supplement-moon-final-quarter-mellan-1635",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/359769",
+      "sourceLabel": "The Met",
+      "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met API 标记 isPublicDomain=true"
+      ],
+      "usage": "真实月面纹理比卡通月牙更有识别度；可扩展成月相序列、徽章或单一圆形焦点。",
+      "avoid": "不要叠加现代航天机构标志、影视月球画面或受保护字标。",
+      "tags": [
+        "万圣节",
+        "版画 / 纹样",
+        "其他视觉"
+      ],
+      "styles": [
+        "科学版画",
+        "月相研究",
+        "单色纹理"
+      ],
+      "scenes": [
+        "夜行动物与月夜",
+        "万圣节边框、徽章与纹样"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "天文版画"
+      ],
+      "motifs": [
+        "残月",
+        "月面纹理",
+        "圆形留白"
+      ],
+      "actions": [
+        "月相变化"
+      ],
+      "compositions": [
+        "单一圆形焦点",
+        "徽章",
+        "满版重复"
+      ],
+      "colors": [
+        "黑",
+        "灰",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "月相系列",
+        "徽章",
+        "袖口图",
+        "重复纹样"
+      ],
+      "sourceHashes": [
+        "d96d217755185a54620f02234c40f3599cbece707345c4cb0dcd3bc86c0c2b5b"
+      ],
+      "characterNames": [
+        "残月"
+      ],
+      "characterAliases": [
+        "残月"
+      ],
+      "recordIds": [
+        "catalog-supplement-moon-final-quarter-mellan-1635"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-supplement-moon-final-quarter-mellan-1635"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-残月-5229fb99"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

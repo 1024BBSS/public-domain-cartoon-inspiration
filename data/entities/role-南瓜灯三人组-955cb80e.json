@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:17:24.041Z",
+  "entity": {
+    "id": "role-南瓜灯三人组-955cb80e",
+    "name": "南瓜灯三人组",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/46fb38e4cf947a73e968.webp",
+    "coverRecordId": "catalog-supplement-merry-halloween-pumpkin-choir-1910",
+    "yearStart": 1910,
+    "yearEnd": 1910,
+    "workIds": [
+      "work-a-merry-halloween-three-jack-o-lanterns-c259219d"
+    ],
+    "recordIds": [
+      "catalog-supplement-merry-halloween-pumpkin-choir-1910"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版文件": 1
+    },
+    "copyrightRoutes": [
+      "Wikimedia Commons · Public domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "生活 / 节庆",
+      "角色 / 卡通"
+    ],
+    "topScenes": [
+      {
+        "name": "南瓜灯与拟人角色",
+        "count": 1
+      },
+      {
+        "name": "万圣节贺卡与民俗图像",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "复古贺卡",
+        "count": 1
+      },
+      {
+        "name": "拟人南瓜",
+        "count": 1
+      },
+      {
+        "name": "舞台群像",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "三只表情不同的南瓜灯可发展成乐队或合唱团；保留高低错落和表情差异。",
+    "avoid": "不要复制人物肖像与原文；避开后期影视南瓜角色和现代商标。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-黑猫-10d5e79f"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-a-merry-halloween-three-jack-o-lanterns-c259219d",
+      "title": "A Merry Halloween: Three Jack-o'-Lanterns",
+      "subtitle": "Unknown author Unknown author",
+      "year": "ca. 1910",
+      "yearSort": 1910,
+      "coverImage": "images/46fb38e4cf947a73e968.webp",
+      "coverRecordId": "catalog-supplement-merry-halloween-pumpkin-choir-1910",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22A_Merry_Halloween.%22_(Girl_blowing_a_horn_with_three_Jack-o-Lanterns).jpg",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:%22A_Merry_Halloween.%22_(Girl_blowing_a_horn_with_three_Jack-o-Lanterns).jpg",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Commons 文件页标记 Public domain"
+      ],
+      "usage": "三只表情不同的南瓜灯可发展成乐队或合唱团；保留高低错落和表情差异。",
+      "avoid": "不要复制人物肖像与原文；避开后期影视南瓜角色和现代商标。",
+      "tags": [
+        "万圣节",
+        "生活 / 节庆",
+        "角色 / 卡通"
+      ],
+      "styles": [
+        "复古贺卡",
+        "拟人南瓜",
+        "舞台群像"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "南瓜灯与拟人角色"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "彩色万圣节明信片"
+      ],
+      "motifs": [
+        "三只南瓜灯",
+        "黑猫",
+        "新月",
+        "号角"
+      ],
+      "actions": [
+        "少女吹号",
+        "南瓜合唱",
+        "黑猫守候"
+      ],
+      "compositions": [
+        "横向四主体",
+        "舞台式队列",
+        "背部主图"
+      ],
+      "colors": [
+        "夜蓝",
+        "南瓜橙",
+        "稻草黄",
+        "黑"
+      ],
+      "productionUses": [
+        "南瓜角色组",
+        "音乐主题",
+        "复古横幅"
+      ],
+      "sourceHashes": [
+        "b1e356f3ba71da34527e136f4df9b86b8527fe8c4f5c53679507ff987a4b14ce"
+      ],
+      "characterNames": [
+        "南瓜灯三人组",
+        "黑猫"
+      ],
+      "characterAliases": [
+        "南瓜灯三人组",
+        "黑猫"
+      ],
+      "recordIds": [
+        "catalog-supplement-merry-halloween-pumpkin-choir-1910"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-supplement-merry-halloween-pumpkin-choir-1910"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-黑猫-10d5e79f",
+        "role-南瓜灯三人组-955cb80e"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-黑猫-10d5e79f",
+      "name": "黑猫",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/7fda696cf589fb8cf2d4.webp",
+      "coverRecordId": "catalog-supplement-witch-pumpkin-cat-flight-1910",
+      "yearStart": 1910,
+      "yearEnd": 1910,
+      "workIds": [
+        "work-halloween-witch-jack-o-lantern-and-black-cat-4c644b2f",
+        "work-a-merry-halloween-three-jack-o-lanterns-c259219d",
+        "work-black-cat-with-pumpkin-detail-86866d3d"
+      ],
+      "recordIds": [
+        "catalog-supplement-witch-pumpkin-cat-flight-1910",
+        "catalog-supplement-merry-halloween-pumpkin-choir-1910",
+        "catalog-supplement-black-cat-pumpkin-detail-1910"
+      ],
+      "frameIds": [],
+      "workCount": 3,
+      "imageCount": 3,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 3
+      },
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "动物 / 自然",
+        "生活 / 节庆",
+        "角色 / 卡通",
+        "图素裁切"
+      ],
+      "topScenes": [
+        {
+          "name": "万圣节贺卡与民俗图像",
+          "count": 2
+        },
+        {
+          "name": "黑猫、南瓜灯与月夜",
+          "count": 1
+        },
+        {
+          "name": "南瓜灯与拟人角色",
+          "count": 1
+        },
+        {
+          "name": "女巫飞行与黑猫",
+          "count": 1
+        },
+        {
+          "name": "万圣节单体图素",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "复古贺卡",
+          "count": 2
+        },
+        {
+          "name": "彩色石印",
+          "count": 1
+        },
+        {
+          "name": "飞行叙事",
+          "count": 1
+        },
+        {
+          "name": "复古明信片裁切",
+          "count": 1
+        },
+        {
+          "name": "颗粒印刷",
+          "count": 1
+        },
+        {
+          "name": "拟人南瓜",
+          "count": 1
+        },
+        {
+          "name": "双主体",
+          "count": 1
+        },
+        {
+          "name": "舞台群像",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 3
+        }
+      ],
+      "usage": "用牵引关系把女巫、南瓜和猫串成一个动作；比静态符号拼贴更有叙事。",
+      "avoid": "只取历史明信片中的动作机制；避开现代影视女巫、具体演员脸和品牌角色。",
+      "awarenessScore": 0,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-女巫-a639054d",
+        "role-南瓜灯-acaa4309",
+        "role-南瓜灯三人组-955cb80e",
+        "role-南瓜-85bc0873"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

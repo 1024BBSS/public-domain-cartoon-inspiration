@@ -1,0 +1,256 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "work": {
+    "id": "work-group-of-children-around-a-candle-bf4bee45",
+    "title": "Group of Children Around a Candle",
+    "subtitle": "Jean Baptiste Isabey (French, 1767-1855) printed by Gottfried Engelmann (French, 1788-1839)",
+    "year": "1818",
+    "yearSort": 1818,
+    "coverImage": "images/625bdb9ef8e356f3cfb0.webp",
+    "coverRecordId": "catalog-supplement-children-around-candle-isabey-1818",
+    "sourceUrl": "https://www.artic.edu/artworks/121551",
+    "sourceLabel": "Art Institute of Chicago",
+    "licenseUrl": "https://api.artic.edu/docs/",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "AIC Open Access · CC0 Public Domain Designation"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "AIC API 标记 is_public_domain=true"
+    ],
+    "usage": "所有视线和手势围绕中央烛火，适合转译成讲鬼故事、占卜或夜间聚会场景。",
+    "avoid": "不要把历史儿童肖像直接商品化；重构人物、服装与面貌，只保留环形光源机制。",
+    "tags": [
+      "万圣节",
+      "人物 / 肖像",
+      "生活 / 节庆"
+    ],
+    "styles": [
+      "烛光版画",
+      "环形群像",
+      "明暗对比"
+    ],
+    "scenes": [
+      "幽暗室内与烛光",
+      "万圣节聚会与怪谈"
+    ],
+    "holidays": [
+      "万圣节"
+    ],
+    "assetTypes": [
+      "烛光群像版画"
+    ],
+    "motifs": [
+      "蜡烛",
+      "儿童群像",
+      "手部",
+      "围观"
+    ],
+    "actions": [
+      "围绕烛火",
+      "伸手遮光",
+      "共同凝视"
+    ],
+    "compositions": [
+      "环形群像",
+      "中心光源",
+      "徽章"
+    ],
+    "colors": [
+      "黑",
+      "灰",
+      "烛火黄",
+      "旧纸白"
+    ],
+    "productionUses": [
+      "环形角色组",
+      "怪谈场景",
+      "背部主图"
+    ],
+    "sourceHashes": [
+      "1d8cb413512b4a4afa0007eeb0b375c239f11f78e74e833bc2c9dc0c9de1d7c3"
+    ],
+    "characterNames": [
+      "烛火旁的儿童群像"
+    ],
+    "characterAliases": [
+      "烛火旁的儿童群像"
+    ],
+    "recordIds": [
+      "catalog-supplement-children-around-candle-isabey-1818"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-supplement-children-around-candle-isabey-1818"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-烛火旁的儿童群像-43ba7f82"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-烛火旁的儿童群像-43ba7f82",
+      "name": "烛火旁的儿童群像",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/625bdb9ef8e356f3cfb0.webp",
+      "coverRecordId": "catalog-supplement-children-around-candle-isabey-1818",
+      "yearStart": 1818,
+      "yearEnd": 1818,
+      "workIds": [
+        "work-group-of-children-around-a-candle-bf4bee45"
+      ],
+      "recordIds": [
+        "catalog-supplement-children-around-candle-isabey-1818"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "AIC Open Access · CC0 Public Domain Designation"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "人物 / 肖像",
+        "生活 / 节庆"
+      ],
+      "topScenes": [
+        {
+          "name": "万圣节聚会与怪谈",
+          "count": 1
+        },
+        {
+          "name": "幽暗室内与烛光",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "环形群像",
+          "count": 1
+        },
+        {
+          "name": "明暗对比",
+          "count": 1
+        },
+        {
+          "name": "烛光版画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "所有视线和手势围绕中央烛火，适合转译成讲鬼故事、占卜或夜间聚会场景。",
+      "avoid": "不要把历史儿童肖像直接商品化；重构人物、服装与面貌，只保留环形光源机制。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "title": "Group of Children Around a Candle",
+      "year": "1818",
+      "yearSort": 1818,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "AIC Open Access · CC0 Public Domain Designation",
+      "evidenceLevel": "A",
+      "imageRights": "AIC API 标记 is_public_domain=true",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "usage": "所有视线和手势围绕中央烛火，适合转译成讲鬼故事、占卜或夜间聚会场景。",
+      "avoid": "不要把历史儿童肖像直接商品化；重构人物、服装与面貌，只保留环形光源机制。",
+      "styles": [
+        "烛光版画",
+        "环形群像",
+        "明暗对比"
+      ],
+      "scenes": [
+        "幽暗室内与烛光",
+        "万圣节聚会与怪谈"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "烛火旁的儿童群像"
+      ],
+      "assetType": "烛光群像版画",
+      "motifs": [
+        "蜡烛",
+        "儿童群像",
+        "手部",
+        "围观"
+      ],
+      "actions": [
+        "围绕烛火",
+        "伸手遮光",
+        "共同凝视"
+      ],
+      "compositions": [
+        "环形群像",
+        "中心光源",
+        "徽章"
+      ],
+      "colors": [
+        "黑",
+        "灰",
+        "烛火黄",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "环形角色组",
+        "怪谈场景",
+        "背部主图"
+      ],
+      "sourceHash": "1d8cb413512b4a4afa0007eeb0b375c239f11f78e74e833bc2c9dc0c9de1d7c3",
+      "sourcePixels": "843x1158",
+      "tags": [
+        "万圣节",
+        "人物 / 肖像",
+        "生活 / 节庆"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.artic.edu/artworks/121551",
+        "https://api.artic.edu/docs/"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-children-around-candle-isabey-1818",
+      "kind": "主档",
+      "subtitle": "Jean Baptiste Isabey (French, 1767-1855) printed by Gottfried Engelmann (French, 1788-1839)",
+      "sourceUrl": "https://www.artic.edu/artworks/121551",
+      "image": "images/625bdb9ef8e356f3cfb0.webp"
+    }
+  ]
+}

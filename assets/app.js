@@ -123,12 +123,14 @@
     record._search = joinSearch([
       record.title, record.subtitle, record.year, record.rightsStatus, record.copyrightRoute,
       record.characters, record.scenes, record.styles, record.holidays, record.tags,
+      record.assetType, record.motifs, record.actions, record.compositions, record.colors, record.productionUses,
     ]);
   }
   for (const work of works) {
     work._search = joinSearch([
       work.title, work.subtitle, work.year, work.characterNames, work.characterAliases,
       work.scenes, work.styles, work.holidays, work.tags, work.rightsStatuses,
+      work.assetTypes, work.motifs, work.actions, work.compositions, work.colors, work.productionUses,
     ]);
   }
   for (const entity of entities) {
@@ -781,11 +783,19 @@
       location.hash = "";
       setState({ view: "images", q: name, type: "全部", rights: "全部", entity: "", collection: "" });
     });
+    const motifGroup = contextGroup("图素", (work.motifs || []).slice(0, 12), (name) => {
+      location.hash = "";
+      setState({ view: "images", q: name, type: "全部", rights: "全部", entity: "", collection: "" });
+    });
+    const compositionGroup = contextGroup("构图", (work.compositions || []).slice(0, 12), (name) => {
+      location.hash = "";
+      setState({ view: "images", q: name, type: "全部", rights: "全部", entity: "", collection: "" });
+    });
     const holidayGroup = contextGroup("节日", (work.holidays || []).slice(0, 8), (name) => {
       location.hash = "";
       setState({ view: "holidays", q: name, type: "全部", rights: "全部", entity: "", collection: "" });
     });
-    for (const group of [sceneGroup, styleGroup, holidayGroup]) if (group) groups.append(group);
+    for (const group of [motifGroup, compositionGroup, sceneGroup, styleGroup, holidayGroup]) if (group) groups.append(group);
     groupsSection.append(groups);
     dom.workPage.append(groupsSection);
 
@@ -840,6 +850,7 @@
     dom.detailAvoid.textContent = record.avoid || "待复核";
     dom.detailContext.textContent = compact([
       ...(record.characters || []), ...(record.scenes || []), ...(record.styles || []), ...(record.holidays || []),
+      ...(record.motifs || []), ...(record.actions || []), ...(record.compositions || []), ...(record.productionUses || []),
     ]).join(" · ") || "待复核";
     dom.detailEvidence.textContent = compact([
       record.evidenceLevel ? `等级 ${record.evidenceLevel}` : "",

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:17:24.041Z",
+  "entity": {
+    "id": "role-帕拉斯胸像上的乌鸦-90bbe1ae",
+    "name": "帕拉斯胸像上的乌鸦",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/aee74fb382eebbcfe990.webp",
+    "coverRecordId": "catalog-supplement-raven-bust-pallas-1875",
+    "yearStart": 1875,
+    "yearEnd": 1875,
+    "workIds": [
+      "work-the-raven-on-the-bust-of-pallas-6adb454c"
+    ],
+    "recordIds": [
+      "catalog-supplement-raven-bust-pallas-1875"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 1
+    },
+    "copyrightRoutes": [
+      "AIC Open Access · CC0 Public Domain Designation"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "文学 / 童话",
+      "暗黑 / 怪诞"
+    ],
+    "topScenes": [
+      {
+        "name": "乌鸦与哥特文学",
+        "count": 1
+      },
+      {
+        "name": "幽暗室内与烛光",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "表现性黑白",
+        "count": 1
+      },
+      {
+        "name": "哥特文学",
+        "count": 1
+      },
+      {
+        "name": "马奈石版画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "乌鸦位于高处、人物缩在低处，利用尺度差产生压迫感；可转译为极简室内阴影。",
+    "avoid": "避免照搬整段诗句、现代电影海报或乐队专辑包装；商品使用前另查文字商标。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-the-raven-on-the-bust-of-pallas-6adb454c",
+      "title": "The Raven on the Bust of Pallas",
+      "subtitle": "Édouard Manet (French, 1832-1883) written by Edgar Allan Poe (American, 1809-1849) translated and produced by Stéphane Mallarmé (French, 1842-1898) printed by Lefman et Cie. (French, 19th century) published by Richard Lesclide (French, 1825-1892)",
+      "year": "1875",
+      "yearSort": 1875,
+      "coverImage": "images/aee74fb382eebbcfe990.webp",
+      "coverRecordId": "catalog-supplement-raven-bust-pallas-1875",
+      "sourceUrl": "https://www.artic.edu/artworks/111365",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC Open Access · CC0 Public Domain Designation"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "AIC API 标记 is_public_domain=true"
+      ],
+      "usage": "乌鸦位于高处、人物缩在低处，利用尺度差产生压迫感；可转译为极简室内阴影。",
+      "avoid": "避免照搬整段诗句、现代电影海报或乐队专辑包装；商品使用前另查文字商标。",
+      "tags": [
+        "万圣节",
+        "文学 / 童话",
+        "暗黑 / 怪诞"
+      ],
+      "styles": [
+        "马奈石版画",
+        "哥特文学",
+        "表现性黑白"
+      ],
+      "scenes": [
+        "乌鸦与哥特文学",
+        "幽暗室内与烛光"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "文学版画"
+      ],
+      "motifs": [
+        "乌鸦",
+        "帕拉斯胸像",
+        "门楣",
+        "强阴影"
+      ],
+      "actions": [
+        "乌鸦栖停",
+        "室内凝视"
+      ],
+      "compositions": [
+        "上下对峙",
+        "竖版场景",
+        "背部主图"
+      ],
+      "colors": [
+        "黑",
+        "旧纸白",
+        "灰"
+      ],
+      "productionUses": [
+        "背部主图",
+        "哥特文学系列",
+        "单色印花"
+      ],
+      "sourceHashes": [
+        "77f7492a8ebb4eff6de2de7dde764fb671d466f874f490901909a5dad440110b"
+      ],
+      "characterNames": [
+        "帕拉斯胸像上的乌鸦"
+      ],
+      "characterAliases": [
+        "帕拉斯胸像上的乌鸦"
+      ],
+      "recordIds": [
+        "catalog-supplement-raven-bust-pallas-1875"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-supplement-raven-bust-pallas-1875"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-帕拉斯胸像上的乌鸦-90bbe1ae"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

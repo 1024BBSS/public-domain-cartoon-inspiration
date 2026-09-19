@@ -1,0 +1,331 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:17:24.041Z",
+  "entity": {
+    "id": "role-月亮脸-29635174",
+    "name": "月亮脸",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/365e10da89c1e2bb99c7.webp",
+    "coverRecordId": "catalog-supplement-all-halloween-card-1911",
+    "yearStart": 1911,
+    "yearEnd": 1911,
+    "workIds": [
+      "work-all-halloween-card-db6cca3a"
+    ],
+    "recordIds": [
+      "catalog-supplement-all-halloween-card-1911"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版文件": 1
+    },
+    "copyrightRoutes": [
+      "Wikimedia Commons · Public domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "神话 / 魔法",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "女巫飞行与黑猫",
+        "count": 1
+      },
+      {
+        "name": "万圣节贺卡与民俗图像",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "复古贺卡",
+        "count": 1
+      },
+      {
+        "name": "月夜飞行",
+        "count": 1
+      },
+      {
+        "name": "装饰字排",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "月亮脸、猫头鹰与女巫形成上下三层结构；适合重构成纵向图章。",
+    "avoid": "不要沿用原诗文与整版排版；避开现代影视女巫和授权角色。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-扫帚女巫-4c92a8cd",
+      "role-猫头鹰-c185ad00"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-all-halloween-card-db6cca3a",
+      "title": "All Hallowe'en Card",
+      "subtitle": "John Winsch",
+      "year": "1911",
+      "yearSort": 1911,
+      "coverImage": "images/365e10da89c1e2bb99c7.webp",
+      "coverRecordId": "catalog-supplement-all-halloween-card-1911",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:All_Hallween_Card_1911.jpg",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:All_Hallween_Card_1911.jpg",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Commons 文件页标记 Public domain"
+      ],
+      "usage": "月亮脸、猫头鹰与女巫形成上下三层结构；适合重构成纵向图章。",
+      "avoid": "不要沿用原诗文与整版排版；避开现代影视女巫和授权角色。",
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "复古贺卡",
+        "月夜飞行",
+        "装饰字排"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "女巫飞行与黑猫"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "彩色万圣节明信片"
+      ],
+      "motifs": [
+        "女巫",
+        "扫帚",
+        "月亮脸",
+        "猫头鹰",
+        "星空"
+      ],
+      "actions": [
+        "女巫骑行",
+        "猫头鹰守望",
+        "月亮凝视"
+      ],
+      "compositions": [
+        "竖版主角",
+        "月亮徽章",
+        "装饰字排"
+      ],
+      "colors": [
+        "夜蓝",
+        "月黄",
+        "森林绿",
+        "南瓜橙"
+      ],
+      "productionUses": [
+        "竖版胸花",
+        "月夜徽章",
+        "女巫角色图"
+      ],
+      "sourceHashes": [
+        "2fb65352d93954855de6b2be71af74677233b00d489a811660a92e2dc941a366"
+      ],
+      "characterNames": [
+        "扫帚女巫",
+        "月亮脸",
+        "猫头鹰"
+      ],
+      "characterAliases": [
+        "扫帚女巫",
+        "月亮脸",
+        "猫头鹰"
+      ],
+      "recordIds": [
+        "catalog-supplement-all-halloween-card-1911"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-supplement-all-halloween-card-1911"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-扫帚女巫-4c92a8cd",
+        "role-月亮脸-29635174",
+        "role-猫头鹰-c185ad00"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-扫帚女巫-4c92a8cd",
+      "name": "扫帚女巫",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/365e10da89c1e2bb99c7.webp",
+      "coverRecordId": "catalog-supplement-all-halloween-card-1911",
+      "yearStart": 1911,
+      "yearEnd": 1911,
+      "workIds": [
+        "work-all-halloween-card-db6cca3a"
+      ],
+      "recordIds": [
+        "catalog-supplement-all-halloween-card-1911"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "女巫飞行与黑猫",
+          "count": 1
+        },
+        {
+          "name": "万圣节贺卡与民俗图像",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "复古贺卡",
+          "count": 1
+        },
+        {
+          "name": "月夜飞行",
+          "count": 1
+        },
+        {
+          "name": "装饰字排",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "月亮脸、猫头鹰与女巫形成上下三层结构；适合重构成纵向图章。",
+      "avoid": "不要沿用原诗文与整版排版；避开现代影视女巫和授权角色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-月亮脸-29635174",
+        "role-猫头鹰-c185ad00"
+      ]
+    },
+    {
+      "id": "role-猫头鹰-c185ad00",
+      "name": "猫头鹰",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/365e10da89c1e2bb99c7.webp",
+      "coverRecordId": "catalog-supplement-all-halloween-card-1911",
+      "yearStart": 1911,
+      "yearEnd": 1911,
+      "workIds": [
+        "work-all-halloween-card-db6cca3a"
+      ],
+      "recordIds": [
+        "catalog-supplement-all-halloween-card-1911"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "女巫飞行与黑猫",
+          "count": 1
+        },
+        {
+          "name": "万圣节贺卡与民俗图像",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "复古贺卡",
+          "count": 1
+        },
+        {
+          "name": "月夜飞行",
+          "count": 1
+        },
+        {
+          "name": "装饰字排",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "月亮脸、猫头鹰与女巫形成上下三层结构；适合重构成纵向图章。",
+      "avoid": "不要沿用原诗文与整版排版；避开现代影视女巫和授权角色。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-扫帚女巫-4c92a8cd",
+        "role-月亮脸-29635174"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

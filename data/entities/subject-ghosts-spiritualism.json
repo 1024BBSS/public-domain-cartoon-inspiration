@@ -65,7 +65,8 @@
       "work-a-molted-cicada-shell-utsusemi-soga-goro-tokimune-from-9e43ce93",
       "work-exile-to-suma-suma-tamaori-hime-from-the-series-scenes-606f10d3",
       "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
-      "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35"
+      "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35",
+      "work-a-thrilling-halloween-2559cb29"
     ],
     "recordIds": [
       "frame-mysterious-mose-1930-001",
@@ -165,7 +166,8 @@
       "catalog-belief-met-789145",
       "catalog-belief-met-789148",
       "catalog-belief-met-789144",
-      "catalog-belief-met-76582"
+      "catalog-belief-met-76582",
+      "catalog-supplement-thrilling-halloween-cats-pumpkins-1910"
     ],
     "frameIds": [
       "frame-mysterious-mose-1930-001",
@@ -226,13 +228,14 @@
       "frame-supplement-swing-you-sinners-1930-004",
       "frame-supplement-phantom-opera-1925-001"
     ],
-    "workCount": 41,
-    "imageCount": 67,
+    "workCount": 42,
+    "imageCount": 68,
     "frameCount": 57,
     "rightsBreakdown": {
       "期限届满": 5,
       "未续期": 1,
-      "公版 / 开放馆藏": 35
+      "公版 / 开放馆藏": 35,
+      "公版文件": 1
     },
     "copyrightRoutes": [
       "期限届满",
@@ -251,7 +254,8 @@
       "美国 1930 年作品 · 2026-01-01 进入公版",
       "美国期限届满 · Commons 公版文件",
       "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
-      "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+      "Wikimedia Commons · Public domain"
     ],
     "evidenceLevels": [
       "A",
@@ -264,7 +268,8 @@
       "怪诞 / 魔法",
       "宗教 / 神话",
       "电影 / 舞台",
-      "暗黑 / 怪诞"
+      "暗黑 / 怪诞",
+      "动物 / 自然"
     ],
     "topScenes": [
       {
@@ -353,7 +358,7 @@
     "topHolidays": [
       {
         "name": "万圣节",
-        "count": 88
+        "count": 89
       },
       {
         "name": "圣诞节",
@@ -363,7 +368,7 @@
     "usage": "按母题进入：白布幽灵、锁链亡灵、半透明显影、鬼屋喜剧、通灵摄影、舞台幻术与东亚幽魂。打开具体作品后，再取构图、动作和轮廓。",
     "avoid": "公版结论只覆盖列出的具体历史版本。避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
     "awarenessScore": 92,
-    "sourceCount": 41,
+    "sourceCount": 42,
     "relatedEntityIds": [
       "subject-east-asian-ghosts",
       "role-舞台灵体-b5c936dc",
@@ -3023,6 +3028,105 @@
         "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
       ]
+    },
+    {
+      "id": "work-a-thrilling-halloween-2559cb29",
+      "title": "A Thrilling Hallowe'en",
+      "subtitle": "Unknown author Unknown author",
+      "year": "ca. 1910",
+      "yearSort": 1910,
+      "coverImage": "images/3b3b38da722715ddb21e.webp",
+      "coverRecordId": "catalog-supplement-thrilling-halloween-cats-pumpkins-1910",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22A_Thrilling_Hallowe%27en.%22_(Three_black_cats_flying_through_the_air_with_Jack-o-lanterns).jpg",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:%22A_Thrilling_Hallowe%27en.%22_(Three_black_cats_flying_through_the_air_with_Jack-o-lanterns).jpg",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Commons 文件页标记 Public domain"
+      ],
+      "usage": "飞行猫群与南瓜灯形成节奏队列；适合扁平化为三至五个重复动作。",
+      "avoid": "不要复制整张贺卡字排；避免套用现代黑猫角色、电影造型或品牌标识。",
+      "tags": [
+        "万圣节",
+        "动物 / 自然",
+        "暗黑 / 怪诞"
+      ],
+      "styles": [
+        "彩色石印",
+        "复古贺卡",
+        "夜空巡游"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "黑猫、南瓜灯与月夜"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "彩色万圣节明信片"
+      ],
+      "motifs": [
+        "飞行黑猫",
+        "南瓜灯",
+        "满月",
+        "幽灵"
+      ],
+      "actions": [
+        "猫群飞行",
+        "幽灵抬举南瓜",
+        "环形巡游"
+      ],
+      "compositions": [
+        "纵向队列",
+        "圆月徽章",
+        "中心胸花"
+      ],
+      "colors": [
+        "夜蓝",
+        "南瓜橙",
+        "黑",
+        "月黄"
+      ],
+      "productionUses": [
+        "中心胸花",
+        "纵向背图",
+        "角色队列"
+      ],
+      "sourceHashes": [
+        "e18879a93b9178d3829c0a21f006b34c1d93cc23448bf9cfa8902557b068d996"
+      ],
+      "characterNames": [
+        "飞行黑猫群",
+        "南瓜幽灵"
+      ],
+      "characterAliases": [
+        "飞行黑猫群",
+        "南瓜幽灵"
+      ],
+      "recordIds": [
+        "catalog-supplement-thrilling-halloween-cats-pumpkins-1910"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-supplement-thrilling-halloween-cats-pumpkins-1910"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-飞行黑猫群-85f34d05",
+        "role-南瓜幽灵-976bb0bf",
+        "subject-ghosts-spiritualism"
+      ]
     }
   ],
   "relatedEntities": [
@@ -4511,8 +4615,8 @@
       "sourceCount": 1,
       "relatedEntityIds": [
         "role-betty-boop-16ad409c",
-        "role-bimbo-c30ed973",
-        "subject-ghosts-spiritualism"
+        "subject-ghosts-spiritualism",
+        "role-bimbo-c30ed973"
       ]
     },
     {

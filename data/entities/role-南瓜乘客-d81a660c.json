@@ -1,0 +1,366 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:17:24.041Z",
+  "entity": {
+    "id": "role-南瓜乘客-d81a660c",
+    "name": "南瓜乘客",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/ee5815db451d1e603a93.webp",
+    "coverRecordId": "catalog-supplement-halloween-lantern-car-1914",
+    "yearStart": 1914,
+    "yearEnd": 1914,
+    "workIds": [
+      "work-the-halloween-lantern-car-8677b0d6"
+    ],
+    "recordIds": [
+      "catalog-supplement-halloween-lantern-car-1914"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版文件": 1
+    },
+    "copyrightRoutes": [
+      "Wikimedia Commons · Public domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "器物 / 建筑",
+      "角色 / 卡通"
+    ],
+    "topScenes": [
+      {
+        "name": "万圣节贺卡与民俗图像",
+        "count": 1
+      },
+      {
+        "name": "万圣节巡游与交通工具",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "复古贺卡",
+        "count": 1
+      },
+      {
+        "name": "节庆巡游",
+        "count": 1
+      },
+      {
+        "name": "拟人器物",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "车辆本身长着表情，乘客与车身形成多层角色；适合扁平化为万圣节巡游车。",
+    "avoid": "不要加入现代汽车品牌、影视角色或受保护的交通工具造型。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-女巫-a639054d",
+      "role-灯笼车-af8a5eed"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-the-halloween-lantern-car-8677b0d6",
+      "title": "The Halloween Lantern Car",
+      "subtitle": "John Winslow",
+      "year": "1914",
+      "yearSort": 1914,
+      "coverImage": "images/ee5815db451d1e603a93.webp",
+      "coverRecordId": "catalog-supplement-halloween-lantern-car-1914",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Halloween_Lantern_car_1914.jpg",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Halloween_Lantern_car_1914.jpg",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Commons 文件页标记 Public domain"
+      ],
+      "usage": "车辆本身长着表情，乘客与车身形成多层角色；适合扁平化为万圣节巡游车。",
+      "avoid": "不要加入现代汽车品牌、影视角色或受保护的交通工具造型。",
+      "tags": [
+        "万圣节",
+        "器物 / 建筑",
+        "角色 / 卡通"
+      ],
+      "styles": [
+        "复古贺卡",
+        "拟人器物",
+        "节庆巡游"
+      ],
+      "scenes": [
+        "万圣节贺卡与民俗图像",
+        "万圣节巡游与交通工具"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "彩色万圣节明信片"
+      ],
+      "motifs": [
+        "灯笼车",
+        "南瓜乘客",
+        "女巫",
+        "猫头鹰",
+        "边框"
+      ],
+      "actions": [
+        "乘车巡游",
+        "向前行驶",
+        "动物陪伴"
+      ],
+      "compositions": [
+        "横向车辆",
+        "装饰边框",
+        "长条胸花"
+      ],
+      "colors": [
+        "奶油白",
+        "南瓜橙",
+        "灰绿",
+        "酒红"
+      ],
+      "productionUses": [
+        "横向胸花",
+        "节庆巡游",
+        "徽章边框"
+      ],
+      "sourceHashes": [
+        "136f54787d0b1b1a51d9f6aa312cc0fdaed470799d9da00e93d3b3c9a18caf9d"
+      ],
+      "characterNames": [
+        "灯笼车",
+        "南瓜乘客",
+        "女巫"
+      ],
+      "characterAliases": [
+        "灯笼车",
+        "南瓜乘客",
+        "女巫"
+      ],
+      "recordIds": [
+        "catalog-supplement-halloween-lantern-car-1914"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-supplement-halloween-lantern-car-1914"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-女巫-a639054d",
+        "role-灯笼车-af8a5eed",
+        "role-南瓜乘客-d81a660c"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-女巫-a639054d",
+      "name": "女巫",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/7fda696cf589fb8cf2d4.webp",
+      "coverRecordId": "catalog-supplement-witch-pumpkin-cat-flight-1910",
+      "yearStart": 1910,
+      "yearEnd": 1926,
+      "workIds": [
+        "work-halloween-witch-jack-o-lantern-and-black-cat-4c644b2f",
+        "work-the-halloween-lantern-car-8677b0d6",
+        "work-pumpkin-witch-black-cat-and-bats-365967f6"
+      ],
+      "recordIds": [
+        "catalog-supplement-witch-pumpkin-cat-flight-1910",
+        "catalog-supplement-halloween-lantern-car-1914",
+        "catalog-supplement-pumpkin-witch-cat-bat-postcard-1926"
+      ],
+      "frameIds": [],
+      "workCount": 3,
+      "imageCount": 3,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 3
+      },
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "神话 / 魔法",
+        "动物 / 自然",
+        "器物 / 建筑",
+        "角色 / 卡通"
+      ],
+      "topScenes": [
+        {
+          "name": "万圣节贺卡与民俗图像",
+          "count": 3
+        },
+        {
+          "name": "黑猫、南瓜灯与月夜",
+          "count": 1
+        },
+        {
+          "name": "女巫飞行与黑猫",
+          "count": 1
+        },
+        {
+          "name": "万圣节巡游与交通工具",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "复古贺卡",
+          "count": 3
+        },
+        {
+          "name": "扁平角色",
+          "count": 1
+        },
+        {
+          "name": "彩色石印",
+          "count": 1
+        },
+        {
+          "name": "飞行叙事",
+          "count": 1
+        },
+        {
+          "name": "横向舞台",
+          "count": 1
+        },
+        {
+          "name": "节庆巡游",
+          "count": 1
+        },
+        {
+          "name": "拟人器物",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 3
+        }
+      ],
+      "usage": "用牵引关系把女巫、南瓜和猫串成一个动作；比静态符号拼贴更有叙事。",
+      "avoid": "只取历史明信片中的动作机制；避开现代影视女巫、具体演员脸和品牌角色。",
+      "awarenessScore": 0,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-黑猫-10d5e79f",
+        "role-南瓜灯-acaa4309",
+        "role-灯笼车-af8a5eed",
+        "role-南瓜乘客-d81a660c",
+        "role-黑猫群-e7b3fc6f",
+        "role-南瓜灯队列-a2de2c1f",
+        "role-蝙蝠-b2b532b9"
+      ]
+    },
+    {
+      "id": "role-灯笼车-af8a5eed",
+      "name": "灯笼车",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/ee5815db451d1e603a93.webp",
+      "coverRecordId": "catalog-supplement-halloween-lantern-car-1914",
+      "yearStart": 1914,
+      "yearEnd": 1914,
+      "workIds": [
+        "work-the-halloween-lantern-car-8677b0d6"
+      ],
+      "recordIds": [
+        "catalog-supplement-halloween-lantern-car-1914"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "器物 / 建筑",
+        "角色 / 卡通"
+      ],
+      "topScenes": [
+        {
+          "name": "万圣节贺卡与民俗图像",
+          "count": 1
+        },
+        {
+          "name": "万圣节巡游与交通工具",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "复古贺卡",
+          "count": 1
+        },
+        {
+          "name": "节庆巡游",
+          "count": 1
+        },
+        {
+          "name": "拟人器物",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "车辆本身长着表情，乘客与车身形成多层角色；适合扁平化为万圣节巡游车。",
+      "avoid": "不要加入现代汽车品牌、影视角色或受保护的交通工具造型。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-女巫-a639054d",
+        "role-南瓜乘客-d81a660c"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

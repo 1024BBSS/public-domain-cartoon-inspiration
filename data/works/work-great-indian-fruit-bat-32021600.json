@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "work": {
+    "id": "work-great-indian-fruit-bat-32021600",
+    "title": "Great Indian Fruit Bat",
+    "subtitle": "Bhawani Das",
+    "year": "ca. 1777–82",
+    "yearSort": 1777,
+    "coverImage": "images/05a2e9d052dff23884a5.webp",
+    "coverRecordId": "catalog-supplement-great-indian-fruit-bat-1777",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/456949",
+    "sourceLabel": "The Met",
+    "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "The Met Open Access · Public Domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "The Met API 标记 isPublicDomain=true"
+    ],
+    "usage": "一侧展翼形成不对称张力，毛发、爪和翼膜可分别简化为三层线面。",
+    "avoid": "不要混入现代超级英雄、吸血鬼影视或品牌符号；自然史来源不等于万圣节原生语境。",
+    "tags": [
+      "万圣节",
+      "动物 / 自然",
+      "经典艺术"
+    ],
+    "styles": [
+      "自然史绘画",
+      "动物写生",
+      "不对称构图"
+    ],
+    "scenes": [
+      "夜行动物与月夜",
+      "万圣节单体图素"
+    ],
+    "holidays": [
+      "万圣节"
+    ],
+    "assetTypes": [
+      "自然史动物画"
+    ],
+    "motifs": [
+      "果蝠",
+      "展开单翼",
+      "爪部结构"
+    ],
+    "actions": [
+      "单翼展开",
+      "正面凝视"
+    ],
+    "compositions": [
+      "单主体",
+      "横向展开",
+      "中心胸花"
+    ],
+    "colors": [
+      "炭黑",
+      "棕褐",
+      "旧纸白"
+    ],
+    "productionUses": [
+      "中心胸花",
+      "动物解剖感",
+      "单体重绘"
+    ],
+    "sourceHashes": [
+      "877657234d1677d21cdbb48cb64e244da0fb82f30e3248db0011d1c52a3456d9"
+    ],
+    "characterNames": [
+      "大果蝠"
+    ],
+    "characterAliases": [
+      "大果蝠"
+    ],
+    "recordIds": [
+      "catalog-supplement-great-indian-fruit-bat-1777"
+    ],
+    "frameIds": [],
+    "masterIds": [
+      "catalog-supplement-great-indian-fruit-bat-1777"
+    ],
+    "imageCount": 1,
+    "frameCount": 0,
+    "awarenessScore": 0,
+    "entityIds": [
+      "role-大果蝠-39c0b844"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-大果蝠-39c0b844",
+      "name": "大果蝠",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/05a2e9d052dff23884a5.webp",
+      "coverRecordId": "catalog-supplement-great-indian-fruit-bat-1777",
+      "yearStart": 1777,
+      "yearEnd": 1777,
+      "workIds": [
+        "work-great-indian-fruit-bat-32021600"
+      ],
+      "recordIds": [
+        "catalog-supplement-great-indian-fruit-bat-1777"
+      ],
+      "frameIds": [],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 0,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "动物 / 自然",
+        "经典艺术"
+      ],
+      "topScenes": [
+        {
+          "name": "万圣节单体图素",
+          "count": 1
+        },
+        {
+          "name": "夜行动物与月夜",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "不对称构图",
+          "count": 1
+        },
+        {
+          "name": "动物写生",
+          "count": 1
+        },
+        {
+          "name": "自然史绘画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 1
+        }
+      ],
+      "usage": "一侧展翼形成不对称张力，毛发、爪和翼膜可分别简化为三层线面。",
+      "avoid": "不要混入现代超级英雄、吸血鬼影视或品牌符号；自然史来源不等于万圣节原生语境。",
+      "awarenessScore": 0,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "title": "Great Indian Fruit Bat",
+      "year": "ca. 1777–82",
+      "yearSort": 1777,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "The Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met API 标记 isPublicDomain=true",
+      "sourceLabel": "The Met",
+      "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+      "usage": "一侧展翼形成不对称张力，毛发、爪和翼膜可分别简化为三层线面。",
+      "avoid": "不要混入现代超级英雄、吸血鬼影视或品牌符号；自然史来源不等于万圣节原生语境。",
+      "styles": [
+        "自然史绘画",
+        "动物写生",
+        "不对称构图"
+      ],
+      "scenes": [
+        "夜行动物与月夜",
+        "万圣节单体图素"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "大果蝠"
+      ],
+      "assetType": "自然史动物画",
+      "motifs": [
+        "果蝠",
+        "展开单翼",
+        "爪部结构"
+      ],
+      "actions": [
+        "单翼展开",
+        "正面凝视"
+      ],
+      "compositions": [
+        "单主体",
+        "横向展开",
+        "中心胸花"
+      ],
+      "colors": [
+        "炭黑",
+        "棕褐",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "中心胸花",
+        "动物解剖感",
+        "单体重绘"
+      ],
+      "sourceHash": "877657234d1677d21cdbb48cb64e244da0fb82f30e3248db0011d1c52a3456d9",
+      "sourcePixels": "3905x2869",
+      "tags": [
+        "万圣节",
+        "动物 / 自然",
+        "经典艺术"
+      ],
+      "awarenessScore": 0,
+      "awarenessLevel": "待复核",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://www.metmuseum.org/art/collection/search/456949",
+        "https://www.metmuseum.org/policies/image-resources"
+      ],
+      "riskFlags": [
+        "现代影视与品牌造型排除",
+        "商品使用前复核商标与平台规则"
+      ],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-visual-elements-2026-09-19-v1",
+      "id": "catalog-supplement-great-indian-fruit-bat-1777",
+      "kind": "主档",
+      "subtitle": "Bhawani Das",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/456949",
+      "image": "images/05a2e9d052dff23884a5.webp"
+    }
+  ]
+}

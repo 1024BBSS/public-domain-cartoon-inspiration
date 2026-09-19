@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:17:24.041Z",
+  "entity": {
+    "id": "role-装饰蝙蝠-0032ec3b",
+    "name": "装饰蝙蝠",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/c297d3e9f6e9188e9e2d.webp",
+    "coverRecordId": "catalog-supplement-bat-ornament-aldegrever-1550",
+    "yearStart": 1550,
+    "yearEnd": 1550,
+    "workIds": [
+      "work-ornamental-design-with-a-bat-in-the-centre-4f690815"
+    ],
+    "recordIds": [
+      "catalog-supplement-bat-ornament-aldegrever-1550"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 1
+    },
+    "copyrightRoutes": [
+      "AIC Open Access · CC0 Public Domain Designation"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "版画 / 纹样",
+      "动物 / 自然"
+    ],
+    "topScenes": [
+      {
+        "name": "万圣节边框、徽章与纹样",
+        "count": 1
+      },
+      {
+        "name": "夜行动物与月夜",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "怪诞纹样",
+        "count": 1
+      },
+      {
+        "name": "黑白线刻",
+        "count": 1
+      },
+      {
+        "name": "文艺复兴装饰版画",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "蝙蝠是对称装饰的中心铰链；上下怪诞生物和卷草可拆成边框、徽章与满版三种层级。",
+    "avoid": "不要把历史装饰误称现代哥特品牌图案；避免直接照搬整版用于商标式识别。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-ornamental-design-with-a-bat-in-the-centre-4f690815",
+      "title": "Ornamental Design with a Bat in the Centre",
+      "subtitle": "Heinrich Aldegrever German, 1502-c.1560",
+      "year": "1550",
+      "yearSort": 1550,
+      "coverImage": "images/c297d3e9f6e9188e9e2d.webp",
+      "coverRecordId": "catalog-supplement-bat-ornament-aldegrever-1550",
+      "sourceUrl": "https://www.artic.edu/artworks/77421",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC Open Access · CC0 Public Domain Designation"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "AIC API 标记 is_public_domain=true"
+      ],
+      "usage": "蝙蝠是对称装饰的中心铰链；上下怪诞生物和卷草可拆成边框、徽章与满版三种层级。",
+      "avoid": "不要把历史装饰误称现代哥特品牌图案；避免直接照搬整版用于商标式识别。",
+      "tags": [
+        "万圣节",
+        "版画 / 纹样",
+        "动物 / 自然"
+      ],
+      "styles": [
+        "文艺复兴装饰版画",
+        "怪诞纹样",
+        "黑白线刻"
+      ],
+      "scenes": [
+        "万圣节边框、徽章与纹样",
+        "夜行动物与月夜"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "装饰版画"
+      ],
+      "motifs": [
+        "中央蝙蝠",
+        "怪诞生物",
+        "卷草",
+        "对称边框"
+      ],
+      "actions": [
+        "蝙蝠展翼",
+        "怪诞生物环绕"
+      ],
+      "compositions": [
+        "垂直对称",
+        "徽章",
+        "边框",
+        "满版纹样"
+      ],
+      "colors": [
+        "黑",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "徽章",
+        "背部主图",
+        "装饰边框",
+        "重复纹样"
+      ],
+      "sourceHashes": [
+        "8b5cb25d0b87f619c3cf6bf7d2bc696dd5345374225d33267ae00c1344af2d83"
+      ],
+      "characterNames": [
+        "装饰蝙蝠"
+      ],
+      "characterAliases": [
+        "装饰蝙蝠"
+      ],
+      "recordIds": [
+        "catalog-supplement-bat-ornament-aldegrever-1550"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-supplement-bat-ornament-aldegrever-1550"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-装饰蝙蝠-0032ec3b"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

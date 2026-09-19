@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T06:17:24.041Z",
+  "entity": {
+    "id": "role-月下人物-c0ff1c4a",
+    "name": "月下人物",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/4aebb78ac230796aec3c.webp",
+    "coverRecordId": "catalog-supplement-full-moon-japanese-18c",
+    "yearStart": 1700,
+    "yearEnd": 1700,
+    "workIds": [
+      "work-the-full-moon-3d997915"
+    ],
+    "recordIds": [
+      "catalog-supplement-full-moon-japanese-18c"
+    ],
+    "frameIds": [],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 0,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 1
+    },
+    "copyrightRoutes": [
+      "AIC Open Access · CC0 Public Domain Designation"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "经典艺术",
+      "人物 / 肖像"
+    ],
+    "topScenes": [
+      {
+        "name": "夜行动物与月夜",
+        "count": 1
+      },
+      {
+        "name": "月下人物",
+        "count": 1
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "满月背光",
+        "count": 1
+      },
+      {
+        "name": "日本版画",
+        "count": 1
+      },
+      {
+        "name": "窄幅构图",
+        "count": 1
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 1
+      }
+    ],
+    "usage": "圆月直接作为人物背光；可借用‘圆形光源+半身轮廓’机制，不必复制人物。",
+    "avoid": "尊重日本画语境；不要简单套成西方女巫或现代影视人物。",
+    "awarenessScore": 0,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-the-full-moon-3d997915",
+      "title": "The Full Moon",
+      "subtitle": "Artist unknown Japanese, 18th century",
+      "year": "18th century",
+      "yearSort": 1700,
+      "coverImage": "images/4aebb78ac230796aec3c.webp",
+      "coverRecordId": "catalog-supplement-full-moon-japanese-18c",
+      "sourceUrl": "https://www.artic.edu/artworks/19048",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "https://api.artic.edu/docs/",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC Open Access · CC0 Public Domain Designation"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "AIC API 标记 is_public_domain=true"
+      ],
+      "usage": "圆月直接作为人物背光；可借用‘圆形光源+半身轮廓’机制，不必复制人物。",
+      "avoid": "尊重日本画语境；不要简单套成西方女巫或现代影视人物。",
+      "tags": [
+        "万圣节",
+        "经典艺术",
+        "人物 / 肖像"
+      ],
+      "styles": [
+        "日本版画",
+        "满月背光",
+        "窄幅构图"
+      ],
+      "scenes": [
+        "夜行动物与月夜",
+        "月下人物"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "月夜人物画"
+      ],
+      "motifs": [
+        "满月",
+        "人物",
+        "书法",
+        "夜色"
+      ],
+      "actions": [
+        "仰望月亮"
+      ],
+      "compositions": [
+        "纵向窄幅",
+        "圆月背景",
+        "单人物"
+      ],
+      "colors": [
+        "墨黑",
+        "月白",
+        "肤色",
+        "旧纸白"
+      ],
+      "productionUses": [
+        "月夜窄幅图",
+        "竖版背图",
+        "月相系列"
+      ],
+      "sourceHashes": [
+        "9875d6149140f8145a7d254c69c32f10ad90a27e22265b0b244bd90a31a52081"
+      ],
+      "characterNames": [
+        "月下人物"
+      ],
+      "characterAliases": [
+        "月下人物"
+      ],
+      "recordIds": [
+        "catalog-supplement-full-moon-japanese-18c"
+      ],
+      "frameIds": [],
+      "masterIds": [
+        "catalog-supplement-full-moon-japanese-18c"
+      ],
+      "imageCount": 1,
+      "frameCount": 0,
+      "awarenessScore": 0,
+      "entityIds": [
+        "role-月下人物-c0ff1c4a"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}
