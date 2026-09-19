@@ -1,57 +1,161 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T04:42:27.130Z",
+  "generatedAt": "2026-09-19T07:30:54.003Z",
   "entity": {
     "id": "role-白布幽灵-0f2aa01a",
     "name": "白布幽灵",
     "type": "角色",
     "aliases": [],
     "virtual": false,
-    "coverImage": "images/b02e71f61eb593b2f401.webp",
-    "coverRecordId": "catalog-supplement-ghost-stereoscope-1856",
+    "coverImage": "images/c365607a6b17bf0cbbf0.webp",
+    "coverRecordId": "catalog-supplement-haunted-house-1929",
     "yearStart": 1814,
-    "yearEnd": 1856,
+    "yearEnd": 1929,
     "workIds": [
       "work-立体镜中的幽灵-f0be4d30",
-      "work-幽灵-一场圣诞恶作剧-d2a5c039"
+      "work-幽灵-一场圣诞恶作剧-d2a5c039",
+      "work-the-haunted-house-2de44826"
     ],
     "recordIds": [
       "frame-supplement-ghost-stereoscope-1856-001",
       "catalog-supplement-ghost-stereoscope-1856",
       "frame-supplement-ghost-christmas-frolic-1814-001",
-      "catalog-supplement-ghost-christmas-frolic-1814"
+      "catalog-supplement-ghost-christmas-frolic-1814",
+      "frame-supplement-haunted-house-1929-001",
+      "frame-supplement-haunted-house-1929-002",
+      "frame-supplement-haunted-house-1929-003",
+      "frame-supplement-haunted-house-1929-004",
+      "frame-supplement-haunted-house-1929-growth-001",
+      "frame-supplement-haunted-house-1929-growth-002",
+      "frame-supplement-haunted-house-1929-growth-003",
+      "frame-supplement-haunted-house-1929-growth-004",
+      "frame-supplement-haunted-house-1929-growth-005",
+      "frame-supplement-haunted-house-1929-growth-006",
+      "frame-supplement-haunted-house-1929-growth-007",
+      "frame-supplement-haunted-house-1929-growth-008",
+      "frame-supplement-haunted-house-1929-growth-009",
+      "frame-supplement-haunted-house-1929-growth-010",
+      "frame-supplement-haunted-house-1929-growth-011",
+      "frame-supplement-haunted-house-1929-growth-012",
+      "frame-supplement-haunted-house-1929-growth-013",
+      "frame-supplement-haunted-house-1929-growth-014",
+      "frame-supplement-haunted-house-1929-growth-015",
+      "frame-supplement-haunted-house-1929-growth-016",
+      "catalog-supplement-haunted-house-1929"
     ],
     "frameIds": [
       "frame-supplement-ghost-stereoscope-1856-001",
-      "frame-supplement-ghost-christmas-frolic-1814-001"
+      "frame-supplement-ghost-christmas-frolic-1814-001",
+      "frame-supplement-haunted-house-1929-001",
+      "frame-supplement-haunted-house-1929-002",
+      "frame-supplement-haunted-house-1929-003",
+      "frame-supplement-haunted-house-1929-004",
+      "frame-supplement-haunted-house-1929-growth-001",
+      "frame-supplement-haunted-house-1929-growth-002",
+      "frame-supplement-haunted-house-1929-growth-003",
+      "frame-supplement-haunted-house-1929-growth-004",
+      "frame-supplement-haunted-house-1929-growth-005",
+      "frame-supplement-haunted-house-1929-growth-006",
+      "frame-supplement-haunted-house-1929-growth-007",
+      "frame-supplement-haunted-house-1929-growth-008",
+      "frame-supplement-haunted-house-1929-growth-009",
+      "frame-supplement-haunted-house-1929-growth-010",
+      "frame-supplement-haunted-house-1929-growth-011",
+      "frame-supplement-haunted-house-1929-growth-012",
+      "frame-supplement-haunted-house-1929-growth-013",
+      "frame-supplement-haunted-house-1929-growth-014",
+      "frame-supplement-haunted-house-1929-growth-015",
+      "frame-supplement-haunted-house-1929-growth-016"
     ],
-    "workCount": 2,
-    "imageCount": 2,
-    "frameCount": 2,
+    "workCount": 3,
+    "imageCount": 22,
+    "frameCount": 22,
     "rightsBreakdown": {
-      "公版 / 开放馆藏": 2
+      "公版 / 开放馆藏": 2,
+      "期限届满": 1
     },
     "copyrightRoutes": [
       "Met Open Access · Public Domain",
-      "1814 版画 · LOC No known restrictions"
+      "1814 版画 · LOC No known restrictions",
+      "美国 1929 年作品 · 2025-01-01 进入公版",
+      "美国 1929 年作品 · 2025-01-01 期限届满"
     ],
     "evidenceLevels": [
       "A"
     ],
     "tags": [
       "万圣节",
-      "怪诞 / 魔法"
+      "怪诞 / 魔法",
+      "早期动画",
+      "增长线索",
+      "鬼屋变形",
+      "幽灵追逐",
+      "乐队 / 海报构图",
+      "旧动画群像",
+      "骷髅动作"
     ],
     "topScenes": [
       {
         "name": "幽灵、鬼屋与通灵",
-        "count": 4
+        "count": 25
+      },
+      {
+        "name": "万圣节公版动画",
+        "count": 16
+      },
+      {
+        "name": "骷髅乐队与怪诞舞台",
+        "count": 6
+      },
+      {
+        "name": "骷髅动作与身体变形",
+        "count": 5
+      },
+      {
+        "name": "骷髅与死亡之舞",
+        "count": 5
+      },
+      {
+        "name": "幽灵追逐与变形",
+        "count": 2
+      },
+      {
+        "name": "旧动画群像与叙事场景",
+        "count": 1
       }
     ],
     "topStyles": [
       {
+        "name": "黑白橡皮管动画",
+        "count": 21
+      },
+      {
+        "name": "增长信号回溯",
+        "count": 16
+      },
+      {
+        "name": "舞台式群像",
+        "count": 6
+      },
+      {
+        "name": "扁平骨架动作",
+        "count": 5
+      },
+      {
+        "name": "鬼屋剪影",
+        "count": 5
+      },
+      {
+        "name": "骷髅乐队",
+        "count": 5
+      },
+      {
         "name": "白布幽灵",
+        "count": 2
+      },
+      {
+        "name": "超现实追逐",
         "count": 2
       },
       {
@@ -59,30 +163,35 @@
         "count": 2
       },
       {
-        "name": "手工上色",
-        "count": 2
-      },
-      {
-        "name": "维多利亚摄影",
+        "name": "鬼屋空间变形",
         "count": 2
       }
     ],
     "topHolidays": [
       {
         "name": "万圣节",
-        "count": 4
+        "count": 25
       },
       {
         "name": "圣诞节",
         "count": 2
       }
     ],
-    "usage": "双联立体照、餐桌旁白布幽灵、人物惊吓关系。",
-    "avoid": "只取该具体历史作品的画面表达；避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
-    "awarenessScore": 0,
-    "sourceCount": 2,
+    "usage": "孤屋剪影、黑暗眼睛、骷髅乐队和骨头木琴；可拆成鬼屋空间与骨架演奏两套母题。",
+    "avoid": "原版 Mickey 的现代版本、Disney 标识和后期商品形象仍需避开；优先取场景机制，不直接角色商品化。",
+    "awarenessScore": 78,
+    "sourceCount": 3,
     "relatedEntityIds": [
-      "subject-ghosts-spiritualism"
+      "subject-ghosts-spiritualism",
+      "role-骷髅乐队-c975af3b",
+      "role-骷髅舞者-45739b1c",
+      "role-骷髅乐手-c13eae47",
+      "role-鬼屋骷髅乐队-a4afa9a8",
+      "role-鬼屋-550de132",
+      "role-黑暗巨眼-1f10dde4",
+      "role-骷髅幽灵-daa64c09",
+      "role-鬼屋幽灵群-0970e819",
+      "role-骷髅残骨-923c623a"
     ]
   },
   "works": [
@@ -212,6 +321,281 @@
         "role-白布幽灵-0f2aa01a",
         "subject-ghosts-spiritualism"
       ]
+    },
+    {
+      "id": "work-the-haunted-house-2de44826",
+      "title": "The Haunted House",
+      "subtitle": "鬼屋 · 1929 原片",
+      "year": "1929",
+      "yearSort": 1929,
+      "coverImage": "images/c365607a6b17bf0cbbf0.webp",
+      "coverRecordId": "catalog-supplement-haunted-house-1929",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2025/",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1929 年作品 · 2025-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons 原片抽帧；底层 1929 作品在美国期限届满",
+        "Wikimedia Commons 文件页标记 Public domain"
+      ],
+      "usage": "孤屋剪影、黑暗眼睛、骷髅乐队和骨头木琴；可拆成鬼屋空间与骨架演奏两套母题。",
+      "avoid": "原版 Mickey 的现代版本、Disney 标识和后期商品形象仍需避开；优先取场景机制，不直接角色商品化。",
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "幽灵追逐",
+        "乐队 / 海报构图",
+        "旧动画群像",
+        "骷髅动作"
+      ],
+      "styles": [
+        "黑白橡皮管动画",
+        "鬼屋剪影",
+        "骷髅乐队",
+        "增长信号回溯",
+        "鬼屋空间变形",
+        "超现实追逐",
+        "舞台式群像",
+        "角色群像",
+        "扁平骨架动作"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "骷髅与死亡之舞",
+        "万圣节公版动画",
+        "幽灵追逐与变形",
+        "骷髅乐队与怪诞舞台",
+        "旧动画群像与叙事场景",
+        "骷髅动作与身体变形"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "公版动画原片抽帧"
+      ],
+      "motifs": [
+        "鬼屋",
+        "暴雨",
+        "山丘",
+        "巨眼",
+        "纯黑背景",
+        "白布幽灵",
+        "长手",
+        "骷髅脸",
+        "骷髅队列",
+        "门",
+        "幽灵",
+        "幽灵群",
+        "骷髅群",
+        "房间",
+        "骷髅",
+        "骨头乐器",
+        "骨棒",
+        "打击乐",
+        "双骷髅",
+        "肋骨乐器",
+        "单骷髅",
+        "三具骷髅",
+        "四具骷髅",
+        "骨头",
+        "骨堆"
+      ],
+      "actions": [
+        "闪电照亮",
+        "凝视",
+        "张手逼近",
+        "显露真面目",
+        "集体入场",
+        "围拢",
+        "起舞",
+        "击奏",
+        "挥槌",
+        "镜像舞步",
+        "抬腿",
+        "扭转",
+        "同步摆臂",
+        "身体演奏",
+        "夸张变形",
+        "独奏",
+        "举手",
+        "蹲步",
+        "同步手势",
+        "漂浮",
+        "列队",
+        "坐姿摆腿",
+        "同步节拍",
+        "解体",
+        "排列"
+      ],
+      "compositions": [
+        "远景剪影",
+        "斜坡引导",
+        "双圆近景",
+        "极简高反差",
+        "正面单主体",
+        "三角轮廓",
+        "面具式特写",
+        "圆形脸部",
+        "门框舞台",
+        "纵深队列",
+        "室内群像",
+        "中心留白",
+        "单人乐手",
+        "器乐徽章",
+        "斜向动作",
+        "单人舞台",
+        "左右对称",
+        "双主体",
+        "重复角色",
+        "横向双人",
+        "人体乐器",
+        "中心胸花",
+        "大轮廓",
+        "低重心双主体",
+        "镜像",
+        "三联角色",
+        "宽幅队列",
+        "四人横排",
+        "乐队宣传照式",
+        "横向散点",
+        "重复纹样"
+      ],
+      "colors": [
+        "黑",
+        "灰",
+        "旧胶片白"
+      ],
+      "productionUses": [
+        "鬼屋场景主图",
+        "高反差建筑图",
+        "连续动作图",
+        "故事型背部主图",
+        "乐队海报式背图",
+        "宽幅角色队列",
+        "洗水黑 T 背部主图",
+        "复古动画拼贴",
+        "单色胸花",
+        "动作角色组"
+      ],
+      "sourceHashes": [
+        "725f03658c45fca5a4eec7d49fb493d56e91a700dd5eab460511df19c1d8d431",
+        "2228374eaffd4c4f5536c9b0fa38a82969f21323139f8d8b39f180297ca1d2f7",
+        "28766c102118729e3abe406e12b2fe9c942ed0aef595320c003d5d49675829b8",
+        "601d9e7a8008a8a5042d5ed0dce3933aa3156a331f5abb070866c7eac4c706ab",
+        "94c3101321aa3bc90957e4606f02a32d67102bc5459597f2e5f60ee96251c8c2",
+        "16cb3595a4afa193168a517cc0160f7c705f5c716f28988f704470122d31f208",
+        "829626240f200e0638bce4c8222c2887a4f49ccbc30b3ae98a994780fc3caab8",
+        "ebef41f72b5849aebe9700a99a6bdb3f696636722c608e9ab96a7e8d70caf797",
+        "08cc88bda1321862bb4da7dc71d5ebc7e5c5b299149deef5760dd689092fa432",
+        "6984c3e6557f0df8c673e70fe4d5d2eea02aee29d6290f8ed552bc311485c0d7",
+        "c5c5dae31bf06761f12689e07be6a49760688139f7f2e48108b3c55604822b58",
+        "d8f4b344e6cbaf76826d98bc719c4128c9a9dba4f1fd26c247db71d98c2f4125",
+        "04c68220b4b3e978720b37cd84d7bff879b03b99dca5ed8589212be50222fd92",
+        "8350c76462953a574b89d9b465f6465f1404ab7d5e1c28b8d5640a2fa684f5fa",
+        "8814f295bcb26b1302a2b4437411e6ed57ffeaaae520f4a04067a3df20851521",
+        "a7b7c9be093d379e175e23a34db543757663ecec45d4c0e2fb8ca416814a1e3e"
+      ],
+      "characterNames": [
+        "鬼屋骷髅乐队",
+        "鬼屋",
+        "黑暗巨眼",
+        "白布幽灵",
+        "骷髅幽灵",
+        "鬼屋幽灵群",
+        "骷髅乐手",
+        "骷髅舞者",
+        "骷髅乐队",
+        "骷髅残骨"
+      ],
+      "characterAliases": [
+        "鬼屋骷髅乐队",
+        "鬼屋",
+        "黑暗巨眼",
+        "白布幽灵",
+        "骷髅幽灵",
+        "鬼屋幽灵群",
+        "骷髅乐手",
+        "骷髅舞者",
+        "骷髅乐队",
+        "骷髅残骨"
+      ],
+      "recordIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016"
+      ],
+      "masterIds": [
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "imageCount": 20,
+      "frameCount": 20,
+      "awarenessScore": 78,
+      "entityIds": [
+        "role-白布幽灵-0f2aa01a",
+        "role-骷髅乐队-c975af3b",
+        "role-骷髅舞者-45739b1c",
+        "role-骷髅乐手-c13eae47",
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "role-鬼屋-550de132",
+        "role-黑暗巨眼-1f10dde4",
+        "role-骷髅幽灵-daa64c09",
+        "role-鬼屋幽灵群-0970e819",
+        "role-骷髅残骨-923c623a",
+        "subject-ghosts-spiritualism"
+      ]
     }
   ],
   "relatedEntities": [
@@ -267,6 +651,7 @@
         "work-鲤旗与钟馗旗-dd97e27f",
         "work-the-skeleton-dance-8b38cda1",
         "work-the-haunted-house-2de44826",
+        "work-hells-bells-a2645562",
         "work-swing-you-sinners-24ae4646",
         "work-the-phantom-of-the-opera-e79aee58",
         "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
@@ -357,16 +742,85 @@
         "frame-supplement-skeleton-dance-1929-002",
         "frame-supplement-skeleton-dance-1929-003",
         "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-skeleton-dance-1929-growth-001",
+        "frame-supplement-skeleton-dance-1929-growth-002",
+        "frame-supplement-skeleton-dance-1929-growth-003",
+        "frame-supplement-skeleton-dance-1929-growth-004",
+        "frame-supplement-skeleton-dance-1929-growth-005",
+        "frame-supplement-skeleton-dance-1929-growth-006",
+        "frame-supplement-skeleton-dance-1929-growth-007",
+        "frame-supplement-skeleton-dance-1929-growth-008",
+        "frame-supplement-skeleton-dance-1929-growth-009",
+        "frame-supplement-skeleton-dance-1929-growth-010",
+        "frame-supplement-skeleton-dance-1929-growth-011",
+        "frame-supplement-skeleton-dance-1929-growth-012",
+        "frame-supplement-skeleton-dance-1929-growth-013",
+        "frame-supplement-skeleton-dance-1929-growth-014",
+        "frame-supplement-skeleton-dance-1929-growth-015",
+        "frame-supplement-skeleton-dance-1929-growth-016",
         "catalog-supplement-skeleton-dance-1929",
         "frame-supplement-haunted-house-1929-001",
         "frame-supplement-haunted-house-1929-002",
         "frame-supplement-haunted-house-1929-003",
         "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
         "catalog-supplement-haunted-house-1929",
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004",
+        "frame-supplement-hells-bells-1929-growth-001",
+        "frame-supplement-hells-bells-1929-growth-002",
+        "frame-supplement-hells-bells-1929-growth-003",
+        "frame-supplement-hells-bells-1929-growth-004",
+        "frame-supplement-hells-bells-1929-growth-005",
+        "frame-supplement-hells-bells-1929-growth-006",
+        "frame-supplement-hells-bells-1929-growth-007",
+        "frame-supplement-hells-bells-1929-growth-008",
+        "frame-supplement-hells-bells-1929-growth-009",
+        "frame-supplement-hells-bells-1929-growth-010",
+        "frame-supplement-hells-bells-1929-growth-011",
+        "frame-supplement-hells-bells-1929-growth-012",
+        "frame-supplement-hells-bells-1929-growth-013",
+        "frame-supplement-hells-bells-1929-growth-014",
+        "frame-supplement-hells-bells-1929-growth-015",
+        "frame-supplement-hells-bells-1929-growth-016",
+        "catalog-supplement-hells-bells-1929",
         "frame-supplement-swing-you-sinners-1930-001",
         "frame-supplement-swing-you-sinners-1930-002",
         "frame-supplement-swing-you-sinners-1930-003",
         "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
         "catalog-supplement-swing-you-sinners-1930",
         "frame-supplement-phantom-opera-1925-001",
         "catalog-supplement-phantom-opera-1925",
@@ -431,21 +885,89 @@
         "frame-supplement-skeleton-dance-1929-002",
         "frame-supplement-skeleton-dance-1929-003",
         "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-skeleton-dance-1929-growth-001",
+        "frame-supplement-skeleton-dance-1929-growth-002",
+        "frame-supplement-skeleton-dance-1929-growth-003",
+        "frame-supplement-skeleton-dance-1929-growth-004",
+        "frame-supplement-skeleton-dance-1929-growth-005",
+        "frame-supplement-skeleton-dance-1929-growth-006",
+        "frame-supplement-skeleton-dance-1929-growth-007",
+        "frame-supplement-skeleton-dance-1929-growth-008",
+        "frame-supplement-skeleton-dance-1929-growth-009",
+        "frame-supplement-skeleton-dance-1929-growth-010",
+        "frame-supplement-skeleton-dance-1929-growth-011",
+        "frame-supplement-skeleton-dance-1929-growth-012",
+        "frame-supplement-skeleton-dance-1929-growth-013",
+        "frame-supplement-skeleton-dance-1929-growth-014",
+        "frame-supplement-skeleton-dance-1929-growth-015",
+        "frame-supplement-skeleton-dance-1929-growth-016",
         "frame-supplement-haunted-house-1929-001",
         "frame-supplement-haunted-house-1929-002",
         "frame-supplement-haunted-house-1929-003",
         "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004",
+        "frame-supplement-hells-bells-1929-growth-001",
+        "frame-supplement-hells-bells-1929-growth-002",
+        "frame-supplement-hells-bells-1929-growth-003",
+        "frame-supplement-hells-bells-1929-growth-004",
+        "frame-supplement-hells-bells-1929-growth-005",
+        "frame-supplement-hells-bells-1929-growth-006",
+        "frame-supplement-hells-bells-1929-growth-007",
+        "frame-supplement-hells-bells-1929-growth-008",
+        "frame-supplement-hells-bells-1929-growth-009",
+        "frame-supplement-hells-bells-1929-growth-010",
+        "frame-supplement-hells-bells-1929-growth-011",
+        "frame-supplement-hells-bells-1929-growth-012",
+        "frame-supplement-hells-bells-1929-growth-013",
+        "frame-supplement-hells-bells-1929-growth-014",
+        "frame-supplement-hells-bells-1929-growth-015",
+        "frame-supplement-hells-bells-1929-growth-016",
         "frame-supplement-swing-you-sinners-1930-001",
         "frame-supplement-swing-you-sinners-1930-002",
         "frame-supplement-swing-you-sinners-1930-003",
         "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
         "frame-supplement-phantom-opera-1925-001"
       ],
-      "workCount": 42,
-      "imageCount": 68,
-      "frameCount": 57,
+      "workCount": 43,
+      "imageCount": 136,
+      "frameCount": 125,
       "rightsBreakdown": {
-        "期限届满": 5,
+        "期限届满": 6,
         "未续期": 1,
         "公版 / 开放馆藏": 35,
         "公版文件": 1
@@ -464,7 +986,9 @@
         "1874 摄影 · 期限届满",
         "1893 摄影 · 期限届满",
         "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1929 年作品 · 2025-01-01 期限届满",
         "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 期限届满",
         "美国期限届满 · Commons 公版文件",
         "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
         "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
@@ -480,6 +1004,12 @@
         "万圣节",
         "怪诞 / 魔法",
         "宗教 / 神话",
+        "增长线索",
+        "旧动画群像",
+        "骷髅动作",
+        "乐队 / 海报构图",
+        "鬼屋变形",
+        "幽灵追逐",
         "电影 / 舞台",
         "暗黑 / 怪诞",
         "动物 / 自然"
@@ -487,15 +1017,31 @@
       "topScenes": [
         {
           "name": "幽灵、鬼屋与通灵",
-          "count": 67
+          "count": 131
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 64
         },
         {
           "name": "妖怪、幽灵与民间护佑神",
           "count": 22
         },
         {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 20
+        },
+        {
           "name": "骷髅与死亡之舞",
-          "count": 15
+          "count": 20
+        },
+        {
+          "name": "骷髅动作与身体变形",
+          "count": 16
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 13
         },
         {
           "name": "鬼怪",
@@ -508,32 +1054,32 @@
         {
           "name": "音乐 / 舞蹈",
           "count": 12
-        },
-        {
-          "name": "追逐",
-          "count": 12
-        },
-        {
-          "name": "东亚道教、神道与民间信仰",
-          "count": 10
-        },
-        {
-          "name": "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神",
-          "count": 10
-        },
-        {
-          "name": "鬼屋",
-          "count": 7
         }
       ],
       "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 84
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 64
+        },
+        {
+          "name": "舞台式群像",
+          "count": 20
+        },
         {
           "name": "橡皮管动画",
           "count": 19
         },
         {
-          "name": "黑白橡皮管动画",
-          "count": 15
+          "name": "扁平骨架动作",
+          "count": 16
+        },
+        {
+          "name": "角色群像",
+          "count": 13
         },
         {
           "name": "Fleischer 怪诞",
@@ -550,28 +1096,12 @@
         {
           "name": "通灵摄影",
           "count": 10
-        },
-        {
-          "name": "宗教 / 仪式",
-          "count": 10
-        },
-        {
-          "name": "鬼屋喜剧",
-          "count": 7
-        },
-        {
-          "name": "黑白动画",
-          "count": 7
-        },
-        {
-          "name": "浮世绘",
-          "count": 6
         }
       ],
       "topHolidays": [
         {
           "name": "万圣节",
-          "count": 89
+          "count": 158
         },
         {
           "name": "圣诞节",
@@ -581,18 +1111,1713 @@
       "usage": "按母题进入：白布幽灵、锁链亡灵、半透明显影、鬼屋喜剧、通灵摄影、舞台幻术与东亚幽魂。打开具体作品后，再取构图、动作和轮廓。",
       "avoid": "公版结论只覆盖列出的具体历史版本。避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
       "awarenessScore": 92,
-      "sourceCount": 42,
+      "sourceCount": 43,
       "relatedEntityIds": [
         "subject-east-asian-ghosts",
+        "role-白布幽灵-0f2aa01a",
         "role-舞台灵体-b5c936dc",
+        "role-骷髅乐队-c975af3b",
+        "role-骷髅舞者-45739b1c",
+        "role-骷髅乐手-c13eae47",
         "subject-jesus-christian-iconography",
         "role-marleys-ghost-0861a74f",
-        "role-白布幽灵-0f2aa01a",
         "role-钟馗-2d4bb89f",
-        "role-betty-boop-16ad409c",
-        "role-bimbo-c30ed973",
-        "role-mysterious-mose-1e6192c3",
-        "role-van-beuren-human-duo-2d6c075a"
+        "role-betty-boop-16ad409c"
+      ]
+    },
+    {
+      "id": "role-骷髅乐队-c975af3b",
+      "name": "骷髅乐队",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/02a10da9043dd36686e7.webp",
+      "coverRecordId": "catalog-supplement-skeleton-dance-1929",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "workIds": [
+        "work-the-skeleton-dance-8b38cda1",
+        "work-the-haunted-house-2de44826"
+      ],
+      "recordIds": [
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-skeleton-dance-1929-growth-001",
+        "frame-supplement-skeleton-dance-1929-growth-002",
+        "frame-supplement-skeleton-dance-1929-growth-003",
+        "frame-supplement-skeleton-dance-1929-growth-004",
+        "frame-supplement-skeleton-dance-1929-growth-005",
+        "frame-supplement-skeleton-dance-1929-growth-006",
+        "frame-supplement-skeleton-dance-1929-growth-007",
+        "frame-supplement-skeleton-dance-1929-growth-008",
+        "frame-supplement-skeleton-dance-1929-growth-009",
+        "frame-supplement-skeleton-dance-1929-growth-010",
+        "frame-supplement-skeleton-dance-1929-growth-011",
+        "frame-supplement-skeleton-dance-1929-growth-012",
+        "frame-supplement-skeleton-dance-1929-growth-013",
+        "frame-supplement-skeleton-dance-1929-growth-014",
+        "frame-supplement-skeleton-dance-1929-growth-015",
+        "frame-supplement-skeleton-dance-1929-growth-016",
+        "catalog-supplement-skeleton-dance-1929",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-skeleton-dance-1929-growth-001",
+        "frame-supplement-skeleton-dance-1929-growth-002",
+        "frame-supplement-skeleton-dance-1929-growth-003",
+        "frame-supplement-skeleton-dance-1929-growth-004",
+        "frame-supplement-skeleton-dance-1929-growth-005",
+        "frame-supplement-skeleton-dance-1929-growth-006",
+        "frame-supplement-skeleton-dance-1929-growth-007",
+        "frame-supplement-skeleton-dance-1929-growth-008",
+        "frame-supplement-skeleton-dance-1929-growth-009",
+        "frame-supplement-skeleton-dance-1929-growth-010",
+        "frame-supplement-skeleton-dance-1929-growth-011",
+        "frame-supplement-skeleton-dance-1929-growth-012",
+        "frame-supplement-skeleton-dance-1929-growth-013",
+        "frame-supplement-skeleton-dance-1929-growth-014",
+        "frame-supplement-skeleton-dance-1929-growth-015",
+        "frame-supplement-skeleton-dance-1929-growth-016",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016"
+      ],
+      "workCount": 2,
+      "imageCount": 40,
+      "frameCount": 40,
+      "rightsBreakdown": {
+        "期限届满": 2
+      },
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1929 年作品 · 2025-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "旧动画群像",
+        "骷髅动作",
+        "乐队 / 海报构图",
+        "鬼屋变形",
+        "幽灵追逐"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 42
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 32
+        },
+        {
+          "name": "骷髅动作与身体变形",
+          "count": 14
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 10
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 10
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 4
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 42
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 32
+        },
+        {
+          "name": "扁平骨架动作",
+          "count": 14
+        },
+        {
+          "name": "舞台式群像",
+          "count": 10
+        },
+        {
+          "name": "骨架变形",
+          "count": 5
+        },
+        {
+          "name": "鬼屋剪影",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队",
+          "count": 5
+        },
+        {
+          "name": "群舞节奏",
+          "count": 5
+        },
+        {
+          "name": "角色群像",
+          "count": 4
+        },
+        {
+          "name": "超现实追逐",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 42
+        }
+      ],
+      "usage": "骨架群舞、墓碑揭幕、圆环队列和身体变乐器；适合转译为扁平节奏图与重复骨架动作。",
+      "avoid": "只限 1929 原片具体表达；避开后期 Disney 修复配色、现代录音、品牌标识和官方授权混淆。",
+      "awarenessScore": 92,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-骷髅舞者-45739b1c",
+        "role-骷髅乐手-c13eae47",
+        "role-白布幽灵-0f2aa01a",
+        "role-墓园黑猫-977edd19",
+        "role-月下黑猫-bb7a7870",
+        "role-墓园骷髅-83b53313",
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "role-鬼屋-550de132",
+        "role-黑暗巨眼-1f10dde4"
+      ]
+    },
+    {
+      "id": "role-骷髅舞者-45739b1c",
+      "name": "骷髅舞者",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/02a10da9043dd36686e7.webp",
+      "coverRecordId": "catalog-supplement-skeleton-dance-1929",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "workIds": [
+        "work-the-skeleton-dance-8b38cda1",
+        "work-the-haunted-house-2de44826"
+      ],
+      "recordIds": [
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-skeleton-dance-1929-growth-001",
+        "frame-supplement-skeleton-dance-1929-growth-002",
+        "frame-supplement-skeleton-dance-1929-growth-003",
+        "frame-supplement-skeleton-dance-1929-growth-004",
+        "frame-supplement-skeleton-dance-1929-growth-005",
+        "frame-supplement-skeleton-dance-1929-growth-006",
+        "frame-supplement-skeleton-dance-1929-growth-007",
+        "frame-supplement-skeleton-dance-1929-growth-008",
+        "frame-supplement-skeleton-dance-1929-growth-009",
+        "frame-supplement-skeleton-dance-1929-growth-010",
+        "frame-supplement-skeleton-dance-1929-growth-011",
+        "frame-supplement-skeleton-dance-1929-growth-012",
+        "frame-supplement-skeleton-dance-1929-growth-013",
+        "frame-supplement-skeleton-dance-1929-growth-014",
+        "frame-supplement-skeleton-dance-1929-growth-015",
+        "frame-supplement-skeleton-dance-1929-growth-016",
+        "catalog-supplement-skeleton-dance-1929",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-skeleton-dance-1929-growth-001",
+        "frame-supplement-skeleton-dance-1929-growth-002",
+        "frame-supplement-skeleton-dance-1929-growth-003",
+        "frame-supplement-skeleton-dance-1929-growth-004",
+        "frame-supplement-skeleton-dance-1929-growth-005",
+        "frame-supplement-skeleton-dance-1929-growth-006",
+        "frame-supplement-skeleton-dance-1929-growth-007",
+        "frame-supplement-skeleton-dance-1929-growth-008",
+        "frame-supplement-skeleton-dance-1929-growth-009",
+        "frame-supplement-skeleton-dance-1929-growth-010",
+        "frame-supplement-skeleton-dance-1929-growth-011",
+        "frame-supplement-skeleton-dance-1929-growth-012",
+        "frame-supplement-skeleton-dance-1929-growth-013",
+        "frame-supplement-skeleton-dance-1929-growth-014",
+        "frame-supplement-skeleton-dance-1929-growth-015",
+        "frame-supplement-skeleton-dance-1929-growth-016",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016"
+      ],
+      "workCount": 2,
+      "imageCount": 40,
+      "frameCount": 40,
+      "rightsBreakdown": {
+        "期限届满": 2
+      },
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1929 年作品 · 2025-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "旧动画群像",
+        "骷髅动作",
+        "乐队 / 海报构图",
+        "鬼屋变形",
+        "幽灵追逐"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 42
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 32
+        },
+        {
+          "name": "骷髅动作与身体变形",
+          "count": 14
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 10
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 10
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 4
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 42
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 32
+        },
+        {
+          "name": "扁平骨架动作",
+          "count": 14
+        },
+        {
+          "name": "舞台式群像",
+          "count": 10
+        },
+        {
+          "name": "骨架变形",
+          "count": 5
+        },
+        {
+          "name": "鬼屋剪影",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队",
+          "count": 5
+        },
+        {
+          "name": "群舞节奏",
+          "count": 5
+        },
+        {
+          "name": "角色群像",
+          "count": 4
+        },
+        {
+          "name": "超现实追逐",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 42
+        }
+      ],
+      "usage": "骨架群舞、墓碑揭幕、圆环队列和身体变乐器；适合转译为扁平节奏图与重复骨架动作。",
+      "avoid": "只限 1929 原片具体表达；避开后期 Disney 修复配色、现代录音、品牌标识和官方授权混淆。",
+      "awarenessScore": 92,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-骷髅乐队-c975af3b",
+        "role-骷髅乐手-c13eae47",
+        "role-白布幽灵-0f2aa01a",
+        "role-墓园黑猫-977edd19",
+        "role-月下黑猫-bb7a7870",
+        "role-墓园骷髅-83b53313",
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "role-鬼屋-550de132",
+        "role-黑暗巨眼-1f10dde4"
+      ]
+    },
+    {
+      "id": "role-骷髅乐手-c13eae47",
+      "name": "骷髅乐手",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/02a10da9043dd36686e7.webp",
+      "coverRecordId": "catalog-supplement-skeleton-dance-1929",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "workIds": [
+        "work-the-skeleton-dance-8b38cda1",
+        "work-the-haunted-house-2de44826"
+      ],
+      "recordIds": [
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-skeleton-dance-1929-growth-001",
+        "frame-supplement-skeleton-dance-1929-growth-002",
+        "frame-supplement-skeleton-dance-1929-growth-003",
+        "frame-supplement-skeleton-dance-1929-growth-004",
+        "frame-supplement-skeleton-dance-1929-growth-005",
+        "frame-supplement-skeleton-dance-1929-growth-006",
+        "frame-supplement-skeleton-dance-1929-growth-007",
+        "frame-supplement-skeleton-dance-1929-growth-008",
+        "frame-supplement-skeleton-dance-1929-growth-009",
+        "frame-supplement-skeleton-dance-1929-growth-010",
+        "frame-supplement-skeleton-dance-1929-growth-011",
+        "frame-supplement-skeleton-dance-1929-growth-012",
+        "frame-supplement-skeleton-dance-1929-growth-013",
+        "frame-supplement-skeleton-dance-1929-growth-014",
+        "frame-supplement-skeleton-dance-1929-growth-015",
+        "frame-supplement-skeleton-dance-1929-growth-016",
+        "catalog-supplement-skeleton-dance-1929",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-skeleton-dance-1929-growth-001",
+        "frame-supplement-skeleton-dance-1929-growth-002",
+        "frame-supplement-skeleton-dance-1929-growth-003",
+        "frame-supplement-skeleton-dance-1929-growth-004",
+        "frame-supplement-skeleton-dance-1929-growth-005",
+        "frame-supplement-skeleton-dance-1929-growth-006",
+        "frame-supplement-skeleton-dance-1929-growth-007",
+        "frame-supplement-skeleton-dance-1929-growth-008",
+        "frame-supplement-skeleton-dance-1929-growth-009",
+        "frame-supplement-skeleton-dance-1929-growth-010",
+        "frame-supplement-skeleton-dance-1929-growth-011",
+        "frame-supplement-skeleton-dance-1929-growth-012",
+        "frame-supplement-skeleton-dance-1929-growth-013",
+        "frame-supplement-skeleton-dance-1929-growth-014",
+        "frame-supplement-skeleton-dance-1929-growth-015",
+        "frame-supplement-skeleton-dance-1929-growth-016",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016"
+      ],
+      "workCount": 2,
+      "imageCount": 40,
+      "frameCount": 40,
+      "rightsBreakdown": {
+        "期限届满": 2
+      },
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1929 年作品 · 2025-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "旧动画群像",
+        "骷髅动作",
+        "乐队 / 海报构图",
+        "鬼屋变形",
+        "幽灵追逐"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 42
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 32
+        },
+        {
+          "name": "骷髅动作与身体变形",
+          "count": 14
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 10
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 10
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 4
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 42
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 32
+        },
+        {
+          "name": "扁平骨架动作",
+          "count": 14
+        },
+        {
+          "name": "舞台式群像",
+          "count": 10
+        },
+        {
+          "name": "骨架变形",
+          "count": 5
+        },
+        {
+          "name": "鬼屋剪影",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队",
+          "count": 5
+        },
+        {
+          "name": "群舞节奏",
+          "count": 5
+        },
+        {
+          "name": "角色群像",
+          "count": 4
+        },
+        {
+          "name": "超现实追逐",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 42
+        }
+      ],
+      "usage": "骨架群舞、墓碑揭幕、圆环队列和身体变乐器；适合转译为扁平节奏图与重复骨架动作。",
+      "avoid": "只限 1929 原片具体表达；避开后期 Disney 修复配色、现代录音、品牌标识和官方授权混淆。",
+      "awarenessScore": 92,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-骷髅乐队-c975af3b",
+        "role-骷髅舞者-45739b1c",
+        "role-白布幽灵-0f2aa01a",
+        "role-墓园黑猫-977edd19",
+        "role-月下黑猫-bb7a7870",
+        "role-墓园骷髅-83b53313",
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "role-鬼屋-550de132",
+        "role-黑暗巨眼-1f10dde4"
+      ]
+    },
+    {
+      "id": "role-鬼屋骷髅乐队-a4afa9a8",
+      "name": "鬼屋骷髅乐队",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/c365607a6b17bf0cbbf0.webp",
+      "coverRecordId": "catalog-supplement-haunted-house-1929",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "workIds": [
+        "work-the-haunted-house-2de44826"
+      ],
+      "recordIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1929 年作品 · 2025-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "幽灵追逐",
+        "乐队 / 海报构图",
+        "旧动画群像",
+        "骷髅动作"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 6
+        },
+        {
+          "name": "骷髅动作与身体变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 2
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "舞台式群像",
+          "count": 6
+        },
+        {
+          "name": "扁平骨架动作",
+          "count": 5
+        },
+        {
+          "name": "鬼屋剪影",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 2
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 2
+        },
+        {
+          "name": "角色群像",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "孤屋剪影、黑暗眼睛、骷髅乐队和骨头木琴；可拆成鬼屋空间与骨架演奏两套母题。",
+      "avoid": "原版 Mickey 的现代版本、Disney 标识和后期商品形象仍需避开；优先取场景机制，不直接角色商品化。",
+      "awarenessScore": 78,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-骷髅乐队-c975af3b",
+        "role-骷髅舞者-45739b1c",
+        "role-骷髅乐手-c13eae47",
+        "role-白布幽灵-0f2aa01a",
+        "role-鬼屋-550de132",
+        "role-黑暗巨眼-1f10dde4",
+        "role-骷髅幽灵-daa64c09",
+        "role-鬼屋幽灵群-0970e819",
+        "role-骷髅残骨-923c623a"
+      ]
+    },
+    {
+      "id": "role-鬼屋-550de132",
+      "name": "鬼屋",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/c365607a6b17bf0cbbf0.webp",
+      "coverRecordId": "catalog-supplement-haunted-house-1929",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "workIds": [
+        "work-the-haunted-house-2de44826"
+      ],
+      "recordIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1929 年作品 · 2025-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "幽灵追逐",
+        "乐队 / 海报构图",
+        "旧动画群像",
+        "骷髅动作"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 6
+        },
+        {
+          "name": "骷髅动作与身体变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 2
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "舞台式群像",
+          "count": 6
+        },
+        {
+          "name": "扁平骨架动作",
+          "count": 5
+        },
+        {
+          "name": "鬼屋剪影",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 2
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 2
+        },
+        {
+          "name": "角色群像",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "孤屋剪影、黑暗眼睛、骷髅乐队和骨头木琴；可拆成鬼屋空间与骨架演奏两套母题。",
+      "avoid": "原版 Mickey 的现代版本、Disney 标识和后期商品形象仍需避开；优先取场景机制，不直接角色商品化。",
+      "awarenessScore": 78,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-骷髅乐队-c975af3b",
+        "role-骷髅舞者-45739b1c",
+        "role-骷髅乐手-c13eae47",
+        "role-白布幽灵-0f2aa01a",
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "role-黑暗巨眼-1f10dde4",
+        "role-骷髅幽灵-daa64c09",
+        "role-鬼屋幽灵群-0970e819",
+        "role-骷髅残骨-923c623a"
+      ]
+    },
+    {
+      "id": "role-黑暗巨眼-1f10dde4",
+      "name": "黑暗巨眼",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/c365607a6b17bf0cbbf0.webp",
+      "coverRecordId": "catalog-supplement-haunted-house-1929",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "workIds": [
+        "work-the-haunted-house-2de44826"
+      ],
+      "recordIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1929 年作品 · 2025-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "幽灵追逐",
+        "乐队 / 海报构图",
+        "旧动画群像",
+        "骷髅动作"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 6
+        },
+        {
+          "name": "骷髅动作与身体变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 2
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "舞台式群像",
+          "count": 6
+        },
+        {
+          "name": "扁平骨架动作",
+          "count": 5
+        },
+        {
+          "name": "鬼屋剪影",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 2
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 2
+        },
+        {
+          "name": "角色群像",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "孤屋剪影、黑暗眼睛、骷髅乐队和骨头木琴；可拆成鬼屋空间与骨架演奏两套母题。",
+      "avoid": "原版 Mickey 的现代版本、Disney 标识和后期商品形象仍需避开；优先取场景机制，不直接角色商品化。",
+      "awarenessScore": 78,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-骷髅乐队-c975af3b",
+        "role-骷髅舞者-45739b1c",
+        "role-骷髅乐手-c13eae47",
+        "role-白布幽灵-0f2aa01a",
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "role-鬼屋-550de132",
+        "role-骷髅幽灵-daa64c09",
+        "role-鬼屋幽灵群-0970e819",
+        "role-骷髅残骨-923c623a"
+      ]
+    },
+    {
+      "id": "role-骷髅幽灵-daa64c09",
+      "name": "骷髅幽灵",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/c365607a6b17bf0cbbf0.webp",
+      "coverRecordId": "catalog-supplement-haunted-house-1929",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "workIds": [
+        "work-the-haunted-house-2de44826"
+      ],
+      "recordIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1929 年作品 · 2025-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "幽灵追逐",
+        "乐队 / 海报构图",
+        "旧动画群像",
+        "骷髅动作"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 6
+        },
+        {
+          "name": "骷髅动作与身体变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 2
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "舞台式群像",
+          "count": 6
+        },
+        {
+          "name": "扁平骨架动作",
+          "count": 5
+        },
+        {
+          "name": "鬼屋剪影",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 2
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 2
+        },
+        {
+          "name": "角色群像",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "孤屋剪影、黑暗眼睛、骷髅乐队和骨头木琴；可拆成鬼屋空间与骨架演奏两套母题。",
+      "avoid": "原版 Mickey 的现代版本、Disney 标识和后期商品形象仍需避开；优先取场景机制，不直接角色商品化。",
+      "awarenessScore": 78,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-骷髅乐队-c975af3b",
+        "role-骷髅舞者-45739b1c",
+        "role-骷髅乐手-c13eae47",
+        "role-白布幽灵-0f2aa01a",
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "role-鬼屋-550de132",
+        "role-黑暗巨眼-1f10dde4",
+        "role-鬼屋幽灵群-0970e819",
+        "role-骷髅残骨-923c623a"
+      ]
+    },
+    {
+      "id": "role-鬼屋幽灵群-0970e819",
+      "name": "鬼屋幽灵群",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/c365607a6b17bf0cbbf0.webp",
+      "coverRecordId": "catalog-supplement-haunted-house-1929",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "workIds": [
+        "work-the-haunted-house-2de44826"
+      ],
+      "recordIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1929 年作品 · 2025-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "幽灵追逐",
+        "乐队 / 海报构图",
+        "旧动画群像",
+        "骷髅动作"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 6
+        },
+        {
+          "name": "骷髅动作与身体变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 2
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "舞台式群像",
+          "count": 6
+        },
+        {
+          "name": "扁平骨架动作",
+          "count": 5
+        },
+        {
+          "name": "鬼屋剪影",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 2
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 2
+        },
+        {
+          "name": "角色群像",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "孤屋剪影、黑暗眼睛、骷髅乐队和骨头木琴；可拆成鬼屋空间与骨架演奏两套母题。",
+      "avoid": "原版 Mickey 的现代版本、Disney 标识和后期商品形象仍需避开；优先取场景机制，不直接角色商品化。",
+      "awarenessScore": 78,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-骷髅乐队-c975af3b",
+        "role-骷髅舞者-45739b1c",
+        "role-骷髅乐手-c13eae47",
+        "role-白布幽灵-0f2aa01a",
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "role-鬼屋-550de132",
+        "role-黑暗巨眼-1f10dde4",
+        "role-骷髅幽灵-daa64c09",
+        "role-骷髅残骨-923c623a"
+      ]
+    },
+    {
+      "id": "role-骷髅残骨-923c623a",
+      "name": "骷髅残骨",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/c365607a6b17bf0cbbf0.webp",
+      "coverRecordId": "catalog-supplement-haunted-house-1929",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "workIds": [
+        "work-the-haunted-house-2de44826"
+      ],
+      "recordIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1929 年作品 · 2025-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "幽灵追逐",
+        "乐队 / 海报构图",
+        "旧动画群像",
+        "骷髅动作"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 6
+        },
+        {
+          "name": "骷髅动作与身体变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 2
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "舞台式群像",
+          "count": 6
+        },
+        {
+          "name": "扁平骨架动作",
+          "count": 5
+        },
+        {
+          "name": "鬼屋剪影",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 2
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 2
+        },
+        {
+          "name": "角色群像",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "孤屋剪影、黑暗眼睛、骷髅乐队和骨头木琴；可拆成鬼屋空间与骨架演奏两套母题。",
+      "avoid": "原版 Mickey 的现代版本、Disney 标识和后期商品形象仍需避开；优先取场景机制，不直接角色商品化。",
+      "awarenessScore": 78,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-骷髅乐队-c975af3b",
+        "role-骷髅舞者-45739b1c",
+        "role-骷髅乐手-c13eae47",
+        "role-白布幽灵-0f2aa01a",
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "role-鬼屋-550de132",
+        "role-黑暗巨眼-1f10dde4",
+        "role-骷髅幽灵-daa64c09",
+        "role-鬼屋幽灵群-0970e819"
       ]
     }
   ],

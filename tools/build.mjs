@@ -29,6 +29,7 @@ const supplementalPaths = [
   path.join(projectRoot, "source", "cartoon-ip-supplement.json"),
   path.join(projectRoot, "source", "ghost-commercial-supplement.json"),
   path.join(projectRoot, "source", "halloween-classics-supplement.json"),
+  path.join(projectRoot, "source", "halloween-cartoon-growth-supplement.json"),
   path.join(projectRoot, "source", "halloween-visual-elements-supplement.json"),
 ];
 const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "pd-cartoon-build-"));
@@ -223,6 +224,7 @@ function parseYearSort(value) {
 function supplementalRecords(data) {
   const output = [];
   const masterOnly = data.recordMode === "master-only";
+  const frameOnly = data.recordMode === "frame-only";
   for (const work of data.works || []) {
     if (!Array.isArray(work.frames) || !work.frames.length) {
       throw new Error(`Supplemental work has no frames: ${work.id || work.title}`);
@@ -263,20 +265,44 @@ function supplementalRecords(data) {
       supplementalSourceVersion: data.sourceVersion || "",
     };
     const first = work.frames[0];
-    output.push({
-      ...common,
-      id: `catalog-supplement-${work.id}`,
-      kind: "主档",
-      subtitle: work.subtitle || `${work.year} 具体作品版本`,
-      sourceUrl: work.sourceUrl,
-      imageKey: `eagle:${first.eagleItemId}`,
-    });
+    if (!frameOnly) {
+      output.push({
+        ...common,
+        id: `catalog-supplement-${work.id}`,
+        kind: "主档",
+        subtitle: work.subtitle || `${work.year} 具体作品版本`,
+        sourceUrl: work.sourceUrl,
+        imageKey: `eagle:${first.eagleItemId}`,
+      });
+    }
     if (!masterOnly) work.frames.forEach((frame, index) => {
       const sourceUrl = frame.sourceUrl || (frame.seconds === undefined
         ? work.sourceUrl
         : `${work.sourceUrl}#frame-${frame.seconds}s`);
       output.push({
         ...common,
+        ...(frame.assetType ? { assetType: frame.assetType } : {}),
+        ...(compact([...(work.motifs || []), ...(frame.motifs || [])]).length
+          ? { motifs: compact([...(work.motifs || []), ...(frame.motifs || [])]) }
+          : {}),
+        ...(compact([...(work.actions || []), ...(frame.actions || [])]).length
+          ? { actions: compact([...(work.actions || []), ...(frame.actions || [])]) }
+          : {}),
+        ...(compact([...(work.compositions || []), ...(frame.compositions || [])]).length
+          ? { compositions: compact([...(work.compositions || []), ...(frame.compositions || [])]) }
+          : {}),
+        ...(compact([...(work.colors || []), ...(frame.colors || [])]).length
+          ? { colors: compact([...(work.colors || []), ...(frame.colors || [])]) }
+          : {}),
+        ...(compact([...(work.productionUses || []), ...(frame.productionUses || [])]).length
+          ? { productionUses: compact([...(work.productionUses || []), ...(frame.productionUses || [])]) }
+          : {}),
+        styles: compact([...(work.styles || []), ...(frame.styles || [])]),
+        scenes: compact([...(work.scenes || []), ...(frame.scenes || [])]),
+        characters: compact([...(work.characters || []), ...(frame.characters || [])]),
+        tags: compact([...(work.tags || []), ...(frame.tags || [])]),
+        ...(frame.sourceHash ? { sourceHash: frame.sourceHash } : {}),
+        ...(frame.sourcePixels ? { sourcePixels: frame.sourcePixels } : {}),
         id: `frame-supplement-${work.id}-${String(index + 1).padStart(3, "0")}`,
         kind: "动画画面",
         subtitle: frame.subtitle || `画面 ${String(index + 1).padStart(3, "0")}`,

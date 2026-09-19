@@ -1,0 +1,462 @@
+{
+  "schemaVersion": "1.0",
+  "intakeVersion": "halloween-cartoon-growth-2026-09-19-v1",
+  "researchDate": "2026-09-19",
+  "eagleFolderId": "MTQ0XCUZOVLNG",
+  "requested": 64,
+  "imported": [
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:55s",
+      "eagleItemId": "MU82H1862ZT7Y",
+      "sha256": "5c8e636cb280c703c5a84e6b97fe0e3c9974e22a66efae7cb53b8341e3ed64df",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:65s",
+      "eagleItemId": "MU82H217BTO68",
+      "sha256": "ca7a689a60e054018b8d19b8eead4843fd9cc6967639d41465e1446f135b916a",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:85s",
+      "eagleItemId": "MU82H2SVWNK6H",
+      "sha256": "c14f1915ec3448de5e7eb2620bdaad0d50a6cb7528afceaa62537c07d19eeafb",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:95s",
+      "eagleItemId": "MU82H3KWDM1IV",
+      "sha256": "b29243571d0f1af29532c5951d230fded9b2aa405909331043de562a093ad7d6",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:105s",
+      "eagleItemId": "MU82H4CIWT93Q",
+      "sha256": "46cd4cf3dbee7443e35f32c2b75c56cd7551d6272654609e6dabf54ac929677f",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:145s",
+      "eagleItemId": "MU82H54N50R6Y",
+      "sha256": "ea53004bab13b39dc97ffde5fcaa93d73adfd52bf591525e006951c4a3dd8c61",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:155s",
+      "eagleItemId": "MU82H5UPNQNPC",
+      "sha256": "f23bd463daa8865cf53aaf0adc4a7f9faa46dd5f9d5481f31ae7f75f4bb0a883",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:175s",
+      "eagleItemId": "MU82H6R1D45SC",
+      "sha256": "6f8e195b6e440e03e605ca4b28f75a2abdfd71865b04a30409de988cea4cf10a",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:185s",
+      "eagleItemId": "MU82H7MJQOVDE",
+      "sha256": "c276b7b8bee2be609234f7bfff371f561469f6845151bbfef0d14a5ce9d085d6",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:195s",
+      "eagleItemId": "MU82H8H6VXX8H",
+      "sha256": "d99734ce0c0c716d677a9ecbab26cbcae7094d675ad1e05687a75d6bca61965b",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:205s",
+      "eagleItemId": "MU82H9BONN4RX",
+      "sha256": "a8adb46935b45d4c4b2a305a2d41c9cc2872e9fee27c0eea1c391de123bf86d6",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:225s",
+      "eagleItemId": "MU82HA6GOTOOB",
+      "sha256": "152c4c08768170a04ae86d15e6b309b23fead1fce5d6ab3d8f69eb4e31bfc214",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:255s",
+      "eagleItemId": "MU82HAZR08I79",
+      "sha256": "36cb14ebe2d51c533398c3488a8b148378ed5d8365bfcebafa29eaf89e8f5f18",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:265s",
+      "eagleItemId": "MU82HBSQ414ZH",
+      "sha256": "3a9437124043c46ec21844bfdc6f7687126699cd82a9a2c3ff47fc0d57c17166",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:275s",
+      "eagleItemId": "MU82HCL5RFVYS",
+      "sha256": "993f7a30592d13efa933494a67c7b0a64e9c81dece15b77a2630ff966277e3ba",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:skeleton-dance-1929-growth:305s",
+      "eagleItemId": "MU82HDBGPIBVF",
+      "sha256": "88a25ed25e1c9fc84c6855c4246cf48ccc44a0cf0e9775807d12e70fe54147a3",
+      "width": 1464,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:25s",
+      "eagleItemId": "MU82HDZHFNH8V",
+      "sha256": "725f03658c45fca5a4eec7d49fb493d56e91a700dd5eab460511df19c1d8d431",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:85s",
+      "eagleItemId": "MU82HENHMAO5X",
+      "sha256": "2228374eaffd4c4f5536c9b0fa38a82969f21323139f8d8b39f180297ca1d2f7",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:125s",
+      "eagleItemId": "MU82HFBRO7Y2T",
+      "sha256": "28766c102118729e3abe406e12b2fe9c942ed0aef595320c003d5d49675829b8",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:135s",
+      "eagleItemId": "MU82HFZZ9E7Z9",
+      "sha256": "601d9e7a8008a8a5042d5ed0dce3933aa3156a331f5abb070866c7eac4c706ab",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:165s",
+      "eagleItemId": "MU82HGOA08JXH",
+      "sha256": "94c3101321aa3bc90957e4606f02a32d67102bc5459597f2e5f60ee96251c8c2",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:175s",
+      "eagleItemId": "MU82HHCQ0ATWO",
+      "sha256": "16cb3595a4afa193168a517cc0160f7c705f5c716f28988f704470122d31f208",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:225s",
+      "eagleItemId": "MU82HI0RKRU51",
+      "sha256": "829626240f200e0638bce4c8222c2887a4f49ccbc30b3ae98a994780fc3caab8",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:255s",
+      "eagleItemId": "MU82HIOL21UYZ",
+      "sha256": "ebef41f72b5849aebe9700a99a6bdb3f696636722c608e9ab96a7e8d70caf797",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:275s",
+      "eagleItemId": "MU82HJCEJ9AAY",
+      "sha256": "08cc88bda1321862bb4da7dc71d5ebc7e5c5b299149deef5760dd689092fa432",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:285s",
+      "eagleItemId": "MU82HK17GM5EP",
+      "sha256": "6984c3e6557f0df8c673e70fe4d5d2eea02aee29d6290f8ed552bc311485c0d7",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:295s",
+      "eagleItemId": "MU82HKP5EQ7OJ",
+      "sha256": "c5c5dae31bf06761f12689e07be6a49760688139f7f2e48108b3c55604822b58",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:305s",
+      "eagleItemId": "MU82HLCZ3CAI8",
+      "sha256": "d8f4b344e6cbaf76826d98bc719c4128c9a9dba4f1fd26c247db71d98c2f4125",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:315s",
+      "eagleItemId": "MU82HM0ZIN1PA",
+      "sha256": "04c68220b4b3e978720b37cd84d7bff879b03b99dca5ed8589212be50222fd92",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:335s",
+      "eagleItemId": "MU82HMOTKOGEZ",
+      "sha256": "8350c76462953a574b89d9b465f6465f1404ab7d5e1c28b8d5640a2fa684f5fa",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:345s",
+      "eagleItemId": "MU82HNCUOAC7L",
+      "sha256": "8814f295bcb26b1302a2b4437411e6ed57ffeaaae520f4a04067a3df20851521",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:haunted-house-1929-growth:355s",
+      "eagleItemId": "MU82HO0L8H11O",
+      "sha256": "a7b7c9be093d379e175e23a34db543757663ecec45d4c0e2fb8ca416814a1e3e",
+      "width": 460,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:25s",
+      "eagleItemId": "MU82HOOGJN8DE",
+      "sha256": "3ff5285a93c28ef8d3d56ff992dfc49f99aac821134ac81995c63116dc53710e",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:35s",
+      "eagleItemId": "MU82HPC9KNH1L",
+      "sha256": "6d28dc021b6d4a95a15eb4f921620517a069c15fc321eb0ef0fd25dce7541ee6",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:65s",
+      "eagleItemId": "MU82HQ01W7HR9",
+      "sha256": "328ec3b24532c9596a1505b59bf88c499540743a1daaaedae369b303f0b241e0",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:85s",
+      "eagleItemId": "MU82HQO5GNYTZ",
+      "sha256": "70b1e590b89e1a9df01571d0b4f753077626f945f0911f60d60bb122ac554d2c",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:95s",
+      "eagleItemId": "MU82HRC3S2PPN",
+      "sha256": "b47799fb93468e1ee96bf078c328b94b56356881312356e88e5a5153e7bf9672",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:105s",
+      "eagleItemId": "MU82HS0BWJF7K",
+      "sha256": "c57db29fca127b7f38069d82ae2a52ec16142d3b1498133039a61b8def80b757",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:115s",
+      "eagleItemId": "MU82HSOFOOQC7",
+      "sha256": "087b272b29b46cb427e8e1df65bef48f0eeae1ca6e57d01efc68cecbbab73e23",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:135s",
+      "eagleItemId": "MU82HTCLBQ8MF",
+      "sha256": "7fd3cfeea2f62d58070cc57f4f9d61379dbb57313eca99dbd479795456d68edd",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:155s",
+      "eagleItemId": "MU82HU0UBRX0L",
+      "sha256": "4bf474ad4eedfc94bde9f16b28d18af44a51b25000b16f942aa106c28d324f4f",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:165s",
+      "eagleItemId": "MU82HUP3W803S",
+      "sha256": "24bd95ce143e9d754c820ece9920e1a341df46a6e43ac2e7d2b16ad53dc71a55",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:175s",
+      "eagleItemId": "MU82HVDGV3ZHE",
+      "sha256": "5a7b37f6469e329ada522c1ca47755a3f5d93594385ad93ceb552bfee1a62f41",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:185s",
+      "eagleItemId": "MU82HW1IL24OB",
+      "sha256": "6a9320d8e3e248855b4bfd1a88f2a17abcfc39df655ab8bbae46d5591b87a640",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:205s",
+      "eagleItemId": "MU82HWPI0U60K",
+      "sha256": "0e97aa52afe9913975160da474118e26e841853a14a252d7f99262527f7da651",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:225s",
+      "eagleItemId": "MU82HXDAGDHNG",
+      "sha256": "cc5bed0b5c14bea316f41ba6625961b04b6691a90355b4128994c121d4334fa0",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:245s",
+      "eagleItemId": "MU82HY1J7DITR",
+      "sha256": "fe57931c59adc578e39f4611be576c31b964389f093012f71078d465961d86b9",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:hells-bells-1929-growth:255s",
+      "eagleItemId": "MU82HYPFKR4WO",
+      "sha256": "30912cc33d183c2695ff93e5ed634d5e6b8db529ec114b523fa1dc48f67d67ec",
+      "width": 468,
+      "height": 360
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:145s",
+      "eagleItemId": "MU82HZF8J61FA",
+      "sha256": "1f46c12f534fec145a367ab4c5bf87b7fed95c7a204ac3359a7b38950a3e48ee",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:155s",
+      "eagleItemId": "MU82I03P9E1CZ",
+      "sha256": "dccac940bf46895e2205946415dcc83289e2c172493a1fa5a28bf5560472080f",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:175s",
+      "eagleItemId": "MU82I0TYXVABI",
+      "sha256": "511560e3b6ae5744cb827361e4b74380467ed679951ef3d329e6a6071841620f",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:185s",
+      "eagleItemId": "MU82I1J25YEGB",
+      "sha256": "945dbc20b323097aec23533501bb593cc094b7b3743339a1e501e55791efdbe3",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:205s",
+      "eagleItemId": "MU82I28BSGTBE",
+      "sha256": "a52d41ea90a49cbe585902141f9b11f4d15dd405398761bec0d38c50e4dc820d",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:215s",
+      "eagleItemId": "MU82I2YQDY86M",
+      "sha256": "1225323f04127059b8aee883d495b44b3a321779ad495602ae72d6652d5b1090",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:265s",
+      "eagleItemId": "MU82I3OHHLPOH",
+      "sha256": "8a41366c2b4e3d81805c98bc5197bc19844177c7a3455d60a4a5d9fae83243ba",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:275s",
+      "eagleItemId": "MU82I4DNQMA9A",
+      "sha256": "382713939a96f4c4f1b17c609b112273fba0dec968d922cd6bd383a0b87b1bfe",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:315s",
+      "eagleItemId": "MU82I54JU9LW4",
+      "sha256": "b8723b44a406deb8fd285eabc95ec3752937436c846608310a19bff6894f0476",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:335s",
+      "eagleItemId": "MU82I5XQROF88",
+      "sha256": "7081dead9aef1334a72c957bf5659e65165f3ec66d3ff8d1a70e80724688c366",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:345s",
+      "eagleItemId": "MU82I6MC7JU9Z",
+      "sha256": "5072d483065428b3a4728548e60cb965d99ecd9ff530ac2e0bb8c6623ee8538b",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:365s",
+      "eagleItemId": "MU82I7DOMIS67",
+      "sha256": "0f9724a2c49cd5795622900cd17bb3da811e6c669031954e8a6b78188096d10f",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:385s",
+      "eagleItemId": "MU82I833VC992",
+      "sha256": "1ef2b56a055a664f9f1c14be8e3e16df3c1383448163fcae3d6dafc116a9e375",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:415s",
+      "eagleItemId": "MU82I8RPPCQ0I",
+      "sha256": "549f3b7551906108cbe8873050a25683bcc6a02f1535cd29e8a10c6022dfe084",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:445s",
+      "eagleItemId": "MU82I9IKPYLWI",
+      "sha256": "ac002d4d657e1cea5cad21353d698875d112097db93e66a159a82fe704185454",
+      "width": 1442,
+      "height": 1080
+    },
+    {
+      "intakeId": "halloween-cartoon-growth-2026-09-19-v1:swing-you-sinners-1930-growth:455s",
+      "eagleItemId": "MU82IAB9RVAAO",
+      "sha256": "d56e554bbb4346d73857a1683cb2e19eaec50e83c9667e84e24e0db1091ae8ff",
+      "width": 1442,
+      "height": 1080
+    }
+  ],
+  "reused": [],
+  "rejected": [],
+  "completed": 64,
+  "sha256Unique": 64,
+  "status": "PASS"
+}

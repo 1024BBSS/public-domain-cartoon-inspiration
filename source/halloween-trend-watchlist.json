@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "sourceVersion": "halloween-tiktok-watch-2026-09-19-v1",
+  "sourceVersion": "halloween-tiktok-watch-2026-09-19-v2",
   "observedAt": "2026-09-19T18:00:00+08:00",
   "window": {
     "from": "2026-09-04",
@@ -13,12 +13,63 @@
     "https://www.tiktok.com/search?q=halloween%202026",
     "https://www.tiktok.com/search?q=halloween%20decor%202026",
     "https://www.tiktok.com/search?q=halloween%20shirt%202026",
-    "https://www.tiktok.com/search?q=disney%20halloween%202026"
+    "https://www.tiktok.com/search?q=disney%20halloween%202026",
+    "https://www.tiktok.com/search?q=vintage%20halloween%20cartoon",
+    "https://www.tiktok.com/search?q=halloween%20ghost%20graphic%20tee",
+    "https://www.tiktok.com/search?q=horror%20punk%20halloween%20tee"
   ],
   "signals": [
     {
-      "id": "yard-skeleton-theatre",
+      "id": "old-cartoon-ensemble-revival",
       "rank": 1,
+      "title": "旧动画群像与故事片段",
+      "status": "强信号",
+      "rights": "按具体作品拆分；现代 IP 只作证据",
+      "lane": "角色与叙事",
+      "summary": "高互动内容不是单个符号，而是完整的旧动画关系：角色群、追逐、舞蹈、鬼屋空间与季节故事片段。",
+      "visualGrammar": ["旧动画颗粒", "多角色同框", "连续动作", "黑橙或黑白高反差", "故事场景"],
+      "publicDomainBridge": ["The Skeleton Dance", "The Haunted House", "Hell's Bells", "Swing You Sinners!"],
+      "use": "优先扩充公版原片的群舞、乐队、追逐和空间变形抽帧；现代 Scooby-Doo 等只说明需求，不进入可用池。",
+      "evidence": [
+        {"label": "经典南瓜动画片段 · 2026-09-06 · 1.8M", "url": "https://www.tiktok.com/@thinkimparanoide/video/7682498270655941921"},
+        {"label": "Scooby-Doo Goblin King · 2026-09-06 · 912.2K · IP-BLOCK", "url": "https://www.tiktok.com/@mdxcore/video/7682378591325211917"}
+      ]
+    },
+    {
+      "id": "washed-horror-punk-graphics",
+      "rank": 2,
+      "title": "洗水黑 T 与 Horror-punk 海报构图",
+      "status": "强信号",
+      "rights": "版式机制可转译；乐队与影视内容需授权",
+      "lane": "服装图案",
+      "summary": "深色洗水胚衣、米白/灰/暗红低色数印刷、背部大图、乐队海报式群像与双面小胸花反复出现。",
+      "visualGrammar": ["洗水黑", "低色数", "背部大图", "海报式群像", "双面印花", "龟裂旧印刷"],
+      "publicDomainBridge": ["The Skeleton Dance 骷髅群舞", "The Haunted House 骨架乐队", "Hell's Bells 恶魔舞台", "Dance of Death 木刻"],
+      "use": "只借服装层级和视觉机制；主体改用经核验的公版画面并原创重画。",
+      "evidence": [
+        {"label": "洗水黑 T 粗白图形 · 2026-09-13 · 253.6K", "url": "https://www.tiktok.com/@ashnickolson/video/7684840242448354591"},
+        {"label": "Grunge / Y2K clothing drop · 2026-09-14 · 186.5K", "url": "https://www.tiktok.com/@noirwings.clo/video/7685320708490120470"}
+      ]
+    },
+    {
+      "id": "halloween-worldbuilding-outfit",
+      "rank": 3,
+      "title": "从单图案转向整套世界观",
+      "status": "近期上升样本",
+      "rights": "场景机制可转译",
+      "lane": "场景与穿搭",
+      "summary": "用户以 Horror Night、哥特/吸血鬼、角色配饰和环境背景组成完整造型，单个胸花的吸引力低于可讲故事的视觉体系。",
+      "visualGrammar": ["角色主图", "小配饰呼应", "黑红紫配色", "环境背景", "一套故事"],
+      "publicDomainBridge": ["公版鬼屋", "公版吸血鬼文学源流", "墓园幽灵群", "早期动画角色队列"],
+      "use": "在图素页同时保留角色、动作、构图和场景标签，让同一母题能生成主图、袖图与配套小图。",
+      "evidence": [
+        {"label": "HHN outfit inspiration · 2026-09-15 · 46.7K", "url": "https://www.tiktok.com/@evergladescowgirl/photo/7685820889933368589"},
+        {"label": "Gothic / vampires outfit · 2026-09-17 · 6,710", "url": "https://www.tiktok.com/@zaires.spooks/video/7686647012309093645"}
+      ]
+    },
+    {
+      "id": "yard-skeleton-theatre",
+      "rank": 4,
       "title": "院落骷髅剧场",
       "status": "近期高频",
       "rights": "通用母题可转译",
@@ -36,7 +87,7 @@
     },
     {
       "id": "flat-skeleton-graphics",
-      "rank": 2,
+      "rank": 5,
       "title": "扁平骷髅图案",
       "status": "近期高频",
       "rights": "通用母题可转译",
@@ -53,7 +104,7 @@
     },
     {
       "id": "cute-ghost-black-cat",
-      "rank": 3,
+      "rank": 6,
       "title": "可爱幽灵＋黑猫",
       "status": "近期高频",
       "rights": "通用母题可转译",
@@ -69,7 +120,7 @@
     },
     {
       "id": "vintage-halloween-collage",
-      "rank": 4,
+      "rank": 7,
       "title": "复古 Halloween 拼贴",
       "status": "持续信号",
       "rights": "需逐图清权",
@@ -85,7 +136,7 @@
     },
     {
       "id": "diy-graveyard-silhouettes",
-      "rank": 5,
+      "rank": 8,
       "title": "DIY 墓碑与幽灵剪影",
       "status": "近期高频",
       "rights": "通用母题可转译",
@@ -110,6 +161,7 @@
       "use": "只能提炼匿名机制：高反差面具、单一竖直人影、旧录像噪点、红黑留白。",
       "avoid": "不得复制角色脸、面具轮廓、服装组合、片名、台词、海报或演员肖像。",
       "sources": [
+        {"label": "Scream / Ghostface 图案 T 恤 · 2026-07-23 · 135.1K（高播放背景样本，非近 15 天）", "url": "https://www.tiktok.com/@topleftburner/video/7665794257646554382"},
         {"label": "Michael Myers shirt · 1 小时", "url": "https://www.tiktok.com/@thefashionbusiness2509/video/7687082549075512606"},
         {"label": "Halloween decor + Ghostface · 当日", "url": "https://www.tiktok.com/@faviolacruz75/video/7687099242481061133"}
       ]

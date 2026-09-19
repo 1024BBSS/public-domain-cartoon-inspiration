@@ -1,0 +1,3203 @@
+{
+  "schemaVersion": "1.0",
+  "sourceVersion": "halloween-cartoon-growth-2026-09-19-v1",
+  "researchDate": "2026-09-19",
+  "recordMode": "frame-only",
+  "scope": "近 15 天 TikTok 画面信号回溯到已确认美国公版的 1929–1930 动画原片；现代角色截图不进入可用池。",
+  "evidenceBoundary": "增长信号来自登录态搜索与喜欢页定点样本，不代表全平台增长率或销量。抽帧仅作视觉研究与原创重画，不是生产级印花文件。",
+  "works": [
+    {
+      "id": "skeleton-dance-1929-growth",
+      "title": "The Skeleton Dance",
+      "subtitle": "骷髅之舞 · 1929 原片增长画面",
+      "year": "1929",
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "美国 1929 年作品 · 2025-01-01 期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons 文件页标记 Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2025/",
+      "researchDate": "2026-09-19",
+      "assetType": "公版动画原片抽帧",
+      "usage": "从猫、墓园、骷髅群舞和身体变乐器中提取动作关系，重画为扁平、低色数图案。",
+      "avoid": "只限 1929 原片具体表达；避开后期 Disney 造型、品牌标识、现代修复配色和现代录音。",
+      "styles": [
+        "黑白橡皮管动画",
+        "增长信号回溯"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "万圣节公版动画"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "骷髅乐队"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索"
+      ],
+      "awarenessScore": 92,
+      "awarenessLevel": "美国高知名度",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm",
+        "https://cspd.law.duke.edu/publicdomainday/2025/"
+      ],
+      "riskFlags": [
+        "Disney 商标",
+        "后期版本",
+        "现代配乐"
+      ],
+      "frames": [
+        {
+          "seconds": 55,
+          "subtitle": "墓园钟声与黑猫 · 55 秒",
+          "trendLane": "旧动画群像",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "墓园",
+            "黑猫",
+            "钟"
+          ],
+          "actions": [
+            "黑猫警觉",
+            "钟声启动"
+          ],
+          "compositions": [
+            "横向夜景",
+            "环境开场"
+          ],
+          "characters": [
+            "墓园黑猫"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "角色群像"
+          ],
+          "scenes": [
+            "旧动画群像与叙事场景"
+          ],
+          "productionUses": [
+            "洗水黑 T 背部主图",
+            "复古动画拼贴"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "旧动画群像"
+          ],
+          "eagleItemId": "MU82H1862ZT7Y",
+          "sourceHash": "5c8e636cb280c703c5a84e6b97fe0e3c9974e22a66efae7cb53b8341e3ed64df",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-55s"
+        },
+        {
+          "seconds": 65,
+          "subtitle": "月下黑猫长嚎 · 65 秒",
+          "trendLane": "旧动画群像",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "满月",
+            "黑猫",
+            "树枝"
+          ],
+          "actions": [
+            "仰头长嚎"
+          ],
+          "compositions": [
+            "圆月徽章",
+            "单主体剪影"
+          ],
+          "characters": [
+            "月下黑猫"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "角色群像"
+          ],
+          "scenes": [
+            "旧动画群像与叙事场景"
+          ],
+          "productionUses": [
+            "洗水黑 T 背部主图",
+            "复古动画拼贴"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "旧动画群像"
+          ],
+          "eagleItemId": "MU82H217BTO68",
+          "sourceHash": "ca7a689a60e054018b8d19b8eead4843fd9cc6967639d41465e1446f135b916a",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-65s"
+        },
+        {
+          "seconds": 85,
+          "subtitle": "墓碑上的黑猫对峙 · 85 秒",
+          "trendLane": "旧动画群像",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "两只黑猫",
+            "墓碑",
+            "满月"
+          ],
+          "actions": [
+            "弓背对峙"
+          ],
+          "compositions": [
+            "左右对称",
+            "双主体"
+          ],
+          "characters": [
+            "墓园黑猫"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "角色群像"
+          ],
+          "scenes": [
+            "旧动画群像与叙事场景"
+          ],
+          "productionUses": [
+            "洗水黑 T 背部主图",
+            "复古动画拼贴"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "旧动画群像"
+          ],
+          "eagleItemId": "MU82H2SVWNK6H",
+          "sourceHash": "c14f1915ec3448de5e7eb2620bdaad0d50a6cb7528afceaa62537c07d19eeafb",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-85s"
+        },
+        {
+          "seconds": 95,
+          "subtitle": "骷髅从墓碑后升起 · 95 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骷髅",
+            "墓碑",
+            "月夜"
+          ],
+          "actions": [
+            "从墓穴升起"
+          ],
+          "compositions": [
+            "中心揭幕",
+            "三墓碑框景"
+          ],
+          "characters": [
+            "墓园骷髅"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82H3KWDM1IV",
+          "sourceHash": "b29243571d0f1af29532c5951d230fded9b2aa405909331043de562a093ad7d6",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-95s"
+        },
+        {
+          "seconds": 105,
+          "subtitle": "骷髅头越过墓碑 · 105 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骷髅头",
+            "墓碑"
+          ],
+          "actions": [
+            "伸展手臂",
+            "探出"
+          ],
+          "compositions": [
+            "近景特写",
+            "横向延展"
+          ],
+          "characters": [
+            "墓园骷髅"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82H4CIWT93Q",
+          "sourceHash": "46cd4cf3dbee7443e35f32c2b75c56cd7551d6272654609e6dabf54ac929677f",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-105s"
+        },
+        {
+          "seconds": 145,
+          "subtitle": "墓穴中的骷髅头 · 145 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骷髅头",
+            "墓穴",
+            "墓碑"
+          ],
+          "actions": [
+            "从地下探出"
+          ],
+          "compositions": [
+            "小主体留白",
+            "斜向视线"
+          ],
+          "characters": [
+            "墓园骷髅"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82H54N50R6Y",
+          "sourceHash": "ea53004bab13b39dc97ffde5fcaa93d73adfd52bf591525e006951c4a3dd8c61",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-145s"
+        },
+        {
+          "seconds": 155,
+          "subtitle": "骷髅群从墓园登场 · 155 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骷髅群",
+            "墓碑",
+            "枯树"
+          ],
+          "actions": [
+            "集体登场"
+          ],
+          "compositions": [
+            "横向群像",
+            "舞台开场"
+          ],
+          "characters": [
+            "骷髅乐队"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82H5UPNQNPC",
+          "sourceHash": "f23bd463daa8865cf53aaf0adc4a7f9faa46dd5f9d5481f31ae7f75f4bb0a883",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-155s"
+        },
+        {
+          "seconds": 175,
+          "subtitle": "四骷髅同步行进 · 175 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "四具骷髅"
+          ],
+          "actions": [
+            "同步行进",
+            "抬腿"
+          ],
+          "compositions": [
+            "重复队列",
+            "宽幅横图"
+          ],
+          "characters": [
+            "骷髅乐队"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82H6R1D45SC",
+          "sourceHash": "6f8e195b6e440e03e605ca4b28f75a2abdfd71865b04a30409de988cea4cf10a",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-175s"
+        },
+        {
+          "seconds": 185,
+          "subtitle": "双骷髅跳步 · 185 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "双骷髅"
+          ],
+          "actions": [
+            "跳跃",
+            "镜像动作"
+          ],
+          "compositions": [
+            "双主体",
+            "高低节奏"
+          ],
+          "characters": [
+            "骷髅舞者"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82H7MJQOVDE",
+          "sourceHash": "c276b7b8bee2be609234f7bfff371f561469f6845151bbfef0d14a5ce9d085d6",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-185s"
+        },
+        {
+          "seconds": 195,
+          "subtitle": "长腿骷髅与小骷髅 · 195 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "长腿骷髅",
+            "小骷髅"
+          ],
+          "actions": [
+            "跨步",
+            "高低互动"
+          ],
+          "compositions": [
+            "极端比例",
+            "垂直构图"
+          ],
+          "characters": [
+            "骷髅舞者"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82H8H6VXX8H",
+          "sourceHash": "d99734ce0c0c716d677a9ecbab26cbcae7094d675ad1e05687a75d6bca61965b",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-195s"
+        },
+        {
+          "seconds": 205,
+          "subtitle": "骷髅双人叠接 · 205 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "双骷髅",
+            "骨骼"
+          ],
+          "actions": [
+            "叠接",
+            "相互支撑"
+          ],
+          "compositions": [
+            "三角构图",
+            "双人互动"
+          ],
+          "characters": [
+            "骷髅舞者"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82H9BONN4RX",
+          "sourceHash": "a8adb46935b45d4c4b2a305a2d41c9cc2872e9fee27c0eea1c391de123bf86d6",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-205s"
+        },
+        {
+          "seconds": 225,
+          "subtitle": "肋骨木琴演奏 · 225 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "肋骨木琴",
+            "骷髅"
+          ],
+          "actions": [
+            "击奏",
+            "俯身演奏"
+          ],
+          "compositions": [
+            "器乐横幅",
+            "主奏者加乐器"
+          ],
+          "characters": [
+            "骷髅乐手"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HA6GOTOOB",
+          "sourceHash": "152c4c08768170a04ae86d15e6b309b23fead1fce5d6ab3d8f69eb4e31bfc214",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-225s"
+        },
+        {
+          "seconds": 255,
+          "subtitle": "独舞骷髅正面姿态 · 255 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "单骷髅"
+          ],
+          "actions": [
+            "独舞",
+            "摆臂"
+          ],
+          "compositions": [
+            "正面单主体",
+            "徽章式"
+          ],
+          "characters": [
+            "骷髅舞者"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82HAZR08I79",
+          "sourceHash": "36cb14ebe2d51c533398c3488a8b148378ed5d8365bfcebafa29eaf89e8f5f18",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-255s"
+        },
+        {
+          "seconds": 265,
+          "subtitle": "肋骨圆环旋转 · 265 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骷髅",
+            "肋骨圆环"
+          ],
+          "actions": [
+            "旋转",
+            "环绕"
+          ],
+          "compositions": [
+            "圆形动势",
+            "中心动作"
+          ],
+          "characters": [
+            "骷髅舞者"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82HBSQ414ZH",
+          "sourceHash": "3a9437124043c46ec21844bfdc6f7687126699cd82a9a2c3ff47fc0d57c17166",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-265s"
+        },
+        {
+          "seconds": 275,
+          "subtitle": "骷髅挥舞骨棒 · 275 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骷髅",
+            "骨棒"
+          ],
+          "actions": [
+            "举手",
+            "挥舞"
+          ],
+          "compositions": [
+            "正面角色",
+            "道具延长线"
+          ],
+          "characters": [
+            "骷髅舞者"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82HCL5RFVYS",
+          "sourceHash": "993f7a30592d13efa933494a67c7b0a64e9c81dece15b77a2630ff966277e3ba",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-275s"
+        },
+        {
+          "seconds": 305,
+          "subtitle": "骷髅群舞收束 · 305 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骷髅群"
+          ],
+          "actions": [
+            "群体摆姿",
+            "谢幕"
+          ],
+          "compositions": [
+            "中心主角",
+            "左右队列"
+          ],
+          "characters": [
+            "骷髅乐队"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HDBGPIBVF",
+          "sourceHash": "88a25ed25e1c9fc84c6855c4246cf48ccc44a0cf0e9775807d12e70fe54147a3",
+          "sourcePixels": "1464x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm#frame-305s"
+        }
+      ]
+    },
+    {
+      "id": "haunted-house-1929-growth",
+      "title": "The Haunted House",
+      "subtitle": "鬼屋 · 1929 原片增长画面",
+      "year": "1929",
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "美国 1929 年作品 · 2025-01-01 期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons 文件页标记 Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2025/",
+      "researchDate": "2026-09-19",
+      "assetType": "公版动画原片抽帧",
+      "usage": "取暴雨孤屋、黑暗眼睛、幽灵揭幕、骨架乐队和骨头乐器的空间机制。",
+      "avoid": "原片中的 1929 Mickey 版本与现代 Mickey 必须分开；避开 Disney 标识、后期造型和官方授权混淆。",
+      "styles": [
+        "黑白橡皮管动画",
+        "增长信号回溯"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "万圣节公版动画"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "鬼屋骷髅乐队"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索"
+      ],
+      "awarenessScore": 78,
+      "awarenessLevel": "美国较高知名度",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm",
+        "https://cspd.law.duke.edu/publicdomainday/2025/"
+      ],
+      "riskFlags": [
+        "Mickey Mouse 商标与后期造型",
+        "Disney 来源混淆"
+      ],
+      "frames": [
+        {
+          "seconds": 25,
+          "subtitle": "暴雨山丘上的孤屋 · 25 秒",
+          "trendLane": "鬼屋变形",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "鬼屋",
+            "暴雨",
+            "山丘"
+          ],
+          "actions": [
+            "闪电照亮"
+          ],
+          "compositions": [
+            "远景剪影",
+            "斜坡引导"
+          ],
+          "characters": [
+            "鬼屋"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "鬼屋空间变形"
+          ],
+          "scenes": [
+            "幽灵、鬼屋与通灵"
+          ],
+          "productionUses": [
+            "鬼屋场景主图",
+            "高反差建筑图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "鬼屋变形"
+          ],
+          "eagleItemId": "MU82HDZHFNH8V",
+          "sourceHash": "725f03658c45fca5a4eec7d49fb493d56e91a700dd5eab460511df19c1d8d431",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-25s"
+        },
+        {
+          "seconds": 85,
+          "subtitle": "黑暗中的巨眼 · 85 秒",
+          "trendLane": "鬼屋变形",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "巨眼",
+            "纯黑背景"
+          ],
+          "actions": [
+            "凝视"
+          ],
+          "compositions": [
+            "双圆近景",
+            "极简高反差"
+          ],
+          "characters": [
+            "黑暗巨眼"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "鬼屋空间变形"
+          ],
+          "scenes": [
+            "幽灵、鬼屋与通灵"
+          ],
+          "productionUses": [
+            "鬼屋场景主图",
+            "高反差建筑图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "鬼屋变形"
+          ],
+          "eagleItemId": "MU82HENHMAO5X",
+          "sourceHash": "2228374eaffd4c4f5536c9b0fa38a82969f21323139f8d8b39f180297ca1d2f7",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-85s"
+        },
+        {
+          "seconds": 125,
+          "subtitle": "白布幽灵张开双手 · 125 秒",
+          "trendLane": "幽灵追逐",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "白布幽灵",
+            "长手"
+          ],
+          "actions": [
+            "张手逼近"
+          ],
+          "compositions": [
+            "正面单主体",
+            "三角轮廓"
+          ],
+          "characters": [
+            "白布幽灵"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "超现实追逐"
+          ],
+          "scenes": [
+            "幽灵追逐与变形"
+          ],
+          "productionUses": [
+            "连续动作图",
+            "故事型背部主图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "幽灵追逐"
+          ],
+          "eagleItemId": "MU82HFBRO7Y2T",
+          "sourceHash": "28766c102118729e3abe406e12b2fe9c942ed0aef595320c003d5d49675829b8",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-125s"
+        },
+        {
+          "seconds": 135,
+          "subtitle": "幽灵面罩中的骷髅 · 135 秒",
+          "trendLane": "幽灵追逐",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骷髅脸",
+            "白布幽灵"
+          ],
+          "actions": [
+            "显露真面目"
+          ],
+          "compositions": [
+            "面具式特写",
+            "圆形脸部"
+          ],
+          "characters": [
+            "骷髅幽灵"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "超现实追逐"
+          ],
+          "scenes": [
+            "幽灵追逐与变形"
+          ],
+          "productionUses": [
+            "连续动作图",
+            "故事型背部主图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "幽灵追逐"
+          ],
+          "eagleItemId": "MU82HFZZ9E7Z9",
+          "sourceHash": "601d9e7a8008a8a5042d5ed0dce3933aa3156a331f5abb070866c7eac4c706ab",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-135s"
+        },
+        {
+          "seconds": 165,
+          "subtitle": "骷髅从门后列队进入 · 165 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骷髅队列",
+            "门",
+            "幽灵"
+          ],
+          "actions": [
+            "集体入场"
+          ],
+          "compositions": [
+            "门框舞台",
+            "纵深队列"
+          ],
+          "characters": [
+            "鬼屋骷髅乐队"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HGOA08JXH",
+          "sourceHash": "94c3101321aa3bc90957e4606f02a32d67102bc5459597f2e5f60ee96251c8c2",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-165s"
+        },
+        {
+          "seconds": 175,
+          "subtitle": "幽灵与骷髅聚集 · 175 秒",
+          "trendLane": "旧动画群像",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "幽灵群",
+            "骷髅群",
+            "房间"
+          ],
+          "actions": [
+            "围拢",
+            "起舞"
+          ],
+          "compositions": [
+            "室内群像",
+            "中心留白"
+          ],
+          "characters": [
+            "鬼屋幽灵群",
+            "鬼屋骷髅乐队"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "角色群像"
+          ],
+          "scenes": [
+            "旧动画群像与叙事场景"
+          ],
+          "productionUses": [
+            "洗水黑 T 背部主图",
+            "复古动画拼贴"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "旧动画群像"
+          ],
+          "eagleItemId": "MU82HHCQ0ATWO",
+          "sourceHash": "16cb3595a4afa193168a517cc0160f7c705f5c716f28988f704470122d31f208",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-175s"
+        },
+        {
+          "seconds": 225,
+          "subtitle": "骨头乐器独奏 · 225 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骷髅",
+            "骨头乐器"
+          ],
+          "actions": [
+            "击奏"
+          ],
+          "compositions": [
+            "单人乐手",
+            "器乐徽章"
+          ],
+          "characters": [
+            "骷髅乐手"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HI0RKRU51",
+          "sourceHash": "829626240f200e0638bce4c8222c2887a4f49ccbc30b3ae98a994780fc3caab8",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-225s"
+        },
+        {
+          "seconds": 255,
+          "subtitle": "骷髅打击乐动作 · 255 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骷髅",
+            "骨棒",
+            "打击乐"
+          ],
+          "actions": [
+            "挥槌",
+            "击奏"
+          ],
+          "compositions": [
+            "斜向动作",
+            "单人舞台"
+          ],
+          "characters": [
+            "骷髅乐手"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HIOL21UYZ",
+          "sourceHash": "ebef41f72b5849aebe9700a99a6bdb3f696636722c608e9ab96a7e8d70caf797",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-255s"
+        },
+        {
+          "seconds": 275,
+          "subtitle": "双骷髅镜像起舞 · 275 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "双骷髅"
+          ],
+          "actions": [
+            "镜像舞步",
+            "抬腿"
+          ],
+          "compositions": [
+            "左右对称",
+            "双主体"
+          ],
+          "characters": [
+            "骷髅舞者"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82HJCEJ9AAY",
+          "sourceHash": "08cc88bda1321862bb4da7dc71d5ebc7e5c5b299149deef5760dd689092fa432",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-275s"
+        },
+        {
+          "seconds": 285,
+          "subtitle": "双骷髅同步扭转 · 285 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "双骷髅"
+          ],
+          "actions": [
+            "扭转",
+            "同步摆臂"
+          ],
+          "compositions": [
+            "重复角色",
+            "横向双人"
+          ],
+          "characters": [
+            "骷髅舞者"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82HK17GM5EP",
+          "sourceHash": "6984c3e6557f0df8c673e70fe4d5d2eea02aee29d6290f8ed552bc311485c0d7",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-285s"
+        },
+        {
+          "seconds": 295,
+          "subtitle": "身体变成乐器 · 295 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骷髅",
+            "肋骨乐器"
+          ],
+          "actions": [
+            "身体演奏",
+            "夸张变形"
+          ],
+          "compositions": [
+            "人体乐器",
+            "中心胸花"
+          ],
+          "characters": [
+            "骷髅乐手"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HKP5EQ7OJ",
+          "sourceHash": "c5c5dae31bf06761f12689e07be6a49760688139f7f2e48108b3c55604822b58",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-295s"
+        },
+        {
+          "seconds": 305,
+          "subtitle": "骷髅正面独奏 · 305 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "单骷髅"
+          ],
+          "actions": [
+            "独奏",
+            "举手"
+          ],
+          "compositions": [
+            "正面单主体",
+            "大轮廓"
+          ],
+          "characters": [
+            "骷髅乐手"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82HLCZ3CAI8",
+          "sourceHash": "d8f4b344e6cbaf76826d98bc719c4128c9a9dba4f1fd26c247db71d98c2f4125",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-305s"
+        },
+        {
+          "seconds": 315,
+          "subtitle": "双骷髅蹲步 · 315 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "双骷髅"
+          ],
+          "actions": [
+            "蹲步",
+            "同步手势"
+          ],
+          "compositions": [
+            "低重心双主体",
+            "镜像"
+          ],
+          "characters": [
+            "骷髅舞者"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82HM0ZIN1PA",
+          "sourceHash": "04c68220b4b3e978720b37cd84d7bff879b03b99dca5ed8589212be50222fd92",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-315s"
+        },
+        {
+          "seconds": 335,
+          "subtitle": "三骷髅漂浮行进 · 335 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "三具骷髅"
+          ],
+          "actions": [
+            "漂浮",
+            "列队"
+          ],
+          "compositions": [
+            "三联角色",
+            "宽幅队列"
+          ],
+          "characters": [
+            "骷髅乐队"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HMOTKOGEZ",
+          "sourceHash": "8350c76462953a574b89d9b465f6465f1404ab7d5e1c28b8d5640a2fa684f5fa",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-335s"
+        },
+        {
+          "seconds": 345,
+          "subtitle": "四骷髅坐姿队列 · 345 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "四具骷髅"
+          ],
+          "actions": [
+            "坐姿摆腿",
+            "同步节拍"
+          ],
+          "compositions": [
+            "四人横排",
+            "乐队宣传照式"
+          ],
+          "characters": [
+            "骷髅乐队"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HNCUOAC7L",
+          "sourceHash": "8814f295bcb26b1302a2b4437411e6ed57ffeaaae520f4a04067a3df20851521",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-345s"
+        },
+        {
+          "seconds": 355,
+          "subtitle": "骨头整齐散落 · 355 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骨头",
+            "骨堆"
+          ],
+          "actions": [
+            "解体",
+            "排列"
+          ],
+          "compositions": [
+            "横向散点",
+            "重复纹样"
+          ],
+          "characters": [
+            "骷髅残骨"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82HO0L8H11O",
+          "sourceHash": "a7b7c9be093d379e175e23a34db543757663ecec45d4c0e2fb8ca416814a1e3e",
+          "sourcePixels": "460x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm#frame-355s"
+        }
+      ]
+    },
+    {
+      "id": "hells-bells-1929-growth",
+      "title": "Hell's Bells",
+      "subtitle": "地狱钟声 · 1929 原片增长画面",
+      "year": "1929",
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "美国 1929 年作品 · 2025-01-01 期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons 文件页标记 Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2025/",
+      "researchDate": "2026-09-19",
+      "assetType": "公版动画原片抽帧",
+      "usage": "提取恶魔乐队、骨头打击乐、火焰、坩埚、队列与强烈黑白剪影；适合红黑或黑米双色重绘。",
+      "avoid": "避开后期 Disney 包装、品牌标识与现代修复；宗教/恶魔题材需另行核验平台和市场接受度。",
+      "styles": [
+        "黑白橡皮管动画",
+        "增长信号回溯"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "万圣节公版动画"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "地狱恶魔群"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索"
+      ],
+      "awarenessScore": 68,
+      "awarenessLevel": "动画史知名",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm",
+        "https://cspd.law.duke.edu/publicdomainday/2025/"
+      ],
+      "riskFlags": [
+        "Disney 商标",
+        "宗教敏感",
+        "现代修复"
+      ],
+      "frames": [
+        {
+          "seconds": 25,
+          "subtitle": "洞穴中的黑色怪物 · 25 秒",
+          "trendLane": "旧动画群像",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "洞穴",
+            "黑色怪物",
+            "火光"
+          ],
+          "actions": [
+            "潜行"
+          ],
+          "compositions": [
+            "横向洞穴",
+            "小主体留白"
+          ],
+          "characters": [
+            "地狱怪物"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "角色群像"
+          ],
+          "scenes": [
+            "旧动画群像与叙事场景"
+          ],
+          "productionUses": [
+            "洗水黑 T 背部主图",
+            "复古动画拼贴"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "旧动画群像"
+          ],
+          "eagleItemId": "MU82HOOGJN8DE",
+          "sourceHash": "3ff5285a93c28ef8d3d56ff992dfc49f99aac821134ac81995c63116dc53710e",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-25s"
+        },
+        {
+          "seconds": 35,
+          "subtitle": "巨口洞穴特写 · 35 秒",
+          "trendLane": "鬼屋变形",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "巨口",
+            "尖牙",
+            "洞穴"
+          ],
+          "actions": [
+            "张口吞噬"
+          ],
+          "compositions": [
+            "满幅特写",
+            "黑白块面"
+          ],
+          "characters": [
+            "巨口怪物"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "鬼屋空间变形"
+          ],
+          "scenes": [
+            "幽灵、鬼屋与通灵"
+          ],
+          "productionUses": [
+            "鬼屋场景主图",
+            "高反差建筑图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "鬼屋变形"
+          ],
+          "eagleItemId": "MU82HPC9KNH1L",
+          "sourceHash": "6d28dc021b6d4a95a15eb4f921620517a069c15fc321eb0ef0fd25dce7541ee6",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-35s"
+        },
+        {
+          "seconds": 65,
+          "subtitle": "长蛇穿过火焰洞穴 · 65 秒",
+          "trendLane": "幽灵追逐",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "长蛇",
+            "洞穴",
+            "火焰"
+          ],
+          "actions": [
+            "蜿蜒穿行"
+          ],
+          "compositions": [
+            "S 形动势",
+            "横向长图"
+          ],
+          "characters": [
+            "地狱长蛇"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "超现实追逐"
+          ],
+          "scenes": [
+            "幽灵追逐与变形"
+          ],
+          "productionUses": [
+            "连续动作图",
+            "故事型背部主图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "幽灵追逐"
+          ],
+          "eagleItemId": "MU82HQ01W7HR9",
+          "sourceHash": "328ec3b24532c9596a1505b59bf88c499540743a1daaaedae369b303f0b241e0",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-65s"
+        },
+        {
+          "seconds": 85,
+          "subtitle": "恶魔乐队全景 · 85 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "恶魔乐队",
+            "舞台"
+          ],
+          "actions": [
+            "合奏"
+          ],
+          "compositions": [
+            "舞台群像",
+            "主唱加伴奏"
+          ],
+          "characters": [
+            "地狱恶魔乐队"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HQO5GNYTZ",
+          "sourceHash": "70b1e590b89e1a9df01571d0b4f753077626f945f0911f60d60bb122ac554d2c",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-85s"
+        },
+        {
+          "seconds": 95,
+          "subtitle": "恶魔乐手围合演奏 · 95 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "恶魔乐手",
+            "骨头乐器"
+          ],
+          "actions": [
+            "围合演奏"
+          ],
+          "compositions": [
+            "半圆群像",
+            "演出海报"
+          ],
+          "characters": [
+            "地狱恶魔乐队"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HRC3S2PPN",
+          "sourceHash": "b47799fb93468e1ee96bf078c328b94b56356881312356e88e5a5153e7bf9672",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-95s"
+        },
+        {
+          "seconds": 105,
+          "subtitle": "骨头打击乐 · 105 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "骨头",
+            "打击乐",
+            "恶魔"
+          ],
+          "actions": [
+            "敲击",
+            "俯身演奏"
+          ],
+          "compositions": [
+            "乐器特写",
+            "横向动作"
+          ],
+          "characters": [
+            "恶魔乐手"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HS0BWJF7K",
+          "sourceHash": "c57db29fca127b7f38069d82ae2a52ec16142d3b1498133039a61b8def80b757",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-105s"
+        },
+        {
+          "seconds": 115,
+          "subtitle": "长腿恶魔独舞 · 115 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "长腿恶魔",
+            "尾巴"
+          ],
+          "actions": [
+            "独舞",
+            "跨步"
+          ],
+          "compositions": [
+            "单主体",
+            "长线轮廓"
+          ],
+          "characters": [
+            "长腿恶魔"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82HSOFOOQC7",
+          "sourceHash": "087b272b29b46cb427e8e1df65bef48f0eeae1ca6e57d01efc68cecbbab73e23",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-115s"
+        },
+        {
+          "seconds": 135,
+          "subtitle": "恶魔与巨大影子 · 135 秒",
+          "trendLane": "鬼屋变形",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "恶魔",
+            "巨大影子"
+          ],
+          "actions": [
+            "投影",
+            "夸张变形"
+          ],
+          "compositions": [
+            "前后双层",
+            "剪影对照"
+          ],
+          "characters": [
+            "影子恶魔"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "鬼屋空间变形"
+          ],
+          "scenes": [
+            "幽灵、鬼屋与通灵"
+          ],
+          "productionUses": [
+            "鬼屋场景主图",
+            "高反差建筑图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "鬼屋变形"
+          ],
+          "eagleItemId": "MU82HTCLBQ8MF",
+          "sourceHash": "7fd3cfeea2f62d58070cc57f4f9d61379dbb57313eca99dbd479795456d68edd",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-135s"
+        },
+        {
+          "seconds": 155,
+          "subtitle": "三只小恶魔行进 · 155 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "小恶魔三人组"
+          ],
+          "actions": [
+            "列队行进"
+          ],
+          "compositions": [
+            "三联重复",
+            "宽幅队列"
+          ],
+          "characters": [
+            "小恶魔三人组"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HU0UBRX0L",
+          "sourceHash": "4bf474ad4eedfc94bde9f16b28d18af44a51b25000b16f942aa106c28d324f4f",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-155s"
+        },
+        {
+          "seconds": 165,
+          "subtitle": "三只小恶魔停步 · 165 秒",
+          "trendLane": "旧动画群像",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "小恶魔三人组"
+          ],
+          "actions": [
+            "同步停步",
+            "摆姿"
+          ],
+          "compositions": [
+            "三联角色",
+            "正面群像"
+          ],
+          "characters": [
+            "小恶魔三人组"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "角色群像"
+          ],
+          "scenes": [
+            "旧动画群像与叙事场景"
+          ],
+          "productionUses": [
+            "洗水黑 T 背部主图",
+            "复古动画拼贴"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "旧动画群像"
+          ],
+          "eagleItemId": "MU82HUP3W803S",
+          "sourceHash": "24bd95ce143e9d754c820ece9920e1a341df46a6e43ac2e7d2b16ad53dc71a55",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-165s"
+        },
+        {
+          "seconds": 175,
+          "subtitle": "四恶魔牵手舞 · 175 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "恶魔队列"
+          ],
+          "actions": [
+            "牵手",
+            "同步抬腿"
+          ],
+          "compositions": [
+            "重复角色",
+            "链式横图"
+          ],
+          "characters": [
+            "恶魔舞者"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HVDGV3ZHE",
+          "sourceHash": "5a7b37f6469e329ada522c1ca47755a3f5d93594385ad93ceb552bfee1a62f41",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-175s"
+        },
+        {
+          "seconds": 185,
+          "subtitle": "折线身体恶魔 · 185 秒",
+          "trendLane": "骷髅动作",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "折线恶魔"
+          ],
+          "actions": [
+            "弹跳",
+            "身体折叠"
+          ],
+          "compositions": [
+            "锯齿轮廓",
+            "单主体"
+          ],
+          "characters": [
+            "折线恶魔"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "扁平骨架动作"
+          ],
+          "scenes": [
+            "骷髅动作与身体变形"
+          ],
+          "productionUses": [
+            "单色胸花",
+            "动作角色组"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "骷髅动作"
+          ],
+          "eagleItemId": "MU82HW1IL24OB",
+          "sourceHash": "6a9320d8e3e248855b4bfd1a88f2a17abcfc39df655ab8bbae46d5591b87a640",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-185s"
+        },
+        {
+          "seconds": 205,
+          "subtitle": "洞穴舞台中的恶魔 · 205 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "恶魔",
+            "洞穴舞台"
+          ],
+          "actions": [
+            "指挥",
+            "观看演出"
+          ],
+          "compositions": [
+            "前景观众",
+            "远景舞台"
+          ],
+          "characters": [
+            "地狱恶魔群"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HWPI0U60K",
+          "sourceHash": "0e97aa52afe9913975160da474118e26e841853a14a252d7f99262527f7da651",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-205s"
+        },
+        {
+          "seconds": 225,
+          "subtitle": "巨型恶魔俯视小角色 · 225 秒",
+          "trendLane": "旧动画群像",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "巨型恶魔",
+            "小角色"
+          ],
+          "actions": [
+            "俯视",
+            "对峙"
+          ],
+          "compositions": [
+            "巨大比例差",
+            "上下关系"
+          ],
+          "characters": [
+            "巨型恶魔",
+            "小恶魔"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "角色群像"
+          ],
+          "scenes": [
+            "旧动画群像与叙事场景"
+          ],
+          "productionUses": [
+            "洗水黑 T 背部主图",
+            "复古动画拼贴"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "旧动画群像"
+          ],
+          "eagleItemId": "MU82HXDAGDHNG",
+          "sourceHash": "cc5bed0b5c14bea316f41ba6625961b04b6691a90355b4128994c121d4334fa0",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-225s"
+        },
+        {
+          "seconds": 245,
+          "subtitle": "恶魔抬坩埚巡游 · 245 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "坩埚",
+            "恶魔队列",
+            "火焰"
+          ],
+          "actions": [
+            "抬举",
+            "巡游"
+          ],
+          "compositions": [
+            "仪式队列",
+            "横向长图"
+          ],
+          "characters": [
+            "坩埚恶魔队"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82HY1J7DITR",
+          "sourceHash": "fe57931c59adc578e39f4611be576c31b964389f093012f71078d465961d86b9",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-245s"
+        },
+        {
+          "seconds": 255,
+          "subtitle": "恶魔守着坩埚 · 255 秒",
+          "trendLane": "旧动画群像",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "恶魔",
+            "坩埚",
+            "火焰"
+          ],
+          "actions": [
+            "守候",
+            "观察"
+          ],
+          "compositions": [
+            "主从比例",
+            "舞台侧景"
+          ],
+          "characters": [
+            "坩埚恶魔"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "角色群像"
+          ],
+          "scenes": [
+            "旧动画群像与叙事场景"
+          ],
+          "productionUses": [
+            "洗水黑 T 背部主图",
+            "复古动画拼贴"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "旧动画群像"
+          ],
+          "eagleItemId": "MU82HYPFKR4WO",
+          "sourceHash": "30912cc33d183c2695ff93e5ed634d5e6b8db529ec114b523fa1dc48f67d67ec",
+          "sourcePixels": "468x360",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm#frame-255s"
+        }
+      ]
+    },
+    {
+      "id": "swing-you-sinners-1930-growth",
+      "title": "Swing You Sinners!",
+      "subtitle": "罪人摇摆吧 · 1930 原片增长画面",
+      "year": "1930",
+      "rightsStatus": "期限届满",
+      "copyrightRoute": "美国 1930 年作品 · 2026-01-01 期限届满",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons 文件页标记 Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2026/",
+      "researchDate": "2026-09-19",
+      "assetType": "公版动画原片抽帧",
+      "usage": "从活墓碑、幽灵追逐、巨手、房间长脸、幽灵舞和鬼脸合唱提取超现实变形。",
+      "avoid": "避开现代重制、后期修复新增素材、现代录音与品牌包装。",
+      "styles": [
+        "黑白橡皮管动画",
+        "增长信号回溯"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "万圣节公版动画"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "墓园幽灵群"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索"
+      ],
+      "awarenessScore": 74,
+      "awarenessLevel": "动画史知名",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm",
+        "https://cspd.law.duke.edu/publicdomainday/2026/"
+      ],
+      "riskFlags": [
+        "现代修复",
+        "现代录音"
+      ],
+      "frames": [
+        {
+          "seconds": 145,
+          "subtitle": "墓碑群开始包围 · 145 秒",
+          "trendLane": "鬼屋变形",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "墓碑群",
+            "墓园"
+          ],
+          "actions": [
+            "包围",
+            "转向"
+          ],
+          "compositions": [
+            "前景墓碑",
+            "中心人物"
+          ],
+          "characters": [
+            "活墓碑群"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "鬼屋空间变形"
+          ],
+          "scenes": [
+            "幽灵、鬼屋与通灵"
+          ],
+          "productionUses": [
+            "鬼屋场景主图",
+            "高反差建筑图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "鬼屋变形"
+          ],
+          "eagleItemId": "MU82HZF8J61FA",
+          "sourceHash": "1f46c12f534fec145a367ab4c5bf87b7fed95c7a204ac3359a7b38950a3e48ee",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-145s"
+        },
+        {
+          "seconds": 155,
+          "subtitle": "活墓碑集体起身 · 155 秒",
+          "trendLane": "旧动画群像",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "活墓碑",
+            "墓园"
+          ],
+          "actions": [
+            "起身",
+            "追逐"
+          ],
+          "compositions": [
+            "多主体包围",
+            "环形动势"
+          ],
+          "characters": [
+            "活墓碑群"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "角色群像"
+          ],
+          "scenes": [
+            "旧动画群像与叙事场景"
+          ],
+          "productionUses": [
+            "洗水黑 T 背部主图",
+            "复古动画拼贴"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "旧动画群像"
+          ],
+          "eagleItemId": "MU82I03P9E1CZ",
+          "sourceHash": "dccac940bf46895e2205946415dcc83289e2c172493a1fa5a28bf5560472080f",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-155s"
+        },
+        {
+          "seconds": 175,
+          "subtitle": "墓园怪脸群涌现 · 175 秒",
+          "trendLane": "旧动画群像",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "墓碑",
+            "怪脸群",
+            "月夜"
+          ],
+          "actions": [
+            "涌现",
+            "逼近"
+          ],
+          "compositions": [
+            "前后层叠",
+            "密集群像"
+          ],
+          "characters": [
+            "墓园怪脸群"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "角色群像"
+          ],
+          "scenes": [
+            "旧动画群像与叙事场景"
+          ],
+          "productionUses": [
+            "洗水黑 T 背部主图",
+            "复古动画拼贴"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "旧动画群像"
+          ],
+          "eagleItemId": "MU82I0TYXVABI",
+          "sourceHash": "511560e3b6ae5744cb827361e4b74380467ed679951ef3d329e6a6071841620f",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-175s"
+        },
+        {
+          "seconds": 185,
+          "subtitle": "铁路上的幽灵阻截 · 185 秒",
+          "trendLane": "幽灵追逐",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "幽灵",
+            "铁路",
+            "墓园"
+          ],
+          "actions": [
+            "阻截",
+            "追赶"
+          ],
+          "compositions": [
+            "轨道透视",
+            "横向追逐"
+          ],
+          "characters": [
+            "铁路幽灵"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "超现实追逐"
+          ],
+          "scenes": [
+            "幽灵追逐与变形"
+          ],
+          "productionUses": [
+            "连续动作图",
+            "故事型背部主图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "幽灵追逐"
+          ],
+          "eagleItemId": "MU82I1J25YEGB",
+          "sourceHash": "945dbc20b323097aec23533501bb593cc094b7b3743339a1e501e55791efdbe3",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-185s"
+        },
+        {
+          "seconds": 205,
+          "subtitle": "长脸幽灵从墓后探出 · 205 秒",
+          "trendLane": "幽灵追逐",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "长脸幽灵",
+            "墓碑"
+          ],
+          "actions": [
+            "探出",
+            "凝视"
+          ],
+          "compositions": [
+            "大脸加小人物",
+            "比例对照"
+          ],
+          "characters": [
+            "长脸幽灵"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "超现实追逐"
+          ],
+          "scenes": [
+            "幽灵追逐与变形"
+          ],
+          "productionUses": [
+            "连续动作图",
+            "故事型背部主图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "幽灵追逐"
+          ],
+          "eagleItemId": "MU82I28BSGTBE",
+          "sourceHash": "a52d41ea90a49cbe585902141f9b11f4d15dd405398761bec0d38c50e4dc820d",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-205s"
+        },
+        {
+          "seconds": 215,
+          "subtitle": "圆头幽灵近景 · 215 秒",
+          "trendLane": "幽灵追逐",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "圆头幽灵",
+            "空洞眼"
+          ],
+          "actions": [
+            "逼近"
+          ],
+          "compositions": [
+            "满幅脸部",
+            "高反差"
+          ],
+          "characters": [
+            "圆头幽灵"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "超现实追逐"
+          ],
+          "scenes": [
+            "幽灵追逐与变形"
+          ],
+          "productionUses": [
+            "连续动作图",
+            "故事型背部主图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "幽灵追逐"
+          ],
+          "eagleItemId": "MU82I2YQDY86M",
+          "sourceHash": "1225323f04127059b8aee883d495b44b3a321779ad495602ae72d6652d5b1090",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-215s"
+        },
+        {
+          "seconds": 265,
+          "subtitle": "巨手从墓园伸出 · 265 秒",
+          "trendLane": "幽灵追逐",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "巨型幽灵手",
+            "墓碑"
+          ],
+          "actions": [
+            "抓取",
+            "拦截"
+          ],
+          "compositions": [
+            "对角巨手",
+            "大小对照"
+          ],
+          "characters": [
+            "巨手幽灵"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "超现实追逐"
+          ],
+          "scenes": [
+            "幽灵追逐与变形"
+          ],
+          "productionUses": [
+            "连续动作图",
+            "故事型背部主图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "幽灵追逐"
+          ],
+          "eagleItemId": "MU82I3OHHLPOH",
+          "sourceHash": "8a41366c2b4e3d81805c98bc5197bc19844177c7a3455d60a4a5d9fae83243ba",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-265s"
+        },
+        {
+          "seconds": 275,
+          "subtitle": "墓碑间的追逐 · 275 秒",
+          "trendLane": "幽灵追逐",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "墓碑",
+            "追逐角色"
+          ],
+          "actions": [
+            "奔跑",
+            "回头"
+          ],
+          "compositions": [
+            "横向跑动",
+            "连续动作"
+          ],
+          "characters": [
+            "墓园幽灵"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "超现实追逐"
+          ],
+          "scenes": [
+            "幽灵追逐与变形"
+          ],
+          "productionUses": [
+            "连续动作图",
+            "故事型背部主图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "幽灵追逐"
+          ],
+          "eagleItemId": "MU82I4DNQMA9A",
+          "sourceHash": "382713939a96f4c4f1b17c609b112273fba0dec968d922cd6bd383a0b87b1bfe",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-275s"
+        },
+        {
+          "seconds": 315,
+          "subtitle": "蜡烛柱幽灵升起 · 315 秒",
+          "trendLane": "鬼屋变形",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "蜡烛柱幽灵",
+            "墓园"
+          ],
+          "actions": [
+            "升起",
+            "融化变形"
+          ],
+          "compositions": [
+            "垂直单主体",
+            "烛台轮廓"
+          ],
+          "characters": [
+            "蜡烛幽灵"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "鬼屋空间变形"
+          ],
+          "scenes": [
+            "幽灵、鬼屋与通灵"
+          ],
+          "productionUses": [
+            "鬼屋场景主图",
+            "高反差建筑图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "鬼屋变形"
+          ],
+          "eagleItemId": "MU82I54JU9LW4",
+          "sourceHash": "b8723b44a406deb8fd285eabc95ec3752937436c846608310a19bff6894f0476",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-315s"
+        },
+        {
+          "seconds": 335,
+          "subtitle": "房间长出眼睛 · 335 秒",
+          "trendLane": "鬼屋变形",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "房间眼睛",
+            "干草堆",
+            "门"
+          ],
+          "actions": [
+            "空间凝视",
+            "物体活化"
+          ],
+          "compositions": [
+            "室内舞台",
+            "双眼焦点"
+          ],
+          "characters": [
+            "活房间"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "鬼屋空间变形"
+          ],
+          "scenes": [
+            "幽灵、鬼屋与通灵"
+          ],
+          "productionUses": [
+            "鬼屋场景主图",
+            "高反差建筑图"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "鬼屋变形"
+          ],
+          "eagleItemId": "MU82I5XQROF88",
+          "sourceHash": "7081dead9aef1334a72c957bf5659e65165f3ec66d3ff8d1a70e80724688c366",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-335s"
+        },
+        {
+          "seconds": 345,
+          "subtitle": "细长幽灵双人组 · 345 秒",
+          "trendLane": "旧动画群像",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "细长幽灵",
+            "门廊"
+          ],
+          "actions": [
+            "伸长",
+            "围堵"
+          ],
+          "compositions": [
+            "高低双主体",
+            "长线轮廓"
+          ],
+          "characters": [
+            "细长幽灵组"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "角色群像"
+          ],
+          "scenes": [
+            "旧动画群像与叙事场景"
+          ],
+          "productionUses": [
+            "洗水黑 T 背部主图",
+            "复古动画拼贴"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "旧动画群像"
+          ],
+          "eagleItemId": "MU82I6MC7JU9Z",
+          "sourceHash": "5072d483065428b3a4728548e60cb965d99ecd9ff530ac2e0bb8c6623ee8538b",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-345s"
+        },
+        {
+          "seconds": 365,
+          "subtitle": "白布幽灵双人舞 · 365 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "白布幽灵双人组"
+          ],
+          "actions": [
+            "同步起舞",
+            "摆臂"
+          ],
+          "compositions": [
+            "镜像双主体",
+            "舞台动作"
+          ],
+          "characters": [
+            "白布幽灵舞者"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82I7DOMIS67",
+          "sourceHash": "0f9724a2c49cd5795622900cd17bb3da811e6c669031954e8a6b78188096d10f",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-365s"
+        },
+        {
+          "seconds": 385,
+          "subtitle": "鬼脸三人组围合 · 385 秒",
+          "trendLane": "旧动画群像",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "鬼脸三人组"
+          ],
+          "actions": [
+            "围合",
+            "合唱"
+          ],
+          "compositions": [
+            "三角群像",
+            "中心人物"
+          ],
+          "characters": [
+            "鬼脸合唱团"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "角色群像"
+          ],
+          "scenes": [
+            "旧动画群像与叙事场景"
+          ],
+          "productionUses": [
+            "洗水黑 T 背部主图",
+            "复古动画拼贴"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "旧动画群像"
+          ],
+          "eagleItemId": "MU82I833VC992",
+          "sourceHash": "1ef2b56a055a664f9f1c14be8e3e16df3c1383448163fcae3d6dafc116a9e375",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-385s"
+        },
+        {
+          "seconds": 415,
+          "subtitle": "幽灵观众群围拢 · 415 秒",
+          "trendLane": "旧动画群像",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "幽灵观众群",
+            "舞台"
+          ],
+          "actions": [
+            "围拢",
+            "观看"
+          ],
+          "compositions": [
+            "密集观众",
+            "中心舞台"
+          ],
+          "characters": [
+            "幽灵观众群"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "角色群像"
+          ],
+          "scenes": [
+            "旧动画群像与叙事场景"
+          ],
+          "productionUses": [
+            "洗水黑 T 背部主图",
+            "复古动画拼贴"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "旧动画群像"
+          ],
+          "eagleItemId": "MU82I8RPPCQ0I",
+          "sourceHash": "549f3b7551906108cbe8873050a25683bcc6a02f1535cd29e8a10c6022dfe084",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-415s"
+        },
+        {
+          "seconds": 445,
+          "subtitle": "鬼屋长脸合唱 · 445 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "长脸鬼屋",
+            "鬼脸群"
+          ],
+          "actions": [
+            "合唱",
+            "伸缩"
+          ],
+          "compositions": [
+            "三联脸部",
+            "海报式群像"
+          ],
+          "characters": [
+            "鬼脸合唱团"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82I9IKPYLWI",
+          "sourceHash": "ac002d4d657e1cea5cad21353d698875d112097db93e66a159a82fe704185454",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-445s"
+        },
+        {
+          "seconds": 455,
+          "subtitle": "幽灵群像高潮 · 455 秒",
+          "trendLane": "乐队 / 海报构图",
+          "assetType": "公版动画原片抽帧",
+          "motifs": [
+            "幽灵群",
+            "怪脸"
+          ],
+          "actions": [
+            "集体涌入",
+            "合唱"
+          ],
+          "compositions": [
+            "密集群像",
+            "中心扩散"
+          ],
+          "characters": [
+            "墓园幽灵群"
+          ],
+          "styles": [
+            "黑白橡皮管动画",
+            "舞台式群像"
+          ],
+          "scenes": [
+            "骷髅乐队与怪诞舞台"
+          ],
+          "productionUses": [
+            "乐队海报式背图",
+            "宽幅角色队列"
+          ],
+          "colors": [
+            "黑",
+            "灰",
+            "旧胶片白"
+          ],
+          "tags": [
+            "万圣节",
+            "早期动画",
+            "增长线索",
+            "乐队 / 海报构图"
+          ],
+          "eagleItemId": "MU82IAB9RVAAO",
+          "sourceHash": "d56e554bbb4346d73857a1683cb2e19eaec50e83c9667e84e24e0db1091ae8ff",
+          "sourcePixels": "1442x1080",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm#frame-455s"
+        }
+      ]
+    }
+  ]
+}

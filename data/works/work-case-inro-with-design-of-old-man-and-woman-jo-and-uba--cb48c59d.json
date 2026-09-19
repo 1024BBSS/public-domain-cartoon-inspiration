@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T04:42:27.130Z",
+  "generatedAt": "2026-09-19T07:30:54.003Z",
   "work": {
     "id": "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
     "title": "Case (Inrō) with Design of Old Man and Woman (Jo and Uba) and Pine Trees (from Noh Play \"Takasago Spirits of the Pine\")",
@@ -114,6 +114,7 @@
         "work-鲤旗与钟馗旗-dd97e27f",
         "work-the-skeleton-dance-8b38cda1",
         "work-the-haunted-house-2de44826",
+        "work-hells-bells-a2645562",
         "work-swing-you-sinners-24ae4646",
         "work-the-phantom-of-the-opera-e79aee58",
         "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
@@ -204,16 +205,85 @@
         "frame-supplement-skeleton-dance-1929-002",
         "frame-supplement-skeleton-dance-1929-003",
         "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-skeleton-dance-1929-growth-001",
+        "frame-supplement-skeleton-dance-1929-growth-002",
+        "frame-supplement-skeleton-dance-1929-growth-003",
+        "frame-supplement-skeleton-dance-1929-growth-004",
+        "frame-supplement-skeleton-dance-1929-growth-005",
+        "frame-supplement-skeleton-dance-1929-growth-006",
+        "frame-supplement-skeleton-dance-1929-growth-007",
+        "frame-supplement-skeleton-dance-1929-growth-008",
+        "frame-supplement-skeleton-dance-1929-growth-009",
+        "frame-supplement-skeleton-dance-1929-growth-010",
+        "frame-supplement-skeleton-dance-1929-growth-011",
+        "frame-supplement-skeleton-dance-1929-growth-012",
+        "frame-supplement-skeleton-dance-1929-growth-013",
+        "frame-supplement-skeleton-dance-1929-growth-014",
+        "frame-supplement-skeleton-dance-1929-growth-015",
+        "frame-supplement-skeleton-dance-1929-growth-016",
         "catalog-supplement-skeleton-dance-1929",
         "frame-supplement-haunted-house-1929-001",
         "frame-supplement-haunted-house-1929-002",
         "frame-supplement-haunted-house-1929-003",
         "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
         "catalog-supplement-haunted-house-1929",
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004",
+        "frame-supplement-hells-bells-1929-growth-001",
+        "frame-supplement-hells-bells-1929-growth-002",
+        "frame-supplement-hells-bells-1929-growth-003",
+        "frame-supplement-hells-bells-1929-growth-004",
+        "frame-supplement-hells-bells-1929-growth-005",
+        "frame-supplement-hells-bells-1929-growth-006",
+        "frame-supplement-hells-bells-1929-growth-007",
+        "frame-supplement-hells-bells-1929-growth-008",
+        "frame-supplement-hells-bells-1929-growth-009",
+        "frame-supplement-hells-bells-1929-growth-010",
+        "frame-supplement-hells-bells-1929-growth-011",
+        "frame-supplement-hells-bells-1929-growth-012",
+        "frame-supplement-hells-bells-1929-growth-013",
+        "frame-supplement-hells-bells-1929-growth-014",
+        "frame-supplement-hells-bells-1929-growth-015",
+        "frame-supplement-hells-bells-1929-growth-016",
+        "catalog-supplement-hells-bells-1929",
         "frame-supplement-swing-you-sinners-1930-001",
         "frame-supplement-swing-you-sinners-1930-002",
         "frame-supplement-swing-you-sinners-1930-003",
         "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
         "catalog-supplement-swing-you-sinners-1930",
         "frame-supplement-phantom-opera-1925-001",
         "catalog-supplement-phantom-opera-1925",
@@ -278,21 +348,89 @@
         "frame-supplement-skeleton-dance-1929-002",
         "frame-supplement-skeleton-dance-1929-003",
         "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-skeleton-dance-1929-growth-001",
+        "frame-supplement-skeleton-dance-1929-growth-002",
+        "frame-supplement-skeleton-dance-1929-growth-003",
+        "frame-supplement-skeleton-dance-1929-growth-004",
+        "frame-supplement-skeleton-dance-1929-growth-005",
+        "frame-supplement-skeleton-dance-1929-growth-006",
+        "frame-supplement-skeleton-dance-1929-growth-007",
+        "frame-supplement-skeleton-dance-1929-growth-008",
+        "frame-supplement-skeleton-dance-1929-growth-009",
+        "frame-supplement-skeleton-dance-1929-growth-010",
+        "frame-supplement-skeleton-dance-1929-growth-011",
+        "frame-supplement-skeleton-dance-1929-growth-012",
+        "frame-supplement-skeleton-dance-1929-growth-013",
+        "frame-supplement-skeleton-dance-1929-growth-014",
+        "frame-supplement-skeleton-dance-1929-growth-015",
+        "frame-supplement-skeleton-dance-1929-growth-016",
         "frame-supplement-haunted-house-1929-001",
         "frame-supplement-haunted-house-1929-002",
         "frame-supplement-haunted-house-1929-003",
         "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004",
+        "frame-supplement-hells-bells-1929-growth-001",
+        "frame-supplement-hells-bells-1929-growth-002",
+        "frame-supplement-hells-bells-1929-growth-003",
+        "frame-supplement-hells-bells-1929-growth-004",
+        "frame-supplement-hells-bells-1929-growth-005",
+        "frame-supplement-hells-bells-1929-growth-006",
+        "frame-supplement-hells-bells-1929-growth-007",
+        "frame-supplement-hells-bells-1929-growth-008",
+        "frame-supplement-hells-bells-1929-growth-009",
+        "frame-supplement-hells-bells-1929-growth-010",
+        "frame-supplement-hells-bells-1929-growth-011",
+        "frame-supplement-hells-bells-1929-growth-012",
+        "frame-supplement-hells-bells-1929-growth-013",
+        "frame-supplement-hells-bells-1929-growth-014",
+        "frame-supplement-hells-bells-1929-growth-015",
+        "frame-supplement-hells-bells-1929-growth-016",
         "frame-supplement-swing-you-sinners-1930-001",
         "frame-supplement-swing-you-sinners-1930-002",
         "frame-supplement-swing-you-sinners-1930-003",
         "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
         "frame-supplement-phantom-opera-1925-001"
       ],
-      "workCount": 42,
-      "imageCount": 68,
-      "frameCount": 57,
+      "workCount": 43,
+      "imageCount": 136,
+      "frameCount": 125,
       "rightsBreakdown": {
-        "期限届满": 5,
+        "期限届满": 6,
         "未续期": 1,
         "公版 / 开放馆藏": 35,
         "公版文件": 1
@@ -311,7 +449,9 @@
         "1874 摄影 · 期限届满",
         "1893 摄影 · 期限届满",
         "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1929 年作品 · 2025-01-01 期限届满",
         "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 期限届满",
         "美国期限届满 · Commons 公版文件",
         "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
         "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
@@ -327,6 +467,12 @@
         "万圣节",
         "怪诞 / 魔法",
         "宗教 / 神话",
+        "增长线索",
+        "旧动画群像",
+        "骷髅动作",
+        "乐队 / 海报构图",
+        "鬼屋变形",
+        "幽灵追逐",
         "电影 / 舞台",
         "暗黑 / 怪诞",
         "动物 / 自然"
@@ -334,15 +480,31 @@
       "topScenes": [
         {
           "name": "幽灵、鬼屋与通灵",
-          "count": 67
+          "count": 131
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 64
         },
         {
           "name": "妖怪、幽灵与民间护佑神",
           "count": 22
         },
         {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 20
+        },
+        {
           "name": "骷髅与死亡之舞",
-          "count": 15
+          "count": 20
+        },
+        {
+          "name": "骷髅动作与身体变形",
+          "count": 16
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 13
         },
         {
           "name": "鬼怪",
@@ -355,32 +517,32 @@
         {
           "name": "音乐 / 舞蹈",
           "count": 12
-        },
-        {
-          "name": "追逐",
-          "count": 12
-        },
-        {
-          "name": "东亚道教、神道与民间信仰",
-          "count": 10
-        },
-        {
-          "name": "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神",
-          "count": 10
-        },
-        {
-          "name": "鬼屋",
-          "count": 7
         }
       ],
       "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 84
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 64
+        },
+        {
+          "name": "舞台式群像",
+          "count": 20
+        },
         {
           "name": "橡皮管动画",
           "count": 19
         },
         {
-          "name": "黑白橡皮管动画",
-          "count": 15
+          "name": "扁平骨架动作",
+          "count": 16
+        },
+        {
+          "name": "角色群像",
+          "count": 13
         },
         {
           "name": "Fleischer 怪诞",
@@ -397,28 +559,12 @@
         {
           "name": "通灵摄影",
           "count": 10
-        },
-        {
-          "name": "宗教 / 仪式",
-          "count": 10
-        },
-        {
-          "name": "鬼屋喜剧",
-          "count": 7
-        },
-        {
-          "name": "黑白动画",
-          "count": 7
-        },
-        {
-          "name": "浮世绘",
-          "count": 6
         }
       ],
       "topHolidays": [
         {
           "name": "万圣节",
-          "count": 89
+          "count": 158
         },
         {
           "name": "圣诞节",
@@ -428,18 +574,18 @@
       "usage": "按母题进入：白布幽灵、锁链亡灵、半透明显影、鬼屋喜剧、通灵摄影、舞台幻术与东亚幽魂。打开具体作品后，再取构图、动作和轮廓。",
       "avoid": "公版结论只覆盖列出的具体历史版本。避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
       "awarenessScore": 92,
-      "sourceCount": 42,
+      "sourceCount": 43,
       "relatedEntityIds": [
         "subject-east-asian-ghosts",
+        "role-白布幽灵-0f2aa01a",
         "role-舞台灵体-b5c936dc",
+        "role-骷髅乐队-c975af3b",
+        "role-骷髅舞者-45739b1c",
+        "role-骷髅乐手-c13eae47",
         "subject-jesus-christian-iconography",
         "role-marleys-ghost-0861a74f",
-        "role-白布幽灵-0f2aa01a",
         "role-钟馗-2d4bb89f",
-        "role-betty-boop-16ad409c",
-        "role-bimbo-c30ed973",
-        "role-mysterious-mose-1e6192c3",
-        "role-van-beuren-human-duo-2d6c075a"
+        "role-betty-boop-16ad409c"
       ]
     },
     {

@@ -1,0 +1,2462 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "entity": {
+    "id": "role-活房间-cf1b19c0",
+    "name": "活房间",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+    "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "workIds": [
+      "work-swing-you-sinners-24ae4646"
+    ],
+    "recordIds": [
+      "frame-supplement-swing-you-sinners-1930-001",
+      "frame-supplement-swing-you-sinners-1930-002",
+      "frame-supplement-swing-you-sinners-1930-003",
+      "frame-supplement-swing-you-sinners-1930-004",
+      "frame-supplement-swing-you-sinners-1930-growth-001",
+      "frame-supplement-swing-you-sinners-1930-growth-002",
+      "frame-supplement-swing-you-sinners-1930-growth-003",
+      "frame-supplement-swing-you-sinners-1930-growth-004",
+      "frame-supplement-swing-you-sinners-1930-growth-005",
+      "frame-supplement-swing-you-sinners-1930-growth-006",
+      "frame-supplement-swing-you-sinners-1930-growth-007",
+      "frame-supplement-swing-you-sinners-1930-growth-008",
+      "frame-supplement-swing-you-sinners-1930-growth-009",
+      "frame-supplement-swing-you-sinners-1930-growth-010",
+      "frame-supplement-swing-you-sinners-1930-growth-011",
+      "frame-supplement-swing-you-sinners-1930-growth-012",
+      "frame-supplement-swing-you-sinners-1930-growth-013",
+      "frame-supplement-swing-you-sinners-1930-growth-014",
+      "frame-supplement-swing-you-sinners-1930-growth-015",
+      "frame-supplement-swing-you-sinners-1930-growth-016",
+      "catalog-supplement-swing-you-sinners-1930"
+    ],
+    "frameIds": [
+      "frame-supplement-swing-you-sinners-1930-001",
+      "frame-supplement-swing-you-sinners-1930-002",
+      "frame-supplement-swing-you-sinners-1930-003",
+      "frame-supplement-swing-you-sinners-1930-004",
+      "frame-supplement-swing-you-sinners-1930-growth-001",
+      "frame-supplement-swing-you-sinners-1930-growth-002",
+      "frame-supplement-swing-you-sinners-1930-growth-003",
+      "frame-supplement-swing-you-sinners-1930-growth-004",
+      "frame-supplement-swing-you-sinners-1930-growth-005",
+      "frame-supplement-swing-you-sinners-1930-growth-006",
+      "frame-supplement-swing-you-sinners-1930-growth-007",
+      "frame-supplement-swing-you-sinners-1930-growth-008",
+      "frame-supplement-swing-you-sinners-1930-growth-009",
+      "frame-supplement-swing-you-sinners-1930-growth-010",
+      "frame-supplement-swing-you-sinners-1930-growth-011",
+      "frame-supplement-swing-you-sinners-1930-growth-012",
+      "frame-supplement-swing-you-sinners-1930-growth-013",
+      "frame-supplement-swing-you-sinners-1930-growth-014",
+      "frame-supplement-swing-you-sinners-1930-growth-015",
+      "frame-supplement-swing-you-sinners-1930-growth-016"
+    ],
+    "workCount": 1,
+    "imageCount": 20,
+    "frameCount": 20,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "美国 1930 年作品 · 2026-01-01 进入公版",
+      "美国 1930 年作品 · 2026-01-01 期限届满"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "早期动画",
+      "怪诞 / 魔法",
+      "增长线索",
+      "鬼屋变形",
+      "旧动画群像",
+      "幽灵追逐",
+      "乐队 / 海报构图"
+    ],
+    "topScenes": [
+      {
+        "name": "幽灵、鬼屋与通灵",
+        "count": 21
+      },
+      {
+        "name": "万圣节公版动画",
+        "count": 16
+      },
+      {
+        "name": "旧动画群像与叙事场景",
+        "count": 5
+      },
+      {
+        "name": "骷髅与死亡之舞",
+        "count": 5
+      },
+      {
+        "name": "幽灵追逐与变形",
+        "count": 5
+      },
+      {
+        "name": "骷髅乐队与怪诞舞台",
+        "count": 3
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "黑白橡皮管动画",
+        "count": 21
+      },
+      {
+        "name": "增长信号回溯",
+        "count": 16
+      },
+      {
+        "name": "超现实变形",
+        "count": 5
+      },
+      {
+        "name": "超现实追逐",
+        "count": 5
+      },
+      {
+        "name": "鬼屋歌舞",
+        "count": 5
+      },
+      {
+        "name": "角色群像",
+        "count": 5
+      },
+      {
+        "name": "鬼屋空间变形",
+        "count": 3
+      },
+      {
+        "name": "舞台式群像",
+        "count": 3
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 21
+      }
+    ],
+    "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+    "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+    "awarenessScore": 74,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "subject-ghosts-spiritualism",
+      "role-墓园幽灵群-b3adc750",
+      "role-活墓碑群-b7e5edc1",
+      "role-墓园怪脸群-c665485f",
+      "role-铁路幽灵-709197f7",
+      "role-长脸幽灵-18f9753a",
+      "role-圆头幽灵-32158073",
+      "role-巨手幽灵-517af00f",
+      "role-墓园幽灵-cf309d3a",
+      "role-蜡烛幽灵-1b4ceb6e"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-swing-you-sinners-24ae4646",
+      "title": "Swing You Sinners!",
+      "subtitle": "罪人摇摆吧 · Fleischer",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+      "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2026/",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons 原片抽帧；底层 1930 作品在美国期限届满",
+        "Wikimedia Commons 文件页标记 Public domain"
+      ],
+      "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+      "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "旧动画群像",
+        "幽灵追逐",
+        "乐队 / 海报构图"
+      ],
+      "styles": [
+        "黑白橡皮管动画",
+        "超现实变形",
+        "鬼屋歌舞",
+        "增长信号回溯",
+        "鬼屋空间变形",
+        "角色群像",
+        "超现实追逐",
+        "舞台式群像"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "骷髅与死亡之舞",
+        "万圣节公版动画",
+        "旧动画群像与叙事场景",
+        "幽灵追逐与变形",
+        "骷髅乐队与怪诞舞台"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "公版动画原片抽帧"
+      ],
+      "motifs": [
+        "墓碑群",
+        "墓园",
+        "活墓碑",
+        "墓碑",
+        "怪脸群",
+        "月夜",
+        "幽灵",
+        "铁路",
+        "长脸幽灵",
+        "圆头幽灵",
+        "空洞眼",
+        "巨型幽灵手",
+        "追逐角色",
+        "蜡烛柱幽灵",
+        "房间眼睛",
+        "干草堆",
+        "门",
+        "细长幽灵",
+        "门廊",
+        "白布幽灵双人组",
+        "鬼脸三人组",
+        "幽灵观众群",
+        "舞台",
+        "长脸鬼屋",
+        "鬼脸群",
+        "幽灵群",
+        "怪脸"
+      ],
+      "actions": [
+        "包围",
+        "转向",
+        "起身",
+        "追逐",
+        "涌现",
+        "逼近",
+        "阻截",
+        "追赶",
+        "探出",
+        "凝视",
+        "抓取",
+        "拦截",
+        "奔跑",
+        "回头",
+        "升起",
+        "融化变形",
+        "空间凝视",
+        "物体活化",
+        "伸长",
+        "围堵",
+        "同步起舞",
+        "摆臂",
+        "围合",
+        "合唱",
+        "围拢",
+        "观看",
+        "伸缩",
+        "集体涌入"
+      ],
+      "compositions": [
+        "前景墓碑",
+        "中心人物",
+        "多主体包围",
+        "环形动势",
+        "前后层叠",
+        "密集群像",
+        "轨道透视",
+        "横向追逐",
+        "大脸加小人物",
+        "比例对照",
+        "满幅脸部",
+        "高反差",
+        "对角巨手",
+        "大小对照",
+        "横向跑动",
+        "连续动作",
+        "垂直单主体",
+        "烛台轮廓",
+        "室内舞台",
+        "双眼焦点",
+        "高低双主体",
+        "长线轮廓",
+        "镜像双主体",
+        "舞台动作",
+        "三角群像",
+        "密集观众",
+        "中心舞台",
+        "三联脸部",
+        "海报式群像",
+        "中心扩散"
+      ],
+      "colors": [
+        "黑",
+        "灰",
+        "旧胶片白"
+      ],
+      "productionUses": [
+        "鬼屋场景主图",
+        "高反差建筑图",
+        "洗水黑 T 背部主图",
+        "复古动画拼贴",
+        "连续动作图",
+        "故事型背部主图",
+        "乐队海报式背图",
+        "宽幅角色队列"
+      ],
+      "sourceHashes": [
+        "1f46c12f534fec145a367ab4c5bf87b7fed95c7a204ac3359a7b38950a3e48ee",
+        "dccac940bf46895e2205946415dcc83289e2c172493a1fa5a28bf5560472080f",
+        "511560e3b6ae5744cb827361e4b74380467ed679951ef3d329e6a6071841620f",
+        "945dbc20b323097aec23533501bb593cc094b7b3743339a1e501e55791efdbe3",
+        "a52d41ea90a49cbe585902141f9b11f4d15dd405398761bec0d38c50e4dc820d",
+        "1225323f04127059b8aee883d495b44b3a321779ad495602ae72d6652d5b1090",
+        "8a41366c2b4e3d81805c98bc5197bc19844177c7a3455d60a4a5d9fae83243ba",
+        "382713939a96f4c4f1b17c609b112273fba0dec968d922cd6bd383a0b87b1bfe",
+        "b8723b44a406deb8fd285eabc95ec3752937436c846608310a19bff6894f0476",
+        "7081dead9aef1334a72c957bf5659e65165f3ec66d3ff8d1a70e80724688c366",
+        "5072d483065428b3a4728548e60cb965d99ecd9ff530ac2e0bb8c6623ee8538b",
+        "0f9724a2c49cd5795622900cd17bb3da811e6c669031954e8a6b78188096d10f",
+        "1ef2b56a055a664f9f1c14be8e3e16df3c1383448163fcae3d6dafc116a9e375",
+        "549f3b7551906108cbe8873050a25683bcc6a02f1535cd29e8a10c6022dfe084",
+        "ac002d4d657e1cea5cad21353d698875d112097db93e66a159a82fe704185454",
+        "d56e554bbb4346d73857a1683cb2e19eaec50e83c9667e84e24e0db1091ae8ff"
+      ],
+      "characterNames": [
+        "墓园幽灵群",
+        "活墓碑群",
+        "墓园怪脸群",
+        "铁路幽灵",
+        "长脸幽灵",
+        "圆头幽灵",
+        "巨手幽灵",
+        "墓园幽灵",
+        "蜡烛幽灵",
+        "活房间",
+        "细长幽灵组",
+        "白布幽灵舞者",
+        "鬼脸合唱团",
+        "幽灵观众群"
+      ],
+      "characterAliases": [
+        "墓园幽灵群",
+        "活墓碑群",
+        "墓园怪脸群",
+        "铁路幽灵",
+        "长脸幽灵",
+        "圆头幽灵",
+        "巨手幽灵",
+        "墓园幽灵",
+        "蜡烛幽灵",
+        "活房间",
+        "细长幽灵组",
+        "白布幽灵舞者",
+        "鬼脸合唱团",
+        "幽灵观众群"
+      ],
+      "recordIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "frameIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016"
+      ],
+      "masterIds": [
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "imageCount": 20,
+      "frameCount": 20,
+      "awarenessScore": 74,
+      "entityIds": [
+        "role-墓园幽灵群-b3adc750",
+        "role-活墓碑群-b7e5edc1",
+        "role-墓园怪脸群-c665485f",
+        "role-铁路幽灵-709197f7",
+        "role-长脸幽灵-18f9753a",
+        "role-圆头幽灵-32158073",
+        "role-巨手幽灵-517af00f",
+        "role-墓园幽灵-cf309d3a",
+        "role-蜡烛幽灵-1b4ceb6e",
+        "role-活房间-cf1b19c0",
+        "role-细长幽灵组-c730e895",
+        "role-白布幽灵舞者-ffb7fe83",
+        "role-鬼脸合唱团-4a5da246",
+        "role-幽灵观众群-b6a7aafb",
+        "subject-ghosts-spiritualism"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "subject-ghosts-spiritualism",
+      "name": "幽灵、鬼屋与通灵",
+      "type": "文化题材",
+      "aliases": [
+        "鬼怪",
+        "鬼屋",
+        "灵体",
+        "通灵",
+        "幽灵",
+        "Apparition",
+        "Ghost",
+        "Haunting",
+        "Phantom",
+        "Séance",
+        "Spirit"
+      ],
+      "virtual": true,
+      "coverImage": "images/2e583b2aae5a2e17ef41.webp",
+      "coverRecordId": "catalog-supplement-ghost-christmas-frolic-1814",
+      "yearStart": 1200,
+      "yearEnd": 1931,
+      "workIds": [
+        "work-mysterious-mose夜间怪谈-06a0b703",
+        "work-wot-a-night-cb97ee02",
+        "work-立体镜中的幽灵-f0be4d30",
+        "work-孤儿在母亲墓前-23a2d5dc",
+        "work-通灵会灵体合成照-3c8907c2",
+        "work-马利的幽灵-436b638e",
+        "work-撒母耳的幽灵向扫罗显现-54e3a978",
+        "work-玛格丽特的幽灵向浮士德显现-f9fe58a8",
+        "work-巫术-2cb43daf",
+        "work-玫瑰魔术师与超自然生物-36d50d1c",
+        "work-灵魂会回来吗-ba38546d",
+        "work-圣女贞德与异象-77bed1c9",
+        "work-巫术场景-黄昏-5e91ed00",
+        "work-幽灵-一场圣诞恶作剧-d2a5c039",
+        "work-马利的幽灵-拉克姆版-917905df",
+        "work-布盖通灵摄影-296427a4",
+        "work-休息的幽灵演奏者-6db9d5b8",
+        "work-幽灵与油灯-1fb37b14",
+        "work-闹鬼的汽车-e6442b01",
+        "work-newmann-的灵体奇术-576434db",
+        "work-闹鬼的小路-1ee678e8",
+        "work-哈姆雷特追随父亲幽灵-c3f90678",
+        "work-冈崎猫妖怪谈-bd4f4df0",
+        "work-钟馗-35122b8b",
+        "work-鬼怪素描-abaf8ede",
+        "work-义平幽灵复仇-8f44b5f3",
+        "work-鲤旗与钟馗旗-dd97e27f",
+        "work-the-skeleton-dance-8b38cda1",
+        "work-the-haunted-house-2de44826",
+        "work-hells-bells-a2645562",
+        "work-swing-you-sinners-24ae4646",
+        "work-the-phantom-of-the-opera-e79aee58",
+        "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
+        "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
+        "work-zhong-kui-supported-by-ghosts-8f0c0fce",
+        "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
+        "work-ghosts-of-the-taira-at-daimotsu-bay-4e6f02fe",
+        "work-a-boat-cast-adrift-ukifune-omatsu-and-akabori-mizuemon-0e3ed557",
+        "work-a-molted-cicada-shell-utsusemi-soga-goro-tokimune-from-9e43ce93",
+        "work-exile-to-suma-suma-tamaori-hime-from-the-series-scenes-606f10d3",
+        "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
+        "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35",
+        "work-a-thrilling-halloween-2559cb29"
+      ],
+      "recordIds": [
+        "frame-mysterious-mose-1930-001",
+        "frame-mysterious-mose-1930-002",
+        "frame-mysterious-mose-1930-003",
+        "frame-mysterious-mose-1930-004",
+        "frame-mysterious-mose-1930-005",
+        "frame-mysterious-mose-1930-006",
+        "frame-mysterious-mose-1930-007",
+        "frame-mysterious-mose-1930-008",
+        "frame-mysterious-mose-1930-009",
+        "frame-mysterious-mose-1930-010",
+        "frame-mysterious-mose-1930-011",
+        "frame-mysterious-mose-1930-012",
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006",
+        "catalog-supplement-van-beuren-wot-a-night-1931",
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "catalog-supplement-ghost-stereoscope-1856",
+        "frame-supplement-ghost-orphans-grave-1889-001",
+        "catalog-supplement-ghost-orphans-grave-1889",
+        "frame-supplement-ghost-hallowell-composite-1901-001",
+        "catalog-supplement-ghost-hallowell-composite-1901",
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "catalog-supplement-ghost-marley-leech-1843",
+        "frame-supplement-ghost-samuel-blake-001",
+        "catalog-supplement-ghost-samuel-blake",
+        "frame-supplement-ghost-marguerite-delacroix-1828-001",
+        "catalog-supplement-ghost-marguerite-delacroix-1828",
+        "frame-supplement-ghost-witchcraft-fantin-1899-001",
+        "catalog-supplement-ghost-witchcraft-fantin-1899",
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "catalog-supplement-ghost-magician-roses-1892",
+        "frame-supplement-ghost-thurston-1915-001",
+        "catalog-supplement-ghost-thurston-1915",
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "catalog-supplement-ghost-joan-arc-1879",
+        "frame-supplement-ghost-witchcraft-evening-001",
+        "catalog-supplement-ghost-witchcraft-evening",
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "catalog-supplement-ghost-christmas-frolic-1814",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "catalog-supplement-ghost-rackham-marley-1915",
+        "catalog-supplement-ghost-rackham-phantoms-1915",
+        "frame-supplement-ghost-buguet-1874-001",
+        "catalog-supplement-ghost-buguet-1874",
+        "frame-supplement-ghost-underwood-1893-001",
+        "catalog-supplement-ghost-underwood-1893",
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "catalog-supplement-ghost-oil-lamp-1810",
+        "frame-supplement-ghost-haunted-auto-1910-001",
+        "catalog-supplement-ghost-haunted-auto-1910",
+        "frame-supplement-ghost-newmann-1911-001",
+        "catalog-supplement-ghost-newmann-1911",
+        "frame-supplement-ghost-haunted-lane-1889-001",
+        "catalog-supplement-ghost-haunted-lane-1889",
+        "frame-supplement-ghost-hamlet-delacroix-1835-001",
+        "catalog-supplement-ghost-hamlet-delacroix-1835",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "catalog-supplement-ghost-met-cat-demon",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "catalog-supplement-ghost-met-zhong-kui",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "catalog-supplement-ghost-met-demon-drawings",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "catalog-supplement-ghost-met-yoshihira-revenge",
+        "frame-supplement-ghost-met-shoki-banner-001",
+        "catalog-supplement-ghost-met-shoki-banner",
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-skeleton-dance-1929-growth-001",
+        "frame-supplement-skeleton-dance-1929-growth-002",
+        "frame-supplement-skeleton-dance-1929-growth-003",
+        "frame-supplement-skeleton-dance-1929-growth-004",
+        "frame-supplement-skeleton-dance-1929-growth-005",
+        "frame-supplement-skeleton-dance-1929-growth-006",
+        "frame-supplement-skeleton-dance-1929-growth-007",
+        "frame-supplement-skeleton-dance-1929-growth-008",
+        "frame-supplement-skeleton-dance-1929-growth-009",
+        "frame-supplement-skeleton-dance-1929-growth-010",
+        "frame-supplement-skeleton-dance-1929-growth-011",
+        "frame-supplement-skeleton-dance-1929-growth-012",
+        "frame-supplement-skeleton-dance-1929-growth-013",
+        "frame-supplement-skeleton-dance-1929-growth-014",
+        "frame-supplement-skeleton-dance-1929-growth-015",
+        "frame-supplement-skeleton-dance-1929-growth-016",
+        "catalog-supplement-skeleton-dance-1929",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "catalog-supplement-haunted-house-1929",
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004",
+        "frame-supplement-hells-bells-1929-growth-001",
+        "frame-supplement-hells-bells-1929-growth-002",
+        "frame-supplement-hells-bells-1929-growth-003",
+        "frame-supplement-hells-bells-1929-growth-004",
+        "frame-supplement-hells-bells-1929-growth-005",
+        "frame-supplement-hells-bells-1929-growth-006",
+        "frame-supplement-hells-bells-1929-growth-007",
+        "frame-supplement-hells-bells-1929-growth-008",
+        "frame-supplement-hells-bells-1929-growth-009",
+        "frame-supplement-hells-bells-1929-growth-010",
+        "frame-supplement-hells-bells-1929-growth-011",
+        "frame-supplement-hells-bells-1929-growth-012",
+        "frame-supplement-hells-bells-1929-growth-013",
+        "frame-supplement-hells-bells-1929-growth-014",
+        "frame-supplement-hells-bells-1929-growth-015",
+        "frame-supplement-hells-bells-1929-growth-016",
+        "catalog-supplement-hells-bells-1929",
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
+        "catalog-supplement-swing-you-sinners-1930",
+        "frame-supplement-phantom-opera-1925-001",
+        "catalog-supplement-phantom-opera-1925",
+        "catalog-belief-cma-163115",
+        "catalog-belief-cma-136668",
+        "catalog-belief-cma-135655",
+        "catalog-belief-met-58892",
+        "catalog-belief-met-55743",
+        "catalog-belief-met-789147",
+        "catalog-belief-met-789145",
+        "catalog-belief-met-789148",
+        "catalog-belief-met-789144",
+        "catalog-belief-met-76582",
+        "catalog-supplement-thrilling-halloween-cats-pumpkins-1910"
+      ],
+      "frameIds": [
+        "frame-mysterious-mose-1930-001",
+        "frame-mysterious-mose-1930-002",
+        "frame-mysterious-mose-1930-003",
+        "frame-mysterious-mose-1930-004",
+        "frame-mysterious-mose-1930-005",
+        "frame-mysterious-mose-1930-006",
+        "frame-mysterious-mose-1930-007",
+        "frame-mysterious-mose-1930-008",
+        "frame-mysterious-mose-1930-009",
+        "frame-mysterious-mose-1930-010",
+        "frame-mysterious-mose-1930-011",
+        "frame-mysterious-mose-1930-012",
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006",
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "frame-supplement-ghost-orphans-grave-1889-001",
+        "frame-supplement-ghost-hallowell-composite-1901-001",
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "frame-supplement-ghost-samuel-blake-001",
+        "frame-supplement-ghost-marguerite-delacroix-1828-001",
+        "frame-supplement-ghost-witchcraft-fantin-1899-001",
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "frame-supplement-ghost-thurston-1915-001",
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "frame-supplement-ghost-witchcraft-evening-001",
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "frame-supplement-ghost-buguet-1874-001",
+        "frame-supplement-ghost-underwood-1893-001",
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "frame-supplement-ghost-haunted-auto-1910-001",
+        "frame-supplement-ghost-newmann-1911-001",
+        "frame-supplement-ghost-haunted-lane-1889-001",
+        "frame-supplement-ghost-hamlet-delacroix-1835-001",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "frame-supplement-ghost-met-shoki-banner-001",
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-skeleton-dance-1929-growth-001",
+        "frame-supplement-skeleton-dance-1929-growth-002",
+        "frame-supplement-skeleton-dance-1929-growth-003",
+        "frame-supplement-skeleton-dance-1929-growth-004",
+        "frame-supplement-skeleton-dance-1929-growth-005",
+        "frame-supplement-skeleton-dance-1929-growth-006",
+        "frame-supplement-skeleton-dance-1929-growth-007",
+        "frame-supplement-skeleton-dance-1929-growth-008",
+        "frame-supplement-skeleton-dance-1929-growth-009",
+        "frame-supplement-skeleton-dance-1929-growth-010",
+        "frame-supplement-skeleton-dance-1929-growth-011",
+        "frame-supplement-skeleton-dance-1929-growth-012",
+        "frame-supplement-skeleton-dance-1929-growth-013",
+        "frame-supplement-skeleton-dance-1929-growth-014",
+        "frame-supplement-skeleton-dance-1929-growth-015",
+        "frame-supplement-skeleton-dance-1929-growth-016",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-haunted-house-1929-growth-001",
+        "frame-supplement-haunted-house-1929-growth-002",
+        "frame-supplement-haunted-house-1929-growth-003",
+        "frame-supplement-haunted-house-1929-growth-004",
+        "frame-supplement-haunted-house-1929-growth-005",
+        "frame-supplement-haunted-house-1929-growth-006",
+        "frame-supplement-haunted-house-1929-growth-007",
+        "frame-supplement-haunted-house-1929-growth-008",
+        "frame-supplement-haunted-house-1929-growth-009",
+        "frame-supplement-haunted-house-1929-growth-010",
+        "frame-supplement-haunted-house-1929-growth-011",
+        "frame-supplement-haunted-house-1929-growth-012",
+        "frame-supplement-haunted-house-1929-growth-013",
+        "frame-supplement-haunted-house-1929-growth-014",
+        "frame-supplement-haunted-house-1929-growth-015",
+        "frame-supplement-haunted-house-1929-growth-016",
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004",
+        "frame-supplement-hells-bells-1929-growth-001",
+        "frame-supplement-hells-bells-1929-growth-002",
+        "frame-supplement-hells-bells-1929-growth-003",
+        "frame-supplement-hells-bells-1929-growth-004",
+        "frame-supplement-hells-bells-1929-growth-005",
+        "frame-supplement-hells-bells-1929-growth-006",
+        "frame-supplement-hells-bells-1929-growth-007",
+        "frame-supplement-hells-bells-1929-growth-008",
+        "frame-supplement-hells-bells-1929-growth-009",
+        "frame-supplement-hells-bells-1929-growth-010",
+        "frame-supplement-hells-bells-1929-growth-011",
+        "frame-supplement-hells-bells-1929-growth-012",
+        "frame-supplement-hells-bells-1929-growth-013",
+        "frame-supplement-hells-bells-1929-growth-014",
+        "frame-supplement-hells-bells-1929-growth-015",
+        "frame-supplement-hells-bells-1929-growth-016",
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
+        "frame-supplement-phantom-opera-1925-001"
+      ],
+      "workCount": 43,
+      "imageCount": 136,
+      "frameCount": 125,
+      "rightsBreakdown": {
+        "期限届满": 6,
+        "未续期": 1,
+        "公版 / 开放馆藏": 35,
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+        "Met Open Access · Public Domain",
+        "LOC · No known restrictions",
+        "1843 初版插图 · 期限届满",
+        "NGA Open Access",
+        "AIC Open Access · CC0",
+        "CMA Open Access · CC0",
+        "1814 版画 · LOC No known restrictions",
+        "1915 插图 · 期限届满",
+        "1874 摄影 · 期限届满",
+        "1893 摄影 · 期限届满",
+        "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1929 年作品 · 2025-01-01 期限届满",
+        "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 期限届满",
+        "美国期限届满 · Commons 公版文件",
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+        "Wikimedia Commons · Public domain"
+      ],
+      "evidenceLevels": [
+        "A",
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话",
+        "增长线索",
+        "旧动画群像",
+        "骷髅动作",
+        "乐队 / 海报构图",
+        "鬼屋变形",
+        "幽灵追逐",
+        "电影 / 舞台",
+        "暗黑 / 怪诞",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 131
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 64
+        },
+        {
+          "name": "妖怪、幽灵与民间护佑神",
+          "count": 22
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 20
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 20
+        },
+        {
+          "name": "骷髅动作与身体变形",
+          "count": 16
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 13
+        },
+        {
+          "name": "鬼怪",
+          "count": 12
+        },
+        {
+          "name": "夜晚",
+          "count": 12
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 12
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 84
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 64
+        },
+        {
+          "name": "舞台式群像",
+          "count": 20
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 19
+        },
+        {
+          "name": "扁平骨架动作",
+          "count": 16
+        },
+        {
+          "name": "角色群像",
+          "count": 13
+        },
+        {
+          "name": "Fleischer 怪诞",
+          "count": 12
+        },
+        {
+          "name": "暗黑 / 怪诞",
+          "count": 10
+        },
+        {
+          "name": "神话 / 魔法",
+          "count": 10
+        },
+        {
+          "name": "通灵摄影",
+          "count": 10
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 158
+        },
+        {
+          "name": "圣诞节",
+          "count": 8
+        }
+      ],
+      "usage": "按母题进入：白布幽灵、锁链亡灵、半透明显影、鬼屋喜剧、通灵摄影、舞台幻术与东亚幽魂。打开具体作品后，再取构图、动作和轮廓。",
+      "avoid": "公版结论只覆盖列出的具体历史版本。避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 92,
+      "sourceCount": 43,
+      "relatedEntityIds": [
+        "subject-east-asian-ghosts",
+        "role-白布幽灵-0f2aa01a",
+        "role-舞台灵体-b5c936dc",
+        "role-骷髅乐队-c975af3b",
+        "role-骷髅舞者-45739b1c",
+        "role-骷髅乐手-c13eae47",
+        "subject-jesus-christian-iconography",
+        "role-marleys-ghost-0861a74f",
+        "role-钟馗-2d4bb89f",
+        "role-betty-boop-16ad409c"
+      ]
+    },
+    {
+      "id": "role-墓园幽灵群-b3adc750",
+      "name": "墓园幽灵群",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+      "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-swing-you-sinners-24ae4646"
+      ],
+      "recordIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "frameIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "旧动画群像",
+        "幽灵追逐",
+        "乐队 / 海报构图"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 3
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "超现实变形",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 5
+        },
+        {
+          "name": "鬼屋歌舞",
+          "count": 5
+        },
+        {
+          "name": "角色群像",
+          "count": 5
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 3
+        },
+        {
+          "name": "舞台式群像",
+          "count": 3
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+      "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+      "awarenessScore": 74,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-活墓碑群-b7e5edc1",
+        "role-墓园怪脸群-c665485f",
+        "role-铁路幽灵-709197f7",
+        "role-长脸幽灵-18f9753a",
+        "role-圆头幽灵-32158073",
+        "role-巨手幽灵-517af00f",
+        "role-墓园幽灵-cf309d3a",
+        "role-蜡烛幽灵-1b4ceb6e",
+        "role-活房间-cf1b19c0"
+      ]
+    },
+    {
+      "id": "role-活墓碑群-b7e5edc1",
+      "name": "活墓碑群",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+      "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-swing-you-sinners-24ae4646"
+      ],
+      "recordIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "frameIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "旧动画群像",
+        "幽灵追逐",
+        "乐队 / 海报构图"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 3
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "超现实变形",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 5
+        },
+        {
+          "name": "鬼屋歌舞",
+          "count": 5
+        },
+        {
+          "name": "角色群像",
+          "count": 5
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 3
+        },
+        {
+          "name": "舞台式群像",
+          "count": 3
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+      "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+      "awarenessScore": 74,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-墓园幽灵群-b3adc750",
+        "role-墓园怪脸群-c665485f",
+        "role-铁路幽灵-709197f7",
+        "role-长脸幽灵-18f9753a",
+        "role-圆头幽灵-32158073",
+        "role-巨手幽灵-517af00f",
+        "role-墓园幽灵-cf309d3a",
+        "role-蜡烛幽灵-1b4ceb6e",
+        "role-活房间-cf1b19c0"
+      ]
+    },
+    {
+      "id": "role-墓园怪脸群-c665485f",
+      "name": "墓园怪脸群",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+      "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-swing-you-sinners-24ae4646"
+      ],
+      "recordIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "frameIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "旧动画群像",
+        "幽灵追逐",
+        "乐队 / 海报构图"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 3
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "超现实变形",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 5
+        },
+        {
+          "name": "鬼屋歌舞",
+          "count": 5
+        },
+        {
+          "name": "角色群像",
+          "count": 5
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 3
+        },
+        {
+          "name": "舞台式群像",
+          "count": 3
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+      "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+      "awarenessScore": 74,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-墓园幽灵群-b3adc750",
+        "role-活墓碑群-b7e5edc1",
+        "role-铁路幽灵-709197f7",
+        "role-长脸幽灵-18f9753a",
+        "role-圆头幽灵-32158073",
+        "role-巨手幽灵-517af00f",
+        "role-墓园幽灵-cf309d3a",
+        "role-蜡烛幽灵-1b4ceb6e",
+        "role-活房间-cf1b19c0"
+      ]
+    },
+    {
+      "id": "role-铁路幽灵-709197f7",
+      "name": "铁路幽灵",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+      "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-swing-you-sinners-24ae4646"
+      ],
+      "recordIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "frameIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "旧动画群像",
+        "幽灵追逐",
+        "乐队 / 海报构图"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 3
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "超现实变形",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 5
+        },
+        {
+          "name": "鬼屋歌舞",
+          "count": 5
+        },
+        {
+          "name": "角色群像",
+          "count": 5
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 3
+        },
+        {
+          "name": "舞台式群像",
+          "count": 3
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+      "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+      "awarenessScore": 74,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-墓园幽灵群-b3adc750",
+        "role-活墓碑群-b7e5edc1",
+        "role-墓园怪脸群-c665485f",
+        "role-长脸幽灵-18f9753a",
+        "role-圆头幽灵-32158073",
+        "role-巨手幽灵-517af00f",
+        "role-墓园幽灵-cf309d3a",
+        "role-蜡烛幽灵-1b4ceb6e",
+        "role-活房间-cf1b19c0"
+      ]
+    },
+    {
+      "id": "role-长脸幽灵-18f9753a",
+      "name": "长脸幽灵",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+      "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-swing-you-sinners-24ae4646"
+      ],
+      "recordIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "frameIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "旧动画群像",
+        "幽灵追逐",
+        "乐队 / 海报构图"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 3
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "超现实变形",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 5
+        },
+        {
+          "name": "鬼屋歌舞",
+          "count": 5
+        },
+        {
+          "name": "角色群像",
+          "count": 5
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 3
+        },
+        {
+          "name": "舞台式群像",
+          "count": 3
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+      "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+      "awarenessScore": 74,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-墓园幽灵群-b3adc750",
+        "role-活墓碑群-b7e5edc1",
+        "role-墓园怪脸群-c665485f",
+        "role-铁路幽灵-709197f7",
+        "role-圆头幽灵-32158073",
+        "role-巨手幽灵-517af00f",
+        "role-墓园幽灵-cf309d3a",
+        "role-蜡烛幽灵-1b4ceb6e",
+        "role-活房间-cf1b19c0"
+      ]
+    },
+    {
+      "id": "role-圆头幽灵-32158073",
+      "name": "圆头幽灵",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+      "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-swing-you-sinners-24ae4646"
+      ],
+      "recordIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "frameIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "旧动画群像",
+        "幽灵追逐",
+        "乐队 / 海报构图"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 3
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "超现实变形",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 5
+        },
+        {
+          "name": "鬼屋歌舞",
+          "count": 5
+        },
+        {
+          "name": "角色群像",
+          "count": 5
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 3
+        },
+        {
+          "name": "舞台式群像",
+          "count": 3
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+      "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+      "awarenessScore": 74,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-墓园幽灵群-b3adc750",
+        "role-活墓碑群-b7e5edc1",
+        "role-墓园怪脸群-c665485f",
+        "role-铁路幽灵-709197f7",
+        "role-长脸幽灵-18f9753a",
+        "role-巨手幽灵-517af00f",
+        "role-墓园幽灵-cf309d3a",
+        "role-蜡烛幽灵-1b4ceb6e",
+        "role-活房间-cf1b19c0"
+      ]
+    },
+    {
+      "id": "role-巨手幽灵-517af00f",
+      "name": "巨手幽灵",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+      "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-swing-you-sinners-24ae4646"
+      ],
+      "recordIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "frameIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "旧动画群像",
+        "幽灵追逐",
+        "乐队 / 海报构图"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 3
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "超现实变形",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 5
+        },
+        {
+          "name": "鬼屋歌舞",
+          "count": 5
+        },
+        {
+          "name": "角色群像",
+          "count": 5
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 3
+        },
+        {
+          "name": "舞台式群像",
+          "count": 3
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+      "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+      "awarenessScore": 74,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-墓园幽灵群-b3adc750",
+        "role-活墓碑群-b7e5edc1",
+        "role-墓园怪脸群-c665485f",
+        "role-铁路幽灵-709197f7",
+        "role-长脸幽灵-18f9753a",
+        "role-圆头幽灵-32158073",
+        "role-墓园幽灵-cf309d3a",
+        "role-蜡烛幽灵-1b4ceb6e",
+        "role-活房间-cf1b19c0"
+      ]
+    },
+    {
+      "id": "role-墓园幽灵-cf309d3a",
+      "name": "墓园幽灵",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+      "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-swing-you-sinners-24ae4646"
+      ],
+      "recordIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "frameIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "旧动画群像",
+        "幽灵追逐",
+        "乐队 / 海报构图"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 3
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "超现实变形",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 5
+        },
+        {
+          "name": "鬼屋歌舞",
+          "count": 5
+        },
+        {
+          "name": "角色群像",
+          "count": 5
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 3
+        },
+        {
+          "name": "舞台式群像",
+          "count": 3
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+      "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+      "awarenessScore": 74,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-墓园幽灵群-b3adc750",
+        "role-活墓碑群-b7e5edc1",
+        "role-墓园怪脸群-c665485f",
+        "role-铁路幽灵-709197f7",
+        "role-长脸幽灵-18f9753a",
+        "role-圆头幽灵-32158073",
+        "role-巨手幽灵-517af00f",
+        "role-蜡烛幽灵-1b4ceb6e",
+        "role-活房间-cf1b19c0"
+      ]
+    },
+    {
+      "id": "role-蜡烛幽灵-1b4ceb6e",
+      "name": "蜡烛幽灵",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+      "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-swing-you-sinners-24ae4646"
+      ],
+      "recordIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016",
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "frameIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-swing-you-sinners-1930-growth-001",
+        "frame-supplement-swing-you-sinners-1930-growth-002",
+        "frame-supplement-swing-you-sinners-1930-growth-003",
+        "frame-supplement-swing-you-sinners-1930-growth-004",
+        "frame-supplement-swing-you-sinners-1930-growth-005",
+        "frame-supplement-swing-you-sinners-1930-growth-006",
+        "frame-supplement-swing-you-sinners-1930-growth-007",
+        "frame-supplement-swing-you-sinners-1930-growth-008",
+        "frame-supplement-swing-you-sinners-1930-growth-009",
+        "frame-supplement-swing-you-sinners-1930-growth-010",
+        "frame-supplement-swing-you-sinners-1930-growth-011",
+        "frame-supplement-swing-you-sinners-1930-growth-012",
+        "frame-supplement-swing-you-sinners-1930-growth-013",
+        "frame-supplement-swing-you-sinners-1930-growth-014",
+        "frame-supplement-swing-you-sinners-1930-growth-015",
+        "frame-supplement-swing-you-sinners-1930-growth-016"
+      ],
+      "workCount": 1,
+      "imageCount": 20,
+      "frameCount": 20,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "增长线索",
+        "鬼屋变形",
+        "旧动画群像",
+        "幽灵追逐",
+        "乐队 / 海报构图"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 21
+        },
+        {
+          "name": "万圣节公版动画",
+          "count": 16
+        },
+        {
+          "name": "旧动画群像与叙事场景",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵追逐与变形",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队与怪诞舞台",
+          "count": 3
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白橡皮管动画",
+          "count": 21
+        },
+        {
+          "name": "增长信号回溯",
+          "count": 16
+        },
+        {
+          "name": "超现实变形",
+          "count": 5
+        },
+        {
+          "name": "超现实追逐",
+          "count": 5
+        },
+        {
+          "name": "鬼屋歌舞",
+          "count": 5
+        },
+        {
+          "name": "角色群像",
+          "count": 5
+        },
+        {
+          "name": "鬼屋空间变形",
+          "count": 3
+        },
+        {
+          "name": "舞台式群像",
+          "count": 3
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 21
+        }
+      ],
+      "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+      "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+      "awarenessScore": 74,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism",
+        "role-墓园幽灵群-b3adc750",
+        "role-活墓碑群-b7e5edc1",
+        "role-墓园怪脸群-c665485f",
+        "role-铁路幽灵-709197f7",
+        "role-长脸幽灵-18f9753a",
+        "role-圆头幽灵-32158073",
+        "role-巨手幽灵-517af00f",
+        "role-墓园幽灵-cf309d3a",
+        "role-活房间-cf1b19c0"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}
