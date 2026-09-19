@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-16T04:23:38.211Z",
+  "generatedAt": "2026-09-19T04:42:27.130Z",
   "entity": {
     "id": "subject-ghosts-spiritualism",
     "name": "幽灵、鬼屋与通灵",
@@ -52,6 +52,10 @@
       "work-鬼怪素描-abaf8ede",
       "work-义平幽灵复仇-8f44b5f3",
       "work-鲤旗与钟馗旗-dd97e27f",
+      "work-the-skeleton-dance-8b38cda1",
+      "work-the-haunted-house-2de44826",
+      "work-swing-you-sinners-24ae4646",
+      "work-the-phantom-of-the-opera-e79aee58",
       "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
       "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
       "work-zhong-kui-supported-by-ghosts-8f0c0fce",
@@ -135,6 +139,23 @@
       "catalog-supplement-ghost-met-yoshihira-revenge",
       "frame-supplement-ghost-met-shoki-banner-001",
       "catalog-supplement-ghost-met-shoki-banner",
+      "frame-supplement-skeleton-dance-1929-001",
+      "frame-supplement-skeleton-dance-1929-002",
+      "frame-supplement-skeleton-dance-1929-003",
+      "frame-supplement-skeleton-dance-1929-004",
+      "catalog-supplement-skeleton-dance-1929",
+      "frame-supplement-haunted-house-1929-001",
+      "frame-supplement-haunted-house-1929-002",
+      "frame-supplement-haunted-house-1929-003",
+      "frame-supplement-haunted-house-1929-004",
+      "catalog-supplement-haunted-house-1929",
+      "frame-supplement-swing-you-sinners-1930-001",
+      "frame-supplement-swing-you-sinners-1930-002",
+      "frame-supplement-swing-you-sinners-1930-003",
+      "frame-supplement-swing-you-sinners-1930-004",
+      "catalog-supplement-swing-you-sinners-1930",
+      "frame-supplement-phantom-opera-1925-001",
+      "catalog-supplement-phantom-opera-1925",
       "catalog-belief-cma-163115",
       "catalog-belief-cma-136668",
       "catalog-belief-cma-135655",
@@ -190,13 +211,26 @@
       "frame-supplement-ghost-met-zhong-kui-001",
       "frame-supplement-ghost-met-demon-drawings-001",
       "frame-supplement-ghost-met-yoshihira-revenge-001",
-      "frame-supplement-ghost-met-shoki-banner-001"
+      "frame-supplement-ghost-met-shoki-banner-001",
+      "frame-supplement-skeleton-dance-1929-001",
+      "frame-supplement-skeleton-dance-1929-002",
+      "frame-supplement-skeleton-dance-1929-003",
+      "frame-supplement-skeleton-dance-1929-004",
+      "frame-supplement-haunted-house-1929-001",
+      "frame-supplement-haunted-house-1929-002",
+      "frame-supplement-haunted-house-1929-003",
+      "frame-supplement-haunted-house-1929-004",
+      "frame-supplement-swing-you-sinners-1930-001",
+      "frame-supplement-swing-you-sinners-1930-002",
+      "frame-supplement-swing-you-sinners-1930-003",
+      "frame-supplement-swing-you-sinners-1930-004",
+      "frame-supplement-phantom-opera-1925-001"
     ],
-    "workCount": 37,
-    "imageCount": 54,
-    "frameCount": 44,
+    "workCount": 41,
+    "imageCount": 67,
+    "frameCount": 57,
     "rightsBreakdown": {
-      "期限届满": 1,
+      "期限届满": 5,
       "未续期": 1,
       "公版 / 开放馆藏": 35
     },
@@ -213,6 +247,9 @@
       "1915 插图 · 期限届满",
       "1874 摄影 · 期限届满",
       "1893 摄影 · 期限届满",
+      "美国 1929 年作品 · 2025-01-01 进入公版",
+      "美国 1930 年作品 · 2026-01-01 进入公版",
+      "美国期限届满 · Commons 公版文件",
       "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
       "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
     ],
@@ -225,16 +262,22 @@
       "漫画 / 角色",
       "万圣节",
       "怪诞 / 魔法",
-      "宗教 / 神话"
+      "宗教 / 神话",
+      "电影 / 舞台",
+      "暗黑 / 怪诞"
     ],
     "topScenes": [
       {
         "name": "幽灵、鬼屋与通灵",
-        "count": 52
+        "count": 67
       },
       {
         "name": "妖怪、幽灵与民间护佑神",
         "count": 22
+      },
+      {
+        "name": "骷髅与死亡之舞",
+        "count": 15
       },
       {
         "name": "鬼怪",
@@ -263,16 +306,16 @@
       {
         "name": "鬼屋",
         "count": 7
-      },
-      {
-        "name": "双人搭档",
-        "count": 7
       }
     ],
     "topStyles": [
       {
         "name": "橡皮管动画",
         "count": 19
+      },
+      {
+        "name": "黑白橡皮管动画",
+        "count": 15
       },
       {
         "name": "Fleischer 怪诞",
@@ -305,16 +348,12 @@
       {
         "name": "浮世绘",
         "count": 6
-      },
-      {
-        "name": "魔术海报",
-        "count": 6
       }
     ],
     "topHolidays": [
       {
         "name": "万圣节",
-        "count": 71
+        "count": 88
       },
       {
         "name": "圣诞节",
@@ -323,8 +362,8 @@
     ],
     "usage": "按母题进入：白布幽灵、锁链亡灵、半透明显影、鬼屋喜剧、通灵摄影、舞台幻术与东亚幽魂。打开具体作品后，再取构图、动作和轮廓。",
     "avoid": "公版结论只覆盖列出的具体历史版本。避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
-    "awarenessScore": 28,
-    "sourceCount": 37,
+    "awarenessScore": 92,
+    "sourceCount": 41,
     "relatedEntityIds": [
       "subject-east-asian-ghosts",
       "role-舞台灵体-b5c936dc",
@@ -2112,6 +2151,287 @@
         "role-钟馗-2d4bb89f",
         "subject-ghosts-spiritualism",
         "subject-east-asian-ghosts"
+      ]
+    },
+    {
+      "id": "work-the-skeleton-dance-8b38cda1",
+      "title": "The Skeleton Dance",
+      "subtitle": "骷髅之舞 · Silly Symphony",
+      "year": "1929",
+      "yearSort": 1929,
+      "coverImage": "images/02a10da9043dd36686e7.webp",
+      "coverRecordId": "catalog-supplement-skeleton-dance-1929",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2025/",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons 原片抽帧；底层 1929 作品在美国期限届满"
+      ],
+      "usage": "骨架群舞、墓碑揭幕、圆环队列和身体变乐器；适合转译为扁平节奏图与重复骨架动作。",
+      "avoid": "只限 1929 原片具体表达；避开后期 Disney 修复配色、现代录音、品牌标识和官方授权混淆。",
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "黑白橡皮管动画",
+        "群舞节奏",
+        "骨架变形"
+      ],
+      "scenes": [
+        "骷髅与死亡之舞",
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "骷髅乐队"
+      ],
+      "characterAliases": [
+        "骷髅乐队"
+      ],
+      "recordIds": [
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "catalog-supplement-skeleton-dance-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004"
+      ],
+      "masterIds": [
+        "catalog-supplement-skeleton-dance-1929"
+      ],
+      "imageCount": 4,
+      "frameCount": 4,
+      "awarenessScore": 92,
+      "entityIds": [
+        "role-骷髅乐队-c975af3b",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-the-haunted-house-2de44826",
+      "title": "The Haunted House",
+      "subtitle": "鬼屋 · 1929 原片",
+      "year": "1929",
+      "yearSort": 1929,
+      "coverImage": "images/c365607a6b17bf0cbbf0.webp",
+      "coverRecordId": "catalog-supplement-haunted-house-1929",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2025/",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons 原片抽帧；底层 1929 作品在美国期限届满"
+      ],
+      "usage": "孤屋剪影、黑暗眼睛、骷髅乐队和骨头木琴；可拆成鬼屋空间与骨架演奏两套母题。",
+      "avoid": "原版 Mickey 的现代版本、Disney 标识和后期商品形象仍需避开；优先取场景机制，不直接角色商品化。",
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "黑白橡皮管动画",
+        "鬼屋剪影",
+        "骷髅乐队"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "鬼屋骷髅乐队"
+      ],
+      "characterAliases": [
+        "鬼屋骷髅乐队"
+      ],
+      "recordIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004"
+      ],
+      "masterIds": [
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "imageCount": 4,
+      "frameCount": 4,
+      "awarenessScore": 78,
+      "entityIds": [
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-swing-you-sinners-24ae4646",
+      "title": "Swing You Sinners!",
+      "subtitle": "罪人摇摆吧 · Fleischer",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+      "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2026/",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "美国 1930 年作品 · 2026-01-01 进入公版"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons 原片抽帧；底层 1930 作品在美国期限届满"
+      ],
+      "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+      "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "黑白橡皮管动画",
+        "超现实变形",
+        "鬼屋歌舞"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "墓园幽灵群"
+      ],
+      "characterAliases": [
+        "墓园幽灵群"
+      ],
+      "recordIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "frameIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004"
+      ],
+      "masterIds": [
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "imageCount": 4,
+      "frameCount": 4,
+      "awarenessScore": 74,
+      "entityIds": [
+        "role-墓园幽灵群-b3adc750",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-the-phantom-of-the-opera-e79aee58",
+      "title": "The Phantom of the Opera",
+      "subtitle": "1925 film still",
+      "year": "1925",
+      "yearSort": 1925,
+      "coverImage": "images/7129838edda8ba076b4a.webp",
+      "coverRecordId": "catalog-supplement-phantom-opera-1925",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Phantom_of_the_Opera_(1925)_-_9.jpg",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "美国期限届满 · Commons 公版文件"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons 标记 Public Domain"
+      ],
+      "usage": "歌剧院、面具、地下空间与高反差怪人肖像；适合哥特舞台和幕帘结构。",
+      "avoid": "只取 1925 具体影片表达；后期电影面具、演员形象和现代音乐剧商标另行保护。",
+      "tags": [
+        "万圣节",
+        "电影 / 舞台",
+        "暗黑 / 怪诞"
+      ],
+      "styles": [
+        "默片恐怖",
+        "哥特舞台",
+        "高反差肖像"
+      ],
+      "scenes": [
+        "经典恐怖电影空间"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "1925 Phantom"
+      ],
+      "characterAliases": [
+        "1925 Phantom"
+      ],
+      "recordIds": [
+        "frame-supplement-phantom-opera-1925-001",
+        "catalog-supplement-phantom-opera-1925"
+      ],
+      "frameIds": [
+        "frame-supplement-phantom-opera-1925-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-phantom-opera-1925"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 91,
+      "entityIds": [
+        "role-1925-phantom-7d9351c5",
+        "subject-ghosts-spiritualism"
       ]
     },
     {

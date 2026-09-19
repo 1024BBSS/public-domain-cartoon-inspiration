@@ -1,0 +1,232 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T04:42:27.130Z",
+  "work": {
+    "id": "work-watch-in-the-form-of-a-human-skull-672c8f09",
+    "title": "Watch in the Form of a Human Skull",
+    "subtitle": "Isaac Penard movement",
+    "year": "case ca. 1810–20",
+    "yearSort": 1810,
+    "coverImage": "images/7832210b5a3bbc9f8620.webp",
+    "coverRecordId": "catalog-supplement-skull-watch-1810",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/194166",
+    "sourceLabel": "The Met",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版 / 开放馆藏"
+    ],
+    "copyrightRoutes": [
+      "The Met Open Access · Public Domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "The Met 标记 Public Domain"
+    ],
+    "usage": "骷髅头与怀表合体；适合时间、死亡、机械装置和珠宝化结构。",
+    "avoid": "避免复制现代品牌手表、珠宝标识或受保护复刻商品。",
+    "tags": [
+      "万圣节",
+      "器物 / 建筑",
+      "怪诞 / 魔法"
+    ],
+    "styles": [
+      "骷髅器物",
+      "Memento Mori",
+      "金属工艺"
+    ],
+    "scenes": [
+      "骷髅与死亡之舞"
+    ],
+    "holidays": [
+      "万圣节"
+    ],
+    "characterNames": [
+      "骷髅怀表"
+    ],
+    "characterAliases": [
+      "骷髅怀表"
+    ],
+    "recordIds": [
+      "frame-supplement-skull-watch-1810-001",
+      "catalog-supplement-skull-watch-1810"
+    ],
+    "frameIds": [
+      "frame-supplement-skull-watch-1810-001"
+    ],
+    "masterIds": [
+      "catalog-supplement-skull-watch-1810"
+    ],
+    "imageCount": 1,
+    "frameCount": 1,
+    "awarenessScore": 72,
+    "entityIds": [
+      "role-骷髅怀表-90baf93c"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-骷髅怀表-90baf93c",
+      "name": "骷髅怀表",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/7832210b5a3bbc9f8620.webp",
+      "coverRecordId": "catalog-supplement-skull-watch-1810",
+      "yearStart": 1810,
+      "yearEnd": 1810,
+      "workIds": [
+        "work-watch-in-the-form-of-a-human-skull-672c8f09"
+      ],
+      "recordIds": [
+        "frame-supplement-skull-watch-1810-001",
+        "catalog-supplement-skull-watch-1810"
+      ],
+      "frameIds": [
+        "frame-supplement-skull-watch-1810-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "器物 / 建筑",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "金属工艺",
+          "count": 2
+        },
+        {
+          "name": "骷髅器物",
+          "count": 2
+        },
+        {
+          "name": "Memento Mori",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "骷髅头与怀表合体；适合时间、死亡、机械装置和珠宝化结构。",
+      "avoid": "避免复制现代品牌手表、珠宝标识或受保护复刻商品。",
+      "awarenessScore": 72,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    }
+  ],
+  "records": [
+    {
+      "title": "Watch in the Form of a Human Skull",
+      "year": "case ca. 1810–20",
+      "yearSort": 1810,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "The Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met 标记 Public Domain",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "usage": "骷髅头与怀表合体；适合时间、死亡、机械装置和珠宝化结构。",
+      "avoid": "避免复制现代品牌手表、珠宝标识或受保护复刻商品。",
+      "styles": [
+        "骷髅器物",
+        "Memento Mori",
+        "金属工艺"
+      ],
+      "scenes": [
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "骷髅怀表"
+      ],
+      "tags": [
+        "万圣节",
+        "器物 / 建筑",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 72,
+      "awarenessLevel": "馆藏特色",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [],
+      "riskFlags": [],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-classics-2026-09-19-v1",
+      "id": "frame-supplement-skull-watch-1810-001",
+      "kind": "动画画面",
+      "subtitle": "骷髅形怀表",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/194166",
+      "image": "images/7832210b5a3bbc9f8620.webp"
+    },
+    {
+      "title": "Watch in the Form of a Human Skull",
+      "year": "case ca. 1810–20",
+      "yearSort": 1810,
+      "rightsStatus": "公版 / 开放馆藏",
+      "copyrightRoute": "The Met Open Access · Public Domain",
+      "evidenceLevel": "A",
+      "imageRights": "The Met 标记 Public Domain",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "usage": "骷髅头与怀表合体；适合时间、死亡、机械装置和珠宝化结构。",
+      "avoid": "避免复制现代品牌手表、珠宝标识或受保护复刻商品。",
+      "styles": [
+        "骷髅器物",
+        "Memento Mori",
+        "金属工艺"
+      ],
+      "scenes": [
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "骷髅怀表"
+      ],
+      "tags": [
+        "万圣节",
+        "器物 / 建筑",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 72,
+      "awarenessLevel": "馆藏特色",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [],
+      "riskFlags": [],
+      "researchDate": "2026-09-19",
+      "supplementalSourceVersion": "halloween-classics-2026-09-19-v1",
+      "id": "catalog-supplement-skull-watch-1810",
+      "kind": "主档",
+      "subtitle": "Isaac Penard movement",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/194166",
+      "image": "images/7832210b5a3bbc9f8620.webp"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T04:42:27.130Z",
+  "entity": {
+    "id": "role-三头骨-85564678",
+    "name": "三头骨",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/a747b9ea3a92c8e33e7e.webp",
+    "coverRecordId": "catalog-supplement-cezanne-three-skulls",
+    "yearStart": 1902,
+    "yearEnd": 1902,
+    "workIds": [
+      "work-the-three-skulls-6dc216c4"
+    ],
+    "recordIds": [
+      "frame-supplement-cezanne-three-skulls-001",
+      "catalog-supplement-cezanne-three-skulls"
+    ],
+    "frameIds": [
+      "frame-supplement-cezanne-three-skulls-001"
+    ],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 1,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 1
+    },
+    "copyrightRoutes": [
+      "AIC Open Access · Public Domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "经典艺术",
+      "怪诞 / 魔法"
+    ],
+    "topScenes": [
+      {
+        "name": "骷髅与死亡之舞",
+        "count": 2
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "留白",
+        "count": 2
+      },
+      {
+        "name": "三联排列",
+        "count": 2
+      },
+      {
+        "name": "现代主义水彩",
+        "count": 2
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 2
+      }
+    ],
+    "usage": "三头骨水平排列、水彩留白与不完整边缘；适合克制、非写实的时尚平面重绘。",
+    "avoid": "避开现代博物馆商品版式和机构标识。",
+    "awarenessScore": 84,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-the-three-skulls-6dc216c4",
+      "title": "The Three Skulls",
+      "subtitle": "Paul Cézanne",
+      "year": "1902 / 1906",
+      "yearSort": 1902,
+      "coverImage": "images/a747b9ea3a92c8e33e7e.webp",
+      "coverRecordId": "catalog-supplement-cezanne-three-skulls",
+      "sourceUrl": "https://www.artic.edu/artworks/80336",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Art Institute of Chicago Open Access"
+      ],
+      "usage": "三头骨水平排列、水彩留白与不完整边缘；适合克制、非写实的时尚平面重绘。",
+      "avoid": "避开现代博物馆商品版式和机构标识。",
+      "tags": [
+        "万圣节",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "现代主义水彩",
+        "三联排列",
+        "留白"
+      ],
+      "scenes": [
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "三头骨"
+      ],
+      "characterAliases": [
+        "三头骨"
+      ],
+      "recordIds": [
+        "frame-supplement-cezanne-three-skulls-001",
+        "catalog-supplement-cezanne-three-skulls"
+      ],
+      "frameIds": [
+        "frame-supplement-cezanne-three-skulls-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-cezanne-three-skulls"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 84,
+      "entityIds": [
+        "role-三头骨-85564678"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

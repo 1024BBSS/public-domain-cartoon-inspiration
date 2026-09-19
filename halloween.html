@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="万圣节经典公版画面与 TikTok 近期趋势：可用原画和受保护 IP 分开浏览。">
+  <title>万圣节经典画面</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12'/%3E%3Cpath fill='white' d='M18 18h8v8h12v-8h8v28h-8V34H26v12h-8z'/%3E%3C/svg%3E">
+  <link rel="alternate" type="application/json" href="data/halloween.json?v=20260919.1" title="万圣节视觉与趋势数据">
+  <link rel="stylesheet" href="assets/tokens.css">
+  <link rel="stylesheet" href="assets/components.css">
+  <link rel="stylesheet" href="assets/halloween.css?v=20260919.1">
+  <script defer src="data/halloween.js?v=20260919.1"></script>
+  <script defer src="assets/halloween.js?v=20260919.1"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="topbar__title">万圣节经典画面</div>
+      <span class="topbar__meta" id="top-meta">载入中</span>
+      <div class="topbar__spacer"></div>
+      <div class="topbar__actions">
+        <a class="btn btn--ghost btn--sm" href="index.html">公版视觉</a>
+        <a class="btn btn--ghost btn--sm" href="albums.html">专辑封面</a>
+        <a class="btn btn--ghost btn--sm" href="data/halloween.json?v=20260919.1" target="_blank" rel="noreferrer">Agent JSON</a>
+        <button class="btn btn--primary btn--sm" id="copy-page" type="button">复制当前页</button>
+      </div>
+    </header>
+
+    <main class="halloween-main" id="main-content">
+      <section class="modebar" aria-label="资料层级">
+        <nav class="mode-tabs" id="mode-tabs"></nav>
+        <label class="search-field">
+          <span class="sr-only">搜索</span>
+          <input class="input" id="search" type="search" autocomplete="off" placeholder="搜画面、母题或角色">
+        </label>
+      </section>
+
+      <section class="scope-strip" id="scope-strip" aria-live="polite"></section>
+      <nav class="lane-tabs" id="lane-tabs" aria-label="画面类型"></nav>
+
+      <section class="result-head">
+        <div><strong id="result-title">经典画面</strong><span class="dim"> · </span><strong id="result-count">0</strong></div>
+        <div class="dim" id="result-note"></div>
+      </section>
+
+      <section class="work-grid" id="work-grid" aria-label="万圣节经典画面"></section>
+      <section class="signal-grid" id="signal-grid" aria-label="TikTok 趋势信号" hidden></section>
+
+      <div class="empty" id="empty-state" hidden>
+        <div class="empty__title">没有匹配项</div>
+        <div class="dim">缩短关键词或切换资料层级。</div>
+        <button class="btn btn--secondary btn--sm" id="empty-reset" type="button">清空筛选</button>
+      </div>
+    </main>
+  </div>
+
+  <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="detail-title">
+    <form method="dialog" class="dialog-close-row">
+      <button class="btn btn--ghost btn--sm" aria-label="关闭详情">关闭</button>
+    </form>
+    <div class="detail-layout">
+      <div class="detail-media detail-media--grid" id="detail-images"></div>
+      <article class="detail-copy">
+        <div class="eyebrow" id="detail-lane"></div>
+        <h1 id="detail-title"></h1>
+        <p class="detail-subtitle" id="detail-subtitle"></p>
+        <div class="badge-row" id="detail-badges"></div>
+        <dl class="detail-list">
+          <div><dt>可取</dt><dd id="detail-use"></dd></div>
+          <div><dt>避开</dt><dd id="detail-avoid"></dd></div>
+          <div><dt>风格</dt><dd id="detail-styles"></dd></div>
+          <div><dt>证据</dt><dd id="detail-evidence"></dd></div>
+        </dl>
+        <div class="detail-actions">
+          <a class="btn btn--secondary" id="detail-source" target="_blank" rel="noreferrer">原始来源</a>
+          <a class="btn btn--primary" id="detail-search">在总库查找</a>
+        </div>
+      </article>
+    </div>
+  </dialog>
+</body>
+</html>

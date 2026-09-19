@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T04:42:27.130Z",
+  "entity": {
+    "id": "role-地狱恶魔群-5077de70",
+    "name": "地狱恶魔群",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/a74eed2902c3f52c93db.webp",
+    "coverRecordId": "catalog-supplement-hells-bells-1929",
+    "yearStart": 1929,
+    "yearEnd": 1929,
+    "workIds": [
+      "work-hells-bells-a2645562"
+    ],
+    "recordIds": [
+      "frame-supplement-hells-bells-1929-001",
+      "frame-supplement-hells-bells-1929-002",
+      "frame-supplement-hells-bells-1929-003",
+      "frame-supplement-hells-bells-1929-004",
+      "catalog-supplement-hells-bells-1929"
+    ],
+    "frameIds": [
+      "frame-supplement-hells-bells-1929-001",
+      "frame-supplement-hells-bells-1929-002",
+      "frame-supplement-hells-bells-1929-003",
+      "frame-supplement-hells-bells-1929-004"
+    ],
+    "workCount": 1,
+    "imageCount": 4,
+    "frameCount": 4,
+    "rightsBreakdown": {
+      "期限届满": 1
+    },
+    "copyrightRoutes": [
+      "美国 1929 年作品 · 2025-01-01 进入公版"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "早期动画",
+      "怪诞 / 魔法"
+    ],
+    "topScenes": [
+      {
+        "name": "恶魔、火焰与坩埚",
+        "count": 5
+      },
+      {
+        "name": "骷髅与死亡之舞",
+        "count": 5
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "恶魔歌舞",
+        "count": 5
+      },
+      {
+        "name": "黑白橡皮管动画",
+        "count": 5
+      },
+      {
+        "name": "火焰剪影",
+        "count": 5
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 5
+      }
+    ],
+    "usage": "恶魔乐队、骨头击奏、巨大阴影、火焰与坩埚队列；适合黑白或红黑高反差图形重构。",
+    "avoid": "避开后期 Disney 品牌包装与现代修复配色；恶魔和宗教题材需另行核验目标市场与平台接受度。",
+    "awarenessScore": 68,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-hells-bells-a2645562",
+      "title": "Hell's Bells",
+      "subtitle": "地狱钟声 · Silly Symphony",
+      "year": "1929",
+      "yearSort": 1929,
+      "coverImage": "images/a74eed2902c3f52c93db.webp",
+      "coverRecordId": "catalog-supplement-hells-bells-1929",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2025/",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons 原片抽帧；底层 1929 作品在美国期限届满"
+      ],
+      "usage": "恶魔乐队、骨头击奏、巨大阴影、火焰与坩埚队列；适合黑白或红黑高反差图形重构。",
+      "avoid": "避开后期 Disney 品牌包装与现代修复配色；恶魔和宗教题材需另行核验目标市场与平台接受度。",
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "黑白橡皮管动画",
+        "恶魔歌舞",
+        "火焰剪影"
+      ],
+      "scenes": [
+        "恶魔、火焰与坩埚",
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "地狱恶魔群"
+      ],
+      "characterAliases": [
+        "地狱恶魔群"
+      ],
+      "recordIds": [
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004",
+        "catalog-supplement-hells-bells-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004"
+      ],
+      "masterIds": [
+        "catalog-supplement-hells-bells-1929"
+      ],
+      "imageCount": 4,
+      "frameCount": 4,
+      "awarenessScore": 68,
+      "entityIds": [
+        "role-地狱恶魔群-5077de70"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

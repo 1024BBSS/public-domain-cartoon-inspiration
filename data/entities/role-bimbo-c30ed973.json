@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-16T04:23:38.211Z",
+  "generatedAt": "2026-09-19T04:42:27.130Z",
   "entity": {
     "id": "role-bimbo-c30ed973",
     "name": "Bimbo",
@@ -1260,6 +1260,10 @@
         "work-鬼怪素描-abaf8ede",
         "work-义平幽灵复仇-8f44b5f3",
         "work-鲤旗与钟馗旗-dd97e27f",
+        "work-the-skeleton-dance-8b38cda1",
+        "work-the-haunted-house-2de44826",
+        "work-swing-you-sinners-24ae4646",
+        "work-the-phantom-of-the-opera-e79aee58",
         "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
         "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
         "work-zhong-kui-supported-by-ghosts-8f0c0fce",
@@ -1343,6 +1347,23 @@
         "catalog-supplement-ghost-met-yoshihira-revenge",
         "frame-supplement-ghost-met-shoki-banner-001",
         "catalog-supplement-ghost-met-shoki-banner",
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "catalog-supplement-skeleton-dance-1929",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "catalog-supplement-haunted-house-1929",
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "catalog-supplement-swing-you-sinners-1930",
+        "frame-supplement-phantom-opera-1925-001",
+        "catalog-supplement-phantom-opera-1925",
         "catalog-belief-cma-163115",
         "catalog-belief-cma-136668",
         "catalog-belief-cma-135655",
@@ -1398,13 +1419,26 @@
         "frame-supplement-ghost-met-zhong-kui-001",
         "frame-supplement-ghost-met-demon-drawings-001",
         "frame-supplement-ghost-met-yoshihira-revenge-001",
-        "frame-supplement-ghost-met-shoki-banner-001"
+        "frame-supplement-ghost-met-shoki-banner-001",
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-phantom-opera-1925-001"
       ],
-      "workCount": 37,
-      "imageCount": 54,
-      "frameCount": 44,
+      "workCount": 41,
+      "imageCount": 67,
+      "frameCount": 57,
       "rightsBreakdown": {
-        "期限届满": 1,
+        "期限届满": 5,
         "未续期": 1,
         "公版 / 开放馆藏": 35
       },
@@ -1421,6 +1455,9 @@
         "1915 插图 · 期限届满",
         "1874 摄影 · 期限届满",
         "1893 摄影 · 期限届满",
+        "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国期限届满 · Commons 公版文件",
         "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
         "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
       ],
@@ -1433,16 +1470,22 @@
         "漫画 / 角色",
         "万圣节",
         "怪诞 / 魔法",
-        "宗教 / 神话"
+        "宗教 / 神话",
+        "电影 / 舞台",
+        "暗黑 / 怪诞"
       ],
       "topScenes": [
         {
           "name": "幽灵、鬼屋与通灵",
-          "count": 52
+          "count": 67
         },
         {
           "name": "妖怪、幽灵与民间护佑神",
           "count": 22
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 15
         },
         {
           "name": "鬼怪",
@@ -1471,16 +1514,16 @@
         {
           "name": "鬼屋",
           "count": 7
-        },
-        {
-          "name": "双人搭档",
-          "count": 7
         }
       ],
       "topStyles": [
         {
           "name": "橡皮管动画",
           "count": 19
+        },
+        {
+          "name": "黑白橡皮管动画",
+          "count": 15
         },
         {
           "name": "Fleischer 怪诞",
@@ -1513,16 +1556,12 @@
         {
           "name": "浮世绘",
           "count": 6
-        },
-        {
-          "name": "魔术海报",
-          "count": 6
         }
       ],
       "topHolidays": [
         {
           "name": "万圣节",
-          "count": 71
+          "count": 88
         },
         {
           "name": "圣诞节",
@@ -1531,8 +1570,8 @@
       ],
       "usage": "按母题进入：白布幽灵、锁链亡灵、半透明显影、鬼屋喜剧、通灵摄影、舞台幻术与东亚幽魂。打开具体作品后，再取构图、动作和轮廓。",
       "avoid": "公版结论只覆盖列出的具体历史版本。避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
-      "awarenessScore": 28,
-      "sourceCount": 37,
+      "awarenessScore": 92,
+      "sourceCount": 41,
       "relatedEntityIds": [
         "subject-east-asian-ghosts",
         "role-舞台灵体-b5c936dc",

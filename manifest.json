@@ -1,53 +1,66 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-16T04:46:57.426Z",
+  "generatedAt": "2026-09-19T04:50:12.888Z",
   "sourceVersion": "9.6",
   "publicScope": "美国市场公版卡通视觉灵感；只含已确认期限届满、未续期、公共领域或 CC0 路径，排除待复核项。",
   "counts": {
-    "records": 733,
-    "uniqueImages": 693,
-    "imageBytes": 25576674,
+    "records": 767,
+    "uniqueImages": 716,
+    "imageBytes": 26390966,
     "byKind": {
-      "主档": 247,
-      "动画画面": 486
+      "主档": 258,
+      "动画画面": 509
     },
     "byRights": {
-      "期限届满": 433,
+      "期限届满": 457,
       "未续期": 140,
-      "公版 / 开放馆藏": 148,
+      "公版 / 开放馆藏": 158,
       "公版文件": 11,
       "CC0 / 公版开放馆藏": 1
     },
     "byTag": {
-      "早期动画": 546,
+      "早期动画": 566,
       "漫画 / 角色": 403,
       "童话 / 寓言": 97,
       "动物 / 自然": 306,
-      "怪诞 / 魔法": 236,
-      "万圣节": 153,
+      "怪诞 / 魔法": 266,
+      "万圣节": 187,
       "圣诞 / 冬季": 98,
       "宗教 / 神话": 120,
-      "生活 / 节庆": 10
+      "生活 / 节庆": 10,
+      "版画 / 纹样": 4,
+      "经典艺术": 4,
+      "器物 / 建筑": 2,
+      "电影 / 舞台": 4,
+      "暗黑 / 怪诞": 4
     }
   },
-  "catalogSha256": "9aafcfa7bdc6dbf8b9d43fd8a416a78f03275913d688500f197cb0c1bfa141f9",
-  "relationsSha256": "3e3b38ad6683c2a7372d5786f452d88e2dbfd9461175f5afe77dd31209dbdcf9",
+  "catalogSha256": "41850439ff2013cb0c7af204cd176bb34abb8f2df6c12930a77588e106a10a1d",
+  "relationsSha256": "6c61ef5a3514cfb7abcda5a4339832139f050246f61b4f4961c91b7bc6a40548",
   "relationCounts": {
-    "entities": 190,
-    "characters": 54,
+    "entities": 201,
+    "characters": 63,
     "subjectHubs": 11,
-    "works": 271,
-    "scenes": 129,
+    "works": 282,
+    "scenes": 132,
     "holidays": 8,
-    "records": 733
+    "records": 767
+  },
+  "halloweenSha256": "fed7cffed7b38fc778fd28dc68c238ca8fdfa79a001b368379d9fbddb6d6b341",
+  "halloweenCounts": {
+    "works": 11,
+    "images": 23,
+    "signals": 5,
+    "blocked": 3
   },
   "supplemental": {
     "sourceVersions": [
       "cartoon-ip-grok-clues-2026-09-16-v1",
-      "ghost-commercial-2026-09-16-v1"
+      "ghost-commercial-2026-09-16-v1",
+      "halloween-classics-2026-09-19-v1"
     ],
-    "workCount": 31,
-    "recordCount": 93
+    "workCount": 42,
+    "recordCount": 127
   },
   "exclusions": [
     "未续期待复核",

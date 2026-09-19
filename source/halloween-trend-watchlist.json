@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.0",
+  "sourceVersion": "halloween-tiktok-watch-2026-09-19-v1",
+  "observedAt": "2026-09-19T18:00:00+08:00",
+  "window": {
+    "from": "2026-09-04",
+    "to": "2026-09-19",
+    "label": "近 15 天"
+  },
+  "method": "TikTok 登录态公开搜索页的定点样本；以发布时间、可见互动量、重复元素和商业内容密度记录信号。不是全平台抽样，也没有前期基线，因此不得写成已验证增长率或销量结论。",
+  "queries": [
+    "https://www.tiktok.com/search?q=halloween%20skeleton",
+    "https://www.tiktok.com/search?q=halloween%202026",
+    "https://www.tiktok.com/search?q=halloween%20decor%202026",
+    "https://www.tiktok.com/search?q=halloween%20shirt%202026",
+    "https://www.tiktok.com/search?q=disney%20halloween%202026"
+  ],
+  "signals": [
+    {
+      "id": "yard-skeleton-theatre",
+      "rank": 1,
+      "title": "院落骷髅剧场",
+      "status": "近期高频",
+      "rights": "通用母题可转译",
+      "lane": "场景",
+      "summary": "超大骨架不再单摆，而是与门廊、墓碑、玉米、南瓜灯和灯串组成完整小剧场。",
+      "visualGrammar": ["超大骨架", "门廊层叠", "墓碑", "玉米迷宫", "南瓜灯"],
+      "publicDomainBridge": ["The Skeleton Dance", "The Haunted House", "The Dance of Death"],
+      "use": "取骨架动作、队列和场景关系；重画为独立构图，不照搬零售道具造型。",
+      "evidence": [
+        {"label": "Haunted Corn Maze · 16 小时 · 2,311", "url": "https://www.tiktok.com/@macy.blackwell/video/7686846305418677534"},
+        {"label": "Haunted Corn Maze · 2 天 · 1,915", "url": "https://www.tiktok.com/@macy.blackwell/video/7686332139792600351"},
+        {"label": "Skeleton decor · 4 天 · 3,083", "url": "https://www.tiktok.com/@stephaniegarcia472/video/7685369566280551694"},
+        {"label": "Skeletons are ready · 4 天 · 4,432", "url": "https://www.tiktok.com/@the.wifefiles/video/7685572815642184991"}
+      ]
+    },
+    {
+      "id": "flat-skeleton-graphics",
+      "rank": 2,
+      "title": "扁平骷髅图案",
+      "status": "近期高频",
+      "rights": "通用母题可转译",
+      "lane": "服装图案",
+      "summary": "旧海报式排字、骨架乐队、圆形徽章和单色龟裂印刷反复出现；画面偏复古，不追求写实 3D。",
+      "visualGrammar": ["骨架乐队", "旧海报排字", "圆形徽章", "单色龟裂", "黑白高反差"],
+      "publicDomainBridge": ["The Skeleton Dance", "Hell's Bells", "Memento Mori"],
+      "use": "优先从公版骨架动作与木刻线条重画，避开电影角色脸、乐队名和现成周边版式。",
+      "evidence": [
+        {"label": "Halloween sweatshirt · 9-4 · 6,374", "url": "https://www.tiktok.com/@humfrbwv4dv/video/7681473325792595230"},
+        {"label": "Skeleton bead pattern · 9-10 · 4,083", "url": "https://www.tiktok.com/@glenwildartstudio/video/7683697886890085645"},
+        {"label": "Halloween T-shirt · 9-9 · 32.4K", "url": "https://www.tiktok.com/@calebshopfinds/video/7683404534303018271"}
+      ]
+    },
+    {
+      "id": "cute-ghost-black-cat",
+      "rank": 3,
+      "title": "可爱幽灵＋黑猫",
+      "status": "近期高频",
+      "rights": "通用母题可转译",
+      "lane": "角色组合",
+      "summary": "圆角白布幽灵与黑猫、咖啡、蝙蝠或南瓜形成低恐怖、可全年穿的轻怪诞组合。",
+      "visualGrammar": ["白布幽灵", "黑猫", "咖啡", "圆角轮廓", "少量橙色"],
+      "publicDomainBridge": ["The Ghost in the Stereoscope", "早期通灵摄影", "Swing You Sinners!"],
+      "use": "使用基础幽灵与猫的关系，避免 Casper、Ghostbusters、Disney Haunted Mansion 的特征。",
+      "evidence": [
+        {"label": "Ghost + black cat T-shirt · 8-27 · 1,232", "url": "https://www.tiktok.com/@sage.studio199x/video/7678267317108657422"},
+        {"label": "Boo ghost product · 9-5 · 18.3K", "url": "https://www.tiktok.com/@easy.findsstore/video/7681753614993411342"}
+      ]
+    },
+    {
+      "id": "vintage-halloween-collage",
+      "rank": 4,
+      "title": "复古 Halloween 拼贴",
+      "status": "持续信号",
+      "rights": "需逐图清权",
+      "lane": "风格",
+      "summary": "旧纸色、粗衬线字、南瓜、骷髅、女巫和鬼屋密集拼贴；“vintage”常被用来包装现代受保护角色，不能只凭风格判断。",
+      "visualGrammar": ["旧纸色", "粗衬线字", "密集贴纸", "黑橙米色", "假旧印刷"],
+      "publicDomainBridge": ["历史 Halloween 明信片", "Dance of Death 木刻", "1920s–1930s 动画"],
+      "use": "每个主体都回到公版原图或自行重画；不要混入现代影视角色拼贴。",
+      "evidence": [
+        {"label": "Vintage wrapping + skeleton dance · 1 天 · 1,119", "url": "https://www.tiktok.com/@before.the.ribbon/video/7686655436736744717"},
+        {"label": "Vintage Halloween decor · 7-7 · 57.1K（背景信号）", "url": "https://www.tiktok.com/@courtney_bullock/photo/7659508054873918733"}
+      ]
+    },
+    {
+      "id": "diy-graveyard-silhouettes",
+      "rank": 5,
+      "title": "DIY 墓碑与幽灵剪影",
+      "status": "近期高频",
+      "rights": "通用母题可转译",
+      "lane": "DIY",
+      "summary": "低成本墓碑、手绘鬼脸、BOO 字牌和黑色剪影进入庭院；重点是远距离一眼能读。",
+      "visualGrammar": ["简化墓碑", "手绘鬼脸", "BOO 字牌", "黑色剪影", "庭院阵列"],
+      "publicDomainBridge": ["The Haunted House", "Swing You Sinners!", "历史墓园版画"],
+      "use": "用公版墓园、鬼屋和幽灵画面重新组合，不复制零售模板或品牌字样。",
+      "evidence": [
+        {"label": "Garden tombstone DIY · 20 小时 · 9,924", "url": "https://www.tiktok.com/@pflanessa/video/7686776005771447584"},
+        {"label": "BOO yard sign · 1 天 · 452", "url": "https://www.tiktok.com/@lifeinoklahoma/video/7686715367615417631"}
+      ]
+    }
+  ],
+  "blocked": [
+    {
+      "id": "modern-slashers",
+      "title": "现代砍杀电影角色",
+      "status": "IP-BLOCK / 需授权",
+      "examples": ["Ghostface / Scream", "Michael Myers / Halloween", "Freddy Krueger", "Jason Voorhees", "Art the Clown", "Pennywise"],
+      "signal": "TikTok 服装与 T 恤结果中反复出现角色脸、面具、电影名和合辑式印花。",
+      "use": "只能提炼匿名机制：高反差面具、单一竖直人影、旧录像噪点、红黑留白。",
+      "avoid": "不得复制角色脸、面具轮廓、服装组合、片名、台词、海报或演员肖像。",
+      "sources": [
+        {"label": "Michael Myers shirt · 1 小时", "url": "https://www.tiktok.com/@thefashionbusiness2509/video/7687082549075512606"},
+        {"label": "Halloween decor + Ghostface · 当日", "url": "https://www.tiktok.com/@faviolacruz75/video/7687099242481061133"}
+      ]
+    },
+    {
+      "id": "disney-halloween",
+      "title": "Disney Halloween",
+      "status": "IP-BLOCK / 需授权",
+      "examples": ["Mickey pumpkin", "Haunted Mansion", "Oogie Boogie", "Jack Skellington", "Hocus Pocus", "Cutie Ghost Collection"],
+      "signal": "近 15 天搜索页持续出现 Oogie Boogie Bash、Haunted Mansion Holiday、Nightmare Before Christmas 和 2026 商品。",
+      "use": "只观察节庆组织方式：南瓜门头、角色巡游、哥特屋、紫橙灯光和可爱幽灵配色。",
+      "avoid": "不得复制角色、角色轮廓、名字、音乐、标志、道具组合或官方商品图。",
+      "sources": [
+        {"label": "Disneyland Halloween 2026 · 9-6", "url": "https://www.tiktok.com/@shootingstaarmedia/video/7682449354866642190"},
+        {"label": "Nightmare Before Christmas · 9-10 · 1,385", "url": "https://www.tiktok.com/@gabrielle.luizzi/video/7683703982182714655"},
+        {"label": "Haunted Mansion Holiday · 5 天前", "url": "https://www.tiktok.com/@itsvikashem/video/7685232848298806542"},
+        {"label": "Disney 2026 Cutie Ghost merch · 8-15", "url": "https://www.tiktok.com/@jackedelsa/video/7674052620578802957"},
+        {"label": "D23 Haunted Mansion", "url": "https://d23.com/a-to-z/haunted-mansion/"},
+        {"label": "D23 Haunted Mansion Holiday", "url": "https://d23.com/everything-you-need-to-know-about-haunted-mansion-holiday/"}
+      ]
+    },
+    {
+      "id": "licensed-animatronics",
+      "title": "授权动画与游戏装置",
+      "status": "IP-BLOCK / 需授权",
+      "examples": ["Coraline Other Mother", "Five Nights at Freddy's", "Universal Halloween Horror Nights"],
+      "signal": "近期搜索结果出现授权充气/机械装置、主题公园活动和角色服装。",
+      "use": "只观察机械幅度、巨大比例和舞台灯光，不复制角色。",
+      "avoid": "不得使用角色名、脸、服装、品牌活动名称、官方道具或场景复刻。",
+      "sources": [
+        {"label": "Coraline licensed animatronic · 4 天 · 3,956", "url": "https://www.tiktok.com/@tomnicks.monsters/video/7685557899002678559"},
+        {"label": "FNAF display + shirt · 7-29 · 9,278", "url": "https://www.tiktok.com/@cec.ptt.rae/photo/7667710884218801439"},
+        {"label": "Halloween Horror Nights outfit · 9-9 · 972", "url": "https://www.tiktok.com/@nocturnadess/video/7683350299972570398"}
+      ]
+    }
+  ],
+  "rightsSources": [
+    {"label": "Duke Public Domain Day 2025", "url": "https://cspd.law.duke.edu/publicdomainday/2025/"},
+    {"label": "Duke Public Domain Day 2026", "url": "https://cspd.law.duke.edu/publicdomainday/2026/"},
+    {"label": "D23 · The Skeleton Dance", "url": "https://d23.com/this-day/the-skeleton-dance-premieres/"},
+    {"label": "TikTok · Halloween search", "url": "https://www.tiktok.com/search?q=halloween%202026"}
+  ]
+}

@@ -1,16 +1,16 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-16T04:46:57.426Z",
+  "generatedAt": "2026-09-19T04:50:12.888Z",
   "scope": "由公开目录生成的角色、主体、作品、场景与节日关系层；权利状态继承具体记录，不扩大原结论。",
   "counts": {
-    "entities": 190,
-    "characters": 54,
+    "entities": 201,
+    "characters": 63,
     "subjectHubs": 11,
-    "works": 271,
-    "scenes": 129,
+    "works": 282,
+    "scenes": 132,
     "holidays": 8,
-    "records": 733
+    "records": 767
   },
   "entities": [
     {
@@ -1232,6 +1232,381 @@
       ]
     },
     {
+      "id": "subject-ghosts-spiritualism",
+      "name": "幽灵、鬼屋与通灵",
+      "type": "文化题材",
+      "aliases": [
+        "鬼怪",
+        "鬼屋",
+        "灵体",
+        "通灵",
+        "幽灵",
+        "Apparition",
+        "Ghost",
+        "Haunting",
+        "Phantom",
+        "Séance",
+        "Spirit"
+      ],
+      "virtual": true,
+      "coverImage": "images/2e583b2aae5a2e17ef41.webp",
+      "coverRecordId": "catalog-supplement-ghost-christmas-frolic-1814",
+      "yearStart": 1200,
+      "yearEnd": 1931,
+      "workIds": [
+        "work-mysterious-mose夜间怪谈-06a0b703",
+        "work-wot-a-night-cb97ee02",
+        "work-立体镜中的幽灵-f0be4d30",
+        "work-孤儿在母亲墓前-23a2d5dc",
+        "work-通灵会灵体合成照-3c8907c2",
+        "work-马利的幽灵-436b638e",
+        "work-撒母耳的幽灵向扫罗显现-54e3a978",
+        "work-玛格丽特的幽灵向浮士德显现-f9fe58a8",
+        "work-巫术-2cb43daf",
+        "work-玫瑰魔术师与超自然生物-36d50d1c",
+        "work-灵魂会回来吗-ba38546d",
+        "work-圣女贞德与异象-77bed1c9",
+        "work-巫术场景-黄昏-5e91ed00",
+        "work-幽灵-一场圣诞恶作剧-d2a5c039",
+        "work-马利的幽灵-拉克姆版-917905df",
+        "work-布盖通灵摄影-296427a4",
+        "work-休息的幽灵演奏者-6db9d5b8",
+        "work-幽灵与油灯-1fb37b14",
+        "work-闹鬼的汽车-e6442b01",
+        "work-newmann-的灵体奇术-576434db",
+        "work-闹鬼的小路-1ee678e8",
+        "work-哈姆雷特追随父亲幽灵-c3f90678",
+        "work-冈崎猫妖怪谈-bd4f4df0",
+        "work-钟馗-35122b8b",
+        "work-鬼怪素描-abaf8ede",
+        "work-义平幽灵复仇-8f44b5f3",
+        "work-鲤旗与钟馗旗-dd97e27f",
+        "work-the-skeleton-dance-8b38cda1",
+        "work-the-haunted-house-2de44826",
+        "work-swing-you-sinners-24ae4646",
+        "work-the-phantom-of-the-opera-e79aee58",
+        "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
+        "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
+        "work-zhong-kui-supported-by-ghosts-8f0c0fce",
+        "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
+        "work-ghosts-of-the-taira-at-daimotsu-bay-4e6f02fe",
+        "work-a-boat-cast-adrift-ukifune-omatsu-and-akabori-mizuemon-0e3ed557",
+        "work-a-molted-cicada-shell-utsusemi-soga-goro-tokimune-from-9e43ce93",
+        "work-exile-to-suma-suma-tamaori-hime-from-the-series-scenes-606f10d3",
+        "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
+        "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35"
+      ],
+      "recordIds": [
+        "frame-mysterious-mose-1930-001",
+        "frame-mysterious-mose-1930-002",
+        "frame-mysterious-mose-1930-003",
+        "frame-mysterious-mose-1930-004",
+        "frame-mysterious-mose-1930-005",
+        "frame-mysterious-mose-1930-006",
+        "frame-mysterious-mose-1930-007",
+        "frame-mysterious-mose-1930-008",
+        "frame-mysterious-mose-1930-009",
+        "frame-mysterious-mose-1930-010",
+        "frame-mysterious-mose-1930-011",
+        "frame-mysterious-mose-1930-012",
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006",
+        "catalog-supplement-van-beuren-wot-a-night-1931",
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "catalog-supplement-ghost-stereoscope-1856",
+        "frame-supplement-ghost-orphans-grave-1889-001",
+        "catalog-supplement-ghost-orphans-grave-1889",
+        "frame-supplement-ghost-hallowell-composite-1901-001",
+        "catalog-supplement-ghost-hallowell-composite-1901",
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "catalog-supplement-ghost-marley-leech-1843",
+        "frame-supplement-ghost-samuel-blake-001",
+        "catalog-supplement-ghost-samuel-blake",
+        "frame-supplement-ghost-marguerite-delacroix-1828-001",
+        "catalog-supplement-ghost-marguerite-delacroix-1828",
+        "frame-supplement-ghost-witchcraft-fantin-1899-001",
+        "catalog-supplement-ghost-witchcraft-fantin-1899",
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "catalog-supplement-ghost-magician-roses-1892",
+        "frame-supplement-ghost-thurston-1915-001",
+        "catalog-supplement-ghost-thurston-1915",
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "catalog-supplement-ghost-joan-arc-1879",
+        "frame-supplement-ghost-witchcraft-evening-001",
+        "catalog-supplement-ghost-witchcraft-evening",
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "catalog-supplement-ghost-christmas-frolic-1814",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "catalog-supplement-ghost-rackham-marley-1915",
+        "catalog-supplement-ghost-rackham-phantoms-1915",
+        "frame-supplement-ghost-buguet-1874-001",
+        "catalog-supplement-ghost-buguet-1874",
+        "frame-supplement-ghost-underwood-1893-001",
+        "catalog-supplement-ghost-underwood-1893",
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "catalog-supplement-ghost-oil-lamp-1810",
+        "frame-supplement-ghost-haunted-auto-1910-001",
+        "catalog-supplement-ghost-haunted-auto-1910",
+        "frame-supplement-ghost-newmann-1911-001",
+        "catalog-supplement-ghost-newmann-1911",
+        "frame-supplement-ghost-haunted-lane-1889-001",
+        "catalog-supplement-ghost-haunted-lane-1889",
+        "frame-supplement-ghost-hamlet-delacroix-1835-001",
+        "catalog-supplement-ghost-hamlet-delacroix-1835",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "catalog-supplement-ghost-met-cat-demon",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "catalog-supplement-ghost-met-zhong-kui",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "catalog-supplement-ghost-met-demon-drawings",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "catalog-supplement-ghost-met-yoshihira-revenge",
+        "frame-supplement-ghost-met-shoki-banner-001",
+        "catalog-supplement-ghost-met-shoki-banner",
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "catalog-supplement-skeleton-dance-1929",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "catalog-supplement-haunted-house-1929",
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "catalog-supplement-swing-you-sinners-1930",
+        "frame-supplement-phantom-opera-1925-001",
+        "catalog-supplement-phantom-opera-1925",
+        "catalog-belief-cma-163115",
+        "catalog-belief-cma-136668",
+        "catalog-belief-cma-135655",
+        "catalog-belief-met-58892",
+        "catalog-belief-met-55743",
+        "catalog-belief-met-789147",
+        "catalog-belief-met-789145",
+        "catalog-belief-met-789148",
+        "catalog-belief-met-789144",
+        "catalog-belief-met-76582"
+      ],
+      "frameIds": [
+        "frame-mysterious-mose-1930-001",
+        "frame-mysterious-mose-1930-002",
+        "frame-mysterious-mose-1930-003",
+        "frame-mysterious-mose-1930-004",
+        "frame-mysterious-mose-1930-005",
+        "frame-mysterious-mose-1930-006",
+        "frame-mysterious-mose-1930-007",
+        "frame-mysterious-mose-1930-008",
+        "frame-mysterious-mose-1930-009",
+        "frame-mysterious-mose-1930-010",
+        "frame-mysterious-mose-1930-011",
+        "frame-mysterious-mose-1930-012",
+        "frame-supplement-van-beuren-wot-a-night-1931-001",
+        "frame-supplement-van-beuren-wot-a-night-1931-002",
+        "frame-supplement-van-beuren-wot-a-night-1931-003",
+        "frame-supplement-van-beuren-wot-a-night-1931-004",
+        "frame-supplement-van-beuren-wot-a-night-1931-005",
+        "frame-supplement-van-beuren-wot-a-night-1931-006",
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "frame-supplement-ghost-orphans-grave-1889-001",
+        "frame-supplement-ghost-hallowell-composite-1901-001",
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "frame-supplement-ghost-samuel-blake-001",
+        "frame-supplement-ghost-marguerite-delacroix-1828-001",
+        "frame-supplement-ghost-witchcraft-fantin-1899-001",
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "frame-supplement-ghost-thurston-1915-001",
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "frame-supplement-ghost-witchcraft-evening-001",
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "frame-supplement-ghost-buguet-1874-001",
+        "frame-supplement-ghost-underwood-1893-001",
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "frame-supplement-ghost-haunted-auto-1910-001",
+        "frame-supplement-ghost-newmann-1911-001",
+        "frame-supplement-ghost-haunted-lane-1889-001",
+        "frame-supplement-ghost-hamlet-delacroix-1835-001",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "frame-supplement-ghost-met-shoki-banner-001",
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "frame-supplement-phantom-opera-1925-001"
+      ],
+      "workCount": 41,
+      "imageCount": 67,
+      "frameCount": 57,
+      "rightsBreakdown": {
+        "期限届满": 5,
+        "未续期": 1,
+        "公版 / 开放馆藏": 35
+      },
+      "copyrightRoutes": [
+        "期限届满",
+        "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
+        "Met Open Access · Public Domain",
+        "LOC · No known restrictions",
+        "1843 初版插图 · 期限届满",
+        "NGA Open Access",
+        "AIC Open Access · CC0",
+        "CMA Open Access · CC0",
+        "1814 版画 · LOC No known restrictions",
+        "1915 插图 · 期限届满",
+        "1874 摄影 · 期限届满",
+        "1893 摄影 · 期限届满",
+        "美国 1929 年作品 · 2025-01-01 进入公版",
+        "美国 1930 年作品 · 2026-01-01 进入公版",
+        "美国期限届满 · Commons 公版文件",
+        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
+        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
+      ],
+      "evidenceLevels": [
+        "A",
+        "B"
+      ],
+      "tags": [
+        "早期动画",
+        "漫画 / 角色",
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话",
+        "电影 / 舞台",
+        "暗黑 / 怪诞"
+      ],
+      "topScenes": [
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 67
+        },
+        {
+          "name": "妖怪、幽灵与民间护佑神",
+          "count": 22
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 15
+        },
+        {
+          "name": "鬼怪",
+          "count": 12
+        },
+        {
+          "name": "夜晚",
+          "count": 12
+        },
+        {
+          "name": "音乐 / 舞蹈",
+          "count": 12
+        },
+        {
+          "name": "追逐",
+          "count": 12
+        },
+        {
+          "name": "东亚道教、神道与民间信仰",
+          "count": 10
+        },
+        {
+          "name": "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神",
+          "count": 10
+        },
+        {
+          "name": "鬼屋",
+          "count": 7
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "橡皮管动画",
+          "count": 19
+        },
+        {
+          "name": "黑白橡皮管动画",
+          "count": 15
+        },
+        {
+          "name": "Fleischer 怪诞",
+          "count": 12
+        },
+        {
+          "name": "暗黑 / 怪诞",
+          "count": 10
+        },
+        {
+          "name": "神话 / 魔法",
+          "count": 10
+        },
+        {
+          "name": "通灵摄影",
+          "count": 10
+        },
+        {
+          "name": "宗教 / 仪式",
+          "count": 10
+        },
+        {
+          "name": "鬼屋喜剧",
+          "count": 7
+        },
+        {
+          "name": "黑白动画",
+          "count": 7
+        },
+        {
+          "name": "浮世绘",
+          "count": 6
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 88
+        },
+        {
+          "name": "圣诞节",
+          "count": 8
+        }
+      ],
+      "usage": "按母题进入：白布幽灵、锁链亡灵、半透明显影、鬼屋喜剧、通灵摄影、舞台幻术与东亚幽魂。打开具体作品后，再取构图、动作和轮廓。",
+      "avoid": "公版结论只覆盖列出的具体历史版本。避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
+      "awarenessScore": 92,
+      "sourceCount": 41,
+      "relatedEntityIds": [
+        "subject-east-asian-ghosts",
+        "role-舞台灵体-b5c936dc",
+        "subject-jesus-christian-iconography",
+        "role-marleys-ghost-0861a74f",
+        "role-白布幽灵-0f2aa01a",
+        "role-钟馗-2d4bb89f",
+        "role-betty-boop-16ad409c",
+        "role-bimbo-c30ed973",
+        "role-mysterious-mose-1e6192c3",
+        "role-van-beuren-human-duo-2d6c075a"
+      ]
+    },
+    {
       "id": "role-bimbo-c30ed973",
       "name": "Bimbo",
       "type": "角色",
@@ -1497,342 +1872,6 @@
         "role-餐厅动物群像-118f7c78",
         "role-accordion-joe-64041640",
         "role-mysterious-mose-1e6192c3"
-      ]
-    },
-    {
-      "id": "subject-ghosts-spiritualism",
-      "name": "幽灵、鬼屋与通灵",
-      "type": "文化题材",
-      "aliases": [
-        "鬼怪",
-        "鬼屋",
-        "灵体",
-        "通灵",
-        "幽灵",
-        "Apparition",
-        "Ghost",
-        "Haunting",
-        "Phantom",
-        "Séance",
-        "Spirit"
-      ],
-      "virtual": true,
-      "coverImage": "images/2e583b2aae5a2e17ef41.webp",
-      "coverRecordId": "catalog-supplement-ghost-christmas-frolic-1814",
-      "yearStart": 1200,
-      "yearEnd": 1931,
-      "workIds": [
-        "work-mysterious-mose夜间怪谈-06a0b703",
-        "work-wot-a-night-cb97ee02",
-        "work-立体镜中的幽灵-f0be4d30",
-        "work-孤儿在母亲墓前-23a2d5dc",
-        "work-通灵会灵体合成照-3c8907c2",
-        "work-马利的幽灵-436b638e",
-        "work-撒母耳的幽灵向扫罗显现-54e3a978",
-        "work-玛格丽特的幽灵向浮士德显现-f9fe58a8",
-        "work-巫术-2cb43daf",
-        "work-玫瑰魔术师与超自然生物-36d50d1c",
-        "work-灵魂会回来吗-ba38546d",
-        "work-圣女贞德与异象-77bed1c9",
-        "work-巫术场景-黄昏-5e91ed00",
-        "work-幽灵-一场圣诞恶作剧-d2a5c039",
-        "work-马利的幽灵-拉克姆版-917905df",
-        "work-布盖通灵摄影-296427a4",
-        "work-休息的幽灵演奏者-6db9d5b8",
-        "work-幽灵与油灯-1fb37b14",
-        "work-闹鬼的汽车-e6442b01",
-        "work-newmann-的灵体奇术-576434db",
-        "work-闹鬼的小路-1ee678e8",
-        "work-哈姆雷特追随父亲幽灵-c3f90678",
-        "work-冈崎猫妖怪谈-bd4f4df0",
-        "work-钟馗-35122b8b",
-        "work-鬼怪素描-abaf8ede",
-        "work-义平幽灵复仇-8f44b5f3",
-        "work-鲤旗与钟馗旗-dd97e27f",
-        "work-album-of-daoist-and-buddhist-themes-procession-of-daoi-4d24669a",
-        "work-the-lantern-night-excursion-of-zhong-kui-bb9b40f4",
-        "work-zhong-kui-supported-by-ghosts-8f0c0fce",
-        "work-case-inro-with-design-of-old-man-and-woman-jo-and-uba--cb48c59d",
-        "work-ghosts-of-the-taira-at-daimotsu-bay-4e6f02fe",
-        "work-a-boat-cast-adrift-ukifune-omatsu-and-akabori-mizuemon-0e3ed557",
-        "work-a-molted-cicada-shell-utsusemi-soga-goro-tokimune-from-9e43ce93",
-        "work-exile-to-suma-suma-tamaori-hime-from-the-series-scenes-606f10d3",
-        "work-little-purple-gromwell-wakamurasaki-shosho-from-the-se-50f01be6",
-        "work-ichikawa-yonezo-as-the-ghost-of-oiwa-e0c7ed35"
-      ],
-      "recordIds": [
-        "frame-mysterious-mose-1930-001",
-        "frame-mysterious-mose-1930-002",
-        "frame-mysterious-mose-1930-003",
-        "frame-mysterious-mose-1930-004",
-        "frame-mysterious-mose-1930-005",
-        "frame-mysterious-mose-1930-006",
-        "frame-mysterious-mose-1930-007",
-        "frame-mysterious-mose-1930-008",
-        "frame-mysterious-mose-1930-009",
-        "frame-mysterious-mose-1930-010",
-        "frame-mysterious-mose-1930-011",
-        "frame-mysterious-mose-1930-012",
-        "frame-supplement-van-beuren-wot-a-night-1931-001",
-        "frame-supplement-van-beuren-wot-a-night-1931-002",
-        "frame-supplement-van-beuren-wot-a-night-1931-003",
-        "frame-supplement-van-beuren-wot-a-night-1931-004",
-        "frame-supplement-van-beuren-wot-a-night-1931-005",
-        "frame-supplement-van-beuren-wot-a-night-1931-006",
-        "catalog-supplement-van-beuren-wot-a-night-1931",
-        "frame-supplement-ghost-stereoscope-1856-001",
-        "catalog-supplement-ghost-stereoscope-1856",
-        "frame-supplement-ghost-orphans-grave-1889-001",
-        "catalog-supplement-ghost-orphans-grave-1889",
-        "frame-supplement-ghost-hallowell-composite-1901-001",
-        "catalog-supplement-ghost-hallowell-composite-1901",
-        "frame-supplement-ghost-marley-leech-1843-001",
-        "catalog-supplement-ghost-marley-leech-1843",
-        "frame-supplement-ghost-samuel-blake-001",
-        "catalog-supplement-ghost-samuel-blake",
-        "frame-supplement-ghost-marguerite-delacroix-1828-001",
-        "catalog-supplement-ghost-marguerite-delacroix-1828",
-        "frame-supplement-ghost-witchcraft-fantin-1899-001",
-        "catalog-supplement-ghost-witchcraft-fantin-1899",
-        "frame-supplement-ghost-magician-roses-1892-001",
-        "catalog-supplement-ghost-magician-roses-1892",
-        "frame-supplement-ghost-thurston-1915-001",
-        "catalog-supplement-ghost-thurston-1915",
-        "frame-supplement-ghost-joan-arc-1879-001",
-        "catalog-supplement-ghost-joan-arc-1879",
-        "frame-supplement-ghost-witchcraft-evening-001",
-        "catalog-supplement-ghost-witchcraft-evening",
-        "frame-supplement-ghost-christmas-frolic-1814-001",
-        "catalog-supplement-ghost-christmas-frolic-1814",
-        "frame-supplement-ghost-rackham-marley-1915-001",
-        "frame-supplement-ghost-rackham-phantoms-1915-001",
-        "catalog-supplement-ghost-rackham-marley-1915",
-        "catalog-supplement-ghost-rackham-phantoms-1915",
-        "frame-supplement-ghost-buguet-1874-001",
-        "catalog-supplement-ghost-buguet-1874",
-        "frame-supplement-ghost-underwood-1893-001",
-        "catalog-supplement-ghost-underwood-1893",
-        "frame-supplement-ghost-oil-lamp-1810-001",
-        "catalog-supplement-ghost-oil-lamp-1810",
-        "frame-supplement-ghost-haunted-auto-1910-001",
-        "catalog-supplement-ghost-haunted-auto-1910",
-        "frame-supplement-ghost-newmann-1911-001",
-        "catalog-supplement-ghost-newmann-1911",
-        "frame-supplement-ghost-haunted-lane-1889-001",
-        "catalog-supplement-ghost-haunted-lane-1889",
-        "frame-supplement-ghost-hamlet-delacroix-1835-001",
-        "catalog-supplement-ghost-hamlet-delacroix-1835",
-        "frame-supplement-ghost-met-cat-demon-001",
-        "catalog-supplement-ghost-met-cat-demon",
-        "frame-supplement-ghost-met-zhong-kui-001",
-        "catalog-supplement-ghost-met-zhong-kui",
-        "frame-supplement-ghost-met-demon-drawings-001",
-        "catalog-supplement-ghost-met-demon-drawings",
-        "frame-supplement-ghost-met-yoshihira-revenge-001",
-        "catalog-supplement-ghost-met-yoshihira-revenge",
-        "frame-supplement-ghost-met-shoki-banner-001",
-        "catalog-supplement-ghost-met-shoki-banner",
-        "catalog-belief-cma-163115",
-        "catalog-belief-cma-136668",
-        "catalog-belief-cma-135655",
-        "catalog-belief-met-58892",
-        "catalog-belief-met-55743",
-        "catalog-belief-met-789147",
-        "catalog-belief-met-789145",
-        "catalog-belief-met-789148",
-        "catalog-belief-met-789144",
-        "catalog-belief-met-76582"
-      ],
-      "frameIds": [
-        "frame-mysterious-mose-1930-001",
-        "frame-mysterious-mose-1930-002",
-        "frame-mysterious-mose-1930-003",
-        "frame-mysterious-mose-1930-004",
-        "frame-mysterious-mose-1930-005",
-        "frame-mysterious-mose-1930-006",
-        "frame-mysterious-mose-1930-007",
-        "frame-mysterious-mose-1930-008",
-        "frame-mysterious-mose-1930-009",
-        "frame-mysterious-mose-1930-010",
-        "frame-mysterious-mose-1930-011",
-        "frame-mysterious-mose-1930-012",
-        "frame-supplement-van-beuren-wot-a-night-1931-001",
-        "frame-supplement-van-beuren-wot-a-night-1931-002",
-        "frame-supplement-van-beuren-wot-a-night-1931-003",
-        "frame-supplement-van-beuren-wot-a-night-1931-004",
-        "frame-supplement-van-beuren-wot-a-night-1931-005",
-        "frame-supplement-van-beuren-wot-a-night-1931-006",
-        "frame-supplement-ghost-stereoscope-1856-001",
-        "frame-supplement-ghost-orphans-grave-1889-001",
-        "frame-supplement-ghost-hallowell-composite-1901-001",
-        "frame-supplement-ghost-marley-leech-1843-001",
-        "frame-supplement-ghost-samuel-blake-001",
-        "frame-supplement-ghost-marguerite-delacroix-1828-001",
-        "frame-supplement-ghost-witchcraft-fantin-1899-001",
-        "frame-supplement-ghost-magician-roses-1892-001",
-        "frame-supplement-ghost-thurston-1915-001",
-        "frame-supplement-ghost-joan-arc-1879-001",
-        "frame-supplement-ghost-witchcraft-evening-001",
-        "frame-supplement-ghost-christmas-frolic-1814-001",
-        "frame-supplement-ghost-rackham-marley-1915-001",
-        "frame-supplement-ghost-rackham-phantoms-1915-001",
-        "frame-supplement-ghost-buguet-1874-001",
-        "frame-supplement-ghost-underwood-1893-001",
-        "frame-supplement-ghost-oil-lamp-1810-001",
-        "frame-supplement-ghost-haunted-auto-1910-001",
-        "frame-supplement-ghost-newmann-1911-001",
-        "frame-supplement-ghost-haunted-lane-1889-001",
-        "frame-supplement-ghost-hamlet-delacroix-1835-001",
-        "frame-supplement-ghost-met-cat-demon-001",
-        "frame-supplement-ghost-met-zhong-kui-001",
-        "frame-supplement-ghost-met-demon-drawings-001",
-        "frame-supplement-ghost-met-yoshihira-revenge-001",
-        "frame-supplement-ghost-met-shoki-banner-001"
-      ],
-      "workCount": 37,
-      "imageCount": 54,
-      "frameCount": 44,
-      "rightsBreakdown": {
-        "期限届满": 1,
-        "未续期": 1,
-        "公版 / 开放馆藏": 35
-      },
-      "copyrightRoutes": [
-        "期限届满",
-        "美国旧法未续期 · L 2468 · 续期窗 1958–1961 负向检索",
-        "Met Open Access · Public Domain",
-        "LOC · No known restrictions",
-        "1843 初版插图 · 期限届满",
-        "NGA Open Access",
-        "AIC Open Access · CC0",
-        "CMA Open Access · CC0",
-        "1814 版画 · LOC No known restrictions",
-        "1915 插图 · 期限届满",
-        "1874 摄影 · 期限届满",
-        "1893 摄影 · 期限届满",
-        "CMA API share_license_status=CC0；CC0 · Cleveland Museum of Art 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。",
-        "The Met API isPublicDomain=true；CC0 · The Met 仅覆盖该馆藏图像，商品语境按“先做语境审核”处理。"
-      ],
-      "evidenceLevels": [
-        "A",
-        "B"
-      ],
-      "tags": [
-        "早期动画",
-        "漫画 / 角色",
-        "万圣节",
-        "怪诞 / 魔法",
-        "宗教 / 神话"
-      ],
-      "topScenes": [
-        {
-          "name": "幽灵、鬼屋与通灵",
-          "count": 52
-        },
-        {
-          "name": "妖怪、幽灵与民间护佑神",
-          "count": 22
-        },
-        {
-          "name": "鬼怪",
-          "count": 12
-        },
-        {
-          "name": "夜晚",
-          "count": 12
-        },
-        {
-          "name": "音乐 / 舞蹈",
-          "count": 12
-        },
-        {
-          "name": "追逐",
-          "count": 12
-        },
-        {
-          "name": "东亚道教、神道与民间信仰",
-          "count": 10
-        },
-        {
-          "name": "绘卷异类 → 浮世绘百物语 → 门神、钟馗与地方鬼神",
-          "count": 10
-        },
-        {
-          "name": "鬼屋",
-          "count": 7
-        },
-        {
-          "name": "双人搭档",
-          "count": 7
-        }
-      ],
-      "topStyles": [
-        {
-          "name": "橡皮管动画",
-          "count": 19
-        },
-        {
-          "name": "Fleischer 怪诞",
-          "count": 12
-        },
-        {
-          "name": "暗黑 / 怪诞",
-          "count": 10
-        },
-        {
-          "name": "神话 / 魔法",
-          "count": 10
-        },
-        {
-          "name": "通灵摄影",
-          "count": 10
-        },
-        {
-          "name": "宗教 / 仪式",
-          "count": 10
-        },
-        {
-          "name": "鬼屋喜剧",
-          "count": 7
-        },
-        {
-          "name": "黑白动画",
-          "count": 7
-        },
-        {
-          "name": "浮世绘",
-          "count": 6
-        },
-        {
-          "name": "魔术海报",
-          "count": 6
-        }
-      ],
-      "topHolidays": [
-        {
-          "name": "万圣节",
-          "count": 71
-        },
-        {
-          "name": "圣诞节",
-          "count": 8
-        }
-      ],
-      "usage": "按母题进入：白布幽灵、锁链亡灵、半透明显影、鬼屋喜剧、通灵摄影、舞台幻术与东亚幽魂。打开具体作品后，再取构图、动作和轮廓。",
-      "avoid": "公版结论只覆盖列出的具体历史版本。避开 Casper、Ghostbusters、Disney Haunted Mansion、现代影视造型、品牌标志与现代修复配色。",
-      "awarenessScore": 28,
-      "sourceCount": 37,
-      "relatedEntityIds": [
-        "subject-east-asian-ghosts",
-        "role-舞台灵体-b5c936dc",
-        "subject-jesus-christian-iconography",
-        "role-marleys-ghost-0861a74f",
-        "role-白布幽灵-0f2aa01a",
-        "role-钟馗-2d4bb89f",
-        "role-betty-boop-16ad409c",
-        "role-bimbo-c30ed973",
-        "role-mysterious-mose-1e6192c3",
-        "role-van-beuren-human-duo-2d6c075a"
       ]
     },
     {
@@ -7684,6 +7723,328 @@
       "relatedEntityIds": []
     },
     {
+      "id": "role-骷髅乐队-c975af3b",
+      "name": "骷髅乐队",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/02a10da9043dd36686e7.webp",
+      "coverRecordId": "catalog-supplement-skeleton-dance-1929",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "workIds": [
+        "work-the-skeleton-dance-8b38cda1"
+      ],
+      "recordIds": [
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "catalog-supplement-skeleton-dance-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004"
+      ],
+      "workCount": 1,
+      "imageCount": 4,
+      "frameCount": 4,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 5
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "骨架变形",
+          "count": 5
+        },
+        {
+          "name": "黑白橡皮管动画",
+          "count": 5
+        },
+        {
+          "name": "群舞节奏",
+          "count": 5
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 5
+        }
+      ],
+      "usage": "骨架群舞、墓碑揭幕、圆环队列和身体变乐器；适合转译为扁平节奏图与重复骨架动作。",
+      "avoid": "只限 1929 原片具体表达；避开后期 Disney 修复配色、现代录音、品牌标识和官方授权混淆。",
+      "awarenessScore": 92,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-鬼屋骷髅乐队-a4afa9a8",
+      "name": "鬼屋骷髅乐队",
+      "type": "群像 / 生物",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/c365607a6b17bf0cbbf0.webp",
+      "coverRecordId": "catalog-supplement-haunted-house-1929",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "workIds": [
+        "work-the-haunted-house-2de44826"
+      ],
+      "recordIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004"
+      ],
+      "workCount": 1,
+      "imageCount": 4,
+      "frameCount": 4,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 5
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "鬼屋剪影",
+          "count": 5
+        },
+        {
+          "name": "黑白橡皮管动画",
+          "count": 5
+        },
+        {
+          "name": "骷髅乐队",
+          "count": 5
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 5
+        }
+      ],
+      "usage": "孤屋剪影、黑暗眼睛、骷髅乐队和骨头木琴；可拆成鬼屋空间与骨架演奏两套母题。",
+      "avoid": "原版 Mickey 的现代版本、Disney 标识和后期商品形象仍需避开；优先取场景机制，不直接角色商品化。",
+      "awarenessScore": 78,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-墓园幽灵群-b3adc750",
+      "name": "墓园幽灵群",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+      "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+      "yearStart": 1930,
+      "yearEnd": 1930,
+      "workIds": [
+        "work-swing-you-sinners-24ae4646"
+      ],
+      "recordIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "frameIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004"
+      ],
+      "workCount": 1,
+      "imageCount": 4,
+      "frameCount": 4,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1930 年作品 · 2026-01-01 进入公版"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        },
+        {
+          "name": "幽灵、鬼屋与通灵",
+          "count": 5
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "超现实变形",
+          "count": 5
+        },
+        {
+          "name": "鬼屋歌舞",
+          "count": 5
+        },
+        {
+          "name": "黑白橡皮管动画",
+          "count": 5
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 5
+        }
+      ],
+      "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+      "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+      "awarenessScore": 74,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-地狱恶魔群-5077de70",
+      "name": "地狱恶魔群",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/a74eed2902c3f52c93db.webp",
+      "coverRecordId": "catalog-supplement-hells-bells-1929",
+      "yearStart": 1929,
+      "yearEnd": 1929,
+      "workIds": [
+        "work-hells-bells-a2645562"
+      ],
+      "recordIds": [
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004",
+        "catalog-supplement-hells-bells-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004"
+      ],
+      "workCount": 1,
+      "imageCount": 4,
+      "frameCount": 4,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "恶魔、火焰与坩埚",
+          "count": 5
+        },
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 5
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "恶魔歌舞",
+          "count": 5
+        },
+        {
+          "name": "黑白橡皮管动画",
+          "count": 5
+        },
+        {
+          "name": "火焰剪影",
+          "count": 5
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 5
+        }
+      ],
+      "usage": "恶魔乐队、骨头击奏、巨大阴影、火焰与坩埚队列；适合黑白或红黑高反差图形重构。",
+      "avoid": "避开后期 Disney 品牌包装与现代修复配色；恶魔和宗教题材需另行核验目标市场与平台接受度。",
+      "awarenessScore": 68,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    },
+    {
       "id": "role-舞台灵体-b5c936dc",
       "name": "舞台灵体",
       "type": "角色",
@@ -8703,6 +9064,146 @@
       "relatedEntityIds": []
     },
     {
+      "id": "role-1925-phantom-7d9351c5",
+      "name": "1925 Phantom",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/7129838edda8ba076b4a.webp",
+      "coverRecordId": "catalog-supplement-phantom-opera-1925",
+      "yearStart": 1925,
+      "yearEnd": 1925,
+      "workIds": [
+        "work-the-phantom-of-the-opera-e79aee58"
+      ],
+      "recordIds": [
+        "frame-supplement-phantom-opera-1925-001",
+        "catalog-supplement-phantom-opera-1925"
+      ],
+      "frameIds": [
+        "frame-supplement-phantom-opera-1925-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国期限届满 · Commons 公版文件"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "电影 / 舞台",
+        "暗黑 / 怪诞"
+      ],
+      "topScenes": [
+        {
+          "name": "经典恐怖电影空间",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "高反差肖像",
+          "count": 2
+        },
+        {
+          "name": "哥特舞台",
+          "count": 2
+        },
+        {
+          "name": "默片恐怖",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "歌剧院、面具、地下空间与高反差怪人肖像；适合哥特舞台和幕帘结构。",
+      "avoid": "只取 1925 具体影片表达；后期电影面具、演员形象和现代音乐剧商标另行保护。",
+      "awarenessScore": 91,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "role-表现主义梦游者-d38a5b2b",
+      "name": "表现主义梦游者",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/0f5af64c0b2d8bdc0ea6.webp",
+      "coverRecordId": "catalog-supplement-cabinet-caligari-1920",
+      "yearStart": 1920,
+      "yearEnd": 1920,
+      "workIds": [
+        "work-the-cabinet-of-dr-caligari-3cc37292"
+      ],
+      "recordIds": [
+        "frame-supplement-cabinet-caligari-1920-001",
+        "catalog-supplement-cabinet-caligari-1920"
+      ],
+      "frameIds": [
+        "frame-supplement-cabinet-caligari-1920-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国期限届满 · Commons 公版文件"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "电影 / 舞台",
+        "暗黑 / 怪诞"
+      ],
+      "topScenes": [
+        {
+          "name": "经典恐怖电影空间",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "德国表现主义",
+          "count": 2
+        },
+        {
+          "name": "斜线空间",
+          "count": 2
+        },
+        {
+          "name": "硬阴影",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "斜墙、硬阴影、扭曲门窗与梦游者；适合抽象成表现主义鬼屋空间。",
+      "avoid": "只取 1920 原片与该公版剧照；避开后期海报、修复版包装和演员商业代言暗示。",
+      "awarenessScore": 90,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    },
+    {
       "id": "role-dracula-0544a724",
       "name": "Dracula",
       "type": "主体",
@@ -8765,6 +9266,75 @@
       "usage": "可从初版黄底红字提炼哥特配色，角色脸需原创。",
       "avoid": "Bela Lugosi 等演员脸、Universal/Hammer 电影服装与海报。",
       "awarenessScore": 89,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    },
+    {
+      "id": "role-人格化死亡-a7a5cded",
+      "name": "人格化死亡",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/2f8a5823eb54957e7955.webp",
+      "coverRecordId": "catalog-supplement-holbein-clergyman-dance-of-death",
+      "yearStart": 1526,
+      "yearEnd": 1526,
+      "workIds": [
+        "work-the-clergyman-from-the-dance-of-death-49e45d2c"
+      ],
+      "recordIds": [
+        "frame-supplement-holbein-clergyman-dance-of-death-001",
+        "catalog-supplement-holbein-clergyman-dance-of-death"
+      ],
+      "frameIds": [
+        "frame-supplement-holbein-clergyman-dance-of-death-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "版画 / 纹样",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "粗线叙事",
+          "count": 2
+        },
+        {
+          "name": "死亡之舞",
+          "count": 2
+        },
+        {
+          "name": "文艺复兴木刻",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "死亡闯入职业日常；可提取骷髅与活人镜像动作、小幅连续叙事和木刻粗线。",
+      "avoid": "不要把历史图像直接包装成现代电影或乐队官方周边。",
+      "awarenessScore": 88,
       "sourceCount": 1,
       "relatedEntityIds": []
     },
@@ -8931,6 +9501,144 @@
       "relatedEntityIds": []
     },
     {
+      "id": "role-三头骨-85564678",
+      "name": "三头骨",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/a747b9ea3a92c8e33e7e.webp",
+      "coverRecordId": "catalog-supplement-cezanne-three-skulls",
+      "yearStart": 1902,
+      "yearEnd": 1902,
+      "workIds": [
+        "work-the-three-skulls-6dc216c4"
+      ],
+      "recordIds": [
+        "frame-supplement-cezanne-three-skulls-001",
+        "catalog-supplement-cezanne-three-skulls"
+      ],
+      "frameIds": [
+        "frame-supplement-cezanne-three-skulls-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "AIC Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "留白",
+          "count": 2
+        },
+        {
+          "name": "三联排列",
+          "count": 2
+        },
+        {
+          "name": "现代主义水彩",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "三头骨水平排列、水彩留白与不完整边缘；适合克制、非写实的时尚平面重绘。",
+      "avoid": "避开现代博物馆商品版式和机构标识。",
+      "awarenessScore": 84,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    },
+    {
+      "id": "role-静物骷髅-db25c43c",
+      "name": "静物骷髅",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/288d49fc19bf2b6e5ac4.webp",
+      "coverRecordId": "catalog-supplement-claesz-skull-quill-1628",
+      "yearStart": 1628,
+      "yearEnd": 1628,
+      "workIds": [
+        "work-still-life-with-a-skull-and-a-writing-quill-44f6283c"
+      ],
+      "recordIds": [
+        "frame-supplement-claesz-skull-quill-1628-001",
+        "catalog-supplement-claesz-skull-quill-1628"
+      ],
+      "frameIds": [
+        "frame-supplement-claesz-skull-quill-1628-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "低饱和明暗",
+          "count": 2
+        },
+        {
+          "name": "荷兰静物",
+          "count": 2
+        },
+        {
+          "name": "Vanitas",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "头骨、羽毛笔、书页与玻璃的 vanitas 静物关系；适合知识、时间和死亡的低饱和图案。",
+      "avoid": "这不是现代 Halloween 的直接起源；避免将馆藏名称或机构标识当商品品牌。",
+      "awarenessScore": 82,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    },
+    {
       "id": "role-gretel-09a2a7ec",
       "name": "Gretel",
       "type": "主体",
@@ -9093,6 +9801,75 @@
       "relatedEntityIds": []
     },
     {
+      "id": "role-壁龛骷髅-7dfd5438",
+      "name": "壁龛骷髅",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/742dfab5b8c7c5a95fac.webp",
+      "coverRecordId": "catalog-supplement-memento-mori-skeleton-niche",
+      "yearStart": 1400,
+      "yearEnd": 1400,
+      "workIds": [
+        "work-memento-mori-a-skeleton-in-a-niche-97966eff"
+      ],
+      "recordIds": [
+        "frame-supplement-memento-mori-skeleton-niche-001",
+        "catalog-supplement-memento-mori-skeleton-niche"
+      ],
+      "frameIds": [
+        "frame-supplement-memento-mori-skeleton-niche-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "版画 / 纹样",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "建筑框",
+          "count": 2
+        },
+        {
+          "name": "晚期哥特版画",
+          "count": 2
+        },
+        {
+          "name": "Memento Mori",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "壁龛中的正面全身骷髅、建筑框和铭文空间；适合徽章式扁平构图。",
+      "avoid": "铭文、现代修复与商品标识需另行处理。",
+      "awarenessScore": 76,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    },
+    {
       "id": "role-little-red-riding-hood-2fe7b541",
       "name": "Little Red Riding Hood",
       "type": "主体",
@@ -9249,6 +10026,75 @@
       "usage": "优先抽取首版群像轮廓或单个角色，重做色块和边框。",
       "avoid": "MGM 电影演员脸、红宝石鞋和电影服装；原著是银鞋。",
       "awarenessScore": 75,
+      "sourceCount": 1,
+      "relatedEntityIds": []
+    },
+    {
+      "id": "role-骷髅怀表-90baf93c",
+      "name": "骷髅怀表",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/7832210b5a3bbc9f8620.webp",
+      "coverRecordId": "catalog-supplement-skull-watch-1810",
+      "yearStart": 1810,
+      "yearEnd": 1810,
+      "workIds": [
+        "work-watch-in-the-form-of-a-human-skull-672c8f09"
+      ],
+      "recordIds": [
+        "frame-supplement-skull-watch-1810-001",
+        "catalog-supplement-skull-watch-1810"
+      ],
+      "frameIds": [
+        "frame-supplement-skull-watch-1810-001"
+      ],
+      "workCount": 1,
+      "imageCount": 1,
+      "frameCount": 1,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 1
+      },
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "万圣节",
+        "器物 / 建筑",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "骷髅与死亡之舞",
+          "count": 2
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "金属工艺",
+          "count": 2
+        },
+        {
+          "name": "骷髅器物",
+          "count": 2
+        },
+        {
+          "name": "Memento Mori",
+          "count": 2
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 2
+        }
+      ],
+      "usage": "骷髅头与怀表合体；适合时间、死亡、机械装置和珠宝化结构。",
+      "avoid": "避免复制现代品牌手表、珠宝标识或受保护复刻商品。",
+      "awarenessScore": 72,
       "sourceCount": 1,
       "relatedEntityIds": []
     },
@@ -18830,6 +19676,293 @@
       ]
     },
     {
+      "id": "work-the-skeleton-dance-8b38cda1",
+      "title": "The Skeleton Dance",
+      "subtitle": "骷髅之舞 · Silly Symphony",
+      "year": "1929",
+      "yearSort": 1929,
+      "coverImage": "images/02a10da9043dd36686e7.webp",
+      "coverRecordId": "catalog-supplement-skeleton-dance-1929",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Skeleton_Dance_(1929).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2025/",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons 原片抽帧；底层 1929 作品在美国期限届满"
+      ],
+      "usage": "骨架群舞、墓碑揭幕、圆环队列和身体变乐器；适合转译为扁平节奏图与重复骨架动作。",
+      "avoid": "只限 1929 原片具体表达；避开后期 Disney 修复配色、现代录音、品牌标识和官方授权混淆。",
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "黑白橡皮管动画",
+        "群舞节奏",
+        "骨架变形"
+      ],
+      "scenes": [
+        "骷髅与死亡之舞",
+        "幽灵、鬼屋与通灵"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "骷髅乐队"
+      ],
+      "characterAliases": [
+        "骷髅乐队"
+      ],
+      "recordIds": [
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "catalog-supplement-skeleton-dance-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004"
+      ],
+      "masterIds": [
+        "catalog-supplement-skeleton-dance-1929"
+      ],
+      "imageCount": 4,
+      "frameCount": 4,
+      "awarenessScore": 92,
+      "entityIds": [
+        "role-骷髅乐队-c975af3b",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-the-haunted-house-2de44826",
+      "title": "The Haunted House",
+      "subtitle": "鬼屋 · 1929 原片",
+      "year": "1929",
+      "yearSort": 1929,
+      "coverImage": "images/c365607a6b17bf0cbbf0.webp",
+      "coverRecordId": "catalog-supplement-haunted-house-1929",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Haunted_House_(1929).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2025/",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons 原片抽帧；底层 1929 作品在美国期限届满"
+      ],
+      "usage": "孤屋剪影、黑暗眼睛、骷髅乐队和骨头木琴；可拆成鬼屋空间与骨架演奏两套母题。",
+      "avoid": "原版 Mickey 的现代版本、Disney 标识和后期商品形象仍需避开；优先取场景机制，不直接角色商品化。",
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "黑白橡皮管动画",
+        "鬼屋剪影",
+        "骷髅乐队"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "鬼屋骷髅乐队"
+      ],
+      "characterAliases": [
+        "鬼屋骷髅乐队"
+      ],
+      "recordIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004"
+      ],
+      "masterIds": [
+        "catalog-supplement-haunted-house-1929"
+      ],
+      "imageCount": 4,
+      "frameCount": 4,
+      "awarenessScore": 78,
+      "entityIds": [
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-swing-you-sinners-24ae4646",
+      "title": "Swing You Sinners!",
+      "subtitle": "罪人摇摆吧 · Fleischer",
+      "year": "1930",
+      "yearSort": 1930,
+      "coverImage": "images/fd46e3f3c3bb306561b8.webp",
+      "coverRecordId": "catalog-supplement-swing-you-sinners-1930",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swing_You_Sinners!_(1930).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2026/",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "美国 1930 年作品 · 2026-01-01 进入公版"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons 原片抽帧；底层 1930 作品在美国期限届满"
+      ],
+      "usage": "活墓碑、巨型幽灵手、鬼屋面孔合唱与漂浮骷髅；适合超现实拼贴、变形建筑和密集鬼脸节奏。",
+      "avoid": "避开现代重制、后期修复新增素材、受保护录音与品牌包装。",
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "黑白橡皮管动画",
+        "超现实变形",
+        "鬼屋歌舞"
+      ],
+      "scenes": [
+        "幽灵、鬼屋与通灵",
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "墓园幽灵群"
+      ],
+      "characterAliases": [
+        "墓园幽灵群"
+      ],
+      "recordIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "frameIds": [
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004"
+      ],
+      "masterIds": [
+        "catalog-supplement-swing-you-sinners-1930"
+      ],
+      "imageCount": 4,
+      "frameCount": 4,
+      "awarenessScore": 74,
+      "entityIds": [
+        "role-墓园幽灵群-b3adc750",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-hells-bells-a2645562",
+      "title": "Hell's Bells",
+      "subtitle": "地狱钟声 · Silly Symphony",
+      "year": "1929",
+      "yearSort": 1929,
+      "coverImage": "images/a74eed2902c3f52c93db.webp",
+      "coverRecordId": "catalog-supplement-hells-bells-1929",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hell%27s_Bells_(1929).webm",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "https://cspd.law.duke.edu/publicdomainday/2025/",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "美国 1929 年作品 · 2025-01-01 进入公版"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons 原片抽帧；底层 1929 作品在美国期限届满"
+      ],
+      "usage": "恶魔乐队、骨头击奏、巨大阴影、火焰与坩埚队列；适合黑白或红黑高反差图形重构。",
+      "avoid": "避开后期 Disney 品牌包装与现代修复配色；恶魔和宗教题材需另行核验目标市场与平台接受度。",
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "黑白橡皮管动画",
+        "恶魔歌舞",
+        "火焰剪影"
+      ],
+      "scenes": [
+        "恶魔、火焰与坩埚",
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "地狱恶魔群"
+      ],
+      "characterAliases": [
+        "地狱恶魔群"
+      ],
+      "recordIds": [
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004",
+        "catalog-supplement-hells-bells-1929"
+      ],
+      "frameIds": [
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004"
+      ],
+      "masterIds": [
+        "catalog-supplement-hells-bells-1929"
+      ],
+      "imageCount": 4,
+      "frameCount": 4,
+      "awarenessScore": 68,
+      "entityIds": [
+        "role-地狱恶魔群-5077de70"
+      ]
+    },
+    {
       "id": "work-马利的幽灵-拉克姆版-917905df",
       "title": "马利的幽灵：拉克姆版",
       "subtitle": "Arthur Rackham · A Christmas Carol",
@@ -19089,6 +20222,135 @@
       ]
     },
     {
+      "id": "work-the-phantom-of-the-opera-e79aee58",
+      "title": "The Phantom of the Opera",
+      "subtitle": "1925 film still",
+      "year": "1925",
+      "yearSort": 1925,
+      "coverImage": "images/7129838edda8ba076b4a.webp",
+      "coverRecordId": "catalog-supplement-phantom-opera-1925",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Phantom_of_the_Opera_(1925)_-_9.jpg",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "美国期限届满 · Commons 公版文件"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons 标记 Public Domain"
+      ],
+      "usage": "歌剧院、面具、地下空间与高反差怪人肖像；适合哥特舞台和幕帘结构。",
+      "avoid": "只取 1925 具体影片表达；后期电影面具、演员形象和现代音乐剧商标另行保护。",
+      "tags": [
+        "万圣节",
+        "电影 / 舞台",
+        "暗黑 / 怪诞"
+      ],
+      "styles": [
+        "默片恐怖",
+        "哥特舞台",
+        "高反差肖像"
+      ],
+      "scenes": [
+        "经典恐怖电影空间"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "1925 Phantom"
+      ],
+      "characterAliases": [
+        "1925 Phantom"
+      ],
+      "recordIds": [
+        "frame-supplement-phantom-opera-1925-001",
+        "catalog-supplement-phantom-opera-1925"
+      ],
+      "frameIds": [
+        "frame-supplement-phantom-opera-1925-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-phantom-opera-1925"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 91,
+      "entityIds": [
+        "role-1925-phantom-7d9351c5",
+        "subject-ghosts-spiritualism"
+      ]
+    },
+    {
+      "id": "work-the-cabinet-of-dr-caligari-3cc37292",
+      "title": "The Cabinet of Dr. Caligari",
+      "subtitle": "1920 publicity still",
+      "year": "1920",
+      "yearSort": 1920,
+      "coverImage": "images/0f5af64c0b2d8bdc0ea6.webp",
+      "coverRecordId": "catalog-supplement-cabinet-caligari-1920",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Publicity_still_for_The_Cabinet_of_Dr._Caligari_(1920)_02.jpg",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "期限届满"
+      ],
+      "copyrightRoutes": [
+        "美国期限届满 · Commons 公版文件"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons 标记 Public Domain"
+      ],
+      "usage": "斜墙、硬阴影、扭曲门窗与梦游者；适合抽象成表现主义鬼屋空间。",
+      "avoid": "只取 1920 原片与该公版剧照；避开后期海报、修复版包装和演员商业代言暗示。",
+      "tags": [
+        "万圣节",
+        "电影 / 舞台",
+        "暗黑 / 怪诞"
+      ],
+      "styles": [
+        "德国表现主义",
+        "斜线空间",
+        "硬阴影"
+      ],
+      "scenes": [
+        "经典恐怖电影空间"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "表现主义梦游者"
+      ],
+      "characterAliases": [
+        "表现主义梦游者"
+      ],
+      "recordIds": [
+        "frame-supplement-cabinet-caligari-1920-001",
+        "catalog-supplement-cabinet-caligari-1920"
+      ],
+      "frameIds": [
+        "frame-supplement-cabinet-caligari-1920-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-cabinet-caligari-1920"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 90,
+      "entityIds": [
+        "role-表现主义梦游者-d38a5b2b"
+      ]
+    },
+    {
       "id": "work-dracula-4ec6a6c4",
       "title": "Dracula",
       "subtitle": "Bram Stoker 1897 初版封面",
@@ -19143,6 +20405,70 @@
       "awarenessScore": 89,
       "entityIds": [
         "role-dracula-0544a724"
+      ]
+    },
+    {
+      "id": "work-the-clergyman-from-the-dance-of-death-49e45d2c",
+      "title": "The Clergyman, from The Dance of Death",
+      "subtitle": "Hans Holbein the Younger",
+      "year": "ca. 1526 / 1538",
+      "yearSort": 1526,
+      "coverImage": "images/2f8a5823eb54957e7955.webp",
+      "coverRecordId": "catalog-supplement-holbein-clergyman-dance-of-death",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/365199",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met 标记 Public Domain"
+      ],
+      "usage": "死亡闯入职业日常；可提取骷髅与活人镜像动作、小幅连续叙事和木刻粗线。",
+      "avoid": "不要把历史图像直接包装成现代电影或乐队官方周边。",
+      "tags": [
+        "万圣节",
+        "版画 / 纹样",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "文艺复兴木刻",
+        "死亡之舞",
+        "粗线叙事"
+      ],
+      "scenes": [
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "人格化死亡"
+      ],
+      "characterAliases": [
+        "人格化死亡"
+      ],
+      "recordIds": [
+        "frame-supplement-holbein-clergyman-dance-of-death-001",
+        "catalog-supplement-holbein-clergyman-dance-of-death"
+      ],
+      "frameIds": [
+        "frame-supplement-holbein-clergyman-dance-of-death-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-holbein-clergyman-dance-of-death"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 88,
+      "entityIds": [
+        "role-人格化死亡-a7a5cded"
       ]
     },
     {
@@ -19357,6 +20683,134 @@
       ]
     },
     {
+      "id": "work-the-three-skulls-6dc216c4",
+      "title": "The Three Skulls",
+      "subtitle": "Paul Cézanne",
+      "year": "1902 / 1906",
+      "yearSort": 1902,
+      "coverImage": "images/a747b9ea3a92c8e33e7e.webp",
+      "coverRecordId": "catalog-supplement-cezanne-three-skulls",
+      "sourceUrl": "https://www.artic.edu/artworks/80336",
+      "sourceLabel": "Art Institute of Chicago",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "AIC Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Art Institute of Chicago Open Access"
+      ],
+      "usage": "三头骨水平排列、水彩留白与不完整边缘；适合克制、非写实的时尚平面重绘。",
+      "avoid": "避开现代博物馆商品版式和机构标识。",
+      "tags": [
+        "万圣节",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "现代主义水彩",
+        "三联排列",
+        "留白"
+      ],
+      "scenes": [
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "三头骨"
+      ],
+      "characterAliases": [
+        "三头骨"
+      ],
+      "recordIds": [
+        "frame-supplement-cezanne-three-skulls-001",
+        "catalog-supplement-cezanne-three-skulls"
+      ],
+      "frameIds": [
+        "frame-supplement-cezanne-three-skulls-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-cezanne-three-skulls"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 84,
+      "entityIds": [
+        "role-三头骨-85564678"
+      ]
+    },
+    {
+      "id": "work-still-life-with-a-skull-and-a-writing-quill-44f6283c",
+      "title": "Still Life with a Skull and a Writing Quill",
+      "subtitle": "Pieter Claesz",
+      "year": "1628",
+      "yearSort": 1628,
+      "coverImage": "images/288d49fc19bf2b6e5ac4.webp",
+      "coverRecordId": "catalog-supplement-claesz-skull-quill-1628",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435904",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met 标记 Public Domain"
+      ],
+      "usage": "头骨、羽毛笔、书页与玻璃的 vanitas 静物关系；适合知识、时间和死亡的低饱和图案。",
+      "avoid": "这不是现代 Halloween 的直接起源；避免将馆藏名称或机构标识当商品品牌。",
+      "tags": [
+        "万圣节",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "荷兰静物",
+        "Vanitas",
+        "低饱和明暗"
+      ],
+      "scenes": [
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "静物骷髅"
+      ],
+      "characterAliases": [
+        "静物骷髅"
+      ],
+      "recordIds": [
+        "frame-supplement-claesz-skull-quill-1628-001",
+        "catalog-supplement-claesz-skull-quill-1628"
+      ],
+      "frameIds": [
+        "frame-supplement-claesz-skull-quill-1628-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-claesz-skull-quill-1628"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 82,
+      "entityIds": [
+        "role-静物骷髅-db25c43c"
+      ]
+    },
+    {
       "id": "work-hansel-and-gretel-e9be07ab",
       "title": "Hansel & Gretel",
       "subtitle": "Arthur Rackham 童话插图 · 1909",
@@ -19568,6 +21022,70 @@
       ]
     },
     {
+      "id": "work-memento-mori-a-skeleton-in-a-niche-97966eff",
+      "title": "Memento Mori: a Skeleton in a Niche",
+      "subtitle": "Master IAM of Zwolle",
+      "year": "late 15th century",
+      "yearSort": 1400,
+      "coverImage": "images/742dfab5b8c7c5a95fac.webp",
+      "coverRecordId": "catalog-supplement-memento-mori-skeleton-niche",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/367226",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met 标记 Public Domain"
+      ],
+      "usage": "壁龛中的正面全身骷髅、建筑框和铭文空间；适合徽章式扁平构图。",
+      "avoid": "铭文、现代修复与商品标识需另行处理。",
+      "tags": [
+        "万圣节",
+        "版画 / 纹样",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "晚期哥特版画",
+        "Memento Mori",
+        "建筑框"
+      ],
+      "scenes": [
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "壁龛骷髅"
+      ],
+      "characterAliases": [
+        "壁龛骷髅"
+      ],
+      "recordIds": [
+        "frame-supplement-memento-mori-skeleton-niche-001",
+        "catalog-supplement-memento-mori-skeleton-niche"
+      ],
+      "frameIds": [
+        "frame-supplement-memento-mori-skeleton-niche-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-memento-mori-skeleton-niche"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 76,
+      "entityIds": [
+        "role-壁龛骷髅-7dfd5438"
+      ]
+    },
+    {
       "id": "work-little-red-riding-hood-98763afc",
       "title": "Little Red Riding Hood",
       "subtitle": "Walter Crane 童话插图 · 1875",
@@ -19722,6 +21240,70 @@
       "awarenessScore": 75,
       "entityIds": [
         "role-the-wonderful-wizard-of-oz-ee961daf"
+      ]
+    },
+    {
+      "id": "work-watch-in-the-form-of-a-human-skull-672c8f09",
+      "title": "Watch in the Form of a Human Skull",
+      "subtitle": "Isaac Penard movement",
+      "year": "case ca. 1810–20",
+      "yearSort": 1810,
+      "coverImage": "images/7832210b5a3bbc9f8620.webp",
+      "coverRecordId": "catalog-supplement-skull-watch-1810",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/194166",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met 标记 Public Domain"
+      ],
+      "usage": "骷髅头与怀表合体；适合时间、死亡、机械装置和珠宝化结构。",
+      "avoid": "避免复制现代品牌手表、珠宝标识或受保护复刻商品。",
+      "tags": [
+        "万圣节",
+        "器物 / 建筑",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "骷髅器物",
+        "Memento Mori",
+        "金属工艺"
+      ],
+      "scenes": [
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "骷髅怀表"
+      ],
+      "characterAliases": [
+        "骷髅怀表"
+      ],
+      "recordIds": [
+        "frame-supplement-skull-watch-1810-001",
+        "catalog-supplement-skull-watch-1810"
+      ],
+      "frameIds": [
+        "frame-supplement-skull-watch-1810-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-skull-watch-1810"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 72,
+      "entityIds": [
+        "role-骷髅怀表-90baf93c"
       ]
     },
     {
@@ -33201,6 +34783,158 @@
       "yearStart": 1930
     },
     {
+      "id": "scene-幽灵-鬼屋与通灵-862f5410",
+      "name": "幽灵、鬼屋与通灵",
+      "type": "场景",
+      "coverImages": [
+        "images/b02e71f61eb593b2f401.webp",
+        "images/10abdbb3daef337faa27.webp",
+        "images/a2fe88e2addea68116f8.webp",
+        "images/f60b8e89dc9b6017eb46.webp"
+      ],
+      "workIds": [
+        "work-立体镜中的幽灵-f0be4d30",
+        "work-孤儿在母亲墓前-23a2d5dc",
+        "work-通灵会灵体合成照-3c8907c2",
+        "work-马利的幽灵-436b638e",
+        "work-撒母耳的幽灵向扫罗显现-54e3a978",
+        "work-玛格丽特的幽灵向浮士德显现-f9fe58a8",
+        "work-巫术-2cb43daf",
+        "work-玫瑰魔术师与超自然生物-36d50d1c",
+        "work-灵魂会回来吗-ba38546d",
+        "work-圣女贞德与异象-77bed1c9",
+        "work-巫术场景-黄昏-5e91ed00",
+        "work-幽灵-一场圣诞恶作剧-d2a5c039",
+        "work-马利的幽灵-拉克姆版-917905df",
+        "work-布盖通灵摄影-296427a4",
+        "work-休息的幽灵演奏者-6db9d5b8",
+        "work-幽灵与油灯-1fb37b14",
+        "work-闹鬼的汽车-e6442b01",
+        "work-newmann-的灵体奇术-576434db",
+        "work-闹鬼的小路-1ee678e8",
+        "work-哈姆雷特追随父亲幽灵-c3f90678",
+        "work-冈崎猫妖怪谈-bd4f4df0",
+        "work-钟馗-35122b8b",
+        "work-鬼怪素描-abaf8ede",
+        "work-义平幽灵复仇-8f44b5f3",
+        "work-鲤旗与钟馗旗-dd97e27f",
+        "work-the-skeleton-dance-8b38cda1",
+        "work-the-haunted-house-2de44826",
+        "work-swing-you-sinners-24ae4646"
+      ],
+      "entityIds": [
+        "role-白布幽灵-0f2aa01a",
+        "subject-ghosts-spiritualism",
+        "role-母亲幽灵-79c3028b",
+        "role-通灵灵体-17f504c0",
+        "role-marleys-ghost-0861a74f",
+        "role-samuel-b1f6d124",
+        "subject-jesus-christian-iconography",
+        "role-marguerites-ghost-de177e82",
+        "role-召灵幻象-a015fd9d",
+        "role-舞台灵体-b5c936dc",
+        "role-joan-of-arc-5c8b31af",
+        "role-召唤幽灵-e623ac10",
+        "role-chained-phantoms-3541a6a1",
+        "role-披布灵体-f8637771",
+        "role-幽灵演奏者-0941d377",
+        "role-yurei-39275740",
+        "subject-east-asian-ghosts",
+        "role-动物幽灵群-856dd4d2",
+        "role-白衣幽灵-4f1bdbdf",
+        "role-hamlets-father-5a4cc5d1",
+        "role-cat-demon-1b812fa1",
+        "role-钟馗-2d4bb89f",
+        "role-demons-bd2a88c5",
+        "role-yoshihiras-ghost-122808fc",
+        "role-骷髅乐队-c975af3b",
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "role-墓园幽灵群-b3adc750"
+      ],
+      "recordIds": [
+        "catalog-supplement-ghost-stereoscope-1856",
+        "frame-supplement-ghost-stereoscope-1856-001",
+        "catalog-supplement-ghost-orphans-grave-1889",
+        "frame-supplement-ghost-orphans-grave-1889-001",
+        "catalog-supplement-ghost-hallowell-composite-1901",
+        "frame-supplement-ghost-hallowell-composite-1901-001",
+        "catalog-supplement-ghost-marley-leech-1843",
+        "frame-supplement-ghost-marley-leech-1843-001",
+        "catalog-supplement-ghost-samuel-blake",
+        "frame-supplement-ghost-samuel-blake-001",
+        "catalog-supplement-ghost-marguerite-delacroix-1828",
+        "frame-supplement-ghost-marguerite-delacroix-1828-001",
+        "catalog-supplement-ghost-witchcraft-fantin-1899",
+        "frame-supplement-ghost-witchcraft-fantin-1899-001",
+        "catalog-supplement-ghost-magician-roses-1892",
+        "frame-supplement-ghost-magician-roses-1892-001",
+        "catalog-supplement-ghost-thurston-1915",
+        "frame-supplement-ghost-thurston-1915-001",
+        "catalog-supplement-ghost-joan-arc-1879",
+        "frame-supplement-ghost-joan-arc-1879-001",
+        "catalog-supplement-ghost-witchcraft-evening",
+        "frame-supplement-ghost-witchcraft-evening-001",
+        "catalog-supplement-ghost-christmas-frolic-1814",
+        "frame-supplement-ghost-christmas-frolic-1814-001",
+        "catalog-supplement-ghost-rackham-marley-1915",
+        "frame-supplement-ghost-rackham-marley-1915-001",
+        "catalog-supplement-ghost-rackham-phantoms-1915",
+        "frame-supplement-ghost-rackham-phantoms-1915-001",
+        "catalog-supplement-ghost-buguet-1874",
+        "frame-supplement-ghost-buguet-1874-001",
+        "catalog-supplement-ghost-underwood-1893",
+        "frame-supplement-ghost-underwood-1893-001",
+        "catalog-supplement-ghost-oil-lamp-1810",
+        "frame-supplement-ghost-oil-lamp-1810-001",
+        "catalog-supplement-ghost-haunted-auto-1910",
+        "frame-supplement-ghost-haunted-auto-1910-001",
+        "catalog-supplement-ghost-newmann-1911",
+        "frame-supplement-ghost-newmann-1911-001",
+        "catalog-supplement-ghost-haunted-lane-1889",
+        "frame-supplement-ghost-haunted-lane-1889-001",
+        "catalog-supplement-ghost-hamlet-delacroix-1835",
+        "frame-supplement-ghost-hamlet-delacroix-1835-001",
+        "catalog-supplement-ghost-met-cat-demon",
+        "frame-supplement-ghost-met-cat-demon-001",
+        "catalog-supplement-ghost-met-zhong-kui",
+        "frame-supplement-ghost-met-zhong-kui-001",
+        "catalog-supplement-ghost-met-demon-drawings",
+        "frame-supplement-ghost-met-demon-drawings-001",
+        "catalog-supplement-ghost-met-yoshihira-revenge",
+        "frame-supplement-ghost-met-yoshihira-revenge-001",
+        "catalog-supplement-ghost-met-shoki-banner",
+        "frame-supplement-ghost-met-shoki-banner-001",
+        "catalog-supplement-skeleton-dance-1929",
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "catalog-supplement-haunted-house-1929",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "catalog-supplement-swing-you-sinners-1930",
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004"
+      ],
+      "workCount": 28,
+      "imageCount": 38,
+      "rightsBreakdown": {
+        "公版 / 开放馆藏": 25,
+        "期限届满": 3
+      },
+      "tags": [
+        "万圣节",
+        "怪诞 / 魔法",
+        "宗教 / 神话",
+        "早期动画"
+      ],
+      "yearStart": 1645
+    },
+    {
       "id": "scene-西部-dca3ed38",
       "name": "西部",
       "type": "场景",
@@ -33566,135 +35300,6 @@
       "yearStart": 1930
     },
     {
-      "id": "scene-幽灵-鬼屋与通灵-862f5410",
-      "name": "幽灵、鬼屋与通灵",
-      "type": "场景",
-      "coverImages": [
-        "images/b02e71f61eb593b2f401.webp",
-        "images/10abdbb3daef337faa27.webp",
-        "images/a2fe88e2addea68116f8.webp",
-        "images/f60b8e89dc9b6017eb46.webp"
-      ],
-      "workIds": [
-        "work-立体镜中的幽灵-f0be4d30",
-        "work-孤儿在母亲墓前-23a2d5dc",
-        "work-通灵会灵体合成照-3c8907c2",
-        "work-马利的幽灵-436b638e",
-        "work-撒母耳的幽灵向扫罗显现-54e3a978",
-        "work-玛格丽特的幽灵向浮士德显现-f9fe58a8",
-        "work-巫术-2cb43daf",
-        "work-玫瑰魔术师与超自然生物-36d50d1c",
-        "work-灵魂会回来吗-ba38546d",
-        "work-圣女贞德与异象-77bed1c9",
-        "work-巫术场景-黄昏-5e91ed00",
-        "work-幽灵-一场圣诞恶作剧-d2a5c039",
-        "work-马利的幽灵-拉克姆版-917905df",
-        "work-布盖通灵摄影-296427a4",
-        "work-休息的幽灵演奏者-6db9d5b8",
-        "work-幽灵与油灯-1fb37b14",
-        "work-闹鬼的汽车-e6442b01",
-        "work-newmann-的灵体奇术-576434db",
-        "work-闹鬼的小路-1ee678e8",
-        "work-哈姆雷特追随父亲幽灵-c3f90678",
-        "work-冈崎猫妖怪谈-bd4f4df0",
-        "work-钟馗-35122b8b",
-        "work-鬼怪素描-abaf8ede",
-        "work-义平幽灵复仇-8f44b5f3",
-        "work-鲤旗与钟馗旗-dd97e27f"
-      ],
-      "entityIds": [
-        "role-白布幽灵-0f2aa01a",
-        "subject-ghosts-spiritualism",
-        "role-母亲幽灵-79c3028b",
-        "role-通灵灵体-17f504c0",
-        "role-marleys-ghost-0861a74f",
-        "role-samuel-b1f6d124",
-        "subject-jesus-christian-iconography",
-        "role-marguerites-ghost-de177e82",
-        "role-召灵幻象-a015fd9d",
-        "role-舞台灵体-b5c936dc",
-        "role-joan-of-arc-5c8b31af",
-        "role-召唤幽灵-e623ac10",
-        "role-chained-phantoms-3541a6a1",
-        "role-披布灵体-f8637771",
-        "role-幽灵演奏者-0941d377",
-        "role-yurei-39275740",
-        "subject-east-asian-ghosts",
-        "role-动物幽灵群-856dd4d2",
-        "role-白衣幽灵-4f1bdbdf",
-        "role-hamlets-father-5a4cc5d1",
-        "role-cat-demon-1b812fa1",
-        "role-钟馗-2d4bb89f",
-        "role-demons-bd2a88c5",
-        "role-yoshihiras-ghost-122808fc"
-      ],
-      "recordIds": [
-        "catalog-supplement-ghost-stereoscope-1856",
-        "frame-supplement-ghost-stereoscope-1856-001",
-        "catalog-supplement-ghost-orphans-grave-1889",
-        "frame-supplement-ghost-orphans-grave-1889-001",
-        "catalog-supplement-ghost-hallowell-composite-1901",
-        "frame-supplement-ghost-hallowell-composite-1901-001",
-        "catalog-supplement-ghost-marley-leech-1843",
-        "frame-supplement-ghost-marley-leech-1843-001",
-        "catalog-supplement-ghost-samuel-blake",
-        "frame-supplement-ghost-samuel-blake-001",
-        "catalog-supplement-ghost-marguerite-delacroix-1828",
-        "frame-supplement-ghost-marguerite-delacroix-1828-001",
-        "catalog-supplement-ghost-witchcraft-fantin-1899",
-        "frame-supplement-ghost-witchcraft-fantin-1899-001",
-        "catalog-supplement-ghost-magician-roses-1892",
-        "frame-supplement-ghost-magician-roses-1892-001",
-        "catalog-supplement-ghost-thurston-1915",
-        "frame-supplement-ghost-thurston-1915-001",
-        "catalog-supplement-ghost-joan-arc-1879",
-        "frame-supplement-ghost-joan-arc-1879-001",
-        "catalog-supplement-ghost-witchcraft-evening",
-        "frame-supplement-ghost-witchcraft-evening-001",
-        "catalog-supplement-ghost-christmas-frolic-1814",
-        "frame-supplement-ghost-christmas-frolic-1814-001",
-        "catalog-supplement-ghost-rackham-marley-1915",
-        "frame-supplement-ghost-rackham-marley-1915-001",
-        "catalog-supplement-ghost-rackham-phantoms-1915",
-        "frame-supplement-ghost-rackham-phantoms-1915-001",
-        "catalog-supplement-ghost-buguet-1874",
-        "frame-supplement-ghost-buguet-1874-001",
-        "catalog-supplement-ghost-underwood-1893",
-        "frame-supplement-ghost-underwood-1893-001",
-        "catalog-supplement-ghost-oil-lamp-1810",
-        "frame-supplement-ghost-oil-lamp-1810-001",
-        "catalog-supplement-ghost-haunted-auto-1910",
-        "frame-supplement-ghost-haunted-auto-1910-001",
-        "catalog-supplement-ghost-newmann-1911",
-        "frame-supplement-ghost-newmann-1911-001",
-        "catalog-supplement-ghost-haunted-lane-1889",
-        "frame-supplement-ghost-haunted-lane-1889-001",
-        "catalog-supplement-ghost-hamlet-delacroix-1835",
-        "frame-supplement-ghost-hamlet-delacroix-1835-001",
-        "catalog-supplement-ghost-met-cat-demon",
-        "frame-supplement-ghost-met-cat-demon-001",
-        "catalog-supplement-ghost-met-zhong-kui",
-        "frame-supplement-ghost-met-zhong-kui-001",
-        "catalog-supplement-ghost-met-demon-drawings",
-        "frame-supplement-ghost-met-demon-drawings-001",
-        "catalog-supplement-ghost-met-yoshihira-revenge",
-        "frame-supplement-ghost-met-yoshihira-revenge-001",
-        "catalog-supplement-ghost-met-shoki-banner",
-        "frame-supplement-ghost-met-shoki-banner-001"
-      ],
-      "workCount": 25,
-      "imageCount": 26,
-      "rightsBreakdown": {
-        "公版 / 开放馆藏": 25
-      },
-      "tags": [
-        "万圣节",
-        "怪诞 / 魔法",
-        "宗教 / 神话"
-      ],
-      "yearStart": 1645
-    },
-    {
       "id": "scene-城堡-f6f854a2",
       "name": "城堡",
       "type": "场景",
@@ -33816,6 +35421,87 @@
         "动物 / 自然"
       ],
       "yearStart": 1900
+    },
+    {
+      "id": "scene-骷髅与死亡之舞-4274f6c6",
+      "name": "骷髅与死亡之舞",
+      "type": "场景",
+      "coverImages": [
+        "images/02a10da9043dd36686e7.webp",
+        "images/c365607a6b17bf0cbbf0.webp",
+        "images/a74eed2902c3f52c93db.webp",
+        "images/fd46e3f3c3bb306561b8.webp"
+      ],
+      "workIds": [
+        "work-the-skeleton-dance-8b38cda1",
+        "work-the-haunted-house-2de44826",
+        "work-hells-bells-a2645562",
+        "work-swing-you-sinners-24ae4646",
+        "work-the-clergyman-from-the-dance-of-death-49e45d2c",
+        "work-memento-mori-a-skeleton-in-a-niche-97966eff",
+        "work-still-life-with-a-skull-and-a-writing-quill-44f6283c",
+        "work-the-three-skulls-6dc216c4",
+        "work-watch-in-the-form-of-a-human-skull-672c8f09"
+      ],
+      "entityIds": [
+        "role-骷髅乐队-c975af3b",
+        "subject-ghosts-spiritualism",
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "role-地狱恶魔群-5077de70",
+        "role-墓园幽灵群-b3adc750",
+        "role-人格化死亡-a7a5cded",
+        "role-壁龛骷髅-7dfd5438",
+        "role-静物骷髅-db25c43c",
+        "role-三头骨-85564678",
+        "role-骷髅怀表-90baf93c"
+      ],
+      "recordIds": [
+        "catalog-supplement-skeleton-dance-1929",
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "catalog-supplement-haunted-house-1929",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "catalog-supplement-hells-bells-1929",
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004",
+        "catalog-supplement-swing-you-sinners-1930",
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "catalog-supplement-holbein-clergyman-dance-of-death",
+        "frame-supplement-holbein-clergyman-dance-of-death-001",
+        "catalog-supplement-memento-mori-skeleton-niche",
+        "frame-supplement-memento-mori-skeleton-niche-001",
+        "catalog-supplement-claesz-skull-quill-1628",
+        "frame-supplement-claesz-skull-quill-1628-001",
+        "catalog-supplement-cezanne-three-skulls",
+        "frame-supplement-cezanne-three-skulls-001",
+        "catalog-supplement-skull-watch-1810",
+        "frame-supplement-skull-watch-1810-001"
+      ],
+      "workCount": 9,
+      "imageCount": 21,
+      "rightsBreakdown": {
+        "期限届满": 4,
+        "公版 / 开放馆藏": 5
+      },
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法",
+        "版画 / 纹样",
+        "经典艺术",
+        "器物 / 建筑"
+      ],
+      "yearStart": 1400
     },
     {
       "id": "scene-森林-自然-64b1508c",
@@ -37648,6 +39334,38 @@
       "yearStart": 1895
     },
     {
+      "id": "scene-恶魔-火焰与坩埚-c536f370",
+      "name": "恶魔、火焰与坩埚",
+      "type": "场景",
+      "coverImages": [
+        "images/a74eed2902c3f52c93db.webp"
+      ],
+      "workIds": [
+        "work-hells-bells-a2645562"
+      ],
+      "entityIds": [
+        "role-地狱恶魔群-5077de70"
+      ],
+      "recordIds": [
+        "catalog-supplement-hells-bells-1929",
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004"
+      ],
+      "workCount": 1,
+      "imageCount": 4,
+      "rightsBreakdown": {
+        "期限届满": 1
+      },
+      "tags": [
+        "万圣节",
+        "早期动画",
+        "怪诞 / 魔法"
+      ],
+      "yearStart": 1929
+    },
+    {
       "id": "scene-冒险-追逐-05de575c",
       "name": "冒险 / 追逐",
       "type": "场景",
@@ -37894,6 +39612,41 @@
         "动物 / 自然"
       ],
       "yearStart": 1934
+    },
+    {
+      "id": "scene-经典恐怖电影空间-ad4fb32c",
+      "name": "经典恐怖电影空间",
+      "type": "场景",
+      "coverImages": [
+        "images/0f5af64c0b2d8bdc0ea6.webp",
+        "images/7129838edda8ba076b4a.webp"
+      ],
+      "workIds": [
+        "work-the-cabinet-of-dr-caligari-3cc37292",
+        "work-the-phantom-of-the-opera-e79aee58"
+      ],
+      "entityIds": [
+        "role-表现主义梦游者-d38a5b2b",
+        "role-1925-phantom-7d9351c5",
+        "subject-ghosts-spiritualism"
+      ],
+      "recordIds": [
+        "catalog-supplement-cabinet-caligari-1920",
+        "frame-supplement-cabinet-caligari-1920-001",
+        "catalog-supplement-phantom-opera-1925",
+        "frame-supplement-phantom-opera-1925-001"
+      ],
+      "workCount": 2,
+      "imageCount": 2,
+      "rightsBreakdown": {
+        "期限届满": 2
+      },
+      "tags": [
+        "万圣节",
+        "电影 / 舞台",
+        "暗黑 / 怪诞"
+      ],
+      "yearStart": 1920
     },
     {
       "id": "scene-巨人-546c36f1",
@@ -38473,7 +40226,18 @@
         "work-钟馗-35122b8b",
         "work-鬼怪素描-abaf8ede",
         "work-义平幽灵复仇-8f44b5f3",
-        "work-鲤旗与钟馗旗-dd97e27f"
+        "work-鲤旗与钟馗旗-dd97e27f",
+        "work-the-skeleton-dance-8b38cda1",
+        "work-the-haunted-house-2de44826",
+        "work-hells-bells-a2645562",
+        "work-swing-you-sinners-24ae4646",
+        "work-the-clergyman-from-the-dance-of-death-49e45d2c",
+        "work-memento-mori-a-skeleton-in-a-niche-97966eff",
+        "work-still-life-with-a-skull-and-a-writing-quill-44f6283c",
+        "work-the-three-skulls-6dc216c4",
+        "work-watch-in-the-form-of-a-human-skull-672c8f09",
+        "work-the-cabinet-of-dr-caligari-3cc37292",
+        "work-the-phantom-of-the-opera-e79aee58"
       ],
       "entityIds": [
         "role-dracula-0544a724",
@@ -38522,7 +40286,18 @@
         "role-cat-demon-1b812fa1",
         "role-钟馗-2d4bb89f",
         "role-demons-bd2a88c5",
-        "role-yoshihiras-ghost-122808fc"
+        "role-yoshihiras-ghost-122808fc",
+        "role-骷髅乐队-c975af3b",
+        "role-鬼屋骷髅乐队-a4afa9a8",
+        "role-地狱恶魔群-5077de70",
+        "role-墓园幽灵群-b3adc750",
+        "role-人格化死亡-a7a5cded",
+        "role-壁龛骷髅-7dfd5438",
+        "role-静物骷髅-db25c43c",
+        "role-三头骨-85564678",
+        "role-骷髅怀表-90baf93c",
+        "role-表现主义梦游者-d38a5b2b",
+        "role-1925-phantom-7d9351c5"
       ],
       "recordIds": [
         "catalog-dracula",
@@ -38671,14 +40446,48 @@
         "catalog-supplement-ghost-met-yoshihira-revenge",
         "frame-supplement-ghost-met-yoshihira-revenge-001",
         "catalog-supplement-ghost-met-shoki-banner",
-        "frame-supplement-ghost-met-shoki-banner-001"
+        "frame-supplement-ghost-met-shoki-banner-001",
+        "catalog-supplement-skeleton-dance-1929",
+        "frame-supplement-skeleton-dance-1929-001",
+        "frame-supplement-skeleton-dance-1929-002",
+        "frame-supplement-skeleton-dance-1929-003",
+        "frame-supplement-skeleton-dance-1929-004",
+        "catalog-supplement-haunted-house-1929",
+        "frame-supplement-haunted-house-1929-001",
+        "frame-supplement-haunted-house-1929-002",
+        "frame-supplement-haunted-house-1929-003",
+        "frame-supplement-haunted-house-1929-004",
+        "catalog-supplement-hells-bells-1929",
+        "frame-supplement-hells-bells-1929-001",
+        "frame-supplement-hells-bells-1929-002",
+        "frame-supplement-hells-bells-1929-003",
+        "frame-supplement-hells-bells-1929-004",
+        "catalog-supplement-swing-you-sinners-1930",
+        "frame-supplement-swing-you-sinners-1930-001",
+        "frame-supplement-swing-you-sinners-1930-002",
+        "frame-supplement-swing-you-sinners-1930-003",
+        "frame-supplement-swing-you-sinners-1930-004",
+        "catalog-supplement-holbein-clergyman-dance-of-death",
+        "frame-supplement-holbein-clergyman-dance-of-death-001",
+        "catalog-supplement-memento-mori-skeleton-niche",
+        "frame-supplement-memento-mori-skeleton-niche-001",
+        "catalog-supplement-claesz-skull-quill-1628",
+        "frame-supplement-claesz-skull-quill-1628-001",
+        "catalog-supplement-cezanne-three-skulls",
+        "frame-supplement-cezanne-three-skulls-001",
+        "catalog-supplement-skull-watch-1810",
+        "frame-supplement-skull-watch-1810-001",
+        "catalog-supplement-cabinet-caligari-1920",
+        "frame-supplement-cabinet-caligari-1920-001",
+        "catalog-supplement-phantom-opera-1925",
+        "frame-supplement-phantom-opera-1925-001"
       ],
-      "workCount": 56,
-      "imageCount": 118,
+      "workCount": 67,
+      "imageCount": 141,
       "rightsBreakdown": {
-        "期限届满": 4,
+        "期限届满": 10,
         "未续期": 3,
-        "公版 / 开放馆藏": 49
+        "公版 / 开放馆藏": 54
       },
       "tags": [
         "童话 / 寓言",
@@ -38687,9 +40496,14 @@
         "早期动画",
         "漫画 / 角色",
         "宗教 / 神话",
-        "动物 / 自然"
+        "动物 / 自然",
+        "版画 / 纹样",
+        "经典艺术",
+        "器物 / 建筑",
+        "电影 / 舞台",
+        "暗黑 / 怪诞"
       ],
-      "yearStart": 1497
+      "yearStart": 1400
     },
     {
       "id": "holiday-圣诞-冬季-b4238bca",

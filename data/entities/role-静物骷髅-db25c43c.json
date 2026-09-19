@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T04:42:27.130Z",
+  "entity": {
+    "id": "role-静物骷髅-db25c43c",
+    "name": "静物骷髅",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/288d49fc19bf2b6e5ac4.webp",
+    "coverRecordId": "catalog-supplement-claesz-skull-quill-1628",
+    "yearStart": 1628,
+    "yearEnd": 1628,
+    "workIds": [
+      "work-still-life-with-a-skull-and-a-writing-quill-44f6283c"
+    ],
+    "recordIds": [
+      "frame-supplement-claesz-skull-quill-1628-001",
+      "catalog-supplement-claesz-skull-quill-1628"
+    ],
+    "frameIds": [
+      "frame-supplement-claesz-skull-quill-1628-001"
+    ],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 1,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 1
+    },
+    "copyrightRoutes": [
+      "The Met Open Access · Public Domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "经典艺术",
+      "怪诞 / 魔法"
+    ],
+    "topScenes": [
+      {
+        "name": "骷髅与死亡之舞",
+        "count": 2
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "低饱和明暗",
+        "count": 2
+      },
+      {
+        "name": "荷兰静物",
+        "count": 2
+      },
+      {
+        "name": "Vanitas",
+        "count": 2
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 2
+      }
+    ],
+    "usage": "头骨、羽毛笔、书页与玻璃的 vanitas 静物关系；适合知识、时间和死亡的低饱和图案。",
+    "avoid": "这不是现代 Halloween 的直接起源；避免将馆藏名称或机构标识当商品品牌。",
+    "awarenessScore": 82,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-still-life-with-a-skull-and-a-writing-quill-44f6283c",
+      "title": "Still Life with a Skull and a Writing Quill",
+      "subtitle": "Pieter Claesz",
+      "year": "1628",
+      "yearSort": 1628,
+      "coverImage": "images/288d49fc19bf2b6e5ac4.webp",
+      "coverRecordId": "catalog-supplement-claesz-skull-quill-1628",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435904",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met 标记 Public Domain"
+      ],
+      "usage": "头骨、羽毛笔、书页与玻璃的 vanitas 静物关系；适合知识、时间和死亡的低饱和图案。",
+      "avoid": "这不是现代 Halloween 的直接起源；避免将馆藏名称或机构标识当商品品牌。",
+      "tags": [
+        "万圣节",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "荷兰静物",
+        "Vanitas",
+        "低饱和明暗"
+      ],
+      "scenes": [
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "静物骷髅"
+      ],
+      "characterAliases": [
+        "静物骷髅"
+      ],
+      "recordIds": [
+        "frame-supplement-claesz-skull-quill-1628-001",
+        "catalog-supplement-claesz-skull-quill-1628"
+      ],
+      "frameIds": [
+        "frame-supplement-claesz-skull-quill-1628-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-claesz-skull-quill-1628"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 82,
+      "entityIds": [
+        "role-静物骷髅-db25c43c"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}

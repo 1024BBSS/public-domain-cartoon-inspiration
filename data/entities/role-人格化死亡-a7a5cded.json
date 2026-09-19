@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-19T04:42:27.130Z",
+  "entity": {
+    "id": "role-人格化死亡-a7a5cded",
+    "name": "人格化死亡",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/2f8a5823eb54957e7955.webp",
+    "coverRecordId": "catalog-supplement-holbein-clergyman-dance-of-death",
+    "yearStart": 1526,
+    "yearEnd": 1526,
+    "workIds": [
+      "work-the-clergyman-from-the-dance-of-death-49e45d2c"
+    ],
+    "recordIds": [
+      "frame-supplement-holbein-clergyman-dance-of-death-001",
+      "catalog-supplement-holbein-clergyman-dance-of-death"
+    ],
+    "frameIds": [
+      "frame-supplement-holbein-clergyman-dance-of-death-001"
+    ],
+    "workCount": 1,
+    "imageCount": 1,
+    "frameCount": 1,
+    "rightsBreakdown": {
+      "公版 / 开放馆藏": 1
+    },
+    "copyrightRoutes": [
+      "The Met Open Access · Public Domain"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "万圣节",
+      "版画 / 纹样",
+      "怪诞 / 魔法"
+    ],
+    "topScenes": [
+      {
+        "name": "骷髅与死亡之舞",
+        "count": 2
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "粗线叙事",
+        "count": 2
+      },
+      {
+        "name": "死亡之舞",
+        "count": 2
+      },
+      {
+        "name": "文艺复兴木刻",
+        "count": 2
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 2
+      }
+    ],
+    "usage": "死亡闯入职业日常；可提取骷髅与活人镜像动作、小幅连续叙事和木刻粗线。",
+    "avoid": "不要把历史图像直接包装成现代电影或乐队官方周边。",
+    "awarenessScore": 88,
+    "sourceCount": 1,
+    "relatedEntityIds": []
+  },
+  "works": [
+    {
+      "id": "work-the-clergyman-from-the-dance-of-death-49e45d2c",
+      "title": "The Clergyman, from The Dance of Death",
+      "subtitle": "Hans Holbein the Younger",
+      "year": "ca. 1526 / 1538",
+      "yearSort": 1526,
+      "coverImage": "images/2f8a5823eb54957e7955.webp",
+      "coverRecordId": "catalog-supplement-holbein-clergyman-dance-of-death",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/365199",
+      "sourceLabel": "The Met",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版 / 开放馆藏"
+      ],
+      "copyrightRoutes": [
+        "The Met Open Access · Public Domain"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "The Met 标记 Public Domain"
+      ],
+      "usage": "死亡闯入职业日常；可提取骷髅与活人镜像动作、小幅连续叙事和木刻粗线。",
+      "avoid": "不要把历史图像直接包装成现代电影或乐队官方周边。",
+      "tags": [
+        "万圣节",
+        "版画 / 纹样",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "文艺复兴木刻",
+        "死亡之舞",
+        "粗线叙事"
+      ],
+      "scenes": [
+        "骷髅与死亡之舞"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characterNames": [
+        "人格化死亡"
+      ],
+      "characterAliases": [
+        "人格化死亡"
+      ],
+      "recordIds": [
+        "frame-supplement-holbein-clergyman-dance-of-death-001",
+        "catalog-supplement-holbein-clergyman-dance-of-death"
+      ],
+      "frameIds": [
+        "frame-supplement-holbein-clergyman-dance-of-death-001"
+      ],
+      "masterIds": [
+        "catalog-supplement-holbein-clergyman-dance-of-death"
+      ],
+      "imageCount": 1,
+      "frameCount": 1,
+      "awarenessScore": 88,
+      "entityIds": [
+        "role-人格化死亡-a7a5cded"
+      ]
+    }
+  ],
+  "relatedEntities": [],
+  "recordsEndpoint": "../catalog.json"
+}
