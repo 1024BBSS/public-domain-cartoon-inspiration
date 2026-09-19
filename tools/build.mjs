@@ -6,7 +6,6 @@ import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
-import { writeHalloweenData } from "./build-halloween.mjs";
 import { writeRelationData } from "./relations.mjs";
 
 const execFileAsync = promisify(execFile);
@@ -394,7 +393,6 @@ await fs.writeFile(
 );
 
 const relationResult = await writeRelationData(projectRoot, dataset);
-const halloweenResult = await writeHalloweenData(projectRoot, dataset);
 
 const manifest = {
   schemaVersion: "1.0",
@@ -412,8 +410,6 @@ const manifest = {
   catalogSha256: createHash("sha256").update(catalogJson).digest("hex"),
   relationsSha256: relationResult.sha256,
   relationCounts: relationResult.relations.counts,
-  halloweenSha256: halloweenResult.sha256,
-  halloweenCounts: halloweenResult.counts,
   supplemental: {
     sourceVersions: supplementalDatasets.map((data) => data.sourceVersion || "unknown"),
     workCount: supplementalDatasets.reduce((sum, data) => sum + (data.works || []).length, 0),

@@ -46,13 +46,6 @@
     "holidays": 8,
     "records": 767
   },
-  "halloweenSha256": "fed7cffed7b38fc778fd28dc68c238ca8fdfa79a001b368379d9fbddb6d6b341",
-  "halloweenCounts": {
-    "works": 11,
-    "images": 23,
-    "signals": 5,
-    "blocked": 3
-  },
   "supplemental": {
     "sourceVersions": [
       "cartoon-ip-grok-clues-2026-09-16-v1",

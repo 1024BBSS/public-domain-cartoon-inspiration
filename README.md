@@ -30,6 +30,8 @@
 
 网页与 Agent JSON 共用同一份构建数据，页面深链可直接定位角色、作品和画面。
 
+万圣节内容不设独立趋势页，也不在主导航增加专题跳转。它作为“图素”进入现有的 `画面`、`场景 / 题材` 和 `节日` 入口：前台先显示实际图像，来源链接和趋势证据只放在详情或源数据中。完整标准见 `source/halloween-visual-elements-requirements.md`。
+
 ## 更新
 
 源资料更新后，在本机运行：
@@ -43,6 +45,6 @@ node tools/validate-album-canon.mjs
 
 构建会从 Eagle 事实源读取图片、生成 960px WebP 预览、重建公开目录与关系数据，并重新复制指定设计系统的 `tokens.css` 与 `components.css`。
 
-`source/cartoon-ip-supplement.json` 与 `source/ghost-commercial-supplement.json` 保存已核验作品、风险边界和 Eagle item ID。`source/album-canon-seed.psv` 保存 200 张母库的人工定款；`source/album-license-only.json` 保存补齐图源后的现代需授权研究记录；`source/album-public-domain.json` 保存公版历史封面；`source/eagle-rock-lineage.json` 与 `source/western-country-lineage.json` 分别保存鹰翼摇滚、西部乡村专题。
+`source/cartoon-ip-supplement.json`、`source/ghost-commercial-supplement.json` 与 `source/halloween-classics-supplement.json` 保存已核验作品、风险边界和 Eagle item ID。`source/halloween-trend-watchlist.json` 仅作后台趋势证据，不生成前台专题页。`source/album-canon-seed.psv` 保存 200 张母库的人工定款；`source/album-license-only.json` 保存补齐图源后的现代需授权研究记录；`source/album-public-domain.json` 保存公版历史封面；`source/eagle-rock-lineage.json` 与 `source/western-country-lineage.json` 分别保存鹰翼摇滚、西部乡村专题。
 
 幽灵图源位于 Eagle 的 `04｜幽灵与通灵｜A证据`，公版封面源流位于 `05｜专辑封面｜公版源流与授权研究`。图片原件仍以 Eagle 为事实源；补充文件只描述关系与证据，不保存第二份原图。新的 Grok 调研包先用 `node tools/import-grok-intake.mjs /解包根目录` 去重、核验和写入 Eagle，再进入公开构建。
