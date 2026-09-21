@@ -30,8 +30,12 @@
     <div class="body">
       <aside class="sidebar" aria-label="美国超级 IP 筛选">
         <div class="sidebar__section">
-          <div class="sidebar__label">类型</div>
+          <div class="sidebar__label">主分类</div>
           <nav class="facet-list" id="category-facets"></nav>
+        </div>
+        <div class="sidebar__section" id="subcategory-section" hidden>
+          <div class="sidebar__label">子分类</div>
+          <nav class="facet-list" id="subcategory-facets"></nav>
         </div>
         <div class="sidebar__section">
           <div class="sidebar__label">权利入口</div>
@@ -48,8 +52,11 @@
             <span class="sr-only">搜索</span>
             <input class="input" id="search" type="search" autocomplete="off" placeholder="搜角色、演员、影视、音乐、书籍、舞台、媒体、游戏或体育">
           </label>
-          <select class="select compact-select" id="category-select" aria-label="类型">
-            <option value="全部">全部类型</option>
+          <select class="select compact-select" id="category-select" aria-label="主分类">
+            <option value="全部">全部主分类</option>
+          </select>
+          <select class="select compact-select" id="subcategory-select" aria-label="子分类" hidden>
+            <option value="全部">全部子分类</option>
           </select>
           <select class="select compact-select" id="rights-select" aria-label="权利入口">
             <option value="全部">全部权利入口</option>
@@ -60,12 +67,13 @@
           <select class="select compact-select" id="sort-select" aria-label="排序">
             <option value="curated">知名度优先</option>
             <option value="name">名称</option>
-            <option value="category">类型</option>
+            <option value="category">主分类 / 子分类</option>
           </select>
           <button class="btn btn--secondary" id="reset" type="button">重置</button>
         </section>
 
         <nav class="quick-tabs" id="quick-tabs" aria-label="快捷入口"></nav>
+        <nav class="subcategory-tabs" id="subcategory-tabs" aria-label="子分类" hidden></nav>
 
         <section class="summary-strip" aria-label="资料库统计">
           <div class="summary-metric"><span id="metric-all">0</span><small>候选</small></div>
@@ -90,10 +98,10 @@
           <button class="btn btn--secondary btn--sm" id="empty-reset" type="button">清空筛选</button>
         </div>
 
-        <nav class="pager" aria-label="分页">
-          <button class="btn btn--secondary" id="prev-page" type="button">上一页</button>
-          <span class="pager__status" id="pager-status">1 / 1</span>
-          <button class="btn btn--secondary" id="next-page" type="button">下一页</button>
+        <nav class="load-more-bar" id="load-more-bar" aria-label="继续浏览">
+          <button class="btn btn--secondary" id="load-more" type="button">加载更多</button>
+          <span class="load-more-status" id="load-more-status" aria-live="polite"></span>
+          <span class="load-sentinel" id="load-sentinel" aria-hidden="true"></span>
         </nav>
       </main>
     </div>

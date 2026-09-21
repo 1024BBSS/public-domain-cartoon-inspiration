@@ -9,9 +9,11 @@
 
   const $ = (selector) => document.querySelector(selector);
   const dom = {
+    main: $("#main-content"),
     topMeta: $("#top-meta"),
     search: $("#search"),
     categorySelect: $("#category-select"),
+    subcategorySelect: $("#subcategory-select"),
     rightsSelect: $("#rights-select"),
     tierSelect: $("#tier-select"),
     sortSelect: $("#sort-select"),
@@ -19,16 +21,20 @@
     emptyReset: $("#empty-reset"),
     copyFilter: $("#copy-filter"),
     categoryFacets: $("#category-facets"),
+    subcategorySection: $("#subcategory-section"),
+    subcategoryFacets: $("#subcategory-facets"),
     rightsFacets: $("#rights-facets"),
     quickTabs: $("#quick-tabs"),
+    subcategoryTabs: $("#subcategory-tabs"),
     list: $("#ip-list"),
     empty: $("#empty-state"),
     resultTitle: $("#result-title"),
     resultCount: $("#result-count"),
     pageStatus: $("#page-status"),
-    prevPage: $("#prev-page"),
-    nextPage: $("#next-page"),
-    pagerStatus: $("#pager-status"),
+    loadMoreBar: $("#load-more-bar"),
+    loadMore: $("#load-more"),
+    loadMoreStatus: $("#load-more-status"),
+    loadSentinel: $("#load-sentinel"),
     dialog: $("#detail-dialog"),
     detailKind: $("#detail-kind"),
     detailTitle: $("#detail-title"),
@@ -52,7 +58,7 @@
     copyItem: $("#copy-item"),
   };
 
-  const PAGE_SIZE = 48;
+  const BATCH_SIZE = 48;
   const records = dataset.records.map((record) => ({
     ...record,
     _search: normalize([
@@ -90,6 +96,13 @@
     ...categoryOrder.filter((category) => categoryKeys.includes(category)),
     ...categoryKeys.filter((category) => !categoryOrder.includes(category)),
   ];
+  const subcategoryCounts = records.reduce((tree, record) => {
+    tree[record.category] ||= {};
+    tree[record.category][record.subcategory] = (tree[record.category][record.subcategory] || 0) + 1;
+    return tree;
+  }, {});
+  const subcategoriesFor = (category) => Object.entries(subcategoryCounts[category] || {})
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN"));
   const rightsLanes = Object.keys(dataset.counts.byRightsLane);
   const tiers = Object.keys(dataset.counts.byUsTier);
   const entertainmentCategories = new Set([
@@ -112,20 +125,21 @@
     { key: "100M+认知等效", label: "100M+ 认知等效", test: (item) => item.surveyQualifies100m === true },
     { key: "100M+直接人数", label: "100M+ 直接人数", test: (item) => item.reachStatus.startsWith("100M+") },
     { key: "有参考图", label: "有参考图", test: (item) => Boolean(item.visualImage) },
-    { key: "体育运动", label: "体育运动", test: (item) => item.category === "体育运动" },
-    { key: "动画 / 角色", label: "角色卡通", test: (item) => item.category === "动画 / 角色" },
-    { key: "电影 / 电视", label: "影视", test: (item) => item.category === "电影 / 电视" },
-    { key: "游戏 / 玩具", label: "游戏玩具", test: (item) => item.category === "游戏 / 玩具" },
-    { key: "音乐", label: "音乐", test: (item) => item.category === "音乐" },
-    { key: "人物 / 文娱名人", label: "人物名人", test: (item) => item.category === "人物 / 文娱名人" },
-    { key: "文学 / 书籍", label: "书籍", test: (item) => item.category === "文学 / 书籍" },
-    { key: "舞台 / 活动", label: "舞台活动", test: (item) => item.category === "舞台 / 活动" },
-    { key: "网络 / 媒体", label: "媒体", test: (item) => item.category === "网络 / 媒体" },
+    { key: "体育运动", label: "体育运动", category: "体育运动", test: (item) => item.category === "体育运动" },
+    { key: "动画 / 角色", label: "角色卡通", category: "动画 / 角色", test: (item) => item.category === "动画 / 角色" },
+    { key: "电影 / 电视", label: "影视", category: "电影 / 电视", test: (item) => item.category === "电影 / 电视" },
+    { key: "游戏 / 玩具", label: "游戏玩具", category: "游戏 / 玩具", test: (item) => item.category === "游戏 / 玩具" },
+    { key: "音乐", label: "音乐", category: "音乐", test: (item) => item.category === "音乐" },
+    { key: "人物 / 文娱名人", label: "人物名人", category: "人物 / 文娱名人", test: (item) => item.category === "人物 / 文娱名人" },
+    { key: "文学 / 书籍", label: "书籍", category: "文学 / 书籍", test: (item) => item.category === "文学 / 书籍" },
+    { key: "舞台 / 活动", label: "舞台活动", category: "舞台 / 活动", test: (item) => item.category === "舞台 / 活动" },
+    { key: "网络 / 媒体", label: "媒体", category: "网络 / 媒体", test: (item) => item.category === "网络 / 媒体" },
     { key: "文化公域", label: "文化公域", test: (item) => item.rightsLane === "文化公域 · 逐素材核验" },
   ];
 
   let state = readState();
   let currentItem = null;
+  let currentFiltered = [];
 
   function normalize(value) {
     return String(value || "").normalize("NFKC").toLocaleLowerCase("en-US").replace(/\s+/g, " ").trim();
@@ -138,16 +152,21 @@
       "100M+实测": "100M+直接人数",
     };
     const requestedQuick = legacyQuick[params.get("quick")] || params.get("quick");
-    const quick = quickOptions.some((item) => item.key === requestedQuick) ? requestedQuick : "全部";
+    const categoryQuick = quickOptions.find((item) => item.category && item.key === requestedQuick);
+    const quick = categoryQuick ? "全部" : quickOptions.some((item) => item.key === requestedQuick) ? requestedQuick : "全部";
     const quickOwnsScope = quick !== "全部";
+    const requestedCategory = categoryQuick?.category || params.get("category");
+    const category = quickOwnsScope ? "全部" : categories.includes(requestedCategory) ? requestedCategory : "全部";
+    const availableSubcategories = new Set(subcategoriesFor(category).map(([name]) => name));
     return {
       q: quickOwnsScope ? "" : params.get("q") || "",
-      category: quickOwnsScope ? "全部" : categories.includes(params.get("category")) ? params.get("category") : "全部",
+      category,
+      subcategory: category !== "全部" && availableSubcategories.has(params.get("subcategory")) ? params.get("subcategory") : "全部",
       rights: quickOwnsScope ? "全部" : rightsLanes.includes(params.get("rights")) ? params.get("rights") : "全部",
       tier: quickOwnsScope ? "全部" : tiers.includes(params.get("tier")) ? params.get("tier") : "全部",
       quick,
       sort: ["curated", "name", "category"].includes(params.get("sort")) ? params.get("sort") : "curated",
-      page: Math.max(1, Number(params.get("page")) || 1),
+      visible: Math.max(1, Number(params.get("page")) || 1) * BATCH_SIZE,
     };
   }
 
@@ -155,18 +174,20 @@
     const params = new URLSearchParams();
     if (state.q) params.set("q", state.q);
     if (state.category !== "全部") params.set("category", state.category);
+    if (state.subcategory !== "全部") params.set("subcategory", state.subcategory);
     if (state.rights !== "全部") params.set("rights", state.rights);
     if (state.tier !== "全部") params.set("tier", state.tier);
     if (state.quick !== "全部") params.set("quick", state.quick);
     if (state.sort !== "curated") params.set("sort", state.sort);
-    if (state.page > 1) params.set("page", String(state.page));
     const query = params.toString();
     history[replace ? "replaceState" : "pushState"](null, "", `${location.pathname}${query ? `?${query}` : ""}`);
   }
 
   function setState(patch, options = {}) {
+    const categoryChanged = Object.prototype.hasOwnProperty.call(patch, "category") && patch.category !== state.category;
     state = { ...state, ...patch };
-    if (!Object.prototype.hasOwnProperty.call(patch, "page")) state.page = 1;
+    if (categoryChanged && !Object.prototype.hasOwnProperty.call(patch, "subcategory")) state.subcategory = "全部";
+    if (!Object.prototype.hasOwnProperty.call(patch, "visible")) state.visible = BATCH_SIZE;
     writeState(options.replace === true);
     render();
   }
@@ -178,10 +199,10 @@
     return node;
   }
 
-  function makeOption(value) {
+  function makeOption(value, label = value) {
     const option = document.createElement("option");
     option.value = value;
-    option.textContent = value;
+    option.textContent = label;
     return option;
   }
 
@@ -195,6 +216,7 @@
     const filtered = records.filter((item) => {
       if (q && !item._search.includes(q)) return false;
       if (state.category !== "全部" && item.category !== state.category) return false;
+      if (state.subcategory !== "全部" && item.subcategory !== state.subcategory) return false;
       if (state.rights !== "全部" && item.rightsLane !== state.rights) return false;
       if (state.tier !== "全部" && item.usTier !== state.tier) return false;
       return quick.test(item);
@@ -220,9 +242,33 @@
 
   function renderFacets() {
     dom.categoryFacets.replaceChildren(
-      facetButton("全部", records.length, state.category === "全部", () => setState({ category: "全部", quick: "全部" })),
-      ...categories.map((category) => facetButton(category, dataset.counts.byCategory[category], state.category === category, () => setState({ category, quick: "全部" }))),
+      facetButton("全部", records.length, state.category === "全部", () => setState({ category: "全部", subcategory: "全部", quick: "全部" })),
+      ...categories.map((category) => facetButton(category, dataset.counts.byCategory[category], state.category === category, () => setState({ category, subcategory: "全部", quick: "全部" }))),
     );
+
+    const subcategories = state.category === "全部" ? [] : subcategoriesFor(state.category);
+    const showSubcategories = subcategories.length > 0;
+    dom.subcategorySection.hidden = !showSubcategories;
+    dom.subcategorySelect.hidden = !showSubcategories;
+    dom.subcategoryTabs.hidden = !showSubcategories;
+    dom.subcategorySelect.replaceChildren(
+      makeOption("全部", "全部子分类"),
+      ...subcategories.map(([subcategory, count]) => makeOption(subcategory, `${subcategory} · ${count}`)),
+    );
+    dom.subcategorySelect.value = state.subcategory;
+    dom.subcategoryFacets.replaceChildren(
+      ...(showSubcategories ? [
+        facetButton("全部", dataset.counts.byCategory[state.category], state.subcategory === "全部", () => setState({ subcategory: "全部" })),
+        ...subcategories.map(([subcategory, count]) => facetButton(subcategory, count, state.subcategory === subcategory, () => setState({ subcategory }))),
+      ] : []),
+    );
+    dom.subcategoryTabs.replaceChildren(
+      ...(showSubcategories ? [
+        subcategoryButton("全部", dataset.counts.byCategory[state.category], state.subcategory === "全部", () => setState({ subcategory: "全部" })),
+        ...subcategories.map(([subcategory, count]) => subcategoryButton(subcategory, count, state.subcategory === subcategory, () => setState({ subcategory }))),
+      ] : []),
+    );
+
     dom.rightsFacets.replaceChildren(
       facetButton("全部", records.length, state.rights === "全部", () => setState({ rights: "全部" })),
       ...rightsLanes.map((rights) => facetButton(rights, dataset.counts.byRightsLane[rights], state.rights === rights, () => setState({ rights }))),
@@ -231,9 +277,19 @@
       const count = records.filter(option.test).length;
       const button = el("button", `quick-tab${state.quick === option.key ? " is-active" : ""}`, `${option.label} ${count}`);
       button.type = "button";
-      button.addEventListener("click", () => setState({ q: "", quick: option.key, category: "全部", rights: "全部", tier: "全部" }));
+      button.addEventListener("click", () => option.category
+        ? setState({ q: "", quick: "全部", category: option.category, subcategory: "全部", rights: "全部", tier: "全部" })
+        : setState({ q: "", quick: option.key, category: "全部", subcategory: "全部", rights: "全部", tier: "全部" }));
       return button;
     }));
+  }
+
+  function subcategoryButton(label, count, active, onClick) {
+    const button = el("button", `subcategory-tab${active ? " is-active" : ""}`);
+    button.type = "button";
+    button.append(el("span", "", label), el("span", "subcategory-count", count));
+    button.addEventListener("click", onClick);
+    return button;
   }
 
   function categoryMark(item) {
@@ -393,6 +449,32 @@
     ].join("\n");
   }
 
+  function updateLoadProgress() {
+    const shown = dom.list.childElementCount;
+    const total = currentFiltered.length;
+    const remaining = Math.max(0, total - shown);
+    const hasMore = remaining > 0;
+    dom.pageStatus.textContent = total ? `已显示 ${shown.toLocaleString("en-US")} / ${total.toLocaleString("en-US")}` : "";
+    dom.loadMoreBar.hidden = total === 0;
+    dom.loadMore.hidden = !hasMore;
+    dom.loadMore.textContent = hasMore ? `加载更多 ${Math.min(BATCH_SIZE, remaining)} 条` : "已全部显示";
+    dom.loadMoreStatus.textContent = hasMore
+      ? `剩余 ${remaining.toLocaleString("en-US")} 条 · 下滑自动加载`
+      : `已全部显示 ${total.toLocaleString("en-US")} 条`;
+  }
+
+  function loadMore() {
+    const start = dom.list.childElementCount;
+    if (start >= currentFiltered.length) {
+      updateLoadProgress();
+      return;
+    }
+    const nextItems = currentFiltered.slice(start, start + BATCH_SIZE);
+    dom.list.append(...nextItems.map(card));
+    state.visible = start + nextItems.length;
+    updateLoadProgress();
+  }
+
   function render() {
     dom.search.value = state.q;
     dom.categorySelect.value = state.category;
@@ -401,24 +483,17 @@
     dom.sortSelect.value = state.sort;
     renderFacets();
 
-    const filtered = filteredRecords();
-    const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
-    if (state.page > totalPages) {
-      state.page = totalPages;
-      writeState(true);
-    }
-    const start = (state.page - 1) * PAGE_SIZE;
-    const pageItems = filtered.slice(start, start + PAGE_SIZE);
-    dom.list.replaceChildren(...pageItems.map(card));
-    dom.list.hidden = pageItems.length === 0;
-    dom.empty.hidden = pageItems.length !== 0;
+    currentFiltered = filteredRecords();
+    const visibleCount = Math.min(Math.max(BATCH_SIZE, state.visible || BATCH_SIZE), currentFiltered.length);
+    const visibleItems = currentFiltered.slice(0, visibleCount);
+    state.visible = visibleCount;
+    dom.list.replaceChildren(...visibleItems.map(card));
+    dom.list.hidden = visibleItems.length === 0;
+    dom.empty.hidden = visibleItems.length !== 0;
     const quick = quickOptions.find((item) => item.key === state.quick);
-    dom.resultTitle.textContent = state.q ? `“${state.q}”` : state.category !== "全部" ? state.category : state.rights !== "全部" ? state.rights : quick?.key !== "全部" ? quick.label : "全部候选";
-    dom.resultCount.textContent = filtered.length.toLocaleString("en-US");
-    dom.pageStatus.textContent = filtered.length ? `${start + 1}–${Math.min(start + PAGE_SIZE, filtered.length)} / ${filtered.length}` : "";
-    dom.pagerStatus.textContent = `${state.page} / ${totalPages}`;
-    dom.prevPage.disabled = state.page <= 1;
-    dom.nextPage.disabled = state.page >= totalPages;
+    dom.resultTitle.textContent = state.q ? `“${state.q}”` : state.subcategory !== "全部" ? state.subcategory : state.category !== "全部" ? state.category : state.rights !== "全部" ? state.rights : quick?.key !== "全部" ? quick.label : "全部候选";
+    dom.resultCount.textContent = currentFiltered.length.toLocaleString("en-US");
+    updateLoadProgress();
     document.title = `${dom.resultTitle.textContent}｜美国超级 IP 机会库`;
   }
 
@@ -439,22 +514,28 @@
     window.clearTimeout(searchTimer);
     searchTimer = window.setTimeout(() => setState({ q: dom.search.value }, { replace: true }), 140);
   });
-  dom.categorySelect.addEventListener("change", () => setState({ category: dom.categorySelect.value, quick: "全部" }));
+  dom.categorySelect.addEventListener("change", () => setState({ category: dom.categorySelect.value, subcategory: "全部", quick: "全部" }));
+  dom.subcategorySelect.addEventListener("change", () => setState({ subcategory: dom.subcategorySelect.value }));
   dom.rightsSelect.addEventListener("change", () => setState({ rights: dom.rightsSelect.value }));
   dom.tierSelect.addEventListener("change", () => setState({ tier: dom.tierSelect.value }));
   dom.sortSelect.addEventListener("change", () => setState({ sort: dom.sortSelect.value }));
   dom.reset.addEventListener("click", reset);
   dom.emptyReset.addEventListener("click", reset);
-  dom.prevPage.addEventListener("click", () => setState({ page: Math.max(1, state.page - 1) }));
-  dom.nextPage.addEventListener("click", () => setState({ page: state.page + 1 }));
+  dom.loadMore.addEventListener("click", loadMore);
   dom.copyFilter.addEventListener("click", () => copyText(location.href, dom.copyFilter, "已复制"));
   dom.copyItem.addEventListener("click", () => currentItem && copyText(itemCopy(currentItem), dom.copyItem, "已复制"));
   window.addEventListener("popstate", () => { state = readState(); render(); });
 
   function reset() {
-    setState({ q: "", category: "全部", rights: "全部", tier: "全部", quick: "全部", sort: "curated", page: 1 });
+    setState({ q: "", category: "全部", subcategory: "全部", rights: "全部", tier: "全部", quick: "全部", sort: "curated" });
   }
 
   writeState(true);
   render();
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) loadMore();
+    }, { root: dom.main, rootMargin: "640px 0px" });
+    observer.observe(dom.loadSentinel);
+  }
 })();
