@@ -42,6 +42,20 @@ const DEFAULTS = {
   },
 };
 
+const ENTERTAINMENT_CATEGORIES = new Set([
+  "动画 / 角色",
+  "电影 / 电视",
+  "游戏 / 玩具",
+  "音乐",
+  "人物 / 文娱名人",
+  "文学 / 书籍",
+  "文学 / 公域角色",
+  "舞台 / 活动",
+  "网络 / 媒体",
+  "宗教 / 神话",
+  "艺术 / 公共文化",
+]);
+
 function stableId(value) {
   const slug = String(value)
     .normalize("NFKD")
@@ -144,6 +158,7 @@ const overrideByName = new Map((seed.overrides || []).map((item) => [item.name, 
 const surveyByName = new Map((surveySnapshot.records || []).map((item) => [item.targetName, item]));
 const sTierNames = new Set(seed.sTierNames || []);
 const seen = new Set();
+const seedLookup = new Set();
 const records = [];
 
 for (const group of seed.groups || []) {
@@ -152,6 +167,10 @@ for (const group of seed.groups || []) {
   for (const raw of group.items || []) {
     const item = parseItem(raw);
     if (!item.name) throw new Error(`Unnamed item in ${group.category} / ${group.subcategory}`);
+    for (const candidate of [item.name, ...(item.aliases || [])]) {
+      const lookupKey = normalizeLookup(candidate);
+      if (lookupKey) seedLookup.add(lookupKey);
+    }
     const dedupeKey = item.name.normalize("NFKC").toLocaleLowerCase("en-US");
     if (seen.has(dedupeKey)) continue;
     seen.add(dedupeKey);
@@ -199,6 +218,7 @@ for (const group of seed.groups || []) {
       visualSourceUrl: "",
       visualSourceLabel: "视觉 DNA 编辑标签",
       visualRightsNote: "仅用于检索与构图研究，不是可直接复制的商品画稿。",
+      coverageLane: "curated-seed",
       ...override,
     };
     if (survey && !record.reachStatus.startsWith("100M+")) {
@@ -226,6 +246,64 @@ for (const group of seed.groups || []) {
   }
 }
 
+const universeSeen = new Set();
+for (const survey of surveySnapshot.universeRecords || []) {
+  const name = survey.youGovName?.trim();
+  if (!name) continue;
+  const normalizedName = normalizeLookup(name);
+  if (!normalizedName || seedLookup.has(normalizedName)) continue;
+  const compositeKey = `${normalizedName}|${normalizeLookup(survey.primaryType)}|${normalizeLookup(survey.category)}`;
+  if (universeSeen.has(compositeKey)) continue;
+  universeSeen.add(compositeKey);
+  const defaults = DEFAULTS[survey.rightsLane] || DEFAULTS["需授权"];
+  records.push({
+    id: stableId(`${name}|${survey.primaryType}|${survey.category}|${survey.sourceCategory}`),
+    name,
+    nameZh: "",
+    aliases: [],
+    category: survey.category,
+    subcategory: survey.subcategory,
+    entityType: survey.entityType || survey.primaryType || "文娱主体",
+    usTier: survey.usTier || "S｜美国全民级候选",
+    reachStatus: `美国认知调查 · Fame ${survey.famePercent}%`,
+    rightsLane: survey.rightsLane || "需授权",
+    rightsOwnerContext: survey.rightsOwnerContext || "具体版权、商标、肖像与授权主体待复核",
+    useRoute: defaults.useRoute,
+    avoid: defaults.avoid,
+    motifs: survey.visualElements || [],
+    sourceLabel: survey.sourceLabel || "YouGov Ratings · US Fame",
+    sourceUrl: survey.sourcePage,
+    sourceRole: survey.sourceRole || "美国全国认知与识别来源；不是商业授权或可生产素材证明",
+    evidenceStatus: "全国认知调查已核验；直接人数待补",
+    evidenceType: "YouGov Fame（美国成年人）",
+    evidenceValue: null,
+    evidenceUnit: "",
+    evidenceDate: survey.period,
+    evidenceUrl: "",
+    visualStatus: survey.imageUrl ? "外部识别参考图 · 不可作生产素材" : "视觉 DNA · 无外部图源",
+    surveyFamePercent: survey.famePercent,
+    surveyPopularityPercent: survey.popularityPercent,
+    surveyPopulationEquivalent: survey.adultPopulationEquivalent,
+    surveyQualifies100m: survey.qualifies100mEquivalent,
+    surveyPeriod: survey.period,
+    surveySourceUrl: survey.sourcePage,
+    surveySourceLabel: "YouGov Ratings · US Fame",
+    visualElements: survey.visualElements || ["主体轮廓", "标志道具", "年代线索", "标题结构"],
+    visualPalette: survey.visualPalette || ["#080808", "#F4F4F4", "#B3261E", "#315C7D"],
+    visualComposition: survey.visualComposition || "中心主体 + 单一识别道具 + 标题留白",
+    visualImage: survey.imageUrl || "",
+    visualImageMode: survey.imageUrl ? "recognition-reference" : "visual-dna",
+    visualSourceUrl: survey.imageUrl ? survey.sourcePage : "",
+    visualSourceLabel: survey.imageUrl ? "YouGov 识别参考图" : "视觉 DNA 编辑标签",
+    visualRightsNote: survey.imageUrl
+      ? "该图只帮助识别研究对象；图片、角色、肖像、Logo 与商品化权利仍需另行授权。"
+      : "仅用于检索与构图研究，不是可直接复制的商品画稿。",
+    coverageLane: "survey-entertainment-universe",
+    surveyEntityType: survey.primaryType || "",
+    surveyEntitySlug: survey.sourceEntitySlug || "",
+  });
+}
+
 if (records.length < 300) throw new Error(`Expected at least 300 records, got ${records.length}`);
 const sportsCount = records.filter((item) => item.category === "体育运动").length;
 if (sportsCount < 100) throw new Error(`Expected at least 100 sports records, got ${sportsCount}`);
@@ -237,12 +315,12 @@ const countBy = (key) => records.reduce((counts, record) => {
 }, {});
 
 const dataset = {
-  schemaVersion: "1.1",
-  sourceVersion: seed.sourceVersion,
+  schemaVersion: "1.2",
+  sourceVersion: `${seed.sourceVersion}+${surveySnapshot.sourceVersion}`,
   generatedAt: new Date().toISOString(),
   market: "United States",
   title: "美国超级 IP 与权利机会库",
-  scope: "美国高知名 IP、角色、作品、赛事、球队、运动员、音乐人与文化母题候选。知名度候选、具体人数证据与商业授权结论分开。",
+  scope: "美国高知名文娱、角色、影视、电视、音乐、演员、书籍、舞台、媒体、游戏、体育与文化母题候选。知名度、具体人数证据、视觉参考与商业授权结论分开。",
   methodology: {
     rule: "100M+ 直接人数只显示公开且口径明确的美国人数；100M+ 认知等效由 YouGov Fame 百分比乘以 2020 美国成年人口推算，二者分开显示。",
     surveySource: "YouGov Ratings",
@@ -271,6 +349,9 @@ const dataset = {
   },
   counts: {
     records: records.length,
+    curatedRecords: records.filter((item) => item.coverageLane === "curated-seed").length,
+    surveyUniverseRecords: records.filter((item) => item.coverageLane === "survey-entertainment-universe").length,
+    entertainmentRecords: records.filter((item) => ENTERTAINMENT_CATEGORIES.has(item.category)).length,
     sports: sportsCount,
     direct100mEvidence: records.filter((item) => item.reachStatus.startsWith("100M+")).length,
     surveyEvidence: records.filter((item) => Number.isFinite(item.surveyFamePercent)).length,

@@ -97,7 +97,7 @@
 
 .summary-strip {
   display: grid;
-  grid-template-columns: repeat(5, minmax(110px, 1fr));
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
   min-height: 74px;
   border-bottom: 1px solid var(--border);
 }
@@ -483,8 +483,9 @@
   #tier-select,
   #sort-select { display: none; }
   .quick-tabs { padding: var(--space-2); }
-  .summary-strip { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .summary-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .summary-metric { padding: var(--space-2); }
+  .summary-metric:nth-child(3n) { border-right: 0; }
   .ip-list { padding: var(--space-2); }
 }
 
@@ -496,8 +497,8 @@
   .filterbar { grid-template-columns: minmax(0, 1fr); }
   .summary-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .summary-metric { border-bottom: 1px solid var(--border); }
+  .summary-metric:nth-child(3n) { border-right: 1px solid var(--border); }
   .summary-metric:nth-child(even) { border-right: 0; }
-  .summary-metric:nth-child(5) { grid-column: 1 / -1; border-right: 0; }
   .summary-rule { grid-column: 1 / -1; }
   .ip-list { grid-template-columns: 1fr; }
   .ip-card__body { min-height: 176px; }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="面向美国市场的超级 IP、体育、角色、作品、音乐人与文化母题机会库；美国知名度与商业权利分开呈现。">
+  <meta name="description" content="面向美国市场的文娱、角色、影视、电视、音乐、演员、书籍、舞台、媒体、游戏、体育与文化母题机会库；美国知名度与商业权利分开呈现。">
   <title>美国超级 IP 机会库</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12'/%3E%3Cpath fill='white' d='M14 16h36v8H22v8h23v8H22v8h28v8H14z'/%3E%3C/svg%3E">
   <link rel="alternate" type="application/json" href="data/super-ip-us.json" title="美国超级 IP 与权利机会数据">
@@ -46,7 +46,7 @@
         <section class="filterbar" aria-label="搜索与筛选">
           <label class="search-field">
             <span class="sr-only">搜索</span>
-            <input class="input" id="search" type="search" autocomplete="off" placeholder="搜角色、球队、运动员、作品或文化母题">
+            <input class="input" id="search" type="search" autocomplete="off" placeholder="搜角色、演员、影视、音乐、书籍、舞台、媒体、游戏或体育">
           </label>
           <select class="select compact-select" id="category-select" aria-label="类型">
             <option value="全部">全部类型</option>
@@ -69,6 +69,7 @@
 
         <section class="summary-strip" aria-label="资料库统计">
           <div class="summary-metric"><span id="metric-all">0</span><small>候选</small></div>
+          <div class="summary-metric"><span id="metric-entertainment">0</span><small>文娱全景</small></div>
           <div class="summary-metric summary-metric--verified"><span id="metric-s">0</span><small>美国全民级</small></div>
           <div class="summary-metric summary-metric--verified"><span id="metric-survey">0</span><small>100M+ 认知等效</small></div>
           <div class="summary-metric"><span id="metric-direct">0</span><small>100M+ 直接人数</small></div>
@@ -120,7 +121,7 @@
         <div><dt>证据与来源</dt><dd id="detail-evidence"></dd></div>
       </dl>
       <div class="detail-actions">
-        <a class="btn btn--secondary" id="detail-source" target="_blank" rel="noreferrer">权利 / 类别入口</a>
+        <a class="btn btn--secondary" id="detail-source" target="_blank" rel="noreferrer">来源 / 核验入口</a>
         <a class="btn btn--secondary" id="detail-proof" target="_blank" rel="noreferrer" hidden>查看人数证据</a>
         <a class="btn btn--secondary" id="detail-survey-source" target="_blank" rel="noreferrer" hidden>查看认知调查</a>
         <a class="btn btn--secondary" id="detail-visual-source" target="_blank" rel="noreferrer" hidden>查看视觉图源</a>

@@ -8,26 +8,41 @@ const dataset = JSON.parse(await fs.readFile(path.join(projectRoot, "data", "sup
 const records = dataset.records || [];
 const errors = [];
 
-if (records.length < 300) errors.push(`候选不足 300：${records.length}`);
+if (records.length < 6000) errors.push(`候选不足 6000：${records.length}`);
 const sports = records.filter((item) => item.category === "体育运动");
 if (sports.length < 100) errors.push(`体育不足 100：${sports.length}`);
 const usMassTier = records.filter((item) => item.usTier?.startsWith("S"));
-if (usMassTier.length < 200) errors.push(`美国全民级候选不足 200：${usMassTier.length}`);
+if (usMassTier.length < 5500) errors.push(`美国全民级候选不足 5500：${usMassTier.length}`);
 const direct100m = records.filter((item) => item.reachStatus?.startsWith("100M+"));
 if (direct100m.length < 3) errors.push(`100M+ 实测不足 3：${direct100m.length}`);
 const survey100m = records.filter((item) => item.surveyQualifies100m === true);
-if (survey100m.length < 100) errors.push(`100M+ 认知等效不足 100：${survey100m.length}`);
+if (survey100m.length < 5500) errors.push(`100M+ 认知等效不足 5500：${survey100m.length}`);
 const visualReferences = records.filter((item) => Boolean(item.visualImage));
-if (visualReferences.length < 120) errors.push(`视觉参考图不足 120：${visualReferences.length}`);
+if (visualReferences.length < 5500) errors.push(`视觉参考图不足 5500：${visualReferences.length}`);
 
-const names = new Set();
+const categoryMinimums = {
+  "电影 / 电视": 1800,
+  "人物 / 文娱名人": 1800,
+  "音乐": 1000,
+  "文学 / 书籍": 250,
+  "网络 / 媒体": 180,
+  "舞台 / 活动": 100,
+  "游戏 / 玩具": 150,
+};
+for (const [category, minimum] of Object.entries(categoryMinimums)) {
+  const count = records.filter((item) => item.category === category).length;
+  if (count < minimum) errors.push(`${category} 不足 ${minimum}：${count}`);
+}
+
+const recordKeys = new Set();
 const ids = new Set();
 for (const item of records) {
   const nameKey = String(item.name || "").normalize("NFKC").toLocaleLowerCase("en-US");
+  const recordKey = `${nameKey}|${item.entityType}|${item.category}`;
   if (!item.id || ids.has(item.id)) errors.push(`ID 缺失或重复：${item.id || item.name}`);
-  if (!item.name || names.has(nameKey)) errors.push(`名称缺失或重复：${item.name || item.id}`);
+  if (!item.name || recordKeys.has(recordKey)) errors.push(`同类型记录缺失或重复：${item.name || item.id}`);
   ids.add(item.id);
-  names.add(nameKey);
+  recordKeys.add(recordKey);
   for (const field of ["category", "subcategory", "usTier", "rightsLane", "useRoute", "avoid", "sourceLabel", "sourceUrl", "evidenceStatus"]) {
     if (!item[field]) errors.push(`${item.name} 缺字段 ${field}`);
   }
@@ -59,6 +74,6 @@ if (errors.length) {
     survey100mEquivalent: survey100m.length,
     visualReferences: visualReferences.length,
     uniqueIds: ids.size,
-    uniqueNames: names.size,
+    uniqueRecordKeys: recordKeys.size,
   }, null, 2)}\n`);
 }

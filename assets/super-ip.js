@@ -69,11 +69,45 @@
       record.rightsLane,
     ].flat().join(" ")),
   }));
-  const categories = Object.keys(dataset.counts.byCategory);
+  const categoryOrder = [
+    "动画 / 角色",
+    "电影 / 电视",
+    "人物 / 文娱名人",
+    "音乐",
+    "游戏 / 玩具",
+    "文学 / 书籍",
+    "文学 / 公域角色",
+    "舞台 / 活动",
+    "网络 / 媒体",
+    "体育运动",
+    "宗教 / 神话",
+    "艺术 / 公共文化",
+    "品牌 / 广告角色",
+    "公共符号",
+  ];
+  const categoryKeys = Object.keys(dataset.counts.byCategory);
+  const categories = [
+    ...categoryOrder.filter((category) => categoryKeys.includes(category)),
+    ...categoryKeys.filter((category) => !categoryOrder.includes(category)),
+  ];
   const rightsLanes = Object.keys(dataset.counts.byRightsLane);
   const tiers = Object.keys(dataset.counts.byUsTier);
+  const entertainmentCategories = new Set([
+    "动画 / 角色",
+    "电影 / 电视",
+    "游戏 / 玩具",
+    "音乐",
+    "人物 / 文娱名人",
+    "文学 / 书籍",
+    "文学 / 公域角色",
+    "舞台 / 活动",
+    "网络 / 媒体",
+    "宗教 / 神话",
+    "艺术 / 公共文化",
+  ]);
   const quickOptions = [
     { key: "全部", label: "全部", test: () => true },
+    { key: "文娱全景", label: "文娱全景", test: (item) => entertainmentCategories.has(item.category) },
     { key: "全民级", label: "美国全民级", test: (item) => item.usTier.startsWith("S") },
     { key: "100M+认知等效", label: "100M+ 认知等效", test: (item) => item.surveyQualifies100m === true },
     { key: "100M+直接人数", label: "100M+ 直接人数", test: (item) => item.reachStatus.startsWith("100M+") },
@@ -83,6 +117,10 @@
     { key: "电影 / 电视", label: "影视", test: (item) => item.category === "电影 / 电视" },
     { key: "游戏 / 玩具", label: "游戏玩具", test: (item) => item.category === "游戏 / 玩具" },
     { key: "音乐", label: "音乐", test: (item) => item.category === "音乐" },
+    { key: "人物 / 文娱名人", label: "人物名人", test: (item) => item.category === "人物 / 文娱名人" },
+    { key: "文学 / 书籍", label: "书籍", test: (item) => item.category === "文学 / 书籍" },
+    { key: "舞台 / 活动", label: "舞台活动", test: (item) => item.category === "舞台 / 活动" },
+    { key: "网络 / 媒体", label: "媒体", test: (item) => item.category === "网络 / 媒体" },
     { key: "文化公域", label: "文化公域", test: (item) => item.rightsLane === "文化公域 · 逐素材核验" },
   ];
 
@@ -204,6 +242,10 @@
       "电影 / 电视": "影视",
       "游戏 / 玩具": "游戏",
       "音乐": "音乐",
+      "人物 / 文娱名人": "人物",
+      "文学 / 书籍": "书籍",
+      "舞台 / 活动": "舞台",
+      "网络 / 媒体": "媒体",
       "体育运动": "体育",
       "文学 / 公域角色": "文学",
       "宗教 / 神话": "神话",
@@ -301,7 +343,7 @@
       badge(item.reachStatus.startsWith("100M+") ? "100M+ 直接人数" : item.surveyFamePercent ? `YouGov Fame ${item.surveyFamePercent}%` : item.evidenceStatus, item.reachStatus.startsWith("100M+") || item.surveyQualifies100m ? "badge--ok" : ""),
     );
     dom.detailVisualPanel.replaceChildren(renderVisual(item, { detail: true }));
-    const evidenceValue = item.evidenceValue ? `${Number(item.evidenceValue).toLocaleString("en-US")} ${item.evidenceUnit}` : "未填同口径人数";
+    const evidenceValue = item.evidenceValue ? `${Number(item.evidenceValue).toLocaleString("en-US")} ${item.evidenceUnit}` : "无直接人数证据";
     dom.detailAwareness.textContent = `${item.usTier}。${item.reachStatus}。${evidenceValue}。`;
     dom.detailSurvey.textContent = item.surveyFamePercent
       ? `YouGov Fame ${item.surveyFamePercent}%；按 2020 美国成年人口折算约 ${(Number(item.surveyPopulationEquivalent) / 1000000).toFixed(1)}M。调查认知等效，不是独立观众、销量或授权证明。口径：${item.surveyPeriod || "待复核"}。`
@@ -317,9 +359,11 @@
     dom.detailSource.href = item.sourceUrl;
     dom.detailProof.hidden = !item.evidenceUrl;
     if (item.evidenceUrl) dom.detailProof.href = item.evidenceUrl;
-    dom.detailSurveySource.hidden = !item.surveySourceUrl;
+    const surveySourceIsDuplicate = item.surveySourceUrl && item.surveySourceUrl === item.sourceUrl;
+    dom.detailSurveySource.hidden = !item.surveySourceUrl || surveySourceIsDuplicate;
     if (item.surveySourceUrl) dom.detailSurveySource.href = item.surveySourceUrl;
-    dom.detailVisualSource.hidden = !item.visualSourceUrl;
+    const visualSourceIsDuplicate = item.visualSourceUrl && [item.sourceUrl, item.surveySourceUrl].includes(item.visualSourceUrl);
+    dom.detailVisualSource.hidden = !item.visualSourceUrl || visualSourceIsDuplicate;
     if (item.visualSourceUrl) dom.detailVisualSource.href = item.visualSourceUrl;
     dom.detailVisual.href = `index.html?view=roles&q=${encodeURIComponent(item.nameZh || item.name)}`;
     dom.dialog.showModal();
@@ -382,8 +426,9 @@
   for (const rights of rightsLanes) dom.rightsSelect.append(makeOption(rights));
   for (const tier of tiers) dom.tierSelect.append(makeOption(tier));
 
-  dom.topMeta.textContent = `${dataset.counts.records.toLocaleString("en-US")} 候选 · ${dataset.counts.sports.toLocaleString("en-US")} 体育`;
+  dom.topMeta.textContent = `${dataset.counts.records.toLocaleString("en-US")} 候选 · ${dataset.counts.entertainmentRecords.toLocaleString("en-US")} 文娱 · ${dataset.counts.sports.toLocaleString("en-US")} 体育`;
   $("#metric-all").textContent = dataset.counts.records.toLocaleString("en-US");
+  $("#metric-entertainment").textContent = (dataset.counts.entertainmentRecords || 0).toLocaleString("en-US");
   $("#metric-s").textContent = (dataset.counts.byUsTier["S｜美国全民级候选"] || 0).toLocaleString("en-US");
   $("#metric-survey").textContent = (dataset.counts.survey100mEquivalent || 0).toLocaleString("en-US");
   $("#metric-direct").textContent = (dataset.counts.direct100mEvidence || 0).toLocaleString("en-US");
