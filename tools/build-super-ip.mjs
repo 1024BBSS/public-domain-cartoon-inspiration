@@ -2,20 +2,23 @@ import { createHash } from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { classifyTaxonomy, TAXONOMY_DEFINITION, taxonomyLookupKey } from "./super-ip-taxonomy.mjs";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDir, "..");
 const sourcePath = path.join(projectRoot, "source", "super-ip-us-seed.json");
 const surveyPath = path.join(projectRoot, "source", "yougov-us-fame.json");
 const visualProfilesPath = path.join(projectRoot, "source", "super-ip-visual-profiles.json");
+const wikidataTaxonomyPath = path.join(projectRoot, "source", "wikidata-taxonomy.json");
 const dataRoot = path.join(projectRoot, "data");
 const catalogPath = path.join(dataRoot, "catalog.json");
 const entitiesRoot = path.join(dataRoot, "entities");
 
-const [seed, surveySnapshot, visualProfiles, catalog] = await Promise.all([
+const [seed, surveySnapshot, visualProfiles, wikidataTaxonomy, catalog] = await Promise.all([
   fs.readFile(sourcePath, "utf8").then(JSON.parse),
   fs.readFile(surveyPath, "utf8").then(JSON.parse),
   fs.readFile(visualProfilesPath, "utf8").then(JSON.parse),
+  fs.readFile(wikidataTaxonomyPath, "utf8").then(JSON.parse).catch(() => ({ records: [], stats: {} })),
   fs.readFile(catalogPath, "utf8").then(JSON.parse),
 ]);
 
@@ -219,6 +222,8 @@ for (const group of seed.groups || []) {
       visualSourceLabel: "视觉 DNA 编辑标签",
       visualRightsNote: "仅用于检索与构图研究，不是可直接复制的商品画稿。",
       coverageLane: "curated-seed",
+      surveyEntityType: survey?.primaryType || "",
+      surveyEntitySlug: survey?.sourceEntitySlug || "",
       ...override,
     };
     if (survey && !record.reachStatus.startsWith("100M+")) {
@@ -244,6 +249,34 @@ for (const group of seed.groups || []) {
     }
     records.push(record);
   }
+}
+
+const wikidataByKey = new Map((wikidataTaxonomy.records || []).map((item) => [item.key, item]));
+const wikidataByName = new Map();
+for (const item of wikidataTaxonomy.records || []) {
+  const key = normalizeLookup(item.name);
+  if (!wikidataByName.has(key)) wikidataByName.set(key, []);
+  wikidataByName.get(key).push(item);
+}
+
+const expectedSurveyTypes = {
+  "电影 / 电视": new Set(["Movies", "TV Show"]),
+  "人物 / 文娱名人": new Set(["Actor", "TV Personality", "Director", "Artist", "Writer", "Influencer", "Columnist", "Public Figure"]),
+  音乐: new Set(["Music Artist", "Classical Composer"]),
+  "文学 / 书籍": new Set(["Fiction Book", "Children Fiction Book", "Non-Fiction Book"]),
+  "游戏 / 玩具": new Set(["Video Game"]),
+  "网络 / 媒体": new Set(["TV Network & Streaming Service", "Magazine", "Radio Program", "Brand"]),
+  "舞台 / 活动": new Set(["Musical", "Play", "Music Festival", "Event"]),
+};
+
+function findWikidata(record) {
+  if (record.surveyEntityType) {
+    const exact = wikidataByKey.get(taxonomyLookupKey(record.name, record.surveyEntityType));
+    if (exact) return exact;
+  }
+  const candidates = wikidataByName.get(normalizeLookup(record.name)) || [];
+  const expected = expectedSurveyTypes[record.category];
+  return candidates.find((item) => expected?.has(item.primaryType)) || null;
 }
 
 const universeSeen = new Set();
@@ -304,6 +337,26 @@ for (const survey of surveySnapshot.universeRecords || []) {
   });
 }
 
+for (const record of records) {
+  const wikidata = findWikidata(record);
+  Object.assign(record, classifyTaxonomy(record, wikidata));
+  if (wikidata) {
+    record.wikidataId = wikidata.wikidataId;
+    record.wikidataUrl = `https://www.wikidata.org/wiki/${wikidata.wikidataId}`;
+    record.wikidataDescription = wikidata.wikidataDescription;
+    record.wikidataGenres = wikidata.genres;
+    record.wikidataOccupations = wikidata.occupations;
+    record.wikidataSports = wikidata.sports;
+  } else {
+    record.wikidataId = "";
+    record.wikidataUrl = "";
+    record.wikidataDescription = "";
+    record.wikidataGenres = [];
+    record.wikidataOccupations = [];
+    record.wikidataSports = [];
+  }
+}
+
 if (records.length < 300) throw new Error(`Expected at least 300 records, got ${records.length}`);
 const sportsCount = records.filter((item) => item.category === "体育运动").length;
 if (sportsCount < 100) throw new Error(`Expected at least 100 sports records, got ${sportsCount}`);
@@ -314,8 +367,30 @@ const countBy = (key) => records.reduce((counts, record) => {
   return counts;
 }, {});
 
+function taxonomyCounts() {
+  const byLevel2 = {};
+  const byLevel3 = {};
+  for (const record of records) {
+    byLevel2[record.category] ||= {};
+    byLevel3[record.category] ||= {};
+    const paths = Array.isArray(record.taxonomyPaths) && record.taxonomyPaths.length
+      ? record.taxonomyPaths
+      : [{ level2: record.taxonomyLevel2, level3: record.taxonomyLevel3 }];
+    for (const level2 of new Set(paths.map((path) => path.level2))) {
+      byLevel2[record.category][level2] = (byLevel2[record.category][level2] || 0) + 1;
+    }
+    for (const { level2, level3 } of paths) {
+      byLevel3[record.category][level2] ||= {};
+      byLevel3[record.category][level2][level3] = (byLevel3[record.category][level2][level3] || 0) + 1;
+    }
+  }
+  return { byLevel2, byLevel3 };
+}
+
+const nestedTaxonomyCounts = taxonomyCounts();
+
 const dataset = {
-  schemaVersion: "1.2",
+  schemaVersion: "1.3",
   sourceVersion: `${seed.sourceVersion}+${surveySnapshot.sourceVersion}`,
   generatedAt: new Date().toISOString(),
   market: "United States",
@@ -346,6 +421,14 @@ const dataset = {
       },
     ],
     note: "该库用于研究、筛选与授权路由，不构成法律意见或自动商用许可。",
+    taxonomy: {
+      ...TAXONOMY_DEFINITION,
+      sourceLabel: wikidataTaxonomy.sourceLabel || "Wikidata",
+      sourceUrl: wikidataTaxonomy.sourceUrl || "https://www.wikidata.org/",
+      sourceLicense: wikidataTaxonomy.license || "CC0 1.0",
+      sourceGeneratedAt: wikidataTaxonomy.generatedAt || "",
+      sourceStats: wikidataTaxonomy.stats || {},
+    },
   },
   counts: {
     records: records.length,
@@ -362,11 +445,28 @@ const dataset = {
     byCategory: countBy("category"),
     byRightsLane: countBy("rightsLane"),
     byUsTier: countBy("usTier"),
+    byTaxonomyConfidence: countBy("taxonomyConfidence"),
+    byTaxonomyLevel2: nestedTaxonomyCounts.byLevel2,
+    byTaxonomyLevel3: nestedTaxonomyCounts.byLevel3,
   },
   records,
 };
 
 await fs.mkdir(dataRoot, { recursive: true });
 await fs.writeFile(path.join(dataRoot, "super-ip-us.json"), `${JSON.stringify(dataset, null, 2)}\n`, "utf8");
-await fs.writeFile(path.join(dataRoot, "super-ip-us.js"), `window.SUPER_IP_US_DATA = ${JSON.stringify(dataset)};\n`, "utf8");
+const browserDataset = {
+  ...dataset,
+  records: records.map((record) => {
+    const {
+      taxonomyEvidence,
+      wikidataDescription,
+      wikidataGenres,
+      wikidataOccupations,
+      wikidataSports,
+      ...browserRecord
+    } = record;
+    return browserRecord;
+  }),
+};
+await fs.writeFile(path.join(dataRoot, "super-ip-us.js"), `window.SUPER_IP_US_DATA = ${JSON.stringify(browserDataset)};\n`, "utf8");
 process.stdout.write(`${JSON.stringify(dataset.counts, null, 2)}\n`);

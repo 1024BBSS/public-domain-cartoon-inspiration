@@ -33,10 +33,6 @@
           <div class="sidebar__label">主分类</div>
           <nav class="facet-list" id="category-facets"></nav>
         </div>
-        <div class="sidebar__section" id="subcategory-section" hidden>
-          <div class="sidebar__label">子分类</div>
-          <nav class="facet-list" id="subcategory-facets"></nav>
-        </div>
         <div class="sidebar__section">
           <div class="sidebar__label">权利入口</div>
           <nav class="facet-list" id="rights-facets"></nav>
@@ -55,8 +51,11 @@
           <select class="select compact-select" id="category-select" aria-label="主分类">
             <option value="全部">全部主分类</option>
           </select>
-          <select class="select compact-select" id="subcategory-select" aria-label="子分类" hidden>
-            <option value="全部">全部子分类</option>
+          <select class="select compact-select" id="level2-select" aria-label="领域或类型" hidden>
+            <option value="全部">全部领域 / 类型</option>
+          </select>
+          <select class="select compact-select" id="level3-select" aria-label="题材或身份" hidden>
+            <option value="全部">全部题材 / 身份</option>
           </select>
           <select class="select compact-select" id="rights-select" aria-label="权利入口">
             <option value="全部">全部权利入口</option>
@@ -67,13 +66,27 @@
           <select class="select compact-select" id="sort-select" aria-label="排序">
             <option value="curated">知名度优先</option>
             <option value="name">名称</option>
-            <option value="category">主分类 / 子分类</option>
+            <option value="category">三层分类</option>
           </select>
           <button class="btn btn--secondary" id="reset" type="button">重置</button>
         </section>
 
-        <nav class="quick-tabs" id="quick-tabs" aria-label="快捷入口"></nav>
-        <nav class="subcategory-tabs" id="subcategory-tabs" aria-label="子分类" hidden></nav>
+        <section class="taxonomy-browser" aria-label="三步分类导航">
+          <div class="taxonomy-step">
+            <div class="taxonomy-step__label"><b>1</b><span>主类</span></div>
+            <nav class="taxonomy-options" id="category-tabs" aria-label="主类"></nav>
+          </div>
+          <div class="taxonomy-step" id="level2-step" hidden>
+            <div class="taxonomy-step__label"><b>2</b><span>领域 / 类型</span></div>
+            <nav class="taxonomy-options" id="level2-tabs" aria-label="领域或类型"></nav>
+          </div>
+          <div class="taxonomy-step" id="level3-step" hidden>
+            <div class="taxonomy-step__label"><b>3</b><span>题材 / 身份</span></div>
+            <nav class="taxonomy-options" id="level3-tabs" aria-label="题材或身份"></nav>
+          </div>
+        </section>
+
+        <nav class="quick-tabs" id="quick-tabs" aria-label="快捷条件"></nav>
 
         <section class="summary-strip" aria-label="资料库统计">
           <div class="summary-metric"><span id="metric-all">0</span><small>候选</small></div>
@@ -119,6 +132,7 @@
       <div class="badge-row" id="detail-badges"></div>
       <dl class="detail-list">
         <div><dt>美国知名度</dt><dd id="detail-awareness"></dd></div>
+        <div><dt>分类路径</dt><dd id="detail-taxonomy"></dd></div>
         <div><dt>美国认知调查</dt><dd id="detail-survey"></dd></div>
         <div><dt>权利入口</dt><dd id="detail-rights"></dd></div>
         <div><dt>可取</dt><dd id="detail-use"></dd></div>

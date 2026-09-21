@@ -13,7 +13,8 @@
     topMeta: $("#top-meta"),
     search: $("#search"),
     categorySelect: $("#category-select"),
-    subcategorySelect: $("#subcategory-select"),
+    level2Select: $("#level2-select"),
+    level3Select: $("#level3-select"),
     rightsSelect: $("#rights-select"),
     tierSelect: $("#tier-select"),
     sortSelect: $("#sort-select"),
@@ -21,11 +22,13 @@
     emptyReset: $("#empty-reset"),
     copyFilter: $("#copy-filter"),
     categoryFacets: $("#category-facets"),
-    subcategorySection: $("#subcategory-section"),
-    subcategoryFacets: $("#subcategory-facets"),
     rightsFacets: $("#rights-facets"),
     quickTabs: $("#quick-tabs"),
-    subcategoryTabs: $("#subcategory-tabs"),
+    categoryTabs: $("#category-tabs"),
+    level2Step: $("#level2-step"),
+    level2Tabs: $("#level2-tabs"),
+    level3Step: $("#level3-step"),
+    level3Tabs: $("#level3-tabs"),
     list: $("#ip-list"),
     empty: $("#empty-state"),
     resultTitle: $("#result-title"),
@@ -42,6 +45,7 @@
     detailBadges: $("#detail-badges"),
     detailVisualPanel: $("#detail-visual-panel"),
     detailAwareness: $("#detail-awareness"),
+    detailTaxonomy: $("#detail-taxonomy"),
     detailSurvey: $("#detail-survey"),
     detailRights: $("#detail-rights"),
     detailUse: $("#detail-use"),
@@ -67,6 +71,10 @@
       record.aliases,
       record.category,
       record.subcategory,
+      record.taxonomyLevel2,
+      record.taxonomyLevel3,
+      record.taxonomyLevel2Options,
+      record.taxonomyLevel3Options,
       record.entityType,
       record.motifs,
       record.visualElements,
@@ -96,13 +104,34 @@
     ...categoryOrder.filter((category) => categoryKeys.includes(category)),
     ...categoryKeys.filter((category) => !categoryOrder.includes(category)),
   ];
-  const subcategoryCounts = records.reduce((tree, record) => {
-    tree[record.category] ||= {};
-    tree[record.category][record.subcategory] = (tree[record.category][record.subcategory] || 0) + 1;
-    return tree;
-  }, {});
-  const subcategoriesFor = (category) => Object.entries(subcategoryCounts[category] || {})
-    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN"));
+  const taxonomyOptions = (record, level) => {
+    const plural = record[`taxonomyLevel${level}Options`];
+    const primary = record[`taxonomyLevel${level}`];
+    return [...new Set([...(Array.isArray(plural) ? plural : []), primary].filter(Boolean))];
+  };
+  const taxonomyPaths = (record) => {
+    if (Array.isArray(record.taxonomyPaths) && record.taxonomyPaths.length) return record.taxonomyPaths;
+    return taxonomyOptions(record, 2).flatMap((level2) => taxonomyOptions(record, 3).map((level3) => ({ level2, level3 })));
+  };
+  const countedOptions = (items, level) => {
+    const counts = new Map();
+    for (const item of items) {
+      for (const option of taxonomyOptions(item, level)) counts.set(option, (counts.get(option) || 0) + 1);
+    }
+    return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN"));
+  };
+  const level2For = (category) => category === "全部" ? [] : countedOptions(records.filter((item) => item.category === category), 2);
+  const level3For = (category, level2) => {
+    if (category === "全部" || level2 === "全部") return [];
+    const counts = new Map();
+    for (const item of records.filter((record) => record.category === category)) {
+      for (const path of taxonomyPaths(item)) {
+        if (path.level2 !== level2) continue;
+        counts.set(path.level3, (counts.get(path.level3) || 0) + 1);
+      }
+    }
+    return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN"));
+  };
   const rightsLanes = Object.keys(dataset.counts.byRightsLane);
   const tiers = Object.keys(dataset.counts.byUsTier);
   const entertainmentCategories = new Set([
@@ -125,15 +154,6 @@
     { key: "100M+认知等效", label: "100M+ 认知等效", test: (item) => item.surveyQualifies100m === true },
     { key: "100M+直接人数", label: "100M+ 直接人数", test: (item) => item.reachStatus.startsWith("100M+") },
     { key: "有参考图", label: "有参考图", test: (item) => Boolean(item.visualImage) },
-    { key: "体育运动", label: "体育运动", category: "体育运动", test: (item) => item.category === "体育运动" },
-    { key: "动画 / 角色", label: "角色卡通", category: "动画 / 角色", test: (item) => item.category === "动画 / 角色" },
-    { key: "电影 / 电视", label: "影视", category: "电影 / 电视", test: (item) => item.category === "电影 / 电视" },
-    { key: "游戏 / 玩具", label: "游戏玩具", category: "游戏 / 玩具", test: (item) => item.category === "游戏 / 玩具" },
-    { key: "音乐", label: "音乐", category: "音乐", test: (item) => item.category === "音乐" },
-    { key: "人物 / 文娱名人", label: "人物名人", category: "人物 / 文娱名人", test: (item) => item.category === "人物 / 文娱名人" },
-    { key: "文学 / 书籍", label: "书籍", category: "文学 / 书籍", test: (item) => item.category === "文学 / 书籍" },
-    { key: "舞台 / 活动", label: "舞台活动", category: "舞台 / 活动", test: (item) => item.category === "舞台 / 活动" },
-    { key: "网络 / 媒体", label: "媒体", category: "网络 / 媒体", test: (item) => item.category === "网络 / 媒体" },
     { key: "文化公域", label: "文化公域", test: (item) => item.rightsLane === "文化公域 · 逐素材核验" },
   ];
 
@@ -152,18 +172,20 @@
       "100M+实测": "100M+直接人数",
     };
     const requestedQuick = legacyQuick[params.get("quick")] || params.get("quick");
-    const categoryQuick = quickOptions.find((item) => item.category && item.key === requestedQuick);
-    const quick = categoryQuick ? "全部" : quickOptions.some((item) => item.key === requestedQuick) ? requestedQuick : "全部";
-    const quickOwnsScope = quick !== "全部";
-    const requestedCategory = categoryQuick?.category || params.get("category");
-    const category = quickOwnsScope ? "全部" : categories.includes(requestedCategory) ? requestedCategory : "全部";
-    const availableSubcategories = new Set(subcategoriesFor(category).map(([name]) => name));
+    const quick = quickOptions.some((item) => item.key === requestedQuick) ? requestedQuick : "全部";
+    const requestedCategory = params.get("category");
+    const category = categories.includes(requestedCategory) ? requestedCategory : "全部";
+    const availableLevel2 = new Set(level2For(category).map(([name]) => name));
+    const requestedLevel2 = params.get("subcategory") || params.get("type");
+    const level2 = category !== "全部" && availableLevel2.has(requestedLevel2) ? requestedLevel2 : "全部";
+    const availableLevel3 = new Set(level3For(category, level2).map(([name]) => name));
     return {
-      q: quickOwnsScope ? "" : params.get("q") || "",
+      q: params.get("q") || "",
       category,
-      subcategory: category !== "全部" && availableSubcategories.has(params.get("subcategory")) ? params.get("subcategory") : "全部",
-      rights: quickOwnsScope ? "全部" : rightsLanes.includes(params.get("rights")) ? params.get("rights") : "全部",
-      tier: quickOwnsScope ? "全部" : tiers.includes(params.get("tier")) ? params.get("tier") : "全部",
+      level2,
+      level3: level2 !== "全部" && availableLevel3.has(params.get("topic")) ? params.get("topic") : "全部",
+      rights: rightsLanes.includes(params.get("rights")) ? params.get("rights") : "全部",
+      tier: tiers.includes(params.get("tier")) ? params.get("tier") : "全部",
       quick,
       sort: ["curated", "name", "category"].includes(params.get("sort")) ? params.get("sort") : "curated",
       visible: Math.max(1, Number(params.get("page")) || 1) * BATCH_SIZE,
@@ -174,7 +196,8 @@
     const params = new URLSearchParams();
     if (state.q) params.set("q", state.q);
     if (state.category !== "全部") params.set("category", state.category);
-    if (state.subcategory !== "全部") params.set("subcategory", state.subcategory);
+    if (state.level2 !== "全部") params.set("subcategory", state.level2);
+    if (state.level3 !== "全部") params.set("topic", state.level3);
     if (state.rights !== "全部") params.set("rights", state.rights);
     if (state.tier !== "全部") params.set("tier", state.tier);
     if (state.quick !== "全部") params.set("quick", state.quick);
@@ -185,8 +208,10 @@
 
   function setState(patch, options = {}) {
     const categoryChanged = Object.prototype.hasOwnProperty.call(patch, "category") && patch.category !== state.category;
+    const level2Changed = Object.prototype.hasOwnProperty.call(patch, "level2") && patch.level2 !== state.level2;
     state = { ...state, ...patch };
-    if (categoryChanged && !Object.prototype.hasOwnProperty.call(patch, "subcategory")) state.subcategory = "全部";
+    if (categoryChanged && !Object.prototype.hasOwnProperty.call(patch, "level2")) state.level2 = "全部";
+    if ((categoryChanged || level2Changed) && !Object.prototype.hasOwnProperty.call(patch, "level3")) state.level3 = "全部";
     if (!Object.prototype.hasOwnProperty.call(patch, "visible")) state.visible = BATCH_SIZE;
     writeState(options.replace === true);
     render();
@@ -216,14 +241,15 @@
     const filtered = records.filter((item) => {
       if (q && !item._search.includes(q)) return false;
       if (state.category !== "全部" && item.category !== state.category) return false;
-      if (state.subcategory !== "全部" && item.subcategory !== state.subcategory) return false;
+      if (state.level2 !== "全部" && !taxonomyOptions(item, 2).includes(state.level2)) return false;
+      if (state.level3 !== "全部" && !taxonomyPaths(item).some((path) => path.level2 === state.level2 && path.level3 === state.level3)) return false;
       if (state.rights !== "全部" && item.rightsLane !== state.rights) return false;
       if (state.tier !== "全部" && item.usTier !== state.tier) return false;
       return quick.test(item);
     });
     return filtered.sort((a, b) => {
       if (state.sort === "name") return a.name.localeCompare(b.name, "en");
-      if (state.sort === "category") return a.category.localeCompare(b.category, "zh-CN") || a.subcategory.localeCompare(b.subcategory, "zh-CN") || a.name.localeCompare(b.name, "en");
+      if (state.sort === "category") return a.category.localeCompare(b.category, "zh-CN") || a.taxonomyLevel2.localeCompare(b.taxonomyLevel2, "zh-CN") || a.taxonomyLevel3.localeCompare(b.taxonomyLevel3, "zh-CN") || a.name.localeCompare(b.name, "en");
       const exactA = a.reachStatus.startsWith("100M+") ? 0 : 1;
       const exactB = b.reachStatus.startsWith("100M+") ? 0 : 1;
       const fameA = Number(a.surveyFamePercent) || 0;
@@ -242,31 +268,8 @@
 
   function renderFacets() {
     dom.categoryFacets.replaceChildren(
-      facetButton("全部", records.length, state.category === "全部", () => setState({ category: "全部", subcategory: "全部", quick: "全部" })),
-      ...categories.map((category) => facetButton(category, dataset.counts.byCategory[category], state.category === category, () => setState({ category, subcategory: "全部", quick: "全部" }))),
-    );
-
-    const subcategories = state.category === "全部" ? [] : subcategoriesFor(state.category);
-    const showSubcategories = subcategories.length > 0;
-    dom.subcategorySection.hidden = !showSubcategories;
-    dom.subcategorySelect.hidden = !showSubcategories;
-    dom.subcategoryTabs.hidden = !showSubcategories;
-    dom.subcategorySelect.replaceChildren(
-      makeOption("全部", "全部子分类"),
-      ...subcategories.map(([subcategory, count]) => makeOption(subcategory, `${subcategory} · ${count}`)),
-    );
-    dom.subcategorySelect.value = state.subcategory;
-    dom.subcategoryFacets.replaceChildren(
-      ...(showSubcategories ? [
-        facetButton("全部", dataset.counts.byCategory[state.category], state.subcategory === "全部", () => setState({ subcategory: "全部" })),
-        ...subcategories.map(([subcategory, count]) => facetButton(subcategory, count, state.subcategory === subcategory, () => setState({ subcategory }))),
-      ] : []),
-    );
-    dom.subcategoryTabs.replaceChildren(
-      ...(showSubcategories ? [
-        subcategoryButton("全部", dataset.counts.byCategory[state.category], state.subcategory === "全部", () => setState({ subcategory: "全部" })),
-        ...subcategories.map(([subcategory, count]) => subcategoryButton(subcategory, count, state.subcategory === subcategory, () => setState({ subcategory }))),
-      ] : []),
+      facetButton("全部", records.length, state.category === "全部", () => setState({ category: "全部", level2: "全部", level3: "全部" })),
+      ...categories.map((category) => facetButton(category, dataset.counts.byCategory[category], state.category === category, () => setState({ category, level2: "全部", level3: "全部" }))),
     );
 
     dom.rightsFacets.replaceChildren(
@@ -277,19 +280,54 @@
       const count = records.filter(option.test).length;
       const button = el("button", `quick-tab${state.quick === option.key ? " is-active" : ""}`, `${option.label} ${count}`);
       button.type = "button";
-      button.addEventListener("click", () => option.category
-        ? setState({ q: "", quick: "全部", category: option.category, subcategory: "全部", rights: "全部", tier: "全部" })
-        : setState({ q: "", quick: option.key, category: "全部", subcategory: "全部", rights: "全部", tier: "全部" }));
+      button.addEventListener("click", () => setState({ quick: option.key }));
       return button;
     }));
+    renderTaxonomyBrowser();
   }
 
-  function subcategoryButton(label, count, active, onClick) {
-    const button = el("button", `subcategory-tab${active ? " is-active" : ""}`);
+  function taxonomyButton(label, count, active, onClick) {
+    const button = el("button", `taxonomy-option${active ? " is-active" : ""}`);
     button.type = "button";
-    button.append(el("span", "", label), el("span", "subcategory-count", count));
+    button.append(el("span", "", label), el("span", "taxonomy-option__count", count));
     button.addEventListener("click", onClick);
     return button;
+  }
+
+  function renderTaxonomyBrowser() {
+    dom.categoryTabs.replaceChildren(
+      taxonomyButton("全部", records.length, state.category === "全部", () => setState({ category: "全部", level2: "全部", level3: "全部" })),
+      ...categories.map((category) => taxonomyButton(category, dataset.counts.byCategory[category], state.category === category, () => setState({ category, level2: "全部", level3: "全部" }))),
+    );
+
+    const level2Options = level2For(state.category);
+    const showLevel2 = state.category !== "全部" && level2Options.length > 0;
+    dom.level2Step.hidden = !showLevel2;
+    dom.level2Select.hidden = !showLevel2;
+    dom.level2Select.replaceChildren(
+      makeOption("全部", "全部领域 / 类型"),
+      ...level2Options.map(([label, count]) => makeOption(label, `${label} · ${count}`)),
+    );
+    dom.level2Select.value = state.level2;
+    dom.level2Tabs.replaceChildren(...(showLevel2 ? [
+      taxonomyButton("全部", dataset.counts.byCategory[state.category], state.level2 === "全部", () => setState({ level2: "全部", level3: "全部" })),
+      ...level2Options.map(([label, count]) => taxonomyButton(label, count, state.level2 === label, () => setState({ level2: label, level3: "全部" }))),
+    ] : []));
+
+    const level3Options = level3For(state.category, state.level2);
+    const showLevel3 = state.level2 !== "全部" && level3Options.length > 0;
+    dom.level3Step.hidden = !showLevel3;
+    dom.level3Select.hidden = !showLevel3;
+    dom.level3Select.replaceChildren(
+      makeOption("全部", "全部题材 / 身份"),
+      ...level3Options.map(([label, count]) => makeOption(label, `${label} · ${count}`)),
+    );
+    dom.level3Select.value = state.level3;
+    const level2Count = records.filter((item) => item.category === state.category && taxonomyOptions(item, 2).includes(state.level2)).length;
+    dom.level3Tabs.replaceChildren(...(showLevel3 ? [
+      taxonomyButton("全部", level2Count, state.level3 === "全部", () => setState({ level3: "全部" })),
+      ...level3Options.map(([label, count]) => taxonomyButton(label, count, state.level3 === label, () => setState({ level3: label }))),
+    ] : []));
   }
 
   function categoryMark(item) {
@@ -361,13 +399,23 @@
     return frame;
   }
 
+  function displayTaxonomy(item) {
+    const primary = { level2: item.taxonomyLevel2, level3: item.taxonomyLevel3 };
+    if (state.category !== item.category || state.level2 === "全部") return primary;
+    if (state.level3 !== "全部") {
+      return taxonomyPaths(item).find((path) => path.level2 === state.level2 && path.level3 === state.level3) || primary;
+    }
+    return taxonomyPaths(item).find((path) => path.level2 === state.level2) || primary;
+  }
+
   function card(item) {
+    const shownPath = displayTaxonomy(item);
     const button = el("button", "ip-card");
     button.type = "button";
     const body = el("div", "ip-card__body");
     const top = el("div", "ip-card__top");
     top.append(el("span", "ip-card__mark", categoryMark(item)), el("span", "ip-card__tier", compactTier(item)));
-    body.append(top, el("h2", "ip-card__title", item.name), el("div", "ip-card__zh", item.nameZh || item.subcategory));
+    body.append(top, el("h2", "ip-card__title", item.name), el("div", "ip-card__zh", item.nameZh || `${shownPath.level2} · ${shownPath.level3}`));
     const cues = el("div", "ip-card__cues");
     (item.visualElements || item.motifs || []).slice(0, 3).forEach((cue) => cues.append(el("span", "ip-card__cue", cue)));
     body.append(cues);
@@ -377,7 +425,7 @@
         ? el("span", "status-badge status-badge--survey", `认知 ${item.surveyFamePercent}%`)
       : el("span", item.rightsLane.includes("授权") ? "status-badge status-badge--licensed" : "status-badge", item.rightsLane);
     const foot = el("div", "ip-card__foot");
-    foot.append(el("span", "ip-card__path", `${item.category} · ${item.subcategory}`), status);
+    foot.append(el("span", "ip-card__path", `${item.category} · ${shownPath.level2} · ${shownPath.level3}`), status);
     body.append(foot);
     button.append(renderVisual(item), body);
     button.addEventListener("click", () => openDetail(item));
@@ -390,7 +438,10 @@
 
   function openDetail(item) {
     currentItem = item;
-    dom.detailKind.textContent = `${item.category} · ${item.subcategory} · ${item.entityType}`;
+    const shownPath = displayTaxonomy(item);
+    const primaryPath = `${item.category} → ${item.taxonomyLevel2} → ${item.taxonomyLevel3}`;
+    const activePath = `${item.category} → ${shownPath.level2} → ${shownPath.level3}`;
+    dom.detailKind.textContent = `${item.category} · ${shownPath.level2} · ${shownPath.level3}`;
     dom.detailTitle.textContent = item.name;
     dom.detailSubtitle.textContent = item.nameZh || item.rightsOwnerContext;
     dom.detailBadges.replaceChildren(
@@ -401,6 +452,7 @@
     dom.detailVisualPanel.replaceChildren(renderVisual(item, { detail: true }));
     const evidenceValue = item.evidenceValue ? `${Number(item.evidenceValue).toLocaleString("en-US")} ${item.evidenceUnit}` : "无直接人数证据";
     dom.detailAwareness.textContent = `${item.usTier}。${item.reachStatus}。${evidenceValue}。`;
+    dom.detailTaxonomy.textContent = `${activePath}。${activePath === primaryPath ? "" : `主路径：${primaryPath}。`}置信度 ${item.taxonomyConfidence}；${item.taxonomySource}。`;
     dom.detailSurvey.textContent = item.surveyFamePercent
       ? `YouGov Fame ${item.surveyFamePercent}%；按 2020 美国成年人口折算约 ${(Number(item.surveyPopulationEquivalent) / 1000000).toFixed(1)}M。调查认知等效，不是独立观众、销量或授权证明。口径：${item.surveyPeriod || "待复核"}。`
       : "待补美国全国同口径认知调查。";
@@ -434,9 +486,12 @@
   }
 
   function itemCopy(item) {
+    const shownPath = displayTaxonomy(item);
     return [
       `${item.name}${item.nameZh ? `｜${item.nameZh}` : ""}`,
-      `${item.category} / ${item.subcategory}`,
+      `当前分类路径：${item.category} / ${shownPath.level2} / ${shownPath.level3}`,
+      `主分类路径：${item.category} / ${item.taxonomyLevel2} / ${item.taxonomyLevel3}`,
+      `分类依据：${item.taxonomySource}；置信度 ${item.taxonomyConfidence}`,
       `美国知名度：${item.usTier}；${item.reachStatus}`,
       item.surveyFamePercent ? `美国认知：YouGov Fame ${item.surveyFamePercent}%；约 ${(Number(item.surveyPopulationEquivalent) / 1000000).toFixed(1)}M 成年人口等效；非独立观众` : "美国认知：待补全国同口径调查",
       `权利入口：${item.rightsLane}`,
@@ -491,7 +546,7 @@
     dom.list.hidden = visibleItems.length === 0;
     dom.empty.hidden = visibleItems.length !== 0;
     const quick = quickOptions.find((item) => item.key === state.quick);
-    dom.resultTitle.textContent = state.q ? `“${state.q}”` : state.subcategory !== "全部" ? state.subcategory : state.category !== "全部" ? state.category : state.rights !== "全部" ? state.rights : quick?.key !== "全部" ? quick.label : "全部候选";
+    dom.resultTitle.textContent = state.q ? `“${state.q}”` : state.level3 !== "全部" ? state.level3 : state.level2 !== "全部" ? state.level2 : state.category !== "全部" ? state.category : state.rights !== "全部" ? state.rights : quick?.key !== "全部" ? quick.label : "全部候选";
     dom.resultCount.textContent = currentFiltered.length.toLocaleString("en-US");
     updateLoadProgress();
     document.title = `${dom.resultTitle.textContent}｜美国超级 IP 机会库`;
@@ -514,8 +569,9 @@
     window.clearTimeout(searchTimer);
     searchTimer = window.setTimeout(() => setState({ q: dom.search.value }, { replace: true }), 140);
   });
-  dom.categorySelect.addEventListener("change", () => setState({ category: dom.categorySelect.value, subcategory: "全部", quick: "全部" }));
-  dom.subcategorySelect.addEventListener("change", () => setState({ subcategory: dom.subcategorySelect.value }));
+  dom.categorySelect.addEventListener("change", () => setState({ category: dom.categorySelect.value, level2: "全部", level3: "全部" }));
+  dom.level2Select.addEventListener("change", () => setState({ level2: dom.level2Select.value, level3: "全部" }));
+  dom.level3Select.addEventListener("change", () => setState({ level3: dom.level3Select.value }));
   dom.rightsSelect.addEventListener("change", () => setState({ rights: dom.rightsSelect.value }));
   dom.tierSelect.addEventListener("change", () => setState({ tier: dom.tierSelect.value }));
   dom.sortSelect.addEventListener("change", () => setState({ sort: dom.sortSelect.value }));
@@ -527,7 +583,7 @@
   window.addEventListener("popstate", () => { state = readState(); render(); });
 
   function reset() {
-    setState({ q: "", category: "全部", subcategory: "全部", rights: "全部", tier: "全部", quick: "全部", sort: "curated" });
+    setState({ q: "", category: "全部", level2: "全部", level3: "全部", rights: "全部", tier: "全部", quick: "全部", sort: "curated" });
   }
 
   writeState(true);

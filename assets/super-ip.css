@@ -10,7 +10,7 @@
   top: 0;
   z-index: 5;
   display: grid;
-  grid-template-columns: minmax(260px, 1fr) repeat(5, minmax(128px, auto)) auto;
+  grid-template-columns: minmax(240px, 1fr) repeat(6, minmax(112px, auto)) auto;
   gap: var(--space-2);
   padding: var(--space-3) var(--space-4);
   background: var(--surface);
@@ -95,20 +95,57 @@
 .quick-tab:hover { color: var(--text); border-color: var(--border-strong); }
 .quick-tab.is-active { color: var(--accent-fg); background: var(--accent); border-color: var(--accent); }
 
-.subcategory-tabs {
-  display: flex;
-  gap: var(--space-1);
-  min-height: 45px;
-  padding: var(--space-2) var(--space-4);
-  overflow-x: auto;
+.taxonomy-browser {
   border-bottom: 1px solid var(--border);
-  background: var(--surface-2);
+  background: var(--surface);
+}
+
+.taxonomy-step {
+  min-height: 44px;
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  align-items: stretch;
+  border-bottom: 1px solid var(--border);
+}
+
+.taxonomy-step:last-child { border-bottom: 0; }
+
+.taxonomy-step__label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  border-right: 1px solid var(--border);
+  color: var(--text-2);
+  font-size: var(--text-xs);
+  white-space: nowrap;
+}
+
+.taxonomy-step__label b {
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--border-strong);
+  border-radius: 50%;
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 10px;
+}
+
+.taxonomy-options {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  min-width: 0;
+  padding: var(--space-2);
+  overflow-x: auto;
   scrollbar-width: none;
 }
 
-.subcategory-tabs::-webkit-scrollbar { display: none; }
+.taxonomy-options::-webkit-scrollbar { display: none; }
 
-.subcategory-tab {
+.taxonomy-option {
   min-width: max-content;
   height: var(--control-h-sm);
   display: inline-flex;
@@ -122,10 +159,10 @@
   cursor: pointer;
 }
 
-.subcategory-tab:hover { color: var(--text); border-color: var(--border-strong); }
-.subcategory-tab.is-active { color: var(--accent-fg); background: var(--accent); border-color: var(--accent); }
+.taxonomy-option:hover { color: var(--text); border-color: var(--border-strong); }
+.taxonomy-option.is-active { color: var(--accent-fg); background: var(--accent); border-color: var(--accent); }
 
-.subcategory-count {
+.taxonomy-option__count {
   font-family: var(--font-mono);
   font-size: var(--text-xs);
   opacity: .72;
@@ -517,17 +554,17 @@
 }
 
 @media (max-width: 1180px) {
-  .filterbar { grid-template-columns: minmax(220px, 1fr) repeat(4, minmax(120px, auto)) auto; }
-  #tier-select { display: none; }
+  .filterbar { grid-template-columns: minmax(220px, 1fr) repeat(4, minmax(112px, auto)) auto; }
+  #tier-select,
+  #rights-select { display: none; }
 }
 
 @media (max-width: 900px) {
-  .filterbar { grid-template-columns: minmax(0, 1fr) 132px 132px auto; padding: var(--space-2); }
+  .filterbar { grid-template-columns: minmax(0, 1fr) repeat(3, 132px) auto; padding: var(--space-2); }
   #rights-select,
   #tier-select,
   #sort-select { display: none; }
-  .quick-tabs,
-  .subcategory-tabs { padding: var(--space-2); }
+  .quick-tabs { padding: var(--space-2); }
   .summary-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .summary-metric { padding: var(--space-2); }
   .summary-metric:nth-child(3n) { border-right: 0; }
@@ -538,8 +575,13 @@
   .topbar__meta,
   .topbar__actions .btn--ghost,
   #category-select,
+  #level2-select,
+  #level3-select,
   #reset { display: none; }
   .filterbar { grid-template-columns: minmax(0, 1fr); }
+  .taxonomy-step { grid-template-columns: 76px minmax(0, 1fr); }
+  .taxonomy-step__label { padding: var(--space-2); }
+  .taxonomy-step__label span { overflow: hidden; text-overflow: ellipsis; }
   .summary-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .summary-metric { border-bottom: 1px solid var(--border); }
   .summary-metric:nth-child(3n) { border-right: 1px solid var(--border); }

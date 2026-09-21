@@ -8,6 +8,8 @@ const dataset = JSON.parse(await fs.readFile(path.join(projectRoot, "data", "sup
 const records = dataset.records || [];
 const errors = [];
 
+if (dataset.schemaVersion !== "1.3") errors.push(`Schema 应为 1.3：${dataset.schemaVersion}`);
+
 if (records.length < 6000) errors.push(`候选不足 6000：${records.length}`);
 const sports = records.filter((item) => item.category === "体育运动");
 if (sports.length < 100) errors.push(`体育不足 100：${sports.length}`);
@@ -43,8 +45,14 @@ for (const item of records) {
   if (!item.name || recordKeys.has(recordKey)) errors.push(`同类型记录缺失或重复：${item.name || item.id}`);
   ids.add(item.id);
   recordKeys.add(recordKey);
-  for (const field of ["category", "subcategory", "usTier", "rightsLane", "useRoute", "avoid", "sourceLabel", "sourceUrl", "evidenceStatus"]) {
+  for (const field of ["category", "subcategory", "taxonomyLevel2", "taxonomyLevel3", "taxonomySource", "taxonomyConfidence", "usTier", "rightsLane", "useRoute", "avoid", "sourceLabel", "sourceUrl", "evidenceStatus"]) {
     if (!item[field]) errors.push(`${item.name} 缺字段 ${field}`);
+  }
+  if (!Array.isArray(item.taxonomyLevel2Options) || !item.taxonomyLevel2Options.includes(item.taxonomyLevel2)) errors.push(`${item.name} 二级分类选项无主分类`);
+  if (!Array.isArray(item.taxonomyLevel3Options) || !item.taxonomyLevel3Options.includes(item.taxonomyLevel3)) errors.push(`${item.name} 三级分类选项无主题`);
+  if (!Array.isArray(item.taxonomyPaths) || !item.taxonomyPaths.some((path) => path.level2 === item.taxonomyLevel2 && path.level3 === item.taxonomyLevel3)) errors.push(`${item.name} 分类路径缺少主路径`);
+  for (const path of item.taxonomyPaths || []) {
+    if (!item.taxonomyLevel2Options.includes(path.level2) || !item.taxonomyLevel3Options.includes(path.level3)) errors.push(`${item.name} 分类路径与选项不一致`);
   }
   if (!Array.isArray(item.visualElements) || item.visualElements.length < 3) errors.push(`${item.name} 视觉元素少于 3`);
   if (!Array.isArray(item.visualPalette) || item.visualPalette.length < 4) errors.push(`${item.name} 色板少于 4`);
@@ -61,6 +69,37 @@ for (const item of records) {
   }
 }
 
+const coarseBuckets = new Set(["电影全景", "电视节目全景", "音乐人全景", "电子游戏全景", "演员与银幕人物", "主持人与电视人物"]);
+const coarseTaxonomy = records.filter((item) => coarseBuckets.has(item.taxonomyLevel2) || coarseBuckets.has(item.taxonomyLevel3));
+if (coarseTaxonomy.length) errors.push(`仍有旧全景桶进入新分类：${coarseTaxonomy.length}`);
+
+const pendingTaxonomy = records.filter((item) => item.taxonomyConfidence === "待复核");
+if (pendingTaxonomy.length > Math.ceil(records.length * 0.02)) errors.push(`分类待复核超过 2%：${pendingTaxonomy.length}`);
+
+const categoryDepthMinimums = {
+  "动画 / 角色": [4, 6],
+  "电影 / 电视": [5, 10],
+  "人物 / 文娱名人": [6, 10],
+  音乐: [8, 5],
+  "游戏 / 玩具": [5, 8],
+  "文学 / 书籍": [3, 8],
+  "文学 / 公域角色": [6, 5],
+  "舞台 / 活动": [4, 5],
+  "网络 / 媒体": [3, 7],
+  体育运动: [10, 5],
+  "宗教 / 神话": [7, 4],
+  "艺术 / 公共文化": [5, 6],
+  "品牌 / 广告角色": [4, 4],
+  公共符号: [5, 5],
+};
+for (const [category, [minimumL2, minimumL3]] of Object.entries(categoryDepthMinimums)) {
+  const categoryRecords = records.filter((item) => item.category === category);
+  const level2 = new Set(categoryRecords.flatMap((item) => item.taxonomyLevel2Options || []));
+  const level3 = new Set(categoryRecords.flatMap((item) => item.taxonomyLevel3Options || []));
+  if (level2.size < minimumL2) errors.push(`${category} 二级分类不足 ${minimumL2}：${level2.size}`);
+  if (level3.size < minimumL3) errors.push(`${category} 三级分类不足 ${minimumL3}：${level3.size}`);
+}
+
 if (errors.length) {
   process.stderr.write(`${errors.join("\n")}\n`);
   process.exitCode = 1;
@@ -73,6 +112,9 @@ if (errors.length) {
     direct100mEvidence: direct100m.length,
     survey100mEquivalent: survey100m.length,
     visualReferences: visualReferences.length,
+    taxonomyA: records.filter((item) => item.taxonomyConfidence === "A").length,
+    taxonomyB: records.filter((item) => item.taxonomyConfidence === "B").length,
+    taxonomyPending: pendingTaxonomy.length,
     uniqueIds: ids.size,
     uniqueRecordKeys: recordKeys.size,
   }, null, 2)}\n`);
