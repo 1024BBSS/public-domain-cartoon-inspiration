@@ -1,5 +1,5 @@
 {
-  "sourceVersion": "super-ip-us-2026-09-21-v1",
+  "sourceVersion": "super-ip-us-2026-09-21-v2",
   "researchDate": "2026-09-21",
   "groups": [
     {
@@ -388,6 +388,16 @@
   ],
   "overrides": [
     {
+      "name": "NFL",
+      "reachStatus": "100M+ · 美国直接受众",
+      "evidenceStatus": "已核验（历史口径）",
+      "evidenceType": "美国常规赛独立观众",
+      "evidenceValue": 200000000,
+      "evidenceUnit": "人",
+      "evidenceDate": "2012-12-31",
+      "evidenceUrl": "https://www.nfl.com/news/nfl-twitter-partner-to-bring-exclusive-content-to-fans-worldwid-0ap2000000250954"
+    },
+    {
       "name": "Super Bowl",
       "reachStatus": "100M+ · 美国直接受众",
       "evidenceStatus": "已核验",
@@ -396,6 +406,16 @@
       "evidenceUnit": "人",
       "evidenceDate": "2026-02-08",
       "evidenceUrl": "https://amp.nfl.com/news/nielsen-revises-super-bowl-final-rating-to-125-million-viewers"
+    },
+    {
+      "name": "Olympic Games",
+      "reachStatus": "100M+ · 美国直接受众",
+      "evidenceStatus": "已核验（历史口径）",
+      "evidenceType": "美国赛事周期独立观众",
+      "evidenceValue": 217000000,
+      "evidenceUnit": "人",
+      "evidenceDate": "2012-08-12",
+      "evidenceUrl": "https://www.nbcsports.com/pressbox/olympics/press-releases/ondon-olympics-on-nbc-is-most-watched-television-event-in-u-s-history"
     },
     {
       "name": "Steamboat Willie Mickey (1928 version)",

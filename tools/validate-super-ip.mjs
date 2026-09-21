@@ -11,6 +11,10 @@ const errors = [];
 if (records.length < 300) errors.push(`候选不足 300：${records.length}`);
 const sports = records.filter((item) => item.category === "体育运动");
 if (sports.length < 100) errors.push(`体育不足 100：${sports.length}`);
+const usMassTier = records.filter((item) => item.usTier?.startsWith("S"));
+if (usMassTier.length < 200) errors.push(`美国全民级候选不足 200：${usMassTier.length}`);
+const direct100m = records.filter((item) => item.reachStatus?.startsWith("100M+"));
+if (direct100m.length < 3) errors.push(`100M+ 实测不足 3：${direct100m.length}`);
 
 const names = new Set();
 const ids = new Set();
@@ -37,7 +41,8 @@ if (errors.length) {
     result: "PASS",
     records: records.length,
     sports: sports.length,
-    direct100mEvidence: records.filter((item) => item.reachStatus?.startsWith("100M+")).length,
+    usMassTier: usMassTier.length,
+    direct100mEvidence: direct100m.length,
     uniqueIds: ids.size,
     uniqueNames: names.size,
   }, null, 2)}\n`);

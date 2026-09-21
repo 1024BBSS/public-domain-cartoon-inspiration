@@ -4,7 +4,7 @@
 
 当前另有 `albums.html`：以 200 张近 70 年经典封面为母库，可按封面或艺人进入，并按年代、音乐类型与视觉方法检索；另保留公版历史封面、“鹰翼摇滚”和“西部乡村”专题。现代封面只作研究，不作公版素材。
 
-`super-ip.html` 是美国超级 IP 与权利机会库。当前包含 879 个美区高知名候选，其中 284 个体育赛事、联盟、球队或运动员。它把“美国知名度层级”“100M+ 直接人数证据”“权利入口”和“可取 / 避开”分开显示；现代角色、球队、赛事、音乐人与肖像不会因为知名而被标成可直接商用。
+`super-ip.html` 是美国超级 IP 与权利机会库。当前包含 879 个美区高知名候选，其中 266 个美国全民级候选、284 个体育赛事、联盟、球队或运动员。主入口按全民级候选浏览；`100M+ 实测` 单独保留直接人数证据。现代角色、球队、赛事、音乐人与肖像不会因为知名而被标成可直接商用。
 
 ## 公开边界
 
@@ -52,6 +52,6 @@ node tools/validate-super-ip.mjs
 
 `source/cartoon-ip-supplement.json`、`source/ghost-commercial-supplement.json` 与 `source/halloween-classics-supplement.json` 保存已核验作品、风险边界和 Eagle item ID。`source/halloween-trend-watchlist.json` 仅作后台趋势证据，不生成前台专题页。`source/album-canon-seed.psv` 保存 200 张母库的人工定款；`source/album-license-only.json` 保存补齐图源后的现代需授权研究记录；`source/album-public-domain.json` 保存公版历史封面；`source/eagle-rock-lineage.json` 与 `source/western-country-lineage.json` 分别保存鹰翼摇滚、西部乡村专题。
 
-`source/super-ip-us-seed.json` 是超级 IP 候选源。S / A 只是美区编辑筛选层，不是调查百分比；只有公开、可复核且口径明确的美国人数资料才显示 `100M+`。新增条目时必须保留来源、权利入口和证据状态，不能把“高知名”改写成“可商用”。
+`source/super-ip-us-seed.json` 是超级 IP 候选源。S / A 只是美区编辑筛选层，不是调查百分比；只有公开、可复核且口径明确的美国人数资料才进入 `100M+ 实测`。快捷入口会清空旧筛选，避免隐藏条件把全民级候选压成少数结果。新增条目时必须保留来源、权利入口和证据状态，不能把“高知名”改写成“可商用”。
 
 幽灵图源位于 Eagle 的 `04｜幽灵与通灵｜A证据`，公版封面源流位于 `05｜专辑封面｜公版源流与授权研究`。图片原件仍以 Eagle 为事实源；补充文件只描述关系与证据，不保存第二份原图。新的 Grok 调研包先用 `node tools/import-grok-intake.mjs /解包根目录` 去重、核验和写入 Eagle，再进入公开构建。

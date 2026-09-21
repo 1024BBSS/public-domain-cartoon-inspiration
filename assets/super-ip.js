@@ -65,7 +65,8 @@
   const tiers = Object.keys(dataset.counts.byUsTier);
   const quickOptions = [
     { key: "全部", label: "全部", test: () => true },
-    { key: "100M+", label: "100M+ 已核验", test: (item) => item.reachStatus.startsWith("100M+") },
+    { key: "全民级", label: "美国全民级", test: (item) => item.usTier.startsWith("S") },
+    { key: "100M+实测", label: "100M+ 实测", test: (item) => item.reachStatus.startsWith("100M+") },
     { key: "体育运动", label: "体育运动", test: (item) => item.category === "体育运动" },
     { key: "动画 / 角色", label: "角色卡通", test: (item) => item.category === "动画 / 角色" },
     { key: "电影 / 电视", label: "影视", test: (item) => item.category === "电影 / 电视" },
@@ -83,12 +84,15 @@
 
   function readState() {
     const params = new URLSearchParams(location.search);
+    const requestedQuick = params.get("quick") === "100M+" ? "全民级" : params.get("quick");
+    const quick = quickOptions.some((item) => item.key === requestedQuick) ? requestedQuick : "全部";
+    const quickOwnsScope = quick !== "全部";
     return {
-      q: params.get("q") || "",
-      category: categories.includes(params.get("category")) ? params.get("category") : "全部",
-      rights: rightsLanes.includes(params.get("rights")) ? params.get("rights") : "全部",
-      tier: tiers.includes(params.get("tier")) ? params.get("tier") : "全部",
-      quick: quickOptions.some((item) => item.key === params.get("quick")) ? params.get("quick") : "全部",
+      q: quickOwnsScope ? "" : params.get("q") || "",
+      category: quickOwnsScope ? "全部" : categories.includes(params.get("category")) ? params.get("category") : "全部",
+      rights: quickOwnsScope ? "全部" : rightsLanes.includes(params.get("rights")) ? params.get("rights") : "全部",
+      tier: quickOwnsScope ? "全部" : tiers.includes(params.get("tier")) ? params.get("tier") : "全部",
+      quick,
       sort: ["curated", "name", "category"].includes(params.get("sort")) ? params.get("sort") : "curated",
       page: Math.max(1, Number(params.get("page")) || 1),
     };
@@ -172,7 +176,7 @@
       const count = records.filter(option.test).length;
       const button = el("button", `quick-tab${state.quick === option.key ? " is-active" : ""}`, `${option.label} ${count}`);
       button.type = "button";
-      button.addEventListener("click", () => setState({ quick: option.key, category: "全部" }));
+      button.addEventListener("click", () => setState({ q: "", quick: option.key, category: "全部", rights: "全部", tier: "全部" }));
       return button;
     }));
   }
@@ -233,7 +237,8 @@
     dom.detailUse.textContent = item.useRoute;
     dom.detailAvoid.textContent = item.avoid;
     dom.detailMotifs.textContent = item.motifs?.length ? item.motifs.join(" · ") : "待补";
-    dom.detailEvidence.textContent = `${item.evidenceType}；${item.evidenceStatus}。${item.sourceLabel}：${item.sourceRole}`;
+    const evidenceDate = item.evidenceDate ? `；口径日期 ${item.evidenceDate}` : "";
+    dom.detailEvidence.textContent = `${item.evidenceType}；${item.evidenceStatus}${evidenceDate}。${item.sourceLabel}：${item.sourceRole}`;
     dom.detailSource.href = item.sourceUrl;
     dom.detailProof.hidden = !item.evidenceUrl;
     if (item.evidenceUrl) dom.detailProof.href = item.evidenceUrl;
@@ -297,9 +302,9 @@
 
   dom.topMeta.textContent = `${dataset.counts.records.toLocaleString("en-US")} 候选 · ${dataset.counts.sports.toLocaleString("en-US")} 体育`;
   $("#metric-all").textContent = dataset.counts.records.toLocaleString("en-US");
+  $("#metric-s").textContent = (dataset.counts.byUsTier["S｜美国全民级候选"] || 0).toLocaleString("en-US");
   $("#metric-sports").textContent = dataset.counts.sports.toLocaleString("en-US");
   $("#metric-public").textContent = (dataset.counts.byRightsLane["文化公域 · 逐素材核验"] || 0).toLocaleString("en-US");
-  $("#metric-100m").textContent = dataset.counts.direct100mEvidence.toLocaleString("en-US");
 
   let searchTimer = 0;
   dom.search.addEventListener("input", () => {
@@ -322,5 +327,6 @@
     setState({ q: "", category: "全部", rights: "全部", tier: "全部", quick: "全部", sort: "curated", page: 1 });
   }
 
+  writeState(true);
   render();
 })();
