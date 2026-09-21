@@ -25,13 +25,28 @@ for (const event of data.events || []) {
     if (!ip.visualImage) errors.push(`${event.id}: linked IP without visual ${ip.id}`);
   }
   if (!event.operations?.length) errors.push(`${event.id}: missing operations`);
-  for (const key of ["west", "midwest", "northeast", "south"]) {
-    if (!Number.isFinite(event.regions?.[key])) errors.push(`${event.id}: missing region ${key}`);
-  }
+  if (!event.regionalAffinityHint?.status) errors.push(`${event.id}: missing regional-affinity boundary`);
 }
 
 if (!data.paydayModel?.frequencies?.length) errors.push("missing payday model");
-if (!data.regionModel?.regions?.length) errors.push("missing region model");
+const weather = data.geographyModel?.weather;
+if (!weather?.markets?.length) errors.push("missing apparel-weather markets");
+if (!weather?.sourcePage?.startsWith("https://www.ncei.noaa.gov/")) errors.push("weather source is not NOAA NCEI");
+const coveredStates = new Set();
+for (const market of weather?.markets || []) {
+  if (!market.id || !market.labelZh) errors.push("weather market missing identity");
+  if (market.monthly?.length !== 12) errors.push(`${market.id}: expected 12 monthly normals`);
+  for (const row of market.monthly || []) {
+    if (!Number.isFinite(row.highF) || !Number.isFinite(row.lowF) || !Number.isFinite(row.meanF)) errors.push(`${market.id}: missing temperature normal for month ${row.month}`);
+  }
+  for (const state of market.states || []) {
+    if (coveredStates.has(state)) errors.push(`duplicate weather-state coverage: ${state}`);
+    coveredStates.add(state);
+  }
+}
+if (coveredStates.size !== 51) errors.push(`weather-state coverage expected 50 states + DC, got ${coveredStates.size}`);
+if (!data.geographyModel?.logistics?.eastCoastCore?.length) errors.push("missing logistics East Coast core");
+if (!data.geographyModel?.customerOrders?.requiredFields?.length) errors.push("missing customer order data contract");
 if (errors.length) {
   console.error(errors.join("\n"));
   process.exit(1);

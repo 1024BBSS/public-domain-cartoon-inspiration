@@ -1,15 +1,16 @@
 {
-  "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-21T10:13:05.592Z",
+  "schemaVersion": "1.1.0",
+  "generatedAt": "2026-09-21T11:05:08.012Z",
   "market": "US",
   "asOf": "2026-09-21",
-  "scope": "从今天向前看的美国消费季、公开日期、现金流脉冲与商品运营建议。事实日期、经验窗口和运营建议分层显示。",
+  "scope": "从今天向前看的美国消费季、公开日期、现金流脉冲、历史天气常态与商品运营建议。事实日期、气候常态、经验窗口和运营建议分层显示。",
   "methodology": {
     "factLayer": "节日、纪念日和公开活动日期来自政府、主办方或专业日历。",
     "seasonLayer": "消费季起止为编辑型运营窗口，必须用店铺历史订单、搜索和库存数据校准。",
     "operationsLayer": "研究、设计、打样、上架、放量和收尾是倒排建议，不是平台规则或审批结论。",
     "paydayLayer": "BLS 统计的是私营单位采用的发薪周期，不是雇员人数，也不能推出全国统一到账日。",
-    "regionLayer": "四区分值是事件与服装运营的规则型优先级，不是地区销售额。"
+    "weatherLayer": "NOAA 1991–2020 气候常态用于季节规划，不是未来天气预报；服装建议是编辑型温度映射。",
+    "geographyLayer": "客户地区、天气需求和仓配成本是三种不同对象：客户占比必须来自订单州 / ZIP，运费必须来自仓 ZIP、目的 ZIP、重量、承运商和服务。"
   },
   "paydayModel": {
     "title": "工资现金流脉冲",
@@ -53,41 +54,2612 @@
       }
     ]
   },
-  "regionModel": {
-    "title": "美国 Census 四区运营热力",
-    "sourceLabel": "U.S. Census Bureau · Regions and Divisions",
-    "sourceUrl": "https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html",
-    "warning": "分区采用 Census 四区；热度是题材、气候和事件触达的运营估计，待接入州级订单后替换。",
-    "regions": [
-      {
-        "key": "west",
-        "label": "West",
-        "labelZh": "西部",
-        "states": "CA, OR, WA, Mountain, AK, HI"
-      },
-      {
-        "key": "midwest",
-        "label": "Midwest",
-        "labelZh": "中西部",
-        "states": "Great Lakes, Plains"
-      },
-      {
-        "key": "northeast",
-        "label": "Northeast",
-        "labelZh": "东北部",
-        "states": "New England, NY, NJ, PA"
-      },
-      {
-        "key": "south",
-        "label": "South",
-        "labelZh": "南部",
-        "states": "TX, FL, Southeast, DC"
-      }
-    ]
+  "geographyModel": {
+    "weather": {
+      "schemaVersion": "1.0.0",
+      "generatedAt": "2026-09-21T11:05:07.881Z",
+      "baseline": "1991–2020 U.S. Climate Normals",
+      "sourceLabel": "NOAA NCEI · U.S. Climate Normals",
+      "sourcePage": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
+      "sourceApi": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USW00014739%2CUSW00094728%2CUSW00013743%2CUSW00013874%2CUSW00012839%2CUSW00094846%2CUSW00003927%2CUSW00023174%2CUSW00023183%2CUSW00024233%2CUSW00003017%2CUSW00026451%2CUSW00022521&format=json&includeStationName=true&includeAttributes=false",
+      "methodology": "每个运营气候区由列出的代表站月常态汇总；页面按日期在相邻月份间插值，用于 12 周服装需求规划。它不是未来天气预报，也不反映极端天气。",
+      "apparelRules": [
+        {
+          "level": 1,
+          "minMeanF": 78,
+          "label": "炎热",
+          "products": [
+            "背心",
+            "短袖",
+            "轻薄面料"
+          ]
+        },
+        {
+          "level": 2,
+          "minMeanF": 68,
+          "label": "偏暖",
+          "products": [
+            "短袖",
+            "薄罩衫",
+            "轻量长袖"
+          ]
+        },
+        {
+          "level": 3,
+          "minMeanF": 58,
+          "label": "转凉",
+          "products": [
+            "长袖",
+            "薄卫衣",
+            "叠穿"
+          ]
+        },
+        {
+          "level": 4,
+          "minMeanF": 45,
+          "label": "凉冷",
+          "products": [
+            "卫衣",
+            "针织",
+            "轻外套"
+          ]
+        },
+        {
+          "level": 5,
+          "minMeanF": -999,
+          "label": "寒冷",
+          "products": [
+            "抓绒",
+            "厚卫衣",
+            "保暖外套"
+          ]
+        }
+      ],
+      "stations": [
+        {
+          "id": "USW00014739",
+          "label": "Boston Logan",
+          "city": "Boston",
+          "state": "MA",
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 36.8,
+              "lowF": 23.1,
+              "precipIn": 3.39,
+              "snowIn": 14.3
+            },
+            {
+              "month": 2,
+              "highF": 39,
+              "lowF": 24.6,
+              "precipIn": 3.21,
+              "snowIn": 14.4
+            },
+            {
+              "month": 3,
+              "highF": 45.5,
+              "lowF": 31.1,
+              "precipIn": 4.17,
+              "snowIn": 9
+            },
+            {
+              "month": 4,
+              "highF": 56.4,
+              "lowF": 40.8,
+              "precipIn": 3.63,
+              "snowIn": 1.6
+            },
+            {
+              "month": 5,
+              "highF": 66.5,
+              "lowF": 50.3,
+              "precipIn": 3.25,
+              "snowIn": 0
+            },
+            {
+              "month": 6,
+              "highF": 76.2,
+              "lowF": 59.7,
+              "precipIn": 3.89,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 82.1,
+              "lowF": 66,
+              "precipIn": 3.27,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 80.4,
+              "lowF": 65.1,
+              "precipIn": 3.23,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 73.1,
+              "lowF": 58.2,
+              "precipIn": 3.56,
+              "snowIn": 0
+            },
+            {
+              "month": 10,
+              "highF": 62.1,
+              "lowF": 47.5,
+              "precipIn": 4.03,
+              "snowIn": 0.2
+            },
+            {
+              "month": 11,
+              "highF": 51.6,
+              "lowF": 37.9,
+              "precipIn": 3.66,
+              "snowIn": 0.7
+            },
+            {
+              "month": 12,
+              "highF": 42.2,
+              "lowF": 29.2,
+              "precipIn": 4.3,
+              "snowIn": 9
+            }
+          ]
+        },
+        {
+          "id": "USW00094728",
+          "label": "New York Central Park",
+          "city": "New York",
+          "state": "NY",
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 39.5,
+              "lowF": 27.9,
+              "precipIn": 3.64,
+              "snowIn": 8.8
+            },
+            {
+              "month": 2,
+              "highF": 42.2,
+              "lowF": 29.5,
+              "precipIn": 3.19,
+              "snowIn": 10.1
+            },
+            {
+              "month": 3,
+              "highF": 49.9,
+              "lowF": 35.8,
+              "precipIn": 4.29,
+              "snowIn": 5
+            },
+            {
+              "month": 4,
+              "highF": 61.8,
+              "lowF": 45.5,
+              "precipIn": 4.09,
+              "snowIn": 0.4
+            },
+            {
+              "month": 5,
+              "highF": 71.4,
+              "lowF": 55,
+              "precipIn": 3.96,
+              "snowIn": 0
+            },
+            {
+              "month": 6,
+              "highF": 79.7,
+              "lowF": 64.4,
+              "precipIn": 4.54,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 84.9,
+              "lowF": 70.1,
+              "precipIn": 4.6,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 83.3,
+              "lowF": 68.9,
+              "precipIn": 4.56,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 76.2,
+              "lowF": 62.3,
+              "precipIn": 4.31,
+              "snowIn": 0
+            },
+            {
+              "month": 10,
+              "highF": 64.5,
+              "lowF": 51.4,
+              "precipIn": 4.38,
+              "snowIn": 0.1
+            },
+            {
+              "month": 11,
+              "highF": 54,
+              "lowF": 42,
+              "precipIn": 3.58,
+              "snowIn": 0.5
+            },
+            {
+              "month": 12,
+              "highF": 44.3,
+              "lowF": 33.8,
+              "precipIn": 4.38,
+              "snowIn": 4.9
+            }
+          ]
+        },
+        {
+          "id": "USW00013743",
+          "label": "Washington Reagan",
+          "city": "Washington",
+          "state": "DC / VA",
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 44.8,
+              "lowF": 30.1,
+              "precipIn": 2.86,
+              "snowIn": 4.9
+            },
+            {
+              "month": 2,
+              "highF": 48.3,
+              "lowF": 31.8,
+              "precipIn": 2.62,
+              "snowIn": 5
+            },
+            {
+              "month": 3,
+              "highF": 56.5,
+              "lowF": 38.6,
+              "precipIn": 3.5,
+              "snowIn": 2
+            },
+            {
+              "month": 4,
+              "highF": 68,
+              "lowF": 48.4,
+              "precipIn": 3.21,
+              "snowIn": 0
+            },
+            {
+              "month": 5,
+              "highF": 76.5,
+              "lowF": 58,
+              "precipIn": 3.94,
+              "snowIn": 0
+            },
+            {
+              "month": 6,
+              "highF": 85.1,
+              "lowF": 67.5,
+              "precipIn": 4.2,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 89.6,
+              "lowF": 72.4,
+              "precipIn": 4.33,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 87.8,
+              "lowF": 71,
+              "precipIn": 3.25,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 80.7,
+              "lowF": 64.1,
+              "precipIn": 3.93,
+              "snowIn": 0
+            },
+            {
+              "month": 10,
+              "highF": 69.4,
+              "lowF": 52.2,
+              "precipIn": 3.66,
+              "snowIn": 0
+            },
+            {
+              "month": 11,
+              "highF": 58.2,
+              "lowF": 41.6,
+              "precipIn": 2.91,
+              "snowIn": 0.1
+            },
+            {
+              "month": 12,
+              "highF": 48.8,
+              "lowF": 34.5,
+              "precipIn": 3.41,
+              "snowIn": 1.7
+            }
+          ]
+        },
+        {
+          "id": "USW00013874",
+          "label": "Atlanta Hartsfield",
+          "city": "Atlanta",
+          "state": "GA",
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 54,
+              "lowF": 35.6,
+              "precipIn": 4.59,
+              "snowIn": 1
+            },
+            {
+              "month": 2,
+              "highF": 58.2,
+              "lowF": 38.9,
+              "precipIn": 4.55,
+              "snowIn": 0.4
+            },
+            {
+              "month": 3,
+              "highF": 65.9,
+              "lowF": 45.3,
+              "precipIn": 4.68,
+              "snowIn": 0.4
+            },
+            {
+              "month": 4,
+              "highF": 73.8,
+              "lowF": 52.5,
+              "precipIn": 3.81,
+              "snowIn": 0
+            },
+            {
+              "month": 5,
+              "highF": 81.1,
+              "lowF": 61.3,
+              "precipIn": 3.56,
+              "snowIn": 0
+            },
+            {
+              "month": 6,
+              "highF": 87.1,
+              "lowF": 68.6,
+              "precipIn": 4.54,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 90.1,
+              "lowF": 71.8,
+              "precipIn": 4.75,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 89,
+              "lowF": 71.3,
+              "precipIn": 4.3,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 83.9,
+              "lowF": 65.9,
+              "precipIn": 3.82,
+              "snowIn": 0
+            },
+            {
+              "month": 10,
+              "highF": 74.4,
+              "lowF": 54.9,
+              "precipIn": 3.28,
+              "snowIn": 0
+            },
+            {
+              "month": 11,
+              "highF": 64.1,
+              "lowF": 44.2,
+              "precipIn": 3.98,
+              "snowIn": 0
+            },
+            {
+              "month": 12,
+              "highF": 56.2,
+              "lowF": 38.4,
+              "precipIn": 4.57,
+              "snowIn": 0.4
+            }
+          ]
+        },
+        {
+          "id": "USW00012839",
+          "label": "Miami International",
+          "city": "Miami",
+          "state": "FL",
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 76.2,
+              "lowF": 61,
+              "precipIn": 1.83,
+              "snowIn": 0
+            },
+            {
+              "month": 2,
+              "highF": 78.2,
+              "lowF": 63.2,
+              "precipIn": 2.15,
+              "snowIn": 0
+            },
+            {
+              "month": 3,
+              "highF": 80.6,
+              "lowF": 65.6,
+              "precipIn": 2.46,
+              "snowIn": 0
+            },
+            {
+              "month": 4,
+              "highF": 83.6,
+              "lowF": 69.8,
+              "precipIn": 3.36,
+              "snowIn": 0
+            },
+            {
+              "month": 5,
+              "highF": 86.7,
+              "lowF": 73.4,
+              "precipIn": 6.32,
+              "snowIn": 0
+            },
+            {
+              "month": 6,
+              "highF": 89.3,
+              "lowF": 76.3,
+              "precipIn": 10.51,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 90.6,
+              "lowF": 77.5,
+              "precipIn": 7.36,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 90.7,
+              "lowF": 77.7,
+              "precipIn": 9.58,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 89,
+              "lowF": 76.9,
+              "precipIn": 10.22,
+              "snowIn": 0
+            },
+            {
+              "month": 10,
+              "highF": 85.9,
+              "lowF": 74.2,
+              "precipIn": 7.65,
+              "snowIn": 0
+            },
+            {
+              "month": 11,
+              "highF": 81.3,
+              "lowF": 68.3,
+              "precipIn": 3.53,
+              "snowIn": 0
+            },
+            {
+              "month": 12,
+              "highF": 78.2,
+              "lowF": 64.3,
+              "precipIn": 2.44,
+              "snowIn": 0
+            }
+          ]
+        },
+        {
+          "id": "USW00094846",
+          "label": "Chicago O'Hare",
+          "city": "Chicago",
+          "state": "IL",
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 31.6,
+              "lowF": 18.8,
+              "precipIn": 1.99,
+              "snowIn": 11.3
+            },
+            {
+              "month": 2,
+              "highF": 35.7,
+              "lowF": 21.8,
+              "precipIn": 1.97,
+              "snowIn": 10.7
+            },
+            {
+              "month": 3,
+              "highF": 47,
+              "lowF": 31,
+              "precipIn": 2.45,
+              "snowIn": 5.5
+            },
+            {
+              "month": 4,
+              "highF": 59,
+              "lowF": 40.3,
+              "precipIn": 3.75,
+              "snowIn": 1.3
+            },
+            {
+              "month": 5,
+              "highF": 70.5,
+              "lowF": 50.6,
+              "precipIn": 4.49,
+              "snowIn": 0
+            },
+            {
+              "month": 6,
+              "highF": 80.4,
+              "lowF": 60.8,
+              "precipIn": 4.1,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 84.5,
+              "lowF": 66.4,
+              "precipIn": 3.71,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 82.5,
+              "lowF": 65.1,
+              "precipIn": 4.25,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 75.5,
+              "lowF": 57.1,
+              "precipIn": 3.19,
+              "snowIn": 0
+            },
+            {
+              "month": 10,
+              "highF": 62.7,
+              "lowF": 45.4,
+              "precipIn": 3.43,
+              "snowIn": 0.2
+            },
+            {
+              "month": 11,
+              "highF": 48.4,
+              "lowF": 34.1,
+              "precipIn": 2.42,
+              "snowIn": 1.8
+            },
+            {
+              "month": 12,
+              "highF": 36.6,
+              "lowF": 24.4,
+              "precipIn": 2.11,
+              "snowIn": 7.6
+            }
+          ]
+        },
+        {
+          "id": "USW00003927",
+          "label": "Dallas Fort Worth",
+          "city": "Dallas–Fort Worth",
+          "state": "TX",
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 56.5,
+              "lowF": 36.1,
+              "precipIn": 2.53,
+              "snowIn": 0.1
+            },
+            {
+              "month": 2,
+              "highF": 60.9,
+              "lowF": 40.1,
+              "precipIn": 2.76,
+              "snowIn": 1
+            },
+            {
+              "month": 3,
+              "highF": 68.6,
+              "lowF": 47.8,
+              "precipIn": 3.3,
+              "snowIn": 0.3
+            },
+            {
+              "month": 4,
+              "highF": 76.1,
+              "lowF": 55.2,
+              "precipIn": 3.22,
+              "snowIn": 0
+            },
+            {
+              "month": 5,
+              "highF": 83.6,
+              "lowF": 64.5,
+              "precipIn": 4.78,
+              "snowIn": 0
+            },
+            {
+              "month": 6,
+              "highF": 91.5,
+              "lowF": 72.2,
+              "precipIn": 3.7,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 95.6,
+              "lowF": 75.8,
+              "precipIn": 2.08,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 95.8,
+              "lowF": 75.7,
+              "precipIn": 2.18,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 88.6,
+              "lowF": 68.5,
+              "precipIn": 2.72,
+              "snowIn": 0
+            },
+            {
+              "month": 10,
+              "highF": 78.4,
+              "lowF": 57.1,
+              "precipIn": 4.37,
+              "snowIn": 0
+            },
+            {
+              "month": 11,
+              "highF": 66.6,
+              "lowF": 46.2,
+              "precipIn": 2.53,
+              "snowIn": 0
+            },
+            {
+              "month": 12,
+              "highF": 57.9,
+              "lowF": 38.3,
+              "precipIn": 2.84,
+              "snowIn": 0.2
+            }
+          ]
+        },
+        {
+          "id": "USW00023174",
+          "label": "Los Angeles International",
+          "city": "Los Angeles",
+          "state": "CA",
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 66.3,
+              "lowF": 49.4,
+              "precipIn": 2.86,
+              "snowIn": null
+            },
+            {
+              "month": 2,
+              "highF": 65.6,
+              "lowF": 50.1,
+              "precipIn": 2.99,
+              "snowIn": null
+            },
+            {
+              "month": 3,
+              "highF": 66.1,
+              "lowF": 52.2,
+              "precipIn": 1.73,
+              "snowIn": null
+            },
+            {
+              "month": 4,
+              "highF": 68.1,
+              "lowF": 54.2,
+              "precipIn": 0.6,
+              "snowIn": null
+            },
+            {
+              "month": 5,
+              "highF": 69.5,
+              "lowF": 57.6,
+              "precipIn": 0.28,
+              "snowIn": null
+            },
+            {
+              "month": 6,
+              "highF": 72,
+              "lowF": 60.9,
+              "precipIn": 0.08,
+              "snowIn": null
+            },
+            {
+              "month": 7,
+              "highF": 75.1,
+              "lowF": 64,
+              "precipIn": 0.04,
+              "snowIn": null
+            },
+            {
+              "month": 8,
+              "highF": 76.7,
+              "lowF": 64.8,
+              "precipIn": 0,
+              "snowIn": null
+            },
+            {
+              "month": 9,
+              "highF": 76.5,
+              "lowF": 63.7,
+              "precipIn": 0.11,
+              "snowIn": null
+            },
+            {
+              "month": 10,
+              "highF": 74.4,
+              "lowF": 59.8,
+              "precipIn": 0.49,
+              "snowIn": null
+            },
+            {
+              "month": 11,
+              "highF": 70.9,
+              "lowF": 53.7,
+              "precipIn": 0.82,
+              "snowIn": null
+            },
+            {
+              "month": 12,
+              "highF": 66.1,
+              "lowF": 49.1,
+              "precipIn": 2.23,
+              "snowIn": null
+            }
+          ]
+        },
+        {
+          "id": "USW00023183",
+          "label": "Phoenix Sky Harbor",
+          "city": "Phoenix",
+          "state": "AZ",
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 67.6,
+              "lowF": 46,
+              "precipIn": 0.87,
+              "snowIn": null
+            },
+            {
+              "month": 2,
+              "highF": 70.8,
+              "lowF": 49,
+              "precipIn": 0.87,
+              "snowIn": null
+            },
+            {
+              "month": 3,
+              "highF": 78.1,
+              "lowF": 54.5,
+              "precipIn": 0.83,
+              "snowIn": null
+            },
+            {
+              "month": 4,
+              "highF": 85.5,
+              "lowF": 60.8,
+              "precipIn": 0.22,
+              "snowIn": null
+            },
+            {
+              "month": 5,
+              "highF": 94.5,
+              "lowF": 69.5,
+              "precipIn": 0.13,
+              "snowIn": null
+            },
+            {
+              "month": 6,
+              "highF": 104.2,
+              "lowF": 78.6,
+              "precipIn": 0.02,
+              "snowIn": null
+            },
+            {
+              "month": 7,
+              "highF": 106.5,
+              "lowF": 84.5,
+              "precipIn": 0.91,
+              "snowIn": null
+            },
+            {
+              "month": 8,
+              "highF": 105.1,
+              "lowF": 83.6,
+              "precipIn": 0.93,
+              "snowIn": null
+            },
+            {
+              "month": 9,
+              "highF": 100.4,
+              "lowF": 78.1,
+              "precipIn": 0.57,
+              "snowIn": null
+            },
+            {
+              "month": 10,
+              "highF": 89.2,
+              "lowF": 65.6,
+              "precipIn": 0.56,
+              "snowIn": null
+            },
+            {
+              "month": 11,
+              "highF": 76.5,
+              "lowF": 53.7,
+              "precipIn": 0.57,
+              "snowIn": null
+            },
+            {
+              "month": 12,
+              "highF": 66.2,
+              "lowF": 45.3,
+              "precipIn": 0.74,
+              "snowIn": null
+            }
+          ]
+        },
+        {
+          "id": "USW00024233",
+          "label": "Seattle Tacoma",
+          "city": "Seattle",
+          "state": "WA",
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 48,
+              "lowF": 37.7,
+              "precipIn": 5.78,
+              "snowIn": 1.8
+            },
+            {
+              "month": 2,
+              "highF": 50.3,
+              "lowF": 37.7,
+              "precipIn": 3.76,
+              "snowIn": 2.2
+            },
+            {
+              "month": 3,
+              "highF": 54.2,
+              "lowF": 39.9,
+              "precipIn": 4.17,
+              "snowIn": 0.4
+            },
+            {
+              "month": 4,
+              "highF": 59.3,
+              "lowF": 43.3,
+              "precipIn": 3.18,
+              "snowIn": 0
+            },
+            {
+              "month": 5,
+              "highF": 66.3,
+              "lowF": 48.7,
+              "precipIn": 1.88,
+              "snowIn": 0
+            },
+            {
+              "month": 6,
+              "highF": 71.1,
+              "lowF": 53,
+              "precipIn": 1.45,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 77.4,
+              "lowF": 56.8,
+              "precipIn": 0.6,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 77.6,
+              "lowF": 57.2,
+              "precipIn": 0.97,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 71.6,
+              "lowF": 53.6,
+              "precipIn": 1.61,
+              "snowIn": 0
+            },
+            {
+              "month": 10,
+              "highF": 60.5,
+              "lowF": 47,
+              "precipIn": 3.91,
+              "snowIn": 0
+            },
+            {
+              "month": 11,
+              "highF": 52.1,
+              "lowF": 40.9,
+              "precipIn": 6.31,
+              "snowIn": 0.2
+            },
+            {
+              "month": 12,
+              "highF": 47,
+              "lowF": 37.1,
+              "precipIn": 5.72,
+              "snowIn": 1.7
+            }
+          ]
+        },
+        {
+          "id": "USW00003017",
+          "label": "Denver International",
+          "city": "Denver",
+          "state": "CO",
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 44.6,
+              "lowF": 18.7,
+              "precipIn": 0.38,
+              "snowIn": null
+            },
+            {
+              "month": 2,
+              "highF": 45.7,
+              "lowF": 19.7,
+              "precipIn": 0.41,
+              "snowIn": null
+            },
+            {
+              "month": 3,
+              "highF": 55.7,
+              "lowF": 27.5,
+              "precipIn": 0.86,
+              "snowIn": null
+            },
+            {
+              "month": 4,
+              "highF": 61.7,
+              "lowF": 33.9,
+              "precipIn": 1.68,
+              "snowIn": null
+            },
+            {
+              "month": 5,
+              "highF": 71.2,
+              "lowF": 43.6,
+              "precipIn": 2.16,
+              "snowIn": null
+            },
+            {
+              "month": 6,
+              "highF": 83.4,
+              "lowF": 53,
+              "precipIn": 1.94,
+              "snowIn": null
+            },
+            {
+              "month": 7,
+              "highF": 89.9,
+              "lowF": 60.2,
+              "precipIn": 2.14,
+              "snowIn": null
+            },
+            {
+              "month": 8,
+              "highF": 87.5,
+              "lowF": 58.3,
+              "precipIn": 1.58,
+              "snowIn": null
+            },
+            {
+              "month": 9,
+              "highF": 79.6,
+              "lowF": 50,
+              "precipIn": 1.35,
+              "snowIn": null
+            },
+            {
+              "month": 10,
+              "highF": 65.3,
+              "lowF": 37,
+              "precipIn": 0.99,
+              "snowIn": null
+            },
+            {
+              "month": 11,
+              "highF": 52.9,
+              "lowF": 26,
+              "precipIn": 0.64,
+              "snowIn": null
+            },
+            {
+              "month": 12,
+              "highF": 44,
+              "lowF": 18.4,
+              "precipIn": 0.35,
+              "snowIn": null
+            }
+          ]
+        },
+        {
+          "id": "USW00026451",
+          "label": "Anchorage International",
+          "city": "Anchorage",
+          "state": "AK",
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 22.7,
+              "lowF": 11,
+              "precipIn": 0.75,
+              "snowIn": 12.4
+            },
+            {
+              "month": 2,
+              "highF": 27.3,
+              "lowF": 15.2,
+              "precipIn": 0.86,
+              "snowIn": 13.4
+            },
+            {
+              "month": 3,
+              "highF": 33,
+              "lowF": 18.6,
+              "precipIn": 0.69,
+              "snowIn": 11
+            },
+            {
+              "month": 4,
+              "highF": 45.1,
+              "lowF": 29.9,
+              "precipIn": 0.43,
+              "snowIn": 4
+            },
+            {
+              "month": 5,
+              "highF": 56.3,
+              "lowF": 40,
+              "precipIn": 0.65,
+              "snowIn": 0.3
+            },
+            {
+              "month": 6,
+              "highF": 63.4,
+              "lowF": 48.4,
+              "precipIn": 1.02,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 66.2,
+              "lowF": 52.9,
+              "precipIn": 1.82,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 64,
+              "lowF": 50.9,
+              "precipIn": 2.93,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 55.7,
+              "lowF": 42.9,
+              "precipIn": 3.1,
+              "snowIn": 0.4
+            },
+            {
+              "month": 10,
+              "highF": 42,
+              "lowF": 30.7,
+              "precipIn": 1.82,
+              "snowIn": 5.6
+            },
+            {
+              "month": 11,
+              "highF": 28.9,
+              "lowF": 18.3,
+              "precipIn": 1.19,
+              "snowIn": 12.6
+            },
+            {
+              "month": 12,
+              "highF": 25,
+              "lowF": 13.8,
+              "precipIn": 1.16,
+              "snowIn": 18.2
+            }
+          ]
+        },
+        {
+          "id": "USW00022521",
+          "label": "Honolulu International",
+          "city": "Honolulu",
+          "state": "HI",
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 80.5,
+              "lowF": 66.8,
+              "precipIn": 1.84,
+              "snowIn": null
+            },
+            {
+              "month": 2,
+              "highF": 80.5,
+              "lowF": 67.1,
+              "precipIn": 1.94,
+              "snowIn": null
+            },
+            {
+              "month": 3,
+              "highF": 81.2,
+              "lowF": 68.1,
+              "precipIn": 2.36,
+              "snowIn": null
+            },
+            {
+              "month": 4,
+              "highF": 83.1,
+              "lowF": 70.1,
+              "precipIn": 0.77,
+              "snowIn": null
+            },
+            {
+              "month": 5,
+              "highF": 84.8,
+              "lowF": 71.5,
+              "precipIn": 0.82,
+              "snowIn": null
+            },
+            {
+              "month": 6,
+              "highF": 86.9,
+              "lowF": 73.8,
+              "precipIn": 0.5,
+              "snowIn": null
+            },
+            {
+              "month": 7,
+              "highF": 88.1,
+              "lowF": 75.1,
+              "precipIn": 0.52,
+              "snowIn": null
+            },
+            {
+              "month": 8,
+              "highF": 88.8,
+              "lowF": 75.6,
+              "precipIn": 0.84,
+              "snowIn": null
+            },
+            {
+              "month": 9,
+              "highF": 88.4,
+              "lowF": 74.8,
+              "precipIn": 0.88,
+              "snowIn": null
+            },
+            {
+              "month": 10,
+              "highF": 86.9,
+              "lowF": 73.9,
+              "precipIn": 1.51,
+              "snowIn": null
+            },
+            {
+              "month": 11,
+              "highF": 84.1,
+              "lowF": 71.8,
+              "precipIn": 2.25,
+              "snowIn": null
+            },
+            {
+              "month": 12,
+              "highF": 81.8,
+              "lowF": 69.2,
+              "precipIn": 2.18,
+              "snowIn": null
+            }
+          ]
+        }
+      ],
+      "markets": [
+        {
+          "id": "east-core",
+          "labelZh": "美东核心",
+          "labelEn": "East Coast Core",
+          "stations": [
+            "USW00014739",
+            "USW00094728",
+            "USW00013743"
+          ],
+          "states": [
+            "ME",
+            "NH",
+            "VT",
+            "MA",
+            "RI",
+            "CT",
+            "NY",
+            "NJ",
+            "PA",
+            "DE",
+            "MD",
+            "DC",
+            "VA",
+            "WV"
+          ],
+          "logisticsGroup": "美东核心",
+          "note": "货代运营口径；从新英格兰到中大西洋并包含 VA / WV，不等于 Census Northeast。",
+          "representativeCities": [
+            "Boston",
+            "New York",
+            "Washington"
+          ],
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 40.4,
+              "lowF": 27,
+              "meanF": 33.7,
+              "spanHighF": 44.8,
+              "spanLowF": 23.1,
+              "precipIn": 3.3,
+              "snowIn": 9.3
+            },
+            {
+              "month": 2,
+              "highF": 43.2,
+              "lowF": 28.6,
+              "meanF": 35.9,
+              "spanHighF": 48.3,
+              "spanLowF": 24.6,
+              "precipIn": 3,
+              "snowIn": 9.8
+            },
+            {
+              "month": 3,
+              "highF": 50.6,
+              "lowF": 35.2,
+              "meanF": 42.9,
+              "spanHighF": 56.5,
+              "spanLowF": 31.1,
+              "precipIn": 4,
+              "snowIn": 5.3
+            },
+            {
+              "month": 4,
+              "highF": 62.1,
+              "lowF": 44.9,
+              "meanF": 53.5,
+              "spanHighF": 68,
+              "spanLowF": 40.8,
+              "precipIn": 3.6,
+              "snowIn": 0.7
+            },
+            {
+              "month": 5,
+              "highF": 71.5,
+              "lowF": 54.4,
+              "meanF": 63,
+              "spanHighF": 76.5,
+              "spanLowF": 50.3,
+              "precipIn": 3.7,
+              "snowIn": 0
+            },
+            {
+              "month": 6,
+              "highF": 80.3,
+              "lowF": 63.9,
+              "meanF": 72.1,
+              "spanHighF": 85.1,
+              "spanLowF": 59.7,
+              "precipIn": 4.2,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 85.5,
+              "lowF": 69.5,
+              "meanF": 77.5,
+              "spanHighF": 89.6,
+              "spanLowF": 66,
+              "precipIn": 4.1,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 83.8,
+              "lowF": 68.3,
+              "meanF": 76.1,
+              "spanHighF": 87.8,
+              "spanLowF": 65.1,
+              "precipIn": 3.7,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 76.7,
+              "lowF": 61.5,
+              "meanF": 69.1,
+              "spanHighF": 80.7,
+              "spanLowF": 58.2,
+              "precipIn": 3.9,
+              "snowIn": 0
+            },
+            {
+              "month": 10,
+              "highF": 65.3,
+              "lowF": 50.4,
+              "meanF": 57.9,
+              "spanHighF": 69.4,
+              "spanLowF": 47.5,
+              "precipIn": 4,
+              "snowIn": 0.1
+            },
+            {
+              "month": 11,
+              "highF": 54.6,
+              "lowF": 40.5,
+              "meanF": 47.6,
+              "spanHighF": 58.2,
+              "spanLowF": 37.9,
+              "precipIn": 3.4,
+              "snowIn": 0.4
+            },
+            {
+              "month": 12,
+              "highF": 45.1,
+              "lowF": 32.5,
+              "meanF": 38.8,
+              "spanHighF": 48.8,
+              "spanLowF": 29.2,
+              "precipIn": 4,
+              "snowIn": 5.2
+            }
+          ]
+        },
+        {
+          "id": "east-extension",
+          "labelZh": "美东扩展",
+          "labelEn": "East Coast Extension",
+          "stations": [
+            "USW00013874",
+            "USW00012839"
+          ],
+          "states": [
+            "NC",
+            "SC",
+            "GA",
+            "FL"
+          ],
+          "logisticsGroup": "美东扩展",
+          "note": "东海岸宽口径；南北温差大，Atlanta 与 Miami 共同给出范围。",
+          "representativeCities": [
+            "Atlanta",
+            "Miami"
+          ],
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 65.1,
+              "lowF": 48.3,
+              "meanF": 56.7,
+              "spanHighF": 76.2,
+              "spanLowF": 35.6,
+              "precipIn": 3.2,
+              "snowIn": 0.5
+            },
+            {
+              "month": 2,
+              "highF": 68.2,
+              "lowF": 51.1,
+              "meanF": 59.6,
+              "spanHighF": 78.2,
+              "spanLowF": 38.9,
+              "precipIn": 3.4,
+              "snowIn": 0.2
+            },
+            {
+              "month": 3,
+              "highF": 73.3,
+              "lowF": 55.5,
+              "meanF": 64.4,
+              "spanHighF": 80.6,
+              "spanLowF": 45.3,
+              "precipIn": 3.6,
+              "snowIn": 0.2
+            },
+            {
+              "month": 4,
+              "highF": 78.7,
+              "lowF": 61.2,
+              "meanF": 69.9,
+              "spanHighF": 83.6,
+              "spanLowF": 52.5,
+              "precipIn": 3.6,
+              "snowIn": 0
+            },
+            {
+              "month": 5,
+              "highF": 83.9,
+              "lowF": 67.4,
+              "meanF": 75.6,
+              "spanHighF": 86.7,
+              "spanLowF": 61.3,
+              "precipIn": 4.9,
+              "snowIn": 0
+            },
+            {
+              "month": 6,
+              "highF": 88.2,
+              "lowF": 72.4,
+              "meanF": 80.3,
+              "spanHighF": 89.3,
+              "spanLowF": 68.6,
+              "precipIn": 7.5,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 90.4,
+              "lowF": 74.7,
+              "meanF": 82.5,
+              "spanHighF": 90.6,
+              "spanLowF": 71.8,
+              "precipIn": 6.1,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 89.9,
+              "lowF": 74.5,
+              "meanF": 82.2,
+              "spanHighF": 90.7,
+              "spanLowF": 71.3,
+              "precipIn": 6.9,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 86.5,
+              "lowF": 71.4,
+              "meanF": 78.9,
+              "spanHighF": 89,
+              "spanLowF": 65.9,
+              "precipIn": 7,
+              "snowIn": 0
+            },
+            {
+              "month": 10,
+              "highF": 80.2,
+              "lowF": 64.6,
+              "meanF": 72.4,
+              "spanHighF": 85.9,
+              "spanLowF": 54.9,
+              "precipIn": 5.5,
+              "snowIn": 0
+            },
+            {
+              "month": 11,
+              "highF": 72.7,
+              "lowF": 56.3,
+              "meanF": 64.5,
+              "spanHighF": 81.3,
+              "spanLowF": 44.2,
+              "precipIn": 3.8,
+              "snowIn": 0
+            },
+            {
+              "month": 12,
+              "highF": 67.2,
+              "lowF": 51.4,
+              "meanF": 59.3,
+              "spanHighF": 78.2,
+              "spanLowF": 38.4,
+              "precipIn": 3.5,
+              "snowIn": 0.2
+            }
+          ]
+        },
+        {
+          "id": "great-lakes-plains",
+          "labelZh": "五大湖 / 平原",
+          "labelEn": "Great Lakes & Plains",
+          "stations": [
+            "USW00094846"
+          ],
+          "states": [
+            "OH",
+            "MI",
+            "IN",
+            "IL",
+            "WI",
+            "MN",
+            "IA",
+            "MO",
+            "ND",
+            "SD",
+            "NE",
+            "KS"
+          ],
+          "logisticsGroup": "美中",
+          "note": "用 Chicago 代表转冷节奏；平原州温差和风寒需结合真实周度天气。",
+          "representativeCities": [
+            "Chicago"
+          ],
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 31.6,
+              "lowF": 18.8,
+              "meanF": 25.2,
+              "spanHighF": 31.6,
+              "spanLowF": 18.8,
+              "precipIn": 2,
+              "snowIn": 11.3
+            },
+            {
+              "month": 2,
+              "highF": 35.7,
+              "lowF": 21.8,
+              "meanF": 28.8,
+              "spanHighF": 35.7,
+              "spanLowF": 21.8,
+              "precipIn": 2,
+              "snowIn": 10.7
+            },
+            {
+              "month": 3,
+              "highF": 47,
+              "lowF": 31,
+              "meanF": 39,
+              "spanHighF": 47,
+              "spanLowF": 31,
+              "precipIn": 2.5,
+              "snowIn": 5.5
+            },
+            {
+              "month": 4,
+              "highF": 59,
+              "lowF": 40.3,
+              "meanF": 49.7,
+              "spanHighF": 59,
+              "spanLowF": 40.3,
+              "precipIn": 3.8,
+              "snowIn": 1.3
+            },
+            {
+              "month": 5,
+              "highF": 70.5,
+              "lowF": 50.6,
+              "meanF": 60.6,
+              "spanHighF": 70.5,
+              "spanLowF": 50.6,
+              "precipIn": 4.5,
+              "snowIn": 0
+            },
+            {
+              "month": 6,
+              "highF": 80.4,
+              "lowF": 60.8,
+              "meanF": 70.6,
+              "spanHighF": 80.4,
+              "spanLowF": 60.8,
+              "precipIn": 4.1,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 84.5,
+              "lowF": 66.4,
+              "meanF": 75.5,
+              "spanHighF": 84.5,
+              "spanLowF": 66.4,
+              "precipIn": 3.7,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 82.5,
+              "lowF": 65.1,
+              "meanF": 73.8,
+              "spanHighF": 82.5,
+              "spanLowF": 65.1,
+              "precipIn": 4.3,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 75.5,
+              "lowF": 57.1,
+              "meanF": 66.3,
+              "spanHighF": 75.5,
+              "spanLowF": 57.1,
+              "precipIn": 3.2,
+              "snowIn": 0
+            },
+            {
+              "month": 10,
+              "highF": 62.7,
+              "lowF": 45.4,
+              "meanF": 54.1,
+              "spanHighF": 62.7,
+              "spanLowF": 45.4,
+              "precipIn": 3.4,
+              "snowIn": 0.2
+            },
+            {
+              "month": 11,
+              "highF": 48.4,
+              "lowF": 34.1,
+              "meanF": 41.3,
+              "spanHighF": 48.4,
+              "spanLowF": 34.1,
+              "precipIn": 2.4,
+              "snowIn": 1.8
+            },
+            {
+              "month": 12,
+              "highF": 36.6,
+              "lowF": 24.4,
+              "meanF": 30.5,
+              "spanHighF": 36.6,
+              "spanLowF": 24.4,
+              "precipIn": 2.1,
+              "snowIn": 7.6
+            }
+          ]
+        },
+        {
+          "id": "south-central",
+          "labelZh": "南中部 / 德州",
+          "labelEn": "South Central",
+          "stations": [
+            "USW00003927"
+          ],
+          "states": [
+            "TX",
+            "OK",
+            "AR",
+            "LA",
+            "TN",
+            "AL",
+            "MS",
+            "KY"
+          ],
+          "logisticsGroup": "南部内陆",
+          "note": "用 Dallas–Fort Worth 代表；湾岸湿度与田纳西高地会有偏差。",
+          "representativeCities": [
+            "Dallas–Fort Worth"
+          ],
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 56.5,
+              "lowF": 36.1,
+              "meanF": 46.3,
+              "spanHighF": 56.5,
+              "spanLowF": 36.1,
+              "precipIn": 2.5,
+              "snowIn": 0.1
+            },
+            {
+              "month": 2,
+              "highF": 60.9,
+              "lowF": 40.1,
+              "meanF": 50.5,
+              "spanHighF": 60.9,
+              "spanLowF": 40.1,
+              "precipIn": 2.8,
+              "snowIn": 1
+            },
+            {
+              "month": 3,
+              "highF": 68.6,
+              "lowF": 47.8,
+              "meanF": 58.2,
+              "spanHighF": 68.6,
+              "spanLowF": 47.8,
+              "precipIn": 3.3,
+              "snowIn": 0.3
+            },
+            {
+              "month": 4,
+              "highF": 76.1,
+              "lowF": 55.2,
+              "meanF": 65.7,
+              "spanHighF": 76.1,
+              "spanLowF": 55.2,
+              "precipIn": 3.2,
+              "snowIn": 0
+            },
+            {
+              "month": 5,
+              "highF": 83.6,
+              "lowF": 64.5,
+              "meanF": 74.1,
+              "spanHighF": 83.6,
+              "spanLowF": 64.5,
+              "precipIn": 4.8,
+              "snowIn": 0
+            },
+            {
+              "month": 6,
+              "highF": 91.5,
+              "lowF": 72.2,
+              "meanF": 81.9,
+              "spanHighF": 91.5,
+              "spanLowF": 72.2,
+              "precipIn": 3.7,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 95.6,
+              "lowF": 75.8,
+              "meanF": 85.7,
+              "spanHighF": 95.6,
+              "spanLowF": 75.8,
+              "precipIn": 2.1,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 95.8,
+              "lowF": 75.7,
+              "meanF": 85.8,
+              "spanHighF": 95.8,
+              "spanLowF": 75.7,
+              "precipIn": 2.2,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 88.6,
+              "lowF": 68.5,
+              "meanF": 78.6,
+              "spanHighF": 88.6,
+              "spanLowF": 68.5,
+              "precipIn": 2.7,
+              "snowIn": 0
+            },
+            {
+              "month": 10,
+              "highF": 78.4,
+              "lowF": 57.1,
+              "meanF": 67.8,
+              "spanHighF": 78.4,
+              "spanLowF": 57.1,
+              "precipIn": 4.4,
+              "snowIn": 0
+            },
+            {
+              "month": 11,
+              "highF": 66.6,
+              "lowF": 46.2,
+              "meanF": 56.4,
+              "spanHighF": 66.6,
+              "spanLowF": 46.2,
+              "precipIn": 2.5,
+              "snowIn": 0
+            },
+            {
+              "month": 12,
+              "highF": 57.9,
+              "lowF": 38.3,
+              "meanF": 48.1,
+              "spanHighF": 57.9,
+              "spanLowF": 38.3,
+              "precipIn": 2.8,
+              "snowIn": 0.2
+            }
+          ]
+        },
+        {
+          "id": "california-southwest",
+          "labelZh": "加州 / 西南",
+          "labelEn": "California & Southwest",
+          "stations": [
+            "USW00023174",
+            "USW00023183"
+          ],
+          "states": [
+            "CA",
+            "NV",
+            "AZ",
+            "NM"
+          ],
+          "logisticsGroup": "美西",
+          "note": "LAX 与 Phoenix 共同给出沿海—沙漠范围；不把两地视为同一天气。",
+          "representativeCities": [
+            "Los Angeles",
+            "Phoenix"
+          ],
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 66.9,
+              "lowF": 47.7,
+              "meanF": 57.3,
+              "spanHighF": 67.6,
+              "spanLowF": 46,
+              "precipIn": 1.9,
+              "snowIn": null
+            },
+            {
+              "month": 2,
+              "highF": 68.2,
+              "lowF": 49.6,
+              "meanF": 58.9,
+              "spanHighF": 70.8,
+              "spanLowF": 49,
+              "precipIn": 1.9,
+              "snowIn": null
+            },
+            {
+              "month": 3,
+              "highF": 72.1,
+              "lowF": 53.4,
+              "meanF": 62.7,
+              "spanHighF": 78.1,
+              "spanLowF": 52.2,
+              "precipIn": 1.3,
+              "snowIn": null
+            },
+            {
+              "month": 4,
+              "highF": 76.8,
+              "lowF": 57.5,
+              "meanF": 67.2,
+              "spanHighF": 85.5,
+              "spanLowF": 54.2,
+              "precipIn": 0.4,
+              "snowIn": null
+            },
+            {
+              "month": 5,
+              "highF": 82,
+              "lowF": 63.6,
+              "meanF": 72.8,
+              "spanHighF": 94.5,
+              "spanLowF": 57.6,
+              "precipIn": 0.2,
+              "snowIn": null
+            },
+            {
+              "month": 6,
+              "highF": 88.1,
+              "lowF": 69.8,
+              "meanF": 78.9,
+              "spanHighF": 104.2,
+              "spanLowF": 60.9,
+              "precipIn": 0.1,
+              "snowIn": null
+            },
+            {
+              "month": 7,
+              "highF": 90.8,
+              "lowF": 74.3,
+              "meanF": 82.5,
+              "spanHighF": 106.5,
+              "spanLowF": 64,
+              "precipIn": 0.5,
+              "snowIn": null
+            },
+            {
+              "month": 8,
+              "highF": 90.9,
+              "lowF": 74.2,
+              "meanF": 82.6,
+              "spanHighF": 105.1,
+              "spanLowF": 64.8,
+              "precipIn": 0.5,
+              "snowIn": null
+            },
+            {
+              "month": 9,
+              "highF": 88.5,
+              "lowF": 70.9,
+              "meanF": 79.7,
+              "spanHighF": 100.4,
+              "spanLowF": 63.7,
+              "precipIn": 0.3,
+              "snowIn": null
+            },
+            {
+              "month": 10,
+              "highF": 81.8,
+              "lowF": 62.7,
+              "meanF": 72.3,
+              "spanHighF": 89.2,
+              "spanLowF": 59.8,
+              "precipIn": 0.5,
+              "snowIn": null
+            },
+            {
+              "month": 11,
+              "highF": 73.7,
+              "lowF": 53.7,
+              "meanF": 63.7,
+              "spanHighF": 76.5,
+              "spanLowF": 53.7,
+              "precipIn": 0.7,
+              "snowIn": null
+            },
+            {
+              "month": 12,
+              "highF": 66.2,
+              "lowF": 47.2,
+              "meanF": 56.7,
+              "spanHighF": 66.2,
+              "spanLowF": 45.3,
+              "precipIn": 1.5,
+              "snowIn": null
+            }
+          ]
+        },
+        {
+          "id": "pacific-northwest",
+          "labelZh": "太平洋西北",
+          "labelEn": "Pacific Northwest",
+          "stations": [
+            "USW00024233"
+          ],
+          "states": [
+            "WA",
+            "OR"
+          ],
+          "logisticsGroup": "美西北",
+          "note": "用 Seattle–Tacoma 代表；防雨层的重要性高于单看温度。",
+          "representativeCities": [
+            "Seattle"
+          ],
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 48,
+              "lowF": 37.7,
+              "meanF": 42.9,
+              "spanHighF": 48,
+              "spanLowF": 37.7,
+              "precipIn": 5.8,
+              "snowIn": 1.8
+            },
+            {
+              "month": 2,
+              "highF": 50.3,
+              "lowF": 37.7,
+              "meanF": 44,
+              "spanHighF": 50.3,
+              "spanLowF": 37.7,
+              "precipIn": 3.8,
+              "snowIn": 2.2
+            },
+            {
+              "month": 3,
+              "highF": 54.2,
+              "lowF": 39.9,
+              "meanF": 47.1,
+              "spanHighF": 54.2,
+              "spanLowF": 39.9,
+              "precipIn": 4.2,
+              "snowIn": 0.4
+            },
+            {
+              "month": 4,
+              "highF": 59.3,
+              "lowF": 43.3,
+              "meanF": 51.3,
+              "spanHighF": 59.3,
+              "spanLowF": 43.3,
+              "precipIn": 3.2,
+              "snowIn": 0
+            },
+            {
+              "month": 5,
+              "highF": 66.3,
+              "lowF": 48.7,
+              "meanF": 57.5,
+              "spanHighF": 66.3,
+              "spanLowF": 48.7,
+              "precipIn": 1.9,
+              "snowIn": 0
+            },
+            {
+              "month": 6,
+              "highF": 71.1,
+              "lowF": 53,
+              "meanF": 62.1,
+              "spanHighF": 71.1,
+              "spanLowF": 53,
+              "precipIn": 1.5,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 77.4,
+              "lowF": 56.8,
+              "meanF": 67.1,
+              "spanHighF": 77.4,
+              "spanLowF": 56.8,
+              "precipIn": 0.6,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 77.6,
+              "lowF": 57.2,
+              "meanF": 67.4,
+              "spanHighF": 77.6,
+              "spanLowF": 57.2,
+              "precipIn": 1,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 71.6,
+              "lowF": 53.6,
+              "meanF": 62.6,
+              "spanHighF": 71.6,
+              "spanLowF": 53.6,
+              "precipIn": 1.6,
+              "snowIn": 0
+            },
+            {
+              "month": 10,
+              "highF": 60.5,
+              "lowF": 47,
+              "meanF": 53.8,
+              "spanHighF": 60.5,
+              "spanLowF": 47,
+              "precipIn": 3.9,
+              "snowIn": 0
+            },
+            {
+              "month": 11,
+              "highF": 52.1,
+              "lowF": 40.9,
+              "meanF": 46.5,
+              "spanHighF": 52.1,
+              "spanLowF": 40.9,
+              "precipIn": 6.3,
+              "snowIn": 0.2
+            },
+            {
+              "month": 12,
+              "highF": 47,
+              "lowF": 37.1,
+              "meanF": 42.1,
+              "spanHighF": 47,
+              "spanLowF": 37.1,
+              "precipIn": 5.7,
+              "snowIn": 1.7
+            }
+          ]
+        },
+        {
+          "id": "mountain-west",
+          "labelZh": "山地西部",
+          "labelEn": "Mountain West",
+          "stations": [
+            "USW00003017"
+          ],
+          "states": [
+            "CO",
+            "UT",
+            "ID",
+            "MT",
+            "WY"
+          ],
+          "logisticsGroup": "山地",
+          "note": "用 Denver 代表；海拔差异会放大昼夜温差。",
+          "representativeCities": [
+            "Denver"
+          ],
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 44.6,
+              "lowF": 18.7,
+              "meanF": 31.7,
+              "spanHighF": 44.6,
+              "spanLowF": 18.7,
+              "precipIn": 0.4,
+              "snowIn": null
+            },
+            {
+              "month": 2,
+              "highF": 45.7,
+              "lowF": 19.7,
+              "meanF": 32.7,
+              "spanHighF": 45.7,
+              "spanLowF": 19.7,
+              "precipIn": 0.4,
+              "snowIn": null
+            },
+            {
+              "month": 3,
+              "highF": 55.7,
+              "lowF": 27.5,
+              "meanF": 41.6,
+              "spanHighF": 55.7,
+              "spanLowF": 27.5,
+              "precipIn": 0.9,
+              "snowIn": null
+            },
+            {
+              "month": 4,
+              "highF": 61.7,
+              "lowF": 33.9,
+              "meanF": 47.8,
+              "spanHighF": 61.7,
+              "spanLowF": 33.9,
+              "precipIn": 1.7,
+              "snowIn": null
+            },
+            {
+              "month": 5,
+              "highF": 71.2,
+              "lowF": 43.6,
+              "meanF": 57.4,
+              "spanHighF": 71.2,
+              "spanLowF": 43.6,
+              "precipIn": 2.2,
+              "snowIn": null
+            },
+            {
+              "month": 6,
+              "highF": 83.4,
+              "lowF": 53,
+              "meanF": 68.2,
+              "spanHighF": 83.4,
+              "spanLowF": 53,
+              "precipIn": 1.9,
+              "snowIn": null
+            },
+            {
+              "month": 7,
+              "highF": 89.9,
+              "lowF": 60.2,
+              "meanF": 75.1,
+              "spanHighF": 89.9,
+              "spanLowF": 60.2,
+              "precipIn": 2.1,
+              "snowIn": null
+            },
+            {
+              "month": 8,
+              "highF": 87.5,
+              "lowF": 58.3,
+              "meanF": 72.9,
+              "spanHighF": 87.5,
+              "spanLowF": 58.3,
+              "precipIn": 1.6,
+              "snowIn": null
+            },
+            {
+              "month": 9,
+              "highF": 79.6,
+              "lowF": 50,
+              "meanF": 64.8,
+              "spanHighF": 79.6,
+              "spanLowF": 50,
+              "precipIn": 1.4,
+              "snowIn": null
+            },
+            {
+              "month": 10,
+              "highF": 65.3,
+              "lowF": 37,
+              "meanF": 51.2,
+              "spanHighF": 65.3,
+              "spanLowF": 37,
+              "precipIn": 1,
+              "snowIn": null
+            },
+            {
+              "month": 11,
+              "highF": 52.9,
+              "lowF": 26,
+              "meanF": 39.5,
+              "spanHighF": 52.9,
+              "spanLowF": 26,
+              "precipIn": 0.6,
+              "snowIn": null
+            },
+            {
+              "month": 12,
+              "highF": 44,
+              "lowF": 18.4,
+              "meanF": 31.2,
+              "spanHighF": 44,
+              "spanLowF": 18.4,
+              "precipIn": 0.4,
+              "snowIn": null
+            }
+          ]
+        },
+        {
+          "id": "alaska",
+          "labelZh": "阿拉斯加",
+          "labelEn": "Alaska",
+          "stations": [
+            "USW00026451"
+          ],
+          "states": [
+            "AK"
+          ],
+          "logisticsGroup": "非本土州",
+          "note": "用 Anchorage 代表；偏远地区运费与时效必须单独核价。",
+          "representativeCities": [
+            "Anchorage"
+          ],
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 22.7,
+              "lowF": 11,
+              "meanF": 16.9,
+              "spanHighF": 22.7,
+              "spanLowF": 11,
+              "precipIn": 0.8,
+              "snowIn": 12.4
+            },
+            {
+              "month": 2,
+              "highF": 27.3,
+              "lowF": 15.2,
+              "meanF": 21.3,
+              "spanHighF": 27.3,
+              "spanLowF": 15.2,
+              "precipIn": 0.9,
+              "snowIn": 13.4
+            },
+            {
+              "month": 3,
+              "highF": 33,
+              "lowF": 18.6,
+              "meanF": 25.8,
+              "spanHighF": 33,
+              "spanLowF": 18.6,
+              "precipIn": 0.7,
+              "snowIn": 11
+            },
+            {
+              "month": 4,
+              "highF": 45.1,
+              "lowF": 29.9,
+              "meanF": 37.5,
+              "spanHighF": 45.1,
+              "spanLowF": 29.9,
+              "precipIn": 0.4,
+              "snowIn": 4
+            },
+            {
+              "month": 5,
+              "highF": 56.3,
+              "lowF": 40,
+              "meanF": 48.2,
+              "spanHighF": 56.3,
+              "spanLowF": 40,
+              "precipIn": 0.7,
+              "snowIn": 0.3
+            },
+            {
+              "month": 6,
+              "highF": 63.4,
+              "lowF": 48.4,
+              "meanF": 55.9,
+              "spanHighF": 63.4,
+              "spanLowF": 48.4,
+              "precipIn": 1,
+              "snowIn": 0
+            },
+            {
+              "month": 7,
+              "highF": 66.2,
+              "lowF": 52.9,
+              "meanF": 59.6,
+              "spanHighF": 66.2,
+              "spanLowF": 52.9,
+              "precipIn": 1.8,
+              "snowIn": 0
+            },
+            {
+              "month": 8,
+              "highF": 64,
+              "lowF": 50.9,
+              "meanF": 57.5,
+              "spanHighF": 64,
+              "spanLowF": 50.9,
+              "precipIn": 2.9,
+              "snowIn": 0
+            },
+            {
+              "month": 9,
+              "highF": 55.7,
+              "lowF": 42.9,
+              "meanF": 49.3,
+              "spanHighF": 55.7,
+              "spanLowF": 42.9,
+              "precipIn": 3.1,
+              "snowIn": 0.4
+            },
+            {
+              "month": 10,
+              "highF": 42,
+              "lowF": 30.7,
+              "meanF": 36.4,
+              "spanHighF": 42,
+              "spanLowF": 30.7,
+              "precipIn": 1.8,
+              "snowIn": 5.6
+            },
+            {
+              "month": 11,
+              "highF": 28.9,
+              "lowF": 18.3,
+              "meanF": 23.6,
+              "spanHighF": 28.9,
+              "spanLowF": 18.3,
+              "precipIn": 1.2,
+              "snowIn": 12.6
+            },
+            {
+              "month": 12,
+              "highF": 25,
+              "lowF": 13.8,
+              "meanF": 19.4,
+              "spanHighF": 25,
+              "spanLowF": 13.8,
+              "precipIn": 1.2,
+              "snowIn": 18.2
+            }
+          ]
+        },
+        {
+          "id": "hawaii",
+          "labelZh": "夏威夷",
+          "labelEn": "Hawaii",
+          "stations": [
+            "USW00022521"
+          ],
+          "states": [
+            "HI"
+          ],
+          "logisticsGroup": "非本土州",
+          "note": "用 Honolulu 代表；全年偏轻薄，运费与时效单独核价。",
+          "representativeCities": [
+            "Honolulu"
+          ],
+          "monthly": [
+            {
+              "month": 1,
+              "highF": 80.5,
+              "lowF": 66.8,
+              "meanF": 73.7,
+              "spanHighF": 80.5,
+              "spanLowF": 66.8,
+              "precipIn": 1.8,
+              "snowIn": null
+            },
+            {
+              "month": 2,
+              "highF": 80.5,
+              "lowF": 67.1,
+              "meanF": 73.8,
+              "spanHighF": 80.5,
+              "spanLowF": 67.1,
+              "precipIn": 1.9,
+              "snowIn": null
+            },
+            {
+              "month": 3,
+              "highF": 81.2,
+              "lowF": 68.1,
+              "meanF": 74.7,
+              "spanHighF": 81.2,
+              "spanLowF": 68.1,
+              "precipIn": 2.4,
+              "snowIn": null
+            },
+            {
+              "month": 4,
+              "highF": 83.1,
+              "lowF": 70.1,
+              "meanF": 76.6,
+              "spanHighF": 83.1,
+              "spanLowF": 70.1,
+              "precipIn": 0.8,
+              "snowIn": null
+            },
+            {
+              "month": 5,
+              "highF": 84.8,
+              "lowF": 71.5,
+              "meanF": 78.2,
+              "spanHighF": 84.8,
+              "spanLowF": 71.5,
+              "precipIn": 0.8,
+              "snowIn": null
+            },
+            {
+              "month": 6,
+              "highF": 86.9,
+              "lowF": 73.8,
+              "meanF": 80.4,
+              "spanHighF": 86.9,
+              "spanLowF": 73.8,
+              "precipIn": 0.5,
+              "snowIn": null
+            },
+            {
+              "month": 7,
+              "highF": 88.1,
+              "lowF": 75.1,
+              "meanF": 81.6,
+              "spanHighF": 88.1,
+              "spanLowF": 75.1,
+              "precipIn": 0.5,
+              "snowIn": null
+            },
+            {
+              "month": 8,
+              "highF": 88.8,
+              "lowF": 75.6,
+              "meanF": 82.2,
+              "spanHighF": 88.8,
+              "spanLowF": 75.6,
+              "precipIn": 0.8,
+              "snowIn": null
+            },
+            {
+              "month": 9,
+              "highF": 88.4,
+              "lowF": 74.8,
+              "meanF": 81.6,
+              "spanHighF": 88.4,
+              "spanLowF": 74.8,
+              "precipIn": 0.9,
+              "snowIn": null
+            },
+            {
+              "month": 10,
+              "highF": 86.9,
+              "lowF": 73.9,
+              "meanF": 80.4,
+              "spanHighF": 86.9,
+              "spanLowF": 73.9,
+              "precipIn": 1.5,
+              "snowIn": null
+            },
+            {
+              "month": 11,
+              "highF": 84.1,
+              "lowF": 71.8,
+              "meanF": 77.9,
+              "spanHighF": 84.1,
+              "spanLowF": 71.8,
+              "precipIn": 2.3,
+              "snowIn": null
+            },
+            {
+              "month": 12,
+              "highF": 81.8,
+              "lowF": 69.2,
+              "meanF": 75.5,
+              "spanHighF": 81.8,
+              "spanLowF": 69.2,
+              "precipIn": 2.2,
+              "snowIn": null
+            }
+          ]
+        }
+      ]
+    },
+    "logistics": {
+      "eastCoastCore": [
+        "ME",
+        "NH",
+        "VT",
+        "MA",
+        "RI",
+        "CT",
+        "NY",
+        "NJ",
+        "PA",
+        "DE",
+        "MD",
+        "DC",
+        "VA",
+        "WV"
+      ],
+      "eastCoastExtension": [
+        "NC",
+        "SC",
+        "GA",
+        "FL"
+      ],
+      "definitionNote": "这里的‘美东’是货代 / 仓配运营口径，不是 Census Northeast。扩展口径需与具体货代确认。",
+      "customerDataStatus": "待接订单州 / ZIP；不把‘80% 美东’作为已验证事实。",
+      "warehouseDataStatus": "待接仓库 ZIP、承运商、服务、包裹重量与目的 ZIP 后计算实际 Zone 和运费。",
+      "zoneSourceLabel": "USPS Postal Zones",
+      "zoneSourceUrl": "https://pe.usps.com/text/DMM300/608.htm"
+    },
+    "customerOrders": {
+      "status": "待接真实订单",
+      "requiredFields": [
+        "订单日期",
+        "目的州",
+        "目的 ZIP",
+        "SKU / 品类",
+        "件数",
+        "销售额",
+        "仓库 ZIP"
+      ],
+      "rule": "只有州 / ZIP 订单可用于计算客户地区占比；‘约 80% 在美东’仅作为待核说法。"
+    },
+    "censusReference": {
+      "role": "人口统计比较口径，不用于定义货代‘美东’",
+      "sourceLabel": "U.S. Census Bureau · Regions and Divisions",
+      "sourceUrl": "https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html"
+    }
   },
   "counts": {
     "events": 30,
     "relatedIps": 51,
+    "weatherMarkets": 9,
     "types": {
       "体育 / 娱乐": 2,
       "节日 / 信仰": 10,
@@ -137,13 +2709,16 @@
         "tailgate",
         "college football poster"
       ],
-      "regions": {
-        "west": 3,
-        "south": 4,
-        "midwest": 4,
-        "northeast": 3
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 3,
+          "south": 4,
+          "midwest": 4,
+          "northeast": 3
+        },
+        "note": "南部与中西部优先；球队与州差异远大于全国平均。"
       },
-      "regionNote": "南部与中西部优先；球队与州差异远大于全国平均。",
       "operations": [
         {
           "key": "research",
@@ -284,13 +2859,16 @@
         "骷髅",
         "南瓜"
       ],
-      "regions": {
-        "west": 3,
-        "south": 3,
-        "midwest": 4,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 3,
+          "south": 3,
+          "midwest": 4,
+          "northeast": 4
+        },
+        "note": "全国性强；厚衣与冷天气商品更早偏向东北和中西部。"
       },
-      "regionNote": "全国性强；厚衣与冷天气商品更早偏向东北和中西部。",
       "operations": [
         {
           "key": "research",
@@ -460,13 +3038,16 @@
         "拉丁民间艺术",
         "墨西哥版画"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 2,
-        "northeast": 3
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 2,
+          "northeast": 3
+        },
+        "note": "西部与南部先做；最终按州级订单和受众数据校准。"
       },
-      "regionNote": "西部与南部先做；最终按州级订单和受众数据校准。",
       "operations": [
         {
           "key": "research",
@@ -561,13 +3142,16 @@
         "holiday party",
         "Victorian Christmas"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 4,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 4,
+          "northeast": 4
+        },
+        "note": "全国性强；南部轻薄层搭、北部保暖层分别规划。"
       },
-      "regionNote": "全国性强；南部轻薄层搭、北部保暖层分别规划。",
       "operations": [
         {
           "key": "research",
@@ -717,13 +3301,16 @@
         "Victorian Christmas",
         "Santa Claus tradition"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 4,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 4,
+          "northeast": 4
+        },
+        "note": "全国性最强；气候与宗教/世俗表达分别本地化。"
       },
-      "regionNote": "全国性最强；气候与宗教/世俗表达分别本地化。",
       "operations": [
         {
           "key": "research",
@@ -892,13 +3479,16 @@
         "犹太住棚节",
         "harvest shelter"
       ],
-      "regions": {
-        "west": 2,
-        "south": 2,
-        "midwest": 2,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 2,
+          "south": 2,
+          "midwest": 2,
+          "northeast": 4
+        },
+        "note": "先作为社群专题，不按全国大众节日估算。"
       },
-      "regionNote": "先作为社群专题，不按全国大众节日估算。",
       "operations": [
         {
           "key": "research",
@@ -1016,13 +3606,16 @@
         "community giving",
         "charity poster"
       ],
-      "regions": {
-        "west": 3,
-        "south": 3,
-        "midwest": 3,
-        "northeast": 3
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 3,
+          "south": 3,
+          "midwest": 3,
+          "northeast": 3
+        },
+        "note": "全国可用，实际热度取决于合作组织和本地社群。"
       },
-      "regionNote": "全国可用，实际热度取决于合作组织和本地社群。",
       "operations": [
         {
           "key": "research",
@@ -1116,13 +3709,16 @@
         "family table",
         "vintage turkey"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 4,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 4,
+          "northeast": 4
+        },
+        "note": "全国性强；服装厚度和旅行场景按气候区分。"
       },
-      "regionNote": "全国性强；服装厚度和旅行场景按气候区分。",
       "operations": [
         {
           "key": "research",
@@ -1219,13 +3815,16 @@
         "Native American heritage",
         "NMAI collection"
       ],
-      "regions": {
-        "west": 4,
-        "south": 3,
-        "midwest": 3,
-        "northeast": 2
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 3,
+          "midwest": 3,
+          "northeast": 2
+        },
+        "note": "仅作文化研究入口；地区分值不代表社群规模或授权。"
       },
-      "regionNote": "仅作文化研究入口；地区分值不代表社群规模或授权。",
       "operations": [
         {
           "key": "research",
@@ -1311,13 +3910,16 @@
         "calavera",
         "marigold"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 2,
-        "northeast": 2
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 2,
+          "northeast": 2
+        },
+        "note": "西部与南部社群触达更优；文化审校优先于全国扩量。"
       },
-      "regionNote": "西部与南部社群触达更优；文化审校优先于全国扩量。",
       "operations": [
         {
           "key": "research",
@@ -1416,13 +4018,16 @@
         "winter gifting",
         "holiday shopping"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 4,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 4,
+          "northeast": 4
+        },
+        "note": "全国性零售节点；优先接店铺州级转化和物流时效。"
       },
-      "regionNote": "全国性零售节点；优先接店铺州级转化和物流时效。",
       "operations": [
         {
           "key": "research",
@@ -1518,13 +4123,16 @@
         "WWI poster",
         "public service poster"
       ],
-      "regions": {
-        "west": 3,
-        "south": 4,
-        "midwest": 3,
-        "northeast": 3
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 3,
+          "south": 4,
+          "midwest": 3,
+          "northeast": 3
+        },
+        "note": "南部军事人口较集中，但必须用实际店铺州级订单校准。"
       },
-      "regionNote": "南部军事人口较集中，但必须用实际店铺州级订单校准。",
       "operations": [
         {
           "key": "research",
@@ -1663,13 +4271,16 @@
         "small business",
         "local market poster"
       ],
-      "regions": {
-        "west": 3,
-        "south": 3,
-        "midwest": 3,
-        "northeast": 3
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 3,
+          "south": 3,
+          "midwest": 3,
+          "northeast": 3
+        },
+        "note": "更依赖城市与社区，不建议只按 Census 四区判断。"
       },
-      "regionNote": "更依赖城市与社区，不建议只按 Census 四区判断。",
       "operations": [
         {
           "key": "research",
@@ -1764,13 +4375,16 @@
         "menorah",
         "dreidel"
       ],
-      "regions": {
-        "west": 3,
-        "south": 2,
-        "midwest": 2,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 3,
+          "south": 2,
+          "midwest": 2,
+          "northeast": 4
+        },
+        "note": "东北部优先，但仍需按城市与受众校准。"
       },
-      "regionNote": "东北部优先，但仍需按城市与受众校准。",
       "operations": [
         {
           "key": "research",
@@ -1898,13 +4512,16 @@
         "Nativity",
         "candlelight"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 4,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 4,
+          "northeast": 4
+        },
+        "note": "全国性强；宗教参与度与气候场景因地区而异。"
       },
-      "regionNote": "全国性强；宗教参与度与气候场景因地区而异。",
       "operations": [
         {
           "key": "research",
@@ -2036,13 +4653,16 @@
         "cyber shopping",
         "holiday e-commerce"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 4,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 4,
+          "northeast": 4
+        },
+        "note": "全国性线上节点；物流承诺比地区主题更重要。"
       },
-      "regionNote": "全国性线上节点；物流承诺比地区主题更重要。",
       "operations": [
         {
           "key": "research",
@@ -2137,13 +4757,16 @@
         "midnight clock",
         "fireworks poster"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 3,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 3,
+          "northeast": 4
+        },
+        "note": "大城市和旅游市场优先；不是均匀全国需求。"
       },
-      "regionNote": "大城市和旅游市场优先；不是均匀全国需求。",
       "operations": [
         {
           "key": "research",
@@ -2252,13 +4875,16 @@
         "last minute gift",
         "Christmas shopping"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 4,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 4,
+          "northeast": 4
+        },
+        "note": "履约半径和仓库时效优先于文化差异。"
       },
-      "regionNote": "履约半径和仓库时效优先于文化差异。",
       "operations": [
         {
           "key": "research",
@@ -2375,13 +5001,16 @@
         "game day",
         "watch party"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 4,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 4,
+          "northeast": 4
+        },
+        "note": "全国性强，洛杉矶主办地对西部线下机会加权。"
       },
-      "regionNote": "全国性强，洛杉矶主办地对西部线下机会加权。",
       "operations": [
         {
           "key": "research",
@@ -2499,13 +5128,16 @@
         "kinara",
         "African American celebration"
       ],
-      "regions": {
-        "west": 2,
-        "south": 4,
-        "midwest": 3,
-        "northeast": 3
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 2,
+          "south": 4,
+          "midwest": 3,
+          "northeast": 3
+        },
+        "note": "南部优先，但城市社群差异比四区更重要。"
       },
-      "regionNote": "南部优先，但城市社群差异比四区更重要。",
       "operations": [
         {
           "key": "research",
@@ -2597,13 +5229,16 @@
         "African American poster",
         "jazz history"
       ],
-      "regions": {
-        "west": 3,
-        "south": 4,
-        "midwest": 3,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 3,
+          "south": 4,
+          "midwest": 3,
+          "northeast": 4
+        },
+        "note": "文化影响全国；人物肖像与遗产权利不因纪念月而开放。"
       },
-      "regionNote": "文化影响全国；人物肖像与遗产权利不因纪念月而开放。",
       "operations": [
         {
           "key": "research",
@@ -2725,13 +5360,16 @@
         "fresh start",
         "resolution poster"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 4,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 4,
+          "northeast": 4
+        },
+        "note": "全国性节点；1 月需求受退货季与促销清仓影响。"
       },
-      "regionNote": "全国性节点；1 月需求受退货季与促销清仓影响。",
       "operations": [
         {
           "key": "research",
@@ -2828,13 +5466,16 @@
         "Chinese zodiac",
         "New Year woodblock"
       ],
-      "regions": {
-        "west": 4,
-        "south": 3,
-        "midwest": 2,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 3,
+          "midwest": 2,
+          "northeast": 4
+        },
+        "note": "西部和东北城市优先；按城市亚裔人口与店铺订单校准。"
       },
-      "regionNote": "西部和东北城市优先；按城市亚裔人口与店铺订单校准。",
       "operations": [
         {
           "key": "research",
@@ -2945,13 +5586,16 @@
         "Cupid engraving",
         "vintage love letter"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 4,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 4,
+          "northeast": 4
+        },
+        "note": "全国性强；城市、年龄与关系状态比四区差异更重要。"
       },
-      "regionNote": "全国性强；城市、年龄与关系状态比四区差异更重要。",
       "operations": [
         {
           "key": "research",
@@ -3059,13 +5703,16 @@
         "carnival mask",
         "New Orleans vintage poster"
       ],
-      "regions": {
-        "west": 1,
-        "south": 4,
-        "midwest": 1,
-        "northeast": 2
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 1,
+          "south": 4,
+          "midwest": 1,
+          "northeast": 2
+        },
+        "note": "强地区型节点，南部尤其墨西哥湾沿岸优先。"
       },
-      "regionNote": "强地区型节点，南部尤其墨西哥湾沿岸优先。",
       "operations": [
         {
           "key": "research",
@@ -3165,13 +5812,16 @@
         "Resurrection",
         "vintage Easter card"
       ],
-      "regions": {
-        "west": 4,
-        "south": 4,
-        "midwest": 4,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 4,
+          "south": 4,
+          "midwest": 4,
+          "northeast": 4
+        },
+        "note": "全国性强；南部宗教线与全国世俗家庭线分开观察。"
       },
-      "regionNote": "全国性强；南部宗教线与全国世俗家庭线分开观察。",
       "operations": [
         {
           "key": "research",
@@ -3303,13 +5953,16 @@
         "women labor poster",
         "suffrage poster"
       ],
-      "regions": {
-        "west": 3,
-        "south": 3,
-        "midwest": 3,
-        "northeast": 3
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 3,
+          "south": 3,
+          "midwest": 3,
+          "northeast": 3
+        },
+        "note": "全国可用；具体人物与地方历史决定地区相关性。"
       },
-      "regionNote": "全国可用；具体人物与地方历史决定地区相关性。",
       "operations": [
         {
           "key": "research",
@@ -3419,13 +6072,16 @@
         "spring refresh",
         "family essentials"
       ],
-      "regions": {
-        "west": 3,
-        "south": 4,
-        "midwest": 4,
-        "northeast": 3
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 3,
+          "south": 4,
+          "midwest": 4,
+          "northeast": 3
+        },
+        "note": "仅作现金流窗口；应接 IRS 周报与店铺客单价验证。"
       },
-      "regionNote": "仅作现金流窗口；应接 IRS 周报与店铺客单价验证。",
       "operations": [
         {
           "key": "research",
@@ -3519,13 +6175,16 @@
         "Washington's Birthday",
         "early America engraving"
       ],
-      "regions": {
-        "west": 3,
-        "south": 3,
-        "midwest": 3,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 3,
+          "south": 3,
+          "midwest": 3,
+          "northeast": 4
+        },
+        "note": "东北历史语境略强；零售上多为全国长周末促销。"
       },
-      "regionNote": "东北历史语境略强；零售上多为全国长周末促销。",
       "operations": [
         {
           "key": "research",
@@ -3653,13 +6312,16 @@
         "Irish folklore",
         "Celtic ornament"
       ],
-      "regions": {
-        "west": 3,
-        "south": 3,
-        "midwest": 4,
-        "northeast": 4
+      "regionalAffinityHint": {
+        "status": "编辑线索，不是销量、人口或天气需求",
+        "scores": {
+          "west": 3,
+          "south": 3,
+          "midwest": 4,
+          "northeast": 4
+        },
+        "note": "东北与中西部城市传统较强，最终按城市订单校准。"
       },
-      "regionNote": "东北与中西部城市传统较强，最终按城市订单校准。",
       "operations": [
         {
           "key": "research",

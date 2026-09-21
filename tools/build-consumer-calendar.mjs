@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const seed = JSON.parse(fs.readFileSync(path.join(root, "source/consumer-calendar-seed.json"), "utf8"));
+const weather = JSON.parse(fs.readFileSync(path.join(root, "source/apparel-weather-normals.json"), "utf8"));
 const superIp = JSON.parse(fs.readFileSync(path.join(root, "data/super-ip-us.json"), "utf8"));
 const byId = new Map(superIp.records.map((record) => [record.id, record]));
 
@@ -49,8 +50,14 @@ function relatedIp(record) {
 const events = seed.events.map((event) => {
   const missing = (event.ipIds || []).filter((id) => !byId.has(id));
   if (missing.length) throw new Error(`${event.id} references missing IP ids: ${missing.join(", ")}`);
+  const { regions, regionNote, ...eventCore } = event;
   return {
-    ...event,
+    ...eventCore,
+    regionalAffinityHint: {
+      status: "编辑线索，不是销量、人口或天气需求",
+      scores: regions,
+      note: regionNote
+    },
     operations: operationPlan(event),
     relatedIps: (event.ipIds || []).map((id) => relatedIp(byId.get(id))),
     visualLinks: (event.visualQueries || []).map((query) => ({
@@ -60,6 +67,8 @@ const events = seed.events.map((event) => {
   };
 }).sort((a, b) => a.seasonStart.localeCompare(b.seasonStart) || a.nameZh.localeCompare(b.nameZh, "zh-CN"));
 
+const { logisticsDefinition, ...weatherModel } = weather;
+
 const data = {
   schemaVersion: seed.schemaVersion,
   generatedAt: new Date().toISOString(),
@@ -68,10 +77,24 @@ const data = {
   scope: seed.scope,
   methodology: seed.methodology,
   paydayModel: seed.paydayModel,
-  regionModel: seed.regionModel,
+  geographyModel: {
+    weather: weatherModel,
+    logistics: logisticsDefinition,
+    customerOrders: {
+      status: "待接真实订单",
+      requiredFields: ["订单日期", "目的州", "目的 ZIP", "SKU / 品类", "件数", "销售额", "仓库 ZIP"],
+      rule: "只有州 / ZIP 订单可用于计算客户地区占比；‘约 80% 在美东’仅作为待核说法。"
+    },
+    censusReference: {
+      role: "人口统计比较口径，不用于定义货代‘美东’",
+      sourceLabel: "U.S. Census Bureau · Regions and Divisions",
+      sourceUrl: "https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html"
+    }
+  },
   counts: {
     events: events.length,
     relatedIps: events.reduce((sum, event) => sum + event.relatedIps.length, 0),
+    weatherMarkets: weatherModel.markets.length,
     types: Object.fromEntries([...new Set(events.map((event) => event.type))].map((type) => [type, events.filter((event) => event.type === type).length]))
   },
   events

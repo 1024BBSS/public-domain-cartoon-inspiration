@@ -49,13 +49,24 @@
     visualLinks: $("#visual-links"),
     operationList: $("#operation-list"),
     relatedIpGrid: $("#related-ip-grid"),
-    regionVisible: $("#region-visible"),
-    regionSelected: $("#region-selected"),
-    regionSubtitle: $("#region-subtitle"),
-    regionMap: $("#region-map"),
-    regionRanking: $("#region-ranking"),
-    regionNote: $("#region-note"),
-    regionSource: $("#region-source"),
+    weatherHorizon: $("#weather-horizon"),
+    weatherMarketGrid: $("#weather-market-grid"),
+    weatherSelectedGroup: $("#weather-selected-group"),
+    weatherSelectedTitle: $("#weather-selected-title"),
+    weatherSelectedMeta: $("#weather-selected-meta"),
+    weatherSelectedLevel: $("#weather-selected-level"),
+    weatherWeekStrip: $("#weather-week-strip"),
+    weatherSelectedProducts: $("#weather-selected-products"),
+    weatherSelectedStates: $("#weather-selected-states"),
+    weatherSelectedRain: $("#weather-selected-rain"),
+    weatherSelectedNote: $("#weather-selected-note"),
+    customerRegionStatus: $("#customer-region-status"),
+    warehouseDataStatus: $("#warehouse-data-status"),
+    eastCoreStates: $("#east-core-states"),
+    eastExtensionStates: $("#east-extension-states"),
+    weatherSource: $("#weather-source"),
+    zoneSource: $("#zone-source"),
+    censusSource: $("#census-source"),
     regionWarning: $("#region-warning"),
   };
 
@@ -68,8 +79,12 @@
     { key: "180", label: "未来 180 天" },
     { key: "all", label: "全部资料" },
   ];
-  const regionKeys = ["west", "midwest", "northeast", "south"];
-  const regionByKey = new Map(dataset.regionModel.regions.map((region) => [region.key, region]));
+  const geography = dataset.geographyModel;
+  const weather = geography?.weather;
+  const weatherMarkets = weather?.markets || [];
+  const weatherRules = weather?.apparelRules || [];
+  const defaultWeatherMarket = weatherMarkets.find((market) => market.id === "east-core")?.id || weatherMarkets[0]?.id || "";
+  const weatherWeekOptions = [0, 4, 8, 12];
 
   const pad = (value) => String(value).padStart(2, "0");
   const localIso = (date) => `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
@@ -95,12 +110,13 @@
   let state = readState();
   let visibleEvents = [];
   let selectedEvent = null;
-  let regionMode = "visible";
 
   function readState() {
     const params = new URLSearchParams(location.search);
     const requestedRange = params.get("range");
     const requestedType = params.get("type");
+    const requestedWeatherWeek = Number(params.get("weatherWeek"));
+    const requestedWeatherMarket = params.get("weatherMarket");
     return {
       q: params.get("q") || "",
       range: rangeOptions.some((item) => item.key === requestedRange) ? requestedRange : "90",
@@ -109,6 +125,8 @@
       event: params.get("event") || "",
       payday: params.get("payday") !== "0",
       region: params.get("region") !== "0",
+      weatherWeek: weatherWeekOptions.includes(requestedWeatherWeek) ? requestedWeatherWeek : 0,
+      weatherMarket: weatherMarkets.some((market) => market.id === requestedWeatherMarket) ? requestedWeatherMarket : defaultWeatherMarket,
     };
   }
 
@@ -121,6 +139,8 @@
     if (state.event) params.set("event", state.event);
     if (!state.payday) params.set("payday", "0");
     if (!state.region) params.set("region", "0");
+    if (state.weatherWeek) params.set("weatherWeek", state.weatherWeek);
+    if (state.weatherMarket && state.weatherMarket !== defaultWeatherMarket) params.set("weatherMarket", state.weatherMarket);
     const query = params.toString();
     history[replace ? "replaceState" : "pushState"](null, "", `${location.pathname}${query ? `?${query}` : ""}`);
   }
@@ -432,58 +452,116 @@
     }
   }
 
-  function aggregateRegions(events) {
-    const totalPriority = events.reduce((sum, event) => sum + event.priority, 0) || 1;
-    return Object.fromEntries(regionKeys.map((key) => {
-      const weighted = events.reduce((sum, event) => sum + (event.regions[key] || 1) * event.priority, 0) / totalPriority;
-      return [key, { raw: weighted, score: Math.round((weighted / 4) * 100) }];
-    }));
+  function interpolateNormal(market, date) {
+    const current = market.monthly[date.getMonth()];
+    const next = market.monthly[(date.getMonth() + 1) % 12];
+    const daysInMonth = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
+    const ratio = daysInMonth > 1 ? (date.getDate() - 1) / (daysInMonth - 1) : 0;
+    const interpolate = (key) => {
+      const from = Number(current?.[key]);
+      const to = Number(next?.[key]);
+      if (!Number.isFinite(from)) return Number.isFinite(to) ? to : null;
+      if (!Number.isFinite(to)) return from;
+      return from + (to - from) * ratio;
+    };
+    return Object.fromEntries(["highF", "lowF", "meanF", "spanHighF", "spanLowF", "precipIn", "snowIn"].map((key) => [key, interpolate(key)]));
   }
 
-  function selectedRegions(event) {
-    return Object.fromEntries(regionKeys.map((key) => [key, { raw: event?.regions[key] || 1, score: Math.round(((event?.regions[key] || 1) / 4) * 100) }]));
+  function apparelRule(meanF) {
+    return weatherRules.find((rule) => meanF >= rule.minMeanF) || weatherRules[weatherRules.length - 1];
   }
 
-  function heatLevel(score) {
-    if (score >= 88) return 4;
-    if (score >= 63) return 3;
-    if (score >= 38) return 2;
-    return 1;
+  function weatherPoint(market, weekOffset) {
+    const date = addDays(today, weekOffset * 7);
+    const normal = interpolateNormal(market, date);
+    const rule = apparelRule(normal.meanF);
+    return { date, dateIso: localIso(date), ...normal, rule };
+  }
+
+  function rounded(value) {
+    return Number.isFinite(value) ? Math.round(value) : null;
+  }
+
+  function temperatureSpan(point) {
+    return Number.isFinite(point.spanLowF) && Number.isFinite(point.spanHighF)
+      ? `${rounded(point.spanLowF)}–${rounded(point.spanHighF)}°F`
+      : `${rounded(point.lowF)}–${rounded(point.highF)}°F`;
+  }
+
+  function rainSnowCopy(point) {
+    const rain = Number.isFinite(point.precipIn) ? `月降水常态约 ${point.precipIn.toFixed(1)} in` : "降水数据待补";
+    const snow = Number.isFinite(point.snowIn) && point.snowIn >= 0.5
+      ? `；月降雪常态约 ${point.snowIn.toFixed(1)} in`
+      : Number.isFinite(point.snowIn) ? "；常态降雪较少" : "；降雪数据不完整";
+    return `${rain}${snow}`;
+  }
+
+  function stateChips(states) {
+    return states.map((state) => el("span", "state-chip", state));
   }
 
   function renderRegion() {
     dom.regionPanel.hidden = !state.region;
     if (!state.region) return;
-    const values = regionMode === "selected" && selectedEvent ? selectedRegions(selectedEvent) : aggregateRegions(visibleEvents);
-    dom.regionVisible.className = `btn btn--sm ${regionMode === "visible" ? "btn--secondary is-active" : "btn--ghost"}`;
-    dom.regionSelected.className = `btn btn--sm ${regionMode === "selected" ? "btn--secondary is-active" : "btn--ghost"}`;
-    dom.regionSubtitle.textContent = regionMode === "selected" && selectedEvent
-      ? `${selectedEvent.nameZh} · 规则型运营优先级`
-      : `${visibleEvents.length} 个可见节点 · 优先级加权`;
-    dom.regionMap.replaceChildren(...regionKeys.map((key) => {
-      const region = regionByKey.get(key);
-      const value = values[key];
-      const cell = el("article", `region-cell region-cell--${key}`);
-      cell.dataset.heat = heatLevel(value.score);
-      cell.append(el("strong", "", region.labelZh), el("span", "", region.label), el("small", "", region.states), el("b", "", value.score));
+    const selectedMarket = weatherMarkets.find((market) => market.id === state.weatherMarket) || weatherMarkets[0];
+    if (!selectedMarket) return;
+    const selectedPoint = weatherPoint(selectedMarket, state.weatherWeek);
+
+    dom.weatherHorizon.querySelectorAll("button[data-week]").forEach((button) => {
+      const active = Number(button.dataset.week) === state.weatherWeek;
+      button.className = `btn btn--sm ${active ? "btn--secondary is-active" : "btn--ghost"}`;
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+
+    dom.weatherMarketGrid.replaceChildren(...weatherMarkets.map((market) => {
+      const point = weatherPoint(market, state.weatherWeek);
+      const button = el("button", `weather-market-card${market.id === selectedMarket.id ? " is-selected" : ""}`);
+      button.type = "button";
+      button.dataset.level = point.rule.level;
+      button.setAttribute("aria-pressed", market.id === selectedMarket.id ? "true" : "false");
+      const title = el("div", "weather-market-card__title");
+      title.append(el("strong", "", market.labelZh), el("span", "", `保暖 ${point.rule.level}`));
+      button.append(
+        title,
+        el("b", "weather-market-card__temp", temperatureSpan(point)),
+        el("span", "weather-market-card__product", point.rule.products.slice(0, 2).join(" / ")),
+        el("small", "", `${market.logisticsGroup} · ${market.states.join(" ")}`)
+      );
+      button.addEventListener("click", () => setState({ weatherMarket: market.id }));
+      return button;
+    }));
+
+    dom.weatherSelectedGroup.textContent = `${selectedMarket.logisticsGroup} · 历史常态`;
+    dom.weatherSelectedTitle.textContent = selectedMarket.labelZh;
+    dom.weatherSelectedMeta.textContent = `${formatDate(selectedPoint.dateIso, true)} · ${temperatureSpan(selectedPoint)} · 代表 ${selectedMarket.representativeCities.join(" / ")}`;
+    dom.weatherSelectedLevel.textContent = `保暖 ${selectedPoint.rule.level}`;
+    dom.weatherSelectedLevel.dataset.level = selectedPoint.rule.level;
+    dom.weatherSelectedProducts.textContent = selectedPoint.rule.products.join(" · ");
+    dom.weatherSelectedStates.textContent = selectedMarket.states.join(" · ");
+    dom.weatherSelectedRain.textContent = rainSnowCopy(selectedPoint);
+    dom.weatherSelectedNote.textContent = selectedMarket.note;
+
+    dom.weatherWeekStrip.replaceChildren(...Array.from({ length: 13 }, (_, week) => {
+      const point = weatherPoint(selectedMarket, week);
+      const cell = el("div", `weather-week${week === state.weatherWeek ? " is-selected" : ""}`);
+      cell.dataset.level = point.rule.level;
+      cell.append(
+        el("span", "", formatDate(point.dateIso)),
+        el("strong", "", `${rounded(point.meanF)}°`),
+        el("small", "", point.rule.products[0])
+      );
       return cell;
     }));
-    const ranking = regionKeys.map((key) => ({ key, ...values[key] })).sort((a, b) => b.score - a.score);
-    dom.regionRanking.replaceChildren(...ranking.map((item) => {
-      const region = regionByKey.get(item.key);
-      const row = el("div", "region-rank");
-      const track = el("span", "region-rank-track");
-      const bar = el("i", "region-rank-bar");
-      bar.style.width = `${item.score}%`;
-      track.append(bar);
-      row.append(el("span", "", region.labelZh), track, el("b", "", item.score));
-      return row;
-    }));
-    dom.regionNote.textContent = regionMode === "selected" && selectedEvent
-      ? selectedEvent.regionNote
-      : "当前分值由可见节点的事件强度与地区规则加权；接入 CA / TX / FL / NY 等州级订单后应替换为真实销售热力。";
-    dom.regionSource.href = dataset.regionModel.sourceUrl;
-    dom.regionWarning.textContent = dataset.regionModel.warning;
+
+    const logistics = geography.logistics;
+    dom.eastCoreStates.replaceChildren(...stateChips(logistics.eastCoastCore));
+    dom.eastExtensionStates.replaceChildren(...stateChips(logistics.eastCoastExtension));
+    dom.customerRegionStatus.textContent = `${geography.customerOrders.rule} 需要字段：${geography.customerOrders.requiredFields.join("、")}。`;
+    dom.warehouseDataStatus.textContent = `${logistics.warehouseDataStatus} USPS Zone 按起始 ZIP 与目的 ZIP 的距离确定，不能只按“美东 / 美西”口头分区。`;
+    dom.weatherSource.href = weather.sourcePage;
+    dom.zoneSource.href = logistics.zoneSourceUrl;
+    dom.censusSource.href = geography.censusReference.sourceUrl;
+    dom.regionWarning.textContent = weather.methodology;
   }
 
   function renderFacets() {
@@ -554,8 +632,10 @@
   dom.prioritySelect.addEventListener("change", () => setState({ priority: dom.prioritySelect.value }));
   dom.paydayToggle.addEventListener("change", () => setState({ payday: dom.paydayToggle.checked }));
   dom.regionToggle.addEventListener("change", () => setState({ region: dom.regionToggle.checked }));
-  dom.regionVisible.addEventListener("click", () => { regionMode = "visible"; renderRegion(); });
-  dom.regionSelected.addEventListener("click", () => { regionMode = "selected"; renderRegion(); });
+  dom.weatherHorizon.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-week]");
+    if (button) setState({ weatherWeek: Number(button.dataset.week) });
+  });
   dom.copyFilter.addEventListener("click", () => {
     navigator.clipboard.writeText(location.href).then(() => {
       const original = dom.copyFilter.textContent;
@@ -563,7 +643,7 @@
       window.setTimeout(() => { dom.copyFilter.textContent = original; }, 1200);
     }).catch(() => {});
   });
-  const reset = () => setState({ q: "", range: "90", type: "全部", priority: "4", event: "", payday: true, region: true });
+  const reset = () => setState({ q: "", range: "90", type: "全部", priority: "4", event: "", payday: true, region: true, weatherWeek: 0, weatherMarket: defaultWeatherMarket });
   dom.reset.addEventListener("click", reset);
   dom.emptyReset.addEventListener("click", reset);
   window.addEventListener("popstate", () => { state = readState(); render(); });

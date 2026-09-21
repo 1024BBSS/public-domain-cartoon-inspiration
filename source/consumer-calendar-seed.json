@@ -1,14 +1,15 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "market": "US",
   "asOf": "2026-09-21",
-  "scope": "从今天向前看的美国消费季、公开日期、现金流脉冲与商品运营建议。事实日期、经验窗口和运营建议分层显示。",
+  "scope": "从今天向前看的美国消费季、公开日期、现金流脉冲、历史天气常态与商品运营建议。事实日期、气候常态、经验窗口和运营建议分层显示。",
   "methodology": {
     "factLayer": "节日、纪念日和公开活动日期来自政府、主办方或专业日历。",
     "seasonLayer": "消费季起止为编辑型运营窗口，必须用店铺历史订单、搜索和库存数据校准。",
     "operationsLayer": "研究、设计、打样、上架、放量和收尾是倒排建议，不是平台规则或审批结论。",
     "paydayLayer": "BLS 统计的是私营单位采用的发薪周期，不是雇员人数，也不能推出全国统一到账日。",
-    "regionLayer": "四区分值是事件与服装运营的规则型优先级，不是地区销售额。"
+    "weatherLayer": "NOAA 1991–2020 气候常态用于季节规划，不是未来天气预报；服装建议是编辑型温度映射。",
+    "geographyLayer": "客户地区、天气需求和仓配成本是三种不同对象：客户占比必须来自订单州 / ZIP，运费必须来自仓 ZIP、目的 ZIP、重量、承运商和服务。"
   },
   "paydayModel": {
     "title": "工资现金流脉冲",
@@ -22,18 +23,6 @@
       { "key": "biweekly", "label": "双周薪", "share": 43.0, "timing": "隔周同一工作日，常见周五", "strength": 3, "note": "全国存在错开一周的多条线，不能指定唯一双周锚点。" },
       { "key": "semimonthly", "label": "半月薪", "share": 19.8, "timing": "1 日 / 15 日或 15 日 / 月末附近", "strength": 2, "note": "遇周末或假日常提前；同时叠加房租和账单。" },
       { "key": "monthly", "label": "月薪", "share": 10.3, "timing": "月末或下月初附近", "strength": 1, "note": "占比最小，只作为薄层。" }
-    ]
-  },
-  "regionModel": {
-    "title": "美国 Census 四区运营热力",
-    "sourceLabel": "U.S. Census Bureau · Regions and Divisions",
-    "sourceUrl": "https://www.census.gov/programs-surveys/economic-census/guidance-geographies/levels.html",
-    "warning": "分区采用 Census 四区；热度是题材、气候和事件触达的运营估计，待接入州级订单后替换。",
-    "regions": [
-      { "key": "west", "label": "West", "labelZh": "西部", "states": "CA, OR, WA, Mountain, AK, HI" },
-      { "key": "midwest", "label": "Midwest", "labelZh": "中西部", "states": "Great Lakes, Plains" },
-      { "key": "northeast", "label": "Northeast", "labelZh": "东北部", "states": "New England, NY, NJ, PA" },
-      { "key": "south", "label": "South", "labelZh": "南部", "states": "TX, FL, Southeast, DC" }
     ]
   },
   "events": [

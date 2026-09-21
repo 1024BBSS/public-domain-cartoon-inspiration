@@ -9,9 +9,9 @@
   <link rel="alternate" type="application/json" href="data/consumer-calendar.json" title="美国消费力日历 Agent 数据">
   <link rel="stylesheet" href="assets/tokens.css">
   <link rel="stylesheet" href="assets/components.css">
-  <link rel="stylesheet" href="assets/consumer-calendar.css?v=1.0.0">
-  <script defer src="data/consumer-calendar.js?v=1.0.0"></script>
-  <script defer src="assets/consumer-calendar.js?v=1.0.0"></script>
+  <link rel="stylesheet" href="assets/consumer-calendar.css?v=1.1.0">
+  <script defer src="data/consumer-calendar.js?v=1.1.0"></script>
+  <script defer src="assets/consumer-calendar.js?v=1.1.0"></script>
 </head>
 <body>
   <div class="app">
@@ -40,10 +40,10 @@
         <div class="sidebar__section">
           <div class="sidebar__label">叠加层</div>
           <label class="layer-toggle"><input id="payday-toggle" type="checkbox" checked><span>发薪脉冲</span></label>
-          <label class="layer-toggle"><input id="region-toggle" type="checkbox" checked><span>地区热力</span></label>
+          <label class="layer-toggle"><input id="region-toggle" type="checkbox" checked><span>天气 / 地区</span></label>
         </div>
         <div class="sidebar__section sidebar__section--tail">
-          <p class="boundary-note">日期是事实；消费季和运营动作是建议。热力不是销量，发薪不是全国统一到账日。</p>
+          <p class="boundary-note">日期是事实；消费季和运营动作是建议。天气层是历史常态，不是预报；客户地区与运费必须接真实订单和仓配数据。</p>
         </div>
       </aside>
 
@@ -81,6 +81,7 @@
           <span class="boundary-dot boundary-dot--fact"></span><b>事实</b><span>节日 / 公开日期</span>
           <span class="boundary-dot boundary-dot--model"></span><b>建议</b><span>消费季与运营倒排</span>
           <span class="boundary-dot boundary-dot--cash"></span><b>现金流</b><span>结构性脉冲，不是全国发薪日</span>
+          <span class="boundary-dot boundary-dot--weather"></span><b>天气</b><span>1991–2020 历史常态，不是预报</span>
         </section>
 
         <section class="panel payday-panel" id="payday-panel">
@@ -161,23 +162,72 @@
         <section class="panel region-panel" id="region-panel">
           <div class="panel__head calendar-panel-head">
             <div>
-              <div class="panel__title">地区运营热力</div>
-              <div class="panel__sub" id="region-subtitle">可见节点的规则型优先级</div>
+              <div class="panel__title">天气 → 服装需求</div>
+              <div class="panel__sub">未来 12 周 · NOAA 历史常态估计 · 点击地区查看换季节奏</div>
             </div>
-            <div class="region-mode" role="group" aria-label="热力口径">
-              <button class="btn btn--secondary btn--sm is-active" id="region-visible" type="button">当前窗口</button>
-              <button class="btn btn--ghost btn--sm" id="region-selected" type="button">所选节点</button>
-            </div>
-          </div>
-          <div class="region-layout">
-            <div class="region-map" id="region-map" aria-label="美国 Census 四区运营优先级"></div>
-            <div class="region-copy">
-              <div class="region-ranking" id="region-ranking"></div>
-              <p id="region-note"></p>
-              <a class="source-link" id="region-source" target="_blank" rel="noreferrer">Census 四区口径</a>
+            <div class="weather-horizon" id="weather-horizon" role="group" aria-label="天气观察时间">
+              <button class="btn btn--secondary btn--sm is-active" data-week="0" type="button">本周</button>
+              <button class="btn btn--ghost btn--sm" data-week="4" type="button">+4 周</button>
+              <button class="btn btn--ghost btn--sm" data-week="8" type="button">+8 周</button>
+              <button class="btn btn--ghost btn--sm" data-week="12" type="button">+12 周</button>
             </div>
           </div>
-          <p class="inline-warning" id="region-warning"></p>
+
+          <div class="weather-level-legend" aria-label="服装保暖等级">
+            <span><i data-level="1"></i>1 背心 / 短袖</span>
+            <span><i data-level="2"></i>2 薄罩衫</span>
+            <span><i data-level="3"></i>3 长袖 / 薄卫衣</span>
+            <span><i data-level="4"></i>4 卫衣 / 轻外套</span>
+            <span><i data-level="5"></i>5 抓绒 / 厚外套</span>
+          </div>
+
+          <div class="weather-layout">
+            <div class="weather-market-grid" id="weather-market-grid" aria-label="美国运营气候区服装需求"></div>
+            <article class="weather-detail" aria-live="polite">
+              <div class="weather-detail__head">
+                <div>
+                  <div class="eyebrow" id="weather-selected-group">—</div>
+                  <h2 id="weather-selected-title">选择地区</h2>
+                  <p id="weather-selected-meta">—</p>
+                </div>
+                <strong class="weather-level-badge" id="weather-selected-level">—</strong>
+              </div>
+              <div class="weather-week-strip" id="weather-week-strip" aria-label="未来 12 周历史气候常态"></div>
+              <dl class="compact-dl weather-dl">
+                <div><dt>当前建议</dt><dd id="weather-selected-products">—</dd></div>
+                <div><dt>州范围</dt><dd id="weather-selected-states">—</dd></div>
+                <div><dt>雨雪</dt><dd id="weather-selected-rain">—</dd></div>
+                <div><dt>边界</dt><dd id="weather-selected-note">—</dd></div>
+              </dl>
+            </article>
+          </div>
+
+          <div class="geography-model-grid">
+            <article class="geography-card">
+              <div class="eyebrow">客户地区</div>
+              <h3>待接真实订单</h3>
+              <p id="customer-region-status">需要订单日期、目的州 / ZIP、SKU、件数、销售额与仓库 ZIP。当前不把“80% 美东”写成事实。</p>
+            </article>
+            <article class="geography-card geography-card--east">
+              <div class="eyebrow">货代口径，不是 Census</div>
+              <h3>美东核心</h3>
+              <div class="state-chip-list" id="east-core-states"></div>
+              <h3>扩展东海岸</h3>
+              <div class="state-chip-list" id="east-extension-states"></div>
+            </article>
+            <article class="geography-card">
+              <div class="eyebrow">仓配成本</div>
+              <h3>先看 ZIP 对，再谈运费</h3>
+              <p id="warehouse-data-status">需要仓库 ZIP、目的 ZIP、承运商、服务和包裹重量。NJ / PA 仓发东海岸通常是较低区；CA / NV 跨岸会更高，但必须逐 ZIP 核算。</p>
+            </article>
+          </div>
+
+          <div class="geography-sources">
+            <a class="source-link" id="weather-source" target="_blank" rel="noreferrer">NOAA 气候常态</a>
+            <a class="source-link" id="zone-source" target="_blank" rel="noreferrer">USPS Zone 口径</a>
+            <a class="source-link" id="census-source" target="_blank" rel="noreferrer">Census 仅作人口统计比较</a>
+          </div>
+          <p class="inline-warning" id="region-warning">天气层是历史季节常态；极端天气、实际订单和实际仓配均需单独接入。</p>
         </section>
       </main>
     </div>
