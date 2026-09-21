@@ -32,6 +32,8 @@ if (!data.paydayModel?.frequencies?.length) errors.push("missing payday model");
 const weather = data.geographyModel?.weather;
 if (!weather?.markets?.length) errors.push("missing apparel-weather markets");
 if (!weather?.sourcePage?.startsWith("https://www.ncei.noaa.gov/")) errors.push("weather source is not NOAA NCEI");
+if (weather?.historyWindow?.years?.length !== 5) errors.push("weather history must use five complete years");
+if (weather?.historyWindow?.start !== "2021-01-01" || weather?.historyWindow?.end !== "2025-12-31") errors.push("unexpected five-year weather window");
 const coveredStates = new Set();
 for (const market of weather?.markets || []) {
   if (!market.id || !market.labelZh) errors.push("weather market missing identity");

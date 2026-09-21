@@ -105,17 +105,33 @@ const markets = [
   }
 ];
 
-const params = new URLSearchParams({
-  dataset: "normals-monthly-1991-2020",
-  stations: stations.map((station) => station.id).join(","),
-  format: "json",
-  includeStationName: "true",
-  includeAttributes: "false"
-});
-const sourceUrl = `https://www.ncei.noaa.gov/access/services/data/v1?${params}`;
-const response = await fetch(sourceUrl, { headers: { "User-Agent": "public-domain-cartoon-inspiration/1.0" } });
-if (!response.ok) throw new Error(`NOAA request failed: ${response.status} ${response.statusText}`);
-const rows = await response.json();
+const historyStart = "2021-01-01";
+const historyEnd = "2025-12-31";
+const historyYears = [2021, 2022, 2023, 2024, 2025];
+const sourceApiBase = "https://www.ncei.noaa.gov/access/services/data/v1";
+const sourcePage = "https://www.ncei.noaa.gov/access/search/data-search/daily-summaries";
+
+function sourceUrl(stationId) {
+  const params = new URLSearchParams({
+    dataset: "daily-summaries",
+    stations: stationId,
+    startDate: historyStart,
+    endDate: historyEnd,
+    format: "json",
+    units: "standard",
+    includeAttributes: "false",
+    dataTypes: "TMAX,TMIN,PRCP,SNOW"
+  });
+  return `${sourceApiBase}?${params}`;
+}
+
+async function fetchStationRows(station) {
+  const url = sourceUrl(station.id);
+  const response = await fetch(url, { headers: { "User-Agent": "public-domain-cartoon-inspiration/1.0" } });
+  if (!response.ok) throw new Error(`${station.id} NOAA request failed: ${response.status} ${response.statusText}`);
+  const rows = await response.json();
+  return { station, rows, url };
+}
 
 const number = (value) => {
   const text = String(value ?? "").trim();
@@ -127,24 +143,66 @@ const mean = (values) => {
   const usable = values.filter(Number.isFinite);
   return usable.length ? usable.reduce((sum, value) => sum + value, 0) / usable.length : null;
 };
+const sum = (values) => values.filter(Number.isFinite).reduce((total, value) => total + value, 0);
 const round = (value) => Number.isFinite(value) ? Math.round(value * 10) / 10 : null;
 
-const rowsByStation = new Map(stations.map((station) => [station.id, []]));
-for (const row of rows) {
-  if (!rowsByStation.has(row.STATION)) continue;
-  rowsByStation.get(row.STATION).push({
-    month: Number(row.DATE),
-    highF: number(row["MLY-TMAX-NORMAL"]),
-    lowF: number(row["MLY-TMIN-NORMAL"]),
-    precipIn: number(row["MLY-PRCP-NORMAL"]),
-    snowIn: number(row["MLY-SNOW-NORMAL"])
+function aggregateStation(station, rows, url) {
+  const groups = new Map();
+  for (const row of rows) {
+    const [yearText, monthText] = String(row.DATE || "").split("-");
+    const year = Number(yearText);
+    const month = Number(monthText);
+    if (!historyYears.includes(year) || month < 1 || month > 12) continue;
+    const key = `${year}-${month}`;
+    if (!groups.has(key)) groups.set(key, { year, month, high: [], low: [], precip: [], snow: [] });
+    const group = groups.get(key);
+    group.high.push(number(row.TMAX));
+    group.low.push(number(row.TMIN));
+    group.precip.push(number(row.PRCP));
+    group.snow.push(number(row.SNOW));
+  }
+
+  const completeValue = (group, values, reducer = mean) => {
+    const expected = new Date(Date.UTC(group.year, group.month, 0)).getUTCDate();
+    const valid = values.filter(Number.isFinite);
+    return valid.length / expected >= 0.8 ? reducer(valid) : null;
+  };
+
+  const monthly = Array.from({ length: 12 }, (_, index) => {
+    const month = index + 1;
+    const yearGroups = historyYears.map((year) => groups.get(`${year}-${month}`)).filter(Boolean);
+    const highByYear = yearGroups.map((group) => completeValue(group, group.high));
+    const lowByYear = yearGroups.map((group) => completeValue(group, group.low));
+    const precipByYear = yearGroups.map((group) => completeValue(group, group.precip, sum));
+    const snowByYear = yearGroups.map((group) => completeValue(group, group.snow, sum));
+    const highF = mean(highByYear);
+    const lowF = mean(lowByYear);
+    return {
+      month,
+      highF: round(highF),
+      lowF: round(lowF),
+      meanF: round(mean([highF, lowF])),
+      precipIn: round(mean(precipByYear)),
+      snowIn: round(mean(snowByYear)),
+      temperatureYears: highByYear.filter(Number.isFinite).length,
+      precipitationYears: precipByYear.filter(Number.isFinite).length,
+      snowYears: snowByYear.filter(Number.isFinite).length
+    };
   });
+
+  for (const row of monthly) {
+    if (row.temperatureYears < 4) throw new Error(`${station.id} has only ${row.temperatureYears} usable temperature years for month ${row.month}`);
+  }
+  station.sourceApi = url;
+  station.dailyRows = rows.length;
+  station.monthly = monthly;
 }
 
-for (const station of stations) {
-  const stationRows = rowsByStation.get(station.id).sort((a, b) => a.month - b.month);
-  if (stationRows.length !== 12) throw new Error(`${station.id} returned ${stationRows.length} months`);
-  station.monthly = stationRows;
+const stationBatches = [];
+for (let index = 0; index < stations.length; index += 4) stationBatches.push(stations.slice(index, index + 4));
+for (const batch of stationBatches) {
+  const results = await Promise.all(batch.map(fetchStationRows));
+  for (const result of results) aggregateStation(result.station, result.rows, result.url);
 }
 
 const stationById = new Map(stations.map((station) => [station.id, station]));
@@ -170,13 +228,20 @@ for (const market of markets) {
 }
 
 const output = {
-  schemaVersion: "1.0.0",
+  schemaVersion: "1.1.0",
   generatedAt: new Date().toISOString(),
-  baseline: "1991–2020 U.S. Climate Normals",
-  sourceLabel: "NOAA NCEI · U.S. Climate Normals",
-  sourcePage: "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
-  sourceApi: sourceUrl,
-  methodology: "每个运营气候区由列出的代表站月常态汇总；页面按日期在相邻月份间插值，用于 12 周服装需求规划。它不是未来天气预报，也不反映极端天气。",
+  baseline: "2021–2025 recent five-year historical average",
+  historyWindow: {
+    start: historyStart,
+    end: historyEnd,
+    years: historyYears,
+    rule: "最近五个完整自然年"
+  },
+  sourceLabel: "NOAA NCEI · Daily Summaries (2021–2025)",
+  sourcePage,
+  sourceApiBase,
+  sourceApiDocumentation: "https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation",
+  methodology: "将 NOAA 2021–2025 每日观测按站点和月份汇总为最近五年历史均值；页面再按日期在相邻月份间插值，用于未来 12 周服装需求规划。它不是天气预报，也不反映极端天气。",
   apparelRules: [
     { level: 1, minMeanF: 78, label: "炎热", products: ["背心", "短袖", "轻薄面料"] },
     { level: 2, minMeanF: 68, label: "偏暖", products: ["短袖", "薄罩衫", "轻量长袖"] },

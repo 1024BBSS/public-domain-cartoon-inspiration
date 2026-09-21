@@ -2,7 +2,7 @@
 
 网站首页 `index.html` 是美国超级 IP 与权利机会库。原公版视觉灵感库保留为 `visual.html`，关系结构是“角色 / 主体 → 作品 → 画面”，同时提供场景与节日入口。旧链接 `super-ip.html` 会保留查询条件并转入首页。
 
-`calendar.html` 是美国消费力日历。默认从打开当天看未来 90 天，把消费季画成甘特条、把节日当天钉在时间轴上，并叠加 BLS 发薪周期脉冲、商品运营倒排、现有 IP / 视觉题材与未来 12 周服装气候需求。天气层使用 NOAA 1991–2020 气候常态，按 9 个运营气候区和 13 个代表站估计换季节奏，再直接映射为 5 级服装需求；它不是天气预报。客户地区、货代所说的“美东”和仓配运费分成三层，`约 80% 在美东` 在接入真实州 / ZIP 订单前保持待核。Agent 使用 `data/consumer-calendar.json`，超级 IP 详情可反向进入相关消费节点。
+`calendar.html` 是美国消费力日历。默认从打开当天看未来 90 天，把消费季画成甘特条、把节日当天钉在时间轴上，并叠加 BLS 发薪周期脉冲、商品运营倒排、现有 IP / 视觉题材与未来 12 周服装气候需求。天气层把 NOAA 2021–2025 每日观测汇总为最近五个完整自然年的历史均值，按 9 个运营气候区和 13 个代表站估计换季节奏，再直接映射为 5 级服装需求；它不是天气预报。客户地区、货代所说的“美东”和仓配运费分成三层，`约 80% 在美东` 在接入真实州 / ZIP 订单前保持待核。Agent 使用 `data/consumer-calendar.json`，超级 IP 详情可反向进入相关消费节点。
 
 当前另有 `albums.html`：以 200 张近 70 年经典封面为母库，可按封面或艺人进入，并按年代、音乐类型与视觉方法检索；另保留公版历史封面、“鹰翼摇滚”和“西部乡村”专题。现代封面只作研究，不作公版素材。
 
@@ -69,6 +69,6 @@ node tools/validate-consumer-calendar.mjs
 
 `source/super-ip-us-seed.json` 是人工定款候选源；`source/yougov-us-fame.json` 是覆盖 25 个文娱类型的可刷新认知快照；`source/wikidata-taxonomy.json` 是 CC0 结构化分类快照；`source/super-ip-visual-profiles.json` 是人工视觉 DNA；`source/super-ip-visual-sources.json` 保存开放图源、作者、年代、媒介、逐图许可与来源页。S / A 只是美区筛选层，不是调查百分比。`100M+ 认知等效` 与 `100M+ 直接人数` 永远分栏：前者来自 YouGov Fame × 美国成年人口，后者只接收公开、可复核且口径明确的美国人数资料。快捷条件可与三层分类组合，URL 会保留 `category`、`subcategory`、`topic`、权利和知名度条件。新增条目必须保留来源、视觉图类型、分类来源、权利入口和证据状态，不能把“高知名”“识别参考图”或“图片开放许可”改写成“角色可商用”。
 
-`source/apparel-weather-normals.json` 是 NOAA 月气候常态快照，可由 `tools/refresh-apparel-weather.mjs` 重建。气候区覆盖 50 州与 DC，但只用于服装换季规划；实时天气、客户占比和实际运费仍分别需要天气服务、订单州 / ZIP、仓库 ZIP、承运商、服务和包裹重量。
+`source/apparel-weather-normals.json` 是 NOAA 2021–2025 每日观测的月度汇总快照，可由 `tools/refresh-apparel-weather.mjs` 重建。脚本只纳入日观测覆盖率达到 80% 的站点月份，并要求每月至少有 4 个可用年份。气候区覆盖 50 州与 DC，但只用于服装换季规划；实时天气、客户占比和实际运费仍分别需要天气服务、订单州 / ZIP、仓库 ZIP、承运商、服务和包裹重量。
 
 幽灵图源位于 Eagle 的 `04｜幽灵与通灵｜A证据`，公版封面源流位于 `05｜专辑封面｜公版源流与授权研究`。图片原件仍以 Eagle 为事实源；补充文件只描述关系与证据，不保存第二份原图。新的 Grok 调研包先用 `node tools/import-grok-intake.mjs /解包根目录` 去重、核验和写入 Eagle，再进入公开构建。

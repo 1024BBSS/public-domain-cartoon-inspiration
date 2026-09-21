@@ -531,7 +531,7 @@
       return button;
     }));
 
-    dom.weatherSelectedGroup.textContent = `${selectedMarket.logisticsGroup} · 历史常态`;
+    dom.weatherSelectedGroup.textContent = `${selectedMarket.logisticsGroup} · 最近五年历史均值`;
     dom.weatherSelectedTitle.textContent = selectedMarket.labelZh;
     dom.weatherSelectedMeta.textContent = `${formatDate(selectedPoint.dateIso, true)} · ${temperatureSpan(selectedPoint)} · 代表 ${selectedMarket.representativeCities.join(" / ")}`;
     dom.weatherSelectedLevel.textContent = `保暖 ${selectedPoint.rule.level}`;
