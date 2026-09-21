@@ -365,7 +365,7 @@
     const visualSourceIsDuplicate = item.visualSourceUrl && [item.sourceUrl, item.surveySourceUrl].includes(item.visualSourceUrl);
     dom.detailVisualSource.hidden = !item.visualSourceUrl || visualSourceIsDuplicate;
     if (item.visualSourceUrl) dom.detailVisualSource.href = item.visualSourceUrl;
-    dom.detailVisual.href = `index.html?view=roles&q=${encodeURIComponent(item.nameZh || item.name)}`;
+    dom.detailVisual.href = `visual.html?view=roles&q=${encodeURIComponent(item.nameZh || item.name)}`;
     dom.dialog.showModal();
   }
 

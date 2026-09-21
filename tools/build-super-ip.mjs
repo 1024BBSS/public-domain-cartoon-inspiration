@@ -99,7 +99,7 @@ for (const fileName of entityFiles) {
     image: entity.coverImage,
     entityId: entity.id,
     title: entity.name,
-    sourceUrl: cover.sourceUrl || "index.html",
+    sourceUrl: cover.sourceUrl || "visual.html",
     sourceLabel: cover.sourceLabel || "本地公版视觉库",
     evidenceLevel: cover.evidenceLevel || "待复核",
   };
@@ -115,7 +115,7 @@ for (const record of catalog.records || []) {
     image: record.image,
     entityId: "",
     title: record.title,
-    sourceUrl: record.sourceUrl || "index.html",
+    sourceUrl: record.sourceUrl || "visual.html",
     sourceLabel: record.sourceLabel || "本地公版视觉库",
     evidenceLevel: record.evidenceLevel || "待复核",
   };
