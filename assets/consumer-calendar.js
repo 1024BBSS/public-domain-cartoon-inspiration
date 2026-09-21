@@ -27,7 +27,8 @@
     todayLabel: $("#today-label"),
     windowLabel: $("#window-label"),
     activeCount: $("#active-count"),
-    nextAnchor: $("#next-anchor"),
+    largestSpend: $("#largest-spend"),
+    largestSpendLabel: $("#largest-spend-label"),
     paydaySource: $("#payday-source"),
     paydayDistribution: $("#payday-distribution"),
     paydayAxis: $("#payday-axis"),
@@ -41,6 +42,7 @@
     detailTitle: $("#detail-title"),
     detailSubtitle: $("#detail-subtitle"),
     detailStatus: $("#detail-status"),
+    spendingDetail: $("#spending-detail"),
     detailEvidence: $("#detail-evidence"),
     detailAudiences: $("#detail-audiences"),
     detailAngles: $("#detail-angles"),
@@ -80,6 +82,8 @@
     { key: "all", label: "全部资料" },
   ];
   const geography = dataset.geographyModel;
+  const spendingModel = dataset.spendingModel || {};
+  const spendingProfiles = spendingModel.profiles || {};
   const weather = geography?.weather;
   const weatherMarkets = weather?.markets || [];
   const weatherRules = weather?.apparelRules || [];
@@ -99,6 +103,16 @@
     return `${withYear ? `${date.getFullYear()}.` : ""}${pad(date.getMonth() + 1)}.${pad(date.getDate())}`;
   };
   const formatRange = (start, end) => start === end ? formatDate(start, true) : `${formatDate(start, true)}–${formatDate(end, true)}`;
+  const formatMoney = (value) => {
+    if (!Number.isFinite(value)) return "金额待补";
+    if (value >= 1000) {
+      const trillions = value / 1000;
+      return `$${trillions.toFixed(trillions >= 10 ? 1 : 2).replace(/\.00$/, "").replace(/(\.\d)0$/, "$1")}T`;
+    }
+    const digits = value >= 100 ? 0 : value >= 10 ? 1 : 2;
+    return `$${value.toFixed(digits).replace(/\.00$/, "").replace(/(\.\d)0$/, "$1")}B`;
+  };
+  const formatPercent = (value) => Number.isFinite(value) ? `${value >= 0 ? "+" : ""}${(value * 100).toFixed(1)}%` : "—";
   const todayActual = new Date();
   todayActual.setHours(0, 0, 0, 0);
   const dataMin = dataset.events.reduce((min, event) => event.seasonStart < min ? event.seasonStart : min, dataset.events[0].seasonStart);
@@ -172,7 +186,35 @@
       event.productAngles,
       event.visualQueries,
       event.relatedIps?.flatMap((ip) => [ip.name, ip.nameZh, ip.category]),
+      event.spendingPower?.relationshipLabel,
+      event.spendingPower?.profileId ? spendingProfiles[event.spendingPower.profileId]?.labelZh : "",
     ].flat().join(" "));
+  }
+
+  function spendingProfile(event) {
+    const link = event?.spendingPower;
+    if (!link || link.status !== "available") return null;
+    return spendingProfiles[link.profileId] || null;
+  }
+
+  function spendingBadge(event) {
+    const link = event.spendingPower;
+    const profile = spendingProfile(event);
+    if (!profile?.target) {
+      const badge = el("span", "gantt-money gantt-money--empty", "专项金额暂无");
+      badge.title = link?.noteZh || "暂无统一全美专项金额";
+      return badge;
+    }
+    const suffix = link.relationship === "included"
+      ? "总盘内"
+      : link.relationship === "proxy"
+        ? "代理"
+        : link.relationship === "context"
+          ? "背景盘"
+          : profile.target.status === "model_estimate" ? "预估" : "官方";
+    const badge = el("span", `gantt-money gantt-money--${link.relationship}`, `${formatMoney(profile.target.value)} ${suffix}`);
+    badge.title = `${profile.labelZh}；${link.relationshipLabel}；${profile.scopeZh}`;
+    return badge;
   }
 
   function filteredEvents() {
@@ -296,13 +338,6 @@
     }));
   }
 
-  function priorityDots(priority) {
-    const wrap = el("span", "priority-dots");
-    for (let index = 1; index <= 5; index += 1) wrap.append(el("i", index <= priority ? "is-on" : ""));
-    wrap.title = `运营强度 ${priority} / 5`;
-    return wrap;
-  }
-
   function eventDateLabel(event) {
     if (!event.anchorDate) return "连续";
     return formatDate(event.anchorDate);
@@ -317,14 +352,15 @@
       row.dataset.priority = event.priority;
       row.tabIndex = 0;
       row.setAttribute("role", "button");
-      row.setAttribute("aria-label", `${event.nameZh}，${eventDateLabel(event)}`);
+      const profile = spendingProfile(event);
+      row.setAttribute("aria-label", `${event.nameZh}，${eventDateLabel(event)}，${profile?.target ? formatMoney(profile.target.value) : "专项金额暂无"}`);
       if (selectedEvent?.id === event.id) row.classList.add("is-selected");
 
       const label = el("div", "gantt-label");
       label.append(el("span", "gantt-date", eventDateLabel(event)));
       const name = el("span", "gantt-name");
       name.append(el("strong", "", event.nameZh), el("span", "", `${event.type} · ${event.evidenceStatus}`));
-      label.append(name, priorityDots(event.priority));
+      label.append(name, spendingBadge(event));
 
       const track = el("div", "gantt-track");
       track.append(...guideNodes());
@@ -399,6 +435,97 @@
     return { label: "待做", className: "is-future" };
   }
 
+  function pointStatusLabel(point) {
+    const labels = {
+      actual_reported: "实绩",
+      measured_online_sales: "线上实绩",
+      survey_estimate: "调查预期",
+      estimated_donations: "估算捐赠",
+      official_forecast_midpoint: "官方预测中值",
+      report_edition: "报告值",
+      model_estimate: "趋势预估",
+      official_report: "官方报告值",
+      official_partial_season: "官方阶段值",
+    };
+    return labels[point.status] || point.statusLabel || "报告值";
+  }
+
+  function renderSpendingDetail(event) {
+    const link = event.spendingPower;
+    const profile = spendingProfile(event);
+    if (!profile?.target) {
+      const empty = el("div", "spending-empty");
+      empty.append(
+        el("div", "eyebrow", "消费金额"),
+        el("strong", "", link?.headlineZh || "暂无统一全美专项金额"),
+        el("p", "", link?.noteZh || "公开来源未提供可比的全国专项消费序列。")
+      );
+      dom.spendingDetail.replaceChildren(empty);
+      return;
+    }
+
+    const target = profile.target;
+    const headline = el("div", "spending-headline");
+    const headlineCopy = el("div", "spending-headline__copy");
+    headlineCopy.append(
+      el("div", "eyebrow", `${link.relationshipLabel} · 可信度 ${profile.confidence}`),
+      el("strong", "spending-value", formatMoney(target.value)),
+      el("span", "spending-target-label", `${target.year} · ${target.statusLabel}`),
+      el("p", "", profile.scopeZh)
+    );
+    const rangeText = Number.isFinite(target.lower) && Number.isFinite(target.upper)
+      ? `${formatMoney(target.lower)}–${formatMoney(target.upper)}`
+      : "官方值，无模型区间";
+    const forecastBox = el("div", "spending-range");
+    forecastBox.append(el("span", "", "方向区间"), el("strong", "", rangeText));
+    headline.append(headlineCopy, forecastBox);
+
+    const series = [...profile.history];
+    if (!series.some((point) => point.year === target.year)) series.push({ ...target, isTarget: true });
+    const maxValue = Math.max(...series.map((point) => point.value), 1);
+    const chart = el("div", "spending-chart");
+    chart.style.gridTemplateColumns = `repeat(${Math.max(1, series.length)}, minmax(48px, 1fr))`;
+    chart.setAttribute("aria-label", `${profile.labelZh}年度趋势`);
+    chart.append(...series.map((point) => {
+      const cell = el("div", `spending-bar-cell${point.isTarget ? " is-target" : ""}`);
+      const value = el("span", "spending-bar-value", formatMoney(point.value));
+      const track = el("div", "spending-bar-track");
+      const bar = el("i", "spending-bar");
+      bar.style.height = `${Math.max(8, (point.value / maxValue) * 100)}%`;
+      track.append(bar);
+      cell.append(value, track, el("b", "", point.year), el("small", "", pointStatusLabel(point)));
+      cell.title = `${point.year} · ${formatMoney(point.value)} · ${pointStatusLabel(point)}`;
+      return cell;
+    }));
+
+    const firstSlice = profile.categorySlices?.[0];
+    const metrics = el("div", "spending-metrics");
+    const metricItems = [
+      [profile.coverage.completeFiveYears ? "5 年 CAGR" : `${profile.coverage.historyPoints} 年 CAGR`, formatPercent(profile.trend.cagr)],
+      ["最近一年同比", formatPercent(profile.trend.latestYoY)],
+      ["历史覆盖", profile.coverage.completeFiveYears ? "5 / 5" : `${profile.coverage.historyPoints} / 5`],
+      [firstSlice ? `${firstSlice.year} ${firstSlice.label}` : "相关品类切片", firstSlice ? formatMoney(firstSlice.value) : "暂无"],
+    ];
+    metrics.append(...metricItems.map(([label, value]) => {
+      const item = el("div", "spending-metric");
+      item.append(el("span", "", label), el("strong", "", value));
+      return item;
+    }));
+
+    const footer = el("div", "spending-foot");
+    const note = el("p", "", `${link.noteZh} ${profile.noteZh}`.trim());
+    const sources = el("div", "spending-sources");
+    sources.append(...profile.sources.map((source) => {
+      const anchor = el("a", "source-link", source.label);
+      anchor.href = source.url;
+      anchor.target = "_blank";
+      anchor.rel = "noreferrer";
+      return anchor;
+    }));
+    footer.append(note, sources);
+    dom.spendingDetail.replaceChildren(headline, chart, metrics, footer);
+  }
+
   function renderDetail() {
     const event = selectedEvent;
     if (!event) return;
@@ -411,8 +538,10 @@
     dom.detailStatus.replaceChildren(
       el("span", "status-chip status-chip--accent", relativeStatus(event)),
       el("span", "status-chip", event.evidenceStatus),
+      el("span", "status-chip", event.spendingPower.status === "available" ? event.spendingPower.relationshipLabel : "金额待补"),
       el("span", "status-chip", `${event.relatedIps.length} 个关联 IP`),
     );
+    renderSpendingDetail(event);
     dom.detailEvidence.textContent = event.evidenceStatus;
     dom.detailAudiences.textContent = event.audiences.join(" · ");
     dom.detailAngles.textContent = event.productAngles.join(" · ");
@@ -588,10 +717,19 @@
     dom.todayLabel.textContent = formatDate(todayIso, true);
     dom.windowLabel.textContent = `${formatDate(localIso(range.start))}–${formatDate(localIso(range.end))}`;
     dom.activeCount.textContent = visibleEvents.length;
-    const next = visibleEvents.find((event) => event.anchorDate && event.anchorDate >= todayIso);
-    dom.nextAnchor.textContent = next ? `${formatDate(next.anchorDate)} ${next.nameZh}` : "无";
+    const seenProfiles = new Set();
+    const ranked = visibleEvents.flatMap((event) => {
+      const link = event.spendingPower;
+      const profile = spendingProfile(event);
+      if (!profile?.target || !profile.rankable || !["direct", "proxy"].includes(link.relationship) || seenProfiles.has(profile.id)) return [];
+      seenProfiles.add(profile.id);
+      return [{ event, profile }];
+    }).sort((a, b) => b.profile.target.value - a.profile.target.value);
+    const largest = ranked[0];
+    dom.largestSpend.textContent = largest ? formatMoney(largest.profile.target.value) : "暂无";
+    dom.largestSpendLabel.textContent = largest ? `${largest.event.nameZh} · ${largest.event.spendingPower.relationshipLabel}` : "窗口无可比金额";
     dom.resultCount.textContent = visibleEvents.length;
-    dom.topMeta.textContent = `${dataset.counts.events} 节点 · 默认从今天看未来 90 天`;
+    dom.topMeta.textContent = `${dataset.counts.events} 节点 · ${dataset.counts.spendingAvailable} 个金额关联 · 近五年趋势`;
   }
 
   function render() {

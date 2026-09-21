@@ -1,0 +1,428 @@
+{
+  "schemaVersion": "1.0.0",
+  "asOf": "2026-09-21",
+  "currency": "USD",
+  "methodology": {
+    "forecastModel": "对最近五个同口径年度值做普通最小二乘线性回归；不足五年时仍可给低可信度线索，但必须显示缺年。",
+    "forecastRange": "预测区间取回归残差平均绝对值与预测值 3% 中的较大者，作为方向性区间，不是统计置信区间。",
+    "comparisonRule": "节日计划消费、线上成交、零售销售、捐赠、人群经济盘和退税现金流分开标记，不跨口径加总。",
+    "revisionRule": "公开机构可能修订历史序列；页面保留来源日期与点位状态，每次新批次重新核验。"
+  },
+  "profiles": {
+    "halloween-us-planned-spend": {
+      "labelZh": "万圣节全美计划消费",
+      "metricType": "holiday_survey",
+      "scopeZh": "NRF / Prosper 美国成年人计划消费；问卷预期，不是实际结算 GMV",
+      "unit": "USD_B",
+      "targetYear": 2026,
+      "target": { "mode": "model" },
+      "history": [
+        { "year": 2021, "value": 10.1, "status": "survey_estimate" },
+        { "year": 2022, "value": 10.6, "status": "survey_estimate" },
+        { "year": 2023, "value": 12.2, "status": "survey_estimate" },
+        { "year": 2024, "value": 11.6, "status": "survey_estimate" },
+        { "year": 2025, "value": 13.1, "status": "survey_estimate" }
+      ],
+      "confidence": "中",
+      "rankable": true,
+      "categorySlices": [
+        { "label": "服装 / costumes", "year": 2025, "value": 4.3, "unit": "USD_B" },
+        { "label": "装饰", "year": 2025, "value": 4.2, "unit": "USD_B" }
+      ],
+      "sources": [
+        {
+          "label": "NRF Halloween Data Center",
+          "url": "https://nrf.com/research-insights/holiday-data-and-trends/halloween/halloween-data-center",
+          "asOf": "2026-09-21"
+        },
+        {
+          "label": "NRF 2025 Halloween survey",
+          "url": "https://nrf.com/media-center/press-releases/nrf-consumer-survey-finds-halloween-spending-to-reach-record-13-1-billion",
+          "asOf": "2025-09-18"
+        }
+      ],
+      "noteZh": "2026 NRF 万圣节调查截至 2026-09-21 尚未发布；当前值为五年趋势预测，发布后应替换。"
+    },
+    "thanksgiving-online-sales": {
+      "labelZh": "感恩节当日美国线上销售",
+      "metricType": "online_sales",
+      "scopeZh": "Adobe Digital Insights 美国电商当日线上销售；不含线下零售",
+      "unit": "USD_B",
+      "targetYear": 2026,
+      "target": { "mode": "model" },
+      "history": [
+        { "year": 2021, "value": 5.1, "status": "measured_online_sales" },
+        { "year": 2022, "value": 5.3, "status": "measured_online_sales" },
+        { "year": 2023, "value": 5.6, "status": "measured_online_sales" },
+        { "year": 2024, "value": 6.1, "status": "measured_online_sales" },
+        { "year": 2025, "value": 6.4, "status": "measured_online_sales" }
+      ],
+      "confidence": "中",
+      "rankable": true,
+      "categorySlices": [],
+      "sources": [
+        {
+          "label": "Adobe Holiday Shopping Report · key days",
+          "url": "https://business.adobe.com/resources/holiday-shopping-report/forecasted-spend-on-key-days.html",
+          "asOf": "2026-09-21"
+        }
+      ],
+      "noteZh": "只代表线上成交；不可与 NRF 全渠道冬礼季金额直接相加。"
+    },
+    "black-friday-online-sales": {
+      "labelZh": "黑色星期五美国线上销售",
+      "metricType": "online_sales",
+      "scopeZh": "Adobe Digital Insights 美国电商当日线上销售；不含线下零售",
+      "unit": "USD_B",
+      "targetYear": 2026,
+      "target": { "mode": "model" },
+      "history": [
+        { "year": 2021, "value": 8.9, "status": "measured_online_sales" },
+        { "year": 2022, "value": 9.1, "status": "measured_online_sales" },
+        { "year": 2023, "value": 9.8, "status": "measured_online_sales" },
+        { "year": 2024, "value": 10.8, "status": "measured_online_sales" },
+        { "year": 2025, "value": 11.8, "status": "measured_online_sales" }
+      ],
+      "confidence": "中",
+      "rankable": true,
+      "categorySlices": [],
+      "sources": [
+        {
+          "label": "Adobe Holiday Shopping Report · key days",
+          "url": "https://business.adobe.com/resources/holiday-shopping-report/forecasted-spend-on-key-days.html",
+          "asOf": "2026-09-21"
+        }
+      ],
+      "noteZh": "只代表线上成交；不可与 NRF 全渠道冬礼季金额直接相加。"
+    },
+    "cyber-monday-online-sales": {
+      "labelZh": "网络星期一美国线上销售",
+      "metricType": "online_sales",
+      "scopeZh": "Adobe Digital Insights 美国电商当日线上销售",
+      "unit": "USD_B",
+      "targetYear": 2026,
+      "target": { "mode": "model" },
+      "history": [
+        { "year": 2021, "value": 10.7, "status": "measured_online_sales" },
+        { "year": 2022, "value": 11.3, "status": "measured_online_sales" },
+        { "year": 2023, "value": 12.4, "status": "measured_online_sales" },
+        { "year": 2024, "value": 13.3, "status": "measured_online_sales" },
+        { "year": 2025, "value": 14.25, "status": "measured_online_sales" }
+      ],
+      "confidence": "中",
+      "rankable": true,
+      "categorySlices": [],
+      "sources": [
+        {
+          "label": "Adobe Holiday Shopping Report · key days",
+          "url": "https://business.adobe.com/resources/holiday-shopping-report/forecasted-spend-on-key-days.html",
+          "asOf": "2026-09-21"
+        }
+      ],
+      "noteZh": "只代表线上成交；不可与 NRF 全渠道冬礼季金额直接相加。"
+    },
+    "giving-tuesday-us-donations": {
+      "labelZh": "Giving Tuesday 美国单日捐赠",
+      "metricType": "donations",
+      "scopeZh": "GivingTuesday Data Commons 估算的美国单日捐赠额；不是零售消费",
+      "unit": "USD_B",
+      "targetYear": 2026,
+      "target": { "mode": "model" },
+      "history": [
+        { "year": 2021, "value": 2.7, "status": "estimated_donations" },
+        { "year": 2022, "value": 3.1, "status": "estimated_donations" },
+        { "year": 2023, "value": 3.1, "status": "estimated_donations" },
+        { "year": 2024, "value": 3.6, "status": "estimated_donations" },
+        { "year": 2025, "value": 4.0, "status": "estimated_donations" }
+      ],
+      "confidence": "中",
+      "rankable": false,
+      "categorySlices": [],
+      "sources": [
+        {
+          "label": "GivingTuesday Data Commons · Impact Measurement",
+          "url": "https://data.givingtuesday.org/givingtuesday-impact-measurement/",
+          "asOf": "2026-09-21"
+        }
+      ],
+      "noteZh": "用于判断公益现金流与传播热度，不能当作商品 GMV。"
+    },
+    "small-business-saturday-reported-spend": {
+      "labelZh": "小企业星期六消费者自报支出",
+      "metricType": "self_reported_spend",
+      "scopeZh": "American Express 全国样本推算的自报支出；不代表实际收据或 Amex 卡交易",
+      "unit": "USD_B",
+      "targetYear": 2026,
+      "target": { "mode": "model" },
+      "history": [
+        { "year": 2021, "value": 23.3, "status": "survey_estimate" },
+        { "year": 2022, "value": 17.9, "status": "survey_estimate" },
+        { "year": 2023, "value": 17.0, "status": "survey_estimate" },
+        { "year": 2024, "value": 22.0, "status": "survey_estimate" }
+      ],
+      "missingYears": [2025],
+      "confidence": "低",
+      "rankable": true,
+      "categorySlices": [],
+      "sources": [
+        {
+          "label": "American Express · Shop Small",
+          "url": "https://www.americanexpress.com/us/small-business/shop-small/shoppers/",
+          "asOf": "2026-09-21"
+        },
+        {
+          "label": "American Express / PYMNTS · 2024 Shop Small",
+          "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/bcfm/PYMNTS-Shop-Small-Holiday-Tracker-December-2024.pdf",
+          "asOf": "2024-12-01"
+        }
+      ],
+      "noteZh": "2025 年单日同口径金额未找到，预测只使用四个已核验年份，波动大，必须低可信度处理。"
+    },
+    "winter-holiday-core-retail": {
+      "labelZh": "美国冬礼季核心零售",
+      "metricType": "retail_sales",
+      "scopeZh": "NRF 定义的 11–12 月核心零售；排除汽车、汽油与餐饮，含线上和线下",
+      "unit": "USD_B",
+      "targetYear": 2026,
+      "target": { "mode": "model" },
+      "history": [
+        { "year": 2021, "value": 889.3, "status": "actual_reported" },
+        { "year": 2022, "value": 929.5, "status": "actual_reported" },
+        { "year": 2023, "value": 955.6, "status": "actual_reported" },
+        { "year": 2024, "value": 976.1, "status": "actual_reported" },
+        { "year": 2025, "value": 1015.0, "status": "official_forecast_midpoint" }
+      ],
+      "confidence": "中",
+      "rankable": true,
+      "categorySlices": [
+        { "label": "线上及非门店（初值）", "year": 2024, "value": 296.7, "unit": "USD_B" }
+      ],
+      "sources": [
+        {
+          "label": "NRF 2021 holiday result",
+          "url": "https://nrf.com/media-center/press-releases/nrf-says-2021-holiday-sales-grew-141-percent-record-8867-billion",
+          "asOf": "2022-01-14"
+        },
+        {
+          "label": "NRF 2022 holiday result",
+          "url": "https://nrf.com/media-center/press-releases/nrf-says-2022-holiday-sales-grew-53-9363-billion",
+          "asOf": "2023-01-18"
+        },
+        {
+          "label": "NRF 2023 holiday result",
+          "url": "https://nrf.com/media-center/press-releases/nrf-says-census-data-shows-2023-holiday-sales-grew-38-record-9644",
+          "asOf": "2024-01-17"
+        },
+        {
+          "label": "NRF 2024 holiday actual",
+          "url": "https://nrf.com/media-center/press-releases/nrf-says-holiday-season-was-a-notable-success-as-consumers-came-out-to-spend-",
+          "asOf": "2025-01-16"
+        },
+        {
+          "label": "NRF 2025 holiday forecast",
+          "url": "https://nrf.com/media-center/press-releases/nrf-expects-holiday-sales-to-surpass-1-trillion-for-the-first-time-in-2025",
+          "asOf": "2025-11-06"
+        },
+        {
+          "label": "NRF Retail Monitor · 2025 holiday growth",
+          "url": "https://nrf.com/media-center/press-releases/cnbc-nrf-retail-monitor-s-december-data-shows-strong-holiday-season-spending",
+          "asOf": "2026-01-12"
+        }
+      ],
+      "noteZh": "2021–2024 使用后续年度 NRF 报告引用的回溯修订值，而非当年首次发布值；2025 点位使用 NRF 官方预测区间中值，Retail Monitor 后续报告称结果靠近预测上沿。冬礼季是总盘，光明节、圣诞节、超级星期六等不得重复相加。"
+    },
+    "super-bowl-us-planned-spend": {
+      "labelZh": "超级碗当日全美计划消费",
+      "metricType": "holiday_survey",
+      "scopeZh": "NRF / Prosper 对比赛日食品、饮料、服装、装饰等计划消费的全国调查",
+      "unit": "USD_B",
+      "targetYear": 2027,
+      "target": { "mode": "model" },
+      "history": [
+        { "year": 2022, "value": 14.6, "status": "survey_estimate" },
+        { "year": 2023, "value": 16.5, "status": "survey_estimate" },
+        { "year": 2024, "value": 17.3, "status": "survey_estimate" },
+        { "year": 2025, "value": 18.6, "status": "survey_estimate" },
+        { "year": 2026, "value": 20.2, "status": "survey_estimate" }
+      ],
+      "confidence": "中",
+      "rankable": true,
+      "categorySlices": [],
+      "sources": [
+        {
+          "label": "NRF Super Bowl data and trends",
+          "url": "https://nrf.com/research-insights/holiday-data-and-trends/super-bowl",
+          "asOf": "2026-02-01"
+        }
+      ],
+      "noteZh": "橄榄球尾箱派对季仅把超级碗单日作为代理，不代表整个 NFL / NCAA 赛季。"
+    },
+    "valentines-us-planned-spend": {
+      "labelZh": "情人节全美计划消费",
+      "metricType": "holiday_survey",
+      "scopeZh": "NRF / Prosper 美国成年人计划消费；问卷预期，不是实际结算 GMV",
+      "unit": "USD_B",
+      "targetYear": 2027,
+      "target": { "mode": "model" },
+      "history": [
+        { "year": 2022, "value": 23.9, "status": "survey_estimate" },
+        { "year": 2023, "value": 25.9, "status": "survey_estimate" },
+        { "year": 2024, "value": 25.8, "status": "survey_estimate" },
+        { "year": 2025, "value": 27.5, "status": "survey_estimate" },
+        { "year": 2026, "value": 29.1, "status": "survey_estimate" }
+      ],
+      "confidence": "中",
+      "rankable": true,
+      "categorySlices": [
+        { "label": "服装", "year": 2026, "value": 3.5, "unit": "USD_B" }
+      ],
+      "sources": [
+        {
+          "label": "NRF 2026 Valentine's Day survey",
+          "url": "https://nrf.com/media-center/press-releases/valentine-s-day-spending-expected-to-reach-new-records",
+          "asOf": "2026-01-27"
+        }
+      ],
+      "noteZh": "2027 NRF 调查尚未发布，当前值为五年趋势预测。"
+    },
+    "st-patricks-us-planned-spend": {
+      "labelZh": "圣帕特里克节全美计划消费",
+      "metricType": "holiday_survey",
+      "scopeZh": "NRF / Prosper 美国成年人计划消费；问卷预期，不是实际结算 GMV",
+      "unit": "USD_B",
+      "targetYear": 2027,
+      "target": { "mode": "model" },
+      "history": [
+        { "year": 2022, "value": 5.9, "status": "survey_estimate" },
+        { "year": 2023, "value": 6.9, "status": "survey_estimate" },
+        { "year": 2024, "value": 7.2, "status": "survey_estimate" },
+        { "year": 2025, "value": 7.0, "status": "survey_estimate" },
+        { "year": 2026, "value": 7.7, "status": "survey_estimate" }
+      ],
+      "confidence": "中",
+      "rankable": true,
+      "categorySlices": [],
+      "sources": [
+        {
+          "label": "NRF St. Patrick's Day data and trends",
+          "url": "https://nrf.com/research-insights/holiday-data-and-trends/st-patricks-day",
+          "asOf": "2026-03-10"
+        }
+      ],
+      "noteZh": "2027 NRF 调查尚未发布，当前值为五年趋势预测。"
+    },
+    "easter-us-planned-spend": {
+      "labelZh": "复活节全美计划消费",
+      "metricType": "holiday_survey",
+      "scopeZh": "NRF / Prosper 美国成年人计划消费；问卷预期，不是实际结算 GMV",
+      "unit": "USD_B",
+      "targetYear": 2027,
+      "target": { "mode": "model" },
+      "history": [
+        { "year": 2022, "value": 20.8, "status": "survey_estimate" },
+        { "year": 2023, "value": 24.0, "status": "survey_estimate" },
+        { "year": 2024, "value": 22.4, "status": "survey_estimate" },
+        { "year": 2025, "value": 23.6, "status": "survey_estimate" },
+        { "year": 2026, "value": 24.9, "status": "survey_estimate" }
+      ],
+      "confidence": "中",
+      "rankable": true,
+      "categorySlices": [
+        { "label": "服装", "year": 2024, "value": 3.5, "unit": "USD_B" }
+      ],
+      "sources": [
+        {
+          "label": "NRF Easter data and trends",
+          "url": "https://nrf.com/research-insights/holiday-data-and-trends/easter",
+          "asOf": "2026-03-01"
+        }
+      ],
+      "noteZh": "2027 NRF 调查尚未发布，当前值为五年趋势预测。"
+    },
+    "latino-economic-scale": {
+      "labelZh": "美国拉丁裔经济规模",
+      "metricType": "community_economy",
+      "scopeZh": "Latino Donor Collaborative 报告的美国拉丁裔经济规模；不是西裔传统月专项销售",
+      "unit": "USD_B",
+      "targetYear": 2026,
+      "target": { "mode": "official", "value": 4400, "status": "official_report" },
+      "history": [
+        { "year": 2021, "value": 2700, "status": "report_edition" },
+        { "year": 2022, "value": 2800, "status": "report_edition" },
+        { "year": 2023, "value": 3200, "status": "report_edition" },
+        { "year": 2024, "value": 3600, "status": "report_edition" },
+        { "year": 2025, "value": 4000, "status": "report_edition" }
+      ],
+      "confidence": "中",
+      "rankable": false,
+      "categorySlices": [],
+      "sources": [
+        {
+          "label": "LDC 2026 U.S. Latino Economic Impact Report",
+          "url": "https://latinodonorcollaborative.org/reports/2026-economic-impact-part-one/",
+          "asOf": "2026-09-21"
+        }
+      ],
+      "noteZh": "这是人群经济盘，用来判断长期市场容量；不能把 4.4 万亿美元写成 9.15–10.15 的节日 GMV。"
+    },
+    "tax-refund-cashflow": {
+      "labelZh": "美国报税季退税现金流",
+      "metricType": "cashflow_proxy",
+      "scopeZh": "IRS 2026 报税季截至 4 月 17 日累计退税；是现金流代理，不是消费额",
+      "unit": "USD_B",
+      "targetYear": 2026,
+      "target": { "mode": "official", "value": 296.1, "status": "official_partial_season" },
+      "history": [],
+      "missingYears": [2021, 2022, 2023, 2024, 2025],
+      "confidence": "低",
+      "rankable": false,
+      "categorySlices": [],
+      "sources": [
+        {
+          "label": "IRS Filing Season Statistics",
+          "url": "https://www.irs.gov/newsroom/filing-season-statistics-by-year",
+          "asOf": "2026-04-17"
+        }
+      ],
+      "noteZh": "同截止日的五年可比序列尚未整理，暂不预测 2027，也不能把退税额当作零售销售。"
+    }
+  },
+  "eventBindings": {
+    "hispanic-heritage-2026": { "profile": "latino-economic-scale", "relationship": "context", "relationshipLabel": "人群经济盘", "noteZh": "不是该文化月专项 GMV。" },
+    "football-tailgate-2026": { "profile": "super-bowl-us-planned-spend", "relationship": "proxy", "relationshipLabel": "超级碗单日代理", "noteZh": "不代表整个橄榄球赛季。" },
+    "halloween-2026": { "profile": "halloween-us-planned-spend", "relationship": "direct", "relationshipLabel": "专项消费", "noteZh": "2026 调查待 NRF 发布后替换模型值。" },
+    "thanksgiving-2026": { "profile": "thanksgiving-online-sales", "relationship": "direct", "relationshipLabel": "当日线上", "noteZh": "不含线下。" },
+    "black-friday-2026": { "profile": "black-friday-online-sales", "relationship": "direct", "relationshipLabel": "当日线上", "noteZh": "不含线下。" },
+    "small-business-saturday-2026": { "profile": "small-business-saturday-reported-spend", "relationship": "direct", "relationshipLabel": "消费者自报", "noteZh": "2025 缺年，低可信度。" },
+    "cyber-monday-2026": { "profile": "cyber-monday-online-sales", "relationship": "direct", "relationshipLabel": "当日线上", "noteZh": "不含线下。" },
+    "giving-tuesday-2026": { "profile": "giving-tuesday-us-donations", "relationship": "direct", "relationshipLabel": "单日捐赠", "noteZh": "不是零售消费。" },
+    "hanukkah-2026": { "profile": "winter-holiday-core-retail", "relationship": "included", "relationshipLabel": "包含于冬礼季", "noteZh": "没有可拆出的全国专项金额，不得重复相加。" },
+    "winter-gifting-2026": { "profile": "winter-holiday-core-retail", "relationship": "direct", "relationshipLabel": "11–12 月总盘", "noteZh": "冬礼季总盘。" },
+    "super-saturday-2026": { "profile": "winter-holiday-core-retail", "relationship": "included", "relationshipLabel": "包含于冬礼季", "noteZh": "没有可拆出的全国专项金额，不得重复相加。" },
+    "christmas-eve-2026": { "profile": "winter-holiday-core-retail", "relationship": "included", "relationshipLabel": "包含于冬礼季", "noteZh": "没有可拆出的全国专项金额，不得重复相加。" },
+    "christmas-2026": { "profile": "winter-holiday-core-retail", "relationship": "included", "relationshipLabel": "包含于冬礼季", "noteZh": "不是圣诞节当天单独 GMV，不得重复相加。" },
+    "kwanzaa-2026": { "profile": "winter-holiday-core-retail", "relationship": "included", "relationshipLabel": "包含于冬礼季", "noteZh": "没有可拆出的全国专项金额，不得重复相加。" },
+    "new-years-eve-2026": { "profile": "winter-holiday-core-retail", "relationship": "included", "relationshipLabel": "部分落在冬礼季", "noteZh": "没有跨年夜全国专项金额。" },
+    "tax-refund-season-2027": { "profile": "tax-refund-cashflow", "relationship": "context", "relationshipLabel": "退税现金流代理", "noteZh": "2027 不做无依据预测。" },
+    "super-bowl-lxi-2027": { "profile": "super-bowl-us-planned-spend", "relationship": "direct", "relationshipLabel": "比赛日专项消费", "noteZh": "2027 调查发布后替换模型值。" },
+    "valentines-day-2027": { "profile": "valentines-us-planned-spend", "relationship": "direct", "relationshipLabel": "专项消费", "noteZh": "2027 调查发布后替换模型值。" },
+    "st-patricks-day-2027": { "profile": "st-patricks-us-planned-spend", "relationship": "direct", "relationshipLabel": "专项消费", "noteZh": "2027 调查发布后替换模型值。" },
+    "easter-2027": { "profile": "easter-us-planned-spend", "relationship": "direct", "relationshipLabel": "专项消费", "noteZh": "2027 调查发布后替换模型值。" }
+  },
+  "unavailable": {
+    "defaultHeadline": "暂无统一全美专项金额",
+    "defaultNote": "公开来源未提供可比的全国专项消费序列；保留空值，不用运营强度代替美元。",
+    "eventNotes": {
+      "sukkot-2026": "宗教节日有商业需求，但暂无统一全美专项消费报告。",
+      "dia-de-los-muertos-2026": "文化消费分散且地区性强，暂无统一全美专项消费报告。",
+      "native-heritage-2026": "文化月不能用社群全年购买力冒充当月 GMV。",
+      "veterans-day-2026": "促销普遍，但暂无稳定可比的全国节日专项消费序列。",
+      "new-years-day-2027": "暂无统一全美元旦专项消费序列。",
+      "black-history-month-2027": "文化月不能用黑人消费者全年购买力冒充当月 GMV。",
+      "lunar-new-year-2027": "美国市场以地区与社群消费为主，暂无统一全国专项序列。",
+      "mardi-gras-2027": "旅游与地方经济影响明显，但暂无同口径全美专项消费序列。",
+      "washington-birthday-2027": "零售促销存在，但暂无统一全国专项消费报告。",
+      "womens-history-month-2027": "文化月不能用女性消费者全年支出冒充当月 GMV。"
+    }
+  }
+}
