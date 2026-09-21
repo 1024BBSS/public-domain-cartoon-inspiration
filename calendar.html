@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="以今天为时点的美国未来消费季、节日当天、工资现金流脉冲、IP 题材与商品运营动作日历。">
+  <title>美国消费力日历</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12'/%3E%3Cpath fill='white' d='M14 16h36v8H22v8h23v8H22v8h28v8H14z'/%3E%3C/svg%3E">
+  <link rel="alternate" type="application/json" href="data/consumer-calendar.json" title="美国消费力日历 Agent 数据">
+  <link rel="stylesheet" href="assets/tokens.css">
+  <link rel="stylesheet" href="assets/components.css">
+  <link rel="stylesheet" href="assets/consumer-calendar.css?v=1.0.0">
+  <script defer src="data/consumer-calendar.js?v=1.0.0"></script>
+  <script defer src="assets/consumer-calendar.js?v=1.0.0"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="topbar__title">美国消费力日历</div>
+      <span class="topbar__meta" id="top-meta">载入中</span>
+      <div class="topbar__spacer"></div>
+      <div class="topbar__actions">
+        <a class="btn btn--ghost btn--sm" href="index.html">美国超级 IP</a>
+        <a class="btn btn--ghost btn--sm" href="visual.html">公版视觉</a>
+        <a class="btn btn--ghost btn--sm" href="data/consumer-calendar.json" target="_blank" rel="noreferrer">Agent JSON</a>
+        <button class="btn btn--primary btn--sm" id="copy-filter" type="button">复制当前页</button>
+      </div>
+    </header>
+
+    <div class="body">
+      <aside class="sidebar calendar-sidebar" aria-label="消费日历筛选">
+        <div class="sidebar__section">
+          <div class="sidebar__label">时间窗口</div>
+          <nav class="facet-list" id="range-facets"></nav>
+        </div>
+        <div class="sidebar__section">
+          <div class="sidebar__label">节点类型</div>
+          <nav class="facet-list" id="type-facets"></nav>
+        </div>
+        <div class="sidebar__section">
+          <div class="sidebar__label">叠加层</div>
+          <label class="layer-toggle"><input id="payday-toggle" type="checkbox" checked><span>发薪脉冲</span></label>
+          <label class="layer-toggle"><input id="region-toggle" type="checkbox" checked><span>地区热力</span></label>
+        </div>
+        <div class="sidebar__section sidebar__section--tail">
+          <p class="boundary-note">日期是事实；消费季和运营动作是建议。热力不是销量，发薪不是全国统一到账日。</p>
+        </div>
+      </aside>
+
+      <main class="main calendar-main" id="main-content">
+        <section class="calendar-toolbar" aria-label="搜索与条件">
+          <label class="search-field">
+            <span class="sr-only">搜索节点</span>
+            <input class="input" id="search" type="search" autocomplete="off" placeholder="搜节日、场景、受众、题材或 IP">
+          </label>
+          <select class="select compact-select" id="range-select" aria-label="时间窗口">
+            <option value="90">未来 90 天</option>
+            <option value="180">未来 180 天</option>
+            <option value="all">全部资料</option>
+          </select>
+          <select class="select compact-select" id="type-select" aria-label="节点类型">
+            <option value="全部">全部类型</option>
+          </select>
+          <select class="select compact-select" id="priority-select" aria-label="运营强度">
+            <option value="0">全部强度</option>
+            <option value="5">只看强节点</option>
+            <option value="4" selected>4 级以上</option>
+            <option value="3">3 级以上</option>
+          </select>
+          <button class="btn btn--secondary" id="reset" type="button">重置</button>
+        </section>
+
+        <section class="calendar-kpis" aria-label="未来窗口摘要">
+          <div class="calendar-kpi"><strong id="today-label">—</strong><span>今天</span></div>
+          <div class="calendar-kpi"><strong id="window-label">—</strong><span>观察窗口</span></div>
+          <div class="calendar-kpi"><strong id="active-count">0</strong><span>相交消费季</span></div>
+          <div class="calendar-kpi"><strong id="next-anchor">—</strong><span>下一个当天节点</span></div>
+        </section>
+
+        <section class="boundary-strip" aria-label="口径说明">
+          <span class="boundary-dot boundary-dot--fact"></span><b>事实</b><span>节日 / 公开日期</span>
+          <span class="boundary-dot boundary-dot--model"></span><b>建议</b><span>消费季与运营倒排</span>
+          <span class="boundary-dot boundary-dot--cash"></span><b>现金流</b><span>结构性脉冲，不是全国发薪日</span>
+        </section>
+
+        <section class="panel payday-panel" id="payday-panel">
+          <div class="panel__head calendar-panel-head">
+            <div>
+              <div class="panel__title">发薪脉冲</div>
+              <div class="panel__sub">周五主峰 + 月初 / 月中 + 月末薄层</div>
+            </div>
+            <a class="source-link" id="payday-source" target="_blank" rel="noreferrer">BLS 口径</a>
+          </div>
+          <div class="payday-distribution" id="payday-distribution"></div>
+          <div class="timeline-shell timeline-shell--cash">
+            <div class="timeline-axis" id="payday-axis"></div>
+            <div class="cash-track" id="cash-track" aria-label="工资现金流观察窗"></div>
+          </div>
+          <p class="inline-warning" id="payday-warning"></p>
+        </section>
+
+        <section class="panel gantt-panel">
+          <div class="panel__head calendar-panel-head">
+            <div>
+              <div class="panel__title">消费季甘特</div>
+              <div class="panel__sub"><span id="result-count">0</span> 个节点 · 点击一行看运营动作与关联 IP</div>
+            </div>
+            <div class="gantt-legend" aria-label="甘特图图例">
+              <span><i class="legend-season"></i>消费季</span>
+              <span><i class="legend-peak"></i>高峰</span>
+              <span><i class="legend-anchor"></i>当天</span>
+            </div>
+          </div>
+          <div class="gantt-table" id="gantt-table">
+            <div class="gantt-axis-row">
+              <div class="gantt-axis-title">节点 / 当天</div>
+              <div class="timeline-axis" id="event-axis"></div>
+            </div>
+            <div id="event-rows"></div>
+          </div>
+          <div class="empty" id="empty-state" hidden>
+            <div class="empty__title">没有匹配节点</div>
+            <div class="dim">缩短关键词或清空筛选。</div>
+            <button class="btn btn--secondary btn--sm" id="empty-reset" type="button">清空筛选</button>
+          </div>
+        </section>
+
+        <section class="panel event-detail" id="event-detail" aria-live="polite">
+          <div class="detail-main-head">
+            <div>
+              <div class="eyebrow" id="detail-type">—</div>
+              <h1 id="detail-title">选择一个消费节点</h1>
+              <p id="detail-subtitle">点击上方甘特行，查看当天、消费季、运营倒排和关联 IP。</p>
+            </div>
+            <div class="detail-status" id="detail-status"></div>
+          </div>
+
+          <div class="detail-columns">
+            <section class="detail-block detail-block--operations">
+              <div class="detail-block__head"><h2>商品运营倒排</h2><span>建议层</span></div>
+              <div class="operation-list" id="operation-list"></div>
+            </section>
+            <section class="detail-block">
+              <div class="detail-block__head"><h2>题材与边界</h2><span id="detail-evidence">—</span></div>
+              <dl class="compact-dl">
+                <div><dt>受众</dt><dd id="detail-audiences">—</dd></div>
+                <div><dt>可做</dt><dd id="detail-angles">—</dd></div>
+                <div><dt>避开</dt><dd id="detail-avoid">—</dd></div>
+              </dl>
+              <div class="detail-links" id="visual-links"></div>
+              <a class="btn btn--secondary btn--sm" id="detail-source" target="_blank" rel="noreferrer">核验日期来源</a>
+            </section>
+          </div>
+
+          <section class="detail-block related-ip-block">
+            <div class="detail-block__head"><h2>关联 IP / 视觉母题</h2><span>点击进入现有库</span></div>
+            <div class="related-ip-grid" id="related-ip-grid"></div>
+          </section>
+        </section>
+
+        <section class="panel region-panel" id="region-panel">
+          <div class="panel__head calendar-panel-head">
+            <div>
+              <div class="panel__title">地区运营热力</div>
+              <div class="panel__sub" id="region-subtitle">可见节点的规则型优先级</div>
+            </div>
+            <div class="region-mode" role="group" aria-label="热力口径">
+              <button class="btn btn--secondary btn--sm is-active" id="region-visible" type="button">当前窗口</button>
+              <button class="btn btn--ghost btn--sm" id="region-selected" type="button">所选节点</button>
+            </div>
+          </div>
+          <div class="region-layout">
+            <div class="region-map" id="region-map" aria-label="美国 Census 四区运营优先级"></div>
+            <div class="region-copy">
+              <div class="region-ranking" id="region-ranking"></div>
+              <p id="region-note"></p>
+              <a class="source-link" id="region-source" target="_blank" rel="noreferrer">Census 四区口径</a>
+            </div>
+          </div>
+          <p class="inline-warning" id="region-warning"></p>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

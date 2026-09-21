@@ -694,3 +694,22 @@
 @media (prefers-reduced-motion: reduce) {
   .ip-card { transition: none; }
 }
+.detail-calendar-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.calendar-link {
+  color: var(--text-2);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 3px 7px;
+  font-size: var(--text-xs);
+}
+
+.calendar-link:hover {
+  color: var(--text);
+  border-color: var(--border-strong);
+}

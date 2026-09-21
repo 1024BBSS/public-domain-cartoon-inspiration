@@ -9,9 +9,10 @@
   <link rel="alternate" type="application/json" href="data/super-ip-us.json" title="美国超级 IP 与权利机会数据">
   <link rel="stylesheet" href="assets/tokens.css">
   <link rel="stylesheet" href="assets/components.css">
-  <link rel="stylesheet" href="assets/super-ip.css?v=1.4.0">
-  <script defer src="data/super-ip-us.js?v=1.4.0"></script>
-  <script defer src="assets/super-ip.js?v=1.4.0"></script>
+  <link rel="stylesheet" href="assets/super-ip.css?v=1.5.0">
+  <script defer src="data/super-ip-us.js?v=1.5.0"></script>
+  <script defer src="data/consumer-calendar.js?v=1.0.0"></script>
+  <script defer src="assets/super-ip.js?v=1.5.0"></script>
 </head>
 <body>
   <div class="app">
@@ -20,6 +21,7 @@
       <span class="topbar__meta" id="top-meta">载入中</span>
       <div class="topbar__spacer"></div>
       <div class="topbar__actions">
+        <a class="btn btn--ghost btn--sm" href="calendar.html">消费日历</a>
         <a class="btn btn--ghost btn--sm" href="visual.html">公版视觉</a>
         <a class="btn btn--ghost btn--sm" href="albums.html">专辑封面</a>
         <a class="btn btn--ghost btn--sm" href="data/super-ip-us.json" target="_blank" rel="noreferrer">Agent JSON</a>
@@ -140,6 +142,7 @@
         <div><dt>视觉线索</dt><dd id="detail-motifs"></dd></div>
         <div><dt>构图提示</dt><dd id="detail-composition"></dd></div>
         <div><dt>视觉图源</dt><dd id="detail-visual-source-copy"></dd></div>
+        <div><dt>消费节点</dt><dd class="detail-calendar-links" id="detail-calendar-links"></dd></div>
         <div><dt>证据与来源</dt><dd id="detail-evidence"></dd></div>
       </dl>
       <div class="detail-actions">

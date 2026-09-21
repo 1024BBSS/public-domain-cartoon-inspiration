@@ -2,6 +2,7 @@
   "use strict";
 
   const dataset = window.SUPER_IP_US_DATA;
+  const calendarEvents = window.CONSUMER_CALENDAR_DATA?.events || [];
   if (!dataset?.records?.length) {
     document.body.textContent = "美国超级 IP 数据载入失败。";
     return;
@@ -53,6 +54,7 @@
     detailMotifs: $("#detail-motifs"),
     detailComposition: $("#detail-composition"),
     detailVisualSourceCopy: $("#detail-visual-source-copy"),
+    detailCalendarLinks: $("#detail-calendar-links"),
     detailEvidence: $("#detail-evidence"),
     detailSource: $("#detail-source"),
     detailProof: $("#detail-proof"),
@@ -505,6 +507,20 @@
     return el("span", `badge${className ? ` ${className}` : ""}`, text);
   }
 
+  function linkedCalendarEvents(item) {
+    return calendarEvents.filter((event) => event.relatedIps?.some((ip) => ip.id === item.id));
+  }
+
+  function renderCalendarLinks(item) {
+    const events = linkedCalendarEvents(item);
+    if (!events.length) return [el("span", "dim", "当前未建立直接节点")];
+    return events.slice(0, 8).map((event) => {
+      const link = el("a", "calendar-link", event.nameZh);
+      link.href = `calendar.html?event=${encodeURIComponent(event.id)}&range=all`;
+      return link;
+    });
+  }
+
   function openDetail(item) {
     currentItem = item;
     const shownPath = displayTaxonomy(item);
@@ -531,6 +547,7 @@
     dom.detailMotifs.textContent = item.visualElements?.length ? item.visualElements.join(" · ") : item.motifs?.length ? item.motifs.join(" · ") : "待补";
     dom.detailComposition.textContent = item.visualComposition || "待补";
     dom.detailVisualSourceCopy.textContent = `${visualItems(item).length} 件视觉。${item.visualStatus || "视觉 DNA"}。${item.visualSourceLabel || "无外部图源"}。${item.visualRightsNote || "仅作研究线索，生产前逐素材核验。"}`;
+    dom.detailCalendarLinks.replaceChildren(...renderCalendarLinks(item));
     const evidenceDate = item.evidenceDate ? `；口径日期 ${item.evidenceDate}` : "";
     dom.detailEvidence.textContent = `${item.evidenceType}；${item.evidenceStatus}${evidenceDate}。${item.sourceLabel}：${item.sourceRole}`;
     dom.detailSource.href = item.sourceUrl;

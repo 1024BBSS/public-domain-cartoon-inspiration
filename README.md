@@ -2,6 +2,8 @@
 
 网站首页 `index.html` 是美国超级 IP 与权利机会库。原公版视觉灵感库保留为 `visual.html`，关系结构是“角色 / 主体 → 作品 → 画面”，同时提供场景与节日入口。旧链接 `super-ip.html` 会保留查询条件并转入首页。
 
+`calendar.html` 是美国消费力日历。默认从打开当天看未来 90 天，把消费季画成甘特条、把节日当天钉在时间轴上，并叠加 BLS 发薪周期脉冲、商品运营倒排、现有 IP / 视觉题材与 Census 四区运营热力。事实日期、编辑型消费窗口和运营建议分层显示；地区热力不是销量，发薪层也不是全国统一到账日。Agent 使用 `data/consumer-calendar.json`，超级 IP 详情可反向进入相关消费节点。
+
 当前另有 `albums.html`：以 200 张近 70 年经典封面为母库，可按封面或艺人进入，并按年代、音乐类型与视觉方法检索；另保留公版历史封面、“鹰翼摇滚”和“西部乡村”专题。现代封面只作研究，不作公版素材。
 
 首页当前包含 6,864 个美区高知名候选，其中 6,520 个文娱文化候选、6,251 个美国全民级候选、6,242 个 `100M+ 认知等效`、3 个 `100M+ 直接人数`，以及 284 个体育赛事、联盟、球队或运动员。文娱层覆盖角色动画、影视电视、演员与主持、音乐、游戏、书籍、舞台、媒体、播客、网络创作者与艺术活动。认知等效使用 YouGov Fame 百分比乘以 2020 美国成年人口，仅用于全国认知筛选，不是独立观众、销量或商业授权。
@@ -55,6 +57,8 @@ node tools/refresh-wikidata-taxonomy.mjs
 node tools/refresh-super-ip-visual-sources.mjs
 node tools/build-super-ip.mjs
 node tools/validate-super-ip.mjs
+node tools/build-consumer-calendar.mjs
+node tools/validate-consumer-calendar.mjs
 ```
 
 构建会从 Eagle 事实源读取图片、生成 960px WebP 预览、重建公开目录与关系数据，并重新复制指定设计系统的 `tokens.css` 与 `components.css`。
