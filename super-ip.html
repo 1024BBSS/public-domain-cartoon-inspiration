@@ -70,9 +70,10 @@
         <section class="summary-strip" aria-label="资料库统计">
           <div class="summary-metric"><span id="metric-all">0</span><small>候选</small></div>
           <div class="summary-metric summary-metric--verified"><span id="metric-s">0</span><small>美国全民级</small></div>
-          <div class="summary-metric"><span id="metric-sports">0</span><small>体育</small></div>
-          <div class="summary-metric"><span id="metric-public">0</span><small>文化公域线索</small></div>
-          <p class="summary-rule">先按美国全民级候选浏览；100M+ 实测只作证据层。S / A 不等于商业许可。</p>
+          <div class="summary-metric summary-metric--verified"><span id="metric-survey">0</span><small>100M+ 认知等效</small></div>
+          <div class="summary-metric"><span id="metric-direct">0</span><small>100M+ 直接人数</small></div>
+          <div class="summary-metric"><span id="metric-visual">0</span><small>视觉参考</small></div>
+          <p class="summary-rule">认知等效＝YouGov Fame × 2020 美国成年人口；不是独立观众。识别参考图也不是可生产素材。</p>
         </section>
 
         <section class="result-head" aria-live="polite">
@@ -105,18 +106,24 @@
       <div class="eyebrow" id="detail-kind"></div>
       <h1 id="detail-title"></h1>
       <p class="detail-subtitle" id="detail-subtitle"></p>
+      <div class="detail-visual-panel" id="detail-visual-panel"></div>
       <div class="badge-row" id="detail-badges"></div>
       <dl class="detail-list">
         <div><dt>美国知名度</dt><dd id="detail-awareness"></dd></div>
+        <div><dt>美国认知调查</dt><dd id="detail-survey"></dd></div>
         <div><dt>权利入口</dt><dd id="detail-rights"></dd></div>
         <div><dt>可取</dt><dd id="detail-use"></dd></div>
         <div><dt>避开</dt><dd id="detail-avoid"></dd></div>
         <div><dt>视觉线索</dt><dd id="detail-motifs"></dd></div>
+        <div><dt>构图提示</dt><dd id="detail-composition"></dd></div>
+        <div><dt>视觉图源</dt><dd id="detail-visual-source-copy"></dd></div>
         <div><dt>证据与来源</dt><dd id="detail-evidence"></dd></div>
       </dl>
       <div class="detail-actions">
         <a class="btn btn--secondary" id="detail-source" target="_blank" rel="noreferrer">权利 / 类别入口</a>
         <a class="btn btn--secondary" id="detail-proof" target="_blank" rel="noreferrer" hidden>查看人数证据</a>
+        <a class="btn btn--secondary" id="detail-survey-source" target="_blank" rel="noreferrer" hidden>查看认知调查</a>
+        <a class="btn btn--secondary" id="detail-visual-source" target="_blank" rel="noreferrer" hidden>查看视觉图源</a>
         <a class="btn btn--secondary" id="detail-visual" href="index.html">搜公版视觉</a>
         <button class="btn btn--primary" id="copy-item" type="button">复制这条</button>
       </div>

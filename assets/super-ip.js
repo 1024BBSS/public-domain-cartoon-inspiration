@@ -34,14 +34,20 @@
     detailTitle: $("#detail-title"),
     detailSubtitle: $("#detail-subtitle"),
     detailBadges: $("#detail-badges"),
+    detailVisualPanel: $("#detail-visual-panel"),
     detailAwareness: $("#detail-awareness"),
+    detailSurvey: $("#detail-survey"),
     detailRights: $("#detail-rights"),
     detailUse: $("#detail-use"),
     detailAvoid: $("#detail-avoid"),
     detailMotifs: $("#detail-motifs"),
+    detailComposition: $("#detail-composition"),
+    detailVisualSourceCopy: $("#detail-visual-source-copy"),
     detailEvidence: $("#detail-evidence"),
     detailSource: $("#detail-source"),
     detailProof: $("#detail-proof"),
+    detailSurveySource: $("#detail-survey-source"),
+    detailVisualSource: $("#detail-visual-source"),
     detailVisual: $("#detail-visual"),
     copyItem: $("#copy-item"),
   };
@@ -57,6 +63,9 @@
       record.subcategory,
       record.entityType,
       record.motifs,
+      record.visualElements,
+      record.visualComposition,
+      record.visualStatus,
       record.rightsLane,
     ].flat().join(" ")),
   }));
@@ -66,7 +75,9 @@
   const quickOptions = [
     { key: "全部", label: "全部", test: () => true },
     { key: "全民级", label: "美国全民级", test: (item) => item.usTier.startsWith("S") },
-    { key: "100M+实测", label: "100M+ 实测", test: (item) => item.reachStatus.startsWith("100M+") },
+    { key: "100M+认知等效", label: "100M+ 认知等效", test: (item) => item.surveyQualifies100m === true },
+    { key: "100M+直接人数", label: "100M+ 直接人数", test: (item) => item.reachStatus.startsWith("100M+") },
+    { key: "有参考图", label: "有参考图", test: (item) => Boolean(item.visualImage) },
     { key: "体育运动", label: "体育运动", test: (item) => item.category === "体育运动" },
     { key: "动画 / 角色", label: "角色卡通", test: (item) => item.category === "动画 / 角色" },
     { key: "电影 / 电视", label: "影视", test: (item) => item.category === "电影 / 电视" },
@@ -84,7 +95,11 @@
 
   function readState() {
     const params = new URLSearchParams(location.search);
-    const requestedQuick = params.get("quick") === "100M+" ? "全民级" : params.get("quick");
+    const legacyQuick = {
+      "100M+": "全民级",
+      "100M+实测": "100M+直接人数",
+    };
+    const requestedQuick = legacyQuick[params.get("quick")] || params.get("quick");
     const quick = quickOptions.some((item) => item.key === requestedQuick) ? requestedQuick : "全部";
     const quickOwnsScope = quick !== "全部";
     return {
@@ -151,7 +166,9 @@
       if (state.sort === "category") return a.category.localeCompare(b.category, "zh-CN") || a.subcategory.localeCompare(b.subcategory, "zh-CN") || a.name.localeCompare(b.name, "en");
       const exactA = a.reachStatus.startsWith("100M+") ? 0 : 1;
       const exactB = b.reachStatus.startsWith("100M+") ? 0 : 1;
-      return exactA - exactB || tierRank(a) - tierRank(b) || a.category.localeCompare(b.category, "zh-CN") || a.name.localeCompare(b.name, "en");
+      const fameA = Number(a.surveyFamePercent) || 0;
+      const fameB = Number(b.surveyFamePercent) || 0;
+      return exactA - exactB || fameB - fameA || tierRank(a) - tierRank(b) || a.category.localeCompare(b.category, "zh-CN") || a.name.localeCompare(b.name, "en");
     });
   }
 
@@ -201,18 +218,70 @@
     return item.usTier.startsWith("S") ? "S · 全民级候选" : "A · 高知名候选";
   }
 
+  function visualModeLabel(item) {
+    if (item.visualImageMode === "public-domain-library") return "公版图库";
+    if (item.visualImageMode === "recognition-reference") return "识别参考";
+    return "视觉 DNA";
+  }
+
+  function visualDna(item, detail = false) {
+    const wrap = el("div", `visual-dna${detail ? " visual-dna--detail" : ""}`);
+    const mark = el("div", "visual-dna__mark", categoryMark(item));
+    const title = el("div", "visual-dna__title", item.nameZh || item.name);
+    const cues = el("div", "visual-dna__cues");
+    (item.visualElements || item.motifs || []).slice(0, detail ? 4 : 2).forEach((cue) => cues.append(el("span", "visual-dna__cue", cue)));
+    const bars = el("div", "visual-dna__bars");
+    (item.visualPalette || ["#111111", "#F4F4F4", "#777777", "#D6D6D6"]).slice(0, 4).forEach((color) => {
+      const bar = el("span", "visual-dna__bar");
+      bar.style.backgroundColor = color;
+      bar.title = color;
+      bars.append(bar);
+    });
+    wrap.append(mark, title, cues, bars);
+    return wrap;
+  }
+
+  function renderVisual(item, options = {}) {
+    const detail = options.detail === true;
+    const frame = el("div", `ip-visual${detail ? " ip-visual--detail" : ""}`);
+    const mode = el("span", "ip-visual__mode", visualModeLabel(item));
+    if (!item.visualImage) {
+      frame.append(visualDna(item, detail), mode);
+      return frame;
+    }
+    const image = document.createElement("img");
+    image.className = "ip-visual__image";
+    image.src = item.visualImage;
+    image.alt = `${item.nameZh || item.name}｜${visualModeLabel(item)}`;
+    image.loading = detail ? "eager" : "lazy";
+    image.decoding = "async";
+    image.referrerPolicy = "no-referrer";
+    image.addEventListener("error", () => {
+      frame.replaceChildren(visualDna(item, detail), mode);
+    }, { once: true });
+    frame.append(image, mode);
+    return frame;
+  }
+
   function card(item) {
     const button = el("button", "ip-card");
     button.type = "button";
+    const body = el("div", "ip-card__body");
     const top = el("div", "ip-card__top");
     top.append(el("span", "ip-card__mark", categoryMark(item)), el("span", "ip-card__tier", compactTier(item)));
-    button.append(top, el("h2", "ip-card__title", item.name), el("div", "ip-card__zh", item.nameZh || item.subcategory));
+    body.append(top, el("h2", "ip-card__title", item.name), el("div", "ip-card__zh", item.nameZh || item.subcategory));
+    const cues = el("div", "ip-card__cues");
+    (item.visualElements || item.motifs || []).slice(0, 3).forEach((cue) => cues.append(el("span", "ip-card__cue", cue)));
+    body.append(cues);
     const status = item.reachStatus.startsWith("100M+")
-      ? el("span", "status-badge status-badge--verified", "100M+ 已核验")
+      ? el("span", "status-badge status-badge--verified", "100M+ 直接人数")
+      : item.surveyQualifies100m
+        ? el("span", "status-badge status-badge--survey", `认知 ${item.surveyFamePercent}%`)
       : el("span", item.rightsLane.includes("授权") ? "status-badge status-badge--licensed" : "status-badge", item.rightsLane);
     const foot = el("div", "ip-card__foot");
     foot.append(el("span", "ip-card__path", `${item.category} · ${item.subcategory}`), status);
-    button.append(foot);
+    body.append(foot);
+    button.append(renderVisual(item), body);
     button.addEventListener("click", () => openDetail(item));
     return button;
   }
@@ -229,19 +298,29 @@
     dom.detailBadges.replaceChildren(
       badge(compactTier(item)),
       badge(item.rightsLane, item.rightsLane.includes("授权") ? "badge--warn" : ""),
-      badge(item.evidenceStatus, item.reachStatus.startsWith("100M+") ? "badge--ok" : ""),
+      badge(item.reachStatus.startsWith("100M+") ? "100M+ 直接人数" : item.surveyFamePercent ? `YouGov Fame ${item.surveyFamePercent}%` : item.evidenceStatus, item.reachStatus.startsWith("100M+") || item.surveyQualifies100m ? "badge--ok" : ""),
     );
+    dom.detailVisualPanel.replaceChildren(renderVisual(item, { detail: true }));
     const evidenceValue = item.evidenceValue ? `${Number(item.evidenceValue).toLocaleString("en-US")} ${item.evidenceUnit}` : "未填同口径人数";
     dom.detailAwareness.textContent = `${item.usTier}。${item.reachStatus}。${evidenceValue}。`;
+    dom.detailSurvey.textContent = item.surveyFamePercent
+      ? `YouGov Fame ${item.surveyFamePercent}%；按 2020 美国成年人口折算约 ${(Number(item.surveyPopulationEquivalent) / 1000000).toFixed(1)}M。调查认知等效，不是独立观众、销量或授权证明。口径：${item.surveyPeriod || "待复核"}。`
+      : "待补美国全国同口径认知调查。";
     dom.detailRights.textContent = `${item.rightsLane}。权利主体 / 路由：${item.rightsOwnerContext}。`;
     dom.detailUse.textContent = item.useRoute;
     dom.detailAvoid.textContent = item.avoid;
-    dom.detailMotifs.textContent = item.motifs?.length ? item.motifs.join(" · ") : "待补";
+    dom.detailMotifs.textContent = item.visualElements?.length ? item.visualElements.join(" · ") : item.motifs?.length ? item.motifs.join(" · ") : "待补";
+    dom.detailComposition.textContent = item.visualComposition || "待补";
+    dom.detailVisualSourceCopy.textContent = `${item.visualStatus || "视觉 DNA"}。${item.visualSourceLabel || "无外部图源"}。${item.visualRightsNote || "仅作研究线索，生产前逐素材核验。"}`;
     const evidenceDate = item.evidenceDate ? `；口径日期 ${item.evidenceDate}` : "";
     dom.detailEvidence.textContent = `${item.evidenceType}；${item.evidenceStatus}${evidenceDate}。${item.sourceLabel}：${item.sourceRole}`;
     dom.detailSource.href = item.sourceUrl;
     dom.detailProof.hidden = !item.evidenceUrl;
     if (item.evidenceUrl) dom.detailProof.href = item.evidenceUrl;
+    dom.detailSurveySource.hidden = !item.surveySourceUrl;
+    if (item.surveySourceUrl) dom.detailSurveySource.href = item.surveySourceUrl;
+    dom.detailVisualSource.hidden = !item.visualSourceUrl;
+    if (item.visualSourceUrl) dom.detailVisualSource.href = item.visualSourceUrl;
     dom.detailVisual.href = `index.html?view=roles&q=${encodeURIComponent(item.nameZh || item.name)}`;
     dom.dialog.showModal();
   }
@@ -259,7 +338,10 @@
       `${item.name}${item.nameZh ? `｜${item.nameZh}` : ""}`,
       `${item.category} / ${item.subcategory}`,
       `美国知名度：${item.usTier}；${item.reachStatus}`,
+      item.surveyFamePercent ? `美国认知：YouGov Fame ${item.surveyFamePercent}%；约 ${(Number(item.surveyPopulationEquivalent) / 1000000).toFixed(1)}M 成年人口等效；非独立观众` : "美国认知：待补全国同口径调查",
       `权利入口：${item.rightsLane}`,
+      `视觉元素：${(item.visualElements || item.motifs || []).join("、")}`,
+      `构图：${item.visualComposition || "待补"}`,
       `可取：${item.useRoute}`,
       `避开：${item.avoid}`,
       `来源：${item.sourceUrl}`,
@@ -303,8 +385,9 @@
   dom.topMeta.textContent = `${dataset.counts.records.toLocaleString("en-US")} 候选 · ${dataset.counts.sports.toLocaleString("en-US")} 体育`;
   $("#metric-all").textContent = dataset.counts.records.toLocaleString("en-US");
   $("#metric-s").textContent = (dataset.counts.byUsTier["S｜美国全民级候选"] || 0).toLocaleString("en-US");
-  $("#metric-sports").textContent = dataset.counts.sports.toLocaleString("en-US");
-  $("#metric-public").textContent = (dataset.counts.byRightsLane["文化公域 · 逐素材核验"] || 0).toLocaleString("en-US");
+  $("#metric-survey").textContent = (dataset.counts.survey100mEquivalent || 0).toLocaleString("en-US");
+  $("#metric-direct").textContent = (dataset.counts.direct100mEvidence || 0).toLocaleString("en-US");
+  $("#metric-visual").textContent = (dataset.counts.visualReferences || 0).toLocaleString("en-US");
 
   let searchTimer = 0;
   dom.search.addEventListener("input", () => {
