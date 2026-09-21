@@ -10,15 +10,17 @@ const sourcePath = path.join(projectRoot, "source", "super-ip-us-seed.json");
 const surveyPath = path.join(projectRoot, "source", "yougov-us-fame.json");
 const visualProfilesPath = path.join(projectRoot, "source", "super-ip-visual-profiles.json");
 const wikidataTaxonomyPath = path.join(projectRoot, "source", "wikidata-taxonomy.json");
+const visualSourcesPath = path.join(projectRoot, "source", "super-ip-visual-sources.json");
 const dataRoot = path.join(projectRoot, "data");
 const catalogPath = path.join(dataRoot, "catalog.json");
 const entitiesRoot = path.join(dataRoot, "entities");
 
-const [seed, surveySnapshot, visualProfiles, wikidataTaxonomy, catalog] = await Promise.all([
+const [seed, surveySnapshot, visualProfiles, wikidataTaxonomy, visualSources, catalog] = await Promise.all([
   fs.readFile(sourcePath, "utf8").then(JSON.parse),
   fs.readFile(surveyPath, "utf8").then(JSON.parse),
   fs.readFile(visualProfilesPath, "utf8").then(JSON.parse),
   fs.readFile(wikidataTaxonomyPath, "utf8").then(JSON.parse).catch(() => ({ records: [], stats: {} })),
+  fs.readFile(visualSourcesPath, "utf8").then(JSON.parse).catch(() => ({ records: {}, stats: {} })),
   fs.readFile(catalogPath, "utf8").then(JSON.parse),
 ]);
 
@@ -133,17 +135,6 @@ const PUBLIC_VISUAL_ALIASES = new Map([
   ["steamboat willie mickey", "mickey mouse"],
   ["jesus christ", "jesus"],
   ["nativity of jesus", "nativity"],
-  ["zeus", "奥林匹斯诸神"],
-  ["hera", "奥林匹斯诸神"],
-  ["athena", "奥林匹斯诸神"],
-  ["apollo", "奥林匹斯诸神"],
-  ["ares", "奥林匹斯诸神"],
-  ["aphrodite", "奥林匹斯诸神"],
-  ["hermes", "奥林匹斯诸神"],
-  ["poseidon", "奥林匹斯诸神"],
-  ["hades", "奥林匹斯诸神"],
-  ["demeter", "奥林匹斯诸神"],
-  ["artemis", "奥林匹斯诸神"],
 ]);
 
 function findPublicVisual(record) {
@@ -357,6 +348,72 @@ for (const record of records) {
   }
 }
 
+const visualSourceById = new Map(Object.entries(visualSources.records || {}));
+for (const record of records) {
+  const supplement = visualSourceById.get(record.id);
+  const supplied = (supplement?.images || []).map((image) => ({
+    imageUrl: image.imageUrl,
+    originalUrl: image.originalUrl || image.imageUrl,
+    sourceUrl: image.sourceUrl,
+    sourceLabel: image.sourceLabel || "开放视觉来源",
+    sourceKind: image.sourceKind || "open-visual-source",
+    title: image.title || record.name,
+    creator: image.creator || "作者待复核",
+    date: image.date || "年代待复核",
+    medium: image.medium || image.visualType || "媒介待复核",
+    visualType: image.visualType || image.medium || "媒介待复核",
+    license: image.license || "许可待复核",
+    licenseUrl: image.licenseUrl || image.sourceUrl,
+    licenseClass: image.licenseClass || "unknown",
+    rightsNote: image.rightsNote || "逐图核验文件页许可；题材与商品化权利另核。",
+  }));
+  const existing = record.visualImage ? [{
+    imageUrl: record.visualImage,
+    originalUrl: record.visualImage,
+    sourceUrl: record.visualSourceUrl,
+    sourceLabel: record.visualSourceLabel,
+    sourceKind: record.visualImageMode,
+    title: record.nameZh || record.name,
+    creator: "来源页待复核",
+    date: "年代待复核",
+    medium: "识别参考",
+    visualType: "识别参考",
+    license: record.visualImageMode === "public-domain-library" ? "Public Domain / Open Access · 逐图核验" : "仅识别参考 · 不可作生产素材",
+    licenseUrl: record.visualSourceUrl,
+    licenseClass: record.visualImageMode === "public-domain-library" ? "public-domain" : "restricted-reference",
+    rightsNote: record.visualRightsNote,
+  }] : [];
+  const merged = [];
+  const seenVisuals = new Set();
+  for (const image of [...supplied, ...(record.category === "宗教 / 神话" ? [] : existing)]) {
+    const key = image.sourceUrl || image.originalUrl || image.imageUrl;
+    if (!key || seenVisuals.has(key)) continue;
+    seenVisuals.add(key);
+    merged.push(image);
+  }
+  const visualLineage = merged.length ? merged : existing;
+  if (record.category === "宗教 / 神话") {
+    record.visualImages = visualLineage;
+  } else {
+    // Keep the main catalogue lean: non-lineage records use the primary image
+    // fields, while their full research metadata remains in the source manifest.
+    delete record.visualImages;
+  }
+  if (supplied.length) {
+    const primary = supplied[0];
+    record.visualImage = primary.imageUrl;
+    record.visualImageMode = primary.licenseClass === "public-domain"
+      ? "public-domain-reference"
+      : "open-license-reference";
+    record.visualSourceUrl = primary.sourceUrl;
+    record.visualSourceLabel = `${primary.sourceLabel} · ${supplied.length} 件视觉`;
+    record.visualStatus = record.category === "宗教 / 神话"
+      ? `${supplied.length} 件历史形象谱系 · 逐图核验`
+      : "开放图源识别参考 · 逐图核验";
+    record.visualRightsNote = `${primary.rightsNote} 图像许可不自动开放角色、商标、肖像、官方标志或后期改编。`;
+  }
+}
+
 if (records.length < 300) throw new Error(`Expected at least 300 records, got ${records.length}`);
 const sportsCount = records.filter((item) => item.category === "体育运动").length;
 if (sportsCount < 100) throw new Error(`Expected at least 100 sports records, got ${sportsCount}`);
@@ -391,7 +448,7 @@ const nestedTaxonomyCounts = taxonomyCounts();
 
 const dataset = {
   schemaVersion: "1.3",
-  sourceVersion: `${seed.sourceVersion}+${surveySnapshot.sourceVersion}`,
+  sourceVersion: `${seed.sourceVersion}+${surveySnapshot.sourceVersion}+visual-${visualSources.schemaVersion || "0"}`,
   generatedAt: new Date().toISOString(),
   market: "United States",
   title: "美国超级 IP 与权利机会库",
@@ -440,7 +497,11 @@ const dataset = {
     surveyEvidence: records.filter((item) => Number.isFinite(item.surveyFamePercent)).length,
     survey100mEquivalent: records.filter((item) => item.surveyQualifies100m).length,
     visualReferences: records.filter((item) => item.visualImage).length,
+    visualSourceImages: records.reduce((sum, item) => sum + Math.max(item.visualImages?.length || 0, item.visualImage ? 1 : 0), 0),
+    religionLineageRecords: records.filter((item) => item.category === "宗教 / 神话" && item.visualImages?.length >= 3).length,
     publicDomainVisuals: records.filter((item) => item.visualImageMode === "public-domain-library").length,
+    publicDomainReferenceVisuals: records.filter((item) => item.visualImageMode === "public-domain-reference").length,
+    openLicenseReferenceVisuals: records.filter((item) => item.visualImageMode === "open-license-reference").length,
     recognitionReferenceVisuals: records.filter((item) => item.visualImageMode === "recognition-reference").length,
     byCategory: countBy("category"),
     byRightsLane: countBy("rightsLane"),

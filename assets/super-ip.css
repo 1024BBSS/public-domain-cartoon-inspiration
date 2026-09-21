@@ -519,6 +519,93 @@
 .detail-subtitle { margin: 0 0 var(--space-3); color: var(--text-2); }
 .detail-visual-panel { margin: 0 0 var(--space-4); }
 
+.visual-gallery-section {
+  min-width: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.visual-gallery-header {
+  min-height: var(--control-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: 0 var(--space-3);
+  border-bottom: 1px solid var(--border);
+  color: var(--text-3);
+  font-size: var(--text-xs);
+}
+
+.visual-gallery-header strong { color: var(--text); font-weight: var(--weight-semibold); }
+
+.visual-gallery {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(248px, 52%);
+  gap: 1px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scrollbar-color: var(--border-strong) var(--surface-2);
+  background: var(--border);
+}
+
+.visual-gallery--single { grid-auto-columns: 100%; }
+
+.visual-gallery__item {
+  min-width: 0;
+  margin: 0;
+  scroll-snap-align: start;
+  background: var(--surface);
+}
+
+.visual-gallery__media {
+  height: 290px;
+  display: grid;
+  place-items: center;
+  background: var(--surface-2);
+  color: var(--text-3);
+  text-decoration: none;
+}
+
+.visual-gallery__image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: var(--space-2);
+  object-fit: contain;
+}
+
+.visual-gallery__unavailable {
+  padding: var(--space-4);
+  color: var(--text-3);
+  font-size: var(--text-sm);
+}
+
+.visual-gallery__caption {
+  min-height: 112px;
+  display: grid;
+  align-content: start;
+  gap: var(--space-1);
+  padding: var(--space-3);
+  color: var(--text-3);
+  font-size: var(--text-xs);
+  line-height: var(--leading-normal);
+}
+
+.visual-gallery__title {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--text);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
 .badge-row {
   display: flex;
   flex-wrap: wrap;
@@ -598,6 +685,9 @@
     border-radius: 0;
   }
   .detail-copy { max-height: 100vh; padding: var(--space-5) var(--space-4); }
+  .visual-gallery { grid-auto-columns: minmax(232px, 86%); }
+  .visual-gallery--single { grid-auto-columns: 100%; }
+  .visual-gallery__media { height: 248px; }
   .detail-actions .btn { width: 100%; }
 }
 

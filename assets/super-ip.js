@@ -356,8 +356,26 @@
 
   function visualModeLabel(item) {
     if (item.visualImageMode === "public-domain-library") return "公版图库";
+    if (item.visualImageMode === "public-domain-reference") return "公版 / 开放馆藏";
+    if (item.visualImageMode === "open-license-reference") return "开放许可参考";
     if (item.visualImageMode === "recognition-reference") return "识别参考";
     return "视觉 DNA";
+  }
+
+  function visualItems(item) {
+    if (Array.isArray(item.visualImages) && item.visualImages.length) return item.visualImages;
+    if (!item.visualImage) return [];
+    return [{
+      imageUrl: item.visualImage,
+      originalUrl: item.visualImage,
+      sourceUrl: item.visualSourceUrl,
+      sourceLabel: item.visualSourceLabel,
+      title: item.nameZh || item.name,
+      creator: "来源页待复核",
+      date: "年代待复核",
+      visualType: "识别参考",
+      license: visualModeLabel(item),
+    }];
   }
 
   function visualDna(item, detail = false) {
@@ -397,6 +415,57 @@
     }, { once: true });
     frame.append(image, mode);
     return frame;
+  }
+
+  function renderVisualGallery(item) {
+    const images = visualItems(item);
+    if (!images.length) return renderVisual(item, { detail: true });
+    const creatorCount = new Set(images.map((visual) => visual.creator).filter(Boolean)).size;
+    const section = el("section", "visual-gallery-section");
+    const header = el("div", "visual-gallery-header");
+    header.append(
+      el("strong", "", images.length > 1 ? `${images.length} 件历史视觉` : "视觉参考"),
+      el("span", "", images.length > 1 ? `${creatorCount} 位创作者 · 横向浏览 · 点击来源` : "点击查看来源"),
+    );
+    const gallery = el("div", `visual-gallery${images.length === 1 ? " visual-gallery--single" : ""}`);
+    images.forEach((visual, index) => {
+      const figure = el("figure", "visual-gallery__item");
+      const media = visual.sourceUrl ? document.createElement("a") : el("div", "");
+      media.className = "visual-gallery__media";
+      if (visual.sourceUrl) {
+        media.href = visual.sourceUrl;
+        media.target = "_blank";
+        media.rel = "noreferrer";
+        media.title = "打开图像来源";
+      }
+      const image = document.createElement("img");
+      image.className = "visual-gallery__image";
+      image.src = visual.imageUrl;
+      image.alt = `${item.nameZh || item.name}｜${visual.title || `视觉版本 ${index + 1}`}`;
+      image.loading = "eager";
+      image.decoding = "async";
+      image.referrerPolicy = "no-referrer";
+      let triedOriginal = false;
+      image.addEventListener("error", () => {
+        if (!triedOriginal && visual.originalUrl && visual.originalUrl !== image.src) {
+          triedOriginal = true;
+          image.src = visual.originalUrl;
+          return;
+        }
+        media.replaceChildren(el("div", "visual-gallery__unavailable", "图源暂不可用"));
+      });
+      media.append(image);
+      const caption = el("figcaption", "visual-gallery__caption");
+      caption.append(
+        el("strong", "visual-gallery__title", visual.title || `视觉版本 ${index + 1}`),
+        el("span", "", [visual.creator, visual.date].filter(Boolean).join(" · ")),
+        el("span", "", [visual.visualType || visual.medium, visual.license].filter(Boolean).join(" · ")),
+      );
+      figure.append(media, caption);
+      gallery.append(figure);
+    });
+    section.append(header, gallery);
+    return section;
   }
 
   function displayTaxonomy(item) {
@@ -449,7 +518,7 @@
       badge(item.rightsLane, item.rightsLane.includes("授权") ? "badge--warn" : ""),
       badge(item.reachStatus.startsWith("100M+") ? "100M+ 直接人数" : item.surveyFamePercent ? `YouGov Fame ${item.surveyFamePercent}%` : item.evidenceStatus, item.reachStatus.startsWith("100M+") || item.surveyQualifies100m ? "badge--ok" : ""),
     );
-    dom.detailVisualPanel.replaceChildren(renderVisual(item, { detail: true }));
+    dom.detailVisualPanel.replaceChildren(renderVisualGallery(item));
     const evidenceValue = item.evidenceValue ? `${Number(item.evidenceValue).toLocaleString("en-US")} ${item.evidenceUnit}` : "无直接人数证据";
     dom.detailAwareness.textContent = `${item.usTier}。${item.reachStatus}。${evidenceValue}。`;
     dom.detailTaxonomy.textContent = `${activePath}。${activePath === primaryPath ? "" : `主路径：${primaryPath}。`}置信度 ${item.taxonomyConfidence}；${item.taxonomySource}。`;
@@ -461,7 +530,7 @@
     dom.detailAvoid.textContent = item.avoid;
     dom.detailMotifs.textContent = item.visualElements?.length ? item.visualElements.join(" · ") : item.motifs?.length ? item.motifs.join(" · ") : "待补";
     dom.detailComposition.textContent = item.visualComposition || "待补";
-    dom.detailVisualSourceCopy.textContent = `${item.visualStatus || "视觉 DNA"}。${item.visualSourceLabel || "无外部图源"}。${item.visualRightsNote || "仅作研究线索，生产前逐素材核验。"}`;
+    dom.detailVisualSourceCopy.textContent = `${visualItems(item).length} 件视觉。${item.visualStatus || "视觉 DNA"}。${item.visualSourceLabel || "无外部图源"}。${item.visualRightsNote || "仅作研究线索，生产前逐素材核验。"}`;
     const evidenceDate = item.evidenceDate ? `；口径日期 ${item.evidenceDate}` : "";
     dom.detailEvidence.textContent = `${item.evidenceType}；${item.evidenceStatus}${evidenceDate}。${item.sourceLabel}：${item.sourceRole}`;
     dom.detailSource.href = item.sourceUrl;
@@ -497,6 +566,7 @@
       `权利入口：${item.rightsLane}`,
       `视觉元素：${(item.visualElements || item.motifs || []).join("、")}`,
       `构图：${item.visualComposition || "待补"}`,
+      `视觉版本：${visualItems(item).length} 件；${item.visualStatus || "待补"}`,
       `可取：${item.useRoute}`,
       `避开：${item.avoid}`,
       `来源：${item.sourceUrl}`,

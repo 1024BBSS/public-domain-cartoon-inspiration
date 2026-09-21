@@ -20,7 +20,14 @@ if (direct100m.length < 3) errors.push(`100M+ 实测不足 3：${direct100m.leng
 const survey100m = records.filter((item) => item.surveyQualifies100m === true);
 if (survey100m.length < 5500) errors.push(`100M+ 认知等效不足 5500：${survey100m.length}`);
 const visualReferences = records.filter((item) => Boolean(item.visualImage));
-if (visualReferences.length < 5500) errors.push(`视觉参考图不足 5500：${visualReferences.length}`);
+if (visualReferences.length !== records.length) errors.push(`仍有无图记录：${records.length - visualReferences.length}`);
+const religionLineages = records.filter((item) => item.category === "宗教 / 神话");
+for (const item of religionLineages) {
+  const images = item.visualImages || [];
+  if (images.length < 3) errors.push(`${item.name} 历史视觉少于 3 件：${images.length}`);
+  if (new Set(images.map((image) => image.sourceUrl).filter(Boolean)).size < 3) errors.push(`${item.name} 独立视觉来源少于 3 个`);
+  if (new Set(images.map((image) => image.creator).filter(Boolean)).size < 3) errors.push(`${item.name} 艺术家 / 创作者少于 3 位`);
+}
 
 const categoryMinimums = {
   "电影 / 电视": 1800,
@@ -57,6 +64,14 @@ for (const item of records) {
   if (!Array.isArray(item.visualElements) || item.visualElements.length < 3) errors.push(`${item.name} 视觉元素少于 3`);
   if (!Array.isArray(item.visualPalette) || item.visualPalette.length < 4) errors.push(`${item.name} 色板少于 4`);
   if (!item.visualComposition) errors.push(`${item.name} 缺构图提示`);
+  if (item.category === "宗教 / 神话" && (!Array.isArray(item.visualImages) || item.visualImages.length < 3)) {
+    errors.push(`${item.name} 缺历史视觉版本数组`);
+  }
+  for (const visual of item.visualImages || []) {
+    for (const field of ["imageUrl", "sourceUrl", "sourceLabel", "title", "creator", "date", "visualType", "license", "licenseClass"]) {
+      if (!visual[field]) errors.push(`${item.name} 的视觉版本缺字段 ${field}`);
+    }
+  }
   if (item.reachStatus?.startsWith("100M+")) {
     if (!(item.evidenceValue >= 100000000)) errors.push(`${item.name} 的 100M+ 人数无效`);
     if (!item.evidenceUrl || !item.evidenceType || !item.evidenceDate) errors.push(`${item.name} 的 100M+ 证据不完整`);
@@ -112,6 +127,8 @@ if (errors.length) {
     direct100mEvidence: direct100m.length,
     survey100mEquivalent: survey100m.length,
     visualReferences: visualReferences.length,
+    visualSourceImages: records.reduce((sum, item) => sum + Math.max(item.visualImages?.length || 0, item.visualImage ? 1 : 0), 0),
+    religionLineages: religionLineages.length,
     taxonomyA: records.filter((item) => item.taxonomyConfidence === "A").length,
     taxonomyB: records.filter((item) => item.taxonomyConfidence === "B").length,
     taxonomyPending: pendingTaxonomy.length,
