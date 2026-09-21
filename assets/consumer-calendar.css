@@ -188,6 +188,7 @@
 .gantt-legend span { display: inline-flex; align-items: center; gap: 5px; }
 .gantt-legend i { display: inline-block; }
 .legend-season { width: 20px; height: 6px; border-radius: 4px; background: var(--border-strong); }
+.legend-preheat { width: 20px; height: 0; border-top: 2px dashed var(--text-2); }
 .legend-peak { width: 20px; height: 6px; border-radius: 4px; background: var(--ok); }
 .legend-anchor { width: 2px; height: 12px; background: var(--accent); }
 
@@ -210,6 +211,11 @@
 .gantt-row:last-child { border-bottom: 0; }
 .gantt-row:hover { background: var(--surface-2); }
 .gantt-row.is-selected { background: var(--accent-muted); box-shadow: inset 3px 0 0 var(--accent); }
+.gantt-row--group { background: color-mix(in srgb, var(--surface-2) 72%, transparent); }
+.gantt-row--group .gantt-name strong::after { content: "  ›"; color: var(--text-3); }
+.gantt-row--group[aria-expanded="true"] .gantt-name strong::after { content: "  ⌄"; }
+.gantt-row--child .gantt-label { padding-left: calc(var(--space-3) + 16px); }
+.gantt-row--child .gantt-name strong { font-size: var(--text-sm); }
 .gantt-label {
   min-width: 0;
   padding: var(--space-2) var(--space-3);
@@ -258,13 +264,27 @@
   opacity: 0.55;
 }
 .season-bar,
-.peak-bar {
+.peak-bar,
+.preheat-bar {
   position: absolute;
   border-radius: 4px;
   min-width: 2px;
 }
 .season-bar { top: 10px; height: 12px; background: var(--border-strong); }
 .peak-bar { top: 13px; height: 6px; background: var(--ok); z-index: 2; }
+.preheat-bar { top: 15px; height: 0; border-top: 2px dashed var(--text-2); z-index: 2; }
+.group-anchor-pin {
+  position: absolute;
+  top: 8px;
+  width: 7px;
+  height: 16px;
+  margin-left: -3px;
+  border: 1px solid var(--text-2);
+  border-radius: 4px;
+  background: var(--surface);
+  z-index: 3;
+}
+.group-anchor-pin.is-selected { border-color: var(--ok); background: var(--ok); }
 .anchor-pin {
   position: absolute;
   top: 2px;
@@ -283,6 +303,8 @@
   transform: rotate(45deg);
   background: var(--accent);
 }
+.anchor-pin--single { width: 3px; background: var(--ok); }
+.anchor-pin--single::before { background: var(--ok); }
 .today-pin {
   position: absolute;
   top: -13px;
@@ -318,6 +340,7 @@
 .spending-headline { grid-area: headline; display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-3); }
 .spending-headline__copy { min-width: 0; }
 .spending-value { display: inline-block; margin-top: 3px; font-family: var(--font-mono); font-size: clamp(28px, 3vw, 44px); line-height: 1; letter-spacing: -.04em; }
+.spending-value--text { max-width: 320px; font-family: var(--font-sans); font-size: clamp(22px, 2.2vw, 32px); letter-spacing: -.02em; }
 .spending-target-label { display: inline-block; margin-left: var(--space-2); color: var(--ok); font-size: var(--text-xs); }
 .spending-headline p { margin: 8px 0 0; color: var(--text-2); font-size: var(--text-xs); }
 .spending-range { flex: 0 0 auto; padding-left: var(--space-3); border-left: 1px solid var(--border); text-align: right; }

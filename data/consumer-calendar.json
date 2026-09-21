@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "1.3.0",
-  "generatedAt": "2026-09-21T12:28:26.004Z",
+  "schemaVersion": "1.3.1",
+  "generatedAt": "2026-09-21T13:01:48.992Z",
   "market": "US",
   "asOf": "2026-09-21",
   "scope": "从今天向前看的美国消费季、公开日期、现金流脉冲、最近五年历史天气与商品运营建议。事实日期、历史观测、经验窗口和运营建议分层显示。",
@@ -4957,8 +4957,8 @@
         "status": "available",
         "profileId": "winter-holiday-core-retail",
         "relationship": "included",
-        "relationshipLabel": "包含于冬礼季",
-        "noteZh": "不是圣诞节当天单独 GMV，不得重复相加。"
+        "relationshipLabel": "冬礼季总盘内",
+        "noteZh": "本节点无单独金额；仅属于 11–12 月冬礼季两月总盘，不得重复相加。"
       },
       "operations": [
         {
@@ -5234,6 +5234,7 @@
       "eventStart": "2026-12-01",
       "eventEnd": "2026-12-01",
       "anchorDate": "2026-12-01",
+      "timelineMode": "single_day",
       "seasonStart": "2026-09-08",
       "seasonEnd": "2026-12-05",
       "peakStart": "2026-11-24",
@@ -5341,6 +5342,7 @@
       "eventStart": "2026-11-26",
       "eventEnd": "2026-11-26",
       "anchorDate": "2026-11-26",
+      "timelineMode": "single_day",
       "seasonStart": "2026-09-15",
       "seasonEnd": "2026-11-29",
       "peakStart": "2026-11-10",
@@ -5384,8 +5386,8 @@
         "status": "available",
         "profileId": "thanksgiving-online-sales",
         "relationship": "direct",
-        "relationshipLabel": "当日线上",
-        "noteZh": "不含线下。"
+        "relationshipLabel": "线上单日",
+        "noteZh": "仅美国线上当日成交，不含线下。"
       },
       "operations": [
         {
@@ -5670,6 +5672,7 @@
       "eventStart": "2026-11-27",
       "eventEnd": "2026-11-27",
       "anchorDate": "2026-11-27",
+      "timelineMode": "single_day",
       "seasonStart": "2026-10-01",
       "seasonEnd": "2026-11-30",
       "peakStart": "2026-11-20",
@@ -5710,8 +5713,8 @@
         "status": "available",
         "profileId": "black-friday-online-sales",
         "relationship": "direct",
-        "relationshipLabel": "当日线上",
-        "noteZh": "不含线下。"
+        "relationshipLabel": "线上单日",
+        "noteZh": "仅美国线上当日成交，不含线下。"
       },
       "operations": [
         {
@@ -5936,6 +5939,7 @@
       "eventStart": "2026-11-28",
       "eventEnd": "2026-11-28",
       "anchorDate": "2026-11-28",
+      "timelineMode": "single_day",
       "seasonStart": "2026-10-15",
       "seasonEnd": "2026-11-29",
       "peakStart": "2026-11-23",
@@ -6086,8 +6090,8 @@
         "status": "available",
         "profileId": "winter-holiday-core-retail",
         "relationship": "included",
-        "relationshipLabel": "包含于冬礼季",
-        "noteZh": "没有可拆出的全国专项金额，不得重复相加。"
+        "relationshipLabel": "冬礼季总盘内",
+        "noteZh": "本节点无单独金额；仅属于 11–12 月冬礼季两月总盘，不得重复相加。"
       },
       "operations": [
         {
@@ -6230,8 +6234,8 @@
         "status": "available",
         "profileId": "winter-holiday-core-retail",
         "relationship": "included",
-        "relationshipLabel": "包含于冬礼季",
-        "noteZh": "没有可拆出的全国专项金额，不得重复相加。"
+        "relationshipLabel": "冬礼季总盘内",
+        "noteZh": "本节点无单独金额；仅属于 11–12 月冬礼季两月总盘，不得重复相加。"
       },
       "operations": [
         {
@@ -6339,6 +6343,7 @@
       "eventStart": "2026-11-30",
       "eventEnd": "2026-11-30",
       "anchorDate": "2026-11-30",
+      "timelineMode": "single_day",
       "seasonStart": "2026-11-01",
       "seasonEnd": "2026-12-02",
       "peakStart": "2026-11-23",
@@ -6378,8 +6383,8 @@
         "status": "available",
         "profileId": "cyber-monday-online-sales",
         "relationship": "direct",
-        "relationshipLabel": "当日线上",
-        "noteZh": "不含线下。"
+        "relationshipLabel": "线上单日",
+        "noteZh": "仅美国线上当日成交，不含线下。"
       },
       "operations": [
         {
@@ -6489,8 +6494,8 @@
         "status": "available",
         "profileId": "winter-holiday-core-retail",
         "relationship": "included",
-        "relationshipLabel": "部分落在冬礼季",
-        "noteZh": "没有跨年夜全国专项金额。"
+        "relationshipLabel": "冬礼季总盘内",
+        "noteZh": "本节点无单独金额；只有 12 月 31 日交易部分落在 11–12 月冬礼季总盘，不得重复相加。"
       },
       "operations": [
         {
@@ -6614,8 +6619,8 @@
         "status": "available",
         "profileId": "winter-holiday-core-retail",
         "relationship": "included",
-        "relationshipLabel": "包含于冬礼季",
-        "noteZh": "没有可拆出的全国专项金额，不得重复相加。"
+        "relationshipLabel": "冬礼季总盘内",
+        "noteZh": "本节点无单独金额；仅属于 11–12 月冬礼季两月总盘，不得重复相加。"
       },
       "operations": [
         {
@@ -6704,6 +6709,7 @@
       "eventStart": "2027-02-14",
       "eventEnd": "2027-02-14",
       "anchorDate": "2027-02-14",
+      "timelineMode": "single_day",
       "seasonStart": "2026-12-01",
       "seasonEnd": "2027-02-15",
       "peakStart": "2027-01-31",
@@ -6881,8 +6887,8 @@
         "status": "available",
         "profileId": "winter-holiday-core-retail",
         "relationship": "included",
-        "relationshipLabel": "包含于冬礼季",
-        "noteZh": "没有可拆出的全国专项金额，不得重复相加。"
+        "relationshipLabel": "冬礼季总盘内",
+        "noteZh": "本节点无单独金额；仅属于 11–12 月冬礼季两月总盘，不得重复相加。"
       },
       "operations": [
         {

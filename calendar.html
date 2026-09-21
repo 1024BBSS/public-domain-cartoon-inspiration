@@ -9,9 +9,9 @@
   <link rel="alternate" type="application/json" href="data/consumer-calendar.json" title="美国消费力日历 Agent 数据">
   <link rel="stylesheet" href="assets/tokens.css">
   <link rel="stylesheet" href="assets/components.css">
-  <link rel="stylesheet" href="assets/consumer-calendar.css?v=1.3.0">
-  <script defer src="data/consumer-calendar.js?v=1.3.0"></script>
-  <script defer src="assets/consumer-calendar.js?v=1.3.0"></script>
+  <link rel="stylesheet" href="assets/consumer-calendar.css?v=1.3.1">
+  <script defer src="data/consumer-calendar.js?v=1.3.1"></script>
+  <script defer src="assets/consumer-calendar.js?v=1.3.1"></script>
 </head>
 <body>
   <div class="app">
@@ -105,17 +105,18 @@
           <div class="panel__head calendar-panel-head">
             <div>
               <div class="panel__title">消费季甘特</div>
-              <div class="panel__sub"><span id="result-count">0</span> 个节点 · 行内先看金额，点击看五年趋势与来源</div>
+              <div class="panel__sub"><span id="result-count">0</span> 个节点 · 同类自动合并 · 点击看五年趋势与来源</div>
             </div>
             <div class="gantt-legend" aria-label="甘特图图例">
-              <span><i class="legend-season"></i>消费季</span>
+              <span><i class="legend-season"></i>持续消费季</span>
+              <span><i class="legend-preheat"></i>预热</span>
               <span><i class="legend-peak"></i>高峰</span>
-              <span><i class="legend-anchor"></i>当天</span>
+              <span><i class="legend-anchor"></i>当日</span>
             </div>
           </div>
           <div class="gantt-table" id="gantt-table">
             <div class="gantt-axis-row">
-              <div class="gantt-axis-title">节点 / 当天</div>
+              <div class="gantt-axis-title">节点 / 日期</div>
               <div class="timeline-axis" id="event-axis"></div>
             </div>
             <div id="event-rows"></div>

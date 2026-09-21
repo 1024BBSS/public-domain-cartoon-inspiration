@@ -18,6 +18,8 @@ for (const event of data.events || []) {
     if (!datePattern.test(event[field] || "")) errors.push(`${event.id}: invalid ${field}`);
   }
   if (event.anchorDate && !datePattern.test(event.anchorDate)) errors.push(`${event.id}: invalid anchorDate`);
+  if (event.timelineMode && !["single_day"].includes(event.timelineMode)) errors.push(`${event.id}: invalid timelineMode`);
+  if (event.timelineMode === "single_day" && (!event.anchorDate || event.eventStart !== event.eventEnd)) errors.push(`${event.id}: single-day timeline needs one anchor day`);
   if (event.seasonStart > event.seasonEnd) errors.push(`${event.id}: reversed season`);
   if (event.peakStart > event.peakEnd) errors.push(`${event.id}: reversed peak`);
   if (!event.sourceUrl?.startsWith("http")) errors.push(`${event.id}: missing source URL`);
@@ -34,6 +36,7 @@ for (const event of data.events || []) {
     if (!profile) errors.push(`${event.id}: missing spending profile ${spending.profileId}`);
     if (!spending.relationshipLabel) errors.push(`${event.id}: missing spending relationship label`);
     if (!profile?.target || !Number.isFinite(profile.target.value)) errors.push(`${event.id}: spending profile missing target value`);
+    if (spending.relationship === "included" && !spending.noteZh?.includes("无单独金额")) errors.push(`${event.id}: included total must state no standalone amount`);
   }
   if (spending?.status === "unavailable" && !spending.headlineZh) errors.push(`${event.id}: unavailable spending needs explicit headline`);
 }

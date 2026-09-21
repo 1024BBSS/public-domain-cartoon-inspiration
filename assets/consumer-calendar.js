@@ -124,6 +124,7 @@
   let state = readState();
   let visibleEvents = [];
   let selectedEvent = null;
+  const expandedGroups = new Set();
 
   function readState() {
     const params = new URLSearchParams(location.search);
@@ -205,14 +206,18 @@
       badge.title = link?.noteZh || "暂无统一全美专项金额";
       return badge;
     }
-    const suffix = link.relationship === "included"
-      ? "总盘内"
-      : link.relationship === "proxy"
+    if (link.relationship === "included") {
+      const badge = el("span", "gantt-money gantt-money--included", "冬礼季内 · 无单独金额");
+      badge.title = `${event.nameZh}本节点无单独金额；只属于 11–12 月冬礼季两月总盘。`;
+      return badge;
+    }
+    const suffix = link.relationship === "proxy"
         ? "代理"
         : link.relationship === "context"
           ? "背景盘"
           : profile.target.status === "model_estimate" ? "预估" : "官方";
-    const badge = el("span", `gantt-money gantt-money--${link.relationship}`, `${formatMoney(profile.target.value)} ${suffix}`);
+    const scopeLabel = link.relationship === "direct" ? link.relationshipLabel : suffix;
+    const badge = el("span", `gantt-money gantt-money--${link.relationship}`, `${formatMoney(profile.target.value)} · ${scopeLabel}`);
     badge.title = `${profile.labelZh}；${link.relationshipLabel}；${profile.scopeZh}`;
     return badge;
   }
@@ -343,72 +348,169 @@
     return formatDate(event.anchorDate);
   }
 
+  function appendTodayPin(track, range) {
+    if (today < range.start || today > range.end) return;
+    const todayPin = el("i", "today-pin");
+    todayPin.style.left = `${position(todayIso, range)}%`;
+    track.append(todayPin);
+  }
+
+  function appendEventTimeline(track, event, range) {
+    if (event.timelineMode === "single_day" && event.anchorDate) {
+      const seasonStart = event.seasonStart < localIso(range.start) ? localIso(range.start) : event.seasonStart;
+      const preheatEnd = event.anchorDate > localIso(range.end) ? localIso(range.end) : event.anchorDate;
+      if (seasonStart <= preheatEnd) {
+        const preheat = el("span", "preheat-bar");
+        preheat.style.left = `${position(seasonStart, range)}%`;
+        preheat.style.width = `${Math.max(0.35, position(preheatEnd, range) - position(seasonStart, range))}%`;
+        preheat.title = `预热 ${formatDate(event.seasonStart, true)}–${formatDate(event.anchorDate, true)}`;
+        track.append(preheat);
+      }
+      if (event.anchorDate && event.anchorDate >= localIso(range.start) && event.anchorDate <= localIso(range.end)) {
+        const pin = el("i", "anchor-pin anchor-pin--single");
+        pin.style.left = `${position(event.anchorDate, range)}%`;
+        pin.title = `当日 ${formatDate(event.anchorDate, true)}`;
+        track.append(pin);
+      }
+      return;
+    }
+
+    const seasonStart = event.seasonStart < localIso(range.start) ? localIso(range.start) : event.seasonStart;
+    const seasonEnd = event.seasonEnd > localIso(range.end) ? localIso(range.end) : event.seasonEnd;
+    const season = el("span", "season-bar");
+    season.style.left = `${position(seasonStart, range)}%`;
+    season.style.width = `${Math.max(0.35, position(seasonEnd, range) - position(seasonStart, range))}%`;
+    season.title = `持续消费季 ${formatRange(event.seasonStart, event.seasonEnd)}`;
+    track.append(season);
+
+    if (event.peakEnd >= localIso(range.start) && event.peakStart <= localIso(range.end)) {
+      const peakStart = event.peakStart < localIso(range.start) ? localIso(range.start) : event.peakStart;
+      const peakEnd = event.peakEnd > localIso(range.end) ? localIso(range.end) : event.peakEnd;
+      const peak = el("span", "peak-bar");
+      peak.style.left = `${position(peakStart, range)}%`;
+      peak.style.width = `${Math.max(0.35, position(peakEnd, range) - position(peakStart, range))}%`;
+      peak.title = `建议高峰 ${formatRange(event.peakStart, event.peakEnd)}`;
+      track.append(peak);
+    }
+
+    if (event.anchorDate && event.anchorDate >= localIso(range.start) && event.anchorDate <= localIso(range.end)) {
+      const pin = el("i", "anchor-pin");
+      pin.style.left = `${position(event.anchorDate, range)}%`;
+      pin.title = `当天 ${formatDate(event.anchorDate, true)}`;
+      track.append(pin);
+    }
+  }
+
+  function renderEventRow(event, range, isChild = false) {
+    const row = el("article", `gantt-row${isChild ? " gantt-row--child" : ""}`);
+    row.dataset.id = event.id;
+    row.dataset.priority = event.priority;
+    row.tabIndex = 0;
+    row.setAttribute("role", "button");
+    const profile = spendingProfile(event);
+    const amountAria = event.spendingPower.relationship === "included"
+      ? "本节点无单独金额，属于冬礼季两月总盘"
+      : profile?.target ? `${formatMoney(profile.target.value)}，${event.spendingPower.relationshipLabel}` : "专项金额暂无";
+    const timeAria = event.timelineMode === "single_day" ? "当日成交，之前为预热" : "持续消费季";
+    row.setAttribute("aria-label", `${event.nameZh}，${eventDateLabel(event)}，${amountAria}，${timeAria}`);
+    if (selectedEvent?.id === event.id) row.classList.add("is-selected");
+
+    const label = el("div", "gantt-label");
+    label.append(el("span", "gantt-date", eventDateLabel(event)));
+    const name = el("span", "gantt-name");
+    const timingLabel = event.timelineMode === "single_day" ? " · 当日" : "";
+    name.append(el("strong", "", event.nameZh), el("span", "", `${event.type} · ${event.evidenceStatus}${timingLabel}`));
+    label.append(name, spendingBadge(event));
+
+    const track = el("div", "gantt-track");
+    track.append(...guideNodes());
+    appendEventTimeline(track, event, range);
+    appendTodayPin(track, range);
+
+    row.append(label, track);
+    const select = () => selectEvent(event.id);
+    row.addEventListener("click", select);
+    row.addEventListener("keydown", (eventKey) => {
+      if (eventKey.key === "Enter" || eventKey.key === " ") {
+        eventKey.preventDefault();
+        select();
+      }
+    });
+    return row;
+  }
+
+  function renderIncludedGroup(events, profileId, range) {
+    const expanded = expandedGroups.has(profileId);
+    const row = el("article", "gantt-row gantt-row--group");
+    row.tabIndex = 0;
+    row.setAttribute("role", "button");
+    row.setAttribute("aria-expanded", expanded ? "true" : "false");
+    row.setAttribute("aria-label", `冬礼季内 ${events.length} 个节点，均无单独金额，${expanded ? "点击收起" : "点击展开"}`);
+    if (events.some((event) => event.id === selectedEvent?.id)) row.classList.add("is-selected");
+
+    const label = el("div", "gantt-label");
+    label.append(el("span", "gantt-date", `${events.length} 项`));
+    const name = el("span", "gantt-name");
+    const names = events.map((event) => `${eventDateLabel(event)} ${event.nameZh}`).join(" · ");
+    name.append(el("strong", "", "冬礼季内节点"), el("span", "", names));
+    label.append(name, el("span", "gantt-money gantt-money--included", "均无单独金额"));
+
+    const track = el("div", "gantt-track");
+    track.append(...guideNodes());
+    for (const event of events) {
+      if (!event.anchorDate || event.anchorDate < localIso(range.start) || event.anchorDate > localIso(range.end)) continue;
+      const pin = el("i", `group-anchor-pin${event.id === selectedEvent?.id ? " is-selected" : ""}`);
+      pin.style.left = `${position(event.anchorDate, range)}%`;
+      pin.title = `${event.nameZh} · ${formatDate(event.anchorDate, true)} · 无单独金额`;
+      track.append(pin);
+    }
+    appendTodayPin(track, range);
+    row.append(label, track);
+
+    const toggle = () => {
+      if (expandedGroups.has(profileId)) expandedGroups.delete(profileId);
+      else expandedGroups.add(profileId);
+      renderRows();
+    };
+    row.addEventListener("click", toggle);
+    row.addEventListener("keydown", (eventKey) => {
+      if (eventKey.key === "Enter" || eventKey.key === " ") {
+        eventKey.preventDefault();
+        toggle();
+      }
+    });
+    return row;
+  }
+
   function renderRows() {
     const range = windowRange();
     renderAxis(dom.eventAxis);
-    const rows = visibleEvents.map((event) => {
-      const row = el("article", "gantt-row");
-      row.dataset.id = event.id;
-      row.dataset.priority = event.priority;
-      row.tabIndex = 0;
-      row.setAttribute("role", "button");
-      const profile = spendingProfile(event);
-      row.setAttribute("aria-label", `${event.nameZh}，${eventDateLabel(event)}，${profile?.target ? formatMoney(profile.target.value) : "专项金额暂无"}`);
-      if (selectedEvent?.id === event.id) row.classList.add("is-selected");
+    const includedByProfile = new Map();
+    for (const event of visibleEvents) {
+      if (event.spendingPower.relationship !== "included") continue;
+      const key = event.spendingPower.profileId;
+      if (!includedByProfile.has(key)) includedByProfile.set(key, []);
+      includedByProfile.get(key).push(event);
+    }
 
-      const label = el("div", "gantt-label");
-      label.append(el("span", "gantt-date", eventDateLabel(event)));
-      const name = el("span", "gantt-name");
-      name.append(el("strong", "", event.nameZh), el("span", "", `${event.type} · ${event.evidenceStatus}`));
-      label.append(name, spendingBadge(event));
-
-      const track = el("div", "gantt-track");
-      track.append(...guideNodes());
-      const seasonStart = event.seasonStart < localIso(range.start) ? localIso(range.start) : event.seasonStart;
-      const seasonEnd = event.seasonEnd > localIso(range.end) ? localIso(range.end) : event.seasonEnd;
-      const season = el("span", "season-bar");
-      season.style.left = `${position(seasonStart, range)}%`;
-      season.style.width = `${Math.max(0.35, position(seasonEnd, range) - position(seasonStart, range))}%`;
-      season.title = `消费季 ${formatRange(event.seasonStart, event.seasonEnd)}`;
-      track.append(season);
-
-      if (event.peakEnd >= localIso(range.start) && event.peakStart <= localIso(range.end)) {
-        const peakStart = event.peakStart < localIso(range.start) ? localIso(range.start) : event.peakStart;
-        const peakEnd = event.peakEnd > localIso(range.end) ? localIso(range.end) : event.peakEnd;
-        const peak = el("span", "peak-bar");
-        peak.style.left = `${position(peakStart, range)}%`;
-        peak.style.width = `${Math.max(0.35, position(peakEnd, range) - position(peakStart, range))}%`;
-        peak.title = `建议高峰 ${formatRange(event.peakStart, event.peakEnd)}`;
-        track.append(peak);
+    const emittedGroups = new Set();
+    const rows = [];
+    for (const event of visibleEvents) {
+      const profileId = event.spendingPower.profileId;
+      const group = event.spendingPower.relationship === "included" ? includedByProfile.get(profileId) : null;
+      if (group?.length > 1) {
+        if (emittedGroups.has(profileId)) continue;
+        emittedGroups.add(profileId);
+        rows.push(renderIncludedGroup(group, profileId, range));
+        if (expandedGroups.has(profileId)) rows.push(...group.map((child) => renderEventRow(child, range, true)));
+        continue;
       }
+      rows.push(renderEventRow(event, range));
+    }
 
-      if (event.anchorDate && event.anchorDate >= localIso(range.start) && event.anchorDate <= localIso(range.end)) {
-        const pin = el("i", "anchor-pin");
-        pin.style.left = `${position(event.anchorDate, range)}%`;
-        pin.title = `当天 ${formatDate(event.anchorDate, true)}`;
-        track.append(pin);
-      }
-
-      if (today >= range.start && today <= range.end) {
-        const todayPin = el("i", "today-pin");
-        todayPin.style.left = `${position(todayIso, range)}%`;
-        track.append(todayPin);
-      }
-
-      row.append(label, track);
-      const select = () => selectEvent(event.id);
-      row.addEventListener("click", select);
-      row.addEventListener("keydown", (eventKey) => {
-        if (eventKey.key === "Enter" || eventKey.key === " ") {
-          eventKey.preventDefault();
-          select();
-        }
-      });
-      return row;
-    });
     dom.rows.replaceChildren(...rows);
-    dom.rows.hidden = rows.length === 0;
-    dom.empty.hidden = rows.length !== 0;
+    dom.rows.hidden = visibleEvents.length === 0;
+    dom.empty.hidden = visibleEvents.length !== 0;
   }
 
   function selectEvent(id, replace = true) {
@@ -465,19 +567,22 @@
     }
 
     const target = profile.target;
+    const isIncludedContext = link.relationship === "included";
     const headline = el("div", "spending-headline");
     const headlineCopy = el("div", "spending-headline__copy");
     headlineCopy.append(
-      el("div", "eyebrow", `${link.relationshipLabel} · 可信度 ${profile.confidence}`),
-      el("strong", "spending-value", formatMoney(target.value)),
-      el("span", "spending-target-label", `${target.year} · ${target.statusLabel}`),
-      el("p", "", profile.scopeZh)
+      el("div", "eyebrow", isIncludedContext ? `${link.relationshipLabel} · 不是本节点金额` : `${link.relationshipLabel} · 可信度 ${profile.confidence}`),
+      el("strong", `spending-value${isIncludedContext ? " spending-value--text" : ""}`, isIncludedContext ? "本节点无单独金额" : formatMoney(target.value)),
+      el("span", "spending-target-label", isIncludedContext ? "下方仅展示关联总盘背景" : `${target.year} · ${target.statusLabel}`),
+      el("p", "", isIncludedContext ? `${event.nameZh}只落在冬礼季统计窗口内；${profile.scopeZh}。` : profile.scopeZh)
     );
-    const rangeText = Number.isFinite(target.lower) && Number.isFinite(target.upper)
+    const rangeText = isIncludedContext
+      ? formatMoney(target.value)
+      : Number.isFinite(target.lower) && Number.isFinite(target.upper)
       ? `${formatMoney(target.lower)}–${formatMoney(target.upper)}`
       : "官方值，无模型区间";
     const forecastBox = el("div", "spending-range");
-    forecastBox.append(el("span", "", "方向区间"), el("strong", "", rangeText));
+    forecastBox.append(el("span", "", isIncludedContext ? "关联背景：11–12 月总盘" : "方向区间"), el("strong", "", rangeText));
     headline.append(headlineCopy, forecastBox);
 
     const series = [...profile.history];
@@ -485,7 +590,7 @@
     const maxValue = Math.max(...series.map((point) => point.value), 1);
     const chart = el("div", "spending-chart");
     chart.style.gridTemplateColumns = `repeat(${Math.max(1, series.length)}, minmax(48px, 1fr))`;
-    chart.setAttribute("aria-label", `${profile.labelZh}年度趋势`);
+    chart.setAttribute("aria-label", isIncludedContext ? `${profile.labelZh}年度趋势，仅作${event.nameZh}背景，不是该节点独立金额` : `${profile.labelZh}年度趋势`);
     chart.append(...series.map((point) => {
       const cell = el("div", `spending-bar-cell${point.isTarget ? " is-target" : ""}`);
       const value = el("span", "spending-bar-value", formatMoney(point.value));
@@ -513,7 +618,8 @@
     }));
 
     const footer = el("div", "spending-foot");
-    const note = el("p", "", `${link.noteZh} ${profile.noteZh}`.trim());
+    const notePrefix = isIncludedContext ? `重要：${event.nameZh}不能使用 ${formatMoney(target.value)} 作为本节点金额。` : "";
+    const note = el("p", "", `${notePrefix} ${link.noteZh} ${profile.noteZh}`.trim());
     const sources = el("div", "spending-sources");
     sources.append(...profile.sources.map((source) => {
       const anchor = el("a", "source-link", source.label);
@@ -538,7 +644,9 @@
     dom.detailStatus.replaceChildren(
       el("span", "status-chip status-chip--accent", relativeStatus(event)),
       el("span", "status-chip", event.evidenceStatus),
-      el("span", "status-chip", event.spendingPower.status === "available" ? event.spendingPower.relationshipLabel : "金额待补"),
+      el("span", "status-chip", event.spendingPower.status === "available"
+        ? event.spendingPower.relationship === "included" ? "冬礼季内 · 无单独金额" : event.spendingPower.relationshipLabel
+        : "金额待补"),
       el("span", "status-chip", `${event.relatedIps.length} 个关联 IP`),
     );
     renderSpendingDetail(event);
