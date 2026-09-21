@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="面向美国市场的超级 IP、体育、角色、作品、音乐人与文化母题机会库；美国知名度与商业权利分开呈现。">
+  <title>美国超级 IP 机会库</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12'/%3E%3Cpath fill='white' d='M14 16h36v8H22v8h23v8H22v8h28v8H14z'/%3E%3C/svg%3E">
+  <link rel="alternate" type="application/json" href="data/super-ip-us.json" title="美国超级 IP 与权利机会数据">
+  <link rel="stylesheet" href="assets/tokens.css">
+  <link rel="stylesheet" href="assets/components.css">
+  <link rel="stylesheet" href="assets/super-ip.css">
+  <script defer src="data/super-ip-us.js"></script>
+  <script defer src="assets/super-ip.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="topbar__title">美国超级 IP</div>
+      <span class="topbar__meta" id="top-meta">载入中</span>
+      <div class="topbar__spacer"></div>
+      <div class="topbar__actions">
+        <a class="btn btn--ghost btn--sm" href="index.html">公版视觉</a>
+        <a class="btn btn--ghost btn--sm" href="albums.html">专辑封面</a>
+        <a class="btn btn--ghost btn--sm" href="data/super-ip-us.json" target="_blank" rel="noreferrer">Agent JSON</a>
+        <button class="btn btn--primary btn--sm" id="copy-filter" type="button">复制当前页</button>
+      </div>
+    </header>
+
+    <div class="body">
+      <aside class="sidebar" aria-label="美国超级 IP 筛选">
+        <div class="sidebar__section">
+          <div class="sidebar__label">类型</div>
+          <nav class="facet-list" id="category-facets"></nav>
+        </div>
+        <div class="sidebar__section">
+          <div class="sidebar__label">权利入口</div>
+          <nav class="facet-list" id="rights-facets"></nav>
+        </div>
+        <div class="sidebar__section sidebar__section--tail">
+          <p class="boundary-note">美国知名不等于可直接商用。名称、造型、Logo、封面、肖像、球队和赛事权利分别核验。</p>
+        </div>
+      </aside>
+
+      <main class="main super-main" id="main-content">
+        <section class="filterbar" aria-label="搜索与筛选">
+          <label class="search-field">
+            <span class="sr-only">搜索</span>
+            <input class="input" id="search" type="search" autocomplete="off" placeholder="搜角色、球队、运动员、作品或文化母题">
+          </label>
+          <select class="select compact-select" id="category-select" aria-label="类型">
+            <option value="全部">全部类型</option>
+          </select>
+          <select class="select compact-select" id="rights-select" aria-label="权利入口">
+            <option value="全部">全部权利入口</option>
+          </select>
+          <select class="select compact-select" id="tier-select" aria-label="美国知名度">
+            <option value="全部">全部知名层级</option>
+          </select>
+          <select class="select compact-select" id="sort-select" aria-label="排序">
+            <option value="curated">知名度优先</option>
+            <option value="name">名称</option>
+            <option value="category">类型</option>
+          </select>
+          <button class="btn btn--secondary" id="reset" type="button">重置</button>
+        </section>
+
+        <nav class="quick-tabs" id="quick-tabs" aria-label="快捷入口"></nav>
+
+        <section class="summary-strip" aria-label="资料库统计">
+          <div class="summary-metric"><span id="metric-all">0</span><small>候选</small></div>
+          <div class="summary-metric"><span id="metric-sports">0</span><small>体育</small></div>
+          <div class="summary-metric"><span id="metric-public">0</span><small>文化公域线索</small></div>
+          <div class="summary-metric summary-metric--verified"><span id="metric-100m">0</span><small>100M+ 直接证据</small></div>
+          <p class="summary-rule">S / A 是美区编辑筛选层；只有公开、可复核、口径明确的美国人数证据才显示 100M+。</p>
+        </section>
+
+        <section class="result-head" aria-live="polite">
+          <div><strong id="result-title">全部候选</strong><span class="dim"> · </span><strong id="result-count">0</strong></div>
+          <div class="dim" id="page-status"></div>
+        </section>
+
+        <section class="ip-list" id="ip-list" aria-label="美国超级 IP 候选"></section>
+
+        <div class="empty" id="empty-state" hidden>
+          <div class="empty__title">没有匹配项</div>
+          <div class="dim">缩短关键词或清空筛选。</div>
+          <button class="btn btn--secondary btn--sm" id="empty-reset" type="button">清空筛选</button>
+        </div>
+
+        <nav class="pager" aria-label="分页">
+          <button class="btn btn--secondary" id="prev-page" type="button">上一页</button>
+          <span class="pager__status" id="pager-status">1 / 1</span>
+          <button class="btn btn--secondary" id="next-page" type="button">下一页</button>
+        </nav>
+      </main>
+    </div>
+  </div>
+
+  <dialog class="detail-dialog super-dialog" id="detail-dialog" aria-labelledby="detail-title">
+    <form method="dialog" class="dialog-close-row">
+      <button class="btn btn--ghost btn--sm" aria-label="关闭详情">关闭</button>
+    </form>
+    <article class="detail-copy super-detail">
+      <div class="eyebrow" id="detail-kind"></div>
+      <h1 id="detail-title"></h1>
+      <p class="detail-subtitle" id="detail-subtitle"></p>
+      <div class="badge-row" id="detail-badges"></div>
+      <dl class="detail-list">
+        <div><dt>美国知名度</dt><dd id="detail-awareness"></dd></div>
+        <div><dt>权利入口</dt><dd id="detail-rights"></dd></div>
+        <div><dt>可取</dt><dd id="detail-use"></dd></div>
+        <div><dt>避开</dt><dd id="detail-avoid"></dd></div>
+        <div><dt>视觉线索</dt><dd id="detail-motifs"></dd></div>
+        <div><dt>证据与来源</dt><dd id="detail-evidence"></dd></div>
+      </dl>
+      <div class="detail-actions">
+        <a class="btn btn--secondary" id="detail-source" target="_blank" rel="noreferrer">权利 / 类别入口</a>
+        <a class="btn btn--secondary" id="detail-proof" target="_blank" rel="noreferrer" hidden>查看人数证据</a>
+        <a class="btn btn--secondary" id="detail-visual" href="index.html">搜公版视觉</a>
+        <button class="btn btn--primary" id="copy-item" type="button">复制这条</button>
+      </div>
+    </article>
+  </dialog>
+</body>
+</html>

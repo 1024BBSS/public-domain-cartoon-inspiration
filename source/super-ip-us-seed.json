@@ -1,0 +1,415 @@
+{
+  "sourceVersion": "super-ip-us-2026-09-21-v1",
+  "researchDate": "2026-09-21",
+  "groups": [
+    {
+      "category": "动画 / 角色",
+      "subcategory": "Disney 经典角色",
+      "entityType": "角色 / 系列",
+      "rightsLane": "需授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "The Walt Disney Company",
+      "sourceLabel": "Disney · Characters",
+      "sourceUrl": "https://www.disney.com/",
+      "motifs": ["经典卡通轮廓", "拟人动物", "家庭娱乐"],
+      "items": [
+        "Mickey Mouse|米老鼠", "Minnie Mouse|米妮", "Donald Duck|唐老鸭", "Daisy Duck|黛丝", "Goofy|高飞", "Pluto|布鲁托", "Winnie the Pooh|小熊维尼", "Tigger|跳跳虎", "Eeyore|屹耳", "Peter Pan|彼得·潘", "Tinker Bell|奇妙仙子", "Cinderella|灰姑娘", "Snow White|白雪公主", "Sleeping Beauty|睡美人", "The Little Mermaid|小美人鱼", "Beauty and the Beast|美女与野兽", "Aladdin|阿拉丁", "The Lion King|狮子王", "Stitch|史迪奇", "Frozen|冰雪奇缘", "Moana|海洋奇缘", "Mulan|花木兰", "The Nightmare Before Christmas|圣诞夜惊魂", "Hocus Pocus|女巫也疯狂", "The Haunted Mansion|鬼屋", "Disney Villains|迪士尼反派", "Chip 'n' Dale|奇奇蒂蒂", "Dumbo|小飞象", "Bambi|小鹿斑比", "101 Dalmatians|101 忠狗"
+      ]
+    },
+    {
+      "category": "动画 / 角色",
+      "subcategory": "Pixar 与现代家庭动画",
+      "entityType": "角色 / 系列",
+      "rightsLane": "需授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Disney / Pixar and respective studios",
+      "sourceLabel": "Pixar · Feature Films",
+      "sourceUrl": "https://www.pixar.com/feature-films-launch",
+      "motifs": ["伙伴关系", "家庭冒险", "高识别角色搭档"],
+      "items": [
+        "Toy Story|玩具总动员", "Woody|胡迪", "Buzz Lightyear|巴斯光年", "Monsters, Inc.|怪兽电力公司", "Finding Nemo|海底总动员", "The Incredibles|超人总动员", "Cars|赛车总动员", "Ratatouille|料理鼠王", "WALL-E|机器人总动员", "Up|飞屋环游记", "Brave|勇敢传说", "Inside Out|头脑特工队", "Coco|寻梦环游记", "The Good Dinosaur|恐龙当家", "Soul|心灵奇旅", "Turning Red|青春变形记", "Luca|夏日友晴天", "Elemental|疯狂元素城", "Shrek|怪物史瑞克", "Kung Fu Panda|功夫熊猫", "How to Train Your Dragon|驯龙高手", "Despicable Me|神偷奶爸", "Minions|小黄人", "Ice Age|冰川时代", "The Secret Life of Pets|爱宠大机密"
+      ]
+    },
+    {
+      "category": "动画 / 角色",
+      "subcategory": "Warner、Hanna-Barbera 与经典电视卡通",
+      "entityType": "角色 / 系列",
+      "rightsLane": "需授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Warner Bros. Discovery and respective rights holders",
+      "sourceLabel": "Warner Bros. Discovery",
+      "sourceUrl": "https://www.wbd.com/",
+      "motifs": ["追逐喜剧", "夸张表情", "电视卡通"],
+      "items": [
+        "Bugs Bunny|兔八哥", "Daffy Duck|达菲鸭", "Tweety|崔弟", "Sylvester the Cat|傻大猫", "Road Runner|哔哔鸟", "Wile E. Coyote|歪心狼", "Tasmanian Devil|塔斯马尼亚恶魔", "Marvin the Martian|火星人马文", "Porky Pig|猪小弟", "Foghorn Leghorn|大公鸡雾角", "Tom and Jerry|猫和老鼠", "Scooby-Doo|史酷比", "The Flintstones|摩登原始人", "The Jetsons|杰森一家", "Yogi Bear|瑜伽熊", "Top Cat|顶猫", "Johnny Bravo|约翰尼·布拉沃", "The Powerpuff Girls|飞天小女警", "Dexter's Laboratory|德克斯特的实验室", "Courage the Cowardly Dog|胆小狗英雄", "Adventure Time|探险活宝", "Regular Show|日常工作", "Steven Universe|史蒂文宇宙", "Teen Titans Go!|少年泰坦出击", "Rick and Morty|瑞克和莫蒂", "Beetlejuice|阴间大法师", "Gremlins|小精灵", "The Iron Giant|钢铁巨人", "Animaniacs|狂欢三宝", "Pink Panther|粉红豹"
+      ]
+    },
+    {
+      "category": "动画 / 角色",
+      "subcategory": "美国电视、漫画与儿童角色",
+      "entityType": "角色 / 系列",
+      "rightsLane": "需授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Respective publishers, studios and licensors",
+      "sourceLabel": "Licensing International · Industry",
+      "sourceUrl": "https://licensinginternational.org/",
+      "motifs": ["报刊漫画", "学龄前", "成人动画", "校园怀旧"],
+      "items": [
+        "Snoopy and Peanuts|史努比与花生漫画", "Garfield|加菲猫", "Calvin and Hobbes|卡尔文与霍布斯", "The Simpsons|辛普森一家", "Family Guy|恶搞之家", "South Park|南方公园", "SpongeBob SquarePants|海绵宝宝", "Teenage Mutant Ninja Turtles|忍者神龟", "Rugrats|淘气小兵兵", "Hey Arnold!|阿诺德", "Dora the Explorer|爱探险的朵拉", "Blue's Clues|蓝色斑点狗", "PAW Patrol|汪汪队立大功", "Sesame Street|芝麻街", "The Muppets|布偶秀", "Fraggle Rock|布偶奇遇记", "Care Bears|爱心小熊", "Strawberry Shortcake|草莓甜心", "My Little Pony|小马宝莉", "Rainbow Brite|彩虹仙子", "The Smurfs|蓝精灵", "Alvin and the Chipmunks|艾尔文与花栗鼠", "Popeye|大力水手", "Betty Boop|贝蒂娃娃", "Felix the Cat|菲利克斯猫", "Casper the Friendly Ghost|鬼马小精灵", "Richie Rich|里奇·里奇", "Archie Comics|阿奇漫画", "The Addams Family|亚当斯一家", "Where's Waldo?|威利在哪里", "Arthur|亚瑟小子", "Clifford the Big Red Dog|大红狗克里弗", "Curious George|好奇猴乔治", "The Berenstain Bears|贝贝熊", "Dr. Seuss|苏斯博士角色群"
+      ]
+    },
+    {
+      "category": "动画 / 角色",
+      "subcategory": "日本及全球大众角色",
+      "entityType": "角色 / 系列",
+      "rightsLane": "需授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Respective Japanese and international rights holders",
+      "sourceLabel": "Licensing International · Industry",
+      "sourceUrl": "https://licensinginternational.org/",
+      "motifs": ["收藏文化", "萌系", "战斗漫画", "全球角色授权"],
+      "items": [
+        "Pokémon|宝可梦", "Pikachu|皮卡丘", "Hello Kitty|凯蒂猫", "Sanrio Characters|三丽鸥角色群", "Super Mario|超级马力欧", "Sonic the Hedgehog|刺猬索尼克", "Dragon Ball|龙珠", "Sailor Moon|美少女战士", "Naruto|火影忍者", "One Piece|海贼王", "Demon Slayer|鬼灭之刃", "My Hero Academia|我的英雄学院", "Attack on Titan|进击的巨人", "Jujutsu Kaisen|咒术回战", "Studio Ghibli|吉卜力角色群", "Totoro|龙猫", "Gundam|高达", "Yu-Gi-Oh!|游戏王", "Digimon|数码宝贝", "Tamagotchi|拓麻歌子", "Godzilla|哥斯拉", "Ultraman|奥特曼", "Astro Boy|铁臂阿童木", "Moomin|姆明", "Paddington|帕丁顿熊"
+      ]
+    },
+    {
+      "category": "电影 / 电视",
+      "subcategory": "大片与类型电影系列",
+      "entityType": "作品 / 系列",
+      "rightsLane": "需授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Respective film studios and licensors",
+      "sourceLabel": "Motion Picture Association",
+      "sourceUrl": "https://www.motionpictures.org/",
+      "motifs": ["大片符号", "类型片", "英雄旅程", "科幻幻想"],
+      "items": [
+        "Star Wars|星球大战", "Marvel Cinematic Universe|漫威电影宇宙", "Spider-Man|蜘蛛侠", "Batman|蝙蝠侠", "Superman|超人", "Wonder Woman|神奇女侠", "The Avengers|复仇者联盟", "X-Men|X 战警", "Deadpool|死侍", "Harry Potter|哈利·波特", "The Lord of the Rings|指环王", "Jurassic Park|侏罗纪公园", "Indiana Jones|夺宝奇兵", "Back to the Future|回到未来", "E.T. the Extra-Terrestrial|E.T. 外星人", "Jaws|大白鲨", "Ghostbusters|捉鬼敢死队", "The Matrix|黑客帝国", "Terminator|终结者", "Alien|异形", "Predator|铁血战士", "Rocky|洛奇", "Rambo|第一滴血", "Top Gun|壮志凌云", "Mission: Impossible|碟中谍", "James Bond|詹姆斯·邦德", "Fast & Furious|速度与激情", "Transformers|变形金刚", "Planet of the Apes|猩球崛起", "Avatar|阿凡达", "Pirates of the Caribbean|加勒比海盗", "The Hunger Games|饥饿游戏", "Twilight|暮光之城", "The Karate Kid|龙威小子", "The Wizard of Oz|绿野仙踪"
+      ]
+    },
+    {
+      "category": "电影 / 电视",
+      "subcategory": "美国电视文化",
+      "entityType": "作品 / 系列",
+      "rightsLane": "需授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Respective networks, studios and licensors",
+      "sourceLabel": "Television Academy",
+      "sourceUrl": "https://www.televisionacademy.com/",
+      "motifs": ["情景喜剧", "电视怀旧", "角色群像", "流媒体文化"],
+      "items": [
+        "Friends|老友记", "Seinfeld|宋飞正传", "The Office|办公室", "Cheers|欢乐酒店", "I Love Lucy|我爱露西", "The Golden Girls|黄金女郎", "M*A*S*H|陆军野战医院", "Saturday Night Live|周六夜现场", "Star Trek|星际迷航", "The Twilight Zone|阴阳魔界", "The X-Files|X 档案", "Stranger Things|怪奇物语", "Game of Thrones|权力的游戏", "The Walking Dead|行尸走肉", "Breaking Bad|绝命毒师", "The Sopranos|黑道家族", "The Fresh Prince of Bel-Air|新鲜王子妙事多", "Saved by the Bell|救命下课铃", "Full House|欢乐满屋", "Gilmore Girls|吉尔莫女孩", "Buffy the Vampire Slayer|吸血鬼猎人巴菲", "Twin Peaks|双峰", "Baywatch|海滩救护队", "Yellowstone|黄石", "Ted Lasso|足球教练", "Wednesday|星期三", "Bridgerton|布里奇顿", "Squid Game|鱿鱼游戏", "The Mandalorian|曼达洛人", "RuPaul's Drag Race|鲁保罗变装皇后秀"
+      ]
+    },
+    {
+      "category": "电影 / 电视",
+      "subcategory": "恐怖片与万圣节银幕符号",
+      "entityType": "作品 / 角色",
+      "rightsLane": "需授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Respective studios, estates and licensors",
+      "sourceLabel": "Motion Picture Association",
+      "sourceUrl": "https://www.motionpictures.org/",
+      "motifs": ["面具", "骷髅", "幽灵", "怪物", "杀手轮廓"],
+      "items": [
+        "Scream|惊声尖叫", "Ghostface|鬼脸杀手", "Halloween|月光光心慌慌", "Michael Myers|迈克尔·迈尔斯", "Friday the 13th|十三号星期五", "Jason Voorhees|杰森·沃赫斯", "A Nightmare on Elm Street|猛鬼街", "Freddy Krueger|弗莱迪·克鲁格", "The Texas Chain Saw Massacre|德州电锯杀人狂", "Leatherface|皮脸", "Child's Play|鬼娃回魂", "Chucky|恰吉", "It|小丑回魂", "Pennywise|潘尼怀斯", "The Exorcist|驱魔人", "The Shining|闪灵", "Psycho|惊魂记", "The Silence of the Lambs|沉默的羔羊", "Saw|电锯惊魂", "The Conjuring|招魂", "The Ring|午夜凶铃", "The Blair Witch Project|女巫布莱尔", "The Evil Dead|鬼玩人", "Hellraiser|养鬼吃人", "The Rocky Horror Picture Show|洛基恐怖秀", "Universal Monsters|环球怪物", "Bride of Frankenstein|科学怪人的新娘", "Creature from the Black Lagoon|黑湖妖潭", "Nosferatu|诺斯费拉图", "Elvira, Mistress of the Dark|黑暗女王艾维拉"
+      ]
+    },
+    {
+      "category": "游戏 / 玩具",
+      "subcategory": "电子游戏",
+      "entityType": "游戏 / 角色",
+      "rightsLane": "需授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Respective game publishers and licensors",
+      "sourceLabel": "Entertainment Software Association",
+      "sourceUrl": "https://www.theesa.com/",
+      "motifs": ["像素", "主机怀旧", "多人竞技", "角色皮肤"],
+      "items": [
+        "The Legend of Zelda|塞尔达传说", "Minecraft|我的世界", "Fortnite|堡垒之夜", "Roblox|罗布乐思", "Grand Theft Auto|侠盗猎车手", "Call of Duty|使命召唤", "Halo|光环", "Mortal Kombat|真人快打", "Street Fighter|街头霸王", "Pac-Man|吃豆人", "Tetris|俄罗斯方块", "Donkey Kong|大金刚", "Kirby|星之卡比", "Animal Crossing|动物森友会", "Splatoon|斯普拉遁", "Metroid|银河战士", "Final Fantasy|最终幻想", "Kingdom Hearts|王国之心", "Resident Evil|生化危机", "Silent Hill|寂静岭", "The Last of Us|最后生还者", "God of War|战神", "Red Dead Redemption|荒野大镖客", "The Sims|模拟人生", "Madden NFL|麦登橄榄球", "NBA 2K|NBA 2K", "EA Sports FC|EA 足球", "Fallout|辐射", "The Elder Scrolls|上古卷轴", "Doom|毁灭战士", "Diablo|暗黑破坏神", "World of Warcraft|魔兽世界", "League of Legends|英雄联盟", "Overwatch|守望先锋", "Five Nights at Freddy's|玩具熊的五夜后宫", "Among Us|我们之中", "Apex Legends|Apex 英雄", "Cyberpunk 2077|赛博朋克 2077", "Genshin Impact|原神", "Candy Crush Saga|糖果传奇"
+      ]
+    },
+    {
+      "category": "游戏 / 玩具",
+      "subcategory": "玩具、桌游与收藏",
+      "entityType": "品牌 / 系列",
+      "rightsLane": "需授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Respective toy companies and licensors",
+      "sourceLabel": "The Toy Association",
+      "sourceUrl": "https://www.toyassociation.org/",
+      "motifs": ["玩具包装", "收藏", "家庭游戏", "童年怀旧"],
+      "items": [
+        "Barbie|芭比", "Hot Wheels|风火轮", "LEGO|乐高", "American Girl|美国女孩", "Fisher-Price|费雪", "Nerf|NERF 玩具枪", "Transformers Toys|变形金刚玩具", "G.I. Joe|特种部队", "He-Man and the Masters of the Universe|希曼", "Monster High|怪物高中", "Bratz|贝兹娃娃", "Polly Pocket|口袋波莉", "Cabbage Patch Kids|卷心菜娃娃", "Beanie Babies|豆豆娃", "Funko Pop!|Funko 泡泡玛特式公仔", "Rubik's Cube|魔方", "Etch A Sketch|神奇画板", "Slinky|弹簧玩具", "Play-Doh|培乐多", "Monopoly|大富翁", "Scrabble|拼字游戏", "Clue|妙探寻凶", "Candy Land|糖果乐园", "The Game of Life|人生游戏", "Dungeons & Dragons|龙与地下城", "Magic: The Gathering|万智牌", "UNO|UNO 纸牌", "Ouija|通灵板", "Build-A-Bear Workshop|泰迪熊工坊", "Squishmallows|软萌抱枕玩偶"
+      ]
+    },
+    {
+      "category": "音乐",
+      "subcategory": "美国大众歌手与时代人物",
+      "entityType": "音乐人",
+      "rightsLane": "姓名肖像授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Artist, estate, label, publisher and merchandising licensors",
+      "sourceLabel": "Recording Industry Association of America",
+      "sourceUrl": "https://www.riaa.com/",
+      "motifs": ["舞台形象", "专辑时代", "字体与造型", "歌迷文化"],
+      "items": [
+        "Taylor Swift|泰勒·斯威夫特", "Michael Jackson|迈克尔·杰克逊", "Elvis Presley|埃尔维斯·普雷斯利", "Beyoncé|碧昂丝", "Madonna|麦当娜", "Prince|王子", "Whitney Houston|惠特妮·休斯顿", "Dolly Parton|多莉·帕顿", "Johnny Cash|约翰尼·卡什", "Willie Nelson|威利·纳尔逊", "Bruce Springsteen|布鲁斯·斯普林斯汀", "Bob Dylan|鲍勃·迪伦", "Cher|雪儿", "Stevie Wonder|史蒂维·旺德", "Aretha Franklin|艾瑞莎·弗兰克林", "Diana Ross|戴安娜·罗斯", "Tina Turner|蒂娜·特纳", "Mariah Carey|玛丽亚·凯莉", "Britney Spears|布兰妮·斯皮尔斯", "Janet Jackson|珍妮·杰克逊", "Lady Gaga|Lady Gaga", "Rihanna|蕾哈娜", "Adele|阿黛尔", "Billie Eilish|比莉·艾利什", "Miley Cyrus|麦莉·赛勒斯", "Katy Perry|凯蒂·佩里", "Ariana Grande|爱莉安娜·格兰德", "Bruno Mars|布鲁诺·马尔斯", "Justin Timberlake|贾斯汀·汀布莱克", "Usher|亚瑟小子", "Snoop Dogg|史努比狗狗", "Eminem|埃米纳姆", "Jay-Z|Jay-Z", "Kanye West|坎耶·韦斯特", "Kendrick Lamar|肯德里克·拉马尔", "Drake|德雷克", "Tupac Shakur|图派克", "The Notorious B.I.G.|声名狼藉先生", "Garth Brooks|加斯·布鲁克斯", "Shania Twain|仙妮亚·唐恩"
+      ]
+    },
+    {
+      "category": "音乐",
+      "subcategory": "乐队、组合与摇滚符号",
+      "entityType": "音乐团体",
+      "rightsLane": "需授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Band, estates, labels, publishers and merchandising licensors",
+      "sourceLabel": "Rock & Roll Hall of Fame",
+      "sourceUrl": "https://rockhall.com/",
+      "motifs": ["乐队标识", "巡演图形", "唱片封面", "亚文化"],
+      "items": [
+        "The Beatles|披头士", "The Rolling Stones|滚石乐队", "Queen|皇后乐队", "Led Zeppelin|齐柏林飞艇", "Pink Floyd|平克·弗洛伊德", "Fleetwood Mac|弗利特伍德麦克", "Eagles|老鹰乐队", "Aerosmith|空中铁匠", "KISS|KISS 乐队", "AC/DC|AC/DC", "Metallica|金属乐队", "Guns N' Roses|枪炮与玫瑰", "Nirvana|涅槃乐队", "Pearl Jam|珍珠果酱乐队", "Red Hot Chili Peppers|红辣椒乐队", "Green Day|绿日乐队", "Foo Fighters|喷火战机", "Linkin Park|林肯公园", "Blink-182|Blink-182", "Paramore|帕拉莫尔", "My Chemical Romance|我的化学浪漫", "Fall Out Boy|打倒男孩", "The Beach Boys|沙滩男孩", "The Doors|大门乐队", "Grateful Dead|感恩而死", "The Ramones|雷蒙斯", "Misfits|异类乐队", "Black Sabbath|黑色安息日", "Iron Maiden|铁娘子", "Judas Priest|犹大圣徒", "Motörhead|摩托头", "Wu-Tang Clan|武当帮", "Run-DMC|Run-DMC", "Outkast|流浪者", "Destiny's Child|天命真女"
+      ]
+    },
+    {
+      "category": "体育运动",
+      "subcategory": "联盟、赛事与体育文化",
+      "entityType": "联盟 / 赛事",
+      "rightsLane": "联盟 / 球队授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "League, event organizer, governing body and broadcast partners",
+      "sourceLabel": "Sports Business Journal",
+      "sourceUrl": "https://www.sportsbusinessjournal.com/",
+      "motifs": ["球迷仪式", "赛场结构", "冠军文化", "城市认同"],
+      "items": [
+        "NFL|美国国家橄榄球联盟", "NBA|美国职业篮球联赛", "MLB|美国职业棒球大联盟", "NHL|美国国家冰球联盟", "WNBA|美国女子职业篮球联赛", "NCAA|美国大学体育协会", "MLS|美国职业足球大联盟", "NWSL|美国女子足球联赛", "NASCAR|纳斯卡赛车", "IndyCar|印地赛车", "UFC|终极格斗冠军赛", "WWE|世界摔角娱乐", "PGA Tour|美巡赛", "LPGA Tour|女子美巡赛", "U.S. Tennis Association|美国网球协会", "Super Bowl|超级碗", "World Series|世界大赛", "NBA Finals|NBA 总决赛", "Stanley Cup Finals|斯坦利杯总决赛", "March Madness|疯狂三月", "College Football Playoff|大学橄榄球季后赛", "Rose Bowl|玫瑰碗", "Army–Navy Game|陆海军橄榄球赛", "Kentucky Derby|肯塔基德比", "Indianapolis 500|印第安纳波利斯 500", "Daytona 500|代托纳 500", "The Masters|美国大师赛", "U.S. Open Golf|美国高尔夫公开赛", "U.S. Open Tennis|美国网球公开赛", "Boston Marathon|波士顿马拉松", "New York City Marathon|纽约马拉松", "Olympic Games|奥林匹克运动会", "Paralympic Games|残奥会", "FIFA World Cup|国际足联世界杯", "Copa América|美洲杯", "Little League World Series|少年棒球世界大赛", "X Games|世界极限运动会", "Preakness Stakes|必利是锦标", "Belmont Stakes|贝尔蒙特锦标", "Harlem Globetrotters|哈林篮球队"
+      ]
+    },
+    {
+      "category": "体育运动",
+      "subcategory": "NFL 球队",
+      "entityType": "球队",
+      "rightsLane": "联盟 / 球队授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "NFL and respective clubs",
+      "sourceLabel": "NFL · Teams",
+      "sourceUrl": "https://www.nfl.com/teams/",
+      "motifs": ["城市符号", "球衣配色", "头盔文化", "尾箱派对"],
+      "items": [
+        "Arizona Cardinals|亚利桑那红雀", "Atlanta Falcons|亚特兰大猎鹰", "Baltimore Ravens|巴尔的摩乌鸦", "Buffalo Bills|布法罗比尔", "Carolina Panthers|卡罗来纳黑豹", "Chicago Bears|芝加哥熊", "Cincinnati Bengals|辛辛那提猛虎", "Cleveland Browns|克利夫兰布朗", "Dallas Cowboys|达拉斯牛仔", "Denver Broncos|丹佛野马", "Detroit Lions|底特律雄狮", "Green Bay Packers|绿湾包装工", "Houston Texans|休斯敦德州人", "Indianapolis Colts|印第安纳波利斯小马", "Jacksonville Jaguars|杰克逊维尔美洲虎", "Kansas City Chiefs|堪萨斯城酋长", "Las Vegas Raiders|拉斯维加斯突袭者", "Los Angeles Chargers|洛杉矶闪电", "Los Angeles Rams|洛杉矶公羊", "Miami Dolphins|迈阿密海豚", "Minnesota Vikings|明尼苏达维京人", "New England Patriots|新英格兰爱国者", "New Orleans Saints|新奥尔良圣徒", "New York Giants|纽约巨人", "New York Jets|纽约喷气机", "Philadelphia Eagles|费城老鹰", "Pittsburgh Steelers|匹兹堡钢人", "San Francisco 49ers|旧金山 49 人", "Seattle Seahawks|西雅图海鹰", "Tampa Bay Buccaneers|坦帕湾海盗", "Tennessee Titans|田纳西泰坦", "Washington Commanders|华盛顿指挥官"
+      ]
+    },
+    {
+      "category": "体育运动",
+      "subcategory": "NBA 球队",
+      "entityType": "球队",
+      "rightsLane": "联盟 / 球队授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "NBA and respective clubs",
+      "sourceLabel": "NBA · Teams",
+      "sourceUrl": "https://www.nba.com/teams",
+      "motifs": ["球馆文化", "球衣配色", "街头篮球", "冠军年代"],
+      "items": [
+        "Atlanta Hawks|亚特兰大老鹰", "Boston Celtics|波士顿凯尔特人", "Brooklyn Nets|布鲁克林篮网", "Charlotte Hornets|夏洛特黄蜂", "Chicago Bulls|芝加哥公牛", "Cleveland Cavaliers|克利夫兰骑士", "Dallas Mavericks|达拉斯独行侠", "Denver Nuggets|丹佛掘金", "Detroit Pistons|底特律活塞", "Golden State Warriors|金州勇士", "Houston Rockets|休斯敦火箭", "Indiana Pacers|印第安纳步行者", "LA Clippers|洛杉矶快船", "Los Angeles Lakers|洛杉矶湖人", "Memphis Grizzlies|孟菲斯灰熊", "Miami Heat|迈阿密热火", "Milwaukee Bucks|密尔沃基雄鹿", "Minnesota Timberwolves|明尼苏达森林狼", "New Orleans Pelicans|新奥尔良鹈鹕", "New York Knicks|纽约尼克斯", "Oklahoma City Thunder|俄克拉荷马城雷霆", "Orlando Magic|奥兰多魔术", "Philadelphia 76ers|费城 76 人", "Phoenix Suns|菲尼克斯太阳", "Portland Trail Blazers|波特兰开拓者", "Sacramento Kings|萨克拉门托国王", "San Antonio Spurs|圣安东尼奥马刺", "Toronto Raptors|多伦多猛龙", "Utah Jazz|犹他爵士", "Washington Wizards|华盛顿奇才"
+      ]
+    },
+    {
+      "category": "体育运动",
+      "subcategory": "MLB 球队",
+      "entityType": "球队",
+      "rightsLane": "联盟 / 球队授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "MLB and respective clubs",
+      "sourceLabel": "MLB · Team Directory",
+      "sourceUrl": "https://www.mlb.com/team",
+      "motifs": ["棒球帽", "球场标识", "美式怀旧", "城市字母"],
+      "items": [
+        "Arizona Diamondbacks|亚利桑那响尾蛇", "Athletics|运动家", "Atlanta Braves|亚特兰大勇士", "Baltimore Orioles|巴尔的摩金莺", "Boston Red Sox|波士顿红袜", "Chicago Cubs|芝加哥小熊", "Chicago White Sox|芝加哥白袜", "Cincinnati Reds|辛辛那提红人", "Cleveland Guardians|克利夫兰守护者", "Colorado Rockies|科罗拉多洛矶", "Detroit Tigers|底特律老虎", "Houston Astros|休斯敦太空人", "Kansas City Royals|堪萨斯城皇家", "Los Angeles Angels|洛杉矶天使", "Los Angeles Dodgers|洛杉矶道奇", "Miami Marlins|迈阿密马林鱼", "Milwaukee Brewers|密尔沃基酿酒人", "Minnesota Twins|明尼苏达双城", "New York Mets|纽约大都会", "New York Yankees|纽约扬基", "Philadelphia Phillies|费城费城人", "Pittsburgh Pirates|匹兹堡海盗", "San Diego Padres|圣迭戈教士", "San Francisco Giants|旧金山巨人", "Seattle Mariners|西雅图水手", "St. Louis Cardinals|圣路易斯红雀", "Tampa Bay Rays|坦帕湾光芒", "Texas Rangers|德州游骑兵", "Toronto Blue Jays|多伦多蓝鸟", "Washington Nationals|华盛顿国民"
+      ]
+    },
+    {
+      "category": "体育运动",
+      "subcategory": "NHL 球队",
+      "entityType": "球队",
+      "rightsLane": "联盟 / 球队授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "NHL and respective clubs",
+      "sourceLabel": "NHL · Teams",
+      "sourceUrl": "https://www.nhl.com/info/teams",
+      "motifs": ["冰球徽章", "冬季运动", "动物图腾", "复古毛衫"],
+      "items": [
+        "Anaheim Ducks|阿纳海姆鸭", "Boston Bruins|波士顿棕熊", "Buffalo Sabres|布法罗军刀", "Calgary Flames|卡尔加里火焰", "Carolina Hurricanes|卡罗来纳飓风", "Chicago Blackhawks|芝加哥黑鹰", "Colorado Avalanche|科罗拉多雪崩", "Columbus Blue Jackets|哥伦布蓝衣", "Dallas Stars|达拉斯星", "Detroit Red Wings|底特律红翼", "Edmonton Oilers|埃德蒙顿油人", "Florida Panthers|佛罗里达美洲豹", "Los Angeles Kings|洛杉矶国王", "Minnesota Wild|明尼苏达狂野", "Montréal Canadiens|蒙特利尔加拿大人", "Nashville Predators|纳什维尔掠夺者", "New Jersey Devils|新泽西魔鬼", "New York Islanders|纽约岛人", "New York Rangers|纽约游骑兵", "Ottawa Senators|渥太华参议员", "Philadelphia Flyers|费城飞人", "Pittsburgh Penguins|匹兹堡企鹅", "San Jose Sharks|圣何塞鲨鱼", "Seattle Kraken|西雅图海怪", "St. Louis Blues|圣路易斯蓝调", "Tampa Bay Lightning|坦帕湾闪电", "Toronto Maple Leafs|多伦多枫叶", "Utah Mammoth|犹他猛犸", "Vancouver Canucks|温哥华加人", "Vegas Golden Knights|维加斯金骑士", "Washington Capitals|华盛顿首都", "Winnipeg Jets|温尼伯喷气机"
+      ]
+    },
+    {
+      "category": "体育运动",
+      "subcategory": "大学体育与校园传统",
+      "entityType": "学校 / 球队",
+      "rightsLane": "联盟 / 球队授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Universities, conferences and collegiate licensing partners",
+      "sourceLabel": "NCAA",
+      "sourceUrl": "https://www.ncaa.com/",
+      "motifs": ["校园字母", "吉祥物", "校色", "比赛日传统"],
+      "items": [
+        "Alabama Crimson Tide|阿拉巴马红潮", "Auburn Tigers|奥本老虎", "Clemson Tigers|克莱姆森老虎", "Duke Blue Devils|杜克蓝魔", "Florida Gators|佛罗里达短吻鳄", "Florida State Seminoles|佛州州立塞米诺尔", "Georgia Bulldogs|乔治亚斗牛犬", "Howard Bison|霍华德野牛", "Iowa Hawkeyes|爱荷华鹰眼", "LSU Tigers|路易斯安那州立老虎", "Michigan Wolverines|密歇根狼獾", "Michigan State Spartans|密歇根州立斯巴达人", "Notre Dame Fighting Irish|圣母爱尔兰战士", "Ohio State Buckeyes|俄亥俄州立七叶树", "Oklahoma Sooners|俄克拉荷马捷足者", "Oregon Ducks|俄勒冈鸭", "Penn State Nittany Lions|宾州州立尼塔尼雄狮", "South Carolina Gamecocks|南卡罗来纳斗鸡", "Tennessee Volunteers|田纳西志愿者", "Texas Longhorns|德州长角牛", "Texas A&M Aggies|德州农工", "UCLA Bruins|加州大学洛杉矶分校棕熊", "USC Trojans|南加州大学特洛伊人", "UConn Huskies|康涅狄格哈士奇", "Kentucky Wildcats|肯塔基野猫", "Kansas Jayhawks|堪萨斯松鸦鹰", "North Carolina Tar Heels|北卡焦油踵", "Villanova Wildcats|维拉诺瓦野猫", "Wisconsin Badgers|威斯康星獾", "Stanford Cardinal|斯坦福红衣"
+      ]
+    },
+    {
+      "category": "体育运动",
+      "subcategory": "美国体育传奇",
+      "entityType": "运动员",
+      "rightsLane": "姓名肖像授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Athlete, estate, league, team, sponsor and licensors",
+      "sourceLabel": "USPTO · Name, Image and Likeness",
+      "sourceUrl": "https://www.uspto.gov/trademarks/name-image-and-likeness",
+      "motifs": ["标志动作", "号码文化", "冠军时刻", "人物轮廓"],
+      "items": [
+        "Michael Jordan|迈克尔·乔丹", "Muhammad Ali|穆罕默德·阿里", "Babe Ruth|贝比·鲁斯", "Jackie Robinson|杰基·罗宾逊", "Jesse Owens|杰西·欧文斯", "Billie Jean King|比利·简·金", "Serena Williams|塞雷娜·威廉姆斯", "Venus Williams|维纳斯·威廉姆斯", "Tiger Woods|泰格·伍兹", "Arnold Palmer|阿诺德·帕尔默", "Jack Nicklaus|杰克·尼克劳斯", "Wayne Gretzky|韦恩·格雷茨基", "Mario Lemieux|马里奥·勒米厄", "Magic Johnson|魔术师约翰逊", "Larry Bird|拉里·伯德", "Kareem Abdul-Jabbar|卡里姆·阿卜杜勒-贾巴尔", "Wilt Chamberlain|威尔特·张伯伦", "Bill Russell|比尔·拉塞尔", "Shaquille O'Neal|沙奎尔·奥尼尔", "Kobe Bryant|科比·布莱恩特", "Jerry West|杰里·韦斯特", "Allen Iverson|阿伦·艾弗森", "Tom Brady|汤姆·布雷迪", "Joe Montana|乔·蒙塔纳", "Peyton Manning|佩顿·曼宁", "Walter Payton|沃尔特·佩顿", "Jerry Rice|杰里·赖斯", "Lawrence Taylor|劳伦斯·泰勒", "Deion Sanders|迪昂·桑德斯", "Bo Jackson|博·杰克逊", "Derek Jeter|德里克·基特", "Hank Aaron|汉克·阿伦", "Willie Mays|威利·梅斯", "Joe DiMaggio|乔·迪马乔", "Mickey Mantle|米奇·曼托", "Nolan Ryan|诺兰·瑞安", "Pete Rose|皮特·罗斯", "Dale Earnhardt|戴尔·恩哈特", "Richard Petty|理查德·佩蒂", "Jeff Gordon|杰夫·戈登", "Tony Hawk|托尼·霍克", "Kelly Slater|凯利·斯莱特", "Mary Lou Retton|玛丽·卢·雷顿", "Florence Griffith Joyner|弗洛伦斯·格里菲斯-乔伊娜", "Mia Hamm|米娅·哈姆", "Abby Wambach|阿比·万巴赫", "Mike Tyson|迈克·泰森", "Hulk Hogan|浩克·霍根", "Andre the Giant|巨人安德烈", "Ronda Rousey|隆达·罗西"
+      ]
+    },
+    {
+      "category": "体育运动",
+      "subcategory": "当代美国体育人物",
+      "entityType": "运动员",
+      "rightsLane": "姓名肖像授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Athlete, league, team, sponsor and licensors",
+      "sourceLabel": "USPTO · Name, Image and Likeness",
+      "sourceUrl": "https://www.uspto.gov/trademarks/name-image-and-likeness",
+      "motifs": ["当代明星", "社交传播", "标志动作", "比赛造型"],
+      "items": [
+        "LeBron James|勒布朗·詹姆斯", "Stephen Curry|斯蒂芬·库里", "Kevin Durant|凯文·杜兰特", "Giannis Antetokounmpo|扬尼斯·阿德托昆博", "Nikola Jokić|尼古拉·约基奇", "Jayson Tatum|杰森·塔图姆", "Luka Dončić|卢卡·东契奇", "Caitlin Clark|凯特琳·克拉克", "A'ja Wilson|阿贾·威尔逊", "Sabrina Ionescu|萨布丽娜·约内斯库", "Patrick Mahomes|帕特里克·马霍姆斯", "Travis Kelce|特拉维斯·凯尔西", "Aaron Rodgers|阿伦·罗杰斯", "Josh Allen|乔什·阿伦", "Lamar Jackson|拉马尔·杰克逊", "Joe Burrow|乔·伯罗", "Shohei Ohtani|大谷翔平", "Aaron Judge|阿伦·贾奇", "Mike Trout|迈克·特劳特", "Mookie Betts|穆基·贝茨", "Sidney Crosby|西德尼·克罗斯比", "Alex Ovechkin|亚历克斯·奥韦奇金", "Connor McDavid|康纳·麦克戴维", "Simone Biles|西蒙·拜尔斯", "Katie Ledecky|凯蒂·莱德基", "Sha'Carri Richardson|沙卡里·理查森", "Noah Lyles|诺亚·莱尔斯", "Coco Gauff|科科·高芙", "Naomi Osaka|大坂直美", "Megan Rapinoe|梅根·拉皮诺", "Alex Morgan|亚历克斯·摩根", "Lionel Messi|莱昂内尔·梅西", "Christian Pulisic|克里斯蒂安·普利西奇", "Chase Elliott|蔡斯·埃利奥特", "Kyle Larson|凯尔·拉森", "Scottie Scheffler|斯科蒂·舍夫勒", "Nelly Korda|内莉·科达", "Jon Jones|乔恩·琼斯", "Conor McGregor|康纳·麦格雷戈", "Roman Reigns|罗曼·雷恩斯"
+      ]
+    },
+    {
+      "category": "文学 / 公域角色",
+      "subcategory": "经典文学与民间角色",
+      "entityType": "角色 / 母题",
+      "rightsLane": "文化公域 · 逐素材核验",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Public-domain source works; later adaptations may be protected",
+      "sourceLabel": "U.S. Copyright Office · Duration",
+      "sourceUrl": "https://www.copyright.gov/circs/circ15a.pdf",
+      "motifs": ["经典角色", "民间故事", "哥特文学", "儿童文学"],
+      "items": [
+        "Alice in Wonderland|爱丽丝梦游仙境", "White Rabbit|白兔", "Cheshire Cat|柴郡猫", "Mad Hatter|疯帽匠", "Queen of Hearts|红心皇后", "The Wonderful Wizard of Oz|绿野仙踪", "Dorothy Gale|多萝西", "Scarecrow of Oz|稻草人", "Tin Woodman|铁皮人", "Cowardly Lion|胆小狮", "Sherlock Holmes|福尔摩斯", "Dracula|德古拉", "Frankenstein's Monster|弗兰肯斯坦怪物", "The Headless Horseman|无头骑士", "Rip Van Winkle|瑞普·凡·温克尔", "Robin Hood|罗宾汉", "King Arthur|亚瑟王", "Merlin|梅林", "Excalibur|王者之剑", "Romeo and Juliet|罗密欧与朱丽叶", "Hamlet|哈姆雷特", "A Midsummer Night's Dream|仲夏夜之梦", "A Christmas Carol|圣诞颂歌", "Ebenezer Scrooge|斯克鲁奇", "The Ghost of Christmas Past|过去圣诞幽灵", "Peter Rabbit|彼得兔", "Winnie-the-Pooh (1926 version)|小熊维尼 1926 版本", "Bambi (1923 novel)|小鹿斑比 1923 小说", "Tarzan|泰山", "Zorro|佐罗", "Puss in Boots|穿靴子的猫", "Little Red Riding Hood|小红帽", "Cinderella folklore|灰姑娘民间故事", "Snow White folklore|白雪公主民间故事", "Sleeping Beauty folklore|睡美人民间故事", "The Little Mermaid tale|小美人鱼童话", "Beauty and the Beast tale|美女与野兽童话", "Hansel and Gretel|糖果屋", "Rapunzel|长发公主民间故事", "The Pied Piper|花衣魔笛手", "The Three Little Pigs|三只小猪", "Jack and the Beanstalk|杰克与魔豆", "Goldilocks and the Three Bears|金发姑娘与三只熊", "Pinocchio|匹诺曹", "The Velveteen Rabbit|绒布小兔", "The Secret Garden|秘密花园", "Anne of Green Gables|绿山墙的安妮", "Little Women|小妇人", "The Great Gatsby|了不起的盖茨比", "Steamboat Willie Mickey (1928 version)|汽船威利版米奇"
+      ]
+    },
+    {
+      "category": "宗教 / 神话",
+      "subcategory": "圣经、节日与美国信仰文化",
+      "entityType": "人物 / 母题",
+      "rightsLane": "文化公域 · 逐素材核验",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Ancient texts and traditional iconography; translations and modern art vary",
+      "sourceLabel": "Library of Congress · Religion",
+      "sourceUrl": "https://www.loc.gov/topics/religion/",
+      "motifs": ["宗教叙事", "信仰符号", "节日", "传统图像学"],
+      "items": [
+        "Jesus Christ|耶稣基督", "Virgin Mary|圣母玛利亚", "Nativity of Jesus|耶稣诞生", "The Last Supper|最后的晚餐", "The Crucifixion|受难", "The Resurrection|复活", "Sacred Heart|圣心", "Good Shepherd|善牧", "Angels|天使", "Archangel Michael|大天使米迦勒", "Noah's Ark|诺亚方舟", "David and Goliath|大卫与歌利亚", "Moses and the Ten Commandments|摩西与十诫", "Adam and Eve|亚当与夏娃", "Garden of Eden|伊甸园", "Daniel in the Lions' Den|狮穴中的但以理", "Jonah and the Whale|约拿与大鱼", "Samson and Delilah|参孙与大利拉", "Saint George and the Dragon|圣乔治屠龙", "Saint Nicholas|圣尼古拉", "Santa Claus tradition|圣诞老人传统", "Three Wise Men|东方三博士", "Christmas Star|圣诞星", "Easter Resurrection symbols|复活节复活符号", "Menorah|犹太烛台", "Star of David|大卫之星", "Hanukkah tradition|光明节传统", "Passover tradition|逾越节传统", "Crescent and star tradition|新月与星传统", "Buddha iconography|佛陀图像传统"
+      ]
+    },
+    {
+      "category": "宗教 / 神话",
+      "subcategory": "希腊、罗马、北欧与民间神话",
+      "entityType": "神话人物 / 母题",
+      "rightsLane": "文化公域 · 逐素材核验",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Traditional mythology; modern character versions may be protected",
+      "sourceLabel": "The Metropolitan Museum of Art · Open Access",
+      "sourceUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "motifs": ["神祇属性", "英雄怪物", "古典雕塑", "星座"],
+      "items": [
+        "Zeus|宙斯", "Hera|赫拉", "Athena|雅典娜", "Aphrodite|阿芙洛狄忒", "Apollo|阿波罗", "Artemis|阿耳忒弥斯", "Poseidon|波塞冬", "Hades|哈迪斯", "Hermes|赫尔墨斯", "Dionysus|狄俄尼索斯", "Heracles|赫拉克勒斯", "Medusa|美杜莎", "Pegasus|珀伽索斯", "Minotaur|米诺陶洛斯", "Cerberus|刻耳柏洛斯", "Sirens|塞壬", "Phoenix|凤凰", "Cupid|丘比特", "Nike goddess|胜利女神尼刻", "Atlas|阿特拉斯", "Thor mythology|雷神托尔神话", "Odin|奥丁", "Loki mythology|洛基神话", "Valkyries|女武神", "Yggdrasil|世界树", "Anubis|阿努比斯", "Isis goddess|伊西斯", "Ra|太阳神拉", "Sphinx|斯芬克斯", "Mummy folklore|木乃伊传说", "Grim Reaper|死神", "Witch folklore|女巫民俗", "Werewolf folklore|狼人传说", "Vampire folklore|吸血鬼传说", "Ghost folklore|幽灵民俗", "Mermaid folklore|美人鱼传说", "Fairy folklore|仙子民俗", "Unicorn folklore|独角兽传说", "Dragon folklore|龙传说", "Bigfoot folklore|大脚怪传说"
+      ]
+    },
+    {
+      "category": "艺术 / 公共文化",
+      "subcategory": "艺术史高识别作品与语言",
+      "entityType": "作品 / 艺术语言",
+      "rightsLane": "文化公域 · 逐素材核验",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Public-domain original works; reproductions and photography vary",
+      "sourceLabel": "National Gallery of Art · Open Access",
+      "sourceUrl": "https://www.nga.gov/open-access-images.html",
+      "motifs": ["名画构图", "艺术史", "博物馆开放图像", "再创作"],
+      "items": [
+        "Mona Lisa|蒙娜丽莎", "The Last Supper by Leonardo|达·芬奇最后的晚餐", "The Creation of Adam|创造亚当", "The Birth of Venus|维纳斯的诞生", "Girl with a Pearl Earring|戴珍珠耳环的少女", "The Starry Night|星月夜", "Sunflowers by Van Gogh|梵高向日葵", "American Gothic|美国哥特式", "The Great Wave off Kanagawa|神奈川冲浪里", "Washington Crossing the Delaware|华盛顿横渡特拉华河", "Whistler's Mother|惠斯勒的母亲", "The Scream by Munch|蒙克呐喊", "The Kiss by Klimt|克里姆特之吻", "Water Lilies by Monet|莫奈睡莲", "Nighthawks|夜游者", "The Son of Man|人子", "Liberty Leading the People|自由引导人民", "The Thinker|思想者", "Venus de Milo|米洛斯的维纳斯", "Winged Victory of Samothrace|萨莫色雷斯胜利女神", "Egyptian hieroglyphs|埃及象形文字", "Greek vase painting|古希腊瓶画", "Medieval woodcuts|中世纪木刻", "Victorian engraving|维多利亚版画", "Art Nouveau posters|新艺术海报", "Art Deco geometry|装饰艺术几何", "Ukiyo-e|浮世绘", "Mexican folk retablos|墨西哥民间还愿画", "Pennsylvania Dutch folk art|宾夕法尼亚荷兰民间艺术", "Quilting traditions|拼布传统"
+      ]
+    },
+    {
+      "category": "品牌 / 广告角色",
+      "subcategory": "美国广告吉祥物与商业符号",
+      "entityType": "品牌角色",
+      "rightsLane": "需授权",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Respective brands and trademark owners",
+      "sourceLabel": "USPTO · Trademark Basics",
+      "sourceUrl": "https://www.uspto.gov/trademarks/basics/trademark-patent-copyright",
+      "motifs": ["包装角色", "广告怀旧", "品牌拟人", "零售记忆"],
+      "items": [
+        "Ronald McDonald|麦当劳叔叔", "Colonel Sanders|肯德基上校", "M&M's Characters|M&M's 巧克力角色", "Tony the Tiger|托尼虎", "Toucan Sam|大嘴鸟山姆", "Snap, Crackle and Pop|啪滋三兄弟", "Lucky the Leprechaun|幸运精灵", "Cap'n Crunch|嘎嘣脆船长", "Pillsbury Doughboy|皮尔斯伯里面团人", "Michelin Man|米其林人", "Kool-Aid Man|酷爱人", "Mr. Peanut|花生先生", "Planters Baby Nut|宝贝花生", "Jolly Green Giant|绿巨人蔬菜吉祥物", "Chester Cheetah|奇多豹", "Pringles Mascot|品客先生", "Geico Gecko|GEICO 壁虎", "Aflac Duck|Aflac 鸭", "Energizer Bunny|劲量兔", "Smokey Bear|护林熊斯莫基", "Woodsy Owl|伍兹猫头鹰", "Flo from Progressive|Progressive 的 Flo", "Mayhem from Allstate|Allstate 的 Mayhem", "Jake from State Farm|State Farm 的 Jake", "Coca-Cola Polar Bears|可口可乐北极熊", "Budweiser Clydesdales|百威克莱兹代尔马", "California Raisins|加州葡萄干", "Hamburglar|汉堡神偷", "Mr. Clean|清洁先生", "Sun-Maid Girl|阳光少女"
+      ]
+    },
+    {
+      "category": "公共符号",
+      "subcategory": "美国国家、城市与公共文化符号",
+      "entityType": "符号 / 地标",
+      "rightsLane": "政府 / 公共符号 · 逐项核验",
+      "usTier": "A｜美国高知名候选",
+      "rightsOwnerContext": "Government, monument, architect, photographer and trademark rules vary",
+      "sourceLabel": "USA.gov · Symbols of the United States",
+      "sourceUrl": "https://www.usa.gov/flag",
+      "motifs": ["国家象征", "城市地标", "公民文化", "旅行记忆"],
+      "items": [
+        "American Flag|美国国旗", "Bald Eagle|白头海雕", "Statue of Liberty|自由女神像", "Uncle Sam|山姆大叔", "The White House|白宫", "U.S. Capitol|美国国会大厦", "Liberty Bell|自由钟", "Mount Rushmore|总统山", "Golden Gate Bridge|金门大桥", "Hollywood Sign|好莱坞标志", "Route 66|66 号公路", "Grand Canyon|大峡谷", "Yellowstone National Park|黄石国家公园", "Yosemite National Park|优胜美地国家公园", "Niagara Falls|尼亚加拉瀑布", "Times Square|时代广场", "Brooklyn Bridge|布鲁克林大桥", "Empire State Building|帝国大厦", "Space Needle|太空针塔", "Gateway Arch|圣路易斯拱门", "Las Vegas Sign|拉斯维加斯欢迎标志", "NASA|美国国家航空航天局", "Apollo Moon Landing|阿波罗登月", "Rosie the Riveter|铆钉工罗茜", "I Want You Uncle Sam poster|山姆大叔征兵海报", "Smokey Bear campaign|护林熊宣传", "U.S. National Parks posters|美国国家公园海报", "American cowboy tradition|美国牛仔传统", "Harlem Renaissance|哈莱姆文艺复兴", "Jazz Age|爵士时代"
+      ]
+    }
+  ],
+  "sTierNames": [
+    "Mickey Mouse", "Minnie Mouse", "Donald Duck", "Goofy", "Winnie the Pooh", "Peter Pan", "Tinker Bell", "Cinderella", "Snow White", "The Little Mermaid", "Beauty and the Beast", "Aladdin", "The Lion King", "Stitch", "Frozen", "Moana", "The Nightmare Before Christmas",
+    "Toy Story", "Woody", "Buzz Lightyear", "Monsters, Inc.", "Finding Nemo", "The Incredibles", "Cars", "Up", "Inside Out", "Coco", "Shrek", "Despicable Me", "Minions",
+    "Bugs Bunny", "Daffy Duck", "Tweety", "Tom and Jerry", "Scooby-Doo", "The Flintstones", "The Powerpuff Girls", "Snoopy and Peanuts", "Garfield", "The Simpsons", "SpongeBob SquarePants", "Teenage Mutant Ninja Turtles", "Sesame Street", "The Muppets", "The Smurfs", "Popeye", "Betty Boop", "The Addams Family",
+    "Pokémon", "Pikachu", "Hello Kitty", "Super Mario", "Sonic the Hedgehog", "Dragon Ball", "Naruto", "One Piece", "Godzilla",
+    "Star Wars", "Marvel Cinematic Universe", "Spider-Man", "Batman", "Superman", "Wonder Woman", "The Avengers", "Harry Potter", "The Lord of the Rings", "Jurassic Park", "Indiana Jones", "Back to the Future", "E.T. the Extra-Terrestrial", "Jaws", "Ghostbusters", "The Matrix", "Terminator", "Alien", "Rocky", "Top Gun", "James Bond", "Fast & Furious", "Transformers", "Avatar", "The Wizard of Oz",
+    "Friends", "Seinfeld", "The Office", "I Love Lucy", "Saturday Night Live", "Star Trek", "Stranger Things", "Game of Thrones", "The Walking Dead", "Breaking Bad", "The Sopranos",
+    "Scream", "Ghostface", "Halloween", "Michael Myers", "Friday the 13th", "Jason Voorhees", "A Nightmare on Elm Street", "Freddy Krueger", "The Texas Chain Saw Massacre", "Leatherface", "Child's Play", "Chucky", "It", "Pennywise", "The Exorcist", "The Shining", "Psycho", "The Silence of the Lambs", "Universal Monsters",
+    "The Legend of Zelda", "Minecraft", "Fortnite", "Roblox", "Grand Theft Auto", "Call of Duty", "Halo", "Mortal Kombat", "Pac-Man", "Tetris", "Barbie", "Hot Wheels", "LEGO", "Monopoly", "Dungeons & Dragons",
+    "Taylor Swift", "Michael Jackson", "Elvis Presley", "Beyoncé", "Madonna", "Prince", "Whitney Houston", "Dolly Parton", "Johnny Cash", "Willie Nelson", "Bruce Springsteen", "Bob Dylan", "Cher", "Stevie Wonder", "Aretha Franklin", "Mariah Carey", "Britney Spears", "Lady Gaga", "Rihanna", "Adele", "Billie Eilish", "Snoop Dogg", "Eminem",
+    "The Beatles", "The Rolling Stones", "Queen", "Led Zeppelin", "Pink Floyd", "Fleetwood Mac", "Eagles", "Aerosmith", "KISS", "AC/DC", "Metallica", "Guns N' Roses", "Nirvana", "Grateful Dead",
+    "NFL", "NBA", "MLB", "NHL", "NCAA", "NASCAR", "UFC", "WWE", "Super Bowl", "World Series", "NBA Finals", "March Madness", "Olympic Games", "FIFA World Cup", "Kentucky Derby", "The Masters", "U.S. Open Tennis",
+    "Dallas Cowboys", "Green Bay Packers", "New England Patriots", "Kansas City Chiefs", "Pittsburgh Steelers", "Chicago Bears", "San Francisco 49ers", "Philadelphia Eagles", "Boston Celtics", "Los Angeles Lakers", "Chicago Bulls", "Golden State Warriors", "New York Knicks", "Miami Heat", "New York Yankees", "Los Angeles Dodgers", "Boston Red Sox", "Chicago Cubs", "St. Louis Cardinals",
+    "Michael Jordan", "Muhammad Ali", "Babe Ruth", "Jackie Robinson", "Serena Williams", "Tiger Woods", "Wayne Gretzky", "Magic Johnson", "Larry Bird", "Kareem Abdul-Jabbar", "Shaquille O'Neal", "Kobe Bryant", "Tom Brady", "Peyton Manning", "Derek Jeter", "Mike Tyson", "Tony Hawk", "LeBron James", "Stephen Curry", "Patrick Mahomes", "Shohei Ohtani", "Simone Biles", "Lionel Messi",
+    "Alice in Wonderland", "White Rabbit", "Cheshire Cat", "The Wonderful Wizard of Oz", "Sherlock Holmes", "Dracula", "Frankenstein's Monster", "Robin Hood", "Little Red Riding Hood", "Cinderella folklore", "Snow White folklore", "The Three Little Pigs", "Pinocchio", "The Great Gatsby", "Steamboat Willie Mickey (1928 version)", "Winnie-the-Pooh (1926 version)",
+    "Jesus Christ", "Virgin Mary", "Nativity of Jesus", "The Last Supper", "The Crucifixion", "The Resurrection", "Angels", "Noah's Ark", "Moses and the Ten Commandments", "Adam and Eve", "Santa Claus tradition",
+    "Mona Lisa", "The Starry Night", "American Gothic", "The Great Wave off Kanagawa", "The Scream by Munch",
+    "American Flag", "Bald Eagle", "Statue of Liberty", "Uncle Sam", "The White House", "U.S. Capitol", "Route 66", "Grand Canyon", "NASA", "Apollo Moon Landing", "Rosie the Riveter"
+  ],
+  "overrides": [
+    {
+      "name": "Super Bowl",
+      "reachStatus": "100M+ · 美国直接受众",
+      "evidenceStatus": "已核验",
+      "evidenceType": "美国电视与流媒体平均观众",
+      "evidenceValue": 125600000,
+      "evidenceUnit": "人",
+      "evidenceDate": "2026-02-08",
+      "evidenceUrl": "https://amp.nfl.com/news/nielsen-revises-super-bowl-final-rating-to-125-million-viewers"
+    },
+    {
+      "name": "Steamboat Willie Mickey (1928 version)",
+      "reachStatus": "美国高知名候选 · 不等于后期米奇可用",
+      "evidenceStatus": "版权边界已标注",
+      "evidenceType": "1928 具体版本进入美国公版；后期新增表达与商标另行处理",
+      "evidenceUrl": "https://web.law.duke.edu/cspd/publicdomainday/2024/"
+    },
+    {
+      "name": "Winnie-the-Pooh (1926 version)",
+      "reachStatus": "美国高知名候选 · 仅限早期具体版本",
+      "evidenceStatus": "版权边界已标注",
+      "evidenceType": "1926 原作进入美国公版；后期新增表达与商标另行处理",
+      "evidenceUrl": "https://web.law.duke.edu/cspd/publicdomainday/2022/"
+    }
+  ]
+}
