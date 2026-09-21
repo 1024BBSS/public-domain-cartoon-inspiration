@@ -124,7 +124,6 @@
   let state = readState();
   let visibleEvents = [];
   let selectedEvent = null;
-  const expandedGroups = new Set();
 
   function readState() {
     const params = new URLSearchParams(location.search);
@@ -207,7 +206,7 @@
       return badge;
     }
     if (link.relationship === "included") {
-      const badge = el("span", "gantt-money gantt-money--included", "冬礼季内 · 无单独金额");
+      const badge = el("span", "gantt-money gantt-money--included", "总盘内 · 无单独金额");
       badge.title = `${event.nameZh}本节点无单独金额；只属于 11–12 月冬礼季两月总盘。`;
       return badge;
     }
@@ -401,8 +400,13 @@
     }
   }
 
-  function renderEventRow(event, range, isChild = false) {
-    const row = el("article", `gantt-row${isChild ? " gantt-row--child" : ""}`);
+  function renderEventRow(event, range, options = {}) {
+    const { isChild = false, isParent = false, isContext = false, childCount = 0 } = options;
+    const rowClasses = ["gantt-row"];
+    if (isChild) rowClasses.push("gantt-row--child");
+    if (isParent) rowClasses.push("gantt-row--parent");
+    if (isContext) rowClasses.push("gantt-row--context");
+    const row = el("article", rowClasses.join(" "));
     row.dataset.id = event.id;
     row.dataset.priority = event.priority;
     row.tabIndex = 0;
@@ -412,14 +416,18 @@
       ? "本节点无单独金额，属于冬礼季两月总盘"
       : profile?.target ? `${formatMoney(profile.target.value)}，${event.spendingPower.relationshipLabel}` : "专项金额暂无";
     const timeAria = event.timelineMode === "single_day" ? "当日成交，之前为预热" : "持续消费季";
-    row.setAttribute("aria-label", `${event.nameZh}，${eventDateLabel(event)}，${amountAria}，${timeAria}`);
+    const hierarchyAria = isParent ? `父级总盘，下方 ${childCount} 个节日各有独立时间轴` : isChild ? "子级节日" : "";
+    row.setAttribute("aria-label", `${event.nameZh}，${eventDateLabel(event)}，${amountAria}，${timeAria}${hierarchyAria ? `，${hierarchyAria}` : ""}`);
     if (selectedEvent?.id === event.id) row.classList.add("is-selected");
 
     const label = el("div", "gantt-label");
-    label.append(el("span", "gantt-date", eventDateLabel(event)));
+    label.append(el("span", "gantt-date", isParent ? "11–12月" : eventDateLabel(event)));
     const name = el("span", "gantt-name");
     const timingLabel = event.timelineMode === "single_day" ? " · 当日" : "";
-    name.append(el("strong", "", event.nameZh), el("span", "", `${event.type} · ${event.evidenceStatus}${timingLabel}`));
+    const secondary = isParent
+      ? `总盘父级 · ${childCount} 个节日分别列在下方${isContext ? " · 筛选上下文" : ""}`
+      : `${event.type} · ${event.evidenceStatus}${timingLabel}`;
+    name.append(el("strong", "", event.nameZh), el("span", "", secondary));
     label.append(name, spendingBadge(event));
 
     const track = el("div", "gantt-track");
@@ -439,49 +447,6 @@
     return row;
   }
 
-  function renderIncludedGroup(events, profileId, range) {
-    const expanded = expandedGroups.has(profileId);
-    const row = el("article", "gantt-row gantt-row--group");
-    row.tabIndex = 0;
-    row.setAttribute("role", "button");
-    row.setAttribute("aria-expanded", expanded ? "true" : "false");
-    row.setAttribute("aria-label", `冬礼季内 ${events.length} 个节点，均无单独金额，${expanded ? "点击收起" : "点击展开"}`);
-    if (events.some((event) => event.id === selectedEvent?.id)) row.classList.add("is-selected");
-
-    const label = el("div", "gantt-label");
-    label.append(el("span", "gantt-date", `${events.length} 项`));
-    const name = el("span", "gantt-name");
-    const names = events.map((event) => `${eventDateLabel(event)} ${event.nameZh}`).join(" · ");
-    name.append(el("strong", "", "冬礼季内节点"), el("span", "", names));
-    label.append(name, el("span", "gantt-money gantt-money--included", "均无单独金额"));
-
-    const track = el("div", "gantt-track");
-    track.append(...guideNodes());
-    for (const event of events) {
-      if (!event.anchorDate || event.anchorDate < localIso(range.start) || event.anchorDate > localIso(range.end)) continue;
-      const pin = el("i", `group-anchor-pin${event.id === selectedEvent?.id ? " is-selected" : ""}`);
-      pin.style.left = `${position(event.anchorDate, range)}%`;
-      pin.title = `${event.nameZh} · ${formatDate(event.anchorDate, true)} · 无单独金额`;
-      track.append(pin);
-    }
-    appendTodayPin(track, range);
-    row.append(label, track);
-
-    const toggle = () => {
-      if (expandedGroups.has(profileId)) expandedGroups.delete(profileId);
-      else expandedGroups.add(profileId);
-      renderRows();
-    };
-    row.addEventListener("click", toggle);
-    row.addEventListener("keydown", (eventKey) => {
-      if (eventKey.key === "Enter" || eventKey.key === " ") {
-        eventKey.preventDefault();
-        toggle();
-      }
-    });
-    return row;
-  }
-
   function renderRows() {
     const range = windowRange();
     renderAxis(dom.eventAxis);
@@ -493,16 +458,38 @@
       includedByProfile.get(key).push(event);
     }
 
-    const emittedGroups = new Set();
+    const visibleIds = new Set(visibleEvents.map((event) => event.id));
+    const parentByProfile = new Map();
+    for (const event of dataset.events) {
+      if (event.spendingPower.relationship !== "direct") continue;
+      const profileId = event.spendingPower.profileId;
+      if (includedByProfile.has(profileId) && !parentByProfile.has(profileId)) parentByProfile.set(profileId, event);
+    }
+
+    const emittedProfiles = new Set();
     const rows = [];
     for (const event of visibleEvents) {
       const profileId = event.spendingPower.profileId;
-      const group = event.spendingPower.relationship === "included" ? includedByProfile.get(profileId) : null;
-      if (group?.length > 1) {
-        if (emittedGroups.has(profileId)) continue;
-        emittedGroups.add(profileId);
-        rows.push(renderIncludedGroup(group, profileId, range));
-        if (expandedGroups.has(profileId)) rows.push(...group.map((child) => renderEventRow(child, range, true)));
+      const children = includedByProfile.get(profileId);
+      const parent = parentByProfile.get(profileId);
+      const belongsToHierarchy = Boolean(children?.length && parent);
+      if (belongsToHierarchy) {
+        if (emittedProfiles.has(profileId)) continue;
+        const shouldEmitHere = event.id === parent.id || event.spendingPower.relationship === "included";
+        if (!shouldEmitHere) {
+          rows.push(renderEventRow(event, range));
+          continue;
+        }
+        emittedProfiles.add(profileId);
+        rows.push(renderEventRow(parent, range, {
+          isParent: true,
+          isContext: !visibleIds.has(parent.id),
+          childCount: children.length,
+        }));
+        rows.push(...children
+          .slice()
+          .sort((a, b) => (a.anchorDate || a.eventStart).localeCompare(b.anchorDate || b.eventStart))
+          .map((child) => renderEventRow(child, range, { isChild: true })));
         continue;
       }
       rows.push(renderEventRow(event, range));
