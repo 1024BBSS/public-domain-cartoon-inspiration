@@ -1,0 +1,256 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
+  "work": {
+    "id": "work-le-avventure-di-pinocchio-enrico-mazzanti-4fb228b1",
+    "title": "Le avventure di Pinocchio · Enrico Mazzanti",
+    "subtitle": "Pinocchio 最早期形象｜后期上色文件",
+    "year": "1883",
+    "yearSort": 1883,
+    "coverImage": "images/a4b1d0096a44f6d2014a.webp",
+    "coverRecordId": "frame-supplement-pinocchio-mazzanti-1883-001",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pinocchio.jpg",
+    "sourceLabel": "Wikimedia Commons",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版文件"
+    ],
+    "copyrightRoutes": [
+      "美国：1883 年出版作品期限届满；Commons 文件标记 Public domain。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Wikimedia Commons：Public domain；该文件为后期上色版本，颜色不是 1883 原版事实。"
+    ],
+    "usage": "用于识别 Pinocchio 最早期的细长木偶比例、尖帽与关节结构；颜色仅作扫描衍生参考。",
+    "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+    "tags": [
+      "漫画 / 角色",
+      "童话 / 寓言",
+      "经典艺术"
+    ],
+    "styles": [
+      "文学插画",
+      "历史形象演变",
+      "早期木偶角色"
+    ],
+    "scenes": [
+      "经典角色历史形象",
+      "同一 IP 多画家比较",
+      "木偶奇遇记"
+    ],
+    "holidays": [],
+    "assetTypes": [
+      "历史书籍插图"
+    ],
+    "productionUses": [
+      "角色历史谱系",
+      "构图研究",
+      "原创重绘参考"
+    ],
+    "sourceHashes": [
+      "975bdabba0328913c0ddbf87f9c0fdbc0ebad1632f1a40b280ee354279454c55"
+    ],
+    "characterNames": [
+      "Pinocchio"
+    ],
+    "characterAliases": [
+      "Pinocchio"
+    ],
+    "recordIds": [
+      "frame-supplement-pinocchio-mazzanti-1883-001"
+    ],
+    "frameIds": [
+      "frame-supplement-pinocchio-mazzanti-1883-001"
+    ],
+    "masterIds": [],
+    "imageCount": 1,
+    "frameCount": 1,
+    "awarenessScore": 88,
+    "entityIds": [
+      "role-pinocchio-89d9ef47"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-pinocchio-89d9ef47",
+      "name": "Pinocchio",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fe2aa91274c97e316b6c.webp",
+      "coverRecordId": "catalog-pinocchio",
+      "yearStart": 1883,
+      "yearEnd": 1901,
+      "workIds": [
+        "work-le-avventure-di-pinocchio-enrico-mazzanti-4fb228b1",
+        "work-le-avventure-di-pinocchio-carlo-chiostri-4b53b894",
+        "work-pinocchio-125a6af8"
+      ],
+      "recordIds": [
+        "frame-supplement-pinocchio-mazzanti-1883-001",
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008",
+        "catalog-pinocchio"
+      ],
+      "frameIds": [
+        "frame-supplement-pinocchio-mazzanti-1883-001",
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008"
+      ],
+      "workCount": 3,
+      "imageCount": 10,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "公版文件": 2,
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国：1883 年出版作品期限届满；Commons 文件标记 Public domain。",
+        "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "早期动画"
+      ],
+      "topScenes": [
+        {
+          "name": "经典角色历史形象",
+          "count": 9
+        },
+        {
+          "name": "木偶奇遇记",
+          "count": 9
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 9
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 10
+        },
+        {
+          "name": "历史形象演变",
+          "count": 9
+        },
+        {
+          "name": "黑白线描",
+          "count": 8
+        },
+        {
+          "name": "叙事组图",
+          "count": 8
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        },
+        {
+          "name": "早期木偶角色",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "用于识别 Pinocchio 最早期的细长木偶比例、尖帽与关节结构；颜色仅作扫描衍生参考。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "awarenessScore": 88,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-mangiafoco-42792ac5",
+        "role-marionettes-a78a492e",
+        "role-blue-fairy-4ef84787",
+        "role-martens-c49698ee",
+        "role-geppetto-feedca6a"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "title": "Le avventure di Pinocchio · Enrico Mazzanti",
+      "year": "1883",
+      "yearSort": 1883,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:Pinocchio.jpg",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1883 年出版作品期限届满；Commons 文件标记 Public domain。",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons：Public domain；该文件为后期上色版本，颜色不是 1883 原版事实。",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "usage": "用于识别 Pinocchio 最早期的细长木偶比例、尖帽与关节结构；颜色仅作扫描衍生参考。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "早期木偶角色"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "木偶奇遇记"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pinocchio"
+      ],
+      "workCharacters": [
+        "Pinocchio"
+      ],
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "awarenessScore": 88,
+      "awarenessLevel": "美国高知名母 IP",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:Pinocchio.jpg"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "supplementalSourceVersion": "classic-ip-visual-lineages-2026-09-22-v1",
+      "sourceHash": "975bdabba0328913c0ddbf87f9c0fdbc0ebad1632f1a40b280ee354279454c55",
+      "sourcePixels": "512x705",
+      "id": "frame-supplement-pinocchio-mazzanti-1883-001",
+      "kind": "画作 / 插图",
+      "subtitle": "Pinocchio 最早期形象｜后期上色文件",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchio.jpg",
+      "image": "images/a4b1d0096a44f6d2014a.webp"
+    }
+  ]
+}

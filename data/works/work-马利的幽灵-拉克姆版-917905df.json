@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-马利的幽灵-拉克姆版-917905df",
     "title": "马利的幽灵：拉克姆版",
@@ -776,6 +776,7 @@
       "title": "马利的幽灵：拉克姆版",
       "year": "1915",
       "yearSort": 1915,
+      "workSourceUrl": "https://archive.org/details/christmascar00dick",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "1915 插图 · 期限届满",
       "evidenceLevel": "A",
@@ -796,6 +797,9 @@
         "圣诞节"
       ],
       "characters": [
+        "Marley's Ghost"
+      ],
+      "workCharacters": [
         "Marley's Ghost"
       ],
       "tags": [
@@ -820,6 +824,7 @@
       "title": "空中挤满幽灵",
       "year": "1915",
       "yearSort": 1915,
+      "workSourceUrl": "https://archive.org/details/christmascar00dick",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "1915 插图 · 期限届满",
       "evidenceLevel": "A",
@@ -840,6 +845,9 @@
         "圣诞节"
       ],
       "characters": [
+        "Chained Phantoms"
+      ],
+      "workCharacters": [
         "Chained Phantoms"
       ],
       "tags": [
@@ -864,6 +872,7 @@
       "title": "马利的幽灵：拉克姆版",
       "year": "1915",
       "yearSort": 1915,
+      "workSourceUrl": "https://archive.org/details/christmascar00dick",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "1915 插图 · 期限届满",
       "evidenceLevel": "A",
@@ -884,6 +893,9 @@
         "圣诞节"
       ],
       "characters": [
+        "Marley's Ghost"
+      ],
+      "workCharacters": [
         "Marley's Ghost"
       ],
       "tags": [
@@ -908,6 +920,7 @@
       "title": "空中挤满幽灵",
       "year": "1915",
       "yearSort": 1915,
+      "workSourceUrl": "https://archive.org/details/christmascar00dick",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "1915 插图 · 期限届满",
       "evidenceLevel": "A",
@@ -928,6 +941,9 @@
         "圣诞节"
       ],
       "characters": [
+        "Chained Phantoms"
+      ],
+      "workCharacters": [
         "Chained Phantoms"
       ],
       "tags": [

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-闹鬼的小路-1ee678e8",
     "title": "闹鬼的小路",
@@ -664,6 +664,7 @@
       "title": "闹鬼的小路",
       "year": "1889",
       "yearSort": 1889,
+      "workSourceUrl": "https://www.loc.gov/item/2006686826/",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "LOC · No known restrictions",
       "evidenceLevel": "A",
@@ -683,6 +684,9 @@
         "万圣节"
       ],
       "characters": [
+        "白衣幽灵"
+      ],
+      "workCharacters": [
         "白衣幽灵"
       ],
       "tags": [
@@ -707,6 +711,7 @@
       "title": "闹鬼的小路",
       "year": "1889",
       "yearSort": 1889,
+      "workSourceUrl": "https://www.loc.gov/item/2006686826/",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "LOC · No known restrictions",
       "evidenceLevel": "A",
@@ -726,6 +731,9 @@
         "万圣节"
       ],
       "characters": [
+        "白衣幽灵"
+      ],
+      "workCharacters": [
         "白衣幽灵"
       ],
       "tags": [

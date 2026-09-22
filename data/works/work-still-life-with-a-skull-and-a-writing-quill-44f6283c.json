@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T04:42:27.130Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-still-life-with-a-skull-and-a-writing-quill-44f6283c",
     "title": "Still Life with a Skull and a Writing Quill",
@@ -142,6 +142,7 @@
       "title": "Still Life with a Skull and a Writing Quill",
       "year": "1628",
       "yearSort": 1628,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/435904",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "The Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -162,6 +163,9 @@
         "万圣节"
       ],
       "characters": [
+        "静物骷髅"
+      ],
+      "workCharacters": [
         "静物骷髅"
       ],
       "tags": [
@@ -187,6 +191,7 @@
       "title": "Still Life with a Skull and a Writing Quill",
       "year": "1628",
       "yearSort": 1628,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/435904",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "The Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -207,6 +212,9 @@
         "万圣节"
       ],
       "characters": [
+        "静物骷髅"
+      ],
+      "workCharacters": [
         "静物骷髅"
       ],
       "tags": [

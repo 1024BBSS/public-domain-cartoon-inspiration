@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-great-indian-fruit-bat-32021600",
     "title": "Great Indian Fruit Bat",
@@ -171,6 +171,7 @@
       "title": "Great Indian Fruit Bat",
       "year": "ca. 1777–82",
       "yearSort": 1777,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/456949",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "The Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -192,6 +193,9 @@
         "万圣节"
       ],
       "characters": [
+        "大果蝠"
+      ],
+      "workCharacters": [
         "大果蝠"
       ],
       "assetType": "自然史动物画",

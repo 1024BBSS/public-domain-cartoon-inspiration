@@ -1,0 +1,2093 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
+  "entity": {
+    "id": "role-pig-baby-2c438edf",
+    "name": "Pig Baby",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/8fdffae2a23760c2135e.webp",
+    "coverRecordId": "frame-supplement-alice-rackham-1907-001",
+    "yearStart": 1907,
+    "yearEnd": 1907,
+    "workIds": [
+      "work-alices-adventures-in-wonderland-arthur-rackham-2e561dfd"
+    ],
+    "recordIds": [
+      "frame-supplement-alice-rackham-1907-001",
+      "frame-supplement-alice-rackham-1907-002",
+      "frame-supplement-alice-rackham-1907-003",
+      "frame-supplement-alice-rackham-1907-004",
+      "frame-supplement-alice-rackham-1907-005",
+      "frame-supplement-alice-rackham-1907-006",
+      "frame-supplement-alice-rackham-1907-007",
+      "frame-supplement-alice-rackham-1907-008",
+      "frame-supplement-alice-rackham-1907-009",
+      "frame-supplement-alice-rackham-1907-010",
+      "frame-supplement-alice-rackham-1907-011",
+      "frame-supplement-alice-rackham-1907-012"
+    ],
+    "frameIds": [
+      "frame-supplement-alice-rackham-1907-001",
+      "frame-supplement-alice-rackham-1907-002",
+      "frame-supplement-alice-rackham-1907-003",
+      "frame-supplement-alice-rackham-1907-004",
+      "frame-supplement-alice-rackham-1907-005",
+      "frame-supplement-alice-rackham-1907-006",
+      "frame-supplement-alice-rackham-1907-007",
+      "frame-supplement-alice-rackham-1907-008",
+      "frame-supplement-alice-rackham-1907-009",
+      "frame-supplement-alice-rackham-1907-010",
+      "frame-supplement-alice-rackham-1907-011",
+      "frame-supplement-alice-rackham-1907-012"
+    ],
+    "workCount": 1,
+    "imageCount": 12,
+    "frameCount": 12,
+    "rightsBreakdown": {
+      "公版文件": 1
+    },
+    "copyrightRoutes": [
+      "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "漫画 / 角色",
+      "童话 / 寓言",
+      "经典艺术",
+      "怪诞 / 魔法"
+    ],
+    "topScenes": [
+      {
+        "name": "爱丽丝梦游仙境",
+        "count": 12
+      },
+      {
+        "name": "经典角色历史形象",
+        "count": 12
+      },
+      {
+        "name": "同一 IP 多画家比较",
+        "count": 12
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "暗黑童话",
+        "count": 12
+      },
+      {
+        "name": "历史形象演变",
+        "count": 12
+      },
+      {
+        "name": "水彩线描",
+        "count": 12
+      },
+      {
+        "name": "文学插画",
+        "count": 12
+      }
+    ],
+    "topHolidays": [
+      {
+        "name": "万圣节",
+        "count": 12
+      }
+    ],
+    "usage": "比较 Rackham 的枯线、扭曲树根、灰褐水彩与诡谲戏剧感；适合暗黑童话、线描角色和留白型构图研究。",
+    "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+    "awarenessScore": 92,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-alice-3bc51062",
+      "role-white-rabbit-e0326baa",
+      "role-mad-hatter-5c28e6fa",
+      "role-march-hare-4d813333",
+      "role-queen-of-hearts-a74811a2",
+      "role-duchess-00b4ddf4",
+      "role-baby-8400cebc",
+      "role-mock-turtle-dc90b0c4",
+      "role-gryphon-72a57118",
+      "role-playing-card-courtiers-624b8baa"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-alices-adventures-in-wonderland-arthur-rackham-2e561dfd",
+      "title": "Alice’s Adventures in Wonderland · Arthur Rackham",
+      "subtitle": "The Pool of Tears",
+      "year": "1907",
+      "yearSort": 1907,
+      "coverImage": "images/8fdffae2a23760c2135e.webp",
+      "coverRecordId": "frame-supplement-alice-rackham-1907-001",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+      "sourceLabel": "Project Gutenberg",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Project Gutenberg：Public domain in the USA。"
+      ],
+      "usage": "比较 Rackham 的枯线、扭曲树根、灰褐水彩与诡谲戏剧感；适合暗黑童话、线描角色和留白型构图研究。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "水彩线描",
+        "暗黑童话"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "爱丽丝梦游仙境"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "assetTypes": [
+        "历史书籍插图"
+      ],
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "sourceHashes": [
+        "52dcb0b971c6c6ae4e422663df44ea0ed8eaba386ba449ed369350000c9c3216",
+        "c6490b3152594bdce58840f83103da2b9b79afd66bacd79872be24af492cfbae",
+        "cacc443f8652525a229e86513c118b3e688c79c701a09bef5fd8b3d660536bfe",
+        "e8329314a89313fbf8f6cc34d6051b345941769647e1955e1dbe288ed92b1d4a",
+        "905e2a5b56e8d10fda24346b2740fe45715e6f51d5564c2258ad9a74dbff42d7",
+        "eb434a53c9b82786afd394ab3321fd2319aa5c07e6ed434269e51528fa0429d5",
+        "4567446596638cc92459da30160b50d60f8093350e4c55277b67fce6bf04f9b2",
+        "f5f30b45733e1be1729e1b843cff5b7e2c8a92eb2d8dccc8b15a5acba7386631",
+        "9cc12dd96652555a3e9bc694f523a54e1c52629ef6a398ce91dd7750752dfd90",
+        "1e824e08f15c495433140f71f2a080230fd64cb5fb3c7ce68ca12c678d55160a",
+        "34bd49d03b9474b05959627757c8a568cc5f42d51b72126b9a9219393c6e6c11",
+        "c91f9bd7d42fd9e67cf4a6e12369d5fde78ee68b564d52b964c3b0efbcea2916"
+      ],
+      "characterNames": [
+        "Alice",
+        "Dodo",
+        "Wonderland Animals",
+        "White Rabbit",
+        "Caterpillar",
+        "Duchess",
+        "Cook",
+        "Baby",
+        "Pig Baby",
+        "Mad Hatter",
+        "March Hare",
+        "Dormouse",
+        "Queen of Hearts",
+        "Knave of Hearts",
+        "Playing-card Gardeners",
+        "Playing-card Courtiers",
+        "Mock Turtle",
+        "Gryphon",
+        "King of Hearts"
+      ],
+      "characterAliases": [
+        "Alice",
+        "Dodo",
+        "Wonderland Animals",
+        "White Rabbit",
+        "Caterpillar",
+        "Duchess",
+        "Cook",
+        "Baby",
+        "Pig Baby",
+        "Mad Hatter",
+        "March Hare",
+        "Dormouse",
+        "Queen of Hearts",
+        "Knave of Hearts",
+        "Playing-card Gardeners",
+        "Playing-card Courtiers",
+        "Mock Turtle",
+        "Gryphon",
+        "King of Hearts"
+      ],
+      "recordIds": [
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012"
+      ],
+      "frameIds": [
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012"
+      ],
+      "masterIds": [],
+      "imageCount": 12,
+      "frameCount": 12,
+      "awarenessScore": 92,
+      "entityIds": [
+        "role-alice-3bc51062",
+        "role-white-rabbit-e0326baa",
+        "role-mad-hatter-5c28e6fa",
+        "role-march-hare-4d813333",
+        "role-duchess-00b4ddf4",
+        "role-baby-8400cebc",
+        "role-cook-7f4a1e5b",
+        "role-mock-turtle-dc90b0c4",
+        "role-gryphon-72a57118",
+        "role-playing-card-courtiers-624b8baa",
+        "role-queen-of-hearts-a74811a2",
+        "role-dodo-b2957fcf",
+        "role-wonderland-animals-40006a92",
+        "role-caterpillar-85937e82",
+        "role-pig-baby-2c438edf",
+        "role-dormouse-04c9445c",
+        "role-knave-of-hearts-bfcc1571",
+        "role-playing-card-gardeners-030516da",
+        "role-king-of-hearts-b8c4d6a7"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-alice-3bc51062",
+      "name": "Alice",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/d5887dd1cd3ccc61aab6.webp",
+      "coverRecordId": "catalog-alice",
+      "yearStart": 1865,
+      "yearEnd": 1921,
+      "workIds": [
+        "work-songs-from-alice-in-wonderland-and-through-the-looking-51e55284",
+        "work-alices-adventures-in-wonderland-arthur-rackham-2e561dfd",
+        "work-alices-adventures-in-wonderland-charles-robinson-22cbdefa",
+        "work-alice-5355e0bd"
+      ],
+      "recordIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008",
+        "catalog-alice"
+      ],
+      "frameIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "workCount": 4,
+      "imageCount": 33,
+      "frameCount": 32,
+      "rightsBreakdown": {
+        "公版文件": 3,
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国：1921 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA；高分辨率补图来自 NYPL / Internet Archive Book Images 的 No known copyright restrictions 文件。",
+        "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。",
+        "美国：1907 年出版作品期限届满；Commons 文件页标记 Public domain。",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法",
+        "早期动画"
+      ],
+      "topScenes": [
+        {
+          "name": "爱丽丝梦游仙境",
+          "count": 32
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 32
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 32
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 33
+        },
+        {
+          "name": "历史形象演变",
+          "count": 32
+        },
+        {
+          "name": "暗黑童话",
+          "count": 12
+        },
+        {
+          "name": "彩色书籍插图",
+          "count": 12
+        },
+        {
+          "name": "水彩线描",
+          "count": 12
+        },
+        {
+          "name": "装饰边框",
+          "count": 12
+        },
+        {
+          "name": "彩色版画",
+          "count": 8
+        },
+        {
+          "name": "装饰线条",
+          "count": 8
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 12
+        }
+      ],
+      "usage": "比较 Folkard 的高饱和彩色角色、细线边框、人格化器物与群像舞台；可抽取角色关系、动作和低色数轮廓重新组织。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "awarenessScore": 92,
+      "sourceCount": 4,
+      "relatedEntityIds": [
+        "role-white-rabbit-e0326baa",
+        "role-mad-hatter-5c28e6fa",
+        "role-march-hare-4d813333",
+        "role-queen-of-hearts-a74811a2",
+        "role-duchess-00b4ddf4",
+        "role-baby-8400cebc",
+        "role-mock-turtle-dc90b0c4",
+        "role-gryphon-72a57118",
+        "role-playing-card-courtiers-624b8baa",
+        "role-cook-7f4a1e5b"
+      ]
+    },
+    {
+      "id": "role-white-rabbit-e0326baa",
+      "name": "White Rabbit",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/7e7bf71e9f8e3fbb6ee6.webp",
+      "coverRecordId": "catalog-white-rabbit",
+      "yearStart": 1865,
+      "yearEnd": 1921,
+      "workIds": [
+        "work-songs-from-alice-in-wonderland-and-through-the-looking-51e55284",
+        "work-alices-adventures-in-wonderland-arthur-rackham-2e561dfd",
+        "work-alices-adventures-in-wonderland-charles-robinson-22cbdefa",
+        "work-white-rabbit-539ba66a"
+      ],
+      "recordIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008",
+        "catalog-white-rabbit"
+      ],
+      "frameIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "workCount": 4,
+      "imageCount": 33,
+      "frameCount": 32,
+      "rightsBreakdown": {
+        "公版文件": 3,
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国：1921 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA；高分辨率补图来自 NYPL / Internet Archive Book Images 的 No known copyright restrictions 文件。",
+        "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。",
+        "美国：1907 年出版作品期限届满；Commons 文件页标记 Public domain。",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法",
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "爱丽丝梦游仙境",
+          "count": 32
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 32
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 32
+        },
+        {
+          "name": "动物 / 宠物",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 33
+        },
+        {
+          "name": "历史形象演变",
+          "count": 32
+        },
+        {
+          "name": "暗黑童话",
+          "count": 12
+        },
+        {
+          "name": "彩色书籍插图",
+          "count": 12
+        },
+        {
+          "name": "水彩线描",
+          "count": 12
+        },
+        {
+          "name": "装饰边框",
+          "count": 12
+        },
+        {
+          "name": "彩色版画",
+          "count": 8
+        },
+        {
+          "name": "装饰线条",
+          "count": 8
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 12
+        },
+        {
+          "name": "春季 / 复活节",
+          "count": 1
+        }
+      ],
+      "usage": "比较 Folkard 的高饱和彩色角色、细线边框、人格化器物与群像舞台；可抽取角色关系、动作和低色数轮廓重新组织。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "awarenessScore": 92,
+      "sourceCount": 4,
+      "relatedEntityIds": [
+        "role-alice-3bc51062",
+        "role-mad-hatter-5c28e6fa",
+        "role-march-hare-4d813333",
+        "role-queen-of-hearts-a74811a2",
+        "role-duchess-00b4ddf4",
+        "role-baby-8400cebc",
+        "role-mock-turtle-dc90b0c4",
+        "role-gryphon-72a57118",
+        "role-playing-card-courtiers-624b8baa",
+        "role-cook-7f4a1e5b"
+      ]
+    },
+    {
+      "id": "role-mad-hatter-5c28e6fa",
+      "name": "Mad Hatter",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/829190473dde1cc89fb7.webp",
+      "coverRecordId": "catalog-mad-hatter",
+      "yearStart": 1865,
+      "yearEnd": 1921,
+      "workIds": [
+        "work-songs-from-alice-in-wonderland-and-through-the-looking-51e55284",
+        "work-alices-adventures-in-wonderland-arthur-rackham-2e561dfd",
+        "work-alices-adventures-in-wonderland-charles-robinson-22cbdefa",
+        "work-mad-hatter-e09867f3"
+      ],
+      "recordIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008",
+        "catalog-mad-hatter"
+      ],
+      "frameIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "workCount": 4,
+      "imageCount": 33,
+      "frameCount": 32,
+      "rightsBreakdown": {
+        "公版文件": 3,
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国：1921 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA；高分辨率补图来自 NYPL / Internet Archive Book Images 的 No known copyright restrictions 文件。",
+        "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。",
+        "美国：1907 年出版作品期限届满；Commons 文件页标记 Public domain。",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "爱丽丝梦游仙境",
+          "count": 32
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 32
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 32
+        },
+        {
+          "name": "海滨 / 水下",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 33
+        },
+        {
+          "name": "历史形象演变",
+          "count": 32
+        },
+        {
+          "name": "暗黑童话",
+          "count": 12
+        },
+        {
+          "name": "彩色书籍插图",
+          "count": 12
+        },
+        {
+          "name": "水彩线描",
+          "count": 12
+        },
+        {
+          "name": "装饰边框",
+          "count": 12
+        },
+        {
+          "name": "彩色版画",
+          "count": 8
+        },
+        {
+          "name": "装饰线条",
+          "count": 8
+        },
+        {
+          "name": "Art Deco / 海报",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 12
+        }
+      ],
+      "usage": "比较 Folkard 的高饱和彩色角色、细线边框、人格化器物与群像舞台；可抽取角色关系、动作和低色数轮廓重新组织。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "awarenessScore": 92,
+      "sourceCount": 4,
+      "relatedEntityIds": [
+        "role-alice-3bc51062",
+        "role-white-rabbit-e0326baa",
+        "role-march-hare-4d813333",
+        "role-queen-of-hearts-a74811a2",
+        "role-duchess-00b4ddf4",
+        "role-baby-8400cebc",
+        "role-mock-turtle-dc90b0c4",
+        "role-gryphon-72a57118",
+        "role-playing-card-courtiers-624b8baa",
+        "role-cook-7f4a1e5b"
+      ]
+    },
+    {
+      "id": "role-march-hare-4d813333",
+      "name": "March Hare",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/802acdf30313707bb8bb.webp",
+      "coverRecordId": "catalog-march-hare",
+      "yearStart": 1865,
+      "yearEnd": 1921,
+      "workIds": [
+        "work-songs-from-alice-in-wonderland-and-through-the-looking-51e55284",
+        "work-alices-adventures-in-wonderland-arthur-rackham-2e561dfd",
+        "work-alices-adventures-in-wonderland-charles-robinson-22cbdefa",
+        "work-march-hare-9c060877"
+      ],
+      "recordIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008",
+        "catalog-march-hare"
+      ],
+      "frameIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "workCount": 4,
+      "imageCount": 33,
+      "frameCount": 32,
+      "rightsBreakdown": {
+        "公版文件": 3,
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国：1921 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA；高分辨率补图来自 NYPL / Internet Archive Book Images 的 No known copyright restrictions 文件。",
+        "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。",
+        "美国：1907 年出版作品期限届满；Commons 文件页标记 Public domain。",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法",
+        "早期动画",
+        "动物 / 自然"
+      ],
+      "topScenes": [
+        {
+          "name": "爱丽丝梦游仙境",
+          "count": 32
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 32
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 32
+        },
+        {
+          "name": "动物 / 宠物",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 33
+        },
+        {
+          "name": "历史形象演变",
+          "count": 32
+        },
+        {
+          "name": "暗黑童话",
+          "count": 12
+        },
+        {
+          "name": "彩色书籍插图",
+          "count": 12
+        },
+        {
+          "name": "水彩线描",
+          "count": 12
+        },
+        {
+          "name": "装饰边框",
+          "count": 12
+        },
+        {
+          "name": "彩色版画",
+          "count": 8
+        },
+        {
+          "name": "装饰线条",
+          "count": 8
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 12
+        },
+        {
+          "name": "春季 / 复活节",
+          "count": 1
+        }
+      ],
+      "usage": "比较 Folkard 的高饱和彩色角色、细线边框、人格化器物与群像舞台；可抽取角色关系、动作和低色数轮廓重新组织。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "awarenessScore": 92,
+      "sourceCount": 4,
+      "relatedEntityIds": [
+        "role-alice-3bc51062",
+        "role-white-rabbit-e0326baa",
+        "role-mad-hatter-5c28e6fa",
+        "role-queen-of-hearts-a74811a2",
+        "role-duchess-00b4ddf4",
+        "role-baby-8400cebc",
+        "role-mock-turtle-dc90b0c4",
+        "role-gryphon-72a57118",
+        "role-playing-card-courtiers-624b8baa",
+        "role-cook-7f4a1e5b"
+      ]
+    },
+    {
+      "id": "role-queen-of-hearts-a74811a2",
+      "name": "Queen of Hearts",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/92b864ef6137fa5b5724.webp",
+      "coverRecordId": "catalog-queen-hearts",
+      "yearStart": 1865,
+      "yearEnd": 1921,
+      "workIds": [
+        "work-songs-from-alice-in-wonderland-and-through-the-looking-51e55284",
+        "work-alices-adventures-in-wonderland-arthur-rackham-2e561dfd",
+        "work-alices-adventures-in-wonderland-charles-robinson-22cbdefa",
+        "work-queen-of-hearts-f519eaed"
+      ],
+      "recordIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008",
+        "catalog-queen-hearts"
+      ],
+      "frameIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "workCount": 4,
+      "imageCount": 33,
+      "frameCount": 32,
+      "rightsBreakdown": {
+        "公版文件": 3,
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国：1921 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA；高分辨率补图来自 NYPL / Internet Archive Book Images 的 No known copyright restrictions 文件。",
+        "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。",
+        "美国：1907 年出版作品期限届满；Commons 文件页标记 Public domain。",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法",
+        "早期动画"
+      ],
+      "topScenes": [
+        {
+          "name": "爱丽丝梦游仙境",
+          "count": 32
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 32
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 32
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 33
+        },
+        {
+          "name": "历史形象演变",
+          "count": 32
+        },
+        {
+          "name": "暗黑童话",
+          "count": 12
+        },
+        {
+          "name": "彩色书籍插图",
+          "count": 12
+        },
+        {
+          "name": "水彩线描",
+          "count": 12
+        },
+        {
+          "name": "装饰边框",
+          "count": 12
+        },
+        {
+          "name": "彩色版画",
+          "count": 8
+        },
+        {
+          "name": "装饰线条",
+          "count": 8
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 12
+        }
+      ],
+      "usage": "比较 Folkard 的高饱和彩色角色、细线边框、人格化器物与群像舞台；可抽取角色关系、动作和低色数轮廓重新组织。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "awarenessScore": 92,
+      "sourceCount": 4,
+      "relatedEntityIds": [
+        "role-alice-3bc51062",
+        "role-white-rabbit-e0326baa",
+        "role-mad-hatter-5c28e6fa",
+        "role-march-hare-4d813333",
+        "role-duchess-00b4ddf4",
+        "role-baby-8400cebc",
+        "role-mock-turtle-dc90b0c4",
+        "role-gryphon-72a57118",
+        "role-playing-card-courtiers-624b8baa",
+        "role-cook-7f4a1e5b"
+      ]
+    },
+    {
+      "id": "role-duchess-00b4ddf4",
+      "name": "Duchess",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/3f36efdc33bc6d08ea7c.webp",
+      "coverRecordId": "frame-supplement-alice-folkard-1921-001",
+      "yearStart": 1907,
+      "yearEnd": 1921,
+      "workIds": [
+        "work-songs-from-alice-in-wonderland-and-through-the-looking-51e55284",
+        "work-alices-adventures-in-wonderland-arthur-rackham-2e561dfd",
+        "work-alices-adventures-in-wonderland-charles-robinson-22cbdefa"
+      ],
+      "recordIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "frameIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "workCount": 3,
+      "imageCount": 32,
+      "frameCount": 32,
+      "rightsBreakdown": {
+        "公版文件": 3
+      },
+      "copyrightRoutes": [
+        "美国：1921 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA；高分辨率补图来自 NYPL / Internet Archive Book Images 的 No known copyright restrictions 文件。",
+        "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。",
+        "美国：1907 年出版作品期限届满；Commons 文件页标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "爱丽丝梦游仙境",
+          "count": 32
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 32
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 32
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 32
+        },
+        {
+          "name": "文学插画",
+          "count": 32
+        },
+        {
+          "name": "暗黑童话",
+          "count": 12
+        },
+        {
+          "name": "彩色书籍插图",
+          "count": 12
+        },
+        {
+          "name": "水彩线描",
+          "count": 12
+        },
+        {
+          "name": "装饰边框",
+          "count": 12
+        },
+        {
+          "name": "彩色版画",
+          "count": 8
+        },
+        {
+          "name": "装饰线条",
+          "count": 8
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 12
+        }
+      ],
+      "usage": "比较 Folkard 的高饱和彩色角色、细线边框、人格化器物与群像舞台；可抽取角色关系、动作和低色数轮廓重新组织。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "awarenessScore": 92,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-alice-3bc51062",
+        "role-white-rabbit-e0326baa",
+        "role-mad-hatter-5c28e6fa",
+        "role-march-hare-4d813333",
+        "role-queen-of-hearts-a74811a2",
+        "role-baby-8400cebc",
+        "role-mock-turtle-dc90b0c4",
+        "role-gryphon-72a57118",
+        "role-playing-card-courtiers-624b8baa",
+        "role-cook-7f4a1e5b"
+      ]
+    },
+    {
+      "id": "role-baby-8400cebc",
+      "name": "Baby",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/3f36efdc33bc6d08ea7c.webp",
+      "coverRecordId": "frame-supplement-alice-folkard-1921-001",
+      "yearStart": 1907,
+      "yearEnd": 1921,
+      "workIds": [
+        "work-songs-from-alice-in-wonderland-and-through-the-looking-51e55284",
+        "work-alices-adventures-in-wonderland-arthur-rackham-2e561dfd",
+        "work-alices-adventures-in-wonderland-charles-robinson-22cbdefa"
+      ],
+      "recordIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "frameIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "workCount": 3,
+      "imageCount": 32,
+      "frameCount": 32,
+      "rightsBreakdown": {
+        "公版文件": 3
+      },
+      "copyrightRoutes": [
+        "美国：1921 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA；高分辨率补图来自 NYPL / Internet Archive Book Images 的 No known copyright restrictions 文件。",
+        "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。",
+        "美国：1907 年出版作品期限届满；Commons 文件页标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "爱丽丝梦游仙境",
+          "count": 32
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 32
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 32
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 32
+        },
+        {
+          "name": "文学插画",
+          "count": 32
+        },
+        {
+          "name": "暗黑童话",
+          "count": 12
+        },
+        {
+          "name": "彩色书籍插图",
+          "count": 12
+        },
+        {
+          "name": "水彩线描",
+          "count": 12
+        },
+        {
+          "name": "装饰边框",
+          "count": 12
+        },
+        {
+          "name": "彩色版画",
+          "count": 8
+        },
+        {
+          "name": "装饰线条",
+          "count": 8
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 12
+        }
+      ],
+      "usage": "比较 Folkard 的高饱和彩色角色、细线边框、人格化器物与群像舞台；可抽取角色关系、动作和低色数轮廓重新组织。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "awarenessScore": 92,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-alice-3bc51062",
+        "role-white-rabbit-e0326baa",
+        "role-mad-hatter-5c28e6fa",
+        "role-march-hare-4d813333",
+        "role-queen-of-hearts-a74811a2",
+        "role-duchess-00b4ddf4",
+        "role-mock-turtle-dc90b0c4",
+        "role-gryphon-72a57118",
+        "role-playing-card-courtiers-624b8baa",
+        "role-cook-7f4a1e5b"
+      ]
+    },
+    {
+      "id": "role-mock-turtle-dc90b0c4",
+      "name": "Mock Turtle",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/3f36efdc33bc6d08ea7c.webp",
+      "coverRecordId": "frame-supplement-alice-folkard-1921-001",
+      "yearStart": 1907,
+      "yearEnd": 1921,
+      "workIds": [
+        "work-songs-from-alice-in-wonderland-and-through-the-looking-51e55284",
+        "work-alices-adventures-in-wonderland-arthur-rackham-2e561dfd",
+        "work-alices-adventures-in-wonderland-charles-robinson-22cbdefa"
+      ],
+      "recordIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "frameIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "workCount": 3,
+      "imageCount": 32,
+      "frameCount": 32,
+      "rightsBreakdown": {
+        "公版文件": 3
+      },
+      "copyrightRoutes": [
+        "美国：1921 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA；高分辨率补图来自 NYPL / Internet Archive Book Images 的 No known copyright restrictions 文件。",
+        "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。",
+        "美国：1907 年出版作品期限届满；Commons 文件页标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "爱丽丝梦游仙境",
+          "count": 32
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 32
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 32
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 32
+        },
+        {
+          "name": "文学插画",
+          "count": 32
+        },
+        {
+          "name": "暗黑童话",
+          "count": 12
+        },
+        {
+          "name": "彩色书籍插图",
+          "count": 12
+        },
+        {
+          "name": "水彩线描",
+          "count": 12
+        },
+        {
+          "name": "装饰边框",
+          "count": 12
+        },
+        {
+          "name": "彩色版画",
+          "count": 8
+        },
+        {
+          "name": "装饰线条",
+          "count": 8
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 12
+        }
+      ],
+      "usage": "比较 Folkard 的高饱和彩色角色、细线边框、人格化器物与群像舞台；可抽取角色关系、动作和低色数轮廓重新组织。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "awarenessScore": 92,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-alice-3bc51062",
+        "role-white-rabbit-e0326baa",
+        "role-mad-hatter-5c28e6fa",
+        "role-march-hare-4d813333",
+        "role-queen-of-hearts-a74811a2",
+        "role-duchess-00b4ddf4",
+        "role-baby-8400cebc",
+        "role-gryphon-72a57118",
+        "role-playing-card-courtiers-624b8baa",
+        "role-cook-7f4a1e5b"
+      ]
+    },
+    {
+      "id": "role-gryphon-72a57118",
+      "name": "Gryphon",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/3f36efdc33bc6d08ea7c.webp",
+      "coverRecordId": "frame-supplement-alice-folkard-1921-001",
+      "yearStart": 1907,
+      "yearEnd": 1921,
+      "workIds": [
+        "work-songs-from-alice-in-wonderland-and-through-the-looking-51e55284",
+        "work-alices-adventures-in-wonderland-arthur-rackham-2e561dfd",
+        "work-alices-adventures-in-wonderland-charles-robinson-22cbdefa"
+      ],
+      "recordIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "frameIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "workCount": 3,
+      "imageCount": 32,
+      "frameCount": 32,
+      "rightsBreakdown": {
+        "公版文件": 3
+      },
+      "copyrightRoutes": [
+        "美国：1921 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA；高分辨率补图来自 NYPL / Internet Archive Book Images 的 No known copyright restrictions 文件。",
+        "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。",
+        "美国：1907 年出版作品期限届满；Commons 文件页标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "爱丽丝梦游仙境",
+          "count": 32
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 32
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 32
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 32
+        },
+        {
+          "name": "文学插画",
+          "count": 32
+        },
+        {
+          "name": "暗黑童话",
+          "count": 12
+        },
+        {
+          "name": "彩色书籍插图",
+          "count": 12
+        },
+        {
+          "name": "水彩线描",
+          "count": 12
+        },
+        {
+          "name": "装饰边框",
+          "count": 12
+        },
+        {
+          "name": "彩色版画",
+          "count": 8
+        },
+        {
+          "name": "装饰线条",
+          "count": 8
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 12
+        }
+      ],
+      "usage": "比较 Folkard 的高饱和彩色角色、细线边框、人格化器物与群像舞台；可抽取角色关系、动作和低色数轮廓重新组织。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "awarenessScore": 92,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-alice-3bc51062",
+        "role-white-rabbit-e0326baa",
+        "role-mad-hatter-5c28e6fa",
+        "role-march-hare-4d813333",
+        "role-queen-of-hearts-a74811a2",
+        "role-duchess-00b4ddf4",
+        "role-baby-8400cebc",
+        "role-mock-turtle-dc90b0c4",
+        "role-playing-card-courtiers-624b8baa",
+        "role-cook-7f4a1e5b"
+      ]
+    },
+    {
+      "id": "role-playing-card-courtiers-624b8baa",
+      "name": "Playing-card Courtiers",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/3f36efdc33bc6d08ea7c.webp",
+      "coverRecordId": "frame-supplement-alice-folkard-1921-001",
+      "yearStart": 1907,
+      "yearEnd": 1921,
+      "workIds": [
+        "work-songs-from-alice-in-wonderland-and-through-the-looking-51e55284",
+        "work-alices-adventures-in-wonderland-arthur-rackham-2e561dfd",
+        "work-alices-adventures-in-wonderland-charles-robinson-22cbdefa"
+      ],
+      "recordIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "frameIds": [
+        "frame-supplement-alice-folkard-1921-001",
+        "frame-supplement-alice-folkard-1921-002",
+        "frame-supplement-alice-folkard-1921-003",
+        "frame-supplement-alice-folkard-1921-004",
+        "frame-supplement-alice-folkard-1921-005",
+        "frame-supplement-alice-folkard-1921-006",
+        "frame-supplement-alice-folkard-1921-007",
+        "frame-supplement-alice-folkard-1921-008",
+        "frame-supplement-alice-folkard-1921-009",
+        "frame-supplement-alice-folkard-1921-010",
+        "frame-supplement-alice-folkard-1921-011",
+        "frame-supplement-alice-folkard-1921-012",
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
+        "frame-supplement-alice-robinson-1907-001",
+        "frame-supplement-alice-robinson-1907-002",
+        "frame-supplement-alice-robinson-1907-003",
+        "frame-supplement-alice-robinson-1907-004",
+        "frame-supplement-alice-robinson-1907-005",
+        "frame-supplement-alice-robinson-1907-006",
+        "frame-supplement-alice-robinson-1907-007",
+        "frame-supplement-alice-robinson-1907-008"
+      ],
+      "workCount": 3,
+      "imageCount": 32,
+      "frameCount": 32,
+      "rightsBreakdown": {
+        "公版文件": 3
+      },
+      "copyrightRoutes": [
+        "美国：1921 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA；高分辨率补图来自 NYPL / Internet Archive Book Images 的 No known copyright restrictions 文件。",
+        "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。",
+        "美国：1907 年出版作品期限届满；Commons 文件页标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "爱丽丝梦游仙境",
+          "count": 32
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 32
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 32
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 32
+        },
+        {
+          "name": "文学插画",
+          "count": 32
+        },
+        {
+          "name": "暗黑童话",
+          "count": 12
+        },
+        {
+          "name": "彩色书籍插图",
+          "count": 12
+        },
+        {
+          "name": "水彩线描",
+          "count": 12
+        },
+        {
+          "name": "装饰边框",
+          "count": 12
+        },
+        {
+          "name": "彩色版画",
+          "count": 8
+        },
+        {
+          "name": "装饰线条",
+          "count": 8
+        }
+      ],
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 12
+        }
+      ],
+      "usage": "比较 Folkard 的高饱和彩色角色、细线边框、人格化器物与群像舞台；可抽取角色关系、动作和低色数轮廓重新组织。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "awarenessScore": 92,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-alice-3bc51062",
+        "role-white-rabbit-e0326baa",
+        "role-mad-hatter-5c28e6fa",
+        "role-march-hare-4d813333",
+        "role-queen-of-hearts-a74811a2",
+        "role-duchess-00b4ddf4",
+        "role-baby-8400cebc",
+        "role-mock-turtle-dc90b0c4",
+        "role-gryphon-72a57118",
+        "role-cook-7f4a1e5b"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

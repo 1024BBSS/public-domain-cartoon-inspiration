@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T04:42:27.130Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-watch-in-the-form-of-a-human-skull-672c8f09",
     "title": "Watch in the Form of a Human Skull",
@@ -142,6 +142,7 @@
       "title": "Watch in the Form of a Human Skull",
       "year": "case ca. 1810–20",
       "yearSort": 1810,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/194166",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "The Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -162,6 +163,9 @@
         "万圣节"
       ],
       "characters": [
+        "骷髅怀表"
+      ],
+      "workCharacters": [
         "骷髅怀表"
       ],
       "tags": [
@@ -187,6 +191,7 @@
       "title": "Watch in the Form of a Human Skull",
       "year": "case ca. 1810–20",
       "yearSort": 1810,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/194166",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "The Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -207,6 +212,9 @@
         "万圣节"
       ],
       "characters": [
+        "骷髅怀表"
+      ],
+      "workCharacters": [
         "骷髅怀表"
       ],
       "tags": [

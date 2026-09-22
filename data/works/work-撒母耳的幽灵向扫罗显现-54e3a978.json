@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-撒母耳的幽灵向扫罗显现-54e3a978",
     "title": "撒母耳的幽灵向扫罗显现",
@@ -819,6 +819,7 @@
       "title": "撒母耳的幽灵向扫罗显现",
       "year": "ca. 1800",
       "yearSort": 1800,
+      "workSourceUrl": "https://www.nga.gov/artworks/11498-ghost-samuel-appearing-saul",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "NGA Open Access",
       "evidenceLevel": "A",
@@ -839,6 +840,9 @@
         "万圣节"
       ],
       "characters": [
+        "Samuel"
+      ],
+      "workCharacters": [
         "Samuel"
       ],
       "tags": [
@@ -863,6 +867,7 @@
       "title": "撒母耳的幽灵向扫罗显现",
       "year": "ca. 1800",
       "yearSort": 1800,
+      "workSourceUrl": "https://www.nga.gov/artworks/11498-ghost-samuel-appearing-saul",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "NGA Open Access",
       "evidenceLevel": "A",
@@ -883,6 +888,9 @@
         "万圣节"
       ],
       "characters": [
+        "Samuel"
+      ],
+      "workCharacters": [
         "Samuel"
       ],
       "tags": [

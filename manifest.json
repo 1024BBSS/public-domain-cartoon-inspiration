@@ -1,35 +1,36 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "sourceVersion": "9.6",
   "publicScope": "美国市场公版卡通视觉灵感；只含已确认期限届满、未续期、公共领域或 CC0 路径，排除待复核项。",
   "counts": {
-    "records": 855,
-    "uniqueImages": 804,
-    "imageBytes": 30262122,
+    "records": 905,
+    "uniqueImages": 854,
+    "imageBytes": 34045250,
     "byKind": {
       "主档": 282,
-      "动画画面": 573
+      "动画画面": 573,
+      "画作 / 插图": 50
     },
     "byRights": {
       "期限届满": 521,
       "未续期": 140,
       "公版 / 开放馆藏": 170,
-      "公版文件": 23,
+      "公版文件": 73,
       "CC0 / 公版开放馆藏": 1
     },
     "byTag": {
       "早期动画": 630,
-      "漫画 / 角色": 403,
-      "童话 / 寓言": 97,
+      "漫画 / 角色": 453,
+      "童话 / 寓言": 147,
       "动物 / 自然": 317,
-      "怪诞 / 魔法": 330,
+      "怪诞 / 魔法": 351,
       "万圣节": 275,
       "圣诞 / 冬季": 98,
       "宗教 / 神话": 120,
       "生活 / 节庆": 14,
+      "经典艺术": 60,
       "版画 / 纹样": 9,
-      "经典艺术": 10,
       "器物 / 建筑": 4,
       "电影 / 舞台": 4,
       "暗黑 / 怪诞": 10,
@@ -47,27 +48,28 @@
       "人物 / 肖像": 2
     }
   },
-  "catalogSha256": "53aebdfd8fda88719665c2e62b1495941b36dca0993d7aacd377b700bb9d0819",
-  "relationsSha256": "55ad788757f186b8d31a153830a03196ae36f48343be036f359fa86457da0f9e",
+  "catalogSha256": "4cc6c27ea5e100f5735100c4c6aaeeeb4a9e6560774aa9eba317688ba3439fe2",
+  "relationsSha256": "b4aa3bd8085763b814824d669df69ee12abb7562c1600c2a9dd04c7c7d4887f3",
   "relationCounts": {
-    "entities": 271,
-    "characters": 130,
+    "entities": 315,
+    "characters": 184,
     "subjectHubs": 11,
-    "works": 306,
-    "scenes": 154,
+    "works": 312,
+    "scenes": 160,
     "holidays": 8,
-    "records": 855
+    "records": 905
   },
   "supplemental": {
     "sourceVersions": [
       "cartoon-ip-grok-clues-2026-09-16-v1",
+      "classic-ip-visual-lineages-2026-09-22-v1",
       "ghost-commercial-2026-09-16-v1",
       "halloween-classics-2026-09-19-v1",
       "halloween-cartoon-growth-2026-09-19-v1",
       "halloween-visual-elements-2026-09-19-v1"
     ],
-    "workCount": 70,
-    "recordCount": 215
+    "workCount": 76,
+    "recordCount": 265
   },
   "exclusions": [
     "未续期待复核",

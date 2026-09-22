@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T04:42:27.130Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-the-cabinet-of-dr-caligari-3cc37292",
     "title": "The Cabinet of Dr. Caligari",
@@ -142,6 +142,7 @@
       "title": "The Cabinet of Dr. Caligari",
       "year": "1920",
       "yearSort": 1920,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:Publicity_still_for_The_Cabinet_of_Dr._Caligari_(1920)_02.jpg",
       "rightsStatus": "期限届满",
       "copyrightRoute": "美国期限届满 · Commons 公版文件",
       "evidenceLevel": "A",
@@ -162,6 +163,9 @@
         "万圣节"
       ],
       "characters": [
+        "表现主义梦游者"
+      ],
+      "workCharacters": [
         "表现主义梦游者"
       ],
       "tags": [
@@ -187,6 +191,7 @@
       "title": "The Cabinet of Dr. Caligari",
       "year": "1920",
       "yearSort": 1920,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:Publicity_still_for_The_Cabinet_of_Dr._Caligari_(1920)_02.jpg",
       "rightsStatus": "期限届满",
       "copyrightRoute": "美国期限届满 · Commons 公版文件",
       "evidenceLevel": "A",
@@ -207,6 +212,9 @@
         "万圣节"
       ],
       "characters": [
+        "表现主义梦游者"
+      ],
+      "workCharacters": [
         "表现主义梦游者"
       ],
       "tags": [

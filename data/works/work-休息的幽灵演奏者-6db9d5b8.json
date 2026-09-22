@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-休息的幽灵演奏者-6db9d5b8",
     "title": "休息的幽灵演奏者",
@@ -664,6 +664,7 @@
       "title": "休息的幽灵演奏者",
       "year": "1893",
       "yearSort": 1893,
+      "workSourceUrl": "https://archive.org/details/stereoview-no.-1634-phantom-player-resting-littleton-underwood-and-underwood-1893",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "1893 摄影 · 期限届满",
       "evidenceLevel": "A",
@@ -683,6 +684,9 @@
         "万圣节"
       ],
       "characters": [
+        "幽灵演奏者"
+      ],
+      "workCharacters": [
         "幽灵演奏者"
       ],
       "tags": [
@@ -707,6 +711,7 @@
       "title": "休息的幽灵演奏者",
       "year": "1893",
       "yearSort": 1893,
+      "workSourceUrl": "https://archive.org/details/stereoview-no.-1634-phantom-player-resting-littleton-underwood-and-underwood-1893",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "1893 摄影 · 期限届满",
       "evidenceLevel": "A",
@@ -726,6 +731,9 @@
         "万圣节"
       ],
       "characters": [
+        "幽灵演奏者"
+      ],
+      "workCharacters": [
         "幽灵演奏者"
       ],
       "tags": [

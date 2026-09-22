@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-16T02:50:01.060Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-pinocchio-125a6af8",
     "title": "Pinocchio",
@@ -57,53 +57,114 @@
     {
       "id": "role-pinocchio-89d9ef47",
       "name": "Pinocchio",
-      "type": "主体",
+      "type": "角色",
       "aliases": [],
       "virtual": false,
       "coverImage": "images/fe2aa91274c97e316b6c.webp",
       "coverRecordId": "catalog-pinocchio",
       "yearStart": 1883,
-      "yearEnd": 1883,
+      "yearEnd": 1901,
       "workIds": [
+        "work-le-avventure-di-pinocchio-enrico-mazzanti-4fb228b1",
+        "work-le-avventure-di-pinocchio-carlo-chiostri-4b53b894",
         "work-pinocchio-125a6af8"
       ],
       "recordIds": [
+        "frame-supplement-pinocchio-mazzanti-1883-001",
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008",
         "catalog-pinocchio"
       ],
-      "frameIds": [],
-      "workCount": 1,
-      "imageCount": 1,
-      "frameCount": 0,
+      "frameIds": [
+        "frame-supplement-pinocchio-mazzanti-1883-001",
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008"
+      ],
+      "workCount": 3,
+      "imageCount": 10,
+      "frameCount": 9,
       "rightsBreakdown": {
+        "公版文件": 2,
         "期限届满": 1
       },
       "copyrightRoutes": [
+        "美国：1883 年出版作品期限届满；Commons 文件标记 Public domain。",
+        "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
         "完整期限届满"
       ],
       "evidenceLevels": [
         "A"
       ],
       "tags": [
-        "早期动画",
-        "童话 / 寓言"
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "早期动画"
       ],
-      "topScenes": [],
+      "topScenes": [
+        {
+          "name": "经典角色历史形象",
+          "count": 9
+        },
+        {
+          "name": "木偶奇遇记",
+          "count": 9
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 9
+        }
+      ],
       "topStyles": [
         {
           "name": "文学插画",
-          "count": 1
+          "count": 10
+        },
+        {
+          "name": "历史形象演变",
+          "count": 9
+        },
+        {
+          "name": "黑白线描",
+          "count": 8
+        },
+        {
+          "name": "叙事组图",
+          "count": 8
         },
         {
           "name": "橡皮管动画",
           "count": 1
+        },
+        {
+          "name": "早期木偶角色",
+          "count": 1
         }
       ],
       "topHolidays": [],
-      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
-      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
-      "awarenessScore": 66,
-      "sourceCount": 1,
-      "relatedEntityIds": []
+      "usage": "用于识别 Pinocchio 最早期的细长木偶比例、尖帽与关节结构；颜色仅作扫描衍生参考。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "awarenessScore": 88,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-mangiafoco-42792ac5",
+        "role-marionettes-a78a492e",
+        "role-blue-fairy-4ef84787",
+        "role-martens-c49698ee",
+        "role-geppetto-feedca6a"
+      ]
     }
   ],
   "records": [

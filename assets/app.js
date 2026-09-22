@@ -464,7 +464,7 @@
     const ownerTitle = record.subtitle || owners[0]?.title || "具体画面";
     return cardShell({
       title: record.title,
-      kind: record.kind === "动画画面" ? "画面" : "主图",
+      kind: record.kind === "主档" ? "主图" : (record.kind || "画面"),
       images: [record.image],
       facts: ownerTitle,
       meta: [record.year || "年代待复核", record.rightsStatus || "权利待复核"],
@@ -762,7 +762,7 @@
     const kpis = el("section", "profile-kpis kpis");
     kpis.append(
       kpi("画面", work.imageCount),
-      kpi("动画截帧", work.frameCount),
+      kpi("具体画面", work.frameCount),
       kpi("年代", work.year || "待复核"),
       kpi("角色 / 主体", work.entityIds.length),
     );
@@ -820,7 +820,13 @@
   function renderRelatedRoles(record) {
     dom.detailRelated.replaceChildren();
     const ownerWorks = worksByRecord.get(record.id) || [];
-    const roleIds = compact(ownerWorks.flatMap((work) => work.entityIds || []));
+    const ownerRoleIds = compact(ownerWorks.flatMap((work) => work.entityIds || []));
+    const exactNames = new Set((record.characters || []).map(normalize));
+    const exactRoleIds = ownerRoleIds.filter((id) => {
+      const entity = entityById.get(id);
+      return entity && [entity.name, ...(entity.aliases || [])].some((name) => exactNames.has(normalize(name)));
+    });
+    const roleIds = exactRoleIds.length ? exactRoleIds : ownerRoleIds;
     if (!roleIds.length) return;
     dom.detailRelated.append(el("div", "detail-related__label", "角色 / 主体"));
     const row = el("div", "chip-row");
@@ -841,7 +847,7 @@
     dom.detailImage.hidden = false;
     dom.detailImage.src = record.image;
     dom.detailImage.alt = record.title;
-    dom.detailKind.textContent = record.kind === "动画画面" ? "画面" : "主图";
+    dom.detailKind.textContent = record.kind === "主档" ? "主图" : (record.kind || "画面");
     dom.detailTitle.textContent = record.title;
     dom.detailSubtitle.textContent = record.subtitle || `${record.year || "年代待复核"}`;
     dom.detailBadges.replaceChildren();

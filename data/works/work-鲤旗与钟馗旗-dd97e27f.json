@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-鲤旗与钟馗旗-dd97e27f",
     "title": "鲤旗与钟馗旗",
@@ -848,6 +848,7 @@
       "title": "鲤旗与钟馗旗",
       "year": "before 1870",
       "yearSort": 1870,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/754547",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -868,6 +869,9 @@
         "万圣节"
       ],
       "characters": [
+        "钟馗"
+      ],
+      "workCharacters": [
         "钟馗"
       ],
       "tags": [
@@ -892,6 +896,7 @@
       "title": "鲤旗与钟馗旗",
       "year": "before 1870",
       "yearSort": 1870,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/754547",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -912,6 +917,9 @@
         "万圣节"
       ],
       "characters": [
+        "钟馗"
+      ],
+      "workCharacters": [
         "钟馗"
       ],
       "tags": [

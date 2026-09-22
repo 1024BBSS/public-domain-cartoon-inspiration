@@ -209,13 +209,13 @@ function topValues(records, key, limit = 10) {
 }
 
 function buildWorks(records) {
-  const frames = records.filter((record) => record.kind === "动画画面");
+  const frames = records.filter((record) => record.kind !== "主档");
   const masters = records.filter((record) => record.kind === "主档");
   const drafts = new Map();
   const sourceToKey = new Map();
 
   for (const record of frames) {
-    const source = canonicalSource(record.sourceUrl);
+    const source = canonicalSource(record.workSourceUrl || record.sourceUrl);
     const key = source ? `source:${source}|${record.year}` : `title:${normalize(record.title)}|${record.year}`;
     if (!drafts.has(key)) drafts.set(key, { key, records: [], frames: [], masters: [] });
     const draft = drafts.get(key);
@@ -225,7 +225,7 @@ function buildWorks(records) {
   }
 
   for (const record of masters) {
-    const source = canonicalSource(record.sourceUrl);
+    const source = canonicalSource(record.workSourceUrl || record.sourceUrl);
     const matchingKey = source && sourceToKey.get(`${source}|${record.year}`);
     const key = matchingKey || `master:${record.id}`;
     if (!drafts.has(key)) drafts.set(key, { key, records: [], frames: [], masters: [] });
@@ -239,8 +239,15 @@ function buildWorks(records) {
     const masterLead = [...draft.masters].sort((a, b) => (b.awarenessScore || 0) - (a.awarenessScore || 0))[0];
     const lead = frameLead || masterLead || draft.records[0];
     const cover = masterLead || frameLead || lead;
-    const sourceUrl = masterLead?.sourceUrl || lead.sourceUrl || "";
-    const characterAliases = unionFromRecords(draft.frames.length ? draft.frames : draft.records, "characters");
+    const sourceUrl = masterLead?.workSourceUrl
+      || lead.workSourceUrl
+      || masterLead?.sourceUrl
+      || lead.sourceUrl
+      || "";
+    const characterAliases = compact([
+      ...unionFromRecords(draft.frames.length ? draft.frames : draft.records, "characters"),
+      ...unionFromRecords(draft.records, "workCharacters"),
+    ]);
     const characterNames = compact(characterAliases.map(canonicalCharacter));
     const assetTypes = unionFromRecords(draft.records, "assetType");
     const motifs = unionFromRecords(draft.records, "motifs");
@@ -365,7 +372,11 @@ function buildEntities(records, works) {
     const coverRecord = preferredCover || matchingMaster || entityRecords[0];
     const rightsByWork = countsBy(entityWorks.flatMap((work) => work.rightsStatuses));
     const firstYear = entityWorks.reduce((year, work) => Math.min(year, work.yearSort || 9999), 9999);
-    const representative = matchingMaster || entityRecords.find((record) => record.usage || record.avoid) || entityRecords[0];
+    const representative = entityRecords
+      .filter((record) => record.usage || record.avoid)
+      .sort((a, b) => (b.awarenessScore || 0) - (a.awarenessScore || 0))[0]
+      || matchingMaster
+      || entityRecords[0];
     const recordIds = compact(entityWorks.flatMap((work) => work.recordIds));
     const frameIds = compact(entityWorks.flatMap((work) => work.frameIds));
     return {

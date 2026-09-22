@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-圣女贞德与异象-77bed1c9",
     "title": "圣女贞德与异象",
@@ -819,6 +819,7 @@
       "title": "圣女贞德与异象",
       "year": "1879",
       "yearSort": 1879,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/435621",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -839,6 +840,9 @@
         "万圣节"
       ],
       "characters": [
+        "Joan of Arc"
+      ],
+      "workCharacters": [
         "Joan of Arc"
       ],
       "tags": [
@@ -863,6 +867,7 @@
       "title": "圣女贞德与异象",
       "year": "1879",
       "yearSort": 1879,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/435621",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -883,6 +888,9 @@
         "万圣节"
       ],
       "characters": [
+        "Joan of Arc"
+      ],
+      "workCharacters": [
         "Joan of Arc"
       ],
       "tags": [

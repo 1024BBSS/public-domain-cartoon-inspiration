@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-i-summon-up-remembrance-of-things-past-87ae164d",
     "title": "I Summon Up Remembrance of Things Past",
@@ -174,6 +174,7 @@
       "title": "I Summon Up Remembrance of Things Past",
       "year": "1915",
       "yearSort": 1915,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:1910s-Witch-Cauldron-Halloween-Postcard-I-Summon-Up-Remembrance-1152x1536.jpg",
       "rightsStatus": "公版文件",
       "copyrightRoute": "Wikimedia Commons · Public domain",
       "evidenceLevel": "A",
@@ -195,6 +196,9 @@
         "万圣节"
       ],
       "characters": [
+        "坩埚女巫"
+      ],
+      "workCharacters": [
         "坩埚女巫"
       ],
       "assetType": "彩色万圣节明信片",

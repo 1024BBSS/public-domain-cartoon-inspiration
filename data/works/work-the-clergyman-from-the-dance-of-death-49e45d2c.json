@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T04:42:27.130Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-the-clergyman-from-the-dance-of-death-49e45d2c",
     "title": "The Clergyman, from The Dance of Death",
@@ -142,6 +142,7 @@
       "title": "The Clergyman, from The Dance of Death",
       "year": "ca. 1526 / 1538",
       "yearSort": 1526,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/365199",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "The Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -162,6 +163,9 @@
         "万圣节"
       ],
       "characters": [
+        "人格化死亡"
+      ],
+      "workCharacters": [
         "人格化死亡"
       ],
       "tags": [
@@ -187,6 +191,7 @@
       "title": "The Clergyman, from The Dance of Death",
       "year": "ca. 1526 / 1538",
       "yearSort": 1526,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/365199",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "The Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -207,6 +212,9 @@
         "万圣节"
       ],
       "characters": [
+        "人格化死亡"
+      ],
+      "workCharacters": [
         "人格化死亡"
       ],
       "tags": [

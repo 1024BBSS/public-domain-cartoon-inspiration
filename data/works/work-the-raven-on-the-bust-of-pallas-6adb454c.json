@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-the-raven-on-the-bust-of-pallas-6adb454c",
     "title": "The Raven on the Bust of Pallas",
@@ -172,6 +172,7 @@
       "title": "The Raven on the Bust of Pallas",
       "year": "1875",
       "yearSort": 1875,
+      "workSourceUrl": "https://www.artic.edu/artworks/111365",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "AIC Open Access · CC0 Public Domain Designation",
       "evidenceLevel": "A",
@@ -193,6 +194,9 @@
         "万圣节"
       ],
       "characters": [
+        "帕拉斯胸像上的乌鸦"
+      ],
+      "workCharacters": [
         "帕拉斯胸像上的乌鸦"
       ],
       "assetType": "文学版画",

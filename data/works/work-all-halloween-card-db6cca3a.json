@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-all-halloween-card-db6cca3a",
     "title": "All Hallowe'en Card",
@@ -330,6 +330,7 @@
       "title": "All Hallowe'en Card",
       "year": "1911",
       "yearSort": 1911,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:All_Hallween_Card_1911.jpg",
       "rightsStatus": "公版文件",
       "copyrightRoute": "Wikimedia Commons · Public domain",
       "evidenceLevel": "A",
@@ -351,6 +352,11 @@
         "万圣节"
       ],
       "characters": [
+        "扫帚女巫",
+        "月亮脸",
+        "猫头鹰"
+      ],
+      "workCharacters": [
         "扫帚女巫",
         "月亮脸",
         "猫头鹰"

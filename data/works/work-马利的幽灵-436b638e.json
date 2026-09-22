@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-马利的幽灵-436b638e",
     "title": "马利的幽灵",
@@ -690,6 +690,7 @@
       "title": "马利的幽灵",
       "year": "1843",
       "yearSort": 1843,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:Marley%27s_Ghost-John_Leech,_1843.jpg",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "1843 初版插图 · 期限届满",
       "evidenceLevel": "A",
@@ -710,6 +711,9 @@
         "圣诞节"
       ],
       "characters": [
+        "Marley's Ghost"
+      ],
+      "workCharacters": [
         "Marley's Ghost"
       ],
       "tags": [
@@ -734,6 +738,7 @@
       "title": "马利的幽灵",
       "year": "1843",
       "yearSort": 1843,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:Marley%27s_Ghost-John_Leech,_1843.jpg",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "1843 初版插图 · 期限届满",
       "evidenceLevel": "A",
@@ -754,6 +759,9 @@
         "圣诞节"
       ],
       "characters": [
+        "Marley's Ghost"
+      ],
+      "workCharacters": [
         "Marley's Ghost"
       ],
       "tags": [

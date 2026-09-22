@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-16T02:50:01.060Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-dodo-598f415a",
     "title": "Dodo",
@@ -58,54 +58,125 @@
     {
       "id": "role-dodo-b2957fcf",
       "name": "Dodo",
-      "type": "主体",
+      "type": "角色",
       "aliases": [],
       "virtual": false,
       "coverImage": "images/f8e8549da30382d4a4c7.webp",
       "coverRecordId": "catalog-dodo-alice",
       "yearStart": 1865,
-      "yearEnd": 1865,
+      "yearEnd": 1907,
       "workIds": [
+        "work-alices-adventures-in-wonderland-arthur-rackham-2e561dfd",
         "work-dodo-598f415a"
       ],
       "recordIds": [
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012",
         "catalog-dodo-alice"
       ],
-      "frameIds": [],
-      "workCount": 1,
-      "imageCount": 1,
-      "frameCount": 0,
+      "frameIds": [
+        "frame-supplement-alice-rackham-1907-001",
+        "frame-supplement-alice-rackham-1907-002",
+        "frame-supplement-alice-rackham-1907-003",
+        "frame-supplement-alice-rackham-1907-004",
+        "frame-supplement-alice-rackham-1907-005",
+        "frame-supplement-alice-rackham-1907-006",
+        "frame-supplement-alice-rackham-1907-007",
+        "frame-supplement-alice-rackham-1907-008",
+        "frame-supplement-alice-rackham-1907-009",
+        "frame-supplement-alice-rackham-1907-010",
+        "frame-supplement-alice-rackham-1907-011",
+        "frame-supplement-alice-rackham-1907-012"
+      ],
+      "workCount": 2,
+      "imageCount": 13,
+      "frameCount": 12,
       "rightsBreakdown": {
+        "公版文件": 1,
         "期限届满": 1
       },
       "copyrightRoutes": [
+        "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。",
         "CC0 图像来源"
       ],
       "evidenceLevels": [
         "A"
       ],
       "tags": [
-        "早期动画",
         "漫画 / 角色",
-        "童话 / 寓言"
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法",
+        "早期动画"
       ],
-      "topScenes": [],
+      "topScenes": [
+        {
+          "name": "爱丽丝梦游仙境",
+          "count": 12
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 12
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 12
+        }
+      ],
       "topStyles": [
         {
           "name": "文学插画",
-          "count": 1
+          "count": 13
+        },
+        {
+          "name": "暗黑童话",
+          "count": 12
+        },
+        {
+          "name": "历史形象演变",
+          "count": 12
+        },
+        {
+          "name": "水彩线描",
+          "count": 12
         },
         {
           "name": "橡皮管动画",
           "count": 1
         }
       ],
-      "topHolidays": [],
-      "usage": "从该历史图像提取轮廓与叙事道具，重新组织为单一焦点，避免照搬现代改编。",
-      "avoid": "现代影视/动画的具体脸、服装、Logo、后续文本新增设定；角色名称不等于全部版本都已公版。",
-      "awarenessScore": 14,
-      "sourceCount": 1,
-      "relatedEntityIds": []
+      "topHolidays": [
+        {
+          "name": "万圣节",
+          "count": 12
+        }
+      ],
+      "usage": "比较 Rackham 的枯线、扭曲树根、灰褐水彩与诡谲戏剧感；适合暗黑童话、线描角色和留白型构图研究。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "awarenessScore": 92,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "role-alice-3bc51062",
+        "role-white-rabbit-e0326baa",
+        "role-mad-hatter-5c28e6fa",
+        "role-march-hare-4d813333",
+        "role-queen-of-hearts-a74811a2",
+        "role-duchess-00b4ddf4",
+        "role-baby-8400cebc",
+        "role-mock-turtle-dc90b0c4",
+        "role-gryphon-72a57118",
+        "role-playing-card-courtiers-624b8baa"
+      ]
     }
   ],
   "records": [

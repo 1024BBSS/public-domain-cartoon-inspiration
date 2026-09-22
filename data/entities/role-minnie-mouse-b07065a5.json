@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-16T02:50:01.060Z",
+  "generatedAt": "2026-09-22T03:04:05.813Z",
   "entity": {
     "id": "role-minnie-mouse-b07065a5",
     "name": "Minnie Mouse",
@@ -2227,8 +2227,8 @@
           "count": 3
         }
       ],
-      "usage": "把它当作“新旧素材倒置”的教学案例；任何实际使用先做逐格来源比对。",
-      "avoid": "糖罐、咖啡杯和胡椒喷嚏等表达源自仍受保护的《Giantland》(1933)，即使出现在未续期漫画中也不能据此转用。",
+      "usage": "报刊连环画 · 童话冒险 · 巨人 · 城堡",
+      "avoid": "只取该未续期作品首次出现的具体表达；避开后续受保护造型、现代修复、品牌标志与易造成官方授权误认的商品化呈现。",
       "awarenessScore": 0,
       "sourceCount": 1,
       "relatedEntityIds": [
@@ -2313,8 +2313,8 @@
           "count": 3
         }
       ],
-      "usage": "把它当作“新旧素材倒置”的教学案例；任何实际使用先做逐格来源比对。",
-      "avoid": "糖罐、咖啡杯和胡椒喷嚏等表达源自仍受保护的《Giantland》(1933)，即使出现在未续期漫画中也不能据此转用。",
+      "usage": "报刊连环画 · 童话冒险 · 巨人 · 城堡",
+      "avoid": "只取该未续期作品首次出现的具体表达；避开后续受保护造型、现代修复、品牌标志与易造成官方授权误认的商品化呈现。",
       "awarenessScore": 0,
       "sourceCount": 1,
       "relatedEntityIds": [

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T04:42:27.130Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-memento-mori-a-skeleton-in-a-niche-97966eff",
     "title": "Memento Mori: a Skeleton in a Niche",
@@ -142,6 +142,7 @@
       "title": "Memento Mori: a Skeleton in a Niche",
       "year": "late 15th century",
       "yearSort": 1400,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/367226",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "The Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -162,6 +163,9 @@
         "万圣节"
       ],
       "characters": [
+        "壁龛骷髅"
+      ],
+      "workCharacters": [
         "壁龛骷髅"
       ],
       "tags": [
@@ -187,6 +191,7 @@
       "title": "Memento Mori: a Skeleton in a Niche",
       "year": "late 15th century",
       "yearSort": 1400,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/367226",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "The Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -207,6 +212,9 @@
         "万圣节"
       ],
       "characters": [
+        "壁龛骷髅"
+      ],
+      "workCharacters": [
         "壁龛骷髅"
       ],
       "tags": [

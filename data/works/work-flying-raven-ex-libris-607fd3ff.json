@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-flying-raven-ex-libris-607fd3ff",
     "title": "Flying Raven: Ex Libris",
@@ -169,6 +169,7 @@
       "title": "Flying Raven: Ex Libris",
       "year": "1875",
       "yearSort": 1875,
+      "workSourceUrl": "https://www.artic.edu/artworks/111363",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "AIC Open Access · CC0 Public Domain Designation",
       "evidenceLevel": "A",
@@ -190,6 +191,9 @@
         "万圣节"
       ],
       "characters": [
+        "飞行乌鸦"
+      ],
+      "workCharacters": [
         "飞行乌鸦"
       ],
       "assetType": "文学版画图素",

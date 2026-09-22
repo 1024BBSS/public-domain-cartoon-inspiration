@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-a-jolly-halloween-black-cat-procession-74347b57",
     "title": "A Jolly Halloween: Black Cat Procession",
@@ -174,6 +174,7 @@
       "title": "A Jolly Halloween: Black Cat Procession",
       "year": "ca. 1900–1916",
       "yearSort": 1900,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:A_Jolly_Halloween_card_Black_Cats.jpg",
       "rightsStatus": "公版文件",
       "copyrightRoute": "Wikimedia Commons · Public domain",
       "evidenceLevel": "A",
@@ -195,6 +196,9 @@
         "万圣节"
       ],
       "characters": [
+        "尖帽黑猫队列"
+      ],
+      "workCharacters": [
         "尖帽黑猫队列"
       ],
       "assetType": "彩色万圣节明信片",

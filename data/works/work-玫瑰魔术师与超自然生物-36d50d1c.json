@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-玫瑰魔术师与超自然生物-36d50d1c",
     "title": "玫瑰魔术师与超自然生物",
@@ -680,6 +680,7 @@
       "title": "玫瑰魔术师与超自然生物",
       "year": "1892",
       "yearSort": 1892,
+      "workSourceUrl": "https://www.loc.gov/item/2014636963/",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "LOC · No known restrictions",
       "evidenceLevel": "A",
@@ -699,6 +700,9 @@
         "万圣节"
       ],
       "characters": [
+        "舞台灵体"
+      ],
+      "workCharacters": [
         "舞台灵体"
       ],
       "tags": [
@@ -723,6 +727,7 @@
       "title": "玫瑰魔术师与超自然生物",
       "year": "1892",
       "yearSort": 1892,
+      "workSourceUrl": "https://www.loc.gov/item/2014636963/",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "LOC · No known restrictions",
       "evidenceLevel": "A",
@@ -742,6 +747,9 @@
         "万圣节"
       ],
       "characters": [
+        "舞台灵体"
+      ],
+      "workCharacters": [
         "舞台灵体"
       ],
       "tags": [

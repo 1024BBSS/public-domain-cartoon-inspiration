@@ -1,0 +1,262 @@
+{
+  "schemaVersion": "1.0",
+  "sourceVersion": "classic-ip-visual-lineages-2026-09-22-v1",
+  "researchDate": "2026-09-22",
+  "eagleFolderId": "MU3HNTW6V47E2",
+  "requested": 50,
+  "imported": [
+    {
+      "id": "robinson-pigeon",
+      "eagleItemId": "MUC34WRPHFMML",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S089%20-%20A%20large%20pigeon%20had%20flown%20into%20her%20face.jpg"
+    },
+    {
+      "id": "robinson-hatter-date",
+      "eagleItemId": "MUC3501YX44NA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S119%20-%20'What%20day%20of%20the%20month%20is%20it'%20he%20said%2C%20turning%20to%20Alice.jpg"
+    },
+    {
+      "id": "robinson-executioner-dispute",
+      "eagleItemId": "MUC352ADK27IA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S149%20-%20There%20was%20a%20dispute%20going%20on%20between%20the%20executioner%2C%20the%20King%2C%20and%20the%20Queen.jpg"
+    },
+    {
+      "id": "robinson-up-lazy",
+      "eagleItemId": "MUC354JXEG4PO",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S163%20-%20'Up%2C%20lazy%20thing!'%20said%20the%20Queen.jpg"
+    },
+    {
+      "id": "robinson-pack-air",
+      "eagleItemId": "MUC356QSM1X66",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S205%20-%20The%20whole%20pack%20rose%20up%20in%20the%20air.jpg"
+    },
+    {
+      "id": "oz-cowardly-lion",
+      "eagleItemId": "MUC35BN2GHDCG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACowardly%20lion.jpg"
+    },
+    {
+      "id": "oz-glinda",
+      "eagleItemId": "MUC35EMYH9MF5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGlinda.jpg"
+    },
+    {
+      "id": "oz-wizard",
+      "eagleItemId": "MUC35H2H6NBT2",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWizard%20of%20Oz.png"
+    },
+    {
+      "id": "oz-munchkins",
+      "eagleItemId": "MUC35J8V1VSJ5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoq-Munchkins.jpg"
+    },
+    {
+      "id": "pinocchio-mazzanti-first",
+      "eagleItemId": "MUC35L9PR4Y17",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchio.jpg"
+    },
+    {
+      "id": "pinocchio-chiostri-standing",
+      "eagleItemId": "MUC35NE4RO9B2",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchio%20par%20Carlo%20Chiostri.png"
+    },
+    {
+      "id": "pinocchio-chiostri-mangiafoco",
+      "eagleItemId": "MUC35PGTNYFWL",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri03.jpg"
+    },
+    {
+      "id": "pinocchio-chiostri-arrest",
+      "eagleItemId": "MUC35RMELEOVC",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri08.jpg"
+    },
+    {
+      "id": "pinocchio-chiostri-theatre",
+      "eagleItemId": "MUC35TR3MITEP",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri12.jpg"
+    },
+    {
+      "id": "pinocchio-chiostri-fairy",
+      "eagleItemId": "MUC35VVQFVQ8R",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri19.jpg"
+    },
+    {
+      "id": "pinocchio-chiostri-watchdog",
+      "eagleItemId": "MUC35XYS661O6",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri21.jpg"
+    },
+    {
+      "id": "pinocchio-chiostri-long-nose",
+      "eagleItemId": "MUC35ZY56FO8Q",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri22.jpg"
+    },
+    {
+      "id": "pinocchio-chiostri-dogfish",
+      "eagleItemId": "MUC3623F7BMPL",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri25.jpg"
+    }
+  ],
+  "reused": [
+    {
+      "id": "folkard-alice-friends",
+      "eagleItemId": "MUC31NKRCEQXD",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/36308"
+    },
+    {
+      "id": "folkard-mad-tea-party",
+      "eagleItemId": "MUC31OV38LC81",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/36308"
+    },
+    {
+      "id": "folkard-eel-on-nose",
+      "eagleItemId": "MUC31PU2EIQL3",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/36308"
+    },
+    {
+      "id": "folkard-speak-roughly",
+      "eagleItemId": "MUC31QR17TMDX",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/36308"
+    },
+    {
+      "id": "folkard-lobster-quadrille",
+      "eagleItemId": "MUC31RPP8IIFX",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/36308"
+    },
+    {
+      "id": "folkard-beautiful-soup",
+      "eagleItemId": "MUC31SZGO5XLJ",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASongs%20from%20Alice%20in%20wonderland%20and%20Through%20the%20looking-glass%20(1921)%20(14778585941).jpg"
+    },
+    {
+      "id": "folkard-vorpal-sword",
+      "eagleItemId": "MUC31TXKBM2G9",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/36308"
+    },
+    {
+      "id": "folkard-walrus-carpenter",
+      "eagleItemId": "MUC31UU0MO7JQ",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/36308"
+    },
+    {
+      "id": "folkard-shouted-ear",
+      "eagleItemId": "MUC31VSILK3YQ",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/36308"
+    },
+    {
+      "id": "folkard-butterflies-wheat",
+      "eagleItemId": "MUC31WOZFN9G0",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/36308"
+    },
+    {
+      "id": "folkard-queen-alice",
+      "eagleItemId": "MUC31XJ825QDT",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/36308"
+    },
+    {
+      "id": "folkard-fish-riddle",
+      "eagleItemId": "MUC31YER3395P",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/36308"
+    },
+    {
+      "id": "rackham-pool-tears",
+      "eagleItemId": "MUC31Z8IGG9E0",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885"
+    },
+    {
+      "id": "rackham-caucus-race",
+      "eagleItemId": "MUC31ZZKK6FOM",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885"
+    },
+    {
+      "id": "rackham-mary-ann",
+      "eagleItemId": "MUC320PR0IIYH",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885"
+    },
+    {
+      "id": "rackham-caterpillar",
+      "eagleItemId": "MUC321F0WGS84",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885"
+    },
+    {
+      "id": "rackham-saucepan",
+      "eagleItemId": "MUC3224NDIDD1",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885"
+    },
+    {
+      "id": "rackham-pig-baby",
+      "eagleItemId": "MUC322UDIPOBX",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885"
+    },
+    {
+      "id": "rackham-tea-party",
+      "eagleItemId": "MUC323K4QOI6G",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885"
+    },
+    {
+      "id": "rackham-turn-them-over",
+      "eagleItemId": "MUC3249VOVG30",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885"
+    },
+    {
+      "id": "rackham-off-head",
+      "eagleItemId": "MUC324Z36ZKT6",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885"
+    },
+    {
+      "id": "rackham-mock-turtle",
+      "eagleItemId": "MUC325P9Y5O0B",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885"
+    },
+    {
+      "id": "rackham-who-stole-tarts",
+      "eagleItemId": "MUC326ELOTJFL",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885"
+    },
+    {
+      "id": "rackham-pack-air",
+      "eagleItemId": "MUC3274EIIFHO",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885"
+    },
+    {
+      "id": "robinson-off-head",
+      "eagleItemId": "MUC328J1Z4J5K",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S008%20-%20'Off%20with%20her%20head!'.jpg"
+    },
+    {
+      "id": "robinson-important-mouse",
+      "eagleItemId": "MUC329LZ2GNC9",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S053%20-%20'Ahem!'%20said%20the%20mouse%2C%20with%20an%20important%20air.jpg"
+    },
+    {
+      "id": "robinson-duchess-lullaby",
+      "eagleItemId": "MUC32DMYD651L",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S103%20-%20She%20began%20nursing%20her%20child%20again%2C%20singing%20a%20sort%20of%20lullaby%20to%20it.jpg"
+    },
+    {
+      "id": "oz-dorothy-silver-shoes",
+      "eagleItemId": "MUC32LD0VOR2S",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADorothy%20Gale%20with%20silver%20shoes.jpg"
+    },
+    {
+      "id": "oz-dorothy-scarecrow",
+      "eagleItemId": "MUC32LSE4HO2U",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADorothy%20and%20the%20Scarecrow%201900.jpg"
+    },
+    {
+      "id": "oz-tin-woodman",
+      "eagleItemId": "MUC32MSME0XP0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATin%20Woodman.png"
+    },
+    {
+      "id": "oz-wicked-witch",
+      "eagleItemId": "MUC32PBILFIF4",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWicked%20Witch%20of%20the%20West%20W.W.%20Denslow.jpg"
+    },
+    {
+      "id": "oz-emerald-city",
+      "eagleItemId": "MUC32RJ01OS1U",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEmerald%20City.jpg"
+    }
+  ],
+  "rejected": []
+}

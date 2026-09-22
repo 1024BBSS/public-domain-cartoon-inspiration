@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T06:17:24.041Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-crescent-moon-and-stars-detail-63db43a1",
     "title": "Crescent Moon and Stars — Detail",
@@ -170,6 +170,7 @@
       "title": "Crescent Moon and Stars — Detail",
       "year": "ca. 1910",
       "yearSort": 1910,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:Crescent_moon_and_stars_art_detail,_from-_%22A_Merry_Halloween.%22_(cropped).jpg",
       "rightsStatus": "公版文件",
       "copyrightRoute": "Wikimedia Commons · Public domain",
       "evidenceLevel": "A",
@@ -191,6 +192,9 @@
         "万圣节"
       ],
       "characters": [
+        "新月与星星"
+      ],
+      "workCharacters": [
         "新月与星星"
       ],
       "assetType": "公版原图裁切图素",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-立体镜中的幽灵-f0be4d30",
     "title": "立体镜中的幽灵",
@@ -790,6 +790,7 @@
       "title": "立体镜中的幽灵",
       "year": "ca. 1856",
       "yearSort": 1856,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/302466",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -809,6 +810,9 @@
         "万圣节"
       ],
       "characters": [
+        "白布幽灵"
+      ],
+      "workCharacters": [
         "白布幽灵"
       ],
       "tags": [
@@ -833,6 +837,7 @@
       "title": "立体镜中的幽灵",
       "year": "ca. 1856",
       "yearSort": 1856,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/302466",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -852,6 +857,9 @@
         "万圣节"
       ],
       "characters": [
+        "白布幽灵"
+      ],
+      "workCharacters": [
         "白布幽灵"
       ],
       "tags": [

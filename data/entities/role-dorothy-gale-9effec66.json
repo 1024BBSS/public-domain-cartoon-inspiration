@@ -1,0 +1,1282 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
+  "entity": {
+    "id": "role-dorothy-gale-9effec66",
+    "name": "Dorothy Gale",
+    "type": "角色",
+    "aliases": [],
+    "virtual": false,
+    "coverImage": "images/e33541d3cb8bfe62c083.webp",
+    "coverRecordId": "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+    "yearStart": 1900,
+    "yearEnd": 1900,
+    "workIds": [
+      "work-the-wonderful-wizard-of-oz-w-w-denslow-ad02ad47"
+    ],
+    "recordIds": [
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+    ],
+    "frameIds": [
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+      "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+    ],
+    "workCount": 1,
+    "imageCount": 9,
+    "frameCount": 9,
+    "rightsBreakdown": {
+      "公版文件": 1
+    },
+    "copyrightRoutes": [
+      "美国：1900 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "tags": [
+      "漫画 / 角色",
+      "童话 / 寓言",
+      "经典艺术",
+      "怪诞 / 魔法"
+    ],
+    "topScenes": [
+      {
+        "name": "奥兹国旅行",
+        "count": 9
+      },
+      {
+        "name": "经典角色历史形象",
+        "count": 9
+      },
+      {
+        "name": "原著角色组",
+        "count": 9
+      }
+    ],
+    "topStyles": [
+      {
+        "name": "历史形象演变",
+        "count": 9
+      },
+      {
+        "name": "美式童话",
+        "count": 9
+      },
+      {
+        "name": "双色与彩色书籍插图",
+        "count": 9
+      },
+      {
+        "name": "文学插画",
+        "count": 9
+      }
+    ],
+    "topHolidays": [],
+    "usage": "从 1900 原著中比较 Dorothy、稻草人、铁皮人、狮子、女巫和翡翠城的首次大众视觉；适合角色组、旅行队列和单角色徽章研究。",
+    "avoid": "只使用 Denslow 1900 年书籍版本；避开 1939 年 MGM 电影的红宝石鞋、演员肖像、片名字标、电影服装与后续授权造型。",
+    "awarenessScore": 94,
+    "sourceCount": 1,
+    "relatedEntityIds": [
+      "role-the-wonderful-wizard-of-oz-ee961daf",
+      "role-toto-b41419df",
+      "role-scarecrow-5fbe71c7",
+      "role-tin-woodman-21626332",
+      "role-cowardly-lion-69f447b2",
+      "role-wicked-witch-of-the-west-45c6766e",
+      "role-glinda-e1390da8",
+      "role-emerald-city-8f05a10f",
+      "role-wizard-of-oz-5dba210f",
+      "role-boq-0f1b884c"
+    ]
+  },
+  "works": [
+    {
+      "id": "work-the-wonderful-wizard-of-oz-w-w-denslow-ad02ad47",
+      "title": "The Wonderful Wizard of Oz · W. W. Denslow",
+      "subtitle": "Dorothy 与银鞋",
+      "year": "1900",
+      "yearSort": 1900,
+      "coverImage": "images/e33541d3cb8bfe62c083.webp",
+      "coverRecordId": "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Illustrations_of_The_Wonderful_Wizard_of_Oz_by_William_Wallace_Denslow",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "rightsStatuses": [
+        "公版文件"
+      ],
+      "copyrightRoutes": [
+        "美国：1900 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "imageRights": [
+        "Wikimedia Commons：Public domain。"
+      ],
+      "usage": "从 1900 原著中比较 Dorothy、稻草人、铁皮人、狮子、女巫和翡翠城的首次大众视觉；适合角色组、旅行队列和单角色徽章研究。",
+      "avoid": "只使用 Denslow 1900 年书籍版本；避开 1939 年 MGM 电影的红宝石鞋、演员肖像、片名字标、电影服装与后续授权造型。",
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "双色与彩色书籍插图",
+        "美式童话"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "原著角色组",
+        "奥兹国旅行"
+      ],
+      "holidays": [],
+      "assetTypes": [
+        "历史书籍插图"
+      ],
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "sourceHashes": [
+        "c212a0cdb5ba34663fceb7a0359694220b04e226a2a99c6a2414163b9bedc1a7",
+        "a400a9b3c704308e1bbfc974d50116b994d2921c8d9dfc2cafecb39fccb2b5ea",
+        "48135a29455a3819319a524f3b87255e190680e1badb8235f225d41832bddbe7",
+        "e3ee24885ac120d690a3e1f2861e085a7ff48947559281af769e8ca8866685a1",
+        "c56df4edab7958119cf46b27b6df93486ed547f19354ddc62d0899fd3da6c02c",
+        "5bd5d0c54183e64d40527061dcbdb1fbaed69c159183bb62e25e970ff20d7e10",
+        "f35dee3b262b15ab19fc7f505b5999fb2fcade65341edb7a2d411cf9babc6ff2",
+        "56004a1b4517b4da13982d7b91f4781e4823a6466b5609954c4974148c22d866",
+        "17fb6c7de87e6a3ad62261f65ac497bd776db98b15cf489edaa521eb5ad22ecd"
+      ],
+      "characterNames": [
+        "Dorothy Gale",
+        "Toto",
+        "Scarecrow",
+        "Tin Woodman",
+        "Cowardly Lion",
+        "Wicked Witch of the West",
+        "Glinda",
+        "Emerald City",
+        "Wizard of Oz",
+        "Boq",
+        "Munchkins",
+        "The Wonderful Wizard of Oz"
+      ],
+      "characterAliases": [
+        "Dorothy Gale",
+        "Toto",
+        "Scarecrow",
+        "Tin Woodman",
+        "Cowardly Lion",
+        "Wicked Witch of the West",
+        "Glinda",
+        "Emerald City",
+        "Wizard of Oz",
+        "Boq",
+        "Munchkins",
+        "The Wonderful Wizard of Oz"
+      ],
+      "recordIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "frameIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "masterIds": [],
+      "imageCount": 9,
+      "frameCount": 9,
+      "awarenessScore": 94,
+      "entityIds": [
+        "role-dorothy-gale-9effec66",
+        "role-toto-b41419df",
+        "role-scarecrow-5fbe71c7",
+        "role-tin-woodman-21626332",
+        "role-cowardly-lion-69f447b2",
+        "role-wicked-witch-of-the-west-45c6766e",
+        "role-glinda-e1390da8",
+        "role-emerald-city-8f05a10f",
+        "role-wizard-of-oz-5dba210f",
+        "role-boq-0f1b884c",
+        "role-munchkins-e5fd54cf",
+        "role-the-wonderful-wizard-of-oz-ee961daf"
+      ]
+    }
+  ],
+  "relatedEntities": [
+    {
+      "id": "role-the-wonderful-wizard-of-oz-ee961daf",
+      "name": "The Wonderful Wizard of Oz",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/64fd272a35ec2cf32738.webp",
+      "coverRecordId": "catalog-oz",
+      "yearStart": 1900,
+      "yearEnd": 1900,
+      "workIds": [
+        "work-the-wonderful-wizard-of-oz-w-w-denslow-ad02ad47",
+        "work-the-wonderful-wizard-of-oz-e5cb869b"
+      ],
+      "recordIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009",
+        "catalog-oz"
+      ],
+      "frameIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "workCount": 2,
+      "imageCount": 10,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "公版文件": 1,
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国：1900 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "奥兹国旅行",
+          "count": 9
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 9
+        },
+        {
+          "name": "原著角色组",
+          "count": 9
+        },
+        {
+          "name": "魔法 / 变形",
+          "count": 1
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 10
+        },
+        {
+          "name": "历史形象演变",
+          "count": 9
+        },
+        {
+          "name": "美式童话",
+          "count": 9
+        },
+        {
+          "name": "双色与彩色书籍插图",
+          "count": 9
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从 1900 原著中比较 Dorothy、稻草人、铁皮人、狮子、女巫和翡翠城的首次大众视觉；适合角色组、旅行队列和单角色徽章研究。",
+      "avoid": "只使用 Denslow 1900 年书籍版本；避开 1939 年 MGM 电影的红宝石鞋、演员肖像、片名字标、电影服装与后续授权造型。",
+      "awarenessScore": 94,
+      "sourceCount": 2,
+      "relatedEntityIds": [
+        "role-dorothy-gale-9effec66",
+        "role-toto-b41419df",
+        "role-scarecrow-5fbe71c7",
+        "role-tin-woodman-21626332",
+        "role-cowardly-lion-69f447b2",
+        "role-wicked-witch-of-the-west-45c6766e",
+        "role-glinda-e1390da8",
+        "role-emerald-city-8f05a10f",
+        "role-wizard-of-oz-5dba210f",
+        "role-boq-0f1b884c"
+      ]
+    },
+    {
+      "id": "role-toto-b41419df",
+      "name": "Toto",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/e33541d3cb8bfe62c083.webp",
+      "coverRecordId": "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+      "yearStart": 1900,
+      "yearEnd": 1900,
+      "workIds": [
+        "work-the-wonderful-wizard-of-oz-w-w-denslow-ad02ad47"
+      ],
+      "recordIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "frameIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1900 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "奥兹国旅行",
+          "count": 9
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 9
+        },
+        {
+          "name": "原著角色组",
+          "count": 9
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 9
+        },
+        {
+          "name": "美式童话",
+          "count": 9
+        },
+        {
+          "name": "双色与彩色书籍插图",
+          "count": 9
+        },
+        {
+          "name": "文学插画",
+          "count": 9
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从 1900 原著中比较 Dorothy、稻草人、铁皮人、狮子、女巫和翡翠城的首次大众视觉；适合角色组、旅行队列和单角色徽章研究。",
+      "avoid": "只使用 Denslow 1900 年书籍版本；避开 1939 年 MGM 电影的红宝石鞋、演员肖像、片名字标、电影服装与后续授权造型。",
+      "awarenessScore": 94,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-the-wonderful-wizard-of-oz-ee961daf",
+        "role-dorothy-gale-9effec66",
+        "role-scarecrow-5fbe71c7",
+        "role-tin-woodman-21626332",
+        "role-cowardly-lion-69f447b2",
+        "role-wicked-witch-of-the-west-45c6766e",
+        "role-glinda-e1390da8",
+        "role-emerald-city-8f05a10f",
+        "role-wizard-of-oz-5dba210f",
+        "role-boq-0f1b884c"
+      ]
+    },
+    {
+      "id": "role-scarecrow-5fbe71c7",
+      "name": "Scarecrow",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/e33541d3cb8bfe62c083.webp",
+      "coverRecordId": "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+      "yearStart": 1900,
+      "yearEnd": 1900,
+      "workIds": [
+        "work-the-wonderful-wizard-of-oz-w-w-denslow-ad02ad47"
+      ],
+      "recordIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "frameIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1900 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "奥兹国旅行",
+          "count": 9
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 9
+        },
+        {
+          "name": "原著角色组",
+          "count": 9
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 9
+        },
+        {
+          "name": "美式童话",
+          "count": 9
+        },
+        {
+          "name": "双色与彩色书籍插图",
+          "count": 9
+        },
+        {
+          "name": "文学插画",
+          "count": 9
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从 1900 原著中比较 Dorothy、稻草人、铁皮人、狮子、女巫和翡翠城的首次大众视觉；适合角色组、旅行队列和单角色徽章研究。",
+      "avoid": "只使用 Denslow 1900 年书籍版本；避开 1939 年 MGM 电影的红宝石鞋、演员肖像、片名字标、电影服装与后续授权造型。",
+      "awarenessScore": 94,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-the-wonderful-wizard-of-oz-ee961daf",
+        "role-dorothy-gale-9effec66",
+        "role-toto-b41419df",
+        "role-tin-woodman-21626332",
+        "role-cowardly-lion-69f447b2",
+        "role-wicked-witch-of-the-west-45c6766e",
+        "role-glinda-e1390da8",
+        "role-emerald-city-8f05a10f",
+        "role-wizard-of-oz-5dba210f",
+        "role-boq-0f1b884c"
+      ]
+    },
+    {
+      "id": "role-tin-woodman-21626332",
+      "name": "Tin Woodman",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/e33541d3cb8bfe62c083.webp",
+      "coverRecordId": "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+      "yearStart": 1900,
+      "yearEnd": 1900,
+      "workIds": [
+        "work-the-wonderful-wizard-of-oz-w-w-denslow-ad02ad47"
+      ],
+      "recordIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "frameIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1900 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "奥兹国旅行",
+          "count": 9
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 9
+        },
+        {
+          "name": "原著角色组",
+          "count": 9
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 9
+        },
+        {
+          "name": "美式童话",
+          "count": 9
+        },
+        {
+          "name": "双色与彩色书籍插图",
+          "count": 9
+        },
+        {
+          "name": "文学插画",
+          "count": 9
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从 1900 原著中比较 Dorothy、稻草人、铁皮人、狮子、女巫和翡翠城的首次大众视觉；适合角色组、旅行队列和单角色徽章研究。",
+      "avoid": "只使用 Denslow 1900 年书籍版本；避开 1939 年 MGM 电影的红宝石鞋、演员肖像、片名字标、电影服装与后续授权造型。",
+      "awarenessScore": 94,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-the-wonderful-wizard-of-oz-ee961daf",
+        "role-dorothy-gale-9effec66",
+        "role-toto-b41419df",
+        "role-scarecrow-5fbe71c7",
+        "role-cowardly-lion-69f447b2",
+        "role-wicked-witch-of-the-west-45c6766e",
+        "role-glinda-e1390da8",
+        "role-emerald-city-8f05a10f",
+        "role-wizard-of-oz-5dba210f",
+        "role-boq-0f1b884c"
+      ]
+    },
+    {
+      "id": "role-cowardly-lion-69f447b2",
+      "name": "Cowardly Lion",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/e33541d3cb8bfe62c083.webp",
+      "coverRecordId": "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+      "yearStart": 1900,
+      "yearEnd": 1900,
+      "workIds": [
+        "work-the-wonderful-wizard-of-oz-w-w-denslow-ad02ad47"
+      ],
+      "recordIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "frameIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1900 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "奥兹国旅行",
+          "count": 9
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 9
+        },
+        {
+          "name": "原著角色组",
+          "count": 9
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 9
+        },
+        {
+          "name": "美式童话",
+          "count": 9
+        },
+        {
+          "name": "双色与彩色书籍插图",
+          "count": 9
+        },
+        {
+          "name": "文学插画",
+          "count": 9
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从 1900 原著中比较 Dorothy、稻草人、铁皮人、狮子、女巫和翡翠城的首次大众视觉；适合角色组、旅行队列和单角色徽章研究。",
+      "avoid": "只使用 Denslow 1900 年书籍版本；避开 1939 年 MGM 电影的红宝石鞋、演员肖像、片名字标、电影服装与后续授权造型。",
+      "awarenessScore": 94,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-the-wonderful-wizard-of-oz-ee961daf",
+        "role-dorothy-gale-9effec66",
+        "role-toto-b41419df",
+        "role-scarecrow-5fbe71c7",
+        "role-tin-woodman-21626332",
+        "role-wicked-witch-of-the-west-45c6766e",
+        "role-glinda-e1390da8",
+        "role-emerald-city-8f05a10f",
+        "role-wizard-of-oz-5dba210f",
+        "role-boq-0f1b884c"
+      ]
+    },
+    {
+      "id": "role-wicked-witch-of-the-west-45c6766e",
+      "name": "Wicked Witch of the West",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/e33541d3cb8bfe62c083.webp",
+      "coverRecordId": "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+      "yearStart": 1900,
+      "yearEnd": 1900,
+      "workIds": [
+        "work-the-wonderful-wizard-of-oz-w-w-denslow-ad02ad47"
+      ],
+      "recordIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "frameIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1900 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "奥兹国旅行",
+          "count": 9
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 9
+        },
+        {
+          "name": "原著角色组",
+          "count": 9
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 9
+        },
+        {
+          "name": "美式童话",
+          "count": 9
+        },
+        {
+          "name": "双色与彩色书籍插图",
+          "count": 9
+        },
+        {
+          "name": "文学插画",
+          "count": 9
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从 1900 原著中比较 Dorothy、稻草人、铁皮人、狮子、女巫和翡翠城的首次大众视觉；适合角色组、旅行队列和单角色徽章研究。",
+      "avoid": "只使用 Denslow 1900 年书籍版本；避开 1939 年 MGM 电影的红宝石鞋、演员肖像、片名字标、电影服装与后续授权造型。",
+      "awarenessScore": 94,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-the-wonderful-wizard-of-oz-ee961daf",
+        "role-dorothy-gale-9effec66",
+        "role-toto-b41419df",
+        "role-scarecrow-5fbe71c7",
+        "role-tin-woodman-21626332",
+        "role-cowardly-lion-69f447b2",
+        "role-glinda-e1390da8",
+        "role-emerald-city-8f05a10f",
+        "role-wizard-of-oz-5dba210f",
+        "role-boq-0f1b884c"
+      ]
+    },
+    {
+      "id": "role-glinda-e1390da8",
+      "name": "Glinda",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/e33541d3cb8bfe62c083.webp",
+      "coverRecordId": "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+      "yearStart": 1900,
+      "yearEnd": 1900,
+      "workIds": [
+        "work-the-wonderful-wizard-of-oz-w-w-denslow-ad02ad47"
+      ],
+      "recordIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "frameIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1900 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "奥兹国旅行",
+          "count": 9
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 9
+        },
+        {
+          "name": "原著角色组",
+          "count": 9
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 9
+        },
+        {
+          "name": "美式童话",
+          "count": 9
+        },
+        {
+          "name": "双色与彩色书籍插图",
+          "count": 9
+        },
+        {
+          "name": "文学插画",
+          "count": 9
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从 1900 原著中比较 Dorothy、稻草人、铁皮人、狮子、女巫和翡翠城的首次大众视觉；适合角色组、旅行队列和单角色徽章研究。",
+      "avoid": "只使用 Denslow 1900 年书籍版本；避开 1939 年 MGM 电影的红宝石鞋、演员肖像、片名字标、电影服装与后续授权造型。",
+      "awarenessScore": 94,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-the-wonderful-wizard-of-oz-ee961daf",
+        "role-dorothy-gale-9effec66",
+        "role-toto-b41419df",
+        "role-scarecrow-5fbe71c7",
+        "role-tin-woodman-21626332",
+        "role-cowardly-lion-69f447b2",
+        "role-wicked-witch-of-the-west-45c6766e",
+        "role-emerald-city-8f05a10f",
+        "role-wizard-of-oz-5dba210f",
+        "role-boq-0f1b884c"
+      ]
+    },
+    {
+      "id": "role-emerald-city-8f05a10f",
+      "name": "Emerald City",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/e33541d3cb8bfe62c083.webp",
+      "coverRecordId": "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+      "yearStart": 1900,
+      "yearEnd": 1900,
+      "workIds": [
+        "work-the-wonderful-wizard-of-oz-w-w-denslow-ad02ad47"
+      ],
+      "recordIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "frameIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1900 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "奥兹国旅行",
+          "count": 9
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 9
+        },
+        {
+          "name": "原著角色组",
+          "count": 9
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 9
+        },
+        {
+          "name": "美式童话",
+          "count": 9
+        },
+        {
+          "name": "双色与彩色书籍插图",
+          "count": 9
+        },
+        {
+          "name": "文学插画",
+          "count": 9
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从 1900 原著中比较 Dorothy、稻草人、铁皮人、狮子、女巫和翡翠城的首次大众视觉；适合角色组、旅行队列和单角色徽章研究。",
+      "avoid": "只使用 Denslow 1900 年书籍版本；避开 1939 年 MGM 电影的红宝石鞋、演员肖像、片名字标、电影服装与后续授权造型。",
+      "awarenessScore": 94,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-the-wonderful-wizard-of-oz-ee961daf",
+        "role-dorothy-gale-9effec66",
+        "role-toto-b41419df",
+        "role-scarecrow-5fbe71c7",
+        "role-tin-woodman-21626332",
+        "role-cowardly-lion-69f447b2",
+        "role-wicked-witch-of-the-west-45c6766e",
+        "role-glinda-e1390da8",
+        "role-wizard-of-oz-5dba210f",
+        "role-boq-0f1b884c"
+      ]
+    },
+    {
+      "id": "role-wizard-of-oz-5dba210f",
+      "name": "Wizard of Oz",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/e33541d3cb8bfe62c083.webp",
+      "coverRecordId": "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+      "yearStart": 1900,
+      "yearEnd": 1900,
+      "workIds": [
+        "work-the-wonderful-wizard-of-oz-w-w-denslow-ad02ad47"
+      ],
+      "recordIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "frameIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1900 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "奥兹国旅行",
+          "count": 9
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 9
+        },
+        {
+          "name": "原著角色组",
+          "count": 9
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 9
+        },
+        {
+          "name": "美式童话",
+          "count": 9
+        },
+        {
+          "name": "双色与彩色书籍插图",
+          "count": 9
+        },
+        {
+          "name": "文学插画",
+          "count": 9
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从 1900 原著中比较 Dorothy、稻草人、铁皮人、狮子、女巫和翡翠城的首次大众视觉；适合角色组、旅行队列和单角色徽章研究。",
+      "avoid": "只使用 Denslow 1900 年书籍版本；避开 1939 年 MGM 电影的红宝石鞋、演员肖像、片名字标、电影服装与后续授权造型。",
+      "awarenessScore": 94,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-the-wonderful-wizard-of-oz-ee961daf",
+        "role-dorothy-gale-9effec66",
+        "role-toto-b41419df",
+        "role-scarecrow-5fbe71c7",
+        "role-tin-woodman-21626332",
+        "role-cowardly-lion-69f447b2",
+        "role-wicked-witch-of-the-west-45c6766e",
+        "role-glinda-e1390da8",
+        "role-emerald-city-8f05a10f",
+        "role-boq-0f1b884c"
+      ]
+    },
+    {
+      "id": "role-boq-0f1b884c",
+      "name": "Boq",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/e33541d3cb8bfe62c083.webp",
+      "coverRecordId": "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+      "yearStart": 1900,
+      "yearEnd": 1900,
+      "workIds": [
+        "work-the-wonderful-wizard-of-oz-w-w-denslow-ad02ad47"
+      ],
+      "recordIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "frameIds": [
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-001",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-002",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-003",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-004",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-005",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-006",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-007",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-008",
+        "frame-supplement-wonderful-wizard-oz-denslow-1900-009"
+      ],
+      "workCount": 1,
+      "imageCount": 9,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1900 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "topScenes": [
+        {
+          "name": "奥兹国旅行",
+          "count": 9
+        },
+        {
+          "name": "经典角色历史形象",
+          "count": 9
+        },
+        {
+          "name": "原著角色组",
+          "count": 9
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "历史形象演变",
+          "count": 9
+        },
+        {
+          "name": "美式童话",
+          "count": 9
+        },
+        {
+          "name": "双色与彩色书籍插图",
+          "count": 9
+        },
+        {
+          "name": "文学插画",
+          "count": 9
+        }
+      ],
+      "topHolidays": [],
+      "usage": "从 1900 原著中比较 Dorothy、稻草人、铁皮人、狮子、女巫和翡翠城的首次大众视觉；适合角色组、旅行队列和单角色徽章研究。",
+      "avoid": "只使用 Denslow 1900 年书籍版本；避开 1939 年 MGM 电影的红宝石鞋、演员肖像、片名字标、电影服装与后续授权造型。",
+      "awarenessScore": 94,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-the-wonderful-wizard-of-oz-ee961daf",
+        "role-dorothy-gale-9effec66",
+        "role-toto-b41419df",
+        "role-scarecrow-5fbe71c7",
+        "role-tin-woodman-21626332",
+        "role-cowardly-lion-69f447b2",
+        "role-wicked-witch-of-the-west-45c6766e",
+        "role-glinda-e1390da8",
+        "role-emerald-city-8f05a10f",
+        "role-wizard-of-oz-5dba210f"
+      ]
+    }
+  ],
+  "recordsEndpoint": "../catalog.json"
+}

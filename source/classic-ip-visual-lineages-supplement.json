@@ -1,0 +1,924 @@
+{
+  "schemaVersion": "1.0",
+  "sourceVersion": "classic-ip-visual-lineages-2026-09-22-v1",
+  "researchDate": "2026-09-22",
+  "scope": "高知名公版母 IP 的历史视觉谱系；版权状态附着于具体出版版本与具体图像文件，不覆盖现代改编、商标或后续角色表达。",
+  "recordMode": "frame-only",
+  "frameKind": "画作 / 插图",
+  "frameCharactersOnly": true,
+  "works": [
+    {
+      "id": "alice-folkard-1921",
+      "title": "Songs from Alice in Wonderland and Through the Looking-Glass · Charles Folkard",
+      "subtitle": "Charles Folkard · 1921 彩色插图谱系",
+      "year": "1921",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1921 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA；高分辨率补图来自 NYPL / Internet Archive Book Images 的 No known copyright restrictions 文件。",
+      "evidenceLevel": "A",
+      "imageRights": "Project Gutenberg：Public domain in the USA；指定 Commons 文件：No known copyright restrictions。",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/36308",
+      "sourceLabel": "Project Gutenberg / New York Public Library",
+      "usage": "比较 Folkard 的高饱和彩色角色、细线边框、人格化器物与群像舞台；可抽取角色关系、动作和低色数轮廓重新组织。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "彩色书籍插图",
+        "装饰边框"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "爱丽丝梦游仙境"
+      ],
+      "holidays": [],
+      "characters": [
+        "Alice",
+        "Mad Hatter",
+        "White Rabbit",
+        "Queen of Hearts",
+        "Cheshire Cat",
+        "Jabberwock"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "awarenessScore": 92,
+      "awarenessLevel": "美国高知名母 IP",
+      "evidenceSources": [
+        "https://www.gutenberg.org/ebooks/36308",
+        "https://www.themorgan.org/printed-books/384597",
+        "https://archive.org/details/songsfromalicein00broa"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MUC31NKRCEQXD",
+          "subtitle": "Alice and Her Friends｜群像封面",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/36308",
+          "sourceHash": "84cbf7a9d208aea1077eefddf92a9feaac98053670cf729a88a3d253d107b1e4",
+          "sourcePixels": "940x1280",
+          "characters": [
+            "Alice",
+            "White Rabbit",
+            "Mad Hatter",
+            "Cheshire Cat"
+          ]
+        },
+        {
+          "eagleItemId": "MUC31OV38LC81",
+          "subtitle": "A Mad Tea-party｜茶会群像",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/36308",
+          "sourceHash": "835621ff01ccaeeb8d9d401d98a82636c38b43da8c3346b62a434ec2ad154f23",
+          "sourcePixels": "954x1341",
+          "characters": [
+            "Alice",
+            "Mad Hatter",
+            "March Hare",
+            "White Rabbit"
+          ]
+        },
+        {
+          "eagleItemId": "MUC31PU2EIQL3",
+          "subtitle": "Yet You Balance an Eel on the End of Your Nose",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/36308",
+          "sourceHash": "d366496d09f1325a6e554abb38a7ca507842c1acefd34d78e3defde259aab159",
+          "sourcePixels": "702x1000",
+          "characters": [
+            "Father William",
+            "Young Man"
+          ]
+        },
+        {
+          "eagleItemId": "MUC31QR17TMDX",
+          "subtitle": "Speak Roughly to Your Little Boy",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/36308",
+          "sourceHash": "244071bdf0eea74f9d68bef237a63419789cce408d7826483e52cedb2db48a1a",
+          "sourcePixels": "714x1000",
+          "characters": [
+            "Duchess",
+            "Baby",
+            "Cook",
+            "Cheshire Cat"
+          ]
+        },
+        {
+          "eagleItemId": "MUC31RPP8IIFX",
+          "subtitle": "The Lobster Quadrille",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/36308",
+          "sourceHash": "b705520fdcf303694522e545267748b52fe6928851feeadf508349dbc209a4df",
+          "sourcePixels": "697x1000",
+          "characters": [
+            "Alice",
+            "Mock Turtle",
+            "Gryphon",
+            "Lobster"
+          ]
+        },
+        {
+          "eagleItemId": "MUC31SZGO5XLJ",
+          "subtitle": "Beautiful Soup｜人格化餐具与纸牌宫廷",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASongs%20from%20Alice%20in%20wonderland%20and%20Through%20the%20looking-glass%20(1921)%20(14778585941).jpg",
+          "sourceHash": "b37c18ceb29ca4f17ce053b4703924dce9a2ca9877675bfa8ada0a3afa17ba60",
+          "sourcePixels": "1898x2632",
+          "characters": [
+            "Soup Personifications",
+            "Playing-card Courtiers"
+          ]
+        },
+        {
+          "eagleItemId": "MUC31TXKBM2G9",
+          "subtitle": "He Took His Vorpal Sword in Hand",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/36308",
+          "sourceHash": "580525f10e09df9e8f4a13725e737e5ae14fee4c5a6ccdbb66f641c8a2d4d537",
+          "sourcePixels": "706x1000",
+          "characters": [
+            "Jabberwock",
+            "Vorpal Hero"
+          ]
+        },
+        {
+          "eagleItemId": "MUC31UU0MO7JQ",
+          "subtitle": "The Walrus and the Carpenter",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/36308",
+          "sourceHash": "2fe7313a880f281eb071bb1818baae78d909bb8389528d7f4ac21afb1105257d",
+          "sourcePixels": "718x1000",
+          "characters": [
+            "Walrus",
+            "Carpenter",
+            "Oysters"
+          ]
+        },
+        {
+          "eagleItemId": "MUC31VSILK3YQ",
+          "subtitle": "I Went and Shouted in His Ear",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/36308",
+          "sourceHash": "b290cecffb5b104dc97a7d35ef74ffc506600a0b3cc019f67f0ce13a051ecef8",
+          "sourcePixels": "714x1000",
+          "characters": [
+            "White Knight",
+            "Aged Aged Man"
+          ]
+        },
+        {
+          "eagleItemId": "MUC31WOZFN9G0",
+          "subtitle": "I Look for Butterflies That Sleep among the Wheat",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/36308",
+          "sourceHash": "8ef7cb7e8d48dccf92f300547ad1195b1f7a7f9319a2d5de099989293f88dcce",
+          "sourcePixels": "715x1000",
+          "characters": [
+            "White Knight",
+            "Aged Aged Man"
+          ]
+        },
+        {
+          "eagleItemId": "MUC31XJ825QDT",
+          "subtitle": "Then Fill Up the Glasses with Treacle and Ink",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/36308",
+          "sourceHash": "4c73b920ded49206f0940be1e98d82e996f7a79123af4d64d32c3a816b66bb4e",
+          "sourcePixels": "715x1000",
+          "characters": [
+            "White King",
+            "White Knight",
+            "Humpty Dumpty"
+          ]
+        },
+        {
+          "eagleItemId": "MUC31YER3395P",
+          "subtitle": "The Fish Riddle",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/36308",
+          "sourceHash": "13a7b75a0558bdc04edb982fc554e26d647ac7c8e64a17b6e1bbe3c91bb8641c",
+          "sourcePixels": "711x1000",
+          "characters": [
+            "Fish Footman",
+            "Alice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alice-rackham-1907",
+      "title": "Alice’s Adventures in Wonderland · Arthur Rackham",
+      "subtitle": "Arthur Rackham · 1907 彩色插图谱系",
+      "year": "1907",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1907 年出版作品期限届满；Project Gutenberg 标记 Public domain in the USA。",
+      "evidenceLevel": "A",
+      "imageRights": "Project Gutenberg：Public domain in the USA。",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+      "sourceLabel": "Project Gutenberg",
+      "usage": "比较 Rackham 的枯线、扭曲树根、灰褐水彩与诡谲戏剧感；适合暗黑童话、线描角色和留白型构图研究。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "水彩线描",
+        "暗黑童话"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "爱丽丝梦游仙境"
+      ],
+      "holidays": [
+        "万圣节"
+      ],
+      "characters": [
+        "Alice",
+        "White Rabbit",
+        "Mad Hatter",
+        "Queen of Hearts",
+        "Mock Turtle"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 92,
+      "awarenessLevel": "美国高知名母 IP",
+      "evidenceSources": [
+        "https://www.gutenberg.org/ebooks/28885"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MUC31Z8IGG9E0",
+          "subtitle": "The Pool of Tears",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+          "sourceHash": "52dcb0b971c6c6ae4e422663df44ea0ed8eaba386ba449ed369350000c9c3216",
+          "sourcePixels": "373x500",
+          "characters": [
+            "Alice"
+          ]
+        },
+        {
+          "eagleItemId": "MUC31ZZKK6FOM",
+          "subtitle": "But Who Has Won?｜动物群像",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+          "sourceHash": "c6490b3152594bdce58840f83103da2b9b79afd66bacd79872be24af492cfbae",
+          "sourcePixels": "359x500",
+          "characters": [
+            "Alice",
+            "Dodo",
+            "Wonderland Animals"
+          ]
+        },
+        {
+          "eagleItemId": "MUC320PR0IIYH",
+          "subtitle": "Why, Mary Ann, What Are You Doing Out Here?",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+          "sourceHash": "cacc443f8652525a229e86513c118b3e688c79c701a09bef5fd8b3d660536bfe",
+          "sourcePixels": "353x500",
+          "characters": [
+            "Alice",
+            "White Rabbit"
+          ]
+        },
+        {
+          "eagleItemId": "MUC321F0WGS84",
+          "subtitle": "Advice from a Caterpillar",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+          "sourceHash": "e8329314a89313fbf8f6cc34d6051b345941769647e1955e1dbe288ed92b1d4a",
+          "sourcePixels": "337x500",
+          "characters": [
+            "Alice",
+            "Caterpillar"
+          ]
+        },
+        {
+          "eagleItemId": "MUC3224NDIDD1",
+          "subtitle": "The Flying Saucepan",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+          "sourceHash": "905e2a5b56e8d10fda24346b2740fe45715e6f51d5564c2258ad9a74dbff42d7",
+          "sourcePixels": "384x500",
+          "characters": [
+            "Duchess",
+            "Cook",
+            "Baby"
+          ]
+        },
+        {
+          "eagleItemId": "MUC322UDIPOBX",
+          "subtitle": "She Looked Down into Its Face",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+          "sourceHash": "eb434a53c9b82786afd394ab3321fd2319aa5c07e6ed434269e51528fa0429d5",
+          "sourcePixels": "357x500",
+          "characters": [
+            "Alice",
+            "Pig Baby"
+          ]
+        },
+        {
+          "eagleItemId": "MUC323K4QOI6G",
+          "subtitle": "A Mad Tea Party",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+          "sourceHash": "4567446596638cc92459da30160b50d60f8093350e4c55277b67fce6bf04f9b2",
+          "sourcePixels": "359x500",
+          "characters": [
+            "Alice",
+            "Mad Hatter",
+            "March Hare",
+            "Dormouse"
+          ]
+        },
+        {
+          "eagleItemId": "MUC3249VOVG30",
+          "subtitle": "The Queen Said to the Knave: Turn Them Over",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+          "sourceHash": "f5f30b45733e1be1729e1b843cff5b7e2c8a92eb2d8dccc8b15a5acba7386631",
+          "sourcePixels": "364x500",
+          "characters": [
+            "Queen of Hearts",
+            "Knave of Hearts",
+            "Playing-card Gardeners"
+          ]
+        },
+        {
+          "eagleItemId": "MUC324Z36ZKT6",
+          "subtitle": "Off with His Head!",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+          "sourceHash": "9cc12dd96652555a3e9bc694f523a54e1c52629ef6a398ce91dd7750752dfd90",
+          "sourcePixels": "364x500",
+          "characters": [
+            "Queen of Hearts",
+            "Alice",
+            "Playing-card Courtiers"
+          ]
+        },
+        {
+          "eagleItemId": "MUC325P9Y5O0B",
+          "subtitle": "The Mock Turtle Drew a Long Breath",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+          "sourceHash": "1e824e08f15c495433140f71f2a080230fd64cb5fb3c7ce68ca12c678d55160a",
+          "sourcePixels": "372x500",
+          "characters": [
+            "Mock Turtle",
+            "Gryphon",
+            "Alice"
+          ]
+        },
+        {
+          "eagleItemId": "MUC326ELOTJFL",
+          "subtitle": "Who Stole the Tarts?",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+          "sourceHash": "34bd49d03b9474b05959627757c8a568cc5f42d51b72126b9a9219393c6e6c11",
+          "sourcePixels": "359x500",
+          "characters": [
+            "Alice",
+            "King of Hearts",
+            "Queen of Hearts",
+            "Knave of Hearts"
+          ]
+        },
+        {
+          "eagleItemId": "MUC3274EIIFHO",
+          "subtitle": "The Whole Pack Rose Up into the Air",
+          "sourceUrl": "https://www.gutenberg.org/ebooks/28885",
+          "sourceHash": "c91f9bd7d42fd9e67cf4a6e12369d5fde78ee68b564d52b964c3b0efbcea2916",
+          "sourcePixels": "356x500",
+          "characters": [
+            "Alice",
+            "Playing-card Courtiers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alice-robinson-1907",
+      "title": "Alice’s Adventures in Wonderland · Charles Robinson",
+      "subtitle": "Charles Robinson · 1907 八幅彩色版画",
+      "year": "1907",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1907 年出版作品期限届满；Commons 文件页标记 Public domain。",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons：Public domain；底层扫描来自 Internet Archive。",
+      "sourceUrl": "https://archive.org/details/turesalicesadven00carrrich",
+      "sourceLabel": "Internet Archive / Wikimedia Commons",
+      "usage": "比较 Robinson 的装饰性线条、轻快色块与童书舞台；适合细线框、角色队列和纸牌宫廷构图研究。",
+      "avoid": "只使用列明的历史出版版本。避开迪士尼及其他现代影视的蓝裙造型、具体脸、配色、Logo、后期新增角色表达与可能造成官方授权误认的商品化呈现。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "彩色版画",
+        "装饰线条"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "爱丽丝梦游仙境"
+      ],
+      "holidays": [],
+      "characters": [
+        "Alice",
+        "White Rabbit",
+        "Mad Hatter",
+        "Queen of Hearts",
+        "Cheshire Cat"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "awarenessScore": 92,
+      "awarenessLevel": "美国高知名母 IP",
+      "evidenceSources": [
+        "https://archive.org/details/turesalicesadven00carrrich"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MUC328J1Z4J5K",
+          "subtitle": "Off with Her Head!",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S008%20-%20'Off%20with%20her%20head!'.jpg",
+          "sourceHash": "e3a6cd4673c749443503d94c74ddb9feb6df211ffe4e5832191e73a264be6baf",
+          "sourcePixels": "1638x2221",
+          "characters": [
+            "Alice",
+            "Queen of Hearts"
+          ]
+        },
+        {
+          "eagleItemId": "MUC329LZ2GNC9",
+          "subtitle": "Ahem! Said the Mouse",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S053%20-%20'Ahem!'%20said%20the%20mouse%2C%20with%20an%20important%20air.jpg",
+          "sourceHash": "88591fbb2b457f04007b887c7ba838c240cbb91dbde5ac038ea13d696ee96d61",
+          "sourcePixels": "1646x2180",
+          "characters": [
+            "Alice",
+            "Mouse",
+            "Wonderland Animals"
+          ]
+        },
+        {
+          "eagleItemId": "MUC34WRPHFMML",
+          "subtitle": "A Large Pigeon Had Flown into Her Face",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S089%20-%20A%20large%20pigeon%20had%20flown%20into%20her%20face.jpg",
+          "sourceHash": "478e92c1ef9776b2e5a551f715523f100814947edf5173bc5d6df4e5fec35c06",
+          "sourcePixels": "1645x2195",
+          "characters": [
+            "Alice",
+            "Pigeon"
+          ]
+        },
+        {
+          "eagleItemId": "MUC32DMYD651L",
+          "subtitle": "The Duchess Sings a Lullaby",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S103%20-%20She%20began%20nursing%20her%20child%20again%2C%20singing%20a%20sort%20of%20lullaby%20to%20it.jpg",
+          "sourceHash": "d94fe20475fa1d2c4daa90c45f05be62d0cdab79408d558e23c877ff1254b604",
+          "sourcePixels": "1642x2214",
+          "characters": [
+            "Duchess",
+            "Baby",
+            "Alice"
+          ]
+        },
+        {
+          "eagleItemId": "MUC3501YX44NA",
+          "subtitle": "What Day of the Month Is It?",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S119%20-%20'What%20day%20of%20the%20month%20is%20it'%20he%20said%2C%20turning%20to%20Alice.jpg",
+          "sourceHash": "d3462e7466be373f7eb562169fdba8dd8784d9685da0d6f2d9c41ee333ba44f3",
+          "sourcePixels": "1616x2177",
+          "characters": [
+            "Alice",
+            "Mad Hatter",
+            "March Hare",
+            "Dormouse"
+          ]
+        },
+        {
+          "eagleItemId": "MUC352ADK27IA",
+          "subtitle": "Executioner, King and Queen Dispute",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S149%20-%20There%20was%20a%20dispute%20going%20on%20between%20the%20executioner%2C%20the%20King%2C%20and%20the%20Queen.jpg",
+          "sourceHash": "20bc0de18e0950ba2c2caebffa4ac6dcd7d790b0f334a88f583e382b6737864a",
+          "sourcePixels": "1654x2216",
+          "characters": [
+            "Alice",
+            "King of Hearts",
+            "Queen of Hearts",
+            "Executioner",
+            "Cheshire Cat"
+          ]
+        },
+        {
+          "eagleItemId": "MUC354JXEG4PO",
+          "subtitle": "Up, Lazy Thing!",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S163%20-%20'Up%2C%20lazy%20thing!'%20said%20the%20Queen.jpg",
+          "sourceHash": "f64cc1420e41f0e0fa573cde75dd5590b10d83c8f787503388e7d9821947a6ac",
+          "sourcePixels": "1640x2185",
+          "characters": [
+            "Queen of Hearts",
+            "Alice",
+            "Mock Turtle",
+            "Gryphon"
+          ]
+        },
+        {
+          "eagleItemId": "MUC356QSM1X66",
+          "subtitle": "The Whole Pack Rose Up in the Air",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlice's%20Adventures%20in%20Wonderland%20-%20Carroll%2C%20Robinson%20-%20S205%20-%20The%20whole%20pack%20rose%20up%20in%20the%20air.jpg",
+          "sourceHash": "bf5118b5d32f074d0650e58ef1f3695d0be632bc8ed42b088f7e90c9617d5205",
+          "sourcePixels": "1193x1600",
+          "characters": [
+            "Alice",
+            "Playing-card Courtiers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wonderful-wizard-oz-denslow-1900",
+      "title": "The Wonderful Wizard of Oz · W. W. Denslow",
+      "subtitle": "W. W. Denslow · 1900 原著角色与场景",
+      "year": "1900",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1900 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons：Public domain。",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Illustrations_of_The_Wonderful_Wizard_of_Oz_by_William_Wallace_Denslow",
+      "sourceLabel": "Wikimedia Commons",
+      "usage": "从 1900 原著中比较 Dorothy、稻草人、铁皮人、狮子、女巫和翡翠城的首次大众视觉；适合角色组、旅行队列和单角色徽章研究。",
+      "avoid": "只使用 Denslow 1900 年书籍版本；避开 1939 年 MGM 电影的红宝石鞋、演员肖像、片名字标、电影服装与后续授权造型。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "双色与彩色书籍插图",
+        "美式童话"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "原著角色组",
+        "奥兹国旅行"
+      ],
+      "holidays": [],
+      "characters": [
+        "The Wonderful Wizard of Oz",
+        "Dorothy Gale",
+        "Scarecrow",
+        "Tin Woodman",
+        "Cowardly Lion",
+        "Wicked Witch of the West",
+        "Glinda"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "怪诞 / 魔法"
+      ],
+      "awarenessScore": 94,
+      "awarenessLevel": "美国全民级母 IP",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/Category:Illustrations_of_The_Wonderful_Wizard_of_Oz_by_William_Wallace_Denslow"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MUC32LD0VOR2S",
+          "subtitle": "Dorothy 与银鞋",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADorothy%20Gale%20with%20silver%20shoes.jpg",
+          "sourceHash": "c212a0cdb5ba34663fceb7a0359694220b04e226a2a99c6a2414163b9bedc1a7",
+          "sourcePixels": "650x861",
+          "characters": [
+            "Dorothy Gale",
+            "Toto"
+          ]
+        },
+        {
+          "eagleItemId": "MUC32LSE4HO2U",
+          "subtitle": "Dorothy 与稻草人",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADorothy%20and%20the%20Scarecrow%201900.jpg",
+          "sourceHash": "a400a9b3c704308e1bbfc974d50116b994d2921c8d9dfc2cafecb39fccb2b5ea",
+          "sourcePixels": "483x640",
+          "characters": [
+            "Dorothy Gale",
+            "Scarecrow"
+          ]
+        },
+        {
+          "eagleItemId": "MUC32MSME0XP0",
+          "subtitle": "Tin Woodman｜铁皮人",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATin%20Woodman.png",
+          "sourceHash": "48135a29455a3819319a524f3b87255e190680e1badb8235f225d41832bddbe7",
+          "sourcePixels": "1283x2937",
+          "characters": [
+            "Tin Woodman"
+          ]
+        },
+        {
+          "eagleItemId": "MUC35BN2GHDCG",
+          "subtitle": "Cowardly Lion｜胆小狮",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACowardly%20lion.jpg",
+          "sourceHash": "e3ee24885ac120d690a3e1f2861e085a7ff48947559281af769e8ca8866685a1",
+          "sourcePixels": "2018x2534",
+          "characters": [
+            "Cowardly Lion"
+          ]
+        },
+        {
+          "eagleItemId": "MUC32PBILFIF4",
+          "subtitle": "Wicked Witch of the West｜西方恶女巫",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWicked%20Witch%20of%20the%20West%20W.W.%20Denslow.jpg",
+          "sourceHash": "c56df4edab7958119cf46b27b6df93486ed547f19354ddc62d0899fd3da6c02c",
+          "sourcePixels": "298x358",
+          "characters": [
+            "Wicked Witch of the West"
+          ]
+        },
+        {
+          "eagleItemId": "MUC35EMYH9MF5",
+          "subtitle": "Glinda｜南方好女巫",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGlinda.jpg",
+          "sourceHash": "5bd5d0c54183e64d40527061dcbdb1fbaed69c159183bb62e25e970ff20d7e10",
+          "sourcePixels": "561x804",
+          "characters": [
+            "Glinda"
+          ]
+        },
+        {
+          "eagleItemId": "MUC32RJ01OS1U",
+          "subtitle": "Emerald City｜翡翠城",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEmerald%20City.jpg",
+          "sourceHash": "f35dee3b262b15ab19fc7f505b5999fb2fcade65341edb7a2d411cf9babc6ff2",
+          "sourcePixels": "534x332",
+          "characters": [
+            "Emerald City"
+          ]
+        },
+        {
+          "eagleItemId": "MUC35H2H6NBT2",
+          "subtitle": "Wizard of Oz｜奥兹大法师",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWizard%20of%20Oz.png",
+          "sourceHash": "56004a1b4517b4da13982d7b91f4781e4823a6466b5609954c4974148c22d866",
+          "sourcePixels": "862x1886",
+          "characters": [
+            "Wizard of Oz"
+          ]
+        },
+        {
+          "eagleItemId": "MUC35J8V1VSJ5",
+          "subtitle": "Boq 与芒奇金人",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoq-Munchkins.jpg",
+          "sourceHash": "17fb6c7de87e6a3ad62261f65ac497bd776db98b15cf489edaa521eb5ad22ecd",
+          "sourcePixels": "561x804",
+          "characters": [
+            "Boq",
+            "Munchkins",
+            "Dorothy Gale"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pinocchio-mazzanti-1883",
+      "title": "Le avventure di Pinocchio · Enrico Mazzanti",
+      "subtitle": "Enrico Mazzanti · 1883 最早期书籍形象",
+      "year": "1883",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1883 年出版作品期限届满；Commons 文件标记 Public domain。",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons：Public domain；该文件为后期上色版本，颜色不是 1883 原版事实。",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pinocchio.jpg",
+      "sourceLabel": "Wikimedia Commons",
+      "usage": "用于识别 Pinocchio 最早期的细长木偶比例、尖帽与关节结构；颜色仅作扫描衍生参考。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "早期木偶角色"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "木偶奇遇记"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pinocchio"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "awarenessScore": 88,
+      "awarenessLevel": "美国高知名母 IP",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/File:Pinocchio.jpg"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MUC35L9PR4Y17",
+          "subtitle": "Pinocchio 最早期形象｜后期上色文件",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchio.jpg",
+          "sourceHash": "975bdabba0328913c0ddbf87f9c0fdbc0ebad1632f1a40b280ee354279454c55",
+          "sourcePixels": "512x705",
+          "characters": [
+            "Pinocchio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pinocchio-chiostri-1901",
+      "title": "Le avventure di Pinocchio · Carlo Chiostri",
+      "subtitle": "Carlo Chiostri · 1901 黑白叙事插图",
+      "year": "1901",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons：Public domain。",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio",
+      "sourceLabel": "Wikimedia Commons",
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "黑白线描",
+        "叙事组图"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "木偶奇遇记"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pinocchio",
+        "Geppetto",
+        "Blue Fairy",
+        "Mangiafoco"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "awarenessScore": 88,
+      "awarenessLevel": "美国高知名母 IP",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "frames": [
+        {
+          "eagleItemId": "MUC35NE4RO9B2",
+          "subtitle": "Pinocchio 站立全身像",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchio%20par%20Carlo%20Chiostri.png",
+          "sourceHash": "5e802758e5b17b1225ba46b10fa2a129998de451aa5bfb6d89ada6874a4f0d2a",
+          "sourcePixels": "302x580",
+          "characters": [
+            "Pinocchio"
+          ]
+        },
+        {
+          "eagleItemId": "MUC35PGTNYFWL",
+          "subtitle": "Mangiafoco 木偶剧场老板",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri03.jpg",
+          "sourceHash": "f5d314c3b4f4fb63fc74470a5f865c9439e53adb5cc96611c32f78a20e420769",
+          "sourcePixels": "415x392",
+          "characters": [
+            "Pinocchio",
+            "Mangiafoco"
+          ]
+        },
+        {
+          "eagleItemId": "MUC35RMELEOVC",
+          "subtitle": "Pinocchio 被宪兵带走",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri08.jpg",
+          "sourceHash": "2848ce7b44bf0744609a2746c3ebbc92aea9c6cc3e3ab3603bfdabbb4931ca25",
+          "sourcePixels": "720x770",
+          "characters": [
+            "Pinocchio"
+          ]
+        },
+        {
+          "eagleItemId": "MUC35TR3MITEP",
+          "subtitle": "Gran Teatro dei Burattini｜木偶大剧场",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri12.jpg",
+          "sourceHash": "c6e49a595337e0848ee858045cdc34526b3a7827f700e2cce8736adaadaf13c9",
+          "sourcePixels": "400x256",
+          "characters": [
+            "Pinocchio",
+            "Marionettes"
+          ]
+        },
+        {
+          "eagleItemId": "MUC35VVQFVQ8R",
+          "subtitle": "Pinocchio 与蓝仙女",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri19.jpg",
+          "sourceHash": "b33004b5b89033791192632eb1de52e801358687783d36da27aa2f1460763eb7",
+          "sourcePixels": "320x569",
+          "characters": [
+            "Pinocchio",
+            "Blue Fairy"
+          ]
+        },
+        {
+          "eagleItemId": "MUC35XYS661O6",
+          "subtitle": "Pinocchio 被迫充当看门狗",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri21.jpg",
+          "sourceHash": "bcb83a2613f4c79251023afb32418d6a23e7ee3039a96fde2e591c16542174ba",
+          "sourcePixels": "472x266",
+          "characters": [
+            "Pinocchio",
+            "Martens"
+          ]
+        },
+        {
+          "eagleItemId": "MUC35ZY56FO8Q",
+          "subtitle": "说谎后长鼻子",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri22.jpg",
+          "sourceHash": "174f0ed9338c30805193b951020572774286c7318cd0f062eb7b73de68eb0fa7",
+          "sourcePixels": "200x292",
+          "characters": [
+            "Pinocchio"
+          ]
+        },
+        {
+          "eagleItemId": "MUC3623F7BMPL",
+          "subtitle": "鲨鱼腹中与 Geppetto 重逢",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri25.jpg",
+          "sourceHash": "3e533162c0dee1dae71cc22c9fec7e329bf756798874ffa1957c131f84270c2f",
+          "sourcePixels": "381x340",
+          "characters": [
+            "Pinocchio",
+            "Geppetto"
+          ]
+        }
+      ]
+    }
+  ]
+}

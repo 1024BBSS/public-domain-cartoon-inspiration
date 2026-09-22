@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-pumpkin-witch-black-cat-and-bats-365967f6",
     "title": "Pumpkin, Witch, Black Cat and Bats",
@@ -444,6 +444,7 @@
       "title": "Pumpkin, Witch, Black Cat and Bats",
       "year": "ca. 1926",
       "yearSort": 1926,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:Pumpkin,_Witch,_Black_Cat_postcard_circa_1926.png",
       "rightsStatus": "公版文件",
       "copyrightRoute": "Wikimedia Commons · Public domain",
       "evidenceLevel": "A",
@@ -465,6 +466,12 @@
         "万圣节"
       ],
       "characters": [
+        "女巫",
+        "黑猫群",
+        "南瓜灯队列",
+        "蝙蝠"
+      ],
+      "workCharacters": [
         "女巫",
         "黑猫群",
         "南瓜灯队列",

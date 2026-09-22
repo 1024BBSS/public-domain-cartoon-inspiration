@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-玛格丽特的幽灵向浮士德显现-f9fe58a8",
     "title": "玛格丽特的幽灵向浮士德显现",
@@ -664,6 +664,7 @@
       "title": "玛格丽特的幽灵向浮士德显现",
       "year": "1828",
       "yearSort": 1828,
+      "workSourceUrl": "https://www.artic.edu/artworks/84499",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "AIC Open Access · CC0",
       "evidenceLevel": "A",
@@ -683,6 +684,9 @@
         "万圣节"
       ],
       "characters": [
+        "Marguerite's Ghost"
+      ],
+      "workCharacters": [
         "Marguerite's Ghost"
       ],
       "tags": [
@@ -707,6 +711,7 @@
       "title": "玛格丽特的幽灵向浮士德显现",
       "year": "1828",
       "yearSort": 1828,
+      "workSourceUrl": "https://www.artic.edu/artworks/84499",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "AIC Open Access · CC0",
       "evidenceLevel": "A",
@@ -726,6 +731,9 @@
         "万圣节"
       ],
       "characters": [
+        "Marguerite's Ghost"
+      ],
+      "workCharacters": [
         "Marguerite's Ghost"
       ],
       "tags": [

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-you-auto-have-a-happy-halloween-a7c63f9c",
     "title": "You Auto Have a Happy Hallowe'en",
@@ -173,6 +173,7 @@
       "title": "You Auto Have a Happy Hallowe'en",
       "year": "1908",
       "yearSort": 1908,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:%22You_Auto_Have_a_Happy_Hallowe%27en.%22_(Jack-O-Lantern_driving_a_car).jpg",
       "rightsStatus": "公版文件",
       "copyrightRoute": "Wikimedia Commons · Public domain",
       "evidenceLevel": "A",
@@ -194,6 +195,9 @@
         "万圣节"
       ],
       "characters": [
+        "南瓜头司机"
+      ],
+      "workCharacters": [
         "南瓜头司机"
       ],
       "assetType": "彩色万圣节明信片",

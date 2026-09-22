@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-the-halloween-lantern-car-8677b0d6",
     "title": "The Halloween Lantern Car",
@@ -365,6 +365,7 @@
       "title": "The Halloween Lantern Car",
       "year": "1914",
       "yearSort": 1914,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Halloween_Lantern_car_1914.jpg",
       "rightsStatus": "公版文件",
       "copyrightRoute": "Wikimedia Commons · Public domain",
       "evidenceLevel": "A",
@@ -386,6 +387,11 @@
         "万圣节"
       ],
       "characters": [
+        "灯笼车",
+        "南瓜乘客",
+        "女巫"
+      ],
+      "workCharacters": [
         "灯笼车",
         "南瓜乘客",
         "女巫"

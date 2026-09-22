@@ -1,0 +1,1246 @@
+{
+  "schemaVersion": "2.0",
+  "sourceVersion": "9.6",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
+  "work": {
+    "id": "work-le-avventure-di-pinocchio-carlo-chiostri-4b53b894",
+    "title": "Le avventure di Pinocchio · Carlo Chiostri",
+    "subtitle": "Pinocchio 站立全身像",
+    "year": "1901",
+    "yearSort": 1901,
+    "coverImage": "images/d2ec979d4a8f4de687af.webp",
+    "coverRecordId": "frame-supplement-pinocchio-chiostri-1901-001",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio",
+    "sourceLabel": "Wikimedia Commons",
+    "licenseUrl": "",
+    "rightsStatuses": [
+      "公版文件"
+    ],
+    "copyrightRoutes": [
+      "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+    ],
+    "evidenceLevels": [
+      "A"
+    ],
+    "imageRights": [
+      "Wikimedia Commons：Public domain。"
+    ],
+    "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+    "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+    "tags": [
+      "漫画 / 角色",
+      "童话 / 寓言",
+      "经典艺术"
+    ],
+    "styles": [
+      "文学插画",
+      "历史形象演变",
+      "黑白线描",
+      "叙事组图"
+    ],
+    "scenes": [
+      "经典角色历史形象",
+      "同一 IP 多画家比较",
+      "木偶奇遇记"
+    ],
+    "holidays": [],
+    "assetTypes": [
+      "历史书籍插图"
+    ],
+    "productionUses": [
+      "角色历史谱系",
+      "构图研究",
+      "原创重绘参考"
+    ],
+    "sourceHashes": [
+      "5e802758e5b17b1225ba46b10fa2a129998de451aa5bfb6d89ada6874a4f0d2a",
+      "f5d314c3b4f4fb63fc74470a5f865c9439e53adb5cc96611c32f78a20e420769",
+      "2848ce7b44bf0744609a2746c3ebbc92aea9c6cc3e3ab3603bfdabbb4931ca25",
+      "c6e49a595337e0848ee858045cdc34526b3a7827f700e2cce8736adaadaf13c9",
+      "b33004b5b89033791192632eb1de52e801358687783d36da27aa2f1460763eb7",
+      "bcb83a2613f4c79251023afb32418d6a23e7ee3039a96fde2e591c16542174ba",
+      "174f0ed9338c30805193b951020572774286c7318cd0f062eb7b73de68eb0fa7",
+      "3e533162c0dee1dae71cc22c9fec7e329bf756798874ffa1957c131f84270c2f"
+    ],
+    "characterNames": [
+      "Pinocchio",
+      "Mangiafoco",
+      "Marionettes",
+      "Blue Fairy",
+      "Martens",
+      "Geppetto"
+    ],
+    "characterAliases": [
+      "Pinocchio",
+      "Mangiafoco",
+      "Marionettes",
+      "Blue Fairy",
+      "Martens",
+      "Geppetto"
+    ],
+    "recordIds": [
+      "frame-supplement-pinocchio-chiostri-1901-001",
+      "frame-supplement-pinocchio-chiostri-1901-002",
+      "frame-supplement-pinocchio-chiostri-1901-003",
+      "frame-supplement-pinocchio-chiostri-1901-004",
+      "frame-supplement-pinocchio-chiostri-1901-005",
+      "frame-supplement-pinocchio-chiostri-1901-006",
+      "frame-supplement-pinocchio-chiostri-1901-007",
+      "frame-supplement-pinocchio-chiostri-1901-008"
+    ],
+    "frameIds": [
+      "frame-supplement-pinocchio-chiostri-1901-001",
+      "frame-supplement-pinocchio-chiostri-1901-002",
+      "frame-supplement-pinocchio-chiostri-1901-003",
+      "frame-supplement-pinocchio-chiostri-1901-004",
+      "frame-supplement-pinocchio-chiostri-1901-005",
+      "frame-supplement-pinocchio-chiostri-1901-006",
+      "frame-supplement-pinocchio-chiostri-1901-007",
+      "frame-supplement-pinocchio-chiostri-1901-008"
+    ],
+    "masterIds": [],
+    "imageCount": 8,
+    "frameCount": 8,
+    "awarenessScore": 88,
+    "entityIds": [
+      "role-pinocchio-89d9ef47",
+      "role-mangiafoco-42792ac5",
+      "role-marionettes-a78a492e",
+      "role-blue-fairy-4ef84787",
+      "role-martens-c49698ee",
+      "role-geppetto-feedca6a"
+    ]
+  },
+  "entities": [
+    {
+      "id": "role-pinocchio-89d9ef47",
+      "name": "Pinocchio",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/fe2aa91274c97e316b6c.webp",
+      "coverRecordId": "catalog-pinocchio",
+      "yearStart": 1883,
+      "yearEnd": 1901,
+      "workIds": [
+        "work-le-avventure-di-pinocchio-enrico-mazzanti-4fb228b1",
+        "work-le-avventure-di-pinocchio-carlo-chiostri-4b53b894",
+        "work-pinocchio-125a6af8"
+      ],
+      "recordIds": [
+        "frame-supplement-pinocchio-mazzanti-1883-001",
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008",
+        "catalog-pinocchio"
+      ],
+      "frameIds": [
+        "frame-supplement-pinocchio-mazzanti-1883-001",
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008"
+      ],
+      "workCount": 3,
+      "imageCount": 10,
+      "frameCount": 9,
+      "rightsBreakdown": {
+        "公版文件": 2,
+        "期限届满": 1
+      },
+      "copyrightRoutes": [
+        "美国：1883 年出版作品期限届满；Commons 文件标记 Public domain。",
+        "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
+        "完整期限届满"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术",
+        "早期动画"
+      ],
+      "topScenes": [
+        {
+          "name": "经典角色历史形象",
+          "count": 9
+        },
+        {
+          "name": "木偶奇遇记",
+          "count": 9
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 9
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "文学插画",
+          "count": 10
+        },
+        {
+          "name": "历史形象演变",
+          "count": 9
+        },
+        {
+          "name": "黑白线描",
+          "count": 8
+        },
+        {
+          "name": "叙事组图",
+          "count": 8
+        },
+        {
+          "name": "橡皮管动画",
+          "count": 1
+        },
+        {
+          "name": "早期木偶角色",
+          "count": 1
+        }
+      ],
+      "topHolidays": [],
+      "usage": "用于识别 Pinocchio 最早期的细长木偶比例、尖帽与关节结构；颜色仅作扫描衍生参考。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "awarenessScore": 88,
+      "sourceCount": 3,
+      "relatedEntityIds": [
+        "role-mangiafoco-42792ac5",
+        "role-marionettes-a78a492e",
+        "role-blue-fairy-4ef84787",
+        "role-martens-c49698ee",
+        "role-geppetto-feedca6a"
+      ]
+    },
+    {
+      "id": "role-mangiafoco-42792ac5",
+      "name": "Mangiafoco",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/d2ec979d4a8f4de687af.webp",
+      "coverRecordId": "frame-supplement-pinocchio-chiostri-1901-001",
+      "yearStart": 1901,
+      "yearEnd": 1901,
+      "workIds": [
+        "work-le-avventure-di-pinocchio-carlo-chiostri-4b53b894"
+      ],
+      "recordIds": [
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008"
+      ],
+      "frameIds": [
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008"
+      ],
+      "workCount": 1,
+      "imageCount": 8,
+      "frameCount": 8,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "topScenes": [
+        {
+          "name": "经典角色历史形象",
+          "count": 8
+        },
+        {
+          "name": "木偶奇遇记",
+          "count": 8
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 8
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白线描",
+          "count": 8
+        },
+        {
+          "name": "历史形象演变",
+          "count": 8
+        },
+        {
+          "name": "文学插画",
+          "count": 8
+        },
+        {
+          "name": "叙事组图",
+          "count": 8
+        }
+      ],
+      "topHolidays": [],
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "awarenessScore": 88,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-pinocchio-89d9ef47",
+        "role-marionettes-a78a492e",
+        "role-blue-fairy-4ef84787",
+        "role-martens-c49698ee",
+        "role-geppetto-feedca6a"
+      ]
+    },
+    {
+      "id": "role-marionettes-a78a492e",
+      "name": "Marionettes",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/d2ec979d4a8f4de687af.webp",
+      "coverRecordId": "frame-supplement-pinocchio-chiostri-1901-001",
+      "yearStart": 1901,
+      "yearEnd": 1901,
+      "workIds": [
+        "work-le-avventure-di-pinocchio-carlo-chiostri-4b53b894"
+      ],
+      "recordIds": [
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008"
+      ],
+      "frameIds": [
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008"
+      ],
+      "workCount": 1,
+      "imageCount": 8,
+      "frameCount": 8,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "topScenes": [
+        {
+          "name": "经典角色历史形象",
+          "count": 8
+        },
+        {
+          "name": "木偶奇遇记",
+          "count": 8
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 8
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白线描",
+          "count": 8
+        },
+        {
+          "name": "历史形象演变",
+          "count": 8
+        },
+        {
+          "name": "文学插画",
+          "count": 8
+        },
+        {
+          "name": "叙事组图",
+          "count": 8
+        }
+      ],
+      "topHolidays": [],
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "awarenessScore": 88,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-pinocchio-89d9ef47",
+        "role-mangiafoco-42792ac5",
+        "role-blue-fairy-4ef84787",
+        "role-martens-c49698ee",
+        "role-geppetto-feedca6a"
+      ]
+    },
+    {
+      "id": "role-blue-fairy-4ef84787",
+      "name": "Blue Fairy",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/d2ec979d4a8f4de687af.webp",
+      "coverRecordId": "frame-supplement-pinocchio-chiostri-1901-001",
+      "yearStart": 1901,
+      "yearEnd": 1901,
+      "workIds": [
+        "work-le-avventure-di-pinocchio-carlo-chiostri-4b53b894"
+      ],
+      "recordIds": [
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008"
+      ],
+      "frameIds": [
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008"
+      ],
+      "workCount": 1,
+      "imageCount": 8,
+      "frameCount": 8,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "topScenes": [
+        {
+          "name": "经典角色历史形象",
+          "count": 8
+        },
+        {
+          "name": "木偶奇遇记",
+          "count": 8
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 8
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白线描",
+          "count": 8
+        },
+        {
+          "name": "历史形象演变",
+          "count": 8
+        },
+        {
+          "name": "文学插画",
+          "count": 8
+        },
+        {
+          "name": "叙事组图",
+          "count": 8
+        }
+      ],
+      "topHolidays": [],
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "awarenessScore": 88,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-pinocchio-89d9ef47",
+        "role-mangiafoco-42792ac5",
+        "role-marionettes-a78a492e",
+        "role-martens-c49698ee",
+        "role-geppetto-feedca6a"
+      ]
+    },
+    {
+      "id": "role-martens-c49698ee",
+      "name": "Martens",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/d2ec979d4a8f4de687af.webp",
+      "coverRecordId": "frame-supplement-pinocchio-chiostri-1901-001",
+      "yearStart": 1901,
+      "yearEnd": 1901,
+      "workIds": [
+        "work-le-avventure-di-pinocchio-carlo-chiostri-4b53b894"
+      ],
+      "recordIds": [
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008"
+      ],
+      "frameIds": [
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008"
+      ],
+      "workCount": 1,
+      "imageCount": 8,
+      "frameCount": 8,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "topScenes": [
+        {
+          "name": "经典角色历史形象",
+          "count": 8
+        },
+        {
+          "name": "木偶奇遇记",
+          "count": 8
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 8
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白线描",
+          "count": 8
+        },
+        {
+          "name": "历史形象演变",
+          "count": 8
+        },
+        {
+          "name": "文学插画",
+          "count": 8
+        },
+        {
+          "name": "叙事组图",
+          "count": 8
+        }
+      ],
+      "topHolidays": [],
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "awarenessScore": 88,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-pinocchio-89d9ef47",
+        "role-mangiafoco-42792ac5",
+        "role-marionettes-a78a492e",
+        "role-blue-fairy-4ef84787",
+        "role-geppetto-feedca6a"
+      ]
+    },
+    {
+      "id": "role-geppetto-feedca6a",
+      "name": "Geppetto",
+      "type": "角色",
+      "aliases": [],
+      "virtual": false,
+      "coverImage": "images/d2ec979d4a8f4de687af.webp",
+      "coverRecordId": "frame-supplement-pinocchio-chiostri-1901-001",
+      "yearStart": 1901,
+      "yearEnd": 1901,
+      "workIds": [
+        "work-le-avventure-di-pinocchio-carlo-chiostri-4b53b894"
+      ],
+      "recordIds": [
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008"
+      ],
+      "frameIds": [
+        "frame-supplement-pinocchio-chiostri-1901-001",
+        "frame-supplement-pinocchio-chiostri-1901-002",
+        "frame-supplement-pinocchio-chiostri-1901-003",
+        "frame-supplement-pinocchio-chiostri-1901-004",
+        "frame-supplement-pinocchio-chiostri-1901-005",
+        "frame-supplement-pinocchio-chiostri-1901-006",
+        "frame-supplement-pinocchio-chiostri-1901-007",
+        "frame-supplement-pinocchio-chiostri-1901-008"
+      ],
+      "workCount": 1,
+      "imageCount": 8,
+      "frameCount": 8,
+      "rightsBreakdown": {
+        "公版文件": 1
+      },
+      "copyrightRoutes": [
+        "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。"
+      ],
+      "evidenceLevels": [
+        "A"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "topScenes": [
+        {
+          "name": "经典角色历史形象",
+          "count": 8
+        },
+        {
+          "name": "木偶奇遇记",
+          "count": 8
+        },
+        {
+          "name": "同一 IP 多画家比较",
+          "count": 8
+        }
+      ],
+      "topStyles": [
+        {
+          "name": "黑白线描",
+          "count": 8
+        },
+        {
+          "name": "历史形象演变",
+          "count": 8
+        },
+        {
+          "name": "文学插画",
+          "count": 8
+        },
+        {
+          "name": "叙事组图",
+          "count": 8
+        }
+      ],
+      "topHolidays": [],
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "awarenessScore": 88,
+      "sourceCount": 1,
+      "relatedEntityIds": [
+        "role-pinocchio-89d9ef47",
+        "role-mangiafoco-42792ac5",
+        "role-marionettes-a78a492e",
+        "role-blue-fairy-4ef84787",
+        "role-martens-c49698ee"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "title": "Le avventure di Pinocchio · Carlo Chiostri",
+      "year": "1901",
+      "yearSort": 1901,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons：Public domain。",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "黑白线描",
+        "叙事组图"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "木偶奇遇记"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pinocchio"
+      ],
+      "workCharacters": [
+        "Pinocchio",
+        "Geppetto",
+        "Blue Fairy",
+        "Mangiafoco"
+      ],
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "awarenessScore": 88,
+      "awarenessLevel": "美国高知名母 IP",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "supplementalSourceVersion": "classic-ip-visual-lineages-2026-09-22-v1",
+      "sourceHash": "5e802758e5b17b1225ba46b10fa2a129998de451aa5bfb6d89ada6874a4f0d2a",
+      "sourcePixels": "302x580",
+      "id": "frame-supplement-pinocchio-chiostri-1901-001",
+      "kind": "画作 / 插图",
+      "subtitle": "Pinocchio 站立全身像",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchio%20par%20Carlo%20Chiostri.png",
+      "image": "images/d2ec979d4a8f4de687af.webp"
+    },
+    {
+      "title": "Le avventure di Pinocchio · Carlo Chiostri",
+      "year": "1901",
+      "yearSort": 1901,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons：Public domain。",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "黑白线描",
+        "叙事组图"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "木偶奇遇记"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pinocchio",
+        "Mangiafoco"
+      ],
+      "workCharacters": [
+        "Pinocchio",
+        "Geppetto",
+        "Blue Fairy",
+        "Mangiafoco"
+      ],
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "awarenessScore": 88,
+      "awarenessLevel": "美国高知名母 IP",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "supplementalSourceVersion": "classic-ip-visual-lineages-2026-09-22-v1",
+      "sourceHash": "f5d314c3b4f4fb63fc74470a5f865c9439e53adb5cc96611c32f78a20e420769",
+      "sourcePixels": "415x392",
+      "id": "frame-supplement-pinocchio-chiostri-1901-002",
+      "kind": "画作 / 插图",
+      "subtitle": "Mangiafoco 木偶剧场老板",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri03.jpg",
+      "image": "images/c176ac7be8c221d763bb.webp"
+    },
+    {
+      "title": "Le avventure di Pinocchio · Carlo Chiostri",
+      "year": "1901",
+      "yearSort": 1901,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons：Public domain。",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "黑白线描",
+        "叙事组图"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "木偶奇遇记"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pinocchio"
+      ],
+      "workCharacters": [
+        "Pinocchio",
+        "Geppetto",
+        "Blue Fairy",
+        "Mangiafoco"
+      ],
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "awarenessScore": 88,
+      "awarenessLevel": "美国高知名母 IP",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "supplementalSourceVersion": "classic-ip-visual-lineages-2026-09-22-v1",
+      "sourceHash": "2848ce7b44bf0744609a2746c3ebbc92aea9c6cc3e3ab3603bfdabbb4931ca25",
+      "sourcePixels": "720x770",
+      "id": "frame-supplement-pinocchio-chiostri-1901-003",
+      "kind": "画作 / 插图",
+      "subtitle": "Pinocchio 被宪兵带走",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri08.jpg",
+      "image": "images/1137b5434d2ae2eb1638.webp"
+    },
+    {
+      "title": "Le avventure di Pinocchio · Carlo Chiostri",
+      "year": "1901",
+      "yearSort": 1901,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons：Public domain。",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "黑白线描",
+        "叙事组图"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "木偶奇遇记"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pinocchio",
+        "Marionettes"
+      ],
+      "workCharacters": [
+        "Pinocchio",
+        "Geppetto",
+        "Blue Fairy",
+        "Mangiafoco"
+      ],
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "awarenessScore": 88,
+      "awarenessLevel": "美国高知名母 IP",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "supplementalSourceVersion": "classic-ip-visual-lineages-2026-09-22-v1",
+      "sourceHash": "c6e49a595337e0848ee858045cdc34526b3a7827f700e2cce8736adaadaf13c9",
+      "sourcePixels": "400x256",
+      "id": "frame-supplement-pinocchio-chiostri-1901-004",
+      "kind": "画作 / 插图",
+      "subtitle": "Gran Teatro dei Burattini｜木偶大剧场",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri12.jpg",
+      "image": "images/fc28b5e403a872370da9.webp"
+    },
+    {
+      "title": "Le avventure di Pinocchio · Carlo Chiostri",
+      "year": "1901",
+      "yearSort": 1901,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons：Public domain。",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "黑白线描",
+        "叙事组图"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "木偶奇遇记"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pinocchio",
+        "Blue Fairy"
+      ],
+      "workCharacters": [
+        "Pinocchio",
+        "Geppetto",
+        "Blue Fairy",
+        "Mangiafoco"
+      ],
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "awarenessScore": 88,
+      "awarenessLevel": "美国高知名母 IP",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "supplementalSourceVersion": "classic-ip-visual-lineages-2026-09-22-v1",
+      "sourceHash": "b33004b5b89033791192632eb1de52e801358687783d36da27aa2f1460763eb7",
+      "sourcePixels": "320x569",
+      "id": "frame-supplement-pinocchio-chiostri-1901-005",
+      "kind": "画作 / 插图",
+      "subtitle": "Pinocchio 与蓝仙女",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri19.jpg",
+      "image": "images/2be4dc4efd3a1e82e1e6.webp"
+    },
+    {
+      "title": "Le avventure di Pinocchio · Carlo Chiostri",
+      "year": "1901",
+      "yearSort": 1901,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons：Public domain。",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "黑白线描",
+        "叙事组图"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "木偶奇遇记"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pinocchio",
+        "Martens"
+      ],
+      "workCharacters": [
+        "Pinocchio",
+        "Geppetto",
+        "Blue Fairy",
+        "Mangiafoco"
+      ],
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "awarenessScore": 88,
+      "awarenessLevel": "美国高知名母 IP",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "supplementalSourceVersion": "classic-ip-visual-lineages-2026-09-22-v1",
+      "sourceHash": "bcb83a2613f4c79251023afb32418d6a23e7ee3039a96fde2e591c16542174ba",
+      "sourcePixels": "472x266",
+      "id": "frame-supplement-pinocchio-chiostri-1901-006",
+      "kind": "画作 / 插图",
+      "subtitle": "Pinocchio 被迫充当看门狗",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri21.jpg",
+      "image": "images/c161b650ce814a9f88c1.webp"
+    },
+    {
+      "title": "Le avventure di Pinocchio · Carlo Chiostri",
+      "year": "1901",
+      "yearSort": 1901,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons：Public domain。",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "黑白线描",
+        "叙事组图"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "木偶奇遇记"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pinocchio"
+      ],
+      "workCharacters": [
+        "Pinocchio",
+        "Geppetto",
+        "Blue Fairy",
+        "Mangiafoco"
+      ],
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "awarenessScore": 88,
+      "awarenessLevel": "美国高知名母 IP",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "supplementalSourceVersion": "classic-ip-visual-lineages-2026-09-22-v1",
+      "sourceHash": "174f0ed9338c30805193b951020572774286c7318cd0f062eb7b73de68eb0fa7",
+      "sourcePixels": "200x292",
+      "id": "frame-supplement-pinocchio-chiostri-1901-007",
+      "kind": "画作 / 插图",
+      "subtitle": "说谎后长鼻子",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri22.jpg",
+      "image": "images/09fdb5c5d4ba365752cd.webp"
+    },
+    {
+      "title": "Le avventure di Pinocchio · Carlo Chiostri",
+      "year": "1901",
+      "yearSort": 1901,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio",
+      "rightsStatus": "公版文件",
+      "copyrightRoute": "美国：1901 年出版作品期限届满；所列 Commons 文件标记 Public domain。",
+      "evidenceLevel": "A",
+      "imageRights": "Wikimedia Commons：Public domain。",
+      "sourceLabel": "Wikimedia Commons",
+      "licenseUrl": "",
+      "usage": "比较 Chiostri 的木偶肢体、长鼻动作和社会场景；适合黑白线描、剧情组图和动作剪影研究。",
+      "avoid": "只使用 1883 或 1901 年列明的书籍插图；避开迪士尼长鼻木偶的现代配色、服装比例、蟋蟀造型、Logo 与后续影视表达。",
+      "styles": [
+        "文学插画",
+        "历史形象演变",
+        "黑白线描",
+        "叙事组图"
+      ],
+      "scenes": [
+        "经典角色历史形象",
+        "同一 IP 多画家比较",
+        "木偶奇遇记"
+      ],
+      "holidays": [],
+      "characters": [
+        "Pinocchio",
+        "Geppetto"
+      ],
+      "workCharacters": [
+        "Pinocchio",
+        "Geppetto",
+        "Blue Fairy",
+        "Mangiafoco"
+      ],
+      "assetType": "历史书籍插图",
+      "productionUses": [
+        "角色历史谱系",
+        "构图研究",
+        "原创重绘参考"
+      ],
+      "tags": [
+        "漫画 / 角色",
+        "童话 / 寓言",
+        "经典艺术"
+      ],
+      "awarenessScore": 88,
+      "awarenessLevel": "美国高知名母 IP",
+      "registrationNumber": "",
+      "renewalSearch": "",
+      "evidenceSources": [
+        "https://commons.wikimedia.org/wiki/Category:Illustrations_from_Le_avventure_di_Pinocchio"
+      ],
+      "riskFlags": [
+        "WORK_VERSION_ONLY",
+        "MODERN_ADAPTATIONS_EXCLUDED",
+        "TRADEMARK_CHECK_BEFORE_MERCH"
+      ],
+      "researchDate": "2026-09-22",
+      "supplementalSourceVersion": "classic-ip-visual-lineages-2026-09-22-v1",
+      "sourceHash": "3e533162c0dee1dae71cc22c9fec7e329bf756798874ffa1957c131f84270c2f",
+      "sourcePixels": "381x340",
+      "id": "frame-supplement-pinocchio-chiostri-1901-008",
+      "kind": "画作 / 插图",
+      "subtitle": "鲨鱼腹中与 Geppetto 重逢",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APinocchioChiostri25.jpg",
+      "image": "images/0f677e2d75b2402a3aef.webp"
+    }
+  ]
+}

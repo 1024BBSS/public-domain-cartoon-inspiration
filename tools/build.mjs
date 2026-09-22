@@ -27,6 +27,7 @@ const imageOutputRoot = path.join(projectRoot, "images");
 const dataOutputRoot = path.join(projectRoot, "data");
 const supplementalPaths = [
   path.join(projectRoot, "source", "cartoon-ip-supplement.json"),
+  path.join(projectRoot, "source", "classic-ip-visual-lineages-supplement.json"),
   path.join(projectRoot, "source", "ghost-commercial-supplement.json"),
   path.join(projectRoot, "source", "halloween-classics-supplement.json"),
   path.join(projectRoot, "source", "halloween-cartoon-growth-supplement.json"),
@@ -233,6 +234,7 @@ function supplementalRecords(data) {
       title: work.title,
       year: work.year,
       yearSort: parseYearSort(work.year),
+      workSourceUrl: work.sourceUrl,
       rightsStatus: work.rightsStatus,
       copyrightRoute: work.copyrightRoute,
       evidenceLevel: work.evidenceLevel || "待复核",
@@ -245,6 +247,7 @@ function supplementalRecords(data) {
       scenes: compact(work.scenes || []),
       holidays: compact(work.holidays || []),
       characters: compact(work.characters || []),
+      workCharacters: compact(work.characters || []),
       ...(work.assetType ? { assetType: work.assetType } : {}),
       ...(compact(work.motifs || []).length ? { motifs: compact(work.motifs) } : {}),
       ...(compact(work.actions || []).length ? { actions: compact(work.actions) } : {}),
@@ -299,12 +302,14 @@ function supplementalRecords(data) {
           : {}),
         styles: compact([...(work.styles || []), ...(frame.styles || [])]),
         scenes: compact([...(work.scenes || []), ...(frame.scenes || [])]),
-        characters: compact([...(work.characters || []), ...(frame.characters || [])]),
+        characters: data.frameCharactersOnly
+          ? compact(frame.characters || [])
+          : compact([...(work.characters || []), ...(frame.characters || [])]),
         tags: compact([...(work.tags || []), ...(frame.tags || [])]),
         ...(frame.sourceHash ? { sourceHash: frame.sourceHash } : {}),
         ...(frame.sourcePixels ? { sourcePixels: frame.sourcePixels } : {}),
         id: `frame-supplement-${work.id}-${String(index + 1).padStart(3, "0")}`,
-        kind: "动画画面",
+        kind: frame.kind || work.frameKind || data.frameKind || "动画画面",
         subtitle: frame.subtitle || `画面 ${String(index + 1).padStart(3, "0")}`,
         sourceUrl,
         imageKey: `eagle:${frame.eagleItemId}`,

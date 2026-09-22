@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-幽灵-一场圣诞恶作剧-d2a5c039",
     "title": "幽灵：一场圣诞恶作剧",
@@ -791,6 +791,7 @@
       "title": "幽灵：一场圣诞恶作剧",
       "year": "1814",
       "yearSort": 1814,
+      "workSourceUrl": "https://www.loc.gov/item/2005676988/",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "1814 版画 · LOC No known restrictions",
       "evidenceLevel": "A",
@@ -811,6 +812,9 @@
         "圣诞节"
       ],
       "characters": [
+        "白布幽灵"
+      ],
+      "workCharacters": [
         "白布幽灵"
       ],
       "tags": [
@@ -835,6 +839,7 @@
       "title": "幽灵：一场圣诞恶作剧",
       "year": "1814",
       "yearSort": 1814,
+      "workSourceUrl": "https://www.loc.gov/item/2005676988/",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "1814 版画 · LOC No known restrictions",
       "evidenceLevel": "A",
@@ -855,6 +860,9 @@
         "圣诞节"
       ],
       "characters": [
+        "白布幽灵"
+      ],
+      "workCharacters": [
         "白布幽灵"
       ],
       "tags": [

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-冈崎猫妖怪谈-bd4f4df0",
     "title": "冈崎猫妖怪谈",
@@ -836,6 +836,7 @@
       "title": "冈崎猫妖怪谈",
       "year": "ca. 1850",
       "yearSort": 1850,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/45282",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -856,6 +857,9 @@
         "万圣节"
       ],
       "characters": [
+        "Cat Demon"
+      ],
+      "workCharacters": [
         "Cat Demon"
       ],
       "tags": [
@@ -880,6 +884,7 @@
       "title": "冈崎猫妖怪谈",
       "year": "ca. 1850",
       "yearSort": 1850,
+      "workSourceUrl": "https://www.metmuseum.org/art/collection/search/45282",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "Met Open Access · Public Domain",
       "evidenceLevel": "A",
@@ -900,6 +905,9 @@
         "万圣节"
       ],
       "characters": [
+        "Cat Demon"
+      ],
+      "workCharacters": [
         "Cat Demon"
       ],
       "tags": [

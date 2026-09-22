@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T06:21:40.308Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-pumpkinheads-heaven-f84c8a3e",
     "title": "Pumpkinheads Heaven",
@@ -172,6 +172,7 @@
       "title": "Pumpkinheads Heaven",
       "year": "1901",
       "yearSort": 1901,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:PumpkinheadsHeaven1901.jpg",
       "rightsStatus": "公版文件",
       "copyrightRoute": "Wikimedia Commons · Public domain",
       "evidenceLevel": "A",
@@ -193,6 +194,9 @@
         "万圣节"
       ],
       "characters": [
+        "南瓜头群像"
+      ],
+      "workCharacters": [
         "南瓜头群像"
       ],
       "assetType": "摄影式节庆明信片",

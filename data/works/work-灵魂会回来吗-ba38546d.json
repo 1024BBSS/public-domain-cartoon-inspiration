@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-灵魂会回来吗-ba38546d",
     "title": "灵魂会回来吗？",
@@ -680,6 +680,7 @@
       "title": "灵魂会回来吗？",
       "year": "1915",
       "yearSort": 1915,
+      "workSourceUrl": "https://www.loc.gov/item/2014636948/",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "LOC · No known restrictions",
       "evidenceLevel": "A",
@@ -699,6 +700,9 @@
         "万圣节"
       ],
       "characters": [
+        "舞台灵体"
+      ],
+      "workCharacters": [
         "舞台灵体"
       ],
       "tags": [
@@ -723,6 +727,7 @@
       "title": "灵魂会回来吗？",
       "year": "1915",
       "yearSort": 1915,
+      "workSourceUrl": "https://www.loc.gov/item/2014636948/",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "LOC · No known restrictions",
       "evidenceLevel": "A",
@@ -742,6 +747,9 @@
         "万圣节"
       ],
       "characters": [
+        "舞台灵体"
+      ],
+      "workCharacters": [
         "舞台灵体"
       ],
       "tags": [

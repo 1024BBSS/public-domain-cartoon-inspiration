@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-孤儿在母亲墓前-23a2d5dc",
     "title": "孤儿在母亲墓前",
@@ -664,6 +664,7 @@
       "title": "孤儿在母亲墓前",
       "year": "1889",
       "yearSort": 1889,
+      "workSourceUrl": "https://www.loc.gov/item/2004668383/",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "LOC · No known restrictions",
       "evidenceLevel": "A",
@@ -683,6 +684,9 @@
         "万圣节"
       ],
       "characters": [
+        "母亲幽灵"
+      ],
+      "workCharacters": [
         "母亲幽灵"
       ],
       "tags": [
@@ -707,6 +711,7 @@
       "title": "孤儿在母亲墓前",
       "year": "1889",
       "yearSort": 1889,
+      "workSourceUrl": "https://www.loc.gov/item/2004668383/",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "LOC · No known restrictions",
       "evidenceLevel": "A",
@@ -726,6 +731,9 @@
         "万圣节"
       ],
       "characters": [
+        "母亲幽灵"
+      ],
+      "workCharacters": [
         "母亲幽灵"
       ],
       "tags": [

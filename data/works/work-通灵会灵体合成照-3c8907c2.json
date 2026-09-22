@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-通灵会灵体合成照-3c8907c2",
     "title": "通灵会灵体合成照",
@@ -664,6 +664,7 @@
       "title": "通灵会灵体合成照",
       "year": "1901",
       "yearSort": 1901,
+      "workSourceUrl": "https://www.loc.gov/item/91732576/",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "LOC · No known restrictions",
       "evidenceLevel": "A",
@@ -683,6 +684,9 @@
         "万圣节"
       ],
       "characters": [
+        "通灵灵体"
+      ],
+      "workCharacters": [
         "通灵灵体"
       ],
       "tags": [
@@ -707,6 +711,7 @@
       "title": "通灵会灵体合成照",
       "year": "1901",
       "yearSort": 1901,
+      "workSourceUrl": "https://www.loc.gov/item/91732576/",
       "rightsStatus": "公版 / 开放馆藏",
       "copyrightRoute": "LOC · No known restrictions",
       "evidenceLevel": "A",
@@ -726,6 +731,9 @@
         "万圣节"
       ],
       "characters": [
+        "通灵灵体"
+      ],
+      "workCharacters": [
         "通灵灵体"
       ],
       "tags": [

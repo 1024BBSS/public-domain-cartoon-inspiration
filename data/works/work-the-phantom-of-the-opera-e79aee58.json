@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "sourceVersion": "9.6",
-  "generatedAt": "2026-09-19T07:30:54.003Z",
+  "generatedAt": "2026-09-22T03:17:19.471Z",
   "work": {
     "id": "work-the-phantom-of-the-opera-e79aee58",
     "title": "The Phantom of the Opera",
@@ -671,6 +671,7 @@
       "title": "The Phantom of the Opera",
       "year": "1925",
       "yearSort": 1925,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Phantom_of_the_Opera_(1925)_-_9.jpg",
       "rightsStatus": "期限届满",
       "copyrightRoute": "美国期限届满 · Commons 公版文件",
       "evidenceLevel": "A",
@@ -691,6 +692,9 @@
         "万圣节"
       ],
       "characters": [
+        "1925 Phantom"
+      ],
+      "workCharacters": [
         "1925 Phantom"
       ],
       "tags": [
@@ -716,6 +720,7 @@
       "title": "The Phantom of the Opera",
       "year": "1925",
       "yearSort": 1925,
+      "workSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Phantom_of_the_Opera_(1925)_-_9.jpg",
       "rightsStatus": "期限届满",
       "copyrightRoute": "美国期限届满 · Commons 公版文件",
       "evidenceLevel": "A",
@@ -736,6 +741,9 @@
         "万圣节"
       ],
       "characters": [
+        "1925 Phantom"
+      ],
+      "workCharacters": [
         "1925 Phantom"
       ],
       "tags": [
