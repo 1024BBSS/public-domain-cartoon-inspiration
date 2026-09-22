@@ -1,33 +1,47 @@
 {
-  "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-22T08:22:04.711Z",
-  "sourceVersion": "meme-library-2026-09-22-v1",
+  "schemaVersion": "2.0.0",
+  "generatedAt": "2026-09-22T11:01:56.603Z",
+  "sourceVersion": "meme-library-2026-09-22-v2",
   "counts": {
-    "records": 315,
-    "contemporary": 265,
+    "records": 1312,
+    "contemporary": 1262,
     "publicDomain": 50,
     "currentSignals": 97,
-    "linkedSuperIp": 71,
+    "kymEvidence": 1043,
+    "recentTwoYears": 285,
+    "recentHeat": 119,
+    "recentEditorial": 27,
+    "highReuse": 411,
+    "linkedSuperIp": 258,
+    "byEra": {
+      "短视频扩散 · 2023–2024": 86,
+      "反应图 / GIF · 2012–2017": 196,
+      "近两年热门 · 2025–2026": 285,
+      "历史公版视觉": 50,
+      "平台 Meme · 2018–2022": 83,
+      "图片宏 / Web 2.0 · 2005–2011": 296,
+      "早期互联网 · ≤2004": 316
+    },
     "byCategory": {
-      "电影 / 电视": 54,
-      "动物 / 表情": 28,
-      "互联网原生": 134,
+      "电影 / 电视": 256,
+      "动物 / 表情": 244,
+      "互联网原生": 402,
       "经典艺术 / 公版": 50,
-      "名人 / 音乐": 16,
-      "体育 / 赛事": 5,
-      "文字 / 对话结构": 11,
-      "游戏 / 动漫": 6,
-      "政治 / 公共事件": 11
+      "名人 / 音乐": 94,
+      "体育 / 赛事": 49,
+      "文字 / 对话结构": 95,
+      "游戏 / 动漫": 81,
+      "政治 / 公共事件": 41
     },
     "byRights": {
-      "版权 + 肖像需核验": 33,
-      "创作者版权需核验": 17,
+      "版权 + 肖像需核验": 191,
+      "创作者版权需核验": 38,
       "公版具体版本": 50,
-      "影视 / 角色需授权": 59,
-      "原图权利待核验": 156
+      "影视 / 角色需授权": 335,
+      "原图权利待核验": 698
     }
   },
-  "dataSha256": "f4def35c09191443b7ef2560829508b9b659e6858657864c43d62eea0c30cf49",
-  "imageFiles": 265,
-  "imageBytes": 7113960
+  "dataSha256": "c537516db43a03a1e85cbb438212b1daa3cce96c42c637faeaf61553b23f86a1",
+  "imageFiles": 1337,
+  "imageBytes": 56678338
 }

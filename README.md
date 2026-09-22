@@ -6,7 +6,7 @@
 
 当前另有 `albums.html`：以 200 张近 70 年经典封面为母库，可按封面或艺人进入，并按年代、音乐类型与视觉方法检索；另保留公版历史封面、“鹰翼摇滚”和“西部乡村”专题。现代封面只作研究，不作公版素材。
 
-`memes.html` 是美国 Meme 图谱。当前收录 315 个合并后的 Meme 家族：265 个现代模板研究记录、50 个来自现有视觉库的具体公版改编底图。可从“Meme 家族”找表达结构，也可从“来源人物 / 作品”集中查看同一人物、影视、角色或历史母题下的相关画面。Imgflip 排名与 caption 数只作当前平台活跃信号，Memegen 收录只证明目录存在；二者都不是美国人口知名度或授权证明。关联超级 IP 的调查百分比只属于来源人物 / 作品，不属于 Meme 本身。现代原图默认只供研究；只有标明“公版具体版本”的历史图像进入可复用池，且仍需检查后期表达、商标和商品来源误认。
+`memes.html` 是美国 Meme 图谱。当前收录 1,312 个合并后的 Meme 家族：1,262 个现代研究记录、50 个来自现有视觉库的具体公版改编底图；其中 1,043 个带 Know Your Meme 历史传播或编辑证据，285 个首见于 2025–2026，119 个同时满足编辑榜或可量化传播门槛，97 个带 Imgflip 当前模板信号。可按年代、历史传播、当前复用、近年热榜、来源人物 / 作品与权利入口检索。KYM 浏览量、历史排序和画廊数量只作历史传播 / 变体代理；Imgflip 排名与 captions 只作当前平台复用信号；年度榜和周榜只作编辑趋势线索。三者都不是美国人口知名度或授权证明。“新出现”和“已热门”分开计算。关联超级 IP 的调查百分比只属于来源人物 / 作品，不属于 Meme 本身。现代原图默认只供研究；只有标明“公版具体版本”的历史图像进入可复用池，且仍需检查后期表达、商标和商品来源误认。
 
 首页当前包含 6,864 个美区高知名候选，其中 6,520 个文娱文化候选、6,251 个美国全民级候选、6,242 个 `100M+ 认知等效`、3 个 `100M+ 直接人数`，以及 284 个体育赛事、联盟、球队或运动员。文娱层覆盖角色动画、影视电视、演员与主持、音乐、游戏、书籍、舞台、媒体、播客、网络创作者与艺术活动。认知等效使用 YouGov Fame 百分比乘以 2020 美国成年人口，仅用于全国认知筛选，不是独立观众、销量或商业授权。
 
@@ -41,7 +41,7 @@
 - `data/albums.json`：200 张经典封面、公版封面及专题脉络，含年代、类型、艺人关系、经典理由、视觉结构、可转化方向和版权门。
 - `data/super-ip-us.json`：美国高知名角色、作品、体育、音乐人与文化母题候选，含三层分类、多入口标签、分类证据、权利路由、视觉线索、认知调查与直接人数证据状态。
 - `data/consumer-calendar.json`：节日与消费季、13 套消费金额档案及趋势预估、运营倒排、发薪脉冲、9 个气候区的月常态、12 周服装需求，以及客户地区和仓配成本的待接数据口径。
-- `data/memes.json`：Meme 家族、来源人物 / 作品、表达机制、文字槽位、平台活跃信号、关联超级 IP、版权 / 肖像 / 商标边界和 Agent 改编提示。
+- `data/memes.json`：Meme 家族、来源人物 / 作品、年代、KYM 历史传播、Imgflip 当前复用、近年编辑榜、关联超级 IP、版权 / 肖像 / 商标边界和 Agent 改编提示。
 
 网页与 Agent JSON 共用同一份构建数据，页面深链可直接定位角色、作品和画面。
 
@@ -66,6 +66,7 @@ node tools/validate-super-ip.mjs
 node tools/refresh-apparel-weather.mjs
 node tools/build-consumer-calendar.mjs
 node tools/validate-consumer-calendar.mjs
+node tools/refresh-kym-memes.mjs
 node tools/build-memes.mjs --refresh
 node tools/validate-memes.mjs
 ```
@@ -74,7 +75,7 @@ node tools/validate-memes.mjs
 
 `source/cartoon-ip-supplement.json`、`source/ghost-commercial-supplement.json` 与 `source/halloween-classics-supplement.json` 保存已核验作品、风险边界和 Eagle item ID。`source/halloween-trend-watchlist.json` 仅作后台趋势证据，不生成前台专题页。`source/album-canon-seed.psv` 保存 200 张母库的人工定款；`source/album-license-only.json` 保存补齐图源后的现代需授权研究记录；`source/album-public-domain.json` 保存公版历史封面；`source/eagle-rock-lineage.json` 与 `source/western-country-lineage.json` 分别保存鹰翼摇滚、西部乡村专题。
 
-`source/meme-template-sources.json` 保存 Memegen 与 Imgflip 的目录快照；`tools/build-memes.mjs` 将同一叙事模板的服务别名合并为家族，并把现代研究图缓存为本地 WebP。缓存图不是权利转移，也不进入生产素材池。新增 Meme 必须分别记录原始来源、表达机制、活跃证据、版权、肖像 / 人格权、商标 / 来源误认和安全改编路线。
+`source/meme-template-sources.json` 保存 Memegen 与 Imgflip 的目录快照；`source/meme-kym-snapshot.json` 保存 KYM 已确认主档、历史排序、浏览 / 画廊计数、年份及年度 / 近期编辑榜线索。`tools/build-memes.mjs` 将同一叙事模板的服务别名合并为家族，并把现代研究图缓存为本地 WebP。缓存图不是权利转移，也不进入生产素材池。新增 Meme 必须分别记录原始来源、表达机制、传播 / 复用证据、版权、肖像 / 人格权、商标 / 来源误认和安全改编路线。
 
 `source/super-ip-us-seed.json` 是人工定款候选源；`source/yougov-us-fame.json` 是覆盖 25 个文娱类型的可刷新认知快照；`source/wikidata-taxonomy.json` 是 CC0 结构化分类快照；`source/super-ip-visual-profiles.json` 是人工视觉 DNA；`source/super-ip-visual-sources.json` 保存开放图源、作者、年代、媒介、逐图许可与来源页。S / A 只是美区筛选层，不是调查百分比。`100M+ 认知等效` 与 `100M+ 直接人数` 永远分栏：前者来自 YouGov Fame × 美国成年人口，后者只接收公开、可复核且口径明确的美国人数资料。快捷条件可与三层分类组合，URL 会保留 `category`、`subcategory`、`topic`、权利和知名度条件。新增条目必须保留来源、视觉图类型、分类来源、权利入口和证据状态，不能把“高知名”“识别参考图”或“图片开放许可”改写成“角色可商用”。
 

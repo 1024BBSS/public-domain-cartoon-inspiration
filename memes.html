@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="面向美国市场的 Meme 家族、来源人物与作品、叙事结构、平台活跃信号和商业权利路由。">
+  <meta name="description" content="面向美国市场的 Meme 家族、来源人物与作品、年代、历史传播、当前复用、近年趋势和商业权利路由。">
   <title>美国 Meme 图谱</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12'/%3E%3Cpath fill='white' d='M12 15h40v8H20v6h26v8H20v6h32v8H12z'/%3E%3C/svg%3E">
   <link rel="alternate" type="application/json" href="data/memes.json" title="美国 Meme 图谱 Agent 数据">
   <link rel="stylesheet" href="assets/tokens.css">
   <link rel="stylesheet" href="assets/components.css">
-  <link rel="stylesheet" href="assets/memes.css?v=1.0.0">
-  <script defer src="data/memes.js?v=1.0.0"></script>
-  <script defer src="assets/memes.js?v=1.0.0"></script>
+  <link rel="stylesheet" href="assets/memes.css?v=2.0.0">
+  <script defer src="data/memes.js?v=2.0.0"></script>
+  <script defer src="assets/memes.js?v=2.0.0"></script>
 </head>
 <body>
   <div class="app">
@@ -59,11 +59,17 @@
           <select class="select compact-select" id="rights-select" aria-label="权利入口">
             <option value="全部">全部权利入口</option>
           </select>
+          <select class="select compact-select" id="era-select" aria-label="传播年代">
+            <option value="全部">全部年代</option>
+          </select>
           <select class="select compact-select" id="scenario-select" aria-label="使用场景">
             <option value="全部">全部使用场景</option>
           </select>
           <select class="select compact-select" id="sort-select" aria-label="排序">
-            <option value="activity">活跃与证据优先</option>
+            <option value="evidence">传播与复用优先</option>
+            <option value="recent">近年优先</option>
+            <option value="historical">历史传播优先</option>
+            <option value="reuse">复用度优先</option>
             <option value="awareness">来源知名度优先</option>
             <option value="category">分类</option>
             <option value="name">名称</option>
@@ -94,10 +100,11 @@
 
         <section class="summary-strip" aria-label="资料库统计">
           <div class="summary-metric"><span id="metric-all">0</span><small>Meme 家族</small></div>
-          <div class="summary-metric"><span id="metric-signals">0</span><small>当前活跃信号</small></div>
+          <div class="summary-metric"><span id="metric-kym">0</span><small>历史传播证据</small></div>
+          <div class="summary-metric"><span id="metric-recent">0</span><small>2025–2026 有证据热榜</small></div>
+          <div class="summary-metric"><span id="metric-signals">0</span><small>当前模板信号</small></div>
           <div class="summary-metric summary-metric--ok"><span id="metric-pd">0</span><small>具体公版底图</small></div>
-          <div class="summary-metric"><span id="metric-linked">0</span><small>关联超级 IP</small></div>
-          <p class="summary-rule">活跃＝Imgflip 当前目录排名 / caption 量；不是美国人口知名度。来源知名度来自关联 IP，只说明人物或作品知名，不说明该 Meme 的知名度。</p>
+          <p class="summary-rule">KYM 浏览 / 画廊＝历史传播代理；Imgflip 排名 / captions＝当前模板复用；年度与周榜＝编辑趋势线索。三者都不是授权或美国人口认知。调查百分比仅属于关联人物 / 作品。</p>
         </section>
 
         <section class="result-head" aria-live="polite">
@@ -137,8 +144,11 @@
           <dl class="snapshot-list">
             <div><dt>表达机制</dt><dd id="detail-mechanic"></dd></div>
             <div><dt>可用于</dt><dd id="detail-use-cases"></dd></div>
+            <div><dt>年代</dt><dd id="detail-era"></dd></div>
             <div><dt>文字槽位</dt><dd id="detail-slots"></dd></div>
-            <div><dt>活跃证据</dt><dd id="detail-activity"></dd></div>
+            <div><dt>大众认知</dt><dd id="detail-recognition"></dd></div>
+            <div><dt>复用度</dt><dd id="detail-reuse"></dd></div>
+            <div><dt>传播 / 趋势证据</dt><dd id="detail-activity"></dd></div>
           </dl>
         </div>
       </div>
@@ -163,7 +173,7 @@
         <div><b>商标 / 来源误认</b><span id="detail-trademark"></span></div>
       </section>
       <section class="variant-section">
-        <h2>目录版本</h2>
+        <h2>证据来源 / 目录版本</h2>
         <div class="variant-list" id="detail-variants"></div>
       </section>
       <div class="detail-actions">

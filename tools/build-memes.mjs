@@ -8,6 +8,7 @@ import { fileURLToPath } from "node:url";
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, "..");
 const sourcePath = path.join(root, "source", "meme-template-sources.json");
+const kymSourcePath = path.join(root, "source", "meme-kym-snapshot.json");
 const catalogPath = path.join(root, "data", "catalog.json");
 const superIpPath = path.join(root, "data", "super-ip-us.json");
 const outputJsonPath = path.join(root, "data", "memes.json");
@@ -69,10 +70,14 @@ if (refresh) {
 }
 
 const source = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
+const kymSource = fs.existsSync(kymSourcePath)
+  ? JSON.parse(fs.readFileSync(kymSourcePath, "utf8"))
+  : { researchDate: source.researchDate, records: [], counts: { records: 0 } };
 const catalog = JSON.parse(fs.readFileSync(catalogPath, "utf8"));
 const superIp = JSON.parse(fs.readFileSync(superIpPath, "utf8"));
 const memegen = source.sources.memegen.records;
 const imgflip = source.sources.imgflip.records;
+const kymRecords = kymSource.records || [];
 
 const aliasFamilies = [
   ["drakeposting", "drake hotline bling", "drake blank"],
@@ -112,6 +117,32 @@ for (const [family, ...aliases] of aliasFamilies) {
 }
 function familyKey(name) {
   return aliasToFamily.get(normalize(name)) || normalize(name);
+}
+
+function eraForYear(year, isPublicDomain = false) {
+  if (isPublicDomain) return "历史公版视觉";
+  const value = Number(year);
+  if (!Number.isFinite(value)) return "年代待复核";
+  if (value <= 2004) return "早期互联网 · ≤2004";
+  if (value <= 2011) return "图片宏 / Web 2.0 · 2005–2011";
+  if (value <= 2017) return "反应图 / GIF · 2012–2017";
+  if (value <= 2022) return "平台 Meme · 2018–2022";
+  if (value <= 2024) return "短视频扩散 · 2023–2024";
+  return "近两年热门 · 2025–2026";
+}
+
+function formatCompactNumber(value) {
+  const number = Number(value);
+  if (!Number.isFinite(number) || number <= 0) return "";
+  if (number >= 1_000_000) return `${(number / 1_000_000).toFixed(number >= 10_000_000 ? 0 : 1)}M`;
+  if (number >= 1_000) return `${(number / 1_000).toFixed(number >= 100_000 ? 0 : 1)}K`;
+  return String(number);
+}
+
+function bestFinite(values, mode = "max") {
+  const numbers = values.map(Number).filter(Number.isFinite);
+  if (!numbers.length) return null;
+  return mode === "min" ? Math.min(...numbers) : Math.max(...numbers);
 }
 
 const originRules = [
@@ -261,6 +292,47 @@ function categoryFor(name, origin) {
   return ["互联网原生", /rage|y u no|forever alone|troll|feels bad|feels good/i.test(name) ? "Rage Comic 与网络角色" : "图片宏与反应模板"];
 }
 
+function categoryForKym(name, origin, evidence) {
+  const base = categoryFor(name, origin);
+  if (!evidence) return base;
+  if (base[0] !== "互联网原生") return base;
+  const text = normalize([
+    name,
+    evidence.category,
+    ...(evidence.types || []),
+    ...(evidence.tags || []),
+    evidence.parentSeries,
+    evidence.origin,
+  ].join(" "));
+  if (/politic|president|congress|election|senator|government|white house|republican|democrat|protest/.test(text)) {
+    return ["政治 / 公共事件", "政治人物、公共事件与网络反应"];
+  }
+  if (/nfl|nba|mlb|nhl|football|basketball|baseball|soccer|athlete|sports|olympic|wrestling|ufc/.test(text)) {
+    return ["体育 / 赛事", "体育人物、比赛与球迷文化"];
+  }
+  if (/movie|film|television|tv series|sitcom|actor|actress|cartoon|animation|disney|marvel|dc comics|netflix|anime/.test(text)) {
+    return ["电影 / 电视", /cartoon|animation|anime/.test(text) ? "动画与动漫传播画面" : "影视与流媒体传播画面"];
+  }
+  if (/video game|gaming|fortnite|minecraft|roblox|nintendo|playstation|xbox|steam|vtuber/.test(text)) {
+    return ["游戏 / 动漫", "游戏、直播与虚拟角色"];
+  }
+  if (/song|music|rapper|singer|album|concert|musician|band|tiktok sound|dance trend/.test(text)) {
+    return ["名人 / 音乐", "音乐、舞蹈与艺人传播画面"];
+  }
+  if (evidence.category === "Person" || /celebrity|influencer|streamer|youtuber|tiktoker/.test(text)) {
+    return ["名人 / 音乐", "公众人物与互联网名人"];
+  }
+  if (/cat|dog|bird|monkey|ape|gorilla|horse|hippo|frog|fish|shark|bear|squirrel|animal/.test(text)) {
+    return ["动物 / 表情", "动物角色、宠物与自然反应"];
+  }
+  if (/catchphrase|slang|copypasta|snowclone|phrasal template|wordplay/.test(text)) {
+    return ["文字 / 对话结构", "流行语、口播与文字模板"];
+  }
+  if (evidence.category === "Event") return ["互联网原生", "网络事件与平台现象"];
+  if (evidence.category === "Subculture") return ["互联网原生", "社群、亚文化与网络角色"];
+  return ["互联网原生", Number(evidence.year) >= 2024 ? "近年短视频与跨平台梗" : "图片宏、反应图与互联网现象"];
+}
+
 function mechanicFor(name, lines) {
   for (const [pattern, mechanic, useCases] of mechanicRules) {
     if (pattern.test(name)) return { mechanic, useCases };
@@ -341,28 +413,137 @@ for (const [index, item] of imgflip.entries()) {
     captions: item.captions || null,
   });
 }
+for (const item of kymRecords) {
+  ensureFamily(item.title).variants.push({
+    provider: "Know Your Meme",
+    templateId: item.path,
+    name: item.title,
+    imageUrl: item.imageUrl,
+    sourceUrl: item.url,
+    providerUrl: "https://knowyourmeme.com/",
+    lines: 1,
+    keywords: compact([...(item.tags || []), ...(item.types || []), item.parentSeries, item.origin]),
+    rank: null,
+    captions: null,
+    kym: item,
+  });
+}
 
 function choosePrimary(family) {
   return [...family.variants].sort((a, b) => {
     if (a.rank && !b.rank) return -1;
     if (!a.rank && b.rank) return 1;
     if (a.rank && b.rank) return a.rank - b.rank;
+    const aEditorial = a.kym?.editorialEvidence?.length || 0;
+    const bEditorial = b.kym?.editorialEvidence?.length || 0;
+    if (aEditorial !== bEditorial) return bEditorial - aEditorial;
+    const aHistorical = Number(a.kym?.historicalRank || 999999);
+    const bHistorical = Number(b.kym?.historicalRank || 999999);
+    if (aHistorical !== bHistorical) return aHistorical - bHistorical;
+    const aViews = Number(a.kym?.views || 0);
+    const bViews = Number(b.kym?.views || 0);
+    if (aViews !== bViews) return bViews - aViews;
     return a.provider.localeCompare(b.provider);
   })[0];
+}
+
+function chooseKymEvidence(family) {
+  return family.variants
+    .filter((item) => item.kym)
+    .sort((a, b) => {
+      const aEditorial = a.kym.editorialEvidence?.length || 0;
+      const bEditorial = b.kym.editorialEvidence?.length || 0;
+      if (aEditorial !== bEditorial) return bEditorial - aEditorial;
+      const aRank = Number(a.kym.historicalRank || 999999);
+      const bRank = Number(b.kym.historicalRank || 999999);
+      if (aRank !== bRank) return aRank - bRank;
+      return Number(b.kym.views || 0) - Number(a.kym.views || 0);
+    })[0]?.kym || null;
+}
+
+function reuseTierFor({ currentRank, captions, kymViews, kymImages, kymVideos, editorialEvidence, firstSeenYear }) {
+  const recentEvidence = editorialEvidence.some((item) => ["annual-2025", "staff-2025", "recent-editorial"].includes(item.signal));
+  if ((Number(firstSeenYear) >= 2025 || recentEvidence) && editorialEvidence.length) return "近年上升";
+  if ((currentRank && currentRank <= 30) || captions >= 100_000 || kymImages >= 1_000 || kymVideos >= 250 || (kymImages >= 50 && Number(kymViews) >= 1_000_000)) return "高复用线索";
+  if ((currentRank && currentRank <= 100) || captions >= 10_000 || kymImages >= 200 || kymVideos >= 50) return "中复用线索";
+  if (editorialEvidence.length || kymImages >= 40 || kymVideos >= 10) return "已形成变体";
+  return "基础档案";
+}
+
+function activityScoreFor({ currentRank, historicalRank, kymViews, editorialEvidence, firstSeenYear, recentHeat }) {
+  const current = currentRank ? Math.max(62, 101 - Math.ceil(currentRank * .39)) : 0;
+  const historical = historicalRank ? Math.max(58, 101 - Math.ceil(historicalRank * .055)) : 0;
+  const views = kymViews ? Math.min(96, 48 + Math.log10(Math.max(10, kymViews)) * 7) : 0;
+  const editorial = editorialEvidence.some((item) => item.signal === "recent-editorial")
+    ? 97
+    : editorialEvidence.length
+      ? 93
+      : 0;
+  const recent = recentHeat ? 90 : Number(firstSeenYear) >= 2024 ? 82 : 0;
+  return Math.round(Math.max(current, historical, views, editorial, recent, 55));
+}
+
+function resolveOrigin(displayName, family, kymEvidence) {
+  const matched = originFor(`${displayName} ${family.names.join(" ")} ${(kymEvidence?.tags || []).join(" ")}`);
+  if (matched.entity !== "互联网 Meme 文化" || !kymEvidence) return matched;
+  const genericSeries = /^(internet slang|memes|reaction images|viral videos|catchphrases|image macros|copypasta)$/i;
+  const entity = kymEvidence.parentSeries && !genericSeries.test(kymEvidence.parentSeries)
+    ? kymEvidence.parentSeries
+    : displayName;
+  return {
+    entity,
+    work: kymEvidence.origin ? `${displayName} · ${kymEvidence.origin}` : displayName,
+  };
 }
 
 const modernRecords = [...families.values()].map((family) => {
   const primary = choosePrimary(family);
   const displayName = primary.name || family.names[0];
-  const origin = originFor(`${displayName} ${family.names.join(" ")}`);
-  const [category, subcategory] = categoryFor(`${displayName} ${family.names.join(" ")}`, origin);
+  const kymEvidence = chooseKymEvidence(family);
+  const origin = resolveOrigin(displayName, family, kymEvidence);
+  const [category, subcategory] = categoryForKym(`${displayName} ${family.names.join(" ")}`, origin, kymEvidence);
   const lines = Math.max(...family.variants.map((item) => item.lines || 0), 1);
   const mechanic = mechanicFor(`${displayName} ${family.names.join(" ")}`, lines);
   const rights = rightsFor(category, origin, `${displayName} ${family.names.join(" ")}`);
   const currentRank = family.variants.filter((item) => item.rank).sort((a, b) => a.rank - b.rank)[0]?.rank || null;
   const captions = Math.max(...family.variants.map((item) => Number(item.captions) || 0));
+  const kymVariants = family.variants.filter((item) => item.kym).map((item) => item.kym);
+  const firstSeenYear = bestFinite(kymVariants.map((item) => item.year), "min");
+  const kymViews = bestFinite(kymVariants.map((item) => item.views));
+  const kymImages = bestFinite(kymVariants.map((item) => item.images));
+  const kymVideos = bestFinite(kymVariants.map((item) => item.videos));
+  const kymHistoricalRank = bestFinite(kymVariants.map((item) => item.historicalRank), "min");
+  const kymNewestRank = bestFinite(kymVariants.map((item) => item.newestRank), "min");
+  const editorialEvidence = [...new Map(kymVariants
+    .flatMap((item) => item.editorialEvidence || [])
+    .map((item) => [`${item.url}|${item.selection || ""}`, item])).values()];
+  const recentEditorialEvidence = editorialEvidence.some((item) => ["annual-2025", "staff-2025", "recent-editorial"].includes(item.signal));
+  const measurableRecentReuse = Number(firstSeenYear) >= 2025
+    && (Number(kymViews || 0) >= 100_000 || Number(kymImages || 0) >= 20 || Number(kymVideos || 0) >= 10);
+  const recentHeat = recentEditorialEvidence || measurableRecentReuse;
   const related = relatedSuperIp(origin);
-  const activityScore = currentRank ? Math.max(62, 101 - Math.ceil(currentRank * .39)) : 55;
+  const activityScore = activityScoreFor({ currentRank, historicalRank: kymHistoricalRank, kymViews, editorialEvidence, firstSeenYear, recentHeat });
+  const reuseTier = reuseTierFor({ currentRank, captions, kymViews, kymImages, kymVideos, editorialEvidence, firstSeenYear });
+  const evidenceParts = compact([
+    kymViews ? `KYM 条目累计 ${formatCompactNumber(kymViews)} 次浏览` : "",
+    kymImages || kymVideos ? `KYM 画廊 ${Number(kymImages || 0).toLocaleString("en-US")} 张图 / ${Number(kymVideos || 0).toLocaleString("en-US")} 段视频` : "",
+    currentRank ? `Imgflip 当前模板榜 #${currentRank}${captions ? ` / ${Number(captions).toLocaleString("en-US")} captions` : ""}` : "",
+    editorialEvidence[0] ? `${editorialEvidence[0].label}${editorialEvidence[0].selection ? `：${editorialEvidence[0].selection}` : ""}` : "",
+  ]);
+  const recentEditorial = editorialEvidence.some((item) => item.signal === "recent-editorial");
+  const activityLabel = recentEditorial
+    ? "2026 编辑榜"
+    : Number(firstSeenYear) >= 2025 && editorialEvidence.length
+      ? "近年年度热门"
+      : recentHeat
+        ? "近年传播上升"
+      : currentRank
+        ? (currentRank <= 20 ? "当前高频" : currentRank <= 60 ? "当前活跃" : "当前可见")
+        : kymHistoricalRank && kymHistoricalRank <= 100
+          ? "历史高传播"
+          : kymViews
+            ? "历史传播档案"
+            : "经典目录收录";
   return {
     id: `meme-${slugify(family.key)}-${shortHash(family.key)}`,
     name: displayName,
@@ -372,7 +553,7 @@ const modernRecords = [...families.values()].map((family) => {
     sourceType: origin.entity === "互联网 Meme 文化" ? "互联网原生" : category,
     originEntity: origin.entity,
     originWork: origin.work,
-    imageOriginalUrl: primary.imageUrl,
+    imageOriginalUrl: primary.imageUrl || kymEvidence?.imageUrl || "",
     sourceUrl: primary.sourceUrl,
     providers: compact(family.variants.map((item) => item.provider)),
     variants: family.variants.map((item) => ({
@@ -383,6 +564,12 @@ const modernRecords = [...families.values()].map((family) => {
       lines: item.lines,
       rank: item.rank,
       captions: item.captions,
+      views: item.kym?.views ?? null,
+      images: item.kym?.images ?? null,
+      videos: item.kym?.videos ?? null,
+      year: item.kym?.year ?? null,
+      historicalRank: item.kym?.historicalRank ?? null,
+      newestRank: item.kym?.newestRank ?? null,
     })),
     slots: lines,
     mechanic: mechanic.mechanic,
@@ -395,9 +582,30 @@ const modernRecords = [...families.values()].map((family) => {
     productionRoute: rights.production,
     currentTemplateRank: currentRank,
     currentCaptionCount: captions || null,
+    firstSeenYear,
+    era: eraForYear(firstSeenYear),
+    kymViews,
+    kymImages,
+    kymVideos,
+    kymHistoricalRank,
+    kymNewestRank,
+    editorialEvidence,
+    reuseTier,
+    recognitionEvidence: related?.surveyFamePercent
+      ? `来源人物 / 作品的美国调查认知为 ${related.surveyFamePercent}%；不等于该 Meme 的人口认知。`
+      : kymViews
+        ? `暂无美国人口同口径调查；KYM ${formatCompactNumber(kymViews)} 浏览仅作历史传播代理。`
+        : "暂无美国人口同口径认知证据。",
+    reuseEvidence: evidenceParts.length
+      ? `${evidenceParts.join("；")}。这些是平台传播 / 复用代理，不是授权。`
+      : "仅见模板目录收录，尚无跨来源复用证据。",
+    trendStatus: recentEditorial ? "2026 近期编辑榜" : recentHeat ? "2025–2026 热榜" : Number(firstSeenYear) >= 2024 ? "2024 扩散" : "历史档案",
+    recentHeat,
     activityScore,
-    activityLabel: currentRank ? (currentRank <= 20 ? "当前高频" : currentRank <= 60 ? "当前活跃" : "当前可见") : "经典目录收录",
-    activityEvidence: currentRank ? `Imgflip 模板快照第 ${currentRank}；平台活跃信号，不是美国人口知名度。` : "Memegen 模板目录收录；不是美国人口知名度。",
+    activityLabel,
+    activityEvidence: evidenceParts.length
+      ? `${evidenceParts.join("；")}。仅作传播 / 复用线索，不是美国人口知名度。`
+      : "Memegen 模板目录收录；不是美国人口知名度。",
     relatedSuperIp: related ? {
       id: related.id,
       name: related.name,
@@ -406,14 +614,16 @@ const modernRecords = [...families.values()].map((family) => {
       surveyFamePercent: related.surveyFamePercent ?? null,
       rightsLane: related.rightsLane || "",
     } : null,
-    evidenceLevel: currentRank ? "B" : "C",
-    researchDate: source.researchDate,
+    evidenceLevel: kymEvidence && (currentRank || editorialEvidence.length) ? "B+" : currentRank || kymEvidence ? "B" : "C",
+    researchDate: kymEvidence ? kymSource.researchDate : source.researchDate,
     searchText: compact([
       displayName, ...family.names, category, subcategory, origin.entity, origin.work,
-      ...mechanic.useCases, ...(primary.keywords || []), rights.lane,
+      ...mechanic.useCases, ...(primary.keywords || []), rights.lane, firstSeenYear, eraForYear(firstSeenYear), reuseTier,
+      ...kymVariants.flatMap((item) => [...(item.tags || []), ...(item.types || []), item.parentSeries, item.region]),
+      ...editorialEvidence.map((item) => `${item.label} ${item.selection || ""}`),
     ]).join(" · "),
   };
-});
+}).filter((record) => Boolean(record.imageOriginalUrl));
 
 const publicDomainCandidates = (catalog.records || []).filter((item) =>
   item.image
@@ -493,6 +703,21 @@ const publicDomainRecords = pickedPublicDomain.map((item) => {
     productionRoute: item.avoid ? `${item.usage || "可从历史版本重构。"} 避开：${item.avoid}` : (item.usage || "使用列明的具体公版图源或原创重绘。"),
     currentTemplateRank: null,
     currentCaptionCount: null,
+    firstSeenYear: Number(item.yearSort || String(item.year || "").match(/\d{4}/)?.[0]) || null,
+    era: "历史公版视觉",
+    kymViews: null,
+    kymImages: null,
+    kymVideos: null,
+    kymHistoricalRank: null,
+    kymNewestRank: null,
+    editorialEvidence: [],
+    reuseTier: "公版改编池",
+    recognitionEvidence: related?.surveyFamePercent
+      ? `来源人物 / 作品的美国调查认知为 ${related.surveyFamePercent}%；不等于这张历史图的认知。`
+      : "暂无美国人口同口径认知证据；馆藏与公版状态不等于大众知名度。",
+    reuseEvidence: "本库提供具体公版版本作为可改编底图；不以网络转发量冒充复用度。",
+    trendStatus: "历史公版",
+    recentHeat: false,
     activityScore: Math.min(88, Math.max(58, item.awarenessScore || 60)),
     activityLabel: "公版改编底图",
     activityEvidence: "来自本库已核验的具体公版视觉；不是 Meme 流行度数据。",
@@ -538,6 +763,9 @@ async function ensureImage(record) {
     record.imageOriginalUrl,
     ...record.variants.map((variant) => {
       if (variant.provider === "Memegen") return `https://api.memegen.link/images/${variant.templateId}.jpg`;
+      if (variant.provider === "Know Your Meme") {
+        return kymRecords.find((item) => item.path === variant.templateId)?.imageUrl || "";
+      }
       const sourceItem = imgflip.find((item) => String(item.id) === String(variant.templateId));
       return sourceItem?.url || "";
     }),
@@ -554,9 +782,16 @@ async function ensureImage(record) {
     try {
       const buffer = await downloadBuffer(url);
       const tempPath = path.join(os.tmpdir(), `meme-source-${process.pid}-${shortHash(url)}.img`);
+      const fallbackPngPath = `${tempPath}.png`;
       fs.writeFileSync(tempPath, buffer);
-      execFileSync("cwebp", ["-quiet", "-q", "76", "-m", "4", tempPath, "-o", outputPath], { stdio: "pipe" });
+      try {
+        execFileSync("cwebp", ["-quiet", "-q", "76", "-m", "4", tempPath, "-o", outputPath], { stdio: "pipe" });
+      } catch {
+        execFileSync("sips", ["-s", "format", "png", tempPath, "--out", fallbackPngPath], { stdio: "pipe" });
+        execFileSync("cwebp", ["-quiet", "-q", "76", "-m", "4", fallbackPngPath, "-o", outputPath], { stdio: "pipe" });
+      }
       fs.rmSync(tempPath, { force: true });
+      fs.rmSync(fallbackPngPath, { force: true });
       record.image = `meme-images/${fileName}`;
       record.imageOriginalUrl = url;
       return;
@@ -585,19 +820,23 @@ const countsBy = (key) => Object.fromEntries([...new Set(records.map((item) => i
   .sort((a, b) => String(a).localeCompare(String(b), "zh-CN"))
   .map((value) => [value, records.filter((item) => item[key] === value).length]));
 const dataset = {
-  schemaVersion: "1.0.0",
-  sourceVersion: `meme-library-${source.researchDate}-v1`,
+  schemaVersion: "2.0.0",
+  sourceVersion: `meme-library-${researchDate}-v2`,
   generatedAt: new Date().toISOString(),
-  researchDate: source.researchDate,
+  researchDate,
   title: "美国 Meme 图谱",
-  scope: "Meme 家族、来源人物/作品、视觉结构、平台活跃信号和商业权利路由；现代原图只作研究参考。",
+  scope: "Meme 家族、来源人物/作品、年代、历史传播、当前复用、近年趋势与商业权利路由；现代原图只作研究参考。",
   methodology: {
     familyUnit: "同一叙事模板的不同服务版本合并为一个 Meme 家族；来源人物/作品另行聚合。",
-    activity: "Imgflip 排名与 caption count 是平台信号，不等于美国人口认知；Memegen 收录只证明模板目录存在。",
+    recognition: "只有关联超级 IP 的调查百分比可称来源人物 / 作品认知；它不等于 Meme 认知。未找到同口径人口调查时明确留空。",
+    historicalSpread: "Know Your Meme 条目浏览量、历史排序和画廊数量是历史传播 / 变体代理，不是美国人口知名度。",
+    currentReuse: "Imgflip 排名与 caption count 是当前模板平台信号；Memegen 收录只证明模板目录存在。",
+    recentTrend: "KYM 年度榜与近期 Meme Review 是编辑 / 社群趋势线索，不是全网市场份额。",
     rights: "现代影视、摄影、名人、角色和互联网创作者素材默认不进入生产池；公版条目只适用于列明的具体历史版本。",
     sources: [
       { name: "Memegen template API", url: MEMEGEN_URL, records: memegen.length },
       { name: "Imgflip get_memes API", url: IMGFLIP_URL, records: imgflip.length },
+      { name: "Know Your Meme confirmed entries and editorials", url: "https://knowyourmeme.com/memes", records: kymRecords.length },
       { name: "Public-domain visual catalog", url: "data/catalog.json", records: publicDomainRecords.length },
     ],
   },
@@ -606,7 +845,13 @@ const dataset = {
     contemporary: modernRecords.length,
     publicDomain: publicDomainRecords.length,
     currentSignals: records.filter((item) => item.currentTemplateRank).length,
+    kymEvidence: records.filter((item) => item.kymViews || item.editorialEvidence?.length).length,
+    recentTwoYears: records.filter((item) => Number(item.firstSeenYear) >= 2025).length,
+    recentHeat: records.filter((item) => item.recentHeat).length,
+    recentEditorial: records.filter((item) => item.editorialEvidence?.some((evidence) => evidence.signal === "recent-editorial")).length,
+    highReuse: records.filter((item) => item.reuseTier === "高复用线索" || item.reuseTier === "近年上升").length,
     linkedSuperIp: records.filter((item) => item.relatedSuperIp).length,
+    byEra: countsBy("era"),
     byCategory: countsBy("category"),
     byRights: countsBy("rightsLane"),
   },
@@ -617,7 +862,7 @@ const json = `${JSON.stringify(dataset, null, 2)}\n`;
 fs.writeFileSync(outputJsonPath, json);
 fs.writeFileSync(outputJsPath, `window.MEME_LIBRARY_DATA=${JSON.stringify(dataset)};\n`);
 fs.writeFileSync(manifestPath, `${JSON.stringify({
-  schemaVersion: "1.0.0",
+  schemaVersion: "2.0.0",
   generatedAt: dataset.generatedAt,
   sourceVersion: dataset.sourceVersion,
   counts: dataset.counts,
@@ -634,6 +879,11 @@ console.log(JSON.stringify({
   contemporary: dataset.counts.contemporary,
   publicDomain: dataset.counts.publicDomain,
   currentSignals: dataset.counts.currentSignals,
+  kymEvidence: dataset.counts.kymEvidence,
+  recentTwoYears: dataset.counts.recentTwoYears,
+  recentHeat: dataset.counts.recentHeat,
+  recentEditorial: dataset.counts.recentEditorial,
+  highReuse: dataset.counts.highReuse,
   linkedSuperIp: dataset.counts.linkedSuperIp,
   imageFiles: JSON.parse(fs.readFileSync(manifestPath, "utf8")).imageFiles,
 }, null, 2));

@@ -15,7 +15,7 @@ const fail = (condition, message) => {
 };
 
 fail(Array.isArray(data.records), "records must be an array");
-fail(data.records.length >= 300, `expected at least 300 records, got ${data.records.length}`);
+fail(data.records.length >= 900, `expected at least 900 records, got ${data.records.length}`);
 
 const required = [
   "id",
@@ -34,6 +34,12 @@ const required = [
   "trademarkNote",
   "productionRoute",
   "activityEvidence",
+  "era",
+  "reuseTier",
+  "recognitionEvidence",
+  "reuseEvidence",
+  "trendStatus",
+  "recentHeat",
   "evidenceLevel",
 ];
 const ids = new Set();
@@ -43,6 +49,11 @@ let publicDomain = 0;
 let contemporary = 0;
 let currentSignals = 0;
 let linkedSuperIp = 0;
+let kymEvidence = 0;
+let recentTwoYears = 0;
+let recentHeat = 0;
+let recentEditorial = 0;
+let highReuse = 0;
 
 for (const [index, record] of data.records.entries()) {
   const label = record.id || `record ${index}`;
@@ -50,6 +61,7 @@ for (const [index, record] of data.records.entries()) {
   fail(!ids.has(record.id), `${label}: duplicate id`);
   ids.add(record.id);
   fail(Array.isArray(record.useCases) && record.useCases.length > 0, `${label}: missing useCases`);
+  fail(Array.isArray(record.editorialEvidence), `${label}: editorialEvidence must be an array`);
   fail(Number.isInteger(record.slots) && record.slots >= 1, `${label}: invalid slots`);
   fail(/^https?:\/\//.test(record.sourceUrl), `${label}: invalid sourceUrl`);
 
@@ -72,6 +84,11 @@ for (const [index, record] of data.records.entries()) {
     fail(record.image.startsWith("meme-images/"), `${label}: modern record should use research-image cache`);
   }
   if (Number.isFinite(record.currentTemplateRank)) currentSignals += 1;
+  if (record.kymViews || record.editorialEvidence?.length) kymEvidence += 1;
+  if (Number(record.firstSeenYear) >= 2025) recentTwoYears += 1;
+  if (record.recentHeat) recentHeat += 1;
+  if (record.editorialEvidence?.some((evidence) => evidence.signal === "recent-editorial")) recentEditorial += 1;
+  if (["高复用线索", "近年上升"].includes(record.reuseTier)) highReuse += 1;
   if (record.relatedSuperIp) {
     linkedSuperIp += 1;
     fail(superIds.has(record.relatedSuperIp.id), `${label}: missing related Super IP ${record.relatedSuperIp.id}`);
@@ -82,7 +99,27 @@ fail(data.counts.records === data.records.length, "counts.records mismatch");
 fail(data.counts.publicDomain === publicDomain, "counts.publicDomain mismatch");
 fail(data.counts.contemporary === contemporary, "counts.contemporary mismatch");
 fail(data.counts.currentSignals === currentSignals, "counts.currentSignals mismatch");
+fail(data.counts.kymEvidence === kymEvidence, "counts.kymEvidence mismatch");
+fail(data.counts.recentTwoYears === recentTwoYears, "counts.recentTwoYears mismatch");
+fail(data.counts.recentHeat === recentHeat, "counts.recentHeat mismatch");
+fail(data.counts.recentEditorial === recentEditorial, "counts.recentEditorial mismatch");
+fail(data.counts.highReuse === highReuse, "counts.highReuse mismatch");
 fail(data.counts.linkedSuperIp === linkedSuperIp, "counts.linkedSuperIp mismatch");
+fail(kymEvidence >= 700, `expected at least 700 KYM-backed records, got ${kymEvidence}`);
+fail(recentTwoYears >= 40, `expected at least 40 records from 2025–2026, got ${recentTwoYears}`);
+fail(recentEditorial >= 20, `expected at least 20 recent editorial signals, got ${recentEditorial}`);
+
+const titleIndex = data.records.map((record) => `${record.name} ${(record.aliases || []).join(" ")}`.toLowerCase());
+for (const expected of ["chill guy", "hawk tuah", "67 meme", "italian brainrot", "moo-deng"]) {
+  fail(titleIndex.some((title) => title.includes(expected)), `missing recent benchmark: ${expected}`);
+}
+
+const kymSnapshotPath = path.join(root, "source", "meme-kym-snapshot.json");
+fail(fs.existsSync(kymSnapshotPath), "missing source/meme-kym-snapshot.json");
+if (fs.existsSync(kymSnapshotPath)) {
+  const kymSnapshot = JSON.parse(fs.readFileSync(kymSnapshotPath, "utf8"));
+  fail(kymSnapshot.records?.length >= 900, `expected at least 900 KYM source records, got ${kymSnapshot.records?.length || 0}`);
+}
 
 const context = { window: {} };
 vm.runInNewContext(fs.readFileSync(jsPath, "utf8"), context, { filename: jsPath });
@@ -108,6 +145,11 @@ console.log(JSON.stringify({
   contemporary,
   publicDomain,
   currentSignals,
+  kymEvidence,
+  recentTwoYears,
+  recentHeat,
+  recentEditorial,
+  highReuse,
   linkedSuperIp,
   imageFiles: new Set(data.records.map((record) => record.image)).size,
   status: "valid",

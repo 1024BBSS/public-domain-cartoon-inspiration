@@ -14,6 +14,7 @@
     categorySelect: $("#category-select"),
     subcategorySelect: $("#subcategory-select"),
     rightsSelect: $("#rights-select"),
+    eraSelect: $("#era-select"),
     scenarioSelect: $("#scenario-select"),
     sortSelect: $("#sort-select"),
     reset: $("#reset"),
@@ -29,8 +30,9 @@
     quickTabs: $("#quick-tabs"),
     metricAll: $("#metric-all"),
     metricSignals: $("#metric-signals"),
+    metricKym: $("#metric-kym"),
+    metricRecent: $("#metric-recent"),
     metricPd: $("#metric-pd"),
-    metricLinked: $("#metric-linked"),
     resultTitle: $("#result-title"),
     resultCount: $("#result-count"),
     pageStatus: $("#page-status"),
@@ -48,7 +50,10 @@
     detailBadges: $("#detail-badges"),
     detailMechanic: $("#detail-mechanic"),
     detailUseCases: $("#detail-use-cases"),
+    detailEra: $("#detail-era"),
     detailSlots: $("#detail-slots"),
+    detailRecognition: $("#detail-recognition"),
+    detailReuse: $("#detail-reuse"),
     detailActivity: $("#detail-activity"),
     detailAgentPattern: $("#detail-agent-pattern"),
     detailProduction: $("#detail-production"),
@@ -92,6 +97,16 @@
     "创作者版权需核验",
     "原图权利待核验",
   ];
+  const eraOrder = [
+    "近两年热门 · 2025–2026",
+    "短视频扩散 · 2023–2024",
+    "平台 Meme · 2018–2022",
+    "反应图 / GIF · 2012–2017",
+    "图片宏 / Web 2.0 · 2005–2011",
+    "早期互联网 · ≤2004",
+    "历史公版视觉",
+    "年代待复核",
+  ];
 
   function normalize(value) {
     return String(value || "").normalize("NFKC").toLocaleLowerCase("en-US").replace(/\s+/g, " ").trim();
@@ -99,6 +114,14 @@
 
   function unique(values) {
     return [...new Set(values.filter(Boolean))];
+  }
+
+  function compactNumber(value) {
+    const number = Number(value);
+    if (!Number.isFinite(number) || number <= 0) return "";
+    if (number >= 1_000_000) return `${(number / 1_000_000).toFixed(number >= 10_000_000 ? 0 : 1)}M`;
+    if (number >= 1_000) return `${(number / 1_000).toFixed(number >= 100_000 ? 0 : 1)}K`;
+    return String(number);
   }
 
   function el(tag, className, text) {
@@ -142,6 +165,11 @@
       record.mechanic,
       ...(record.useCases || []),
       record.rightsLane,
+      record.firstSeenYear,
+      record.era,
+      record.reuseTier,
+      record.trendStatus,
+      ...(record.editorialEvidence || []).map((item) => `${item.label} ${item.selection || ""}`),
     ].join(" ")),
   }));
   const recordById = new Map(records.map((record) => [record.id, record]));
@@ -153,9 +181,18 @@
     ...rightsOrder.filter((right) => records.some((record) => record.rightsLane === right)),
     ...unique(records.map((record) => record.rightsLane)).filter((right) => !rightsOrder.includes(right)),
   ];
+  const eras = [
+    ...eraOrder.filter((era) => records.some((record) => record.era === era)),
+    ...unique(records.map((record) => record.era)).filter((era) => !eraOrder.includes(era)),
+  ];
   const scenarios = unique(records.flatMap((record) => record.useCases || [])).sort((a, b) => a.localeCompare(b, "zh-CN"));
   const quickOptions = [
     { key: "全部", label: "全部", test: () => true },
+    { key: "历史高传播", label: "历史高传播", test: (record) => Number(record.kymViews || 0) >= 1_000_000 || Number(record.kymHistoricalRank || 999999) <= 200 },
+    { key: "近两年", label: "2025–2026 有证据热榜", test: (record) => Boolean(record.recentHeat) },
+    { key: "2026上升", label: "2026 编辑榜", test: (record) => record.editorialEvidence?.some((item) => item.signal === "recent-editorial") },
+    { key: "高复用", label: "高复用线索", test: (record) => ["高复用线索", "近年上升"].includes(record.reuseTier) },
+    { key: "高认知来源", label: "来源认知 75%+", test: (record) => Number(record.relatedSuperIp?.surveyFamePercent || 0) >= 75 },
     { key: "当前榜", label: "当前模板榜", test: (record) => Number.isFinite(record.currentTemplateRank) },
     { key: "公版", label: "具体公版底图", test: (record) => record.rightsLane === "公版具体版本" },
     { key: "关联IP", label: "关联超级 IP", test: (record) => Boolean(record.relatedSuperIp) },
@@ -180,9 +217,10 @@
       category,
       subcategory: subcategories.includes(requestedSubcategory) ? requestedSubcategory : "全部",
       rights: rightsLanes.includes(params.get("rights")) ? params.get("rights") : "全部",
+      era: eras.includes(params.get("era")) ? params.get("era") : "全部",
       scenario: scenarios.includes(params.get("scenario")) ? params.get("scenario") : "全部",
       quick: quickOptions.some((option) => option.key === params.get("quick")) ? params.get("quick") : "全部",
-      sort: ["activity", "awareness", "category", "name"].includes(params.get("sort")) ? params.get("sort") : "activity",
+      sort: ["evidence", "recent", "historical", "reuse", "awareness", "category", "name"].includes(params.get("sort")) ? params.get("sort") : "evidence",
       visible: Math.max(1, Number(params.get("page")) || 1) * BATCH_SIZE,
       item: params.get("item") || "",
       entity: params.get("entity") || "",
@@ -206,9 +244,10 @@
     if (state.category !== "全部") params.set("category", state.category);
     if (state.subcategory !== "全部") params.set("subcategory", state.subcategory);
     if (state.rights !== "全部") params.set("rights", state.rights);
+    if (state.era !== "全部") params.set("era", state.era);
     if (state.scenario !== "全部") params.set("scenario", state.scenario);
     if (state.quick !== "全部") params.set("quick", state.quick);
-    if (state.sort !== "activity") params.set("sort", state.sort);
+    if (state.sort !== "evidence") params.set("sort", state.sort);
     if (state.visible > BATCH_SIZE) params.set("page", String(Math.ceil(state.visible / BATCH_SIZE)));
     if (state.item) params.set("item", state.item);
     if (state.entity) params.set("entity", state.entity);
@@ -237,6 +276,7 @@
       if (state.category !== "全部" && record.category !== state.category) return false;
       if (state.subcategory !== "全部" && record.subcategory !== state.subcategory) return false;
       if (state.rights !== "全部" && record.rightsLane !== state.rights) return false;
+      if (state.era !== "全部" && record.era !== state.era) return false;
       if (state.scenario !== "全部" && !(record.useCases || []).includes(state.scenario)) return false;
       return quick.test(record);
     });
@@ -248,6 +288,19 @@
       if (state.sort === "name") return a.name.localeCompare(b.name, "en");
       if (state.sort === "category") return a.category.localeCompare(b.category, "zh-CN") || a.subcategory.localeCompare(b.subcategory, "zh-CN") || a.name.localeCompare(b.name, "en");
       if (state.sort === "awareness") return Number(b.relatedSuperIp?.surveyFamePercent || 0) - Number(a.relatedSuperIp?.surveyFamePercent || 0) || b.activityScore - a.activityScore || a.name.localeCompare(b.name, "en");
+      if (state.sort === "recent") {
+        const recentA = a.recentHeat ? 1 : 0;
+        const recentB = b.recentHeat ? 1 : 0;
+        return recentB - recentA || Number(b.firstSeenYear || 0) - Number(a.firstSeenYear || 0) || Number(b.kymViews || 0) - Number(a.kymViews || 0) || a.name.localeCompare(b.name, "en");
+      }
+      if (state.sort === "historical") return Number(b.kymViews || 0) - Number(a.kymViews || 0) || Number(a.kymHistoricalRank || 999999) - Number(b.kymHistoricalRank || 999999) || a.name.localeCompare(b.name, "en");
+      if (state.sort === "reuse") {
+        const weight = { "近年上升": 5, "高复用线索": 4, "中复用线索": 3, "已形成变体": 2, "基础档案": 1, "公版改编池": 0 };
+        return Number(weight[b.reuseTier] || 0) - Number(weight[a.reuseTier] || 0)
+          || Number(b.currentCaptionCount || 0) - Number(a.currentCaptionCount || 0)
+          || Number(b.kymImages || 0) - Number(a.kymImages || 0)
+          || a.name.localeCompare(b.name, "en");
+      }
       return b.activityScore - a.activityScore || Number(a.currentTemplateRank || 9999) - Number(b.currentTemplateRank || 9999) || a.name.localeCompare(b.name, "en");
     });
   }
@@ -269,6 +322,9 @@
       group.categories = unique(group.records.map((record) => record.category));
       group.works = unique(group.records.map((record) => record.originWork).filter((work) => work && work !== "互联网原生模板"));
       group.currentCount = group.records.filter((record) => Number.isFinite(record.currentTemplateRank)).length;
+      group.kymCount = group.records.filter((record) => record.kymViews || record.editorialEvidence?.length).length;
+      group.recentCount = group.records.filter((record) => record.recentHeat).length;
+      group.highReuseCount = group.records.filter((record) => ["高复用线索", "近年上升"].includes(record.reuseTier)).length;
       group.publicDomainCount = group.records.filter((record) => record.rightsLane === "公版具体版本").length;
       group.relatedSuperIp = group.records.map((record) => record.relatedSuperIp).filter(Boolean).sort((a, b) => Number(b.surveyFamePercent || 0) - Number(a.surveyFamePercent || 0))[0] || null;
       group.score = Math.max(...group.records.map((record) => record.activityScore || 0));
@@ -278,6 +334,9 @@
       if (state.sort === "name") return a.name.localeCompare(b.name, "en");
       if (state.sort === "awareness") return Number(b.relatedSuperIp?.surveyFamePercent || 0) - Number(a.relatedSuperIp?.surveyFamePercent || 0) || b.records.length - a.records.length;
       if (state.sort === "category") return a.categories.join(" ").localeCompare(b.categories.join(" "), "zh-CN") || a.name.localeCompare(b.name, "en");
+      if (state.sort === "recent") return b.recentCount - a.recentCount || b.score - a.score || a.name.localeCompare(b.name, "en");
+      if (state.sort === "historical") return Math.max(...b.records.map((record) => Number(record.kymViews || 0))) - Math.max(...a.records.map((record) => Number(record.kymViews || 0))) || a.name.localeCompare(b.name, "en");
+      if (state.sort === "reuse") return b.highReuseCount - a.highReuseCount || b.score - a.score || a.name.localeCompare(b.name, "en");
       return b.score - a.score || b.records.length - a.records.length || a.name.localeCompare(b.name, "en");
     });
   }
@@ -316,6 +375,8 @@
 
     dom.rightsSelect.replaceChildren(makeOption("全部", "全部权利入口"), ...rightsLanes.map((right) => makeOption(right)));
     dom.rightsSelect.value = state.rights;
+    dom.eraSelect.replaceChildren(makeOption("全部", "全部年代"), ...eras.map((era) => makeOption(era)));
+    dom.eraSelect.value = state.era;
     dom.scenarioSelect.replaceChildren(makeOption("全部", "全部使用场景"), ...scenarios.map((scenario) => makeOption(scenario)));
     dom.scenarioSelect.value = state.scenario;
     dom.sortSelect.value = state.sort;
@@ -385,15 +446,21 @@
     const media = el("div", "meme-card__media");
     media.append(makeImage(record.image, record.name));
     const mediaBadges = el("div", "media-badges");
-    const signal = Number.isFinite(record.currentTemplateRank)
-      ? el("span", "card-badge", `模板榜 #${record.currentTemplateRank}`)
-      : el("span", record.rightsLane === "公版具体版本" ? "card-badge card-badge--ok" : "card-badge", record.activityLabel);
+    const isRecentEditorial = record.editorialEvidence?.some((item) => item.signal === "recent-editorial");
+    const signalText = isRecentEditorial
+      ? "2026 编辑榜"
+      : Number(record.kymViews || 0) >= 1_000_000
+        ? `KYM ${compactNumber(record.kymViews)} 浏览`
+        : Number.isFinite(record.currentTemplateRank)
+          ? `模板榜 #${record.currentTemplateRank}`
+          : record.activityLabel;
+    const signal = el("span", record.rightsLane === "公版具体版本" ? "card-badge card-badge--ok" : "card-badge", signalText);
     mediaBadges.append(signal, el("span", rightsBadgeClass(record.rightsLane), compactRights(record.rightsLane)));
     media.append(mediaBadges);
 
     const body = el("div", "meme-card__body");
     body.append(
-      el("div", "meme-card__path", `${record.category} · ${record.subcategory}`),
+      el("div", "meme-card__path", `${record.firstSeenYear || "年代待复核"} · ${record.category} · ${record.subcategory}`),
       el("h2", "meme-card__title", record.name),
       el("div", "meme-card__origin", `${record.originEntity}${record.originWork && record.originWork !== record.originEntity ? ` · ${record.originWork}` : ""}`),
       el("p", "meme-card__mechanic", record.mechanic),
@@ -401,7 +468,7 @@
     const foot = el("div", "meme-card__foot");
     const cues = el("div", "cue-list");
     (record.useCases || []).slice(0, 2).forEach((cue) => cues.append(el("span", "cue", cue)));
-    foot.append(cues, el("span", "slot-count", `${record.slots} 槽`));
+    foot.append(cues, el("span", "slot-count", record.reuseTier || `${record.slots} 槽`));
     body.append(foot);
     button.append(media, body);
     button.addEventListener("click", () => openDetail(record));
@@ -424,6 +491,10 @@
     const foot = el("div", "source-card__foot");
     const status = group.relatedSuperIp?.surveyFamePercent
       ? `来源认知 ${group.relatedSuperIp.surveyFamePercent}%`
+      : group.recentCount
+        ? `${group.recentCount} 条近年 / 近期`
+        : group.kymCount
+          ? `${group.kymCount} 条传播证据`
       : group.currentCount
         ? `${group.currentCount} 条当前信号`
         : group.publicDomainCount
@@ -460,11 +531,12 @@
   }
 
   function renderMetrics() {
-    dom.topMeta.textContent = `${dataset.counts.records} 家族 · ${dataset.counts.publicDomain} 公版底图`;
+    dom.topMeta.textContent = `${dataset.counts.records} 家族 · ${dataset.counts.recentHeat || 0} 条有证据近年热榜`;
     dom.metricAll.textContent = dataset.counts.records.toLocaleString("en-US");
     dom.metricSignals.textContent = dataset.counts.currentSignals.toLocaleString("en-US");
+    dom.metricKym.textContent = Number(dataset.counts.kymEvidence || 0).toLocaleString("en-US");
+    dom.metricRecent.textContent = Number(dataset.counts.recentHeat || 0).toLocaleString("en-US");
     dom.metricPd.textContent = dataset.counts.publicDomain.toLocaleString("en-US");
-    dom.metricLinked.textContent = dataset.counts.linkedSuperIp.toLocaleString("en-US");
   }
 
   function badge(text, modifier = "") {
@@ -489,10 +561,14 @@
       : badge(record.activityLabel);
     const rightsModifier = record.rightsLane === "公版具体版本" ? "badge--ok" : record.rightsLane.includes("授权") || record.rightsLane.includes("肖像") || record.rightsLane.includes("创作者") ? "badge--warn" : "";
     const awarenessBadge = record.relatedSuperIp?.surveyFamePercent ? badge(`来源认知 ${record.relatedSuperIp.surveyFamePercent}%`) : null;
-    dom.detailBadges.replaceChildren(badge(record.rightsLane, rightsModifier), activityBadge, badge(`证据 ${record.evidenceLevel}`), ...(awarenessBadge ? [awarenessBadge] : []));
+    const yearBadge = record.firstSeenYear ? badge(String(record.firstSeenYear)) : badge("年代待复核");
+    dom.detailBadges.replaceChildren(badge(record.rightsLane, rightsModifier), activityBadge, badge(record.reuseTier || "复用待复核"), yearBadge, badge(`证据 ${record.evidenceLevel}`), ...(awarenessBadge ? [awarenessBadge] : []));
     dom.detailMechanic.textContent = record.mechanic;
     dom.detailUseCases.textContent = (record.useCases || []).join(" · ") || "待补";
+    dom.detailEra.textContent = record.era || "年代待复核";
     dom.detailSlots.textContent = `${record.slots} 个；用于描述信息结构，不代表可直接复制画面。`;
+    dom.detailRecognition.textContent = record.recognitionEvidence || "暂无美国人口同口径认知证据。";
+    dom.detailReuse.textContent = record.reuseEvidence || "复用证据待补。";
     dom.detailActivity.textContent = record.activityEvidence;
     dom.detailAgentPattern.textContent = record.agentPattern;
     dom.detailProduction.textContent = record.productionRoute;
@@ -511,7 +587,11 @@
       link.href = variant.sourceUrl || record.sourceUrl;
       link.target = "_blank";
       link.rel = "noreferrer";
-      const signal = Number.isFinite(variant.rank) ? `榜 #${variant.rank}${variant.captions ? ` · ${Number(variant.captions).toLocaleString("en-US")} captions` : ""}` : "目录记录";
+      const signal = variant.provider === "Know Your Meme"
+        ? `${variant.year || "年代待复核"}${variant.views ? ` · ${compactNumber(variant.views)} 浏览` : ""}${variant.images || variant.videos ? ` · ${Number(variant.images || 0)} 图 / ${Number(variant.videos || 0)} 视频` : ""}`
+        : Number.isFinite(variant.rank)
+          ? `榜 #${variant.rank}${variant.captions ? ` · ${Number(variant.captions).toLocaleString("en-US")} captions` : ""}`
+          : "目录记录";
       link.append(el("strong", "", variant.name), el("small", "", `${variant.provider} · ${signal}`));
       return link;
     }));
@@ -549,8 +629,9 @@
     dom.sourceSubtitle.textContent = group.works.length ? group.works.join(" · ") : "来源作品尚未归并；按单个 Meme 家族浏览。";
     dom.sourceSummary.replaceChildren(
       sourceMetric(group.records.length, "Meme 家族"),
-      sourceMetric(group.works.length || "—", "关联作品"),
-      sourceMetric(group.currentCount, "当前活跃信号"),
+      sourceMetric(group.kymCount, "传播证据"),
+      sourceMetric(group.recentCount, "近年 / 近期"),
+      sourceMetric(group.highReuseCount, "高复用线索"),
       sourceMetric(group.publicDomainCount, "具体公版底图"),
     );
     dom.sourceFamilyList.replaceChildren(...group.records.map((record) => {
@@ -588,6 +669,7 @@
     return [
       `Meme 家族：${record.name}`,
       `来源：${record.originEntity} / ${record.originWork || "待复核"}`,
+      `年代：${record.firstSeenYear || "待复核"} / ${record.era || "待复核"}`,
       `表达机制：${record.mechanic}`,
       `文字槽位：${record.slots}`,
       `可用场景：${(record.useCases || []).join("、") || "待补"}`,
@@ -598,6 +680,8 @@
       `肖像 / 人格：${record.publicityNote}`,
       `商标 / 来源误认：${record.trademarkNote}`,
       `活跃证据：${record.activityEvidence}`,
+      `大众认知：${record.recognitionEvidence || "待补"}`,
+      `复用度：${record.reuseTier || "待补"}；${record.reuseEvidence || "待补"}`,
       record.relatedSuperIp ? `来源知名度：${record.relatedSuperIp.nameZh || record.relatedSuperIp.name}；${record.relatedSuperIp.usTier}${record.relatedSuperIp.surveyFamePercent ? `；美国认知 ${record.relatedSuperIp.surveyFamePercent}%` : ""}；不等于 Meme 知名度` : "来源知名度：待补美国同口径证据",
       `核验来源：${record.sourceUrl}`,
     ].join("\n");
@@ -609,6 +693,9 @@
       `关联作品：${group.works.join("、") || "待归并"}`,
       `Meme 家族：${group.records.length}`,
       `当前活跃信号：${group.currentCount}`,
+      `历史传播证据：${group.kymCount}`,
+      `近年 / 近期：${group.recentCount}`,
+      `高复用线索：${group.highReuseCount}`,
       `具体公版底图：${group.publicDomainCount}`,
       group.relatedSuperIp ? `来源知名度：${group.relatedSuperIp.nameZh || group.relatedSuperIp.name}；${group.relatedSuperIp.usTier}${group.relatedSuperIp.surveyFamePercent ? `；美国认知 ${group.relatedSuperIp.surveyFamePercent}%` : ""}` : "来源知名度：待补",
       "家族清单：",
@@ -661,9 +748,10 @@
   dom.categorySelect.addEventListener("change", () => setState({ category: dom.categorySelect.value }));
   dom.subcategorySelect.addEventListener("change", () => setState({ subcategory: dom.subcategorySelect.value }));
   dom.rightsSelect.addEventListener("change", () => setState({ rights: dom.rightsSelect.value }));
+  dom.eraSelect.addEventListener("change", () => setState({ era: dom.eraSelect.value }));
   dom.scenarioSelect.addEventListener("change", () => setState({ scenario: dom.scenarioSelect.value }));
   dom.sortSelect.addEventListener("change", () => setState({ sort: dom.sortSelect.value }));
-  dom.reset.addEventListener("click", () => setState({ q: "", category: "全部", subcategory: "全部", rights: "全部", scenario: "全部", quick: "全部", sort: "activity", item: "", entity: "" }));
+  dom.reset.addEventListener("click", () => setState({ q: "", category: "全部", subcategory: "全部", rights: "全部", era: "全部", scenario: "全部", quick: "全部", sort: "evidence", item: "", entity: "" }));
   dom.emptyReset.addEventListener("click", () => dom.reset.click());
   dom.viewTabs.addEventListener("click", (event) => {
     const button = event.target.closest("[data-view]");
