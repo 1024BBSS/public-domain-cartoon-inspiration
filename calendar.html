@@ -9,9 +9,9 @@
   <link rel="alternate" type="application/json" href="data/consumer-calendar.json" title="美国消费力日历 Agent 数据">
   <link rel="stylesheet" href="assets/tokens.css">
   <link rel="stylesheet" href="assets/components.css">
-  <link rel="stylesheet" href="assets/consumer-calendar.css?v=1.3.2">
-  <script defer src="data/consumer-calendar.js?v=1.3.2"></script>
-  <script defer src="assets/consumer-calendar.js?v=1.3.2"></script>
+  <link rel="stylesheet" href="assets/consumer-calendar.css?v=1.4.1">
+  <script defer src="data/consumer-calendar.js?v=1.4.1"></script>
+  <script defer src="assets/consumer-calendar.js?v=1.4.1"></script>
 </head>
 <body>
   <div class="app">
@@ -28,25 +28,6 @@
     </header>
 
     <div class="body">
-      <aside class="sidebar calendar-sidebar" aria-label="消费日历筛选">
-        <div class="sidebar__section">
-          <div class="sidebar__label">时间窗口</div>
-          <nav class="facet-list" id="range-facets"></nav>
-        </div>
-        <div class="sidebar__section">
-          <div class="sidebar__label">节点类型</div>
-          <nav class="facet-list" id="type-facets"></nav>
-        </div>
-        <div class="sidebar__section">
-          <div class="sidebar__label">叠加层</div>
-          <label class="layer-toggle"><input id="payday-toggle" type="checkbox" checked><span>发薪脉冲</span></label>
-          <label class="layer-toggle"><input id="region-toggle" type="checkbox" checked><span>天气 / 地区</span></label>
-        </div>
-        <div class="sidebar__section sidebar__section--tail">
-          <p class="boundary-note">金额按同口径单列；节日调查、线上销售、零售、捐赠、人群经济盘和退税不相加。天气是最近五年历史同期均值，不是预报。</p>
-        </div>
-      </aside>
-
       <main class="main calendar-main" id="main-content">
         <section class="calendar-toolbar" aria-label="搜索与条件">
           <label class="search-field">
@@ -67,52 +48,51 @@
             <option value="4" selected>4 级以上</option>
             <option value="3">3 级以上</option>
           </select>
+          <details class="display-menu" id="display-menu">
+            <summary class="btn btn--secondary" id="display-summary">显示</summary>
+            <div class="display-menu__popover" role="group" aria-label="显示设置">
+              <div class="display-menu__title">显示设置</div>
+              <label class="layer-toggle"><input id="detail-toggle" type="checkbox"><span>行详情</span></label>
+            </div>
+          </details>
           <button class="btn btn--secondary" id="reset" type="button">重置</button>
         </section>
 
-        <section class="calendar-kpis" aria-label="未来窗口摘要">
-          <div class="calendar-kpi"><strong id="today-label">—</strong><span>今天</span></div>
-          <div class="calendar-kpi"><strong id="window-label">—</strong><span>观察窗口</span></div>
-          <div class="calendar-kpi"><strong id="active-count">0</strong><span>相交消费季</span></div>
-          <div class="calendar-kpi"><strong id="largest-spend">—</strong><span id="largest-spend-label">窗口最大可比盘</span></div>
+        <section class="calendar-summary" aria-label="未来窗口摘要">
+          <div class="calendar-summary__item"><span>今天</span><strong id="today-label">—</strong></div>
+          <div class="calendar-summary__item"><span>窗口</span><strong id="window-label">—</strong></div>
+          <div class="calendar-summary__item"><span>节点</span><strong id="active-count">0</strong></div>
+          <div class="calendar-summary__item calendar-summary__item--money"><span id="largest-spend-label">最大可比盘</span><strong id="largest-spend">—</strong></div>
         </section>
 
-        <section class="boundary-strip" aria-label="口径说明">
-          <span class="boundary-dot boundary-dot--fact"></span><b>事实</b><span>节日 / 公开日期</span>
-          <span class="boundary-dot boundary-dot--model"></span><b>建议</b><span>消费季与运营倒排</span>
-          <span class="boundary-dot boundary-dot--cash"></span><b>现金流</b><span>结构性脉冲，不是全国发薪日</span>
-          <span class="boundary-dot boundary-dot--weather"></span><b>天气</b><span>2021–2025 历史均值，不是预报</span>
-          <span class="boundary-dot boundary-dot--money"></span><b>金额</b><span>同口径看趋势，不跨口径相加</span>
-        </section>
-
-        <section class="panel payday-panel" id="payday-panel">
-          <div class="panel__head calendar-panel-head">
-            <div>
-              <div class="panel__title">发薪脉冲</div>
-              <div class="panel__sub">周五主峰 + 月初 / 月中 + 月末薄层</div>
-            </div>
-            <a class="source-link" id="payday-source" target="_blank" rel="noreferrer">BLS 口径</a>
-          </div>
-          <div class="payday-distribution" id="payday-distribution"></div>
-          <div class="timeline-shell timeline-shell--cash">
-            <div class="timeline-axis" id="payday-axis"></div>
-            <div class="cash-track" id="cash-track" aria-label="工资现金流观察窗"></div>
-          </div>
-          <p class="inline-warning" id="payday-warning"></p>
-        </section>
+        <details class="boundary-disclosure">
+          <summary>口径与数据边界</summary>
+          <section class="boundary-strip" aria-label="口径说明">
+            <span class="boundary-dot boundary-dot--fact"></span><b>事实</b><span>公开日期</span>
+            <span class="boundary-dot boundary-dot--model"></span><b>建议</b><span>消费季与运营倒排</span>
+            <span class="boundary-dot boundary-dot--cash"></span><b>发薪</b><span>结构性观察窗</span>
+            <span class="boundary-dot boundary-dot--weather"></span><b>天气</b><span>2021–2025 历史同期</span>
+            <span class="boundary-dot boundary-dot--money"></span><b>金额</b><span>只看同口径趋势</span>
+          </section>
+        </details>
 
         <section class="panel gantt-panel">
           <div class="panel__head calendar-panel-head">
             <div>
-              <div class="panel__title">消费季甘特</div>
-              <div class="panel__sub"><span id="result-count">0</span> 个节点 · 总盘为父级，相关节日各有独立时间轴</div>
+              <div class="panel__title">消费节点</div>
+              <div class="panel__sub"><span id="result-count">0</span> 项 · 点击查看详情</div>
             </div>
             <div class="gantt-legend" aria-label="甘特图图例">
-              <span><i class="legend-season"></i>持续消费季</span>
+              <span><i class="legend-season"></i>消费季</span>
               <span><i class="legend-preheat"></i>预热</span>
               <span><i class="legend-peak"></i>高峰</span>
               <span><i class="legend-anchor"></i>当日</span>
             </div>
+          </div>
+          <div class="payday-inline" id="payday-inline" aria-label="发薪点颜色图例">
+            <strong>发薪点</strong>
+            <span class="payday-inline__keys" id="payday-inline-copy">—</span>
+            <a class="source-link" id="payday-source" target="_blank" rel="noreferrer">BLS 口径</a>
           </div>
           <div class="gantt-table" id="gantt-table">
             <div class="gantt-axis-row">

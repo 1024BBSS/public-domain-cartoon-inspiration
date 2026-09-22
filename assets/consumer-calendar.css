@@ -4,7 +4,8 @@
 .calendar-main {
   display: flex;
   flex-direction: column;
-  gap: var(--space-3);
+  gap: var(--space-2);
+  padding: var(--space-3);
   padding-bottom: 72px;
 }
 
@@ -13,7 +14,7 @@
   top: 0;
   z-index: 20;
   display: grid;
-  grid-template-columns: minmax(240px, 1fr) repeat(3, minmax(132px, auto)) auto;
+  grid-template-columns: minmax(240px, 1fr) repeat(3, minmax(132px, auto)) auto auto;
   gap: var(--space-2);
   padding: var(--space-2);
   border: 1px solid var(--border);
@@ -25,25 +26,65 @@
 .search-field .input { width: 100%; }
 .compact-select { min-width: 132px; }
 
-.calendar-kpis {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+.calendar-summary {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 0;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   overflow: hidden;
 }
 
-.calendar-kpi {
-  min-height: 60px;
-  padding: var(--space-3);
+.calendar-summary__item {
+  min-width: 0;
+  padding: 0 var(--space-3);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: baseline;
+  gap: 6px;
   border-right: 1px solid var(--border);
 }
-.calendar-kpi:last-child { border-right: 0; }
-.calendar-kpi strong { font-size: var(--text-lg); line-height: var(--leading-tight); }
-.calendar-kpi span { color: var(--text-3); font-size: var(--text-xs); margin-top: 2px; }
+.calendar-summary__item:last-child { border-right: 0; }
+.calendar-summary__item--money { flex: 1; justify-content: flex-end; }
+.calendar-summary__item strong { font-size: var(--text-sm); line-height: var(--leading-tight); white-space: nowrap; }
+.calendar-summary__item span { color: var(--text-3); font-size: var(--text-xs); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.display-menu { position: relative; }
+.display-menu > summary { list-style: none; min-width: 76px; }
+.display-menu > summary::-webkit-details-marker { display: none; }
+.display-menu[open] > summary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.display-menu__popover {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 40;
+  width: 190px;
+  padding: var(--space-2);
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow);
+}
+.display-menu__title { padding: 3px var(--space-2) var(--space-1); color: var(--text-3); font-size: var(--text-xs); }
+.display-menu__popover .layer-toggle { padding: 0 var(--space-2); border-radius: var(--radius-sm); }
+.display-menu__popover .layer-toggle:hover { background: color-mix(in srgb, var(--surface-2) 70%, var(--text) 8%); }
+
+.boundary-disclosure {
+  min-height: 32px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-2);
+}
+.boundary-disclosure > summary {
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--space-3);
+  cursor: pointer;
+  font-size: var(--text-xs);
+  list-style-position: inside;
+}
+.boundary-disclosure[open] > summary { color: var(--text); border-bottom: 1px solid var(--border); }
 
 .boundary-strip {
   min-height: 34px;
@@ -52,8 +93,7 @@
   flex-wrap: wrap;
   gap: var(--space-2);
   padding: 0 var(--space-3);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
+  border: 0;
   color: var(--text-2);
   font-size: var(--text-xs);
 }
@@ -102,20 +142,35 @@
 
 .boundary-note { margin: 0; color: var(--text-3); font-size: var(--text-xs); }
 
-.payday-distribution {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+.payday-inline {
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0 var(--space-3);
   border-bottom: 1px solid var(--border);
+  color: var(--text-3);
+  font-size: var(--text-xs);
 }
-.payday-stat {
-  padding: var(--space-2) var(--space-3);
-  border-right: 1px solid var(--border);
+.payday-inline strong { color: var(--text); }
+.payday-inline .source-link { margin-left: auto; }
+.payday-inline__keys {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-width: 0;
 }
-.payday-stat:last-child { border-right: 0; }
-.payday-stat strong { display: block; font-size: var(--text-md); }
-.payday-stat span { display: block; margin-top: 2px; color: var(--text-3); font-size: var(--text-xs); }
+.payday-key { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.payday-swatch {
+  flex: 0 0 auto;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--text-2);
+}
+.payday-swatch--semi { background: var(--warn); }
+.payday-swatch--month { background: var(--series-4); }
 
-.timeline-shell { padding: var(--space-3) var(--space-4) var(--space-2); }
 .timeline-axis {
   position: relative;
   height: 24px;
@@ -134,55 +189,28 @@
   overflow: hidden;
 }
 .axis-month:last-child { border-right: 1px solid var(--border); }
-.cash-track {
-  position: relative;
-  height: 54px;
-  border-bottom: 1px solid var(--border);
-}
-.cash-marker {
+.axis-payday-marker {
   position: absolute;
-  top: 7px;
+  bottom: -1px;
   width: 1px;
-  height: 38px;
+  height: 7px;
   background: var(--border-strong);
+  z-index: 4;
 }
-.cash-marker::before {
+.axis-payday-marker::before {
   content: "";
   position: absolute;
-  top: -2px;
-  left: -3px;
-  width: 7px;
-  height: 7px;
+  top: -3px;
+  left: -2px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background: var(--text-2);
 }
-.cash-marker--semi { background: var(--warn); z-index: 2; }
-.cash-marker--semi::before { background: var(--warn); }
-.cash-marker--month { background: var(--series-4); z-index: 3; }
-.cash-marker--month::before { background: var(--series-4); }
-.cash-marker span {
-  display: none;
-  position: absolute;
-  top: 9px;
-  left: 5px;
-  width: max-content;
-  max-width: 180px;
-  padding: 4px 6px;
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  color: var(--text);
-  font-size: 11px;
-  z-index: 10;
-}
-.cash-marker:hover span { display: block; }
-
-.inline-warning {
-  margin: 0;
-  padding: 0 var(--space-4) var(--space-3);
-  color: var(--text-3);
-  font-size: var(--text-xs);
-}
+.axis-payday-marker--semi,
+.axis-payday-marker--semi::before { background: var(--warn); }
+.axis-payday-marker--month,
+.axis-payday-marker--month::before { background: var(--series-4); }
 
 .gantt-legend { display: flex; gap: var(--space-3); color: var(--text-3); font-size: var(--text-xs); }
 .gantt-legend span { display: inline-flex; align-items: center; gap: 5px; }
@@ -199,12 +227,12 @@
   grid-template-columns: 340px minmax(460px, 1fr);
 }
 .gantt-axis-row { min-height: 34px; border-bottom: 1px solid var(--border); }
-.gantt-axis-title { padding: 9px var(--space-3); color: var(--text-3); font-size: var(--text-xs); border-right: 1px solid var(--border); }
+.gantt-axis-title { padding: 9px var(--space-3); color: var(--text-3); font-size: var(--text-xs); border-right: 1px solid color-mix(in srgb, var(--border) 70%, transparent); }
 .gantt-axis-row .timeline-axis { margin: 6px var(--space-3) 0; }
 
 .gantt-row {
   min-height: 60px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid color-mix(in srgb, var(--border) 68%, transparent);
   cursor: pointer;
   transition: background var(--ease);
 }
@@ -243,7 +271,7 @@
   position: relative;
   min-width: 0;
   padding: var(--space-2) var(--space-3);
-  border-right: 1px solid var(--border);
+  border-right: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
   display: flex;
   align-items: center;
   gap: var(--space-2);
@@ -285,8 +313,18 @@
   bottom: -15px;
   width: 1px;
   background: var(--border);
-  opacity: 0.55;
+  opacity: 0.34;
 }
+
+.calendar-main:not(.is-detailed) .gantt-row { min-height: 46px; }
+.calendar-main:not(.is-detailed) .gantt-row--parent { min-height: 52px; }
+.calendar-main:not(.is-detailed) .gantt-row--child { min-height: 42px; }
+.calendar-main:not(.is-detailed) .gantt-label { padding-top: 6px; padding-bottom: 6px; }
+.calendar-main:not(.is-detailed) .gantt-name span { display: none; }
+.calendar-main:not(.is-detailed) .gantt-track { margin-top: 7px; margin-bottom: 7px; height: 28px; }
+.calendar-main:not(.is-detailed) .gantt-guide,
+.calendar-main:not(.is-detailed) .today-pin { top: -7px; bottom: -7px; }
+.calendar-main:not(.is-detailed) .gantt-money { padding-top: 3px; padding-bottom: 3px; }
 .season-bar,
 .peak-bar,
 .preheat-bar {
@@ -577,12 +615,11 @@
 @media (max-width: 900px) {
   .calendar-toolbar { position: static; grid-template-columns: 1fr 1fr; }
   .calendar-toolbar .search-field { grid-column: 1 / -1; }
-  .calendar-kpis { grid-template-columns: 1fr 1fr; }
-  .calendar-kpi:nth-child(2) { border-right: 0; }
-  .calendar-kpi:nth-child(-n + 2) { border-bottom: 1px solid var(--border); }
-  .payday-distribution { grid-template-columns: 1fr 1fr; }
-  .payday-stat:nth-child(2) { border-right: 0; }
-  .payday-stat:nth-child(-n + 2) { border-bottom: 1px solid var(--border); }
+  .calendar-summary { flex-wrap: wrap; }
+  .calendar-summary__item { min-height: 36px; flex: 1 1 50%; border-bottom: 1px solid var(--border); }
+  .calendar-summary__item:nth-child(even) { border-right: 0; }
+  .calendar-summary__item:nth-last-child(-n + 2) { border-bottom: 0; }
+  .calendar-summary__item--money { justify-content: flex-start; }
   .gantt-table { overflow-x: auto; }
   .gantt-axis-row, .gantt-row { min-width: 790px; }
   .weather-layout { grid-template-columns: 1fr; }
@@ -597,9 +634,13 @@
   .calendar-main { padding: var(--space-2); }
   .calendar-toolbar { grid-template-columns: 1fr; }
   .calendar-toolbar .search-field { grid-column: auto; }
-  .calendar-kpis { grid-template-columns: 1fr 1fr; }
-  .calendar-kpi { padding: var(--space-2); }
+  .calendar-summary__item { padding: 0 var(--space-2); }
   .boundary-strip { padding: var(--space-2); }
+  .payday-inline,
+  .payday-inline__keys { flex-wrap: wrap; padding-top: var(--space-2); padding-bottom: var(--space-2); }
+  .payday-inline__keys { gap: var(--space-2) var(--space-3); padding: 0; }
+  .payday-inline .source-link { margin-left: 0; }
+  .display-menu__popover { left: 0; right: auto; width: min(240px, calc(100vw - 32px)); }
   .gantt-legend { display: none; }
   .detail-main-head { flex-direction: column; }
   .detail-status { justify-content: flex-start; }

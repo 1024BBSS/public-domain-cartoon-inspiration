@@ -18,11 +18,10 @@
     reset: $("#reset"),
     emptyReset: $("#empty-reset"),
     copyFilter: $("#copy-filter"),
-    rangeFacets: $("#range-facets"),
-    typeFacets: $("#type-facets"),
-    paydayToggle: $("#payday-toggle"),
-    regionToggle: $("#region-toggle"),
-    paydayPanel: $("#payday-panel"),
+    displaySummary: $("#display-summary"),
+    detailToggle: $("#detail-toggle"),
+    paydayInline: $("#payday-inline"),
+    paydayInlineCopy: $("#payday-inline-copy"),
     regionPanel: $("#region-panel"),
     todayLabel: $("#today-label"),
     windowLabel: $("#window-label"),
@@ -30,11 +29,7 @@
     largestSpend: $("#largest-spend"),
     largestSpendLabel: $("#largest-spend-label"),
     paydaySource: $("#payday-source"),
-    paydayDistribution: $("#payday-distribution"),
-    paydayAxis: $("#payday-axis"),
     eventAxis: $("#event-axis"),
-    cashTrack: $("#cash-track"),
-    paydayWarning: $("#payday-warning"),
     resultCount: $("#result-count"),
     rows: $("#event-rows"),
     empty: $("#empty-state"),
@@ -137,8 +132,7 @@
       type: types.includes(requestedType) ? requestedType : "全部",
       priority: ["0", "3", "4", "5"].includes(params.get("priority")) ? params.get("priority") : "4",
       event: params.get("event") || "",
-      payday: params.get("payday") !== "0",
-      region: params.get("region") !== "0",
+      details: params.get("details") === "1",
       weatherWeek: weatherWeekOptions.includes(requestedWeatherWeek) ? requestedWeatherWeek : 0,
       weatherMarket: weatherMarkets.some((market) => market.id === requestedWeatherMarket) ? requestedWeatherMarket : defaultWeatherMarket,
     };
@@ -151,8 +145,7 @@
     if (state.type !== "全部") params.set("type", state.type);
     if (state.priority !== "4") params.set("priority", state.priority);
     if (state.event) params.set("event", state.event);
-    if (!state.payday) params.set("payday", "0");
-    if (!state.region) params.set("region", "0");
+    if (state.details) params.set("details", "1");
     if (state.weatherWeek) params.set("weatherWeek", state.weatherWeek);
     if (state.weatherMarket && state.weatherMarket !== defaultWeatherMarket) params.set("weatherMarket", state.weatherMarket);
     const query = params.toString();
@@ -197,15 +190,17 @@
     return spendingProfiles[link.profileId] || null;
   }
 
-  function spendingBadge(event) {
+  function spendingBadge(event, { isChild = false } = {}) {
     const link = event.spendingPower;
     const profile = spendingProfile(event);
     if (!profile?.target) {
+      if (!state.details) return null;
       const badge = el("span", "gantt-money gantt-money--empty", "专项金额暂无");
       badge.title = link?.noteZh || "暂无统一全美专项金额";
       return badge;
     }
     if (link.relationship === "included") {
+      if (isChild && !state.details) return null;
       const badge = el("span", "gantt-money gantt-money--included", "总盘内 · 无单独金额");
       badge.title = `${event.nameZh}本节点无单独金额；只属于 11–12 月冬礼季两月总盘。`;
       return badge;
@@ -320,24 +315,29 @@
   }
 
   function renderPayday() {
-    dom.paydayPanel.hidden = !state.payday;
-    if (!state.payday) return;
     const model = dataset.paydayModel;
+    const frequencies = Object.fromEntries(model.frequencies.map((item) => [item.key, item]));
+    const key = (type, text) => {
+      const item = el("span", "payday-key");
+      item.append(el("i", `payday-swatch payday-swatch--${type}`), document.createTextNode(text));
+      return item;
+    };
     dom.paydaySource.href = model.sourceUrl;
-    dom.paydayWarning.textContent = model.warning;
-    dom.paydayDistribution.replaceChildren(...model.frequencies.map((item) => {
-      const node = el("div", "payday-stat");
-      node.append(el("strong", "", `${item.label} ${item.share}%`), el("span", "", item.timing));
-      node.title = `${item.note}；单位：${model.unit}`;
-      return node;
-    }));
-    renderAxis(dom.paydayAxis);
+    dom.paydayInlineCopy.replaceChildren(
+      key("friday", `灰＝周五（周薪 ${frequencies.weekly.share}% / 双周薪 ${frequencies.biweekly.share}%）`),
+      key("semi", `黄＝1 日 / 15 日（半月薪 ${frequencies.semimonthly.share}%）`),
+      key("month", `紫＝月末 / 下月初（月薪 ${frequencies.monthly.share}%，含部分半月薪）`)
+    );
+    dom.paydayInline.title = `${model.warning}；单位：${model.unit}`;
+  }
+
+  function appendPaydayMarkers(container) {
     const range = windowRange();
-    dom.cashTrack.replaceChildren(...paydayMarkers().map((marker) => {
+    container.append(...paydayMarkers().map((marker) => {
       const primaryType = marker.types.includes("month") ? "month" : marker.types.includes("semi") ? "semi" : "friday";
-      const node = el("i", `cash-marker cash-marker--${primaryType}`);
+      const node = el("i", `axis-payday-marker axis-payday-marker--${primaryType}`);
       node.style.left = `${position(localIso(marker.date), range)}%`;
-      node.append(el("span", "", `${formatDate(localIso(marker.date), true)} · ${marker.labels.join("；")}`));
+      node.title = `${formatDate(localIso(marker.date), true)} · ${marker.labels.join("；")}`;
       return node;
     }));
   }
@@ -428,7 +428,9 @@
       ? `总盘父级 · ${childCount} 个节日分别列在下方${isContext ? " · 筛选上下文" : ""}`
       : `${event.type} · ${event.evidenceStatus}${timingLabel}`;
     name.append(el("strong", "", event.nameZh), el("span", "", secondary));
-    label.append(name, spendingBadge(event));
+    label.append(name);
+    const badge = spendingBadge(event, { isChild });
+    if (badge) label.append(badge);
 
     const track = el("div", "gantt-track");
     track.append(...guideNodes());
@@ -450,6 +452,7 @@
   function renderRows() {
     const range = windowRange();
     renderAxis(dom.eventAxis);
+    appendPaydayMarkers(dom.eventAxis);
     const includedByProfile = new Map();
     for (const event of visibleEvents) {
       if (event.spendingPower.relationship !== "included") continue;
@@ -725,8 +728,6 @@
   }
 
   function renderRegion() {
-    dom.regionPanel.hidden = !state.region;
-    if (!state.region) return;
     const selectedMarket = weatherMarkets.find((market) => market.id === state.weatherMarket) || weatherMarkets[0];
     if (!selectedMarket) return;
     const selectedPoint = weatherPoint(selectedMarket, state.weatherWeek);
@@ -788,25 +789,6 @@
     dom.regionWarning.textContent = weather.methodology;
   }
 
-  function renderFacets() {
-    const typeCounts = Object.fromEntries(types.map((type) => [type, dataset.events.filter((event) => event.type === type).length]));
-    dom.rangeFacets.replaceChildren(...rangeOptions.map((item) => {
-      const button = el("button", `facet-button${state.range === item.key ? " is-active" : ""}`);
-      button.type = "button";
-      button.append(el("span", "", item.label));
-      button.addEventListener("click", () => setState({ range: item.key }));
-      return button;
-    }));
-    const typeItems = [{ key: "全部", label: "全部类型", count: dataset.events.length }, ...types.map((type) => ({ key: type, label: type, count: typeCounts[type] }))];
-    dom.typeFacets.replaceChildren(...typeItems.map((item) => {
-      const button = el("button", `facet-button${state.type === item.key ? " is-active" : ""}`);
-      button.type = "button";
-      button.append(el("span", "", item.label), el("small", "", item.count));
-      button.addEventListener("click", () => setState({ type: item.key }));
-      return button;
-    }));
-  }
-
   function renderSummary() {
     const range = windowRange();
     dom.todayLabel.textContent = formatDate(todayIso, true);
@@ -832,15 +814,15 @@
     dom.rangeSelect.value = state.range;
     dom.typeSelect.value = state.type;
     dom.prioritySelect.value = state.priority;
-    dom.paydayToggle.checked = state.payday;
-    dom.regionToggle.checked = state.region;
+    dom.detailToggle.checked = state.details;
+    dom.main.classList.toggle("is-detailed", state.details);
+    dom.displaySummary.textContent = state.details ? "显示 1" : "显示";
     visibleEvents = filteredEvents();
     selectedEvent = dataset.events.find((event) => event.id === state.event && visibleEvents.some((visible) => visible.id === event.id)) || visibleEvents[0] || null;
     if (selectedEvent && state.event !== selectedEvent.id) {
       state.event = selectedEvent.id;
       writeState(true);
     }
-    renderFacets();
     renderSummary();
     renderPayday();
     renderRows();
@@ -863,8 +845,7 @@
   dom.rangeSelect.addEventListener("change", () => setState({ range: dom.rangeSelect.value }));
   dom.typeSelect.addEventListener("change", () => setState({ type: dom.typeSelect.value }));
   dom.prioritySelect.addEventListener("change", () => setState({ priority: dom.prioritySelect.value }));
-  dom.paydayToggle.addEventListener("change", () => setState({ payday: dom.paydayToggle.checked }));
-  dom.regionToggle.addEventListener("change", () => setState({ region: dom.regionToggle.checked }));
+  dom.detailToggle.addEventListener("change", () => setState({ details: dom.detailToggle.checked }));
   dom.weatherHorizon.addEventListener("click", (event) => {
     const button = event.target.closest("button[data-week]");
     if (button) setState({ weatherWeek: Number(button.dataset.week) });
@@ -876,7 +857,7 @@
       window.setTimeout(() => { dom.copyFilter.textContent = original; }, 1200);
     }).catch(() => {});
   });
-  const reset = () => setState({ q: "", range: "90", type: "全部", priority: "4", event: "", payday: true, region: true, weatherWeek: 0, weatherMarket: defaultWeatherMarket });
+  const reset = () => setState({ q: "", range: "90", type: "全部", priority: "4", event: "", details: false, weatherWeek: 0, weatherMarket: defaultWeatherMarket });
   dom.reset.addEventListener("click", reset);
   dom.emptyReset.addEventListener("click", reset);
   window.addEventListener("popstate", () => { state = readState(); render(); });

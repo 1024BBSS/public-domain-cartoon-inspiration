@@ -75,3 +75,66 @@
 
 - 本次只新增关系与浏览层，没有扩大或重判任何版权结论。
 - 权利状态继续继承具体记录；后期造型、现代修复、商标与平台规则仍需单独核对。
+
+---
+
+## 2026-09-21 · 消费力日历简洁模式
+
+### 对照基准
+
+- Source visual truth: `output/playwright/calendar-before-2051x1019.png`
+- Implementation screenshot: `output/playwright/calendar-compact-2051x1019.png`
+- Full comparison: `output/playwright/calendar-comparison.html`
+- Focused comparison: `output/playwright/calendar-comparison-focus.html`
+- Viewport / CSS size: 2051 × 1019
+- Source / implementation pixels: 2051 × 1019 / 2051 × 1019
+- Density normalization: 1:1；两张截图像素与 CSS 视口一致
+- State: `range=180&event=winter-gifting-2026`；默认简洁模式；发薪和天气叠加关闭
+
+### Findings
+
+- P0 / P1 / P2：无。
+- 字体与层级：沿用设计系统字体栈；节点名、日期、金额和时间条成为首屏主层级，辅助说明默认隐藏。
+- 间距与布局：移除重复侧栏；四格 KPI 压为单行摘要；甘特提前进入首屏；父子时间轴和选中状态未改变。
+- 色彩与 token：继续使用黑底、白色选中、绿色金额 / 高峰和既有图表色；未新增颜色体系。
+- 图片：该页面没有新增图片资产；原有 IP 图源区保持不变。
+- 文本：口径说明折叠；子节日默认不重复显示“总盘内 · 无单独金额”；完整语义仍保留在 aria-label 与详情模式。
+
+### 交互与浏览器证据
+
+- “显示”菜单可独立开启行详情、发薪点、天气 / 地区。
+- 发薪开启后在月份轴生成 37 个观察点，URL 写入 `payday=1`；不再占用独立面板。
+- 详情模式写入 `details=1`；天气写入 `region=1`；刷新后状态可恢复。
+- 恢复默认后，冬礼季 5 个子节点均不显示重复金额徽标，父级 `$1.04T` 保留。
+- 640 × 800 下页面本身无横向溢出；790px 甘特在组件内部横向滚动。
+- 控制台 error / warning：0。
+
+### Full-view comparison evidence
+
+- 原版首屏同时展示侧栏、四格 KPI、完整口径条、发薪分布和发薪时间轴，甘特只能露出少量行。
+- 简洁版首屏直接展示搜索、单行摘要和消费节点甘特；相同高度内可看到完整冬礼父子层级及更多消费节点。
+
+### Focused comparison evidence
+
+- 首屏上半区 1:1 对照确认：筛选功能没有消失，只从重复侧栏收口到顶部；发薪与天气成为按需层；金额、月份轴和当日标记保持可读。
+
+### Comparison history
+
+1. 第一轮产品对比未发现 P0 / P1 / P2；首次实现截图因滚动位置不同不用于判断。
+2. 回到页面顶部后以同视口重新捕获；布局、文字、颜色、时间轴和默认状态复核通过。
+
+## 常驻运营层修订（v1.4.1）
+
+- 发薪点改为常驻：月份轴始终显示观察点，不再依赖 `payday=1`。
+- 发薪图例写明：灰＝周五（周薪 / 双周薪），黄＝1 日 / 15 日（半月薪），紫＝月末 / 下月初（月薪，含部分半月薪）。
+- 天气与地区改为常驻：不再依赖 `region=1`；未来周次和地区选择仍可写入 URL 并恢复。
+- “显示”菜单只保留行详情，避免把基础决策信息误当作可选图层。
+- 180 天窗口实测生成 37 个发薪观察点；灰、黄、紫三种计算色分别命中既有 token。
+- 从旧网址载入后，`payday=1&region=1` 被自动清理；发薪、天气和地区仍显示。
+- `weatherWeek=4` 刷新后可恢复，发薪层与地区层未消失；控制台 error / warning 为 0。
+
+### Follow-up polish
+
+- P3：640px 宽度下工具栏会纵向展开到约 250px；功能完整且无页面级横向溢出，后续可再做手机专用筛选抽屉。
+
+final result: passed
