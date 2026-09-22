@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-22T08:22:04.711Z",
+  "sourceVersion": "meme-library-2026-09-22-v1",
+  "counts": {
+    "records": 315,
+    "contemporary": 265,
+    "publicDomain": 50,
+    "currentSignals": 97,
+    "linkedSuperIp": 71,
+    "byCategory": {
+      "电影 / 电视": 54,
+      "动物 / 表情": 28,
+      "互联网原生": 134,
+      "经典艺术 / 公版": 50,
+      "名人 / 音乐": 16,
+      "体育 / 赛事": 5,
+      "文字 / 对话结构": 11,
+      "游戏 / 动漫": 6,
+      "政治 / 公共事件": 11
+    },
+    "byRights": {
+      "版权 + 肖像需核验": 33,
+      "创作者版权需核验": 17,
+      "公版具体版本": 50,
+      "影视 / 角色需授权": 59,
+      "原图权利待核验": 156
+    }
+  },
+  "dataSha256": "f4def35c09191443b7ef2560829508b9b659e6858657864c43d62eea0c30cf49",
+  "imageFiles": 265,
+  "imageBytes": 7113960
+}

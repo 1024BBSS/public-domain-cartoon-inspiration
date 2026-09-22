@@ -1,0 +1,639 @@
+import { createHash } from "node:crypto";
+import { execFileSync } from "node:child_process";
+import fs from "node:fs";
+import os from "node:os";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const here = path.dirname(fileURLToPath(import.meta.url));
+const root = path.resolve(here, "..");
+const sourcePath = path.join(root, "source", "meme-template-sources.json");
+const catalogPath = path.join(root, "data", "catalog.json");
+const superIpPath = path.join(root, "data", "super-ip-us.json");
+const outputJsonPath = path.join(root, "data", "memes.json");
+const outputJsPath = path.join(root, "data", "memes.js");
+const manifestPath = path.join(root, "meme-manifest.json");
+const imageRoot = path.join(root, "meme-images");
+const refresh = process.argv.includes("--refresh") || !fs.existsSync(sourcePath);
+const researchDate = new Date().toISOString().slice(0, 10);
+const MEMEGEN_URL = "https://api.memegen.link/templates/";
+const IMGFLIP_URL = "https://api.imgflip.com/get_memes";
+
+fs.mkdirSync(imageRoot, { recursive: true });
+
+const normalize = (value) => String(value || "")
+  .normalize("NFKD")
+  .toLowerCase()
+  .replace(/[’']/g, "")
+  .replace(/[^a-z0-9\u4e00-\u9fff]+/g, " ")
+  .replace(/\s+/g, " ")
+  .trim();
+const slugify = (value) => normalize(value).replace(/\s+/g, "-").slice(0, 72) || "meme";
+const compact = (values) => [...new Set(values.filter(Boolean))];
+const hash = (value) => createHash("sha256").update(value).digest("hex");
+const shortHash = (value) => hash(value).slice(0, 12);
+
+async function fetchJson(url, attempts = 4) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        headers: { "user-agent": "public-domain-cartoon-inspiration/1.0 research-cache" },
+      });
+      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+      return await response.json();
+    } catch (error) {
+      lastError = error;
+      if (attempt < attempts) await new Promise((resolve) => setTimeout(resolve, attempt * 700));
+    }
+  }
+  throw lastError;
+}
+
+if (refresh) {
+  const [memegen, imgflip] = await Promise.all([fetchJson(MEMEGEN_URL), fetchJson(IMGFLIP_URL)]);
+  if (!Array.isArray(memegen) || !imgflip?.success || !Array.isArray(imgflip.data?.memes)) {
+    throw new Error("Meme template APIs returned an unexpected schema");
+  }
+  const source = {
+    schemaVersion: "1.0.0",
+    sourceVersion: `meme-template-snapshot-${researchDate}`,
+    researchDate,
+    caveat: "Template-directory and platform-activity evidence only. It does not prove public-domain or commercial-use status.",
+    sources: {
+      memegen: { url: MEMEGEN_URL, guide: "https://memegen.link/guide/", records: memegen },
+      imgflip: { url: IMGFLIP_URL, docs: "https://imgflip.com/api", records: imgflip.data.memes },
+    },
+  };
+  fs.writeFileSync(sourcePath, `${JSON.stringify(source, null, 2)}\n`);
+}
+
+const source = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
+const catalog = JSON.parse(fs.readFileSync(catalogPath, "utf8"));
+const superIp = JSON.parse(fs.readFileSync(superIpPath, "utf8"));
+const memegen = source.sources.memegen.records;
+const imgflip = source.sources.imgflip.records;
+
+const aliasFamilies = [
+  ["drakeposting", "drake hotline bling", "drake blank"],
+  ["ancient aliens", "ancient aliens guy"],
+  ["one does not simply", "one does not simply walk into mordor"],
+  ["bernie asking", "bernie i am once again asking for your support", "bernie sanders once again asking"],
+  ["anakin padme", "anakin padme 4 panel", "anakin and padme change the world for the better"],
+  ["woman yelling at a cat", "woman yelling at cat"],
+  ["spiderman pointing", "spider man triple", "spider man pointing at spider man", "spiderman pointing at spiderman"],
+  ["scooby doo reveal", "scooby doo mask reveal"],
+  ["expanding brain", "galaxy brain"],
+  ["futurama fry", "futurama fry"],
+  ["roll safe", "roll safe think about it"],
+  ["grant gustin grave", "grant gustin over grave", "grant gustin next to oliver queens grave"],
+  ["three headed dragon", "three headed dragon"],
+  ["types of headaches", "types of headaches meme"],
+  ["you guys are getting paid", "you guys are getting paid"],
+  ["mother ignoring kid drowning", "mother ignoring kid drowning in a pool"],
+  ["tuxedo winnie the pooh", "tuxedo winnie the pooh"],
+  ["this is fine", "this is fine"],
+  ["two guys on a bus", "two guys on a bus"],
+  ["hide the pain harold", "hide the pain harold"],
+  ["inhaling seagull", "inhaling seagull"],
+  ["panik kalm panik", "panik kalm panik"],
+  ["who killed hannibal", "who killed hannibal"],
+  ["bad luck brian", "bad luck brian"],
+  ["american chopper argument", "american chopper argument"],
+  ["yall got any more", "yall got any more of that", "yall got any more of them"],
+  ["im the captain now", "i am the captain now", "im the captain now"],
+  ["skeptical third world kid", "third world skeptical kid", "skeptical third world kid"],
+  ["oprah you get a car", "oprah you get a car", "oprah you get a"],
+  ["say the line bart", "say the line bart", "say the line bart simpsons"],
+];
+const aliasToFamily = new Map();
+for (const [family, ...aliases] of aliasFamilies) {
+  for (const alias of [family, ...aliases]) aliasToFamily.set(normalize(alias), family);
+}
+function familyKey(name) {
+  return aliasToFamily.get(normalize(name)) || normalize(name);
+}
+
+const originRules = [
+  [/drake/i, "Drake", "Hotline Bling"],
+  [/bernie/i, "Bernie Sanders", "2020 campaign appearances"],
+  [/donald trump|trump bill/i, "Donald Trump", "Public appearances"],
+  [/barack obama|sad obama/i, "Barack Obama", "Public appearances"],
+  [/joe biden/i, "Joe Biden", "Public appearances"],
+  [/george bush|sad george bush/i, "George W. Bush", "Public appearances"],
+  [/bill clinton/i, "Bill Clinton", "Public appearances"],
+  [/john boehner/i, "John Boehner", "Public appearances"],
+  [/oprah/i, "Oprah Winfrey", "The Oprah Winfrey Show"],
+  [/will smith/i, "Will Smith", "2022 Academy Awards"],
+  [/change my mind|steven crowder/i, "Steven Crowder", "Change My Mind public-event photo"],
+  [/absolute cinema/i, "Martin Scorsese", "Public-event reaction image"],
+  [/yall got any more|tyrone biggums/i, "Dave Chappelle", "Chappelle's Show"],
+  [/woman yelling at (a )?cat/i, "Taylor Armstrong / Smudge the Cat", "The Real Housewives of Beverly Hills + internet cat photo"],
+  [/khaby lame/i, "Khaby Lame", "Social video reactions"],
+  [/salt bae/i, "Salt Bae", "Viral food performance"],
+  [/vince mcmahon/i, "Vince McMahon", "WWE"],
+  [/sha(q|quille)/i, "Shaquille O'Neal", "Public / broadcast reactions"],
+  [/leonardo|leo strutting|laughing leo/i, "Leonardo DiCaprio", "Film and public-event reaction images"],
+  [/keanu/i, "Keanu Reeves", "Film and public appearances"],
+  [/jony ive/i, "Jony Ive", "Apple design presentations"],
+  [/spongebob|patrick|squidward/i, "SpongeBob SquarePants", "SpongeBob SquarePants"],
+  [/simpson|bart|principal skinner|lenny/i, "The Simpsons", "The Simpsons"],
+  [/futurama|\bfry\b|take my money/i, "Futurama", "Futurama"],
+  [/star wars|ackbar|chosen one|anakin|padme|older code|yoda/i, "Star Wars", "Star Wars franchise"],
+  [/one does not simply|gandalf|mordor/i, "The Lord of the Rings", "The Lord of the Rings films"],
+  [/matrix|morpheus/i, "The Matrix", "The Matrix"],
+  [/batman|robin/i, "Batman", "Batman screen and comic adaptations"],
+  [/spider.?man/i, "Spider-Man", "Spider-Man screen adaptations"],
+  [/winnie the pooh/i, "Winnie-the-Pooh", "Modern screen adaptation image"],
+  [/scooby/i, "Scooby-Doo", "Scooby-Doo"],
+  [/bugs bunny/i, "Bugs Bunny", "Looney Tunes"],
+  [/elmo/i, "Elmo", "Sesame Street"],
+  [/agnes harkness/i, "WandaVision", "WandaVision"],
+  [/\bgru(?:s|'s)?\b|megamind/i, "Despicable Me / Megamind", "Animated-film reaction images"],
+  [/is this (a )?(pigeon|butterfly)/i, "The Brave Fighter of Sun Fighbird", "The Brave Fighter of Sun Fighbird"],
+  [/epic handshake/i, "Predator", "Predator (1987)"],
+  [/you guys are getting paid/i, "We're the Millers", "We're the Millers (2013)"],
+  [/put my trophy|fairly oddparents/i, "The Fairly OddParents", "The Fairly OddParents"],
+  [/x[, ]+x everywhere/i, "Toy Story", "Toy Story films"],
+  [/office|schrute|jim halpert|michael scott|same picture/i, "The Office", "The Office (U.S.)"],
+  [/kramer|no soup for you/i, "Seinfeld", "Seinfeld"],
+  [/phoebe|joey/i, "Friends", "Friends"],
+  [/mean girls|fetch/i, "Mean Girls", "Mean Girls"],
+  [/anchorman|milk was a bad choice|immediately regret|crazy pills/i, "Anchorman", "Anchorman films"],
+  [/arrested development|stew going/i, "Arrested Development", "Arrested Development"],
+  [/men in black/i, "Men in Black", "Men in Black"],
+  [/princess bride|inigo montoya/i, "The Princess Bride", "The Princess Bride"],
+  [/jurassic|life finds a way/i, "Jurassic Park", "Jurassic Park"],
+  [/this is sparta/i, "300", "300"],
+  [/winter is coming/i, "Game of Thrones", "Game of Thrones"],
+  [/pablo escobar/i, "Narcos", "Narcos"],
+  [/charlie conspiracy|always sunny/i, "It's Always Sunny in Philadelphia", "It's Always Sunny in Philadelphia"],
+  [/wolverine/i, "Wolverine", "X-Men: The Animated Series"],
+  [/pikachu/i, "Pokémon", "Pokémon anime"],
+  [/ugandan knuckles/i, "Sonic the Hedgehog fan culture", "VRChat meme"],
+  [/all your base/i, "Zero Wing", "Zero Wing localization"],
+  [/doge|cheems/i, "Doge / Cheems", "Internet dog characters"],
+  [/grumpy cat/i, "Grumpy Cat", "Internet celebrity cat"],
+  [/bongo cat/i, "Bongo Cat", "Internet animation"],
+  [/success kid/i, "Success Kid", "Viral photograph"],
+  [/hide the pain harold/i, "Hide the Pain Harold", "Stock-photo meme"],
+  [/distracted (boyfriend|girlfriend)/i, "Distracted Boyfriend", "Stock-photo series"],
+  [/disaster girl/i, "Disaster Girl", "Viral photograph"],
+  [/bad luck brian/i, "Bad Luck Brian", "Viral school portrait"],
+  [/overly attached girlfriend/i, "Overly Attached Girlfriend", "Viral video / portrait"],
+  [/ancient aliens/i, "Giorgio A. Tsoukalos", "Ancient Aliens"],
+  [/most interesting man/i, "The Most Interesting Man in the World", "Advertising campaign"],
+  [/stonks/i, "Meme Man", "Surreal meme culture"],
+  [/troll|y u no|forever alone|feels bad man|feels good/i, "Rage comics / web characters", "Internet-native drawings"],
+];
+
+const mechanicRules = [
+  [/two buttons/i, "在两个都不理想的选项间被迫选择", ["两难选择", "决策焦虑"]],
+  [/distracted/i, "三方标签关系：旧承诺被新诱惑夺走注意力", ["喜新厌旧", "注意力转移"]],
+  [/drake/i, "上下两格拒绝／接受，对比两个方案", ["方案对比", "偏好表达"]],
+  [/anakin|padme/i, "四格对话：乐观承诺逐步变成不安确认", ["承诺落空", "对话反转"]],
+  [/epic handshake/i, "两个阵营因同一共同点结盟", ["共同利益", "意外共识"]],
+  [/grus plan/i, "计划逐步推进，最后一格暴露自我矛盾", ["计划翻车", "复盘"]],
+  [/running away balloon/i, "主体放弃正确选项，追逐更诱人的错误目标", ["优先级错位", "诱惑"]],
+  [/disaster girl/i, "平静人物与背后灾难形成冷静反差", ["旁观混乱", "暗中得意"]],
+  [/change my mind/i, "一句强观点放在公开辩论场景中", ["观点挑战", "引战句式"]],
+  [/always has been/i, "真相揭示之后立刻出现背叛或灭口", ["突然醒悟", "早已如此"]],
+  [/woman yelling/i, "强烈指控与无辜／困惑反应并置", ["争论", "误解"]],
+  [/this is fine/i, "身处明显危机却继续假装正常", ["否认危机", "强装镇定"]],
+  [/expanding brain|galaxy brain/i, "逐级升级认知层次，最后走向夸张或荒诞", ["层级升级", "伪高级"]],
+  [/bell curve|midwit/i, "两端得出相同结论，中间层过度复杂化", ["观点分布", "复杂化"]],
+  [/hide the pain harold/i, "礼貌微笑与内心痛苦形成表里反差", ["职业假笑", "压抑"]],
+  [/bad luck brian/i, "第一句建立普通期待，第二句给出最坏结果", ["倒霉反转", "期待落空"]],
+  [/american chopper/i, "多格人物争吵逐步升级，用于展开双方论点", ["争论升级", "立场对撞"]],
+  [/bernie/i, "反复出现的人物再次提出同一种请求", ["重复请求", "资源征集"]],
+  [/uno draw/i, "宁愿接受巨大惩罚，也拒绝执行某项动作", ["拒绝选择", "原则性抗拒"]],
+  [/trade offer/i, "左右列出我得到什么、你得到什么", ["交换条件", "不平等交易"]],
+  [/bike fall/i, "自己制造问题后，把责任归咎给外部对象", ["自作自受", "甩锅"]],
+  [/same picture/i, "权威人物判定两个看似不同对象实质相同", ["等价比较", "拆穿差异"]],
+  [/is this (a )?(pigeon|butterfly)/i, "把眼前对象错误识别成另一个概念", ["误判", "概念混淆"]],
+  [/you guys are getting paid/i, "最后加入的人才发现他人一直拥有自己没有的收益", ["信息差", "待遇差异"]],
+  [/mother ignoring/i, "资源被投入较弱对象，而真正紧急的问题被忽视", ["资源错配", "优先级"]],
+  [/tuxedo winnie/i, "同一概念用普通和精致两种表达对比", ["表达升级", "阶层化命名"]],
+  [/left exit/i, "临近节点突然转向更强烈的新目标", ["突然改道", "临时变卦"]],
+  [/waiting skeleton/i, "用已经化为骷髅的等待者夸大等待时长", ["久等", "迟迟不来"]],
+  [/sad pablo/i, "多格孤独等待，放大无事可做与被冷落", ["孤独等待", "无人回应"]],
+  [/marked safe/i, "借安全状态通知讽刺躲过某个日常事件", ["幸免", "状态播报"]],
+  [/batman slapping/i, "上级用突然打断纠正错误或幼稚发言", ["强行纠正", "打断"]],
+  [/absolute cinema/i, "用夸张庄重姿态赞美普通事件", ["过度赞美", "神作"]],
+  [/panik kalm/i, "恐慌、平静、再次恐慌的三段节奏", ["情绪反复", "二次反转"]],
+  [/spider.?man pointing/i, "多个相似主体互相指认，表现重复、冒充或共犯", ["同质化", "互相指认"]],
+  [/surprised pikachu/i, "做出会产生明显后果的行为后仍表现震惊", ["可预测后果", "装惊讶"]],
+  [/one does not simply/i, "用严肃人物强调某事远比听起来困难", ["难度警告", "不要低估"]],
+  [/success kid/i, "小动作与握拳姿态表达意外成功", ["小胜利", "逆转成功"]],
+  [/facepalm/i, "单一反应用于表达无语、失望或常识崩塌", ["无语", "失望"]],
+  [/reaction|sad |cry|laugh|confused|skeptical|awkward|regret|feel/i, "以强表情作为一句话情境的反应锚点", ["情绪反应", "情境代入"]],
+];
+
+function originFor(name) {
+  for (const [pattern, entity, work] of originRules) {
+    if (pattern.test(name)) return { entity, work };
+  }
+  return { entity: "互联网 Meme 文化", work: "互联网原生模板" };
+}
+
+function categoryFor(name, origin) {
+  if (/trump|obama|biden|bernie|bush|clinton|boehner|politic|rent is too damn high/i.test(name)) {
+    return ["政治 / 公共事件", "政治人物与公共场景"];
+  }
+  if (/soccer|ski instructor|vince mcmahon|undertaker|styles|shaq|wwe/i.test(name)) {
+    return ["体育 / 赛事", "赛场与体育娱乐反应"];
+  }
+  if (/pikachu|pokemon|ugandan knuckles|all your base|video game|anime|fighbird/i.test(`${name} ${origin.work}`)) {
+    return ["游戏 / 动漫", "游戏与动漫衍生"];
+  }
+  if (/drake|oprah|will smith|khaby|salt bae|jony ive|leonardo|keanu|harold|tsoukalos|most interesting man|scorsese|crowder|chappelle/i.test(`${name} ${origin.entity}`)) {
+    return ["名人 / 音乐", "名人与公众人物反应"];
+  }
+  if (/star wars|spongebob|simpsons|futurama|batman|spider|matrix|lord of the rings|seinfeld|\bfriends\b|anchorman|narcos|mean girls|jurassic|game of thrones|office|winnie|scooby|bugs bunny|elmo|despicable|megamind|princess bride|\b300\b|arrested development|men in black|wolverine|wandavision|predator|we.?re the millers|fairly oddparents|toy story|real housewives/i.test(`${name} ${origin.entity} ${origin.work}`)) {
+    return ["电影 / 电视", /spongebob|simpsons|futurama|winnie|scooby|bugs bunny|elmo|\bgru\b|megamind|fairly oddparents|toy story/i.test(`${name} ${origin.entity} ${origin.work}`) ? "动画画面" : "影视反应画面"];
+  }
+  if (/cat|dog|doge|cheems|penguin|bear|frog|wolf|seal|seagull|snake|lizard|pigeon|shark|monkey|raptor|puffin|bongo/i.test(name)) {
+    return ["动物 / 表情", "动物反应与拟人角色"];
+  }
+  if (/two buttons|bell curve|trade offer|marked safe|domino|scroll of truth|nut button|headaches|expectation vs|no yes|two paths|boardroom/i.test(name)) {
+    return ["文字 / 对话结构", "选择、比较与信息图式"];
+  }
+  return ["互联网原生", /rage|y u no|forever alone|troll|feels bad|feels good/i.test(name) ? "Rage Comic 与网络角色" : "图片宏与反应模板"];
+}
+
+function mechanicFor(name, lines) {
+  for (const [pattern, mechanic, useCases] of mechanicRules) {
+    if (pattern.test(name)) return { mechanic, useCases };
+  }
+  if (lines >= 4) return { mechanic: "多格顺序推进：建立情境、升级关系，再落到反转或结论", useCases: ["过程演变", "多步反转"] };
+  if (lines === 3) return { mechanic: "三个标签形成角色、目标与阻力的关系", useCases: ["三方关系", "优先级"] };
+  if (lines === 2) return { mechanic: "两段式建立情境与结果，或形成上下对比", useCases: ["前后反转", "双项对比"] };
+  return { mechanic: "单一强反应画面承载一句情境判断", useCases: ["情绪反应", "一句话吐槽"] };
+}
+
+function rightsFor(category, origin, name) {
+  const publicity = ["名人 / 音乐", "政治 / 公共事件", "体育 / 赛事"].includes(category)
+    || origin.entity !== "互联网 Meme 文化" && /Drake|Oprah|Obama|Trump|Biden|Bernie|Will Smith|Khaby|Salt Bae|Leonardo|Keanu|Harold|Shaquille|Vince|Scorsese|Crowder|Chappelle|Taylor Armstrong/i.test(origin.entity);
+  const trademark = ["电影 / 电视", "游戏 / 动漫"].includes(category);
+  const creatorOwned = /doge|cheems|grumpy cat|bongo cat|pepe|rage|troll|wojak|this is fine|stonks|success kid|bad luck brian|disaster girl|two buttons|running away balloon|bike fall|panik kalm|scroll of truth|expanding brain|galaxy brain|friendship ended/i.test(name);
+  return {
+    lane: publicity ? "版权 + 肖像需核验" : trademark ? "影视 / 角色需授权" : creatorOwned ? "创作者版权需核验" : "原图权利待核验",
+    copyright: trademark ? "影视、动画或漫画画面通常受版权保护。" : creatorOwned ? "互联网传播不等于作者放弃版权。" : "原始摄影、插画或截帧通常仍有版权。",
+    publicity: publicity ? "涉及可识别真人；商业商品需另核肖像、人格权及代言误认。" : "未识别到主要真人肖像路径；仍需核对具体图像。",
+    trademark: trademark ? "角色名称、造型、Logo 与商品来源误认需单独核验。" : "如使用名称、Logo 或来源标识，仍需单独检索商标。",
+    production: publicity
+      ? "只提取表情节奏与人物关系；换成原创人物，不复制真人脸、服装和原场景。"
+      : trademark
+        ? "只提取叙事结构；重画原创角色、动作与场景，不复制剧照或角色造型。"
+        : "只提取构图和语义机制；使用原图前必须取得对应摄影或插画权利。",
+  };
+}
+
+const superIpIndex = new Map();
+for (const item of superIp.records || []) {
+  for (const candidate of [item.name, item.nameZh, ...(item.aliases || [])]) {
+    const key = normalize(candidate);
+    if (key && !superIpIndex.has(key)) superIpIndex.set(key, item);
+  }
+}
+function relatedSuperIp(origin) {
+  for (const candidate of [origin.entity, origin.work]) {
+    const match = superIpIndex.get(normalize(candidate));
+    if (match) return match;
+  }
+  return null;
+}
+
+const families = new Map();
+function ensureFamily(name) {
+  const key = familyKey(name);
+  if (!families.has(key)) families.set(key, { key, names: [], variants: [] });
+  const family = families.get(key);
+  family.names.push(name);
+  return family;
+}
+
+for (const item of memegen) {
+  ensureFamily(item.name).variants.push({
+    provider: "Memegen",
+    templateId: item.id,
+    name: item.name,
+    imageUrl: item.blank,
+    sourceUrl: item.source || item._self,
+    providerUrl: item._self,
+    lines: item.lines || 0,
+    keywords: item.keywords || [],
+    rank: null,
+    captions: null,
+  });
+}
+for (const [index, item] of imgflip.entries()) {
+  ensureFamily(item.name).variants.push({
+    provider: "Imgflip",
+    templateId: item.id,
+    name: item.name,
+    imageUrl: item.url,
+    sourceUrl: "https://imgflip.com/memetemplate/" + item.id,
+    providerUrl: "https://imgflip.com/api",
+    lines: item.box_count || 0,
+    keywords: [],
+    rank: index + 1,
+    captions: item.captions || null,
+  });
+}
+
+function choosePrimary(family) {
+  return [...family.variants].sort((a, b) => {
+    if (a.rank && !b.rank) return -1;
+    if (!a.rank && b.rank) return 1;
+    if (a.rank && b.rank) return a.rank - b.rank;
+    return a.provider.localeCompare(b.provider);
+  })[0];
+}
+
+const modernRecords = [...families.values()].map((family) => {
+  const primary = choosePrimary(family);
+  const displayName = primary.name || family.names[0];
+  const origin = originFor(`${displayName} ${family.names.join(" ")}`);
+  const [category, subcategory] = categoryFor(`${displayName} ${family.names.join(" ")}`, origin);
+  const lines = Math.max(...family.variants.map((item) => item.lines || 0), 1);
+  const mechanic = mechanicFor(`${displayName} ${family.names.join(" ")}`, lines);
+  const rights = rightsFor(category, origin, `${displayName} ${family.names.join(" ")}`);
+  const currentRank = family.variants.filter((item) => item.rank).sort((a, b) => a.rank - b.rank)[0]?.rank || null;
+  const captions = Math.max(...family.variants.map((item) => Number(item.captions) || 0));
+  const related = relatedSuperIp(origin);
+  const activityScore = currentRank ? Math.max(62, 101 - Math.ceil(currentRank * .39)) : 55;
+  return {
+    id: `meme-${slugify(family.key)}-${shortHash(family.key)}`,
+    name: displayName,
+    aliases: compact(family.names.filter((name) => name !== displayName)),
+    category,
+    subcategory,
+    sourceType: origin.entity === "互联网 Meme 文化" ? "互联网原生" : category,
+    originEntity: origin.entity,
+    originWork: origin.work,
+    imageOriginalUrl: primary.imageUrl,
+    sourceUrl: primary.sourceUrl,
+    providers: compact(family.variants.map((item) => item.provider)),
+    variants: family.variants.map((item) => ({
+      provider: item.provider,
+      templateId: item.templateId,
+      name: item.name,
+      sourceUrl: item.sourceUrl,
+      lines: item.lines,
+      rank: item.rank,
+      captions: item.captions,
+    })),
+    slots: lines,
+    mechanic: mechanic.mechanic,
+    useCases: mechanic.useCases,
+    agentPattern: `保留“${mechanic.mechanic}”的关系节奏；为新主题重新设计人物、场景、道具与文字，不复制原图。`,
+    rightsLane: rights.lane,
+    copyrightNote: rights.copyright,
+    publicityNote: rights.publicity,
+    trademarkNote: rights.trademark,
+    productionRoute: rights.production,
+    currentTemplateRank: currentRank,
+    currentCaptionCount: captions || null,
+    activityScore,
+    activityLabel: currentRank ? (currentRank <= 20 ? "当前高频" : currentRank <= 60 ? "当前活跃" : "当前可见") : "经典目录收录",
+    activityEvidence: currentRank ? `Imgflip 模板快照第 ${currentRank}；平台活跃信号，不是美国人口知名度。` : "Memegen 模板目录收录；不是美国人口知名度。",
+    relatedSuperIp: related ? {
+      id: related.id,
+      name: related.name,
+      nameZh: related.nameZh || "",
+      usTier: related.usTier || "",
+      surveyFamePercent: related.surveyFamePercent ?? null,
+      rightsLane: related.rightsLane || "",
+    } : null,
+    evidenceLevel: currentRank ? "B" : "C",
+    researchDate: source.researchDate,
+    searchText: compact([
+      displayName, ...family.names, category, subcategory, origin.entity, origin.work,
+      ...mechanic.useCases, ...(primary.keywords || []), rights.lane,
+    ]).join(" · "),
+  };
+});
+
+const publicDomainCandidates = (catalog.records || []).filter((item) =>
+  item.image
+  && ["期限届满", "公版文件", "公版 / 开放馆藏", "CC0 / 公版开放馆藏"].includes(item.rightsStatus)
+);
+const lineage = publicDomainCandidates
+  .filter((item) => item.kind === "画作 / 插图")
+  .sort((a, b) => (b.awarenessScore || 0) - (a.awarenessScore || 0));
+const diverse = publicDomainCandidates
+  .filter((item) => item.kind === "主档")
+  .sort((a, b) => (b.awarenessScore || 0) - (a.awarenessScore || 0));
+const pickedPublicDomain = [];
+const seenPublicDomain = new Set();
+for (const item of [...lineage.slice(0, 20), ...diverse]) {
+  const dedupe = item.id;
+  if (seenPublicDomain.has(dedupe)) continue;
+  seenPublicDomain.add(dedupe);
+  pickedPublicDomain.push(item);
+  if (pickedPublicDomain.length >= 50) break;
+}
+
+function publicDomainUseCases(item) {
+  const text = `${item.title || ""} ${item.subtitle || ""} ${(item.characters || []).join(" ")} ${(item.tags || []).join(" ")} ${(item.styles || []).join(" ")}`;
+  if (/skull|skeleton|death|hell|grave|ghost|haunted|phantom|caligari|dracula|骷髅|死亡|地狱|墓|幽灵|鬼屋/i.test(text)) {
+    return ["暗黑反应图", /ghost|haunted|phantom|dracula|幽灵|鬼屋/i.test(text) ? "幽灵与哥特叙事" : "骷髅与死亡之舞"];
+  }
+  if (/steamboat willie|mickey|popeye|betty boop|dizzy dishes|silly symphony|thimble theatre|fleischer|早期动画|橡皮管动画/i.test(text)) {
+    return ["早期动画表情", "动作循环与视觉笑点"];
+  }
+  if (/alice|wonderland|looking-glass|jabberwock|mad tea|white rabbit|queen of hearts|hatter|dodo|caterpillar|tweedle|walrus|carpenter|父亲威廉|爱丽丝/i.test(text)) {
+    return ["荒诞角色反应", "爱丽丝历史形象"];
+  }
+  if (/wizard of oz|dorothy|wicked witch|glinda|tin woodman|cowardly lion|emerald city|oz|奥兹|多萝西|女巫|铁皮人|胆小狮/i.test(text)) {
+    return ["童话角色反应", "奥兹历史形象"];
+  }
+  if (/1930 书籍|1930 书封|book cover|初版封面|文学 \/ 出版物/i.test(text)) {
+    return ["经典书封改编", "标题与排版梗"];
+  }
+  if (/robin hood|beowulf|tarzan|sinbad|aladdin|hero|adventure|冒险|英雄/i.test(text)) {
+    return ["英雄冒险反应", "文学插画再语境化"];
+  }
+  if (/fairy|童话|寓言|red riding hood|rapunzel|hansel|rumpelstiltskin|mermaid|pied piper|格林|安徒生/i.test(text)) {
+    return ["童话角色反应", "文学插画再语境化"];
+  }
+  if (item.kind === "画作 / 插图" || /画作|插图|engraving|版画|painting/i.test(text)) {
+    return ["经典画作反应", "构图与姿态再语境化"];
+  }
+  return ["公版视觉反应", "历史版本再语境化"];
+}
+
+const publicDomainRecords = pickedPublicDomain.map((item) => {
+  const originEntity = item.characters?.[0] || item.title;
+  const related = relatedSuperIp({ entity: originEntity, work: item.title });
+  const visualName = item.subtitle || item.title;
+  return {
+    id: `meme-pd-${item.id}`,
+    name: `${visualName}｜公版 Meme 底图`,
+    aliases: [item.title],
+    category: "经典艺术 / 公版",
+    subcategory: item.kind === "画作 / 插图" ? "历史角色画作" : "公版视觉母题",
+    sourceType: "具体公版版本",
+    originEntity,
+    originWork: item.title,
+    image: item.image,
+    imageOriginalUrl: item.sourceUrl,
+    sourceUrl: item.sourceUrl,
+    providers: [item.sourceLabel || "公版图源"],
+    variants: [],
+    slots: 1,
+    mechanic: item.usage || "以历史画面的主体关系、姿态和构图作为新语境的反应底图。",
+    useCases: publicDomainUseCases(item),
+    agentPattern: `从“${visualName}”提取主体关系和构图；沿用列明的历史版本边界，重新编写当代语境与文字。`,
+    rightsLane: "公版具体版本",
+    copyrightNote: item.copyrightRoute || "列明的历史版本按美国公版路径使用。",
+    publicityNote: "若另行加入真人姓名、肖像或代言语境，需重新核验。",
+    trademarkNote: "公版版权不自动排除持续有效的名称、Logo 或商品来源商标。",
+    productionRoute: item.avoid ? `${item.usage || "可从历史版本重构。"} 避开：${item.avoid}` : (item.usage || "使用列明的具体公版图源或原创重绘。"),
+    currentTemplateRank: null,
+    currentCaptionCount: null,
+    activityScore: Math.min(88, Math.max(58, item.awarenessScore || 60)),
+    activityLabel: "公版改编底图",
+    activityEvidence: "来自本库已核验的具体公版视觉；不是 Meme 流行度数据。",
+    relatedSuperIp: related ? {
+      id: related.id,
+      name: related.name,
+      nameZh: related.nameZh || "",
+      usTier: related.usTier || "",
+      surveyFamePercent: related.surveyFamePercent ?? null,
+      rightsLane: related.rightsLane || "",
+    } : null,
+    visualRecordId: item.id,
+    evidenceLevel: item.evidenceLevel || "待复核",
+    researchDate: item.researchDate || source.researchDate,
+    searchText: compact([
+      visualName, item.title, originEntity, "经典艺术 公版", ...(item.tags || []), ...(item.scenes || []), ...(item.styles || []),
+    ]).join(" · "),
+  };
+});
+
+async function downloadBuffer(url, attempts = 4) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        headers: { "user-agent": "Mozilla/5.0 meme-research-library/1.0" },
+      });
+      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+      const type = response.headers.get("content-type") || "";
+      if (!type.startsWith("image/")) throw new Error(`not an image: ${type}`);
+      return Buffer.from(await response.arrayBuffer());
+    } catch (error) {
+      lastError = error;
+      if (attempt < attempts) await new Promise((resolve) => setTimeout(resolve, attempt * 800));
+    }
+  }
+  throw lastError;
+}
+
+async function ensureImage(record) {
+  if (record.image) return;
+  const candidates = compact([
+    record.imageOriginalUrl,
+    ...record.variants.map((variant) => {
+      if (variant.provider === "Memegen") return `https://api.memegen.link/images/${variant.templateId}.jpg`;
+      const sourceItem = imgflip.find((item) => String(item.id) === String(variant.templateId));
+      return sourceItem?.url || "";
+    }),
+  ]);
+  let lastError;
+  for (const url of candidates) {
+    const fileName = `${shortHash(url)}.webp`;
+    const outputPath = path.join(imageRoot, fileName);
+    if (fs.existsSync(outputPath) && fs.statSync(outputPath).size > 0) {
+      record.image = `meme-images/${fileName}`;
+      record.imageOriginalUrl = url;
+      return;
+    }
+    try {
+      const buffer = await downloadBuffer(url);
+      const tempPath = path.join(os.tmpdir(), `meme-source-${process.pid}-${shortHash(url)}.img`);
+      fs.writeFileSync(tempPath, buffer);
+      execFileSync("cwebp", ["-quiet", "-q", "76", "-m", "4", tempPath, "-o", outputPath], { stdio: "pipe" });
+      fs.rmSync(tempPath, { force: true });
+      record.image = `meme-images/${fileName}`;
+      record.imageOriginalUrl = url;
+      return;
+    } catch (error) {
+      lastError = error;
+      fs.rmSync(outputPath, { force: true });
+    }
+  }
+  throw new Error(`Could not cache image for ${record.name}: ${lastError?.message || "unknown error"}`);
+}
+
+let cursor = 0;
+const workers = Array.from({ length: 8 }, async () => {
+  while (cursor < modernRecords.length) {
+    const index = cursor;
+    cursor += 1;
+    await ensureImage(modernRecords[index]);
+  }
+});
+await Promise.all(workers);
+
+const records = [...modernRecords, ...publicDomainRecords]
+  .sort((a, b) => (b.activityScore || 0) - (a.activityScore || 0) || a.name.localeCompare(b.name, "en"));
+
+const countsBy = (key) => Object.fromEntries([...new Set(records.map((item) => item[key]))]
+  .sort((a, b) => String(a).localeCompare(String(b), "zh-CN"))
+  .map((value) => [value, records.filter((item) => item[key] === value).length]));
+const dataset = {
+  schemaVersion: "1.0.0",
+  sourceVersion: `meme-library-${source.researchDate}-v1`,
+  generatedAt: new Date().toISOString(),
+  researchDate: source.researchDate,
+  title: "美国 Meme 图谱",
+  scope: "Meme 家族、来源人物/作品、视觉结构、平台活跃信号和商业权利路由；现代原图只作研究参考。",
+  methodology: {
+    familyUnit: "同一叙事模板的不同服务版本合并为一个 Meme 家族；来源人物/作品另行聚合。",
+    activity: "Imgflip 排名与 caption count 是平台信号，不等于美国人口认知；Memegen 收录只证明模板目录存在。",
+    rights: "现代影视、摄影、名人、角色和互联网创作者素材默认不进入生产池；公版条目只适用于列明的具体历史版本。",
+    sources: [
+      { name: "Memegen template API", url: MEMEGEN_URL, records: memegen.length },
+      { name: "Imgflip get_memes API", url: IMGFLIP_URL, records: imgflip.length },
+      { name: "Public-domain visual catalog", url: "data/catalog.json", records: publicDomainRecords.length },
+    ],
+  },
+  counts: {
+    records: records.length,
+    contemporary: modernRecords.length,
+    publicDomain: publicDomainRecords.length,
+    currentSignals: records.filter((item) => item.currentTemplateRank).length,
+    linkedSuperIp: records.filter((item) => item.relatedSuperIp).length,
+    byCategory: countsBy("category"),
+    byRights: countsBy("rightsLane"),
+  },
+  records,
+};
+
+const json = `${JSON.stringify(dataset, null, 2)}\n`;
+fs.writeFileSync(outputJsonPath, json);
+fs.writeFileSync(outputJsPath, `window.MEME_LIBRARY_DATA=${JSON.stringify(dataset)};\n`);
+fs.writeFileSync(manifestPath, `${JSON.stringify({
+  schemaVersion: "1.0.0",
+  generatedAt: dataset.generatedAt,
+  sourceVersion: dataset.sourceVersion,
+  counts: dataset.counts,
+  dataSha256: hash(json),
+  imageFiles: fs.readdirSync(imageRoot).filter((name) => name.endsWith(".webp")).length,
+  imageBytes: fs.readdirSync(imageRoot)
+    .filter((name) => name.endsWith(".webp"))
+    .reduce((sum, name) => sum + fs.statSync(path.join(imageRoot, name)).size, 0),
+}, null, 2)}\n`);
+
+console.log(JSON.stringify({
+  sourceVersion: dataset.sourceVersion,
+  records: dataset.counts.records,
+  contemporary: dataset.counts.contemporary,
+  publicDomain: dataset.counts.publicDomain,
+  currentSignals: dataset.counts.currentSignals,
+  linkedSuperIp: dataset.counts.linkedSuperIp,
+  imageFiles: JSON.parse(fs.readFileSync(manifestPath, "utf8")).imageFiles,
+}, null, 2));

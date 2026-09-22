@@ -1,0 +1,114 @@
+import fs from "node:fs";
+import path from "node:path";
+import vm from "node:vm";
+import { fileURLToPath } from "node:url";
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const jsonPath = path.join(root, "data", "memes.json");
+const jsPath = path.join(root, "data", "memes.js");
+const htmlPath = path.join(root, "memes.html");
+const data = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
+const errors = [];
+
+const fail = (condition, message) => {
+  if (!condition) errors.push(message);
+};
+
+fail(Array.isArray(data.records), "records must be an array");
+fail(data.records.length >= 300, `expected at least 300 records, got ${data.records.length}`);
+
+const required = [
+  "id",
+  "name",
+  "category",
+  "subcategory",
+  "originEntity",
+  "originWork",
+  "image",
+  "sourceUrl",
+  "mechanic",
+  "agentPattern",
+  "rightsLane",
+  "copyrightNote",
+  "publicityNote",
+  "trademarkNote",
+  "productionRoute",
+  "activityEvidence",
+  "evidenceLevel",
+];
+const ids = new Set();
+const superIp = JSON.parse(fs.readFileSync(path.join(root, "data", "super-ip-us.json"), "utf8"));
+const superIds = new Set(superIp.records.map((record) => record.id));
+let publicDomain = 0;
+let contemporary = 0;
+let currentSignals = 0;
+let linkedSuperIp = 0;
+
+for (const [index, record] of data.records.entries()) {
+  const label = record.id || `record ${index}`;
+  for (const field of required) fail(record[field] !== undefined && record[field] !== null && record[field] !== "", `${label}: missing ${field}`);
+  fail(!ids.has(record.id), `${label}: duplicate id`);
+  ids.add(record.id);
+  fail(Array.isArray(record.useCases) && record.useCases.length > 0, `${label}: missing useCases`);
+  fail(Number.isInteger(record.slots) && record.slots >= 1, `${label}: invalid slots`);
+  fail(/^https?:\/\//.test(record.sourceUrl), `${label}: invalid sourceUrl`);
+
+  const imagePath = path.join(root, record.image);
+  fail(fs.existsSync(imagePath), `${label}: missing image ${record.image}`);
+  if (fs.existsSync(imagePath)) {
+    const stat = fs.statSync(imagePath);
+    fail(stat.size > 1024, `${label}: image too small ${record.image}`);
+    const header = fs.readFileSync(imagePath).subarray(0, 12);
+    fail(header.subarray(0, 4).toString("ascii") === "RIFF" && header.subarray(8, 12).toString("ascii") === "WEBP", `${label}: image is not decodable WebP container ${record.image}`);
+  }
+
+  if (record.rightsLane === "公版具体版本") {
+    publicDomain += 1;
+    fail(Boolean(record.visualRecordId), `${label}: public-domain record missing visualRecordId`);
+    fail(record.image.startsWith("images/"), `${label}: public-domain record should use catalog image`);
+  } else {
+    contemporary += 1;
+    fail(!record.visualRecordId, `${label}: modern record unexpectedly has visualRecordId`);
+    fail(record.image.startsWith("meme-images/"), `${label}: modern record should use research-image cache`);
+  }
+  if (Number.isFinite(record.currentTemplateRank)) currentSignals += 1;
+  if (record.relatedSuperIp) {
+    linkedSuperIp += 1;
+    fail(superIds.has(record.relatedSuperIp.id), `${label}: missing related Super IP ${record.relatedSuperIp.id}`);
+  }
+}
+
+fail(data.counts.records === data.records.length, "counts.records mismatch");
+fail(data.counts.publicDomain === publicDomain, "counts.publicDomain mismatch");
+fail(data.counts.contemporary === contemporary, "counts.contemporary mismatch");
+fail(data.counts.currentSignals === currentSignals, "counts.currentSignals mismatch");
+fail(data.counts.linkedSuperIp === linkedSuperIp, "counts.linkedSuperIp mismatch");
+
+const context = { window: {} };
+vm.runInNewContext(fs.readFileSync(jsPath, "utf8"), context, { filename: jsPath });
+fail(context.window.MEME_LIBRARY_DATA?.records?.length === data.records.length, "data/memes.js does not match JSON");
+
+const html = fs.readFileSync(htmlPath, "utf8");
+fail(html.includes('src="data/memes.js'), "memes.html missing data script");
+fail(html.includes('src="assets/memes.js'), "memes.html missing application script");
+fail(html.includes('href="assets/memes.css'), "memes.html missing stylesheet");
+
+for (const page of ["index.html", "calendar.html", "visual.html", "albums.html"]) {
+  const content = fs.readFileSync(path.join(root, page), "utf8");
+  fail(content.includes('href="memes.html"'), `${page}: missing Meme 图谱 navigation link`);
+}
+
+if (errors.length) {
+  console.error(errors.map((error) => `- ${error}`).join("\n"));
+  process.exit(1);
+}
+
+console.log(JSON.stringify({
+  records: data.records.length,
+  contemporary,
+  publicDomain,
+  currentSignals,
+  linkedSuperIp,
+  imageFiles: new Set(data.records.map((record) => record.image)).size,
+  status: "valid",
+}, null, 2));

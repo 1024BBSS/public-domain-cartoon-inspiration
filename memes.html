@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="面向美国市场的 Meme 家族、来源人物与作品、叙事结构、平台活跃信号和商业权利路由。">
+  <title>美国 Meme 图谱</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12'/%3E%3Cpath fill='white' d='M12 15h40v8H20v6h26v8H20v6h32v8H12z'/%3E%3C/svg%3E">
+  <link rel="alternate" type="application/json" href="data/memes.json" title="美国 Meme 图谱 Agent 数据">
+  <link rel="stylesheet" href="assets/tokens.css">
+  <link rel="stylesheet" href="assets/components.css">
+  <link rel="stylesheet" href="assets/memes.css?v=1.0.0">
+  <script defer src="data/memes.js?v=1.0.0"></script>
+  <script defer src="assets/memes.js?v=1.0.0"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="topbar__title">美国 Meme 图谱</div>
+      <span class="topbar__meta" id="top-meta">载入中</span>
+      <div class="topbar__spacer"></div>
+      <div class="topbar__actions">
+        <a class="btn btn--ghost btn--sm" href="index.html">美国超级 IP</a>
+        <a class="btn btn--ghost btn--sm" href="calendar.html">消费日历</a>
+        <a class="btn btn--ghost btn--sm" href="visual.html">公版视觉</a>
+        <a class="btn btn--ghost btn--sm" href="albums.html">专辑封面</a>
+        <a class="btn btn--ghost btn--sm" href="data/memes.json" target="_blank" rel="noreferrer">Agent JSON</a>
+        <button class="btn btn--primary btn--sm" id="copy-page" type="button">复制当前页</button>
+      </div>
+    </header>
+
+    <div class="body">
+      <aside class="sidebar" aria-label="Meme 图谱筛选">
+        <div class="sidebar__section">
+          <div class="sidebar__label">来源类型</div>
+          <nav class="facet-list" id="category-facets"></nav>
+        </div>
+        <div class="sidebar__section">
+          <div class="sidebar__label">权利入口</div>
+          <nav class="facet-list" id="rights-facets"></nav>
+        </div>
+        <div class="sidebar__section sidebar__section--tail">
+          <p class="boundary-note">目录收录与平台热度不是授权。现代剧照、照片、角色和真人只用于研究；可复用池仅指列明的具体公版历史版本。</p>
+        </div>
+      </aside>
+
+      <main class="main meme-main" id="main-content">
+        <section class="filterbar" aria-label="搜索与筛选">
+          <label class="search-field">
+            <span class="sr-only">搜索 Meme、人物、作品或使用场景</span>
+            <input class="input" id="search" type="search" autocomplete="off" placeholder="搜 Meme、人物、影视、角色、机制或使用场景">
+          </label>
+          <select class="select compact-select" id="category-select" aria-label="来源类型">
+            <option value="全部">全部来源类型</option>
+          </select>
+          <select class="select compact-select" id="subcategory-select" aria-label="子分类">
+            <option value="全部">全部子分类</option>
+          </select>
+          <select class="select compact-select" id="rights-select" aria-label="权利入口">
+            <option value="全部">全部权利入口</option>
+          </select>
+          <select class="select compact-select" id="scenario-select" aria-label="使用场景">
+            <option value="全部">全部使用场景</option>
+          </select>
+          <select class="select compact-select" id="sort-select" aria-label="排序">
+            <option value="activity">活跃与证据优先</option>
+            <option value="awareness">来源知名度优先</option>
+            <option value="category">分类</option>
+            <option value="name">名称</option>
+          </select>
+          <button class="btn btn--secondary" id="reset" type="button">重置</button>
+        </section>
+
+        <section class="browse-switch" aria-label="浏览入口">
+          <div class="view-tabs" id="view-tabs">
+            <button class="view-tab" type="button" data-view="families">Meme 家族</button>
+            <button class="view-tab" type="button" data-view="sources">来源人物 / 作品</button>
+          </div>
+          <div class="view-note" id="view-note">先找表达结构，再看来源和权利。</div>
+        </section>
+
+        <section class="taxonomy-browser" aria-label="两步分类导航">
+          <div class="taxonomy-step">
+            <div class="taxonomy-step__label"><b>1</b><span>来源类型</span></div>
+            <nav class="taxonomy-options" id="category-tabs" aria-label="来源类型"></nav>
+          </div>
+          <div class="taxonomy-step" id="subcategory-step" hidden>
+            <div class="taxonomy-step__label"><b>2</b><span>子分类</span></div>
+            <nav class="taxonomy-options" id="subcategory-tabs" aria-label="子分类"></nav>
+          </div>
+        </section>
+
+        <nav class="quick-tabs" id="quick-tabs" aria-label="快捷条件"></nav>
+
+        <section class="summary-strip" aria-label="资料库统计">
+          <div class="summary-metric"><span id="metric-all">0</span><small>Meme 家族</small></div>
+          <div class="summary-metric"><span id="metric-signals">0</span><small>当前活跃信号</small></div>
+          <div class="summary-metric summary-metric--ok"><span id="metric-pd">0</span><small>具体公版底图</small></div>
+          <div class="summary-metric"><span id="metric-linked">0</span><small>关联超级 IP</small></div>
+          <p class="summary-rule">活跃＝Imgflip 当前目录排名 / caption 量；不是美国人口知名度。来源知名度来自关联 IP，只说明人物或作品知名，不说明该 Meme 的知名度。</p>
+        </section>
+
+        <section class="result-head" aria-live="polite">
+          <div><strong id="result-title">全部 Meme 家族</strong><span class="dim"> · </span><strong id="result-count">0</strong></div>
+          <div class="dim" id="page-status"></div>
+        </section>
+
+        <section class="meme-grid" id="meme-list" aria-label="Meme 家族"></section>
+        <section class="source-grid" id="source-list" aria-label="来源人物与作品" hidden></section>
+
+        <div class="empty" id="empty-state" hidden>
+          <div class="empty__title">没有匹配项</div>
+          <div class="dim">缩短关键词或清空筛选。</div>
+          <button class="btn btn--secondary btn--sm" id="empty-reset" type="button">清空筛选</button>
+        </div>
+
+        <nav class="load-more-bar" id="load-more-bar" aria-label="继续浏览">
+          <button class="btn btn--secondary" id="load-more" type="button">加载更多</button>
+          <span class="load-more-status" id="load-more-status" aria-live="polite"></span>
+        </nav>
+      </main>
+    </div>
+  </div>
+
+  <dialog class="detail-dialog meme-dialog" id="detail-dialog" aria-labelledby="detail-title">
+    <form method="dialog" class="dialog-close-row">
+      <button class="btn btn--ghost btn--sm" aria-label="关闭详情">关闭</button>
+    </form>
+    <article class="detail-copy meme-detail">
+      <div class="eyebrow" id="detail-kind"></div>
+      <h1 id="detail-title"></h1>
+      <p class="detail-subtitle" id="detail-subtitle"></p>
+      <div class="detail-hero">
+        <figure class="detail-media"><img id="detail-image" alt=""></figure>
+        <div class="detail-snapshot">
+          <div class="badge-row" id="detail-badges"></div>
+          <dl class="snapshot-list">
+            <div><dt>表达机制</dt><dd id="detail-mechanic"></dd></div>
+            <div><dt>可用于</dt><dd id="detail-use-cases"></dd></div>
+            <div><dt>文字槽位</dt><dd id="detail-slots"></dd></div>
+            <div><dt>活跃证据</dt><dd id="detail-activity"></dd></div>
+          </dl>
+        </div>
+      </div>
+      <section class="detail-section detail-section--agent">
+        <h2>给 Agent 的结构提示</h2>
+        <p id="detail-agent-pattern"></p>
+      </section>
+      <div class="detail-columns">
+        <section class="detail-section">
+          <h2>生产路线</h2>
+          <p id="detail-production"></p>
+        </section>
+        <section class="detail-section">
+          <h2>来源关联</h2>
+          <p id="detail-origin"></p>
+          <p class="detail-related" id="detail-related"></p>
+        </section>
+      </div>
+      <section class="rights-matrix" aria-label="权利检查">
+        <div><b>版权</b><span id="detail-copyright"></span></div>
+        <div><b>肖像 / 人格</b><span id="detail-publicity"></span></div>
+        <div><b>商标 / 来源误认</b><span id="detail-trademark"></span></div>
+      </section>
+      <section class="variant-section">
+        <h2>目录版本</h2>
+        <div class="variant-list" id="detail-variants"></div>
+      </section>
+      <div class="detail-actions">
+        <a class="btn btn--secondary" id="detail-source" target="_blank" rel="noreferrer">查看来源</a>
+        <a class="btn btn--secondary" id="detail-super-ip" href="index.html" hidden>关联超级 IP</a>
+        <a class="btn btn--secondary" id="detail-visual" href="visual.html" hidden>关联公版视觉</a>
+        <button class="btn btn--primary" id="copy-brief" type="button">复制 Agent 简报</button>
+      </div>
+    </article>
+  </dialog>
+
+  <dialog class="detail-dialog source-dialog" id="source-dialog" aria-labelledby="source-title">
+    <form method="dialog" class="dialog-close-row">
+      <button class="btn btn--ghost btn--sm" aria-label="关闭来源详情">关闭</button>
+    </form>
+    <article class="detail-copy source-detail">
+      <div class="eyebrow" id="source-kind">来源人物 / 作品</div>
+      <h1 id="source-title"></h1>
+      <p class="detail-subtitle" id="source-subtitle"></p>
+      <div class="source-summary" id="source-summary"></div>
+      <section class="source-family-list" id="source-family-list"></section>
+      <div class="detail-actions">
+        <a class="btn btn--secondary" id="source-super-ip" href="index.html">在超级 IP 中搜索</a>
+        <button class="btn btn--primary" id="copy-source" type="button">复制来源简报</button>
+      </div>
+    </article>
+  </dialog>
+</body>
+</html>
