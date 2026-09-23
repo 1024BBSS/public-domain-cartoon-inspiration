@@ -49,6 +49,7 @@
     detailImage: $("#detail-image"),
     detailBadges: $("#detail-badges"),
     detailMechanic: $("#detail-mechanic"),
+    detailAliases: $("#detail-aliases"),
     detailUseCases: $("#detail-use-cases"),
     detailEra: $("#detail-era"),
     detailSlots: $("#detail-slots"),
@@ -562,8 +563,15 @@
     const rightsModifier = record.rightsLane === "公版具体版本" ? "badge--ok" : record.rightsLane.includes("授权") || record.rightsLane.includes("肖像") || record.rightsLane.includes("创作者") ? "badge--warn" : "";
     const awarenessBadge = record.relatedSuperIp?.surveyFamePercent ? badge(`来源认知 ${record.relatedSuperIp.surveyFamePercent}%`) : null;
     const yearBadge = record.firstSeenYear ? badge(String(record.firstSeenYear)) : badge("年代待复核");
-    dom.detailBadges.replaceChildren(badge(record.rightsLane, rightsModifier), activityBadge, badge(record.reuseTier || "复用待复核"), yearBadge, badge(`证据 ${record.evidenceLevel}`), ...(awarenessBadge ? [awarenessBadge] : []));
+    const curationBadge = record.curationStatus
+      ? badge(record.curationStatus, record.curationStatus.includes("研究中") ? "badge--warn" : "")
+      : null;
+    dom.detailBadges.replaceChildren(badge(record.rightsLane, rightsModifier), activityBadge, badge(record.reuseTier || "复用待复核"), yearBadge, badge(`证据 ${record.evidenceLevel}`), ...(curationBadge ? [curationBadge] : []), ...(awarenessBadge ? [awarenessBadge] : []));
     dom.detailMechanic.textContent = record.mechanic;
+    dom.detailAliases.textContent = [
+      (record.aliases || []).length ? (record.aliases || []).join(" · ") : "暂无补充别名",
+      record.variantNote || "暂无单独变体关系说明",
+    ].join("。 ");
     dom.detailUseCases.textContent = (record.useCases || []).join(" · ") || "待补";
     dom.detailEra.textContent = record.era || "年代待复核";
     dom.detailSlots.textContent = `${record.slots} 个；用于描述信息结构，不代表可直接复制画面。`;
@@ -671,6 +679,8 @@
       `来源：${record.originEntity} / ${record.originWork || "待复核"}`,
       `年代：${record.firstSeenYear || "待复核"} / ${record.era || "待复核"}`,
       `表达机制：${record.mechanic}`,
+      `别名：${(record.aliases || []).join("、") || "无"}`,
+      `变体关系：${record.variantNote || "无单独说明"}`,
       `文字槽位：${record.slots}`,
       `可用场景：${(record.useCases || []).join("、") || "待补"}`,
       `Agent 结构：${record.agentPattern}`,

@@ -1,30 +1,31 @@
 {
   "schemaVersion": "2.0.0",
-  "generatedAt": "2026-09-22T11:01:56.603Z",
-  "sourceVersion": "meme-library-2026-09-22-v2",
+  "generatedAt": "2026-09-23T10:39:22.353Z",
+  "sourceVersion": "meme-library-2026-09-23-v2",
   "counts": {
-    "records": 1312,
-    "contemporary": 1262,
+    "records": 1321,
+    "contemporary": 1271,
     "publicDomain": 50,
     "currentSignals": 97,
-    "kymEvidence": 1043,
-    "recentTwoYears": 285,
+    "kymEvidence": 1052,
+    "recentTwoYears": 286,
     "recentHeat": 119,
     "recentEditorial": 27,
-    "highReuse": 411,
-    "linkedSuperIp": 258,
+    "highReuse": 413,
+    "linkedSuperIp": 265,
+    "curatedRequired": 9,
     "byEra": {
-      "短视频扩散 · 2023–2024": 86,
-      "反应图 / GIF · 2012–2017": 196,
-      "近两年热门 · 2025–2026": 285,
+      "短视频扩散 · 2023–2024": 88,
+      "反应图 / GIF · 2012–2017": 197,
+      "近两年热门 · 2025–2026": 286,
       "历史公版视觉": 50,
-      "平台 Meme · 2018–2022": 83,
-      "图片宏 / Web 2.0 · 2005–2011": 296,
-      "早期互联网 · ≤2004": 316
+      "平台 Meme · 2018–2022": 84,
+      "图片宏 / Web 2.0 · 2005–2011": 299,
+      "早期互联网 · ≤2004": 317
     },
     "byCategory": {
-      "电影 / 电视": 256,
-      "动物 / 表情": 244,
+      "电影 / 电视": 257,
+      "动物 / 表情": 252,
       "互联网原生": 402,
       "经典艺术 / 公版": 50,
       "名人 / 音乐": 94,
@@ -35,13 +36,13 @@
     },
     "byRights": {
       "版权 + 肖像需核验": 191,
-      "创作者版权需核验": 38,
+      "创作者版权需核验": 44,
       "公版具体版本": 50,
       "影视 / 角色需授权": 335,
-      "原图权利待核验": 698
+      "原图权利待核验": 701
     }
   },
-  "dataSha256": "c537516db43a03a1e85cbb438212b1daa3cce96c42c637faeaf61553b23f86a1",
-  "imageFiles": 1337,
-  "imageBytes": 56678338
+  "dataSha256": "2f1531b1a1dc0414c335eba19f8335b946045b8db8187dfa41d03d0c5008c2d1",
+  "imageFiles": 1346,
+  "imageBytes": 57101210
 }

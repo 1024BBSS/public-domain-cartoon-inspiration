@@ -7,8 +7,10 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const jsonPath = path.join(root, "data", "memes.json");
 const jsPath = path.join(root, "data", "memes.js");
 const htmlPath = path.join(root, "memes.html");
+const requiredPath = path.join(root, "source", "meme-required-entries.json");
 const data = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
 const errors = [];
+const normalize = (value) => String(value || "").normalize("NFKC").toLocaleLowerCase("en-US").replace(/\s+/g, " ").trim();
 
 const fail = (condition, message) => {
   if (!condition) errors.push(message);
@@ -54,6 +56,7 @@ let recentTwoYears = 0;
 let recentHeat = 0;
 let recentEditorial = 0;
 let highReuse = 0;
+let curatedRequired = 0;
 
 for (const [index, record] of data.records.entries()) {
   const label = record.id || `record ${index}`;
@@ -89,6 +92,7 @@ for (const [index, record] of data.records.entries()) {
   if (record.recentHeat) recentHeat += 1;
   if (record.editorialEvidence?.some((evidence) => evidence.signal === "recent-editorial")) recentEditorial += 1;
   if (["高复用线索", "近年上升"].includes(record.reuseTier)) highReuse += 1;
+  if (record.requiredEntry) curatedRequired += 1;
   if (record.relatedSuperIp) {
     linkedSuperIp += 1;
     fail(superIds.has(record.relatedSuperIp.id), `${label}: missing related Super IP ${record.relatedSuperIp.id}`);
@@ -105,6 +109,7 @@ fail(data.counts.recentHeat === recentHeat, "counts.recentHeat mismatch");
 fail(data.counts.recentEditorial === recentEditorial, "counts.recentEditorial mismatch");
 fail(data.counts.highReuse === highReuse, "counts.highReuse mismatch");
 fail(data.counts.linkedSuperIp === linkedSuperIp, "counts.linkedSuperIp mismatch");
+fail(data.counts.curatedRequired === curatedRequired, "counts.curatedRequired mismatch");
 fail(kymEvidence >= 700, `expected at least 700 KYM-backed records, got ${kymEvidence}`);
 fail(recentTwoYears >= 40, `expected at least 40 records from 2025–2026, got ${recentTwoYears}`);
 fail(recentEditorial >= 20, `expected at least 20 recent editorial signals, got ${recentEditorial}`);
@@ -112,6 +117,29 @@ fail(recentEditorial >= 20, `expected at least 20 recent editorial signals, got 
 const titleIndex = data.records.map((record) => `${record.name} ${(record.aliases || []).join(" ")}`.toLowerCase());
 for (const expected of ["chill guy", "hawk tuah", "67 meme", "italian brainrot", "moo-deng"]) {
   fail(titleIndex.some((title) => title.includes(expected)), `missing recent benchmark: ${expected}`);
+}
+
+fail(fs.existsSync(requiredPath), "missing source/meme-required-entries.json");
+if (fs.existsSync(requiredPath)) {
+  const requiredSource = JSON.parse(fs.readFileSync(requiredPath, "utf8"));
+  fail(Array.isArray(requiredSource.records) && requiredSource.records.length > 0, "required Meme coverage guard is empty");
+  for (const required of requiredSource.records || []) {
+    const record = data.records.find((item) => item.variants?.some((variant) => variant.templateId === required.path));
+    fail(Boolean(record), `missing required Meme family: ${required.title}`);
+    if (!record) continue;
+    const searchable = normalize([record.name, ...(record.aliases || []), record.searchText].join(" "));
+    for (const alias of [required.title, ...(required.aliases || [])]) {
+      fail(searchable.includes(normalize(alias)), `${required.title}: missing searchable alias ${alias}`);
+    }
+    fail(record.requiredEntry === true, `${required.title}: missing requiredEntry marker`);
+    fail(Boolean(record.variantNote), `${required.title}: missing parent/variant note`);
+    fail(Boolean(record.curationStatus), `${required.title}: missing curation status`);
+    if (required.status === "Submission") {
+      fail(record.curationStatus.includes("研究中"), `${required.title}: Submission is not labelled as research in progress`);
+      fail(record.evidenceLevel === "C", `${required.title}: Submission evidence level must remain C`);
+    }
+  }
+  fail(curatedRequired === requiredSource.records.length, `expected ${requiredSource.records.length} required Meme records, got ${curatedRequired}`);
 }
 
 const kymSnapshotPath = path.join(root, "source", "meme-kym-snapshot.json");
@@ -150,6 +178,7 @@ console.log(JSON.stringify({
   recentHeat,
   recentEditorial,
   highReuse,
+  curatedRequired,
   linkedSuperIp,
   imageFiles: new Set(data.records.map((record) => record.image)).size,
   status: "valid",

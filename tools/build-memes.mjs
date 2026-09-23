@@ -9,6 +9,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, "..");
 const sourcePath = path.join(root, "source", "meme-template-sources.json");
 const kymSourcePath = path.join(root, "source", "meme-kym-snapshot.json");
+const requiredSourcePath = path.join(root, "source", "meme-required-entries.json");
 const catalogPath = path.join(root, "data", "catalog.json");
 const superIpPath = path.join(root, "data", "super-ip-us.json");
 const outputJsonPath = path.join(root, "data", "memes.json");
@@ -73,11 +74,40 @@ const source = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
 const kymSource = fs.existsSync(kymSourcePath)
   ? JSON.parse(fs.readFileSync(kymSourcePath, "utf8"))
   : { researchDate: source.researchDate, records: [], counts: { records: 0 } };
+const requiredSource = fs.existsSync(requiredSourcePath)
+  ? JSON.parse(fs.readFileSync(requiredSourcePath, "utf8"))
+  : { researchDate: source.researchDate, records: [] };
 const catalog = JSON.parse(fs.readFileSync(catalogPath, "utf8"));
 const superIp = JSON.parse(fs.readFileSync(superIpPath, "utf8"));
 const memegen = source.sources.memegen.records;
 const imgflip = source.sources.imgflip.records;
-const kymRecords = kymSource.records || [];
+const requiredRecords = requiredSource.records || [];
+const requiredByPath = new Map(requiredRecords.map((record) => [record.path, record]));
+const kymByPath = new Map((kymSource.records || []).map((record) => [record.path, record]));
+for (const required of requiredRecords) {
+  const existing = kymByPath.get(required.path) || {};
+  kymByPath.set(required.path, {
+    ...required,
+    ...existing,
+    aliases: required.aliases || [],
+    requiredEntry: true,
+    curationStatus: required.curationStatus,
+    relationType: required.relationType,
+    variantNote: required.variantNote,
+    curationReason: required.curationReason,
+    mechanicOverride: required.mechanicOverride,
+    useCasesOverride: required.useCasesOverride,
+    agentPatternOverride: required.agentPatternOverride,
+    rightsLaneOverride: required.rightsLaneOverride,
+    copyrightNoteOverride: required.copyrightNoteOverride,
+    publicityNoteOverride: required.publicityNoteOverride,
+    trademarkNoteOverride: required.trademarkNoteOverride,
+    productionRouteOverride: required.productionRouteOverride,
+    imageUrl: existing.imageUrl || required.imageUrl,
+    url: existing.url || required.url,
+  });
+}
+const kymRecords = [...kymByPath.values()];
 
 const aliasFamilies = [
   ["drakeposting", "drake hotline bling", "drake blank"],
@@ -114,6 +144,10 @@ const aliasFamilies = [
 const aliasToFamily = new Map();
 for (const [family, ...aliases] of aliasFamilies) {
   for (const alias of [family, ...aliases]) aliasToFamily.set(normalize(alias), family);
+}
+for (const record of requiredRecords) {
+  const family = normalize(record.title);
+  for (const alias of [record.title, ...(record.aliases || [])]) aliasToFamily.set(normalize(alias), family);
 }
 function familyKey(name) {
   return aliasToFamily.get(normalize(name)) || normalize(name);
@@ -414,7 +448,10 @@ for (const [index, item] of imgflip.entries()) {
   });
 }
 for (const item of kymRecords) {
-  ensureFamily(item.title).variants.push({
+  const family = ensureFamily(item.title);
+  family.names.push(...(item.aliases || []));
+  if (item.requiredEntry) family.curated = item;
+  family.variants.push({
     provider: "Know Your Meme",
     templateId: item.path,
     name: item.title,
@@ -500,11 +537,23 @@ const modernRecords = [...families.values()].map((family) => {
   const primary = choosePrimary(family);
   const displayName = primary.name || family.names[0];
   const kymEvidence = chooseKymEvidence(family);
+  const curated = family.curated || (kymEvidence?.path ? requiredByPath.get(kymEvidence.path) : null) || null;
   const origin = resolveOrigin(displayName, family, kymEvidence);
   const [category, subcategory] = categoryForKym(`${displayName} ${family.names.join(" ")}`, origin, kymEvidence);
   const lines = Math.max(...family.variants.map((item) => item.lines || 0), 1);
-  const mechanic = mechanicFor(`${displayName} ${family.names.join(" ")}`, lines);
-  const rights = rightsFor(category, origin, `${displayName} ${family.names.join(" ")}`);
+  const inferredMechanic = mechanicFor(`${displayName} ${family.names.join(" ")}`, lines);
+  const mechanic = curated?.mechanicOverride
+    ? { mechanic: curated.mechanicOverride, useCases: curated.useCasesOverride || inferredMechanic.useCases }
+    : inferredMechanic;
+  const inferredRights = rightsFor(category, origin, `${displayName} ${family.names.join(" ")}`);
+  const rights = {
+    ...inferredRights,
+    lane: curated?.rightsLaneOverride || inferredRights.lane,
+    copyright: curated?.copyrightNoteOverride || inferredRights.copyright,
+    publicity: curated?.publicityNoteOverride || inferredRights.publicity,
+    trademark: curated?.trademarkNoteOverride || inferredRights.trademark,
+    production: curated?.productionRouteOverride || inferredRights.production,
+  };
   const currentRank = family.variants.filter((item) => item.rank).sort((a, b) => a.rank - b.rank)[0]?.rank || null;
   const captions = Math.max(...family.variants.map((item) => Number(item.captions) || 0));
   const kymVariants = family.variants.filter((item) => item.kym).map((item) => item.kym);
@@ -531,7 +580,9 @@ const modernRecords = [...families.values()].map((family) => {
     editorialEvidence[0] ? `${editorialEvidence[0].label}${editorialEvidence[0].selection ? `：${editorialEvidence[0].selection}` : ""}` : "",
   ]);
   const recentEditorial = editorialEvidence.some((item) => item.signal === "recent-editorial");
-  const activityLabel = recentEditorial
+  const activityLabel = curated?.status === "Submission"
+    ? "研究中条目"
+    : recentEditorial
     ? "2026 编辑榜"
     : Number(firstSeenYear) >= 2025 && editorialEvidence.length
       ? "近年年度热门"
@@ -553,8 +604,8 @@ const modernRecords = [...families.values()].map((family) => {
     sourceType: origin.entity === "互联网 Meme 文化" ? "互联网原生" : category,
     originEntity: origin.entity,
     originWork: origin.work,
-    imageOriginalUrl: primary.imageUrl || kymEvidence?.imageUrl || "",
-    sourceUrl: primary.sourceUrl,
+    imageOriginalUrl: curated?.imageUrl || primary.imageUrl || kymEvidence?.imageUrl || "",
+    sourceUrl: curated?.url || primary.sourceUrl,
     providers: compact(family.variants.map((item) => item.provider)),
     variants: family.variants.map((item) => ({
       provider: item.provider,
@@ -570,11 +621,12 @@ const modernRecords = [...families.values()].map((family) => {
       year: item.kym?.year ?? null,
       historicalRank: item.kym?.historicalRank ?? null,
       newestRank: item.kym?.newestRank ?? null,
+      status: item.kym?.status || "",
     })),
     slots: lines,
     mechanic: mechanic.mechanic,
     useCases: mechanic.useCases,
-    agentPattern: `保留“${mechanic.mechanic}”的关系节奏；为新主题重新设计人物、场景、道具与文字，不复制原图。`,
+    agentPattern: curated?.agentPatternOverride || `保留“${mechanic.mechanic}”的关系节奏；为新主题重新设计人物、场景、道具与文字，不复制原图。`,
     rightsLane: rights.lane,
     copyrightNote: rights.copyright,
     publicityNote: rights.publicity,
@@ -589,6 +641,11 @@ const modernRecords = [...families.values()].map((family) => {
     kymVideos,
     kymHistoricalRank,
     kymNewestRank,
+    curationStatus: curated?.curationStatus || "",
+    relationType: curated?.relationType || "",
+    variantNote: curated?.variantNote || "",
+    curationReason: curated?.curationReason || "",
+    requiredEntry: Boolean(curated?.requiredEntry),
     editorialEvidence,
     reuseTier,
     recognitionEvidence: related?.surveyFamePercent
@@ -599,7 +656,7 @@ const modernRecords = [...families.values()].map((family) => {
     reuseEvidence: evidenceParts.length
       ? `${evidenceParts.join("；")}。这些是平台传播 / 复用代理，不是授权。`
       : "仅见模板目录收录，尚无跨来源复用证据。",
-    trendStatus: recentEditorial ? "2026 近期编辑榜" : recentHeat ? "2025–2026 热榜" : Number(firstSeenYear) >= 2024 ? "2024 扩散" : "历史档案",
+    trendStatus: curated?.status === "Submission" ? "研究中条目" : recentEditorial ? "2026 近期编辑榜" : recentHeat ? "2025–2026 热榜" : Number(firstSeenYear) >= 2024 ? "2024 扩散" : "历史档案",
     recentHeat,
     activityScore,
     activityLabel,
@@ -614,13 +671,15 @@ const modernRecords = [...families.values()].map((family) => {
       surveyFamePercent: related.surveyFamePercent ?? null,
       rightsLane: related.rightsLane || "",
     } : null,
-    evidenceLevel: kymEvidence && (currentRank || editorialEvidence.length) ? "B+" : currentRank || kymEvidence ? "B" : "C",
+    evidenceLevel: curated?.status === "Submission" ? "C" : kymEvidence && (currentRank || editorialEvidence.length) ? "B+" : currentRank || kymEvidence ? "B" : "C",
     researchDate: kymEvidence ? kymSource.researchDate : source.researchDate,
     searchText: compact([
       displayName, ...family.names, category, subcategory, origin.entity, origin.work,
       ...mechanic.useCases, ...(primary.keywords || []), rights.lane, firstSeenYear, eraForYear(firstSeenYear), reuseTier,
       ...kymVariants.flatMap((item) => [...(item.tags || []), ...(item.types || []), item.parentSeries, item.region]),
       ...editorialEvidence.map((item) => `${item.label} ${item.selection || ""}`),
+      curated?.variantNote,
+      curated?.curationStatus,
     ]).join(" · "),
   };
 }).filter((record) => Boolean(record.imageOriginalUrl));
@@ -837,6 +896,7 @@ const dataset = {
       { name: "Memegen template API", url: MEMEGEN_URL, records: memegen.length },
       { name: "Imgflip get_memes API", url: IMGFLIP_URL, records: imgflip.length },
       { name: "Know Your Meme confirmed entries and editorials", url: "https://knowyourmeme.com/memes", records: kymRecords.length },
+      { name: "Required Meme coverage guard", url: "source/meme-required-entries.json", records: requiredRecords.length },
       { name: "Public-domain visual catalog", url: "data/catalog.json", records: publicDomainRecords.length },
     ],
   },
@@ -851,6 +911,7 @@ const dataset = {
     recentEditorial: records.filter((item) => item.editorialEvidence?.some((evidence) => evidence.signal === "recent-editorial")).length,
     highReuse: records.filter((item) => item.reuseTier === "高复用线索" || item.reuseTier === "近年上升").length,
     linkedSuperIp: records.filter((item) => item.relatedSuperIp).length,
+    curatedRequired: records.filter((item) => item.requiredEntry).length,
     byEra: countsBy("era"),
     byCategory: countsBy("category"),
     byRights: countsBy("rightsLane"),

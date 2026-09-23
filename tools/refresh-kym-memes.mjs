@@ -5,12 +5,17 @@ import { fileURLToPath } from "node:url";
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, "..");
 const outputPath = path.join(root, "source", "meme-kym-snapshot.json");
+const requiredPath = path.join(root, "source", "meme-required-entries.json");
 const BASE = "https://knowyourmeme.com";
 const USER_AGENT = "Mozilla/5.0 public-domain-cartoon-inspiration/2.0 evidence-cache";
 const TOP_PAGES = Number(process.env.KYM_TOP_PAGES || 40);
 const NEWEST_PAGES = Number(process.env.KYM_NEWEST_PAGES || 20);
 const CONCURRENCY = Number(process.env.KYM_CONCURRENCY || 6);
 const researchDate = new Date().toISOString().slice(0, 10);
+const requiredSource = fs.existsSync(requiredPath)
+  ? JSON.parse(fs.readFileSync(requiredPath, "utf8"))
+  : { records: [] };
+const requiredRecords = requiredSource.records || [];
 
 const fixedEditorials = [
   {
@@ -375,6 +380,23 @@ for (const [memePath, editorialEvidence] of editorialResult.evidenceByPath.entri
   }
   byPath.get(memePath).editorialEvidence = editorialEvidence;
 }
+for (const required of requiredRecords) {
+  const existing = byPath.get(required.path) || {};
+  byPath.set(required.path, {
+    ...required,
+    ...existing,
+    aliases: required.aliases || [],
+    requiredEntry: true,
+    curationStatus: required.curationStatus,
+    relationType: required.relationType,
+    variantNote: required.variantNote,
+    curationReason: required.curationReason,
+    imageUrl: existing.imageUrl || required.imageUrl,
+    url: existing.url || required.url,
+    listingSignals: existing.listingSignals || [],
+    editorialEvidence: existing.editorialEvidence || [],
+  });
+}
 
 const candidates = [...byPath.values()];
 const detailed = new Array(candidates.length);
@@ -421,8 +443,8 @@ await Promise.all(detailWorkers);
 
 const records = detailed
   .filter(Boolean)
-  .filter((record) => record.status === "Confirmed" || record.editorialEvidence?.length)
-  .filter((record) => ["Meme", "Person", "Event", "Subculture"].includes(record.category) || record.editorialEvidence?.length)
+  .filter((record) => record.requiredEntry || record.status === "Confirmed" || record.editorialEvidence?.length)
+  .filter((record) => record.requiredEntry || ["Meme", "Person", "Event", "Subculture"].includes(record.category) || record.editorialEvidence?.length)
   .sort((a, b) => Number(a.historicalRank || 999999) - Number(b.historicalRank || 999999)
     || Number(b.year || 0) - Number(a.year || 0)
     || a.title.localeCompare(b.title, "en"));
@@ -436,6 +458,7 @@ const snapshot = {
     historical: `Know Your Meme confirmed entries sorted by views, first ${TOP_PAGES} pages. Listing position and entry views are historical-spread proxies, not population awareness.`,
     newest: `Know Your Meme confirmed entries sorted newest, first ${NEWEST_PAGES} pages. Newness is not popularity.`,
     editorial: "KYM annual and recent editorial roundups are editorial trend signals, not a population survey.",
+    requiredCoverage: "The local required-entry guard prevents named canonical families and documented parent/variant relations from disappearing when listing samples change. Submission status remains visible and is not upgraded to Confirmed.",
     rights: "KYM documentation and cached thumbnails are research evidence only; inclusion does not grant commercial-use rights.",
   },
   sources: {
@@ -443,6 +466,7 @@ const snapshot = {
     newest: `${BASE}/memes?kind=confirmed&sort=newest`,
     memeReviewHub: `${BASE}/newsfeed/meme-review`,
     editorials: editorialResult.editorialSources,
+    requiredCoverage: "source/meme-required-entries.json",
   },
   counts: {
     listingCandidates: listingItems.length,
@@ -450,6 +474,7 @@ const snapshot = {
     records: records.length,
     detailFailures,
     editorialLinked: records.filter((record) => record.editorialEvidence?.length).length,
+    requiredEntries: records.filter((record) => record.requiredEntry).length,
   },
   records,
 };
