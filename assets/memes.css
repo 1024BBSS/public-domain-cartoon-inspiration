@@ -219,6 +219,20 @@
   border-bottom: 1px solid var(--border);
 }
 
+.result-head__summary {
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+
+.result-footprint {
+  overflow: hidden;
+  color: var(--text-3);
+  font-size: var(--text-xs);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .dim { color: var(--text-3); }
 
 .meme-grid,
@@ -348,6 +362,13 @@
   color: var(--text-2);
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.meme-card__archive {
+  margin: calc(var(--space-1) * -1) 0 var(--space-2);
+  color: var(--text-3);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
 }
 
 .meme-card__mechanic {

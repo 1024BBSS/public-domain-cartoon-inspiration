@@ -9,9 +9,9 @@
   <link rel="alternate" type="application/json" href="data/memes.json" title="美国 Meme 图谱 Agent 数据">
   <link rel="stylesheet" href="assets/tokens.css">
   <link rel="stylesheet" href="assets/components.css">
-  <link rel="stylesheet" href="assets/memes.css?v=2.1.0">
-  <script defer src="data/memes.js?v=2.1.0"></script>
-  <script defer src="assets/memes.js?v=2.1.0"></script>
+  <link rel="stylesheet" href="assets/memes.css?v=2.1.1">
+  <script defer src="data/memes.js?v=2.1.1"></script>
+  <script defer src="assets/memes.js?v=2.1.1"></script>
 </head>
 <body>
   <div class="app">
@@ -112,7 +112,10 @@
         </section>
 
         <section class="result-head" aria-live="polite">
-          <div><strong id="result-title">全部 Meme 家族</strong><span class="dim"> · </span><strong id="result-count">0</strong></div>
+          <div class="result-head__summary">
+            <div><strong id="result-title">全部 Meme 家族</strong><span class="dim"> · </span><strong id="result-count">0</strong></div>
+            <div class="result-footprint" id="result-footprint"></div>
+          </div>
           <div class="dim" id="page-status"></div>
         </section>
 

@@ -37,6 +37,7 @@
     metricTopics: $("#metric-topics"),
     resultTitle: $("#result-title"),
     resultCount: $("#result-count"),
+    resultFootprint: $("#result-footprint"),
     pageStatus: $("#page-status"),
     memeList: $("#meme-list"),
     sourceList: $("#source-list"),
@@ -504,6 +505,9 @@
         : `${record.firstSeenYear || "年代待复核"} · ${record.category} · ${record.subcategory}`),
       el("h2", "meme-card__title", record.name),
       el("div", "meme-card__origin", `${record.originEntity}${record.originWork && record.originWork !== record.originEntity ? ` · ${record.originWork}` : ""}`),
+      ...((record.kymImages || record.kymVideos) ? [
+        el("div", "meme-card__archive", `外部档案 ${Number(record.kymImages || 0).toLocaleString("en-US")} 图 / ${Number(record.kymVideos || 0).toLocaleString("en-US")} 视频 · 点击查看来源`),
+      ] : []),
       el("p", "meme-card__mechanic", topicAssociation ? topicAssociation.angle : record.mechanic),
     );
     const foot = el("div", "meme-card__foot");
@@ -568,10 +572,27 @@
       dom.sourceList.replaceChildren(...shown.map(sourceCard));
       dom.memeList.replaceChildren();
     }
-    dom.resultTitle.textContent = state.topic !== "全部"
+    dom.resultTitle.textContent = state.q
+      ? `${state.q} · ${state.view === "families" ? "Meme 家族" : "来源人物 / 作品"}`
+      : state.topic !== "全部"
       ? `${state.topic} · ${state.view === "families" ? "Meme 二创母梗" : "来源人物 / 作品"}`
       : state.view === "families" ? "Meme 家族" : "来源人物 / 作品";
     dom.resultCount.textContent = String(source.length);
+    const archiveImages = filtered.reduce((sum, record) => sum + Number(record.kymImages || 0), 0);
+    const archiveVideos = filtered.reduce((sum, record) => sum + Number(record.kymVideos || 0), 0);
+    const activeIntersection = [
+      state.q ? `关键词“${state.q}”` : "",
+      state.quick !== "全部" ? quickOption().label : "",
+      state.topic !== "全部" ? `题材“${state.topic}”` : "",
+    ].filter(Boolean);
+    const scopeText = activeIntersection.length > 1 ? `当前为交集：${activeIntersection.join(" + ")}。` : "";
+    const unitText = state.view === "families" && source.length === 1
+      ? "1 个家族不是 1 张素材。"
+      : "";
+    const archiveText = archiveImages || archiveVideos
+      ? `外部档案记录 ${archiveImages.toLocaleString("en-US")} 图 / ${archiveVideos.toLocaleString("en-US")} 视频；不是本地可直接商用素材。`
+      : "";
+    dom.resultFootprint.textContent = `${scopeText}${unitText}${archiveText}`;
     dom.pageStatus.textContent = source.length ? `已显示 ${Math.min(shown.length, source.length)} / ${source.length}` : "";
     dom.empty.hidden = source.length > 0;
     dom.loadMoreBar.hidden = source.length === 0;
