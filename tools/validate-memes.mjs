@@ -8,6 +8,7 @@ const jsonPath = path.join(root, "data", "memes.json");
 const jsPath = path.join(root, "data", "memes.js");
 const htmlPath = path.join(root, "memes.html");
 const requiredPath = path.join(root, "source", "meme-required-entries.json");
+const externalBenchmarkPath = path.join(root, "source", "meme-external-benchmark.json");
 const data = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
 const errors = [];
 const normalize = (value) => String(value || "").normalize("NFKC").toLocaleLowerCase("en-US").replace(/\s+/g, " ").trim();
@@ -57,6 +58,7 @@ let recentHeat = 0;
 let recentEditorial = 0;
 let highReuse = 0;
 let curatedRequired = 0;
+let externalBenchmark = 0;
 
 for (const [index, record] of data.records.entries()) {
   const label = record.id || `record ${index}`;
@@ -93,6 +95,14 @@ for (const [index, record] of data.records.entries()) {
   if (record.editorialEvidence?.some((evidence) => evidence.signal === "recent-editorial")) recentEditorial += 1;
   if (["高复用线索", "近年上升"].includes(record.reuseTier)) highReuse += 1;
   if (record.requiredEntry) curatedRequired += 1;
+  if (record.externalBenchmark) {
+    externalBenchmark += 1;
+    fail(Array.isArray(record.externalSourceIds) && record.externalSourceIds.length > 0, `${label}: external benchmark missing source ids`);
+    fail(Array.isArray(record.externalEvidence) && record.externalEvidence.length > 0, `${label}: external benchmark missing source evidence`);
+    fail(Boolean(record.benchmarkLane), `${label}: external benchmark missing lane`);
+    fail(Boolean(record.variantNote), `${label}: external benchmark missing relation note`);
+    fail(Boolean(record.curationStatus), `${label}: external benchmark missing curation status`);
+  }
   if (record.relatedSuperIp) {
     linkedSuperIp += 1;
     fail(superIds.has(record.relatedSuperIp.id), `${label}: missing related Super IP ${record.relatedSuperIp.id}`);
@@ -110,6 +120,7 @@ fail(data.counts.recentEditorial === recentEditorial, "counts.recentEditorial mi
 fail(data.counts.highReuse === highReuse, "counts.highReuse mismatch");
 fail(data.counts.linkedSuperIp === linkedSuperIp, "counts.linkedSuperIp mismatch");
 fail(data.counts.curatedRequired === curatedRequired, "counts.curatedRequired mismatch");
+fail(data.counts.externalBenchmark === externalBenchmark, "counts.externalBenchmark mismatch");
 fail(kymEvidence >= 700, `expected at least 700 KYM-backed records, got ${kymEvidence}`);
 fail(recentTwoYears >= 40, `expected at least 40 records from 2025–2026, got ${recentTwoYears}`);
 fail(recentEditorial >= 20, `expected at least 20 recent editorial signals, got ${recentEditorial}`);
@@ -117,6 +128,46 @@ fail(recentEditorial >= 20, `expected at least 20 recent editorial signals, got 
 const titleIndex = data.records.map((record) => `${record.name} ${(record.aliases || []).join(" ")}`.toLowerCase());
 for (const expected of ["chill guy", "hawk tuah", "67 meme", "italian brainrot", "moo-deng"]) {
   fail(titleIndex.some((title) => title.includes(expected)), `missing recent benchmark: ${expected}`);
+}
+
+fail(fs.existsSync(externalBenchmarkPath), "missing source/meme-external-benchmark.json");
+if (fs.existsSync(externalBenchmarkPath)) {
+  const benchmarkSource = JSON.parse(fs.readFileSync(externalBenchmarkPath, "utf8"));
+  const sourceIds = new Set();
+  for (const source of benchmarkSource.sources || []) {
+    fail(Boolean(source.id), "external benchmark source missing id");
+    fail(!sourceIds.has(source.id), `duplicate external benchmark source: ${source.id}`);
+    sourceIds.add(source.id);
+    fail(/^https?:\/\//.test(source.url || ""), `external benchmark source ${source.id}: invalid URL`);
+  }
+  const benchmarkPaths = new Set();
+  fail(Array.isArray(benchmarkSource.records) && benchmarkSource.records.length >= 50, "external benchmark should contain at least 50 families");
+  for (const benchmark of benchmarkSource.records || []) {
+    fail(Boolean(benchmark.path), `external benchmark missing path: ${benchmark.title || "untitled"}`);
+    fail(!benchmarkPaths.has(benchmark.path), `duplicate external benchmark path: ${benchmark.path}`);
+    benchmarkPaths.add(benchmark.path);
+    fail(Array.isArray(benchmark.aliases) && benchmark.aliases.length > 0, `${benchmark.title}: benchmark aliases missing`);
+    fail(Array.isArray(benchmark.externalSourceIds) && benchmark.externalSourceIds.length > 0, `${benchmark.title}: benchmark source ids missing`);
+    for (const sourceId of benchmark.externalSourceIds || []) {
+      fail(sourceIds.has(sourceId), `${benchmark.title}: unknown external source ${sourceId}`);
+    }
+    const record = data.records.find((item) => item.variants?.some((variant) => variant.templateId === benchmark.path));
+    fail(Boolean(record), `missing external benchmark family: ${benchmark.title}`);
+    if (!record) continue;
+    const searchable = normalize([record.name, ...(record.aliases || []), record.searchText].join(" "));
+    for (const alias of [benchmark.title, ...(benchmark.aliases || [])]) {
+      fail(searchable.includes(normalize(alias)), `${benchmark.title}: missing external searchable alias ${alias}`);
+    }
+    fail(record.externalBenchmark === true, `${benchmark.title}: missing external benchmark marker`);
+    fail(Boolean(record.benchmarkLane), `${benchmark.title}: missing benchmark lane`);
+    fail(Boolean(record.variantNote), `${benchmark.title}: missing relation note`);
+    fail(Boolean(record.curationStatus), `${benchmark.title}: missing curation status`);
+    if (benchmark.status === "Submission") {
+      fail(record.curationStatus.includes("研究中"), `${benchmark.title}: Submission is not labelled as research in progress`);
+      fail(record.evidenceLevel === "C", `${benchmark.title}: Submission evidence level must remain C`);
+    }
+  }
+  fail(externalBenchmark === benchmarkSource.records.length, `expected ${benchmarkSource.records.length} external benchmark records, got ${externalBenchmark}`);
 }
 
 fail(fs.existsSync(requiredPath), "missing source/meme-required-entries.json");
@@ -179,6 +230,7 @@ console.log(JSON.stringify({
   recentEditorial,
   highReuse,
   curatedRequired,
+  externalBenchmark,
   linkedSuperIp,
   imageFiles: new Set(data.records.map((record) => record.image)).size,
   status: "valid",

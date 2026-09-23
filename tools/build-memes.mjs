@@ -10,6 +10,7 @@ const root = path.resolve(here, "..");
 const sourcePath = path.join(root, "source", "meme-template-sources.json");
 const kymSourcePath = path.join(root, "source", "meme-kym-snapshot.json");
 const requiredSourcePath = path.join(root, "source", "meme-required-entries.json");
+const externalBenchmarkPath = path.join(root, "source", "meme-external-benchmark.json");
 const catalogPath = path.join(root, "data", "catalog.json");
 const superIpPath = path.join(root, "data", "super-ip-us.json");
 const outputJsonPath = path.join(root, "data", "memes.json");
@@ -77,34 +78,58 @@ const kymSource = fs.existsSync(kymSourcePath)
 const requiredSource = fs.existsSync(requiredSourcePath)
   ? JSON.parse(fs.readFileSync(requiredSourcePath, "utf8"))
   : { researchDate: source.researchDate, records: [] };
+const externalBenchmarkSource = fs.existsSync(externalBenchmarkPath)
+  ? JSON.parse(fs.readFileSync(externalBenchmarkPath, "utf8"))
+  : { researchDate: source.researchDate, sources: [], records: [] };
 const catalog = JSON.parse(fs.readFileSync(catalogPath, "utf8"));
 const superIp = JSON.parse(fs.readFileSync(superIpPath, "utf8"));
 const memegen = source.sources.memegen.records;
 const imgflip = source.sources.imgflip.records;
 const requiredRecords = requiredSource.records || [];
-const requiredByPath = new Map(requiredRecords.map((record) => [record.path, record]));
-const kymByPath = new Map((kymSource.records || []).map((record) => [record.path, record]));
-for (const required of requiredRecords) {
-  const existing = kymByPath.get(required.path) || {};
-  kymByPath.set(required.path, {
-    ...required,
+const externalBenchmarkRecords = (externalBenchmarkSource.records || []).map((record) => ({
+  ...record,
+  externalBenchmark: true,
+  curationStatus: record.curationStatus || (record.status === "Submission" ? "外部基准·研究中" : "外部基准已核验"),
+  curationReason: record.curationReason || `由外部基准的${record.benchmarkLane || "盲区排查"}收录；本地库仅用于覆盖对照。`,
+}));
+const externalSourcesById = new Map((externalBenchmarkSource.sources || []).map((item) => [item.id, item]));
+const curatedByPath = new Map();
+for (const record of [...externalBenchmarkRecords, ...requiredRecords]) {
+  const existing = curatedByPath.get(record.path) || {};
+  curatedByPath.set(record.path, {
     ...existing,
-    aliases: required.aliases || [],
-    requiredEntry: true,
-    curationStatus: required.curationStatus,
-    relationType: required.relationType,
-    variantNote: required.variantNote,
-    curationReason: required.curationReason,
-    mechanicOverride: required.mechanicOverride,
-    useCasesOverride: required.useCasesOverride,
-    agentPatternOverride: required.agentPatternOverride,
-    rightsLaneOverride: required.rightsLaneOverride,
-    copyrightNoteOverride: required.copyrightNoteOverride,
-    publicityNoteOverride: required.publicityNoteOverride,
-    trademarkNoteOverride: required.trademarkNoteOverride,
-    productionRouteOverride: required.productionRouteOverride,
-    imageUrl: existing.imageUrl || required.imageUrl,
-    url: existing.url || required.url,
+    ...record,
+    aliases: compact([...(existing.aliases || []), ...(record.aliases || [])]),
+    externalBenchmark: Boolean(existing.externalBenchmark || record.externalBenchmark),
+    externalSourceIds: compact([...(existing.externalSourceIds || []), ...(record.externalSourceIds || [])]),
+    requiredEntry: Boolean(existing.requiredEntry || record.requiredEntry),
+  });
+}
+const kymByPath = new Map((kymSource.records || []).map((record) => [record.path, record]));
+for (const curated of curatedByPath.values()) {
+  const existing = kymByPath.get(curated.path) || {};
+  kymByPath.set(curated.path, {
+    ...curated,
+    ...existing,
+    aliases: compact([...(existing.aliases || []), ...(curated.aliases || [])]),
+    requiredEntry: Boolean(curated.requiredEntry),
+    externalBenchmark: Boolean(curated.externalBenchmark),
+    externalSourceIds: compact(curated.externalSourceIds || []),
+    benchmarkLane: curated.benchmarkLane || "",
+    curationStatus: curated.curationStatus,
+    relationType: curated.relationType,
+    variantNote: curated.variantNote,
+    curationReason: curated.curationReason,
+    mechanicOverride: curated.mechanicOverride,
+    useCasesOverride: curated.useCasesOverride,
+    agentPatternOverride: curated.agentPatternOverride,
+    rightsLaneOverride: curated.rightsLaneOverride,
+    copyrightNoteOverride: curated.copyrightNoteOverride,
+    publicityNoteOverride: curated.publicityNoteOverride,
+    trademarkNoteOverride: curated.trademarkNoteOverride,
+    productionRouteOverride: curated.productionRouteOverride,
+    imageUrl: existing.imageUrl || curated.imageUrl,
+    url: existing.url || curated.url,
   });
 }
 const kymRecords = [...kymByPath.values()];
@@ -145,7 +170,7 @@ const aliasToFamily = new Map();
 for (const [family, ...aliases] of aliasFamilies) {
   for (const alias of [family, ...aliases]) aliasToFamily.set(normalize(alias), family);
 }
-for (const record of requiredRecords) {
+for (const record of curatedByPath.values()) {
   const family = normalize(record.title);
   for (const alias of [record.title, ...(record.aliases || [])]) aliasToFamily.set(normalize(alias), family);
 }
@@ -450,7 +475,7 @@ for (const [index, item] of imgflip.entries()) {
 for (const item of kymRecords) {
   const family = ensureFamily(item.title);
   family.names.push(...(item.aliases || []));
-  if (item.requiredEntry) family.curated = item;
+  if (item.requiredEntry || item.externalBenchmark) family.curated = item;
   family.variants.push({
     provider: "Know Your Meme",
     templateId: item.path,
@@ -537,9 +562,14 @@ const modernRecords = [...families.values()].map((family) => {
   const primary = choosePrimary(family);
   const displayName = primary.name || family.names[0];
   const kymEvidence = chooseKymEvidence(family);
-  const curated = family.curated || (kymEvidence?.path ? requiredByPath.get(kymEvidence.path) : null) || null;
-  const origin = resolveOrigin(displayName, family, kymEvidence);
-  const [category, subcategory] = categoryForKym(`${displayName} ${family.names.join(" ")}`, origin, kymEvidence);
+  const curated = family.curated || (kymEvidence?.path ? curatedByPath.get(kymEvidence.path) : null) || null;
+  const inferredOrigin = resolveOrigin(displayName, family, kymEvidence);
+  const origin = curated?.originEntityOverride
+    ? { entity: curated.originEntityOverride, work: curated.originWorkOverride || inferredOrigin.work }
+    : inferredOrigin;
+  const [inferredCategory, inferredSubcategory] = categoryForKym(`${displayName} ${family.names.join(" ")}`, origin, kymEvidence);
+  const category = curated?.categoryOverride || inferredCategory;
+  const subcategory = curated?.subcategoryOverride || inferredSubcategory;
   const lines = Math.max(...family.variants.map((item) => item.lines || 0), 1);
   const inferredMechanic = mechanicFor(`${displayName} ${family.names.join(" ")}`, lines);
   const mechanic = curated?.mechanicOverride
@@ -604,7 +634,7 @@ const modernRecords = [...families.values()].map((family) => {
     sourceType: origin.entity === "互联网 Meme 文化" ? "互联网原生" : category,
     originEntity: origin.entity,
     originWork: origin.work,
-    imageOriginalUrl: curated?.imageUrl || primary.imageUrl || kymEvidence?.imageUrl || "",
+    imageOriginalUrl: curated?.imageUrl || primary.imageUrl || kymEvidence?.imageUrl || family.variants.find((item) => item.imageUrl)?.imageUrl || "",
     sourceUrl: curated?.url || primary.sourceUrl,
     providers: compact(family.variants.map((item) => item.provider)),
     variants: family.variants.map((item) => ({
@@ -646,6 +676,12 @@ const modernRecords = [...families.values()].map((family) => {
     variantNote: curated?.variantNote || "",
     curationReason: curated?.curationReason || "",
     requiredEntry: Boolean(curated?.requiredEntry),
+    ...(curated?.externalBenchmark ? {
+      externalBenchmark: true,
+      externalSourceIds: compact(curated.externalSourceIds || []),
+      externalEvidence: compact(curated.externalSourceIds || []).map((id) => externalSourcesById.get(id)).filter(Boolean),
+      benchmarkLane: curated.benchmarkLane || "",
+    } : {}),
     editorialEvidence,
     reuseTier,
     recognitionEvidence: related?.surveyFamePercent
@@ -680,6 +716,8 @@ const modernRecords = [...families.values()].map((family) => {
       ...editorialEvidence.map((item) => `${item.label} ${item.selection || ""}`),
       curated?.variantNote,
       curated?.curationStatus,
+      curated?.benchmarkLane,
+      ...compact(curated?.externalSourceIds || []).map((id) => externalSourcesById.get(id)?.name || id),
     ]).join(" · "),
   };
 }).filter((record) => Boolean(record.imageOriginalUrl));
@@ -897,6 +935,7 @@ const dataset = {
       { name: "Imgflip get_memes API", url: IMGFLIP_URL, records: imgflip.length },
       { name: "Know Your Meme confirmed entries and editorials", url: "https://knowyourmeme.com/memes", records: kymRecords.length },
       { name: "Required Meme coverage guard", url: "source/meme-required-entries.json", records: requiredRecords.length },
+      { name: "External blind-spot benchmark", url: "source/meme-external-benchmark.json", records: externalBenchmarkRecords.length },
       { name: "Public-domain visual catalog", url: "data/catalog.json", records: publicDomainRecords.length },
     ],
   },
@@ -912,6 +951,7 @@ const dataset = {
     highReuse: records.filter((item) => item.reuseTier === "高复用线索" || item.reuseTier === "近年上升").length,
     linkedSuperIp: records.filter((item) => item.relatedSuperIp).length,
     curatedRequired: records.filter((item) => item.requiredEntry).length,
+    externalBenchmark: records.filter((item) => item.externalBenchmark).length,
     byEra: countsBy("era"),
     byCategory: countsBy("category"),
     byRights: countsBy("rightsLane"),

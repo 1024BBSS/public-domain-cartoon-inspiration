@@ -170,6 +170,8 @@
       record.era,
       record.reuseTier,
       record.trendStatus,
+      record.benchmarkLane,
+      ...(record.externalEvidence || []).map((item) => `${item.name} ${item.kind || ""}`),
       ...(record.editorialEvidence || []).map((item) => `${item.label} ${item.selection || ""}`),
     ].join(" ")),
   }));
@@ -189,6 +191,7 @@
   const scenarios = unique(records.flatMap((record) => record.useCases || [])).sort((a, b) => a.localeCompare(b, "zh-CN"));
   const quickOptions = [
     { key: "全部", label: "全部", test: () => true },
+    { key: "外部基准", label: "外部盲区基准", test: (record) => Boolean(record.externalBenchmark) },
     { key: "历史高传播", label: "历史高传播", test: (record) => Number(record.kymViews || 0) >= 1_000_000 || Number(record.kymHistoricalRank || 999999) <= 200 },
     { key: "近两年", label: "2025–2026 有证据热榜", test: (record) => Boolean(record.recentHeat) },
     { key: "2026上升", label: "2026 编辑榜", test: (record) => record.editorialEvidence?.some((item) => item.signal === "recent-editorial") },
@@ -532,7 +535,7 @@
   }
 
   function renderMetrics() {
-    dom.topMeta.textContent = `${dataset.counts.records} 家族 · ${dataset.counts.recentHeat || 0} 条有证据近年热榜`;
+    dom.topMeta.textContent = `${dataset.counts.records} 家族 · ${dataset.counts.externalBenchmark || 0} 条外部盲区基准`;
     dom.metricAll.textContent = dataset.counts.records.toLocaleString("en-US");
     dom.metricSignals.textContent = dataset.counts.currentSignals.toLocaleString("en-US");
     dom.metricKym.textContent = Number(dataset.counts.kymEvidence || 0).toLocaleString("en-US");
@@ -566,7 +569,8 @@
     const curationBadge = record.curationStatus
       ? badge(record.curationStatus, record.curationStatus.includes("研究中") ? "badge--warn" : "")
       : null;
-    dom.detailBadges.replaceChildren(badge(record.rightsLane, rightsModifier), activityBadge, badge(record.reuseTier || "复用待复核"), yearBadge, badge(`证据 ${record.evidenceLevel}`), ...(curationBadge ? [curationBadge] : []), ...(awarenessBadge ? [awarenessBadge] : []));
+    const externalBadge = record.externalBenchmark ? badge(`外部基准 · ${record.benchmarkLane}`) : null;
+    dom.detailBadges.replaceChildren(badge(record.rightsLane, rightsModifier), activityBadge, badge(record.reuseTier || "复用待复核"), yearBadge, badge(`证据 ${record.evidenceLevel}`), ...(externalBadge ? [externalBadge] : []), ...(curationBadge ? [curationBadge] : []), ...(awarenessBadge ? [awarenessBadge] : []));
     dom.detailMechanic.textContent = record.mechanic;
     dom.detailAliases.textContent = [
       (record.aliases || []).length ? (record.aliases || []).join(" · ") : "暂无补充别名",
@@ -580,7 +584,7 @@
     dom.detailActivity.textContent = record.activityEvidence;
     dom.detailAgentPattern.textContent = record.agentPattern;
     dom.detailProduction.textContent = record.productionRoute;
-    dom.detailOrigin.textContent = `${record.originEntity}；${record.originWork || "来源作品待复核"}。收录目录：${(record.providers || []).join("、") || "本地公版视觉库"}。`;
+    dom.detailOrigin.textContent = `${record.originEntity}；${record.originWork || "来源作品待复核"}。收录目录：${(record.providers || []).join("、") || "本地公版视觉库"}。${record.externalBenchmark ? `外部发现依据：${(record.externalEvidence || []).map((item) => item.name).join("、")}。` : ""}`;
     dom.detailRelated.textContent = record.relatedSuperIp
       ? `关联超级 IP：${record.relatedSuperIp.nameZh || record.relatedSuperIp.name}；${record.relatedSuperIp.usTier}${record.relatedSuperIp.surveyFamePercent ? `；美国来源认知 ${record.relatedSuperIp.surveyFamePercent}%` : ""}。此数只属于来源人物 / 作品。`
       : "关联超级 IP：待补美国同口径知名度证据。";
@@ -681,6 +685,7 @@
       `表达机制：${record.mechanic}`,
       `别名：${(record.aliases || []).join("、") || "无"}`,
       `变体关系：${record.variantNote || "无单独说明"}`,
+      record.externalBenchmark ? `外部盲区基准：${record.benchmarkLane}；${(record.externalEvidence || []).map((item) => `${item.name} ${item.url}`).join("；")}` : "外部盲区基准：否",
       `文字槽位：${record.slots}`,
       `可用场景：${(record.useCases || []).join("、") || "待补"}`,
       `Agent 结构：${record.agentPattern}`,
