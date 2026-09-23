@@ -16,6 +16,7 @@
     rightsSelect: $("#rights-select"),
     eraSelect: $("#era-select"),
     scenarioSelect: $("#scenario-select"),
+    topicSelect: $("#topic-select"),
     sortSelect: $("#sort-select"),
     reset: $("#reset"),
     emptyReset: $("#empty-reset"),
@@ -33,6 +34,7 @@
     metricKym: $("#metric-kym"),
     metricRecent: $("#metric-recent"),
     metricPd: $("#metric-pd"),
+    metricTopics: $("#metric-topics"),
     resultTitle: $("#result-title"),
     resultCount: $("#result-count"),
     pageStatus: $("#page-status"),
@@ -57,6 +59,8 @@
     detailReuse: $("#detail-reuse"),
     detailActivity: $("#detail-activity"),
     detailAgentPattern: $("#detail-agent-pattern"),
+    detailTopicSection: $("#detail-topic-section"),
+    detailTopicList: $("#detail-topic-list"),
     detailProduction: $("#detail-production"),
     detailOrigin: $("#detail-origin"),
     detailRelated: $("#detail-related"),
@@ -171,11 +175,23 @@
       record.reuseTier,
       record.trendStatus,
       record.benchmarkLane,
+      ...(record.topicAssociations || []).flatMap((association) => [
+        association.topic,
+        association.topicType,
+        association.lane,
+        association.evidenceType,
+        association.angle,
+        association.keep,
+        association.replace,
+        association.promptSeed,
+      ]),
       ...(record.externalEvidence || []).map((item) => `${item.name} ${item.kind || ""}`),
       ...(record.editorialEvidence || []).map((item) => `${item.label} ${item.selection || ""}`),
     ].join(" ")),
   }));
   const recordById = new Map(records.map((record) => [record.id, record]));
+  const topicDefinitions = dataset.topics || [];
+  const topics = topicDefinitions.map((topic) => topic.label);
   const categories = [
     ...categoryOrder.filter((category) => records.some((record) => record.category === category)),
     ...unique(records.map((record) => record.category)).filter((category) => !categoryOrder.includes(category)),
@@ -223,6 +239,7 @@
       rights: rightsLanes.includes(params.get("rights")) ? params.get("rights") : "全部",
       era: eras.includes(params.get("era")) ? params.get("era") : "全部",
       scenario: scenarios.includes(params.get("scenario")) ? params.get("scenario") : "全部",
+      topic: topics.includes(params.get("topic")) ? params.get("topic") : "全部",
       quick: quickOptions.some((option) => option.key === params.get("quick")) ? params.get("quick") : "全部",
       sort: ["evidence", "recent", "historical", "reuse", "awareness", "category", "name"].includes(params.get("sort")) ? params.get("sort") : "evidence",
       visible: Math.max(1, Number(params.get("page")) || 1) * BATCH_SIZE,
@@ -250,6 +267,7 @@
     if (state.rights !== "全部") params.set("rights", state.rights);
     if (state.era !== "全部") params.set("era", state.era);
     if (state.scenario !== "全部") params.set("scenario", state.scenario);
+    if (state.topic !== "全部") params.set("topic", state.topic);
     if (state.quick !== "全部") params.set("quick", state.quick);
     if (state.sort !== "evidence") params.set("sort", state.sort);
     if (state.visible > BATCH_SIZE) params.set("page", String(Math.ceil(state.visible / BATCH_SIZE)));
@@ -282,6 +300,7 @@
       if (state.rights !== "全部" && record.rightsLane !== state.rights) return false;
       if (state.era !== "全部" && record.era !== state.era) return false;
       if (state.scenario !== "全部" && !(record.useCases || []).includes(state.scenario)) return false;
+      if (state.topic !== "全部" && !(record.topicAssociations || []).some((association) => association.topic === state.topic)) return false;
       return quick.test(record);
     });
     return sortRecords(filtered);
@@ -383,6 +402,8 @@
     dom.eraSelect.value = state.era;
     dom.scenarioSelect.replaceChildren(makeOption("全部", "全部使用场景"), ...scenarios.map((scenario) => makeOption(scenario)));
     dom.scenarioSelect.value = state.scenario;
+    dom.topicSelect.replaceChildren(makeOption("全部", "全部关联题材"), ...topicDefinitions.map((topic) => makeOption(topic.label, `${topic.label} · ${dataset.counts.byTopic?.[topic.label] || 0}`)));
+    dom.topicSelect.value = state.topic;
     dom.sortSelect.value = state.sort;
 
     const categoryCounts = countBy(records, "category");
@@ -410,7 +431,14 @@
     }
 
     const quickCounts = new Map(quickOptions.map((option) => [option.key, records.filter(option.test).length]));
-    dom.quickTabs.replaceChildren(...quickOptions.map((option) => {
+    const topicButtons = topicDefinitions.map((topic) => {
+      const button = el("button", `quick-tab${state.topic === topic.label ? " is-active" : ""}`);
+      button.type = "button";
+      button.textContent = `题材 · ${topic.label} ${dataset.counts.byTopic?.[topic.label] || 0}`;
+      button.addEventListener("click", () => setState({ topic: state.topic === topic.label ? "全部" : topic.label }));
+      return button;
+    });
+    dom.quickTabs.replaceChildren(...topicButtons, ...quickOptions.map((option) => {
       const button = el("button", `quick-tab${state.quick === option.key ? " is-active" : ""}`);
       button.type = "button";
       button.textContent = `${option.label} ${quickCounts.get(option.key)}`;
@@ -421,7 +449,11 @@
     [...dom.viewTabs.querySelectorAll("[data-view]")].forEach((button) => {
       button.classList.toggle("is-active", button.dataset.view === state.view);
     });
-    dom.viewNote.textContent = state.view === "families" ? "先找表达结构，再看来源和权利。" : "点一个人物或作品，集中查看全部关联画面。";
+    dom.viewNote.textContent = state.topic !== "全部"
+      ? `先看母梗结构，再看“${state.topic}”如何换入题材；外部已有与创作推演分开标记。`
+      : state.view === "families"
+        ? "先找表达结构，再看来源和权利。"
+        : "点一个人物或作品，集中查看全部关联画面。";
   }
 
   function rightsBadgeClass(rights) {
@@ -462,16 +494,27 @@
     mediaBadges.append(signal, el("span", rightsBadgeClass(record.rightsLane), compactRights(record.rightsLane)));
     media.append(mediaBadges);
 
+    const topicAssociation = state.topic !== "全部"
+      ? (record.topicAssociations || []).find((association) => association.topic === state.topic)
+      : null;
     const body = el("div", "meme-card__body");
     body.append(
-      el("div", "meme-card__path", `${record.firstSeenYear || "年代待复核"} · ${record.category} · ${record.subcategory}`),
+      el("div", "meme-card__path", topicAssociation
+        ? `${topicAssociation.topic} · ${topicAssociation.lane} · ${topicAssociation.evidenceType}`
+        : `${record.firstSeenYear || "年代待复核"} · ${record.category} · ${record.subcategory}`),
       el("h2", "meme-card__title", record.name),
       el("div", "meme-card__origin", `${record.originEntity}${record.originWork && record.originWork !== record.originEntity ? ` · ${record.originWork}` : ""}`),
-      el("p", "meme-card__mechanic", record.mechanic),
+      el("p", "meme-card__mechanic", topicAssociation ? topicAssociation.angle : record.mechanic),
     );
     const foot = el("div", "meme-card__foot");
     const cues = el("div", "cue-list");
-    (record.useCases || []).slice(0, 2).forEach((cue) => cues.append(el("span", "cue", cue)));
+    const cardCues = topicAssociation
+      ? [topicAssociation.lane, topicAssociation.evidenceType]
+      : [
+        ...(record.useCases || []).slice(0, record.topicAssociations?.length ? 1 : 2),
+        ...(record.topicAssociations?.length ? [record.topicAssociations[0].topic] : []),
+      ];
+    cardCues.slice(0, 2).forEach((cue) => cues.append(el("span", "cue", cue)));
     foot.append(cues, el("span", "slot-count", record.reuseTier || `${record.slots} 槽`));
     body.append(foot);
     button.append(media, body);
@@ -525,7 +568,9 @@
       dom.sourceList.replaceChildren(...shown.map(sourceCard));
       dom.memeList.replaceChildren();
     }
-    dom.resultTitle.textContent = state.view === "families" ? "Meme 家族" : "来源人物 / 作品";
+    dom.resultTitle.textContent = state.topic !== "全部"
+      ? `${state.topic} · ${state.view === "families" ? "Meme 二创母梗" : "来源人物 / 作品"}`
+      : state.view === "families" ? "Meme 家族" : "来源人物 / 作品";
     dom.resultCount.textContent = String(source.length);
     dom.pageStatus.textContent = source.length ? `已显示 ${Math.min(shown.length, source.length)} / ${source.length}` : "";
     dom.empty.hidden = source.length > 0;
@@ -535,16 +580,54 @@
   }
 
   function renderMetrics() {
-    dom.topMeta.textContent = `${dataset.counts.records} 家族 · ${dataset.counts.externalBenchmark || 0} 条外部盲区基准`;
+    dom.topMeta.textContent = `${dataset.counts.records} 家族 · ${dataset.counts.externalBenchmark || 0} 条外部基准 · ${dataset.counts.topicAssociations || 0} 个题材连接`;
     dom.metricAll.textContent = dataset.counts.records.toLocaleString("en-US");
     dom.metricSignals.textContent = dataset.counts.currentSignals.toLocaleString("en-US");
     dom.metricKym.textContent = Number(dataset.counts.kymEvidence || 0).toLocaleString("en-US");
     dom.metricRecent.textContent = Number(dataset.counts.recentHeat || 0).toLocaleString("en-US");
+    dom.metricTopics.textContent = Number(dataset.counts.topicAssociations || 0).toLocaleString("en-US");
     dom.metricPd.textContent = dataset.counts.publicDomain.toLocaleString("en-US");
   }
 
   function badge(text, modifier = "") {
     return el("span", `badge${modifier ? ` ${modifier}` : ""}`, text);
+  }
+
+  function topicAssociationCard(association) {
+    const article = el("article", "topic-association");
+    const head = el("div", "topic-association__head");
+    const title = el("div", "topic-association__title");
+    title.append(el("strong", "", association.topic), el("span", "", association.lane));
+    const evidenceModifier = association.evidenceType === "公版重绘入口"
+      ? "badge--ok"
+      : association.evidenceType === "外部已有变体"
+        ? ""
+        : "badge--warn";
+    head.append(title, badge(association.evidenceType, evidenceModifier));
+    const mapping = el("dl", "topic-association__mapping");
+    for (const [label, value] of [
+      ["二创角度", association.angle],
+      ["保留", association.keep],
+      ["换入", association.replace],
+      ["起点", association.promptSeed],
+      ["权利边界", association.rightsNote],
+      ["证据解释", association.evidenceNote],
+    ]) {
+      const row = el("div");
+      row.append(el("dt", "", label), el("dd", "", value));
+      mapping.append(row);
+    }
+    const sources = el("div", "topic-association__sources");
+    sources.append(el("span", "", "外部线索"));
+    for (const source of association.sourceEvidence || []) {
+      const link = el("a", "", source.name);
+      link.href = source.url;
+      link.target = "_blank";
+      link.rel = "noreferrer";
+      sources.append(link);
+    }
+    article.append(head, mapping, sources);
+    return article;
   }
 
   function populateDetail(record) {
@@ -583,6 +666,15 @@
     dom.detailReuse.textContent = record.reuseEvidence || "复用证据待补。";
     dom.detailActivity.textContent = record.activityEvidence;
     dom.detailAgentPattern.textContent = record.agentPattern;
+    const topicAssociations = [...(record.topicAssociations || [])].sort((a, b) => {
+      if (state.topic !== "全部") {
+        if (a.topic === state.topic && b.topic !== state.topic) return -1;
+        if (b.topic === state.topic && a.topic !== state.topic) return 1;
+      }
+      return a.topic.localeCompare(b.topic, "zh-CN") || a.lane.localeCompare(b.lane, "zh-CN");
+    });
+    dom.detailTopicSection.hidden = topicAssociations.length === 0;
+    dom.detailTopicList.replaceChildren(...topicAssociations.map(topicAssociationCard));
     dom.detailProduction.textContent = record.productionRoute;
     dom.detailOrigin.textContent = `${record.originEntity}；${record.originWork || "来源作品待复核"}。收录目录：${(record.providers || []).join("、") || "本地公版视觉库"}。${record.externalBenchmark ? `外部发现依据：${(record.externalEvidence || []).map((item) => item.name).join("、")}。` : ""}`;
     dom.detailRelated.textContent = record.relatedSuperIp
@@ -688,6 +780,13 @@
       record.externalBenchmark ? `外部盲区基准：${record.benchmarkLane}；${(record.externalEvidence || []).map((item) => `${item.name} ${item.url}`).join("；")}` : "外部盲区基准：否",
       `文字槽位：${record.slots}`,
       `可用场景：${(record.useCases || []).join("、") || "待补"}`,
+      ...(record.topicAssociations || []).flatMap((association) => [
+        `题材关联：${association.topic} / ${association.lane} / ${association.evidenceType}`,
+        `二创映射：${association.angle}；保留：${association.keep}；换入：${association.replace}`,
+        `提示起点：${association.promptSeed}`,
+        `题材权利边界：${association.rightsNote}`,
+        `题材证据：${association.evidenceNote}；${(association.sourceEvidence || []).map((source) => source.url).join("；")}`,
+      ]),
       `Agent 结构：${record.agentPattern}`,
       `生产路线：${record.productionRoute}`,
       `权利入口：${record.rightsLane}`,
@@ -765,8 +864,9 @@
   dom.rightsSelect.addEventListener("change", () => setState({ rights: dom.rightsSelect.value }));
   dom.eraSelect.addEventListener("change", () => setState({ era: dom.eraSelect.value }));
   dom.scenarioSelect.addEventListener("change", () => setState({ scenario: dom.scenarioSelect.value }));
+  dom.topicSelect.addEventListener("change", () => setState({ topic: dom.topicSelect.value }));
   dom.sortSelect.addEventListener("change", () => setState({ sort: dom.sortSelect.value }));
-  dom.reset.addEventListener("click", () => setState({ q: "", category: "全部", subcategory: "全部", rights: "全部", era: "全部", scenario: "全部", quick: "全部", sort: "evidence", item: "", entity: "" }));
+  dom.reset.addEventListener("click", () => setState({ q: "", category: "全部", subcategory: "全部", rights: "全部", era: "全部", scenario: "全部", topic: "全部", quick: "全部", sort: "evidence", item: "", entity: "" }));
   dom.emptyReset.addEventListener("click", () => dom.reset.click());
   dom.viewTabs.addEventListener("click", (event) => {
     const button = event.target.closest("[data-view]");

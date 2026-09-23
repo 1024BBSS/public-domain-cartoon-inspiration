@@ -11,6 +11,7 @@ const sourcePath = path.join(root, "source", "meme-template-sources.json");
 const kymSourcePath = path.join(root, "source", "meme-kym-snapshot.json");
 const requiredSourcePath = path.join(root, "source", "meme-required-entries.json");
 const externalBenchmarkPath = path.join(root, "source", "meme-external-benchmark.json");
+const topicAssociationsPath = path.join(root, "source", "meme-topic-associations.json");
 const catalogPath = path.join(root, "data", "catalog.json");
 const superIpPath = path.join(root, "data", "super-ip-us.json");
 const outputJsonPath = path.join(root, "data", "memes.json");
@@ -81,6 +82,9 @@ const requiredSource = fs.existsSync(requiredSourcePath)
 const externalBenchmarkSource = fs.existsSync(externalBenchmarkPath)
   ? JSON.parse(fs.readFileSync(externalBenchmarkPath, "utf8"))
   : { researchDate: source.researchDate, sources: [], records: [] };
+const topicAssociationsSource = fs.existsSync(topicAssociationsPath)
+  ? JSON.parse(fs.readFileSync(topicAssociationsPath, "utf8"))
+  : { researchDate: source.researchDate, sources: [], topics: [], associations: [] };
 const catalog = JSON.parse(fs.readFileSync(catalogPath, "utf8"));
 const superIp = JSON.parse(fs.readFileSync(superIpPath, "utf8"));
 const memegen = source.sources.memegen.records;
@@ -93,6 +97,9 @@ const externalBenchmarkRecords = (externalBenchmarkSource.records || []).map((re
   curationReason: record.curationReason || `由外部基准的${record.benchmarkLane || "盲区排查"}收录；本地库仅用于覆盖对照。`,
 }));
 const externalSourcesById = new Map((externalBenchmarkSource.sources || []).map((item) => [item.id, item]));
+const topicSourcesById = new Map((topicAssociationsSource.sources || []).map((item) => [item.id, item]));
+const topicsById = new Map((topicAssociationsSource.topics || []).map((item) => [item.id, item]));
+const topicAssociationRecords = topicAssociationsSource.associations || [];
 const curatedByPath = new Map();
 for (const record of [...externalBenchmarkRecords, ...requiredRecords]) {
   const existing = curatedByPath.get(record.path) || {};
@@ -910,15 +917,65 @@ const workers = Array.from({ length: 8 }, async () => {
 });
 await Promise.all(workers);
 
+function matchesTopicTarget(record, target = {}) {
+  if (target.recordId && record.id === target.recordId) return true;
+  if (target.visualRecordId && record.visualRecordId === target.visualRecordId) return true;
+  if (target.name && normalize(record.name) === normalize(target.name)) return true;
+  if (target.variantId && record.variants?.some((variant) => String(variant.templateId) === String(target.variantId))) return true;
+  return false;
+}
+
+const topicMatchCounts = new Map(topicAssociationRecords.map((association) => [association.id, 0]));
 const records = [...modernRecords, ...publicDomainRecords]
+  .map((record) => {
+    const topicAssociations = topicAssociationRecords
+      .filter((association) => matchesTopicTarget(record, association.target))
+      .map((association) => {
+        topicMatchCounts.set(association.id, (topicMatchCounts.get(association.id) || 0) + 1);
+        const topic = topicsById.get(association.topicId);
+        return {
+          ...association,
+          topic: topic?.label || association.topicId,
+          topicType: topic?.type || "题材",
+          sourceEvidence: compact(association.sourceIds || []).map((id) => topicSourcesById.get(id)).filter(Boolean),
+        };
+      });
+    return {
+      ...record,
+      topicAssociations,
+      searchText: compact([
+        record.searchText,
+        ...topicAssociations.flatMap((association) => [
+          association.topic,
+          association.topicType,
+          association.lane,
+          association.evidenceType,
+          association.angle,
+          association.keep,
+          association.replace,
+          association.promptSeed,
+          association.evidenceNote,
+        ]),
+      ]).join(" · "),
+    };
+  })
   .sort((a, b) => (b.activityScore || 0) - (a.activityScore || 0) || a.name.localeCompare(b.name, "en"));
+
+const unresolvedTopicAssociations = [...topicMatchCounts.entries()].filter(([, count]) => count !== 1);
+if (unresolvedTopicAssociations.length) {
+  throw new Error(`Topic associations must resolve to exactly one family: ${unresolvedTopicAssociations.map(([id, count]) => `${id}=${count}`).join(", ")}`);
+}
 
 const countsBy = (key) => Object.fromEntries([...new Set(records.map((item) => item[key]))]
   .sort((a, b) => String(a).localeCompare(String(b), "zh-CN"))
   .map((value) => [value, records.filter((item) => item[key] === value).length]));
+const topicCounts = Object.fromEntries((topicAssociationsSource.topics || []).map((topic) => [
+  topic.label,
+  records.filter((record) => record.topicAssociations.some((association) => association.topicId === topic.id)).length,
+]));
 const dataset = {
-  schemaVersion: "2.0.0",
-  sourceVersion: `meme-library-${researchDate}-v2`,
+  schemaVersion: "2.1.0",
+  sourceVersion: `meme-library-${researchDate}-v2.1`,
   generatedAt: new Date().toISOString(),
   researchDate,
   title: "美国 Meme 图谱",
@@ -929,6 +986,7 @@ const dataset = {
     historicalSpread: "Know Your Meme 条目浏览量、历史排序和画廊数量是历史传播 / 变体代理，不是美国人口知名度。",
     currentReuse: "Imgflip 排名与 caption count 是当前模板平台信号；Memegen 收录只证明模板目录存在。",
     recentTrend: "KYM 年度榜与近期 Meme Review 是编辑 / 社群趋势线索，不是全网市场份额。",
+    topicAssociations: "母梗与节日 / 场景分层保存。外部已有变体、外部题材图式、结构迁移建议和公版重绘入口不混为一谈。",
     rights: "现代影视、摄影、名人、角色和互联网创作者素材默认不进入生产池；公版条目只适用于列明的具体历史版本。",
     sources: [
       { name: "Memegen template API", url: MEMEGEN_URL, records: memegen.length },
@@ -936,9 +994,14 @@ const dataset = {
       { name: "Know Your Meme confirmed entries and editorials", url: "https://knowyourmeme.com/memes", records: kymRecords.length },
       { name: "Required Meme coverage guard", url: "source/meme-required-entries.json", records: requiredRecords.length },
       { name: "External blind-spot benchmark", url: "source/meme-external-benchmark.json", records: externalBenchmarkRecords.length },
+      { name: "Meme topic associations", url: "source/meme-topic-associations.json", records: topicAssociationRecords.length },
       { name: "Public-domain visual catalog", url: "data/catalog.json", records: publicDomainRecords.length },
     ],
   },
+  topics: (topicAssociationsSource.topics || []).map((topic) => ({
+    ...topic,
+    sourceEvidence: compact(topic.sourceIds || []).map((id) => topicSourcesById.get(id)).filter(Boolean),
+  })),
   counts: {
     records: records.length,
     contemporary: modernRecords.length,
@@ -952,6 +1015,9 @@ const dataset = {
     linkedSuperIp: records.filter((item) => item.relatedSuperIp).length,
     curatedRequired: records.filter((item) => item.requiredEntry).length,
     externalBenchmark: records.filter((item) => item.externalBenchmark).length,
+    topicAssociations: records.reduce((sum, item) => sum + item.topicAssociations.length, 0),
+    topicFamilies: records.filter((item) => item.topicAssociations.length > 0).length,
+    byTopic: topicCounts,
     byEra: countsBy("era"),
     byCategory: countsBy("category"),
     byRights: countsBy("rightsLane"),
@@ -963,7 +1029,7 @@ const json = `${JSON.stringify(dataset, null, 2)}\n`;
 fs.writeFileSync(outputJsonPath, json);
 fs.writeFileSync(outputJsPath, `window.MEME_LIBRARY_DATA=${JSON.stringify(dataset)};\n`);
 fs.writeFileSync(manifestPath, `${JSON.stringify({
-  schemaVersion: "2.0.0",
+  schemaVersion: "2.1.0",
   generatedAt: dataset.generatedAt,
   sourceVersion: dataset.sourceVersion,
   counts: dataset.counts,

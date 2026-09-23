@@ -9,9 +9,9 @@
   <link rel="alternate" type="application/json" href="data/memes.json" title="美国 Meme 图谱 Agent 数据">
   <link rel="stylesheet" href="assets/tokens.css">
   <link rel="stylesheet" href="assets/components.css">
-  <link rel="stylesheet" href="assets/memes.css?v=2.0.0">
-  <script defer src="data/memes.js?v=2.0.0"></script>
-  <script defer src="assets/memes.js?v=2.0.0"></script>
+  <link rel="stylesheet" href="assets/memes.css?v=2.1.0">
+  <script defer src="data/memes.js?v=2.1.0"></script>
+  <script defer src="assets/memes.js?v=2.1.0"></script>
 </head>
 <body>
   <div class="app">
@@ -65,6 +65,9 @@
           <select class="select compact-select" id="scenario-select" aria-label="使用场景">
             <option value="全部">全部使用场景</option>
           </select>
+          <select class="select compact-select" id="topic-select" aria-label="关联题材">
+            <option value="全部">全部关联题材</option>
+          </select>
           <select class="select compact-select" id="sort-select" aria-label="排序">
             <option value="evidence">传播与复用优先</option>
             <option value="recent">近年优先</option>
@@ -103,6 +106,7 @@
           <div class="summary-metric"><span id="metric-kym">0</span><small>历史传播证据</small></div>
           <div class="summary-metric"><span id="metric-recent">0</span><small>2025–2026 有证据热榜</small></div>
           <div class="summary-metric"><span id="metric-signals">0</span><small>当前模板信号</small></div>
+          <div class="summary-metric"><span id="metric-topics">0</span><small>题材二创连接</small></div>
           <div class="summary-metric summary-metric--ok"><span id="metric-pd">0</span><small>具体公版底图</small></div>
           <p class="summary-rule">KYM 浏览 / 画廊＝历史传播代理；Imgflip 排名 / captions＝当前模板复用；年度与周榜＝编辑趋势线索。三者都不是授权或美国人口认知。调查百分比仅属于关联人物 / 作品。</p>
         </section>
@@ -156,6 +160,10 @@
       <section class="detail-section detail-section--agent">
         <h2>给 Agent 的结构提示</h2>
         <p id="detail-agent-pattern"></p>
+      </section>
+      <section class="detail-section topic-association-section" id="detail-topic-section" hidden>
+        <h2>题材关联 / 二创入口</h2>
+        <div class="topic-association-list" id="detail-topic-list"></div>
       </section>
       <div class="detail-columns">
         <section class="detail-section">

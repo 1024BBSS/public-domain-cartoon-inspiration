@@ -1,28 +1,33 @@
 {
-  "schemaVersion": "2.0.0",
-  "generatedAt": "2026-09-23T11:42:53.883Z",
-  "sourceVersion": "meme-library-2026-09-23-v2",
+  "schemaVersion": "2.1.0",
+  "generatedAt": "2026-09-23T12:32:18.968Z",
+  "sourceVersion": "meme-library-2026-09-23-v2.1",
   "counts": {
     "records": 1330,
     "contemporary": 1280,
     "publicDomain": 50,
     "currentSignals": 98,
-    "kymEvidence": 1062,
+    "kymEvidence": 1063,
     "recentTwoYears": 286,
     "recentHeat": 119,
     "recentEditorial": 27,
     "highReuse": 413,
     "linkedSuperIp": 276,
     "curatedRequired": 9,
-    "externalBenchmark": 74,
+    "externalBenchmark": 75,
+    "topicAssociations": 30,
+    "topicFamilies": 30,
+    "byTopic": {
+      "万圣节": 30
+    },
     "byEra": {
       "短视频扩散 · 2023–2024": 91,
       "反应图 / GIF · 2012–2017": 201,
       "近两年热门 · 2025–2026": 286,
       "历史公版视觉": 50,
-      "平台 Meme · 2018–2022": 94,
+      "平台 Meme · 2018–2022": 95,
       "图片宏 / Web 2.0 · 2005–2011": 299,
-      "早期互联网 · ≤2004": 309
+      "早期互联网 · ≤2004": 308
     },
     "byCategory": {
       "电影 / 电视": 259,
@@ -43,7 +48,7 @@
       "原图权利待核验": 704
     }
   },
-  "dataSha256": "13bfff01f45a35889bf08777f50deec24f4f153066d8f8490611f8384aa060e4",
+  "dataSha256": "f3ef20db64d9d478240f6b70aa8361552af7265ece9f0af57bd017b2451e00d2",
   "imageFiles": 1364,
   "imageBytes": 57679448
 }

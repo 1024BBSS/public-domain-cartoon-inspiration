@@ -52,6 +52,12 @@
       "name": "TIME · Famous Internet Cats",
       "url": "https://time.com/5770341/famous-internet-funny-cats/",
       "kind": "外部大众文化回顾"
+    },
+    {
+      "id": "kym-fake-spirit",
+      "name": "Know Your Meme · Fake Spirit Halloween Costumes",
+      "url": "https://knowyourmeme.com/memes/fake-spirit-halloween-costumes",
+      "kind": "外部节日模板档案"
     }
   ],
   "records": [
@@ -944,6 +950,33 @@
       "benchmarkLane": "近年动物角色门槛",
       "relationType": "real-animal-celebrity",
       "variantNote": "具体动物、动物园影像与名字识别形成网络角色；不等于所有河马图像。"
+    },
+    {
+      "title": "Fake Spirit Halloween Costumes",
+      "aliases": ["Fake Spirit Halloween Costume", "假 Spirit Halloween 服装包装", "假万圣节服装套装", "万圣节套装包装梗"],
+      "path": "/memes/fake-spirit-halloween-costumes",
+      "url": "https://knowyourmeme.com/memes/fake-spirit-halloween-costumes",
+      "externalSourceIds": ["kym-fake-spirit", "kym-direct"],
+      "benchmarkLane": "节日题材模板",
+      "relationType": "seasonal-format",
+      "variantNote": "2019 年出现、2022 年万圣节季明显扩散的假服装包装母梗；具体品牌包装、Logo 与每张人物照片仍需分层核验。",
+      "year": 2019,
+      "status": "Confirmed",
+      "views": 73737,
+      "images": 120,
+      "videos": 11,
+      "originEntityOverride": "Fake Spirit Halloween Costumes",
+      "originWorkOverride": "2019 Facebook parody format",
+      "categoryOverride": "互联网原生",
+      "subcategoryOverride": "图片宏与反应模板",
+      "mechanicOverride": "把人物、职业或状态包装成一套虚构万圣节服装，用套装名与配件清单完成身份讽刺",
+      "useCasesOverride": ["万圣节二创", "身份标签", "Starter Pack"],
+      "agentPatternOverride": "保留“套装名 + 主造型 + 配件清单”的信息结构；重做包装系统、角色与道具，不复制 Spirit Halloween 的品牌包装。",
+      "rightsLaneOverride": "原图权利待核验",
+      "copyrightNoteOverride": "模板中的包装设计、人物照片和各个用户变体均可能受版权保护；只提取信息结构。",
+      "publicityNoteOverride": "使用真人照片、姓名或可识别身份时需另核肖像、人格权与语境。",
+      "trademarkNoteOverride": "Spirit Halloween 名称、Logo、橙黑包装识别与商品来源容易造成品牌联想；商品化应改成原创包装系统。",
+      "productionRouteOverride": "可迁移“虚构套装 + 荒诞配件”的机制；使用原创包装、原创人物和通用万圣节图素。"
     }
   ]
 }
