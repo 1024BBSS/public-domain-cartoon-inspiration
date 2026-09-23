@@ -89,14 +89,28 @@ node tools/meme-intake.mjs prepare
 node tools/meme-intake.mjs prepare source/new-meme-candidates.jsonl --batch-size=40
 
 # 模型按 output/meme-intake/review-instructions.md 审稿，保存为 reviewed.jsonl
-# 默认只生成预览，不改源数据
+# 先检查 Eagle 连接和目标目录；不会写入
+node tools/meme-intake.mjs eagle-check
+
+# 首次使用时只建立目标目录，不导入图片
+node tools/meme-intake.mjs eagle-check --write
+
+# 预览哪些 add 决策会进入 Eagle；merge / skip 不重复存图
+node tools/meme-intake.mjs sync-eagle output/meme-intake/reviewed.jsonl
+
+# 人工确认后写入 Eagle；若目标目录不存在，会建立在图源库下
+node tools/meme-intake.mjs sync-eagle output/meme-intake/reviewed.jsonl --write
+
+# 再生成源数据预览；它会自动读取 Eagle 回执并写入 item ID
 node tools/meme-intake.mjs apply output/meme-intake/reviewed.jsonl
 
-# 人工确认预览后才写入，并重建、校验网页
+# 最后写入源数据、重建并校验网页
 node tools/meme-intake.mjs apply output/meme-intake/reviewed.jsonl --write --build
 ```
 
-中间文件全部位于已忽略的 `output/meme-intake/`：`delta.json` 保留完整候选和匹配依据，`review-batches.jsonl` 只包含模型需要的压缩字段，`manifest.json` 记录批次数量与去重结果。模型只负责新增 / 合并 / 跳过、中文检索别名、表达机制和权利边界；抓取、计数、去重、排序与数值更新由代码完成。
+中间文件全部位于已忽略的 `output/meme-intake/`：`delta.json` 保留完整候选和匹配依据，`review-batches.jsonl` 只包含模型需要的压缩字段，`manifest.json` 记录批次数量与去重结果，`eagle-sync.preview.json` 是写入计划，`eagle-sync-receipt.json` 保存候选 ID、稳定 intake ID、Eagle item ID、源文件哈希和回读结果。模型只负责新增 / 合并 / 跳过、中文检索别名、表达机制和权利边界；抓取、计数、去重、排序、Eagle 写入与数值更新由代码完成。
+
+Agent 可以通过 MCP 触发以上命令，但存储链不依赖对话或鼠标：脚本直接调用 Eagle Web API V2。只有 `add` 且具备来源页、代表图和权利边界的候选会进入 `07｜Meme｜外部视觉证据`；`merge` 只补关系，不重复存图。写入前按 `intake-id` 去重，写入后按 item ID 回读并核验目录、标签；当 Eagle 资源库与脚本位于同一台机器时，还会比对原图 SHA-256。网页构建优先从回执中的 Eagle item 生成 WebP，远程图仅作为旧记录或不可访问资源库时的后备入口。API Token 只能通过 `EAGLE_API_TOKEN` 环境变量提供，禁止写入仓库。
 
 `source/super-ip-us-seed.json` 是人工定款候选源；`source/yougov-us-fame.json` 是覆盖 25 个文娱类型的可刷新认知快照；`source/wikidata-taxonomy.json` 是 CC0 结构化分类快照；`source/super-ip-visual-profiles.json` 是人工视觉 DNA；`source/super-ip-visual-sources.json` 保存开放图源、作者、年代、媒介、逐图许可与来源页。S / A 只是美区筛选层，不是调查百分比。`100M+ 认知等效` 与 `100M+ 直接人数` 永远分栏：前者来自 YouGov Fame × 美国成年人口，后者只接收公开、可复核且口径明确的美国人数资料。快捷条件可与三层分类组合，URL 会保留 `category`、`subcategory`、`topic`、权利和知名度条件。新增条目必须保留来源、视觉图类型、分类来源、权利入口和证据状态，不能把“高知名”“识别参考图”或“图片开放许可”改写成“角色可商用”。
 

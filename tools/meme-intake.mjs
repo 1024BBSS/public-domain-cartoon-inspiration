@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -23,6 +24,14 @@ const batchPath = path.join(outputRoot, "review-batches.jsonl");
 const instructionPath = path.join(outputRoot, "review-instructions.md");
 const manifestPath = path.join(outputRoot, "manifest.json");
 const previewPath = path.join(outputRoot, "external-benchmark.preview.json");
+const eaglePreviewPath = path.join(outputRoot, "eagle-sync.preview.json");
+const eagleReceiptPath = path.join(outputRoot, "eagle-sync-receipt.json");
+const eagleApiBase = option("eagle-api", process.env.EAGLE_API_V2 || "http://127.0.0.1:41595/api/v2").replace(/\/$/, "");
+const eagleApiToken = process.env.EAGLE_API_TOKEN || "";
+const eagleParentPath = option("eagle-parent", "00｜2026美国公版IP｜Eagle服务版 / 01｜图源库｜Eagle Items");
+const eagleFolderName = option("eagle-folder-name", "07｜Meme｜外部视觉证据");
+const eagleFolderDescription = "Meme 外部视觉证据；仅供研究、关系识别与原创重绘。原图版权、肖像、商标及平台规则须逐项核验，不等于生产授权。";
+const maxImageBytes = Math.max(1, Number(option("max-image-mb", "25")) || 25) * 1024 * 1024;
 
 const sourceCatalog = {
   "kym-direct": {
@@ -53,7 +62,7 @@ const normalize = (value) => String(value || "")
   .replace(/\s+/g, " ")
   .trim();
 const compact = (values) => [...new Set(values.filter(Boolean))];
-const hash = (value) => createHash("sha256").update(String(value)).digest("hex");
+const hash = (value) => createHash("sha256").update(Buffer.isBuffer(value) ? value : String(value)).digest("hex");
 const shortHash = (value) => hash(value).slice(0, 12);
 const finite = (value) => Number.isFinite(Number(value)) ? Number(value) : null;
 
@@ -63,6 +72,204 @@ function originOf(value) {
   } catch {
     return "";
   }
+}
+
+function eagleUrl(endpoint) {
+  const url = new URL(`${eagleApiBase}${endpoint}`);
+  if (eagleApiToken) url.searchParams.set("token", eagleApiToken);
+  return url;
+}
+
+async function eagleJson(endpoint, options = {}) {
+  const response = await fetch(eagleUrl(endpoint), {
+    ...options,
+    headers: {
+      accept: "application/json",
+      ...(options.body ? { "content-type": "application/json" } : {}),
+      ...(options.headers || {}),
+    },
+  });
+  const text = await response.text();
+  let payload;
+  try {
+    payload = JSON.parse(text);
+  } catch {
+    throw new Error(`${endpoint}: Eagle returned non-JSON (${response.status})`);
+  }
+  if (!response.ok || payload.status !== "success") {
+    throw new Error(`${endpoint}: ${payload.message || payload.error || response.status}`);
+  }
+  return payload.data;
+}
+
+function flattenFolders(nodes, parents = [], output = []) {
+  for (const node of nodes || []) {
+    const parts = [...parents, node.name];
+    output.push({ ...node, pathParts: parts, fullPath: parts.join(" / ") });
+    flattenFolders(node.children || [], parts, output);
+  }
+  return output;
+}
+
+async function resolveEagleFolder({ write = false } = {}) {
+  const requestedId = option("eagle-folder-id", "");
+  if (requestedId) {
+    const result = await eagleJson(`/folder/get?id=${encodeURIComponent(requestedId)}`);
+    const folder = result?.data?.[0];
+    if (!folder) throw new Error(`Eagle folder not found: ${requestedId}`);
+    return { ...folder, created: false, fullPath: folder.name };
+  }
+
+  const result = await eagleJson("/folder/get?limit=1000");
+  const folders = flattenFolders(result?.data || []);
+  const parent = folders.find((folder) => folder.fullPath === eagleParentPath);
+  if (!parent) throw new Error(`Eagle parent folder not found: ${eagleParentPath}`);
+  const targetPath = `${eagleParentPath} / ${eagleFolderName}`;
+  const existing = folders.find((folder) => folder.fullPath === targetPath);
+  if (existing) return { ...existing, created: false };
+  if (!write) return { id: "", name: eagleFolderName, fullPath: targetPath, parent: parent.id, created: false, planned: true };
+
+  const created = await eagleJson("/folder/create", {
+    method: "POST",
+    body: JSON.stringify({
+      name: eagleFolderName,
+      description: eagleFolderDescription,
+      parent: parent.id,
+    }),
+  });
+  if (!created?.id) throw new Error("Eagle folder/create did not return a folder id");
+  return { ...created, created: true, fullPath: targetPath };
+}
+
+async function eagleItemsInFolder(folderId) {
+  if (!folderId) return [];
+  const records = [];
+  let offset = 0;
+  while (true) {
+    const result = await eagleJson("/item/get", {
+      method: "POST",
+      body: JSON.stringify({
+        folders: [folderId],
+        fields: ["id", "name", "ext", "width", "height", "url", "tags", "folders", "annotation"],
+        offset,
+        limit: 1000,
+      }),
+    });
+    records.push(...(result?.data || []));
+    offset += result?.data?.length || 0;
+    if (!result?.data?.length || offset >= Number(result.total || 0)) break;
+  }
+  return records;
+}
+
+async function eagleItemById(id) {
+  const result = await eagleJson(`/item/get?id=${encodeURIComponent(id)}`);
+  return result?.data?.[0] || null;
+}
+
+function stableIntakeId(candidate) {
+  const key = `${candidate.source?.id || "source"}|${candidate.path || candidate.url || candidate.title}`;
+  return `meme-external-v1:${candidate.source?.id || "source"}:${shortHash(key)}`;
+}
+
+function detectImageExtension(bytes, contentType = "", sourceUrl = "") {
+  if (bytes.subarray(0, 8).equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]))) return "png";
+  if (bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff) return "jpg";
+  if (["GIF87a", "GIF89a"].includes(bytes.subarray(0, 6).toString("ascii"))) return "gif";
+  if (bytes.subarray(0, 4).toString("ascii") === "RIFF" && bytes.subarray(8, 12).toString("ascii") === "WEBP") return "webp";
+  if (bytes.subarray(4, 12).toString("ascii").includes("ftypavif")) return "avif";
+  const mimeExt = {
+    "image/png": "png",
+    "image/jpeg": "jpg",
+    "image/gif": "gif",
+    "image/webp": "webp",
+    "image/avif": "avif",
+  }[contentType.split(";")[0].trim().toLowerCase()];
+  if (mimeExt) return mimeExt;
+  const urlExt = path.extname(new URL(sourceUrl).pathname).slice(1).toLowerCase();
+  if (["png", "jpg", "jpeg", "gif", "webp", "avif"].includes(urlExt)) return urlExt === "jpeg" ? "jpg" : urlExt;
+  throw new Error(`unsupported image payload (${contentType || "unknown MIME"})`);
+}
+
+async function downloadImage(candidate) {
+  if (!/^https?:\/\//.test(candidate.imageUrl || "")) throw new Error(`${candidate.id}: missing HTTP imageUrl`);
+  const response = await fetch(candidate.imageUrl, {
+    headers: {
+      accept: "image/avif,image/webp,image/png,image/jpeg,image/gif;q=0.9,*/*;q=0.1",
+      "user-agent": "PublicDomainMemeResearch/1.0",
+    },
+    redirect: "follow",
+  });
+  if (!response.ok) throw new Error(`${candidate.id}: image download HTTP ${response.status}`);
+  const declaredSize = Number(response.headers.get("content-length") || 0);
+  if (declaredSize > maxImageBytes) throw new Error(`${candidate.id}: image exceeds ${Math.round(maxImageBytes / 1024 / 1024)} MB`);
+  const bytes = Buffer.from(await response.arrayBuffer());
+  if (bytes.length < 1024) throw new Error(`${candidate.id}: image payload is too small (${bytes.length} bytes)`);
+  if (bytes.length > maxImageBytes) throw new Error(`${candidate.id}: image exceeds ${Math.round(maxImageBytes / 1024 / 1024)} MB`);
+  const contentType = response.headers.get("content-type") || "";
+  if (contentType && !contentType.toLowerCase().startsWith("image/")) throw new Error(`${candidate.id}: response is not an image (${contentType})`);
+  const extension = detectImageExtension(bytes, contentType, candidate.imageUrl);
+  const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "meme-eagle-"));
+  const file = path.join(tempDir, `${candidate.id}.${extension}`);
+  fs.writeFileSync(file, bytes);
+  return { file, tempDir, bytes: bytes.length, sha256: hash(bytes) };
+}
+
+function eagleTags(candidate, review, intakeId) {
+  return compact([
+    "Meme研究",
+    "外部视觉证据",
+    "研究素材·非生产授权",
+    `intake-id:${intakeId}`,
+    "import:meme-external-v1",
+    `来源:${candidate.source?.id || "unknown"}`,
+    `来源状态:${candidate.status || "未标注"}`,
+    "权利:原图待核验",
+    `关系:${review.relation || "canonical"}`,
+    ...(review.zh || []).slice(0, 4).map((value) => `别名:${value}`),
+    ...(candidate.tags || []).slice(0, 6).map((value) => `题材:${value}`),
+  ]);
+}
+
+function eagleAnnotation(candidate, review, fileInfo) {
+  return [
+    `Meme：${candidate.title}`,
+    `中文检索：${(review.zh || []).join("、")}`,
+    `母档关系：${review.relation || "canonical"}`,
+    `关系说明：${review.note}`,
+    `表达机制：${review.mechanic}`,
+    `使用场景：${(review.use || []).join("、")}`,
+    `权利边界：${review.rights}`,
+    `外部状态：${candidate.status || "未标注"}`,
+    `外部来源：${candidate.url}`,
+    `代表图：${candidate.imageUrl}`,
+    `研究日期：${new Date().toISOString().slice(0, 10)}`,
+    `SHA256：${fileInfo.sha256}`,
+    "用途：研究、关系识别与原创重画；不得把传播证据当作授权，不直接作为生产素材。",
+  ].join("\n");
+}
+
+function findStoredEagleFile(libraryPath, item) {
+  if (!libraryPath || !item?.id) return "";
+  const infoDir = path.join(libraryPath, "images", `${item.id}.info`);
+  if (!fs.existsSync(infoDir)) return "";
+  const preferred = path.join(infoDir, `${item.name}.${item.ext}`);
+  if (fs.existsSync(preferred)) return preferred;
+  const fallback = fs.readdirSync(infoDir).find((name) => name !== "metadata.json" && !name.includes("_thumbnail"));
+  return fallback ? path.join(infoDir, fallback) : "";
+}
+
+async function verifyEagleItem(itemId, expected) {
+  const item = await eagleItemById(itemId);
+  if (!item) throw new Error(`${expected.candidateId}: Eagle readback item missing (${itemId})`);
+  if (!(item.tags || []).includes(`intake-id:${expected.intakeId}`)) throw new Error(`${expected.candidateId}: intake tag missing after Eagle readback`);
+  if (!(item.folders || []).includes(expected.folderId)) throw new Error(`${expected.candidateId}: Eagle folder assignment missing after readback`);
+  const library = await eagleJson("/library/info");
+  const storedFile = findStoredEagleFile(library?.path, item);
+  if (!storedFile) return { item, verification: "metadata-readback", storedSha256: "" };
+  const storedSha256 = hash(fs.readFileSync(storedFile));
+  if (storedSha256 !== expected.sha256) throw new Error(`${expected.candidateId}: Eagle stored bytes differ from downloaded bytes`);
+  return { item, verification: "metadata+sha256", storedSha256 };
 }
 
 function parseJsonLines(text, label) {
@@ -359,11 +566,20 @@ function prepare() {
 
 function readReview(reviewPath) {
   const text = fs.readFileSync(reviewPath, "utf8");
+  if (!text.trim()) return [];
   const parsed = /\.jsonl$/i.test(reviewPath) ? parseJsonLines(text, reviewPath) : JSON.parse(text);
   return Array.isArray(parsed) ? parsed : parsed.records || [];
 }
 
-function toBenchmarkRecord(candidate, review) {
+function eagleReceiptByCandidate() {
+  if (!fs.existsSync(eagleReceiptPath)) return new Map();
+  const receipt = JSON.parse(fs.readFileSync(eagleReceiptPath, "utf8"));
+  return new Map((receipt.records || [])
+    .filter((record) => record.eagleItemId && ["imported", "reused"].includes(record.status))
+    .map((record) => [record.candidateId, record]));
+}
+
+function toBenchmarkRecord(candidate, review, eagleEvidence = null) {
   return {
     title: candidate.title,
     aliases: compact([...(candidate.aliases || []), ...(review.zh || [])]),
@@ -387,6 +603,11 @@ function toBenchmarkRecord(candidate, review) {
     rightsLaneOverride: "原图权利待核验",
     copyrightNoteOverride: review.rights,
     productionRouteOverride: "只提取表达机制；重新设计人物、场景、道具与文字，不直接复制来源画面。",
+    ...(eagleEvidence ? {
+      eagleItemId: eagleEvidence.eagleItemId,
+      eagleIntakeId: eagleEvidence.intakeId,
+      eagleSourceHash: eagleEvidence.sha256,
+    } : {}),
   };
 }
 
@@ -400,6 +621,7 @@ function applyReview() {
   benchmark.sources ||= [];
   benchmark.records ||= [];
   const data = JSON.parse(fs.readFileSync(dataPath, "utf8"));
+  const eagleByCandidate = eagleReceiptByCandidate();
   const byPath = new Map((benchmark.records || []).map((record) => [record.path, record]));
   const dataById = new Map((data.records || []).map((record) => [record.id, record]));
   const errors = [];
@@ -461,7 +683,12 @@ function applyReview() {
         errors.push(`${review.i}: benchmark path already exists; use merge`);
         continue;
       }
-      record = toBenchmarkRecord(candidate, review);
+      const eagleEvidence = eagleByCandidate.get(candidate.id);
+      if (!eagleEvidence) {
+        errors.push(`${review.i}: add must complete sync-eagle --write before apply`);
+        continue;
+      }
+      record = toBenchmarkRecord(candidate, review, eagleEvidence);
       byPath.set(candidate.path, record);
       added += 1;
     }
@@ -486,6 +713,179 @@ function applyReview() {
   console.log(JSON.stringify({ mode: flag("write") ? "written" : "preview", added, merged, skipped, preview: path.relative(root, previewPath) }, null, 2));
 }
 
+async function syncEagle() {
+  const reviewPath = path.resolve(root, positional[0] || path.join(outputRoot, "reviewed.jsonl"));
+  if (!fs.existsSync(deltaPath)) throw new Error(`Run prepare first: ${deltaPath}`);
+  if (!fs.existsSync(reviewPath)) throw new Error(`Review file not found: ${reviewPath}`);
+  const delta = JSON.parse(fs.readFileSync(deltaPath, "utf8"));
+  const candidates = new Map(delta.records.map((item) => [item.candidate.id, item]));
+  const reviews = readReview(reviewPath);
+  const approved = [];
+  const errors = [];
+
+  for (const review of reviews) {
+    if (review.d !== "add") continue;
+    const item = candidates.get(review.i);
+    if (!item) {
+      errors.push(`${review.i}: candidate not found in delta`);
+      continue;
+    }
+    const candidate = item.candidate;
+    if (!candidate.url || !candidate.imageUrl || !/^https?:\/\//.test(candidate.imageUrl)) {
+      errors.push(`${review.i}: Eagle sync requires source URL and HTTP imageUrl`);
+      continue;
+    }
+    if (!review.note || !review.rights || !review.mechanic || !(review.zh || []).length || !Array.isArray(review.use) || !review.use.length) {
+      errors.push(`${review.i}: add requires zh, note, mechanic, use and rights before Eagle sync`);
+      continue;
+    }
+    approved.push({ candidate, review, intakeId: stableIntakeId(candidate) });
+  }
+  if (errors.length) throw new Error(errors.join("\n"));
+
+  const write = flag("write");
+  const folder = await resolveEagleFolder({ write: write && approved.length > 0 });
+  const existingItems = await eagleItemsInFolder(folder.id);
+  const byIntake = new Map();
+  for (const item of existingItems) {
+    for (const tag of item.tags || []) {
+      if (tag.startsWith("intake-id:")) byIntake.set(tag.slice("intake-id:".length), item);
+    }
+  }
+
+  const receipt = {
+    schemaVersion: "1.0.0",
+    generatedAt: new Date().toISOString(),
+    mode: write ? "written" : "preview",
+    eagleApi: eagleApiBase.replace(/\?.*$/, ""),
+    folder: {
+      id: folder.id || null,
+      path: folder.fullPath,
+      created: Boolean(folder.created),
+      planned: Boolean(folder.planned),
+    },
+    counts: { reviewed: reviews.length, approved: approved.length, imported: 0, reused: 0, planned: 0, rejected: 0 },
+    records: [],
+  };
+  const importErrors = [];
+
+  for (const { candidate, review, intakeId } of approved) {
+    const existing = byIntake.get(intakeId);
+    if (existing) {
+      const readback = await eagleItemById(existing.id);
+      if (!readback || !(readback.tags || []).includes(`intake-id:${intakeId}`)) {
+        importErrors.push(`${candidate.id}: existing Eagle item failed readback`);
+        receipt.counts.rejected += 1;
+        receipt.records.push({ candidateId: candidate.id, intakeId, status: "rejected", error: "existing item failed readback" });
+        continue;
+      }
+      const library = await eagleJson("/library/info");
+      const storedFile = findStoredEagleFile(library?.path, readback);
+      const sha256 = storedFile ? hash(fs.readFileSync(storedFile)) : "";
+      receipt.counts.reused += 1;
+      receipt.records.push({
+        candidateId: candidate.id,
+        intakeId,
+        status: "reused",
+        eagleItemId: readback.id,
+        sha256,
+        verification: storedFile ? "metadata+stored-sha256" : "metadata-readback",
+        sourceUrl: candidate.url,
+        imageUrl: candidate.imageUrl,
+      });
+      continue;
+    }
+
+    if (!write) {
+      receipt.counts.planned += 1;
+      receipt.records.push({
+        candidateId: candidate.id,
+        intakeId,
+        status: "planned",
+        sourceUrl: candidate.url,
+        imageUrl: candidate.imageUrl,
+      });
+      continue;
+    }
+
+    let downloaded;
+    let addedItemId = "";
+    try {
+      downloaded = await downloadImage(candidate);
+      const added = await eagleJson("/item/add", {
+        method: "POST",
+        body: JSON.stringify({
+          path: downloaded.file,
+          name: `Meme｜${candidate.title}`,
+          website: candidate.url,
+          annotation: eagleAnnotation(candidate, review, downloaded),
+          tags: eagleTags(candidate, review, intakeId),
+          folders: [folder.id],
+        }),
+      });
+      addedItemId = added?.id || "";
+      if (!addedItemId) throw new Error(`${candidate.id}: Eagle item/add did not return an item id`);
+      const verified = await verifyEagleItem(addedItemId, {
+        candidateId: candidate.id,
+        intakeId,
+        folderId: folder.id,
+        sha256: downloaded.sha256,
+      });
+      receipt.counts.imported += 1;
+      const record = {
+        candidateId: candidate.id,
+        intakeId,
+        status: "imported",
+        eagleItemId: addedItemId,
+        sha256: downloaded.sha256,
+        bytes: downloaded.bytes,
+        width: verified.item.width || null,
+        height: verified.item.height || null,
+        verification: verified.verification,
+        sourceUrl: candidate.url,
+        imageUrl: candidate.imageUrl,
+      };
+      receipt.records.push(record);
+      byIntake.set(intakeId, verified.item);
+    } catch (error) {
+      receipt.counts.rejected += 1;
+      receipt.records.push({
+        candidateId: candidate.id,
+        intakeId,
+        status: "rejected",
+        ...(addedItemId ? { eagleItemId: addedItemId } : {}),
+        error: String(error.message || error),
+      });
+      importErrors.push(`${candidate.id}: ${error.message || error}`);
+    } finally {
+      if (downloaded?.tempDir) fs.rmSync(downloaded.tempDir, { recursive: true, force: true });
+    }
+  }
+
+  fs.mkdirSync(outputRoot, { recursive: true });
+  const destination = write ? eagleReceiptPath : eaglePreviewPath;
+  const temporary = `${destination}.tmp`;
+  fs.writeFileSync(temporary, `${JSON.stringify(receipt, null, 2)}\n`);
+  fs.renameSync(temporary, destination);
+  console.log(JSON.stringify({ ...receipt.counts, mode: receipt.mode, folder: receipt.folder, receipt: path.relative(root, destination) }, null, 2));
+  if (importErrors.length) throw new Error(`Eagle sync completed with ${importErrors.length} error(s):\n${importErrors.join("\n")}`);
+}
+
+async function eagleCheck() {
+  const library = await eagleJson("/library/info");
+  const folder = await resolveEagleFolder({ write: flag("write") });
+  const items = folder.id ? await eagleItemsInFolder(folder.id) : [];
+  console.log(JSON.stringify({
+    status: "ok",
+    library: library?.name || "",
+    eagleVersion: library?.applicationVersion || "",
+    folder: { id: folder.id || null, path: folder.fullPath, created: Boolean(folder.created), planned: Boolean(folder.planned) },
+    syncedItems: items.filter((item) => (item.tags || []).some((tag) => tag.startsWith("intake-id:meme-external-v1:"))).length,
+  }, null, 2));
+}
+
 if (command === "prepare") prepare();
 else if (command === "apply") applyReview();
-else throw new Error(`Unknown command: ${command}. Use prepare or apply.`);
+else if (command === "sync-eagle") await syncEagle();
+else if (command === "eagle-check") await eagleCheck();
+else throw new Error(`Unknown command: ${command}. Use prepare, sync-eagle, apply or eagle-check.`);

@@ -18,6 +18,7 @@ const outputJsonPath = path.join(root, "data", "memes.json");
 const outputJsPath = path.join(root, "data", "memes.js");
 const manifestPath = path.join(root, "meme-manifest.json");
 const imageRoot = path.join(root, "meme-images");
+const eagleLibraryPath = process.env.EAGLE_LIBRARY_PATH || "/Users/wenshanchen/Pictures/idea.library";
 const refresh = process.argv.includes("--refresh") || !fs.existsSync(sourcePath);
 const researchDate = new Date().toISOString().slice(0, 10);
 const MEMEGEN_URL = "https://api.memegen.link/templates/";
@@ -137,6 +138,9 @@ for (const curated of curatedByPath.values()) {
     productionRouteOverride: curated.productionRouteOverride,
     imageUrl: existing.imageUrl || curated.imageUrl,
     url: existing.url || curated.url,
+    eagleItemId: curated.eagleItemId || existing.eagleItemId || "",
+    eagleIntakeId: curated.eagleIntakeId || existing.eagleIntakeId || "",
+    eagleSourceHash: curated.eagleSourceHash || existing.eagleSourceHash || "",
   });
 }
 const kymRecords = [...kymByPath.values()];
@@ -642,6 +646,11 @@ const modernRecords = [...families.values()].map((family) => {
     originEntity: origin.entity,
     originWork: origin.work,
     imageOriginalUrl: curated?.imageUrl || primary.imageUrl || kymEvidence?.imageUrl || family.variants.find((item) => item.imageUrl)?.imageUrl || "",
+    ...(curated?.eagleItemId ? {
+      eagleItemId: curated.eagleItemId,
+      eagleIntakeId: curated.eagleIntakeId || "",
+      eagleSourceHash: curated.eagleSourceHash || "",
+    } : {}),
     sourceUrl: curated?.url || primary.sourceUrl,
     providers: compact(family.variants.map((item) => item.provider)),
     variants: family.variants.map((item) => ({
@@ -861,8 +870,42 @@ async function downloadBuffer(url, attempts = 4) {
   throw lastError;
 }
 
+function eagleSourceFile(itemId) {
+  if (!itemId) return "";
+  const infoDir = path.join(eagleLibraryPath, "images", `${itemId}.info`);
+  if (!fs.existsSync(infoDir)) return "";
+  const sourceName = fs.readdirSync(infoDir).find((name) => name !== "metadata.json" && !name.includes("_thumbnail"));
+  return sourceName ? path.join(infoDir, sourceName) : "";
+}
+
+function convertToWebp(sourcePath, outputPath, cacheKey) {
+  const fallbackPngPath = path.join(os.tmpdir(), `meme-source-${process.pid}-${shortHash(cacheKey)}.png`);
+  try {
+    execFileSync("cwebp", ["-quiet", "-q", "76", "-m", "4", sourcePath, "-o", outputPath], { stdio: "pipe" });
+  } catch {
+    execFileSync("sips", ["-s", "format", "png", sourcePath, "--out", fallbackPngPath], { stdio: "pipe" });
+    execFileSync("cwebp", ["-quiet", "-q", "76", "-m", "4", fallbackPngPath, "-o", outputPath], { stdio: "pipe" });
+  } finally {
+    fs.rmSync(fallbackPngPath, { force: true });
+  }
+}
+
 async function ensureImage(record) {
   if (record.image) return;
+  if (record.eagleItemId) {
+    const fileName = `${shortHash(`eagle:${record.eagleItemId}`)}.webp`;
+    const outputPath = path.join(imageRoot, fileName);
+    if (fs.existsSync(outputPath) && fs.statSync(outputPath).size > 0) {
+      record.image = `meme-images/${fileName}`;
+      return;
+    }
+    const sourcePath = eagleSourceFile(record.eagleItemId);
+    if (sourcePath) {
+      convertToWebp(sourcePath, outputPath, `eagle:${record.eagleItemId}`);
+      record.image = `meme-images/${fileName}`;
+      return;
+    }
+  }
   const candidates = compact([
     record.imageOriginalUrl,
     ...record.variants.map((variant) => {
@@ -886,16 +929,12 @@ async function ensureImage(record) {
     try {
       const buffer = await downloadBuffer(url);
       const tempPath = path.join(os.tmpdir(), `meme-source-${process.pid}-${shortHash(url)}.img`);
-      const fallbackPngPath = `${tempPath}.png`;
       fs.writeFileSync(tempPath, buffer);
       try {
-        execFileSync("cwebp", ["-quiet", "-q", "76", "-m", "4", tempPath, "-o", outputPath], { stdio: "pipe" });
-      } catch {
-        execFileSync("sips", ["-s", "format", "png", tempPath, "--out", fallbackPngPath], { stdio: "pipe" });
-        execFileSync("cwebp", ["-quiet", "-q", "76", "-m", "4", fallbackPngPath, "-o", outputPath], { stdio: "pipe" });
+        convertToWebp(tempPath, outputPath, url);
+      } finally {
+        fs.rmSync(tempPath, { force: true });
       }
-      fs.rmSync(tempPath, { force: true });
-      fs.rmSync(fallbackPngPath, { force: true });
       record.image = `meme-images/${fileName}`;
       record.imageOriginalUrl = url;
       return;
